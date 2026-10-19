@@ -28,6 +28,13 @@ ROUTES
 /api/streak/webhook?token=…   Streak BOX_CREATE → draft brief (+ email when enabled)
 /api/briefs               POST researched brief JSON (Bearer INGEST_TOKEN) → status "ready"
 /api/admin/webhooks       POST register Streak webhooks for all clients (Bearer INGEST_TOKEN)
+/api/settings             GET/PUT client settings: own Streak API key (encrypted) + pipeline, recipient
+                          emails, hours before meeting (default 48), Google Calendar
+/api/google/start|callback    Connect Google Calendar (read-only), refresh token encrypted in D1
+/api/meetings             GET upcoming meetings with prepared talking points
+/api/cron/run             POST hourly (Bearer INGEST_TOKEN, .github/workflows/cron.yml):
+                          new Streak leads → draft; meetings within lead_hours with an outside
+                          attendee → brief (Streak match by email, else from the invite) → email once
 
 BRIEF FORMAT
 functions/_render.js documents the JSON and renders it. Sections, in order:
@@ -44,10 +51,16 @@ A LinkedIn sign-in is accepted when its email is in `members`, or its domain is 
 `email_domains`. Admins (is_admin=1) see the client view but are excluded from team matching.
 Seeded: client "valos" (pipeline Valos - LG), admins oattia@gmail.com + olivier@gershonconsulting.com.
 
+SETTINGS PAGE (Olivier, 2026-10-19)
+Client provides CRM API access (Streak key), AI = Cloudflare Workers AI (no key), optional Google
+Calendar to send talking points 48h before meetings, and the list of recipient emails.
+
 STATUS
 ✅ Code written and tested locally (home, login, dashboard, brief rendering, ingest, session)
-❌ GitHub secrets (Charles): CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, LINKEDIN_CLIENT_ID,
-   LINKEDIN_CLIENT_SECRET, STREAK_API_KEY, RESEND_API_KEY — then re-run the workflow
+✅ Repo gershonconsulting/talkingpoints created by Olivier; code pushed by Claude
+✅ Settings page, Google Calendar sync, hourly job, recipients — tested locally
+❌ Charles (HANDOFF-for-Charles.md): LinkedIn redirect on app "Client", Google OAuth client,
+   GitHub secrets, run the deploy, DNS CNAME if needed
 ❌ DNS CNAME talkingpoints → talkingpoints.pages.dev if the workflow log says the token cannot see the zone
 ❌ Valos team members + their email domain (members rows) — needed before Valos users can sign in
 ❌ Final email format sign-off by Olivier → set EMAIL_ENABLED = "true" in wrangler.toml

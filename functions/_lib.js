@@ -76,14 +76,50 @@ export async function currentUser(env, request) {
   return row || null;
 }
 
+// ---------- Secrets at rest (Streak key, Google refresh token) ----------
+async function aesKey(env) {
+  const raw = await crypto.subtle.digest('SHA-256', enc.encode(`tp-at-rest:${env.SESSION_SECRET}`));
+  return crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['encrypt', 'decrypt']);
+}
+const b64 = (u8) => btoa(String.fromCharCode(...u8));
+const unb64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+
+export async function encryptText(env, text) {
+  if (!text) return '';
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, await aesKey(env), enc.encode(text)));
+  return `${b64(iv)}.${b64(ct)}`;
+}
+
+export async function decryptText(env, blob) {
+  if (!blob) return '';
+  try {
+    const [iv, ct] = blob.split('.');
+    const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: unb64(iv) }, await aesKey(env), unb64(ct));
+    return new TextDecoder().decode(pt);
+  } catch { return ''; }
+}
+
+export async function getSettings(env, clientId) {
+  return (await env.DB.prepare('SELECT * FROM client_settings WHERE client_id = ?').bind(clientId).first()) || null;
+}
+
+// The client's own Streak API key (from Settings); falls back to Gershon's key if one is configured.
+export async function clientStreakKey(env, clientId) {
+  const s = await getSettings(env, clientId);
+  return (await decryptText(env, s?.streak_key_enc)) || env.STREAK_API_KEY || '';
+}
+
 // ---------- Streak ----------
 const STREAK = 'https://api.streak.com/api';
 
-export async function streak(env, path, init = {}) {
+// `key` is the client's own Streak API key (Settings), see clientStreakKey().
+export async function streak(key, path, init = {}) {
+  if (!key) throw new Error('Streak is not connected');
   const res = await fetch(`${STREAK}${path}`, {
     ...init,
     headers: {
-      authorization: 'Basic ' + btoa(`${env.STREAK_API_KEY}:`),
+      authorization: 'Basic ' + btoa(`${key}:`),
       'content-type': 'application/json',
       ...(init.headers || {}),
     },
@@ -93,9 +129,9 @@ export async function streak(env, path, init = {}) {
 }
 
 // Pull what we need about a lead from its Streak box.
-export async function loadLead(env, boxKey) {
-  const box = await streak(env, `/v1/boxes/${boxKey}`);
-  const pipeline = await streak(env, `/v1/pipelines/${box.pipelineKey}`);
+export async function loadLead(key, boxKey) {
+  const box = await streak(key, `/v1/boxes/${boxKey}`);
+  const pipeline = await streak(key, `/v1/pipelines/${box.pipelineKey}`);
   const stage = pipeline.stages?.[box.stageKey]?.name || '';
   const fieldName = Object.fromEntries((pipeline.fields || []).map((f) => [f.key, f.name]));
   const fields = {};
@@ -104,7 +140,7 @@ export async function loadLead(env, boxKey) {
   let contact = null;
   const firstContact = box.contacts?.[0]?.key;
   if (firstContact) {
-    try { contact = await streak(env, `/v2/contacts/${firstContact}`); } catch { /* optional */ }
+    try { contact = await streak(key, `/v2/contacts/${firstContact}`); } catch { /* optional */ }
   }
   return {
     boxKey,

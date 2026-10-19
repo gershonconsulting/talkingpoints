@@ -7,9 +7,10 @@ on:
 # One-time setup (Charles): add these repository secrets in GitHub → Settings → Secrets → Actions
 #   CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID       (same values as the linalysis repo)
 #   LINKEDIN_CLIENT_ID, LINKEDIN_CLIENT_SECRET        (LinkedIn app "Talking Points" → Auth tab)
-#   STREAK_API_KEY                                    (Streak → Integrations → API key)
 #   RESEND_API_KEY                                    (Resend key for gershon.ai)
+#   GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET            (Google OAuth client for "Connect Google Calendar")
 # Optional: PAPPERS_API_KEY, COMPANIES_HOUSE_API_KEY (financials for FR / UK leads)
+#           STREAK_API_KEY (Gershon fallback; normally each client connects its own Streak in Settings)
 # Internal secrets (session, webhook, ingest) are derived from CLOUDFLARE_API_TOKEN, so nobody types them.
 
 jobs:
@@ -21,6 +22,12 @@ jobs:
       PROJECT: talkingpoints
       DOMAIN: talkingpoints.gershon.ai
     steps:
+      - name: Check secrets
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in Settings → Secrets → Actions (see HANDOFF-for-Charles.md), then re-run."
+            exit 1
+          fi
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
@@ -55,12 +62,15 @@ jobs:
           LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
           STREAK_API_KEY: ${{ secrets.STREAK_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           PAPPERS_API_KEY: ${{ secrets.PAPPERS_API_KEY }}
           COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
         run: |
           python3 - <<'EOF' > secrets.json
           import json, os
           keys = ["LINKEDIN_CLIENT_ID","LINKEDIN_CLIENT_SECRET","STREAK_API_KEY","RESEND_API_KEY",
+                  "GOOGLE_CLIENT_ID","GOOGLE_CLIENT_SECRET",
                   "PAPPERS_API_KEY","COMPANIES_HOUSE_API_KEY","SESSION_SECRET","WEBHOOK_TOKEN","INGEST_TOKEN"]
           print(json.dumps({k: os.environ[k] for k in keys if os.environ.get(k)}))
           EOF

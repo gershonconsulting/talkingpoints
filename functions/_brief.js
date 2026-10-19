@@ -1,4 +1,4 @@
-import { loadLead, generateBrief, sendEmail, rowToBrief } from './_lib.js';
+import { loadLead, generateBrief, sendEmail, rowToBrief, clientStreakKey, getSettings } from './_lib.js';
 import { lookupFinancials } from './_financials.js';
 import { renderBrief, renderBriefText } from './_render.js';
 
@@ -18,12 +18,20 @@ export async function buildDraft(env, clientRow, boxKey) {
   const existing = await env.DB.prepare('SELECT status FROM briefs WHERE box_key = ?').bind(boxKey).first();
   if (existing?.status === 'ready') return rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first());
 
-  const lead = await loadLead(env, boxKey);
+  const lead = await loadLead(await clientStreakKey(env, clientRow.id), boxKey);
+  return buildDraftFromLead(env, clientRow, boxKey, lead);
+}
+
+// Same, from a lead we assembled ourselves (e.g. a calendar attendee who is not in Streak).
+export async function buildDraftFromLead(env, clientRow, boxKey, lead, extra = {}) {
+  const existing = await env.DB.prepare('SELECT status FROM briefs WHERE box_key = ?').bind(boxKey).first();
+  if (existing?.status === 'ready') return rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first());
   const team = (await env.DB.prepare(
     'SELECT name, title, background FROM members WHERE client_id = ? AND is_admin = 0'
   ).bind(clientRow.id).all()).results;
   const financials = await lookupFinancials(env, lead);
   const data = await generateBrief(env, { lead, clientName: clientRow.name, team, financials });
+  if (extra.header) data.header = { ...data.header, ...extra.header };
 
   return saveBrief(env, clientRow.id, boxKey, {
     company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage, status: 'draft', data,
@@ -31,13 +39,21 @@ export async function buildDraft(env, clientRow, boxKey) {
 }
 
 // Email a brief to the client's team. Off until EMAIL_ENABLED = "true" (final format approval).
-export async function emailBrief(env, clientRow, brief) {
-  if (env.EMAIL_ENABLED !== 'true' || brief.emailed_at) return false;
-  const to = (await env.DB.prepare(
+// Recipients: the addresses listed in Settings, plus every member who ticked "email me".
+export async function recipients(env, clientId) {
+  const s = await getSettings(env, clientId);
+  const listed = String(s?.recipients || '').split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter((e) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e));
+  const members = (await env.DB.prepare(
     'SELECT email FROM members WHERE client_id = ? AND notify = 1 AND is_admin = 0'
-  ).bind(clientRow.id).all()).results.map((r) => r.email);
+  ).bind(clientId).all()).results.map((r) => r.email.toLowerCase());
+  return [...new Set([...listed, ...members])];
+}
+
+export async function emailBrief(env, clientRow, brief, { force = false, subjectDate } = {}) {
+  if (env.EMAIL_ENABLED !== 'true' || (brief.emailed_at && !force)) return false;
+  const to = await recipients(env, clientRow.id);
   if (!to.length) return false;
-  const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   await sendEmail(env, {
     to,
     subject: `Talking Points : ${brief.company} - ${brief.lead_name || 'New lead'} - ${date}`,

@@ -1,13 +1,14 @@
-import { currentUser, json, streak, rowToBrief } from '../../_lib.js';
+import { currentUser, json, streak, rowToBrief, clientStreakKey } from '../../_lib.js';
 
 // GET /api/leads → newest leads in the client's Streak pipeline, with brief status
 export async function onRequestGet({ request, env }) {
   const u = await currentUser(env, request);
   if (!u) return json({ error: 'signed_out' }, 401);
 
+  const key = await clientStreakKey(env, u.client_id);
   const [boxes, pipeline, briefs] = await Promise.all([
-    streak(env, `/v1/pipelines/${u.pipeline_key}/boxes?sortBy=creationTimestamp&limit=50`).catch(() => []),
-    streak(env, `/v1/pipelines/${u.pipeline_key}`).catch(() => ({ stages: {} })),
+    streak(key, `/v1/pipelines/${u.pipeline_key}/boxes?sortBy=creationTimestamp&limit=50`).catch(() => []),
+    streak(key, `/v1/pipelines/${u.pipeline_key}`).catch(() => ({ stages: {} })),
     env.DB.prepare('SELECT * FROM briefs WHERE client_id = ? ORDER BY created_at DESC').bind(u.client_id).all(),
   ]);
 
@@ -35,5 +36,5 @@ export async function onRequestGet({ request, env }) {
   for (const b of Object.values(byBox)) {
     if (!seen.has(b.box_key)) live.push({ box_key: b.box_key, company: b.company, stage: b.stage, created: b.created_at, brief: b });
   }
-  return json({ leads: live });
+  return json({ leads: live, streak_connected: !!key });
 }
