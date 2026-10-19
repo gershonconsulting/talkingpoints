@@ -1,0 +1,54 @@
+TALKINGPOINTS.GERSHON.AI — HANDOFF
+Updated 2026-10-19
+
+WHAT IT IS
+Client-facing app for Gershon Consulting clients (pilot: Valos). Clients sign in with LinkedIn,
+see the leads Gershon logs in their Streak "<Client> - LG" pipeline, and read a talking-points
+brief per lead in the PEPperPRINT email format, plus a new "What you have in common" section
+(best-matched teammate + overlaps).
+
+STACK (same shape as Linalysis / radar)
+- Static pages in public/ (Linalysis common.css, Gershon red #FE1B04)
+- Cloudflare Pages Functions in functions/
+- D1 database talkingpoints-db (schema.sql, seed.sql)
+- Workers AI (binding AI) for the draft brief
+- Resend for email (from talkingpoints@gershon.ai) — OFF until Olivier approves the format
+- Deploy: push to main → .github/workflows/deploy.yml (creates D1 + Pages project, sets secrets,
+  deploys, attaches talkingpoints.gershon.ai, registers Streak webhooks)
+
+ROUTES
+/                         home page
+/login                    sign-in page (LinkedIn)
+/app                      dashboard: Leads · My profile · Team
+/api/auth/linkedin/start  → LinkedIn consent (scope openid profile email)
+/api/auth/linkedin/callback   (registered in the LinkedIn app — Olivier confirmed)
+/api/me                   GET profile/team, PUT own background
+/api/leads                GET leads of the user's client pipeline (live from Streak) + brief status
+/api/leads/:box           GET brief (+ rendered HTML), POST build a draft now
+/api/streak/webhook?token=…   Streak BOX_CREATE → draft brief (+ email when enabled)
+/api/briefs               POST researched brief JSON (Bearer INGEST_TOKEN) → status "ready"
+/api/admin/webhooks       POST register Streak webhooks for all clients (Bearer INGEST_TOKEN)
+
+BRIEF FORMAT
+functions/_render.js documents the JSON and renders it. Sections, in order:
+header · social grade · snapshot · what you have in common · lead with this · person · company ·
+financials & ownership (only when public data exists) · previous conversation · LinkedIn & social
+table · industry pulse · talking points & questions · next US events · needs your attention · sources
+
+FINANCIALS (functions/_financials.js)
+FR Pappers (PAPPERS_API_KEY) · UK Companies House (COMPANIES_HOUSE_API_KEY, free) ·
+US listed companies SEC EDGAR (no key) · DE/IT/ES/BE/NL/CH: filled by the research step for now.
+
+ACCESS
+A LinkedIn sign-in is accepted when its email is in `members`, or its domain is in the client's
+`email_domains`. Admins (is_admin=1) see the client view but are excluded from team matching.
+Seeded: client "valos" (pipeline Valos - LG), admins oattia@gmail.com + olivier@gershonconsulting.com.
+
+STATUS
+✅ Code written and tested locally (home, login, dashboard, brief rendering, ingest, session)
+❌ GitHub secrets (Charles): CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, LINKEDIN_CLIENT_ID,
+   LINKEDIN_CLIENT_SECRET, STREAK_API_KEY, RESEND_API_KEY — then re-run the workflow
+❌ DNS CNAME talkingpoints → talkingpoints.pages.dev if the workflow log says the token cannot see the zone
+❌ Valos team members + their email domain (members rows) — needed before Valos users can sign in
+❌ Final email format sign-off by Olivier → set EMAIL_ENABLED = "true" in wrangler.toml
+❌ Research step that POSTs full briefs to /api/briefs (LinkedIn profiles, social audit, industry, events)

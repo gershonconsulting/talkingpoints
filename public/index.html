@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Talking Points by Gershon Consulting</title>
+<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+<meta name="description" content="For Gershon Consulting clients: every new lead in your US campaign arrives with what you have in common and what to say first." />
+<meta property="og:title" content="Talking Points by Gershon Consulting" />
+<meta property="og:description" content="Every new lead arrives with what you have in common and what to say first." />
+<meta property="og:url" content="https://talkingpoints.gershon.ai" />
+<link rel="stylesheet" href="/common.css" />
+<style>
+  html, body { background: #fff; height: auto; }
+  .landing { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  .public-topbar { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; margin-bottom: 20px; gap: 16px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 22px; color: var(--brand); letter-spacing: -0.02em; }
+  .logo img { width: 34px; height: 34px; }
+  .nav-links { display: flex; gap: 24px; align-items: center; font-size: 14px; font-weight: 500; }
+  .nav-links a { color: var(--text); transition: color .15s; }
+  .nav-links a:hover { color: var(--brand); }
+  .nav-links .btn { padding: 9px 18px; border-radius: 999px; font-size: 13px; }
+  @media (max-width: 640px) { .nav-links .hide-sm { display: none; } .logo { white-space: nowrap; font-size: 19px; } .nav-links .btn { padding: 8px 12px; font-size: 12px; white-space: nowrap; } }
+  .hero { text-align: center; padding: 60px 20px 70px; max-width: 860px; margin: 0 auto; }
+  .hero-eyebrow { display: inline-block; padding: 5px 14px; background: var(--brand-light); color: var(--brand); font-size: 12px; font-weight: 700; letter-spacing: 0.06em; border-radius: 999px; margin-bottom: 20px; text-transform: uppercase; }
+  .hero h1 { font-size: clamp(36px, 6vw, 60px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 20px; }
+  .hero h1 .accent { color: var(--brand); }
+  .hero p.lede { font-size: 18px; color: var(--text-muted); line-height: 1.6; max-width: 650px; margin: 0 auto 34px; }
+  .cta-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .btn-hero { padding: 14px 28px; border-radius: 999px; font-size: 15px; font-weight: 700; border: 2px solid transparent; display: inline-flex; align-items: center; gap: 10px; transition: all .15s; text-decoration: none; }
+  .btn-hero.primary { background: var(--brand); color: #fff; }
+  .btn-hero.primary:hover { background: var(--brand-dark); transform: translateY(-1px); box-shadow: 0 8px 22px rgba(254,27,4,0.28); }
+  .btn-hero.secondary { background: #fff; color: var(--text); border-color: var(--border); }
+  .btn-hero.secondary:hover { border-color: var(--brand); color: var(--brand); }
+  .btn-hero svg { width: 18px; height: 18px; }
+  .hero-social { margin-top: 26px; color: var(--text-muted); font-size: 13px; }
+
+  /* Product mock: a lead card as it appears in the app */
+  .product-mock { margin: 0 auto 80px; max-width: 1000px; padding: 18px; background: linear-gradient(135deg, var(--brand-light), #fff); border-radius: 18px; border: 1px solid var(--border); }
+  .mock-frame { border: 1px solid var(--border); border-radius: 10px; background: #fff; overflow: hidden; position: relative; padding-top: 32px; }
+  .mock-frame::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 32px; background: #f5f5f7; border-bottom: 1px solid var(--border); }
+  .mock-frame::after { content: '● ● ●'; position: absolute; top: 10px; left: 14px; font-size: 10px; letter-spacing: 2px; color: #d0d0d4; }
+  .mock-content { display: flex; min-height: 380px; }
+  .mock-sidebar { width: 200px; padding: 16px 12px; border-right: 1px solid var(--border); background: #fafafa; font-size: 12px; flex-shrink: 0; }
+  .mock-sidebar-item { padding: 7px 10px; border-radius: 6px; margin-bottom: 2px; color: var(--text-muted); }
+  .mock-sidebar-item.active { background: var(--brand); color: #fff; }
+  .mock-main { flex: 1; padding: 18px 22px; display: grid; grid-template-columns: 220px 1fr; gap: 16px; text-align: left; }
+  .mock-list .row { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 8px; font-size: 12px; }
+  .mock-list .row.on { border-color: var(--brand); background: var(--brand-light); }
+  .mock-list .co { font-weight: 700; }
+  .mock-list .who { color: var(--text-muted); font-size: 11px; }
+  .mock-brief { border: 1px solid var(--border); border-left: 4px solid var(--brand); border-radius: 10px; padding: 16px 18px; font-size: 12.5px; }
+  .mock-brief h4 { font-size: 15px; font-weight: 800; margin-bottom: 2px; }
+  .mock-brief .sub { color: var(--text-muted); font-size: 11.5px; margin-bottom: 12px; }
+  .mock-brief .k { font-weight: 700; margin: 10px 0 4px; }
+  .mock-brief ul { margin: 0 0 0 16px; color: var(--text); }
+  .mock-brief li { margin-bottom: 3px; }
+  .mock-brief .match { display: inline-block; background: var(--brand-light); color: var(--brand); font-weight: 700; padding: 3px 10px; border-radius: 999px; font-size: 11.5px; }
+  @media (max-width: 800px) { .mock-sidebar { display: none; } .mock-main { grid-template-columns: 1fr; } .mock-list { display: none; } }
+
+  .features-section { padding: 30px 0 40px; }
+  .section-heading { text-align: center; margin-bottom: 50px; }
+  .section-heading h2 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+  .section-heading p { font-size: 16px; color: var(--text-muted); max-width: 600px; margin: 0 auto; }
+  .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 900px) { .feature-grid { grid-template-columns: 1fr; } }
+  .feature { padding: 28px; background: #fff; border: 1px solid var(--border); border-radius: 14px; }
+  .feature-icon { width: 46px; height: 46px; background: var(--brand-light); color: var(--brand); border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+  .feature-icon svg { width: 22px; height: 22px; }
+  .feature h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; letter-spacing: -0.01em; }
+  .feature p { color: var(--text-muted); font-size: 14px; line-height: 1.6; }
+  .how { margin: 80px 0; padding: 50px; background: var(--bg); border-radius: 14px; }
+  @media (max-width: 700px) { .how { padding: 30px 20px; } }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+  @media (max-width: 800px) { .steps { grid-template-columns: 1fr; } }
+  .step { text-align: center; }
+  .step-num { width: 44px; height: 44px; border-radius: 50%; background: var(--brand); color: #fff; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; margin-bottom: 14px; }
+  .step h3 { font-size: 17px; font-weight: 800; margin-bottom: 6px; }
+  .step p { color: var(--text-muted); font-size: 14px; line-height: 1.6; }
+  .cta-section { background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%); color: #fff; padding: 60px 30px; border-radius: 18px; text-align: center; margin: 60px 0; }
+  .cta-section h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 14px; letter-spacing: -0.02em; }
+  .cta-section p { font-size: 16px; opacity: 0.9; margin: 0 auto 28px; max-width: 540px; }
+  .cta-section .btn-hero.primary { background: #fff; color: var(--brand); }
+  .cta-section .btn-hero.primary:hover { background: #fff5f5; }
+  footer { padding: 50px 0 30px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 13px; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+  @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr; } }
+  .footer-brand .logo { margin-bottom: 14px; }
+  .footer-brand p { font-size: 13px; line-height: 1.6; max-width: 320px; }
+  .footer-col h4 { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text); margin-bottom: 14px; }
+  .footer-col ul { list-style: none; padding: 0; }
+  .footer-col li { padding: 5px 0; }
+  .footer-col a:hover { color: var(--brand); }
+  .footer-bottom { padding-top: 26px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  a:focus-visible, button:focus-visible { outline: 3px solid rgba(254,27,4,0.35); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="landing">
+
+<header class="public-topbar">
+  <a class="logo" href="/"><img src="/logo.svg" alt="" />Talking Points</a>
+  <nav class="nav-links">
+    <a class="hide-sm" href="#how">How it works</a>
+    <a class="hide-sm" href="https://www.gershonconsulting.com" target="_blank" rel="noopener">Gershon Consulting</a>
+    <a class="btn primary" href="/api/auth/linkedin/start">Sign in with LinkedIn</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="hero-eyebrow">For Gershon Consulting clients</span>
+  <h1>Know what you share with every lead <span class="accent">before you say hello.</span></h1>
+  <p class="lede">We run your US campaign and log every new lead in your pipeline. Talking Points compares each lead's LinkedIn profile with yours and your team's. You get the overlaps, the right person to reach out, and the first three things to say.</p>
+  <div class="cta-row">
+    <a class="btn-hero primary" href="/api/auth/linkedin/start">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      Sign in with LinkedIn
+    </a>
+    <a class="btn-hero secondary" href="#how">See how it works</a>
+  </div>
+  <p class="hero-social">Access is by invitation. Use the LinkedIn account tied to your work email.</p>
+</section>
+
+<div class="product-mock" aria-hidden="true">
+  <div class="mock-frame">
+    <div class="mock-content">
+      <div class="mock-sidebar">
+        <div class="mock-sidebar-item active">New leads</div>
+        <div class="mock-sidebar-item">All leads</div>
+        <div class="mock-sidebar-item">My profile</div>
+        <div class="mock-sidebar-item">Team</div>
+      </div>
+      <div class="mock-main">
+        <div class="mock-list">
+          <div class="row on"><div class="co">Northwind Bio</div><div class="who">VP Clinical Operations</div></div>
+          <div class="row"><div class="co">Halcyon Therapeutics</div><div class="who">Chief Medical Officer</div></div>
+          <div class="row"><div class="co">Brightline Data</div><div class="who">Head of Biometrics</div></div>
+        </div>
+        <div class="mock-brief">
+          <h4>Dana Whitfield, Northwind Bio</h4>
+          <div class="sub">VP Clinical Operations, Boston. Added to your pipeline today.</div>
+          <span class="match">Best placed to reach out: Marco, Head of Statistics</span>
+          <div class="k">What you have in common</div>
+          <ul>
+            <li>Both spent 5+ years at the same top-10 pharma company</li>
+            <li>Both spoke at the same data-science conference this spring</li>
+            <li>Both wrote about trial design for rare diseases</li>
+          </ul>
+          <div class="k">Talking points</div>
+          <ul>
+            <li>Congratulate her on the Series B announced last week</li>
+            <li>Ask how they plan to staff the Phase II readout</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="features-section">
+  <div class="section-heading">
+    <h2>Every lead arrives with its opener</h2>
+    <p>No more cold first messages. You start from something real you share with the person.</p>
+  </div>
+  <div class="feature-grid">
+    <div class="feature">
+      <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><circle cx="17" cy="10" r="3"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7"/><path d="M15 21c0-2.2 1-4 3-5"/></svg></div>
+      <h3>What you have in common</h3>
+      <p>Shared employers, schools, cities, conferences, therapeutic areas and opinions, taken from both LinkedIn profiles.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6.5 7 .8-5.2 4.7 1.5 7L12 17.5 5.7 21l1.5-7L2 9.3l7-.8z"/></svg></div>
+      <h3>The right person on your team</h3>
+      <p>Each lead is matched to the team member with the most in common, so the warmest voice makes contact.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg></div>
+      <h3>Watch-outs before you write</h3>
+      <p>A lead who changed jobs, an outdated profile link, a promised follow-up still pending. You see it before you hit send.</p>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="section-heading" style="margin-bottom:36px">
+    <h2>How it works</h2>
+    <p>Gershon Consulting already manages your leads. You only sign in.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><div class="step-num">1</div><h3>Sign in with LinkedIn</h3><p>Your LinkedIn account identifies you and links you to your company's campaign.</p></div>
+    <div class="step"><div class="step-num">2</div><h3>We add a lead</h3><p>When our team logs a new lead in your pipeline, Talking Points reads the lead's profile.</p></div>
+    <div class="step"><div class="step-num">3</div><h3>You get the brief</h3><p>The overlaps, who should reach out and what to say first, in your dashboard and your inbox.</p></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Your next lead is already in the pipeline</h2>
+  <p>Sign in to see what you have in common with it.</p>
+  <a class="btn-hero primary" href="/api/auth/linkedin/start">Sign in with LinkedIn</a>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="/"><img src="/logo.svg" alt="" />Talking Points</a>
+      <p>A Gershon Consulting service for clients entering the US market through LinkedIn outbound.</p>
+    </div>
+    <div class="footer-col"><h4>Product</h4><ul>
+      <li><a href="/app">Dashboard</a></li>
+      <li><a href="/login.html">Sign in</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Gershon Consulting</h4><ul>
+      <li><a href="https://www.gershonconsulting.com" target="_blank" rel="noopener">Website</a></li>
+      <li><a href="https://www.gershonconsulting.com/calendar" target="_blank" rel="noopener">Book a call</a></li>
+      <li><a href="mailto:olivier@gershonconsulting.com">Contact</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <div>© 2026 Gershon Consulting LLC. All rights reserved.</div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>

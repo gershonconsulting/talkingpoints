@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Leads · Talking Points</title>
+<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+<link rel="stylesheet" href="/common.css" />
+<style>
+  .brand img { width: 28px; height: 28px; }
+  .nav-spacer { flex: 1; }
+  .user-chip { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-top: 1px solid var(--border); margin-top: 8px; }
+  .user-chip img, .user-chip .avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+  .user-chip .who { font-size: 12px; line-height: 1.3; overflow: hidden; }
+  .user-chip .who b { display: block; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .user-chip .who span { color: var(--text-muted); }
+  .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--text-muted); cursor: pointer; text-decoration: underline; }
+  .linkish:hover { color: var(--brand); }
+  .menu-toggle { display: none; }
+
+  .leads-layout { display: grid; grid-template-columns: 340px 1fr; gap: 18px; align-items: start; }
+  @media (max-width: 1100px) { .leads-layout { grid-template-columns: 1fr; } }
+  .lead-list { display: flex; flex-direction: column; gap: 8px; max-height: calc(100vh - 170px); overflow-y: auto; padding-right: 4px; }
+  .lead { text-align: left; width: 100%; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; cursor: pointer; font: inherit; color: var(--text); transition: border-color .15s, background .15s; }
+  .lead:hover { border-color: var(--brand); }
+  .lead[aria-current="true"] { border-color: var(--brand); background: var(--brand-light); }
+  .lead .co { font-weight: 700; font-size: 14px; }
+  .lead .who { color: var(--text-muted); font-size: 12px; margin-top: 2px; }
+  .lead .meta { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
+  .tag.ready { background: var(--success-light); color: var(--success); border-color: transparent; }
+  .tag.draft { background: var(--warn-light); color: var(--warn); border-color: transparent; }
+  .brief-pane { background: #f4f6f8; border: 1px solid var(--border); border-radius: var(--radius); min-height: 420px; overflow: hidden; }
+  .brief-pane .empty { padding: 60px 30px; text-align: center; color: var(--text-muted); }
+  .brief-pane .empty h3 { color: var(--text); font-size: 17px; margin-bottom: 6px; }
+  .brief-pane .empty .btn { margin-top: 16px; }
+  .filter-row { display: flex; gap: 8px; margin-bottom: 12px; }
+  .filter-row input { flex: 1; padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; }
+  .filter-row input:focus { outline: none; border-color: var(--brand); }
+
+  .form-card { max-width: 760px; }
+  .field { margin-bottom: 16px; }
+  .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+  .field .hint { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+  .field input[type=text], .field input[type=url], .field textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; }
+  .field textarea { min-height: 200px; resize: vertical; line-height: 1.5; }
+  .field input:focus, .field textarea:focus { outline: none; border-color: var(--brand); }
+  .check { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; }
+  .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .member { display: flex; gap: 12px; align-items: center; }
+  .member img, .member .avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+  .member .n { font-weight: 700; }
+  .member .t { font-size: 12px; color: var(--text-muted); }
+  [hidden] { display: none !important; }
+  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid rgba(254,27,4,0.3); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="/app"><img src="/logo.svg" alt="" />Talking Points</a>
+    <div class="nav-group-label" id="clientName">Your campaign</div>
+    <a class="nav-item active" href="#leads" data-view="leads">Leads</a>
+    <a class="nav-item" href="#profile" data-view="profile">My profile</a>
+    <a class="nav-item" href="#team" data-view="team">Team</a>
+    <div class="nav-spacer"></div>
+    <div class="user-chip" id="userChip"></div>
+    <div class="sidebar-footer">© 2026 Gershon Consulting</div>
+  </aside>
+  <main>
+    <div class="topbar">
+      <div style="display:flex;align-items:center;gap:10px">
+        <button class="menu-toggle btn" aria-label="Open menu" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
+        <h1 id="pageTitle">Leads</h1>
+      </div>
+      <div class="topbar-right" id="topRight"></div>
+    </div>
+    <div class="content">
+
+      <section id="view-leads">
+        <div class="leads-layout">
+          <div>
+            <div class="filter-row"><input id="filter" type="search" placeholder="Filter by company or name" aria-label="Filter leads" /></div>
+            <div class="lead-list" id="leadList" role="list"><p style="color:var(--text-muted)">Loading your leads…</p></div>
+          </div>
+          <div class="brief-pane" id="briefPane">
+            <div class="empty"><h3>Pick a lead</h3><p>Its talking points open here.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-profile" hidden>
+        <div class="card form-card">
+          <div class="card-header"><h3>Your background</h3></div>
+          <p style="color:var(--text-muted);margin-bottom:18px">Talking Points compares this with each lead to find what you have in common. Paste your LinkedIn "About" and experience, or a short summary: past employers, schools, cities, conferences, therapeutic areas.</p>
+          <form id="profileForm">
+            <div class="field"><label for="pTitle">Your title</label><input id="pTitle" type="text" maxlength="200" /></div>
+            <div class="field"><label for="pLinkedin">Your LinkedIn profile URL</label><input id="pLinkedin" type="url" placeholder="https://www.linkedin.com/in/…" /></div>
+            <div class="field"><label for="pBackground">Background</label><textarea id="pBackground" maxlength="6000"></textarea><div class="hint">Up to 6,000 characters.</div></div>
+            <div class="field"><label class="check"><input id="pNotify" type="checkbox" /> Email me the talking points when a new lead is added</label></div>
+            <button class="btn primary" type="submit">Save profile</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="view-team" hidden>
+        <div class="card">
+          <div class="card-header"><h3>Your team on Talking Points</h3></div>
+          <div class="team-grid" id="teamGrid"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+<div id="toast" role="status"></div>
+<script src="/app.js"></script>
+</body>
+</html>
