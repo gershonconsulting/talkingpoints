@@ -65,3 +65,35 @@ STATUS
 ❌ Valos team members + their email domain (members rows) — needed before Valos users can sign in
 ❌ Final email format sign-off by Olivier → set EMAIL_ENABLED = "true" in wrangler.toml
 ❌ Research step that POSTs full briefs to /api/briefs (LinkedIn profiles, social audit, industry, events)
+
+======================================================================
+2026-10-22 nightly — unified Gershon design (PR #1, v1.1.0)
+======================================================================
+WHAT THIS PR DOES
+Branch nightly/2026-10-22-talkingpoints-unified → PR https://github.com/gershonconsulting/talkingpoints/pull/1
+UI/CSS only. Talking Points now uses the unified Gershon look (Linalysis layout, Gershon.ai red #CC3333),
+the same way as Radar and Pulse:
+- public/unified-theme.css: override layer, linked LAST in the <head> of /, /login and /app
+  (?v=1.1.0). It swaps the brand tokens (#FE1B04 → #CC3333, dark #a8281f, tint #fdf2f2) and sets the
+  white 240px sidebar with a red active pill, white page header, white 12px cards, red buttons and red focus rings.
+- Landing light with red buttons and a red closing band; sign-in button red (was LinkedIn blue).
+- Dashboard: sidebar icons, version "Talking Points v1.1.0" in the sidebar footer; logo.svg red #CC3333.
+- Phone: no horizontal scroll at 390px; the menu button can't cover the title.
+- NOT changed: status colours (green "ready", amber "Draft"), the brief/email template
+  (functions/_render.js, separate email rules), APIs, secrets, workflows, wrangler.toml.
+
+STATUS
+✅ Ready to test on the preview: Claude artifact "Talking Points Unified Design"
+   https://claude.ai/artifact/VuHrs6CaJEQzT6YokRjkH8 (private to Olivier; the real branch pages on sample
+   data). Checked at 1280px and 390px: no console errors, no horizontal scroll, menu opens cleanly.
+❌ Not live: the app has not been deployed yet (Charles's steps in HANDOFF-for-Charles.md are still open).
+❌ Domain naming: the code and handoffs use talkingpoints.gershon.ai; tonight's brief said talking.gershon.ai.
+   Olivier to confirm which one. It's unchanged in this PR.
+
+DEPLOY ROUTE
+Merge PR #1 into main → the deploy workflow publishes it once Charles has finished the setup
+(workflow fix, secrets, first run). Until then, merging only updates the code.
+
+NEXT ACTION
+Olivier: open the preview, then approve and merge PR #1 if it looks right.
+Charles: the steps in HANDOFF-for-Charles.md are unchanged.
