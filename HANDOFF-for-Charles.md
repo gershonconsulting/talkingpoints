@@ -1,12 +1,6 @@
-# Talking Points app: setup for Charles (one time, about 25 minutes)
+# Talking Points app: setup for Charles (one time, about 20 minutes)
 
-The repository **github.com/gershonconsulting/talkingpoints** exists, and Claude has already pushed all the code to it. Every push to `main` deploys automatically, as with Linalysis. Five steps are left, and they all need someone signed in to a dashboard.
-
-## 0. Replace the two workflow files (Claude's GitHub access can't edit workflows)
-The name `talkingpoints.pages.dev` is already used by an unrelated website, so the original workflows would have pointed our domain (and a private token) at a stranger's site. Corrected versions are in the `workflow-fix/` folder.
-1. In the repo, open `workflow-fix/deploy.yml`, copy all of it, then open `.github/workflows/deploy.yml` → pencil (Edit) → select all → paste → **Commit changes** to `main`.
-2. Same for `workflow-fix/cron.yml` → `.github/workflows/cron.yml`.
-3. Delete the `workflow-fix/` folder afterwards (optional).
+The repository **github.com/gershonconsulting/talkingpoints** exists, and Claude has already pushed all the code to it. Every push to `main` deploys automatically, as with Linalysis. Four steps are left, and they all need someone signed in to a dashboard.
 
 ## 1. LinkedIn: allow the Talking Points sign-in address
 1. Go to LinkedIn Developers → app **"Client"** (ID `78up2kwkdki2kh`, https://www.linkedin.com/developers/apps/266622603/auth).

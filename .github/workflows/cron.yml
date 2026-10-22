@@ -15,7 +15,6 @@ jobs:
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "Secrets not set yet — skipping."; exit 0; fi
           TOKEN=$(printf '%s' tp-ingest | openssl dgst -sha256 -hmac "$CLOUDFLARE_API_TOKEN" | awk '{print $2}')
           echo "::add-mask::$TOKEN"
-          for host in https://talkingpoints.gershon.ai https://talkingpoints.pages.dev; do
-            out=$(curl -sf -X POST "$host/api/cron/run" -H "Authorization: Bearer $TOKEN") && { echo "$out"; exit 0; }
-          done
+          # Only our own domain: talkingpoints.pages.dev belongs to someone else.
+          out=$(curl -sf -X POST "https://talkingpoints.gershon.ai/api/cron/run" -H "Authorization: Bearer $TOKEN") && { echo "$out"; exit 0; }
           echo "App not reachable"; exit 1
