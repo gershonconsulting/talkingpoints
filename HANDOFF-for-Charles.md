@@ -16,8 +16,9 @@ A **dedicated Google Cloud project "Talking Points"** (`talking-points-512415`, 
 - ✅ Scopes: `openid`, `userinfo.email`, `calendar.readonly` (matches `functions/_google.js`).
 - ✅ OAuth web client "talkingpoints.gershon.ai", redirect `https://talkingpoints.gershon.ai/api/google/callback`.
   Client ID: `905961246921-42hr3jfob0mkolb9798pic2cdqnag1ep.apps.googleusercontent.com`
-- ✅ Test users: oattia@gmail.com, olivier@gershonconsulting.com, aina.rama@gershonconsulting.com, dmitri.petratchenko@valos.it. (sergey@valosboston.com was rejected by Google: not a Google account.)
-- ❌ **Publish app** (Audience → Publish app → Confirm) is now available but was not clicked: Claude's browser blocked the final confirm. Until it's done, only the test users above can connect a calendar. After publishing, users see Google's "unverified app" screen until the app is submitted for verification (sensitive scope `calendar.readonly`).
+- ✅ Test users (kept): oattia@gmail.com, olivier@gershonconsulting.com, aina.rama@gershonconsulting.com, dmitri.petratchenko@valos.it.
+- ✅ **Published: "In production"** (2026-10-22). Any Google account can connect, up to 100 users. Users see Google's "unverified app" screen (Advanced → Go to Talking Points) until verification.
+- ❌ *(later)* Submit for verification (Verification Center) once the site is live, to remove the "unverified app" screen.
 - ❌ **Client secret:** not stored. Clients → talkingpoints.gershon.ai → **Add secret** → GitHub `GOOGLE_CLIENT_SECRET` (in Ariel's handoff).
 
 ## 3. GitHub secrets
