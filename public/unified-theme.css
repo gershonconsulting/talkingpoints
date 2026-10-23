@@ -1,0 +1,125 @@
+/* =====================================================================
+   Talking Points - unified Gershon design (v1.1.0, 2026-10-22)
+   Decision 2026-10-13: every Gershon app looks like Linalysis (the master
+   design) and the main colour everywhere is the Gershon.ai red #CC3333.
+   This override layer is linked LAST in the <head> of /, /login and /app
+   (after common.css and each page's own <style>), the same approach as
+   Radar's and Pulse's unified-theme.css.
+
+   Not touched on purpose:
+   - Status colours (--success / --warn / --error / --info): "Talking
+     points ready" stays green, "Draft" stays amber.
+   - The talking-points brief itself (functions/_render.js). It is the
+     email format, with inline styles, and follows the separate email
+     rules; the dashboard shows it exactly as the email looks.
+   ===================================================================== */
+
+/* ---------- Tokens (html:root beats common.css :root) ---------- */
+html:root{
+  --gx-red:#CC3333; --gx-red-dark:#a8281f; --gx-red-light:#fdf2f2; --gx-red-line:#f3caca;
+  --gx-text:#1d1d1f; --gx-muted:#6e6e73; --gx-border:#e5e7eb; --gx-bg:#fafafa; --gx-radius:12px;
+  --gx-ring:0 0 0 3px rgba(204,51,51,.15);
+
+  --brand:var(--gx-red); --brand-dark:var(--gx-red-dark); --brand-light:var(--gx-red-light);
+  --text:var(--gx-text); --text-muted:var(--gx-muted); --border:var(--gx-border);
+  --bg:var(--gx-bg); --card:#ffffff; --radius:var(--gx-radius); --sidebar-w:240px;
+}
+
+/* ---------- Focus: red ring everywhere ---------- */
+html body a:focus-visible, html body button:focus-visible{ outline:3px solid rgba(204,51,51,.35); outline-offset:2px; }
+html body input:focus, html body select:focus, html body textarea:focus{
+  outline:none; border-color:var(--gx-red); box-shadow:var(--gx-ring); }
+html body input[type=checkbox]{ accent-color:var(--gx-red); }
+
+/* =====================================================================
+   APP (app.html)
+   ===================================================================== */
+.app > main{ min-width:0; }                 /* grid child: stop wide content pushing the page */
+
+/* Sidebar: white, 240px, red active pill */
+.app > .sidebar{ background:#fff; border-right:1px solid var(--gx-border); width:var(--sidebar-w); }
+.app > .sidebar .brand{ color:var(--gx-red); }
+.app > .sidebar .nav-item{ color:var(--gx-text); font-weight:500; border-radius:8px; }
+.app > .sidebar .nav-item:hover{ background:var(--gx-red-light); color:var(--gx-red); }
+.app > .sidebar .nav-item.active{ background:var(--gx-red); color:#fff; font-weight:600; }
+.app > .sidebar .nav-item.active:hover{ background:var(--gx-red-dark); color:#fff; }
+.app > .sidebar .nav-item .icon{ width:18px; height:18px; flex-shrink:0; }
+.app > .sidebar .user-chip .avatar{ background:var(--gx-red); color:#fff; }
+.app > .sidebar .sidebar-footer{ border-top-color:var(--gx-border); color:var(--gx-muted); }
+.app > .sidebar .sidebar-footer .version{ display:block; margin-top:2px; font-variant-numeric:tabular-nums; }
+
+/* Page header: solid white bar like Linalysis */
+.app .topbar{ background:#fff; backdrop-filter:none; border-bottom:1px solid var(--gx-border); }
+.app .topbar h1{ font-size:20px; font-weight:800; letter-spacing:-0.02em; color:var(--gx-text); min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.app .topbar .tag{ background:var(--gx-red-light); color:var(--gx-red-dark); border-color:var(--gx-red-line); }
+
+/* Cards: white, 12px, 1px border, flat */
+.app .card{ border:1px solid var(--gx-border); border-radius:var(--gx-radius); box-shadow:0 1px 2px rgba(16,24,40,.04); }
+.app .card-header h3{ color:var(--gx-text); font-weight:700; }
+
+/* Buttons */
+.app .btn{ border-radius:8px; }
+.app .btn.primary{ background:var(--gx-red); border-color:var(--gx-red); color:#fff; }
+.app .btn.primary:hover{ background:var(--gx-red-dark); border-color:var(--gx-red-dark); color:#fff; }
+.app .btn.primary:disabled{ background:#c7c7cc; border-color:#c7c7cc; cursor:default; }
+.app .btn:not(.primary):hover{ border-color:var(--gx-red); color:var(--gx-red); }
+.app .linkish:hover{ color:var(--gx-red); }
+
+/* Lead list: selected lead = red tint + red border (not a status colour) */
+.app .lead{ border-radius:var(--gx-radius); }
+.app .lead:hover{ border-color:var(--gx-red-line); }
+.app .lead[aria-current="true"]{ border-color:var(--gx-red); background:var(--gx-red-light); box-shadow:inset 3px 0 0 var(--gx-red); }
+.app .brief-pane{ border-radius:var(--gx-radius); overflow-x:auto; }
+.app .mtg:hover .mtg-co{ color:var(--gx-red); }
+
+/* Status tags keep their tint; give them a matching hairline so a
+   green/amber status never reads as decoration */
+.app .tag.ready{ box-shadow:inset 0 0 0 1px #bfe3cc; }
+.app .tag.draft{ box-shadow:inset 0 0 0 1px #f3d9a8; }
+
+/* Mobile: off-canvas sidebar with a shadow, title never under the menu button */
+@media (max-width:900px){
+  .app > .sidebar{ box-shadow:none; }
+  .app > .sidebar.open{ box-shadow:0 10px 40px rgba(29,29,31,.14); }
+  .app .topbar{ padding:0 16px; }
+  .app .topbar > div:first-child{ min-width:0; flex:1; }
+  .app .menu-toggle{ flex-shrink:0; width:38px; height:38px; justify-content:center; padding:0; font-size:16px; }
+  .app .lead-list{ max-height:none; overflow:visible; padding-right:0; }
+  .app .card-header{ flex-wrap:wrap; }
+  .app .mtg{ flex-wrap:wrap; }
+  .app .mtg-when{ white-space:normal; }
+}
+
+/* =====================================================================
+   SIGN-IN (login.html) - light page, red button
+   ===================================================================== */
+body > .auth-wrap{ border-radius:var(--gx-radius); border-color:var(--gx-border); box-shadow:0 18px 50px rgba(29,29,31,.08); }
+body > .auth-wrap .auth-logo{ color:var(--gx-red); }
+body > .auth-wrap .auth-footer a{ color:var(--gx-red-dark); }
+body > .auth-wrap .li-btn{ background:var(--gx-red); box-shadow:none; }
+body > .auth-wrap .li-btn:hover{ background:var(--gx-red-dark); box-shadow:0 8px 22px rgba(204,51,51,.28); }
+body > .auth-wrap .li-btn:focus-visible{ outline:3px solid rgba(204,51,51,.35); }
+
+/* =====================================================================
+   LANDING (index.html) - light, red buttons, red closing band
+   ===================================================================== */
+.landing .logo{ color:var(--gx-red); }
+.landing .nav-links a:hover{ color:var(--gx-red); }
+.landing .btn.primary{ background:var(--gx-red); border-color:var(--gx-red); color:#fff; }
+.landing .btn.primary:hover{ background:var(--gx-red-dark); border-color:var(--gx-red-dark); color:#fff; }
+.landing .hero-eyebrow{ background:var(--gx-red-light); color:var(--gx-red); box-shadow:inset 0 0 0 1px var(--gx-red-line); }
+.landing .btn-hero.primary:hover{ box-shadow:0 8px 22px rgba(204,51,51,.28); }
+.landing .product-mock{ background:linear-gradient(135deg,var(--gx-red-light),#fff); border-radius:var(--gx-radius); }
+.landing .mock-sidebar{ background:#fff; }
+.landing .feature, .landing .how{ border-radius:var(--gx-radius); }
+.landing .feature-icon{ box-shadow:inset 0 0 0 1px var(--gx-red-line); }
+.landing .cta-section{ background:linear-gradient(135deg,var(--gx-red) 0%,var(--gx-red-dark) 100%); border-radius:var(--gx-radius); }
+.landing .cta-section .btn-hero.primary{ background:#fff; color:var(--gx-red); }
+.landing .cta-section .btn-hero.primary:hover{ background:var(--gx-red-light); color:var(--gx-red-dark); }
+.landing .footer-col a:hover{ color:var(--gx-red); }
+@media (max-width:640px){
+  .landing{ padding:0 16px; }
+  .landing .public-topbar{ gap:10px; }
+  .landing .product-mock{ padding:10px; margin-bottom:56px; }
+  .landing .cta-section{ padding:44px 20px; }
+}
