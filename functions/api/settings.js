@@ -45,8 +45,10 @@ export async function onRequestGet({ request, env }) {
 export async function onRequestPut({ request, env }) {
   const u = await currentUser(env, request);
   if (!u) return json({ error: 'signed_out' }, 401);
-  if (!u.can_manage && !u.is_admin) return json({ error: 'Only your account manager can change settings.' }, 403);
   const b = await request.json().catch(() => ({}));
+  // Everyone on the client's team may choose who receives the talking points; the rest needs a manager.
+  const onlyRecipients = Object.keys(b).every((k) => k === 'recipients');
+  if (!onlyRecipients && !u.can_manage && !u.is_admin) return json({ error: 'Only your account manager can change settings.' }, 403);
 
   await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(u.client_id).run();
 

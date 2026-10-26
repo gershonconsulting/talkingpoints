@@ -153,6 +153,10 @@
   // ---------- Profile & team ----------
   let me = null;
   function fillProfile() {
+    $('idAvatar').innerHTML = avatar(me.member);
+    $('idName').textContent = me.member.name || '';
+    $('idEmail').textContent = me.member.email || '';
+    $('idCompany').textContent = me.client.name || '';
     $('pTitle').value = me.member.title || '';
     $('pLinkedin').value = me.member.linkedin_url || '';
     $('pBackground').value = me.member.background || '';
@@ -178,6 +182,7 @@
     const locked = !st.can_manage;
     $('settingsNote').hidden = !locked;
     document.querySelectorAll('#view-settings input, #view-settings select, #view-settings textarea, #view-settings button').forEach((el) => { if (!el.closest('#templateForm')) el.disabled = locked; });
+    document.querySelectorAll('#emailForm textarea, #emailForm button').forEach((el) => { el.disabled = false; });
 
     $('streakStatus').textContent = st.streak.connected ? `Connected (key ends ${st.streak.hint})` : 'Not connected';
     $('streakStatus').className = `tag ${st.streak.valid ? 'ready' : st.streak.connected ? 'draft' : ''}`;
@@ -186,7 +191,7 @@
       ? `<option value="">Choose a pipeline</option>${st.streak.pipelines.map((p) => `<option value="${esc(p.key)}" ${p.key === st.streak.pipeline_key ? 'selected' : ''}>${esc(p.name)}</option>`).join('')}`
       : '<option value="">Connect Streak to list your pipelines</option>';
 
-    $('sRecipients').value = st.recipients;
+    $('sRecipients').value = st.recipients || (me && me.member.email) || '';
   }
 
   // ---------- Talking points template ----------
@@ -266,7 +271,6 @@
     $('userChip').innerHTML = `${avatar(me.member)}<div class="who"><b>${esc(me.member.name || me.member.email)}</b><span>${esc(me.member.title || me.member.email)}</span><br>
       <form method="post" action="/api/auth/logout" style="display:inline"><button class="linkish" type="submit">Sign out</button></form></div>`;
     fillProfile();
-    if (!me.member.background) toast('Add your background in My profile to get better matches');
     route();
     loadLeads();
   })();

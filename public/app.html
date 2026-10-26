@@ -70,6 +70,7 @@
   .campaign-pick { margin: 0 12px 10px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; background: #fff; max-width: calc(100% - 24px); }
   .muted { color: var(--text-muted); margin-bottom: 16px; }
   #sRecipients { min-height: 84px; }
+  .id-row { display:flex; gap:14px; align-items:center; } .id-row img, .id-row .av { width:56px; height:56px; border-radius:50%; } #idCard { margin-bottom:16px; }
   .set-card { margin-bottom: 16px; }
   .field select { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; background: #fff; }
   .row-actions { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -119,6 +120,10 @@
       </section>
 
       <section id="view-profile" hidden>
+        <div class="card form-card" id="idCard">
+          <div class="card-header"><h3>Signed in with LinkedIn</h3><span class="tag ready">Connected</span></div>
+          <div class="id-row"><span id="idAvatar"></span><div><b id="idName"></b><div class="muted" id="idEmail"></div><div class="muted" id="idCompany"></div></div></div>
+        </div>
         <div class="card form-card">
           <div class="card-header"><h3>Your background</h3></div>
           <p style="color:var(--text-muted);margin-bottom:18px">Talking Points compares this with each lead to find what you have in common. Paste your LinkedIn "About" and experience, or a short summary: past employers, schools, cities, conferences, therapeutic areas.</p>
@@ -133,7 +138,16 @@
       </section>
 
       <section id="view-settings" hidden>
-        <p class="settings-note" id="settingsNote" hidden>Only your account manager can change these settings.</p>
+        <p class="settings-note" id="settingsNote" hidden>Only your account manager can change the Streak connection and the template.</p>
+
+        <div class="card form-card set-card">
+          <div class="card-header"><h3>Send talking points</h3></div>
+          <form id="emailForm">
+            <div class="field"><label for="sRecipients">Email the talking points to</label><textarea id="sRecipients" rows="3" placeholder="name@company.com, colleague@company.com"></textarea><div class="hint">Separate addresses with commas. Every new brief is emailed to these people; you can also send any brief from its own page.</div></div>
+                        <button class="btn primary" type="submit">Save email settings</button>
+          </form>
+        </div>
+
 
         <div class="card form-card set-card">
           <div class="card-header"><h3>CRM: Streak</h3><span class="tag" id="streakStatus">Not connected</span></div>
@@ -156,13 +170,6 @@
             <button class="btn primary" type="submit">Save template</button>
           </form>
         </div>
-        <div class="card form-card set-card">
-          <div class="card-header"><h3>Talking points emails</h3></div>
-          <form id="emailForm">
-            <div class="field"><label for="sRecipients">Send talking points to</label><textarea id="sRecipients" rows="3" placeholder="name@company.com, colleague@company.com"></textarea><div class="hint">Separate addresses with commas.</div></div>
-                        <button class="btn primary" type="submit">Save email settings</button>
-          </form>
-        </div>
 
         <div class="card form-card set-card">
           <div class="card-header"><h3>AI</h3><span class="tag ready">Included</span></div>
@@ -176,6 +183,6 @@
 </div>
 <div id="toast" role="status"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
-<script src="/app.js?v=20261026d"></script>
+<script src="/app.js?v=20261026e"></script>
 </body>
 </html>

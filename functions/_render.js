@@ -14,7 +14,7 @@
 //   company:    { text },
 //   financials: { country, text },                 // only when public data exists
 //   history:    { text },
-//   network:    { summary, items:[ "…" ] },                  // connections in common with the client user
+//   network:    { summary, items:[ "…" ], link:{ url, label } },                  // connections in common with the client user
 //   posts:      [{ when, where, text, use }],                 // what the lead posted / shared recently
 //   groups:     [{ name, members, note }],                    // LinkedIn groups
 //   events:     see below; events_attended: [{ name, when, role, note }]
@@ -113,7 +113,7 @@ ${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-h
   // 9b. Network in common
   if (has(d.network)) {
     out.push(card(`${label('Network in common', C.brand)}${d.network.summary ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;line-height:1.5;">${fmt(d.network.summary)}</div>` : ''}
-${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:6px;">• ${fmt(t)}</div>`).join('')}`));
+${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:6px;">• ${fmt(t)}</div>`).join('')}${d.network.link?.url ? `<div style="margin-top:10px;"><a href="${esc(d.network.link.url)}" target="_blank" rel="noopener" style="display:inline-block;background:${C.brand};color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:8px 14px;border-radius:8px;">${esc(d.network.link.label || 'See your mutual connections on LinkedIn')}</a></div>` : ''}`));
   }
 
   // 9c. What they posted
