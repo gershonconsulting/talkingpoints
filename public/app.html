@@ -52,6 +52,15 @@
   .member .n { font-weight: 700; }
   .member .t { font-size: 12px; color: var(--text-muted); }
   [hidden] { display: none !important; }
+  .tpl-list { list-style: none; margin: 0 0 18px; padding: 0; counter-reset: tpl; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .tpl-list li { counter-increment: tpl; display: flex; gap: 12px; align-items: flex-start; padding: 10px 14px; border-top: 1px solid var(--border); font-size: 14px; }
+  .tpl-list li:first-child { border-top: 0; }
+  .tpl-list li::before { content: counter(tpl); min-width: 20px; color: var(--text-muted); font-weight: 700; font-size: 12px; padding-top: 2px; }
+  .tpl-list .tpl-main { flex: 1; }
+  .tpl-list .tpl-main b { display: block; }
+  .tpl-list .tpl-main span { color: var(--text-muted); font-size: 12px; }
+  .tpl-list .tpl-src { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); white-space: nowrap; }
+  .tpl-list li.off .tpl-main { opacity: .45; }
   .campaign-pick { margin: 0 12px 10px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; background: #fff; max-width: calc(100% - 24px); }
   .muted { color: var(--text-muted); margin-bottom: 16px; }
   #sRecipients { min-height: 84px; }
@@ -131,6 +140,16 @@
         </div>
 
 
+        <div class="card form-card set-card">
+          <div class="card-header"><h3>Talking points template</h3><span class="tag">PEPperPRINT format</span></div>
+          <p class="muted">The structure of every talking-points brief, in this order. Each section shows where its content comes from. Untick a section to leave it out of the dashboard and the emails.</p>
+          <form id="templateForm">
+            <ol class="tpl-list" id="tplList"><li class="muted">Loading…</li></ol>
+            <div class="field"><label for="tCompany">Your company</label><textarea id="tCompany" rows="4" maxlength="4000" placeholder="What your company does, as on its LinkedIn page"></textarea></div>
+            <div class="field"><label for="tIcp">Your ideal customer (ICP)</label><textarea id="tIcp" rows="4" maxlength="4000" placeholder="Industries, company size, roles you sell to, regions"></textarea><div class="hint">Used for "What you have in common" and "Lead with this".</div></div>
+            <button class="btn primary" type="submit">Save template</button>
+          </form>
+        </div>
         <div class="card form-card set-card">
           <div class="card-header"><h3>Talking points emails</h3></div>
           <form id="emailForm">

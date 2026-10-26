@@ -33,7 +33,7 @@
     $('pageTitle').textContent = titles[view];
     document.title = `${titles[view]} · Talking Points`;
     $('sidebar').classList.remove('open');
-    if (view === 'settings') loadSettings();
+    if (view === 'settings') { loadSettings(); loadTemplate(); }
   }
   window.addEventListener('hashchange', route);
   function route() {
@@ -128,7 +128,7 @@
     const st = settings;
     const locked = !st.can_manage;
     $('settingsNote').hidden = !locked;
-    document.querySelectorAll('#view-settings input, #view-settings select, #view-settings textarea, #view-settings button').forEach((el) => { el.disabled = locked; });
+    document.querySelectorAll('#view-settings input, #view-settings select, #view-settings textarea, #view-settings button').forEach((el) => { if (!el.closest('#templateForm')) el.disabled = locked; });
 
     $('streakStatus').textContent = st.streak.connected ? `Connected (key ends ${st.streak.hint})` : 'Not connected';
     $('streakStatus').className = `tag ${st.streak.valid ? 'ready' : st.streak.connected ? 'draft' : ''}`;
@@ -139,6 +139,27 @@
 
     $('sRecipients').value = st.recipients;
   }
+
+  // ---------- Talking points template ----------
+  async function loadTemplate() {
+    let t;
+    try { t = await api('/api/template'); } catch { $('tplList').innerHTML = '<li class="muted">The template could not be loaded.</li>'; return; }
+    const locked = !t.can_manage;
+    $('tplList').innerHTML = t.sections.map((s) => `<li class="${s.on ? '' : 'off'}">
+      <input type="checkbox" data-sec="${esc(s.id)}" ${s.on ? 'checked' : ''} ${s.required || locked ? 'disabled' : ''} aria-label="${esc(s.label)}" />
+      <div class="tpl-main"><b>${esc(s.label)}${s.required ? ' <span>(always included)</span>' : ''}</b><span>${esc(s.desc)}</span></div>
+      <span class="tpl-src">${esc(s.source)}</span></li>`).join('');
+    $('tCompany').value = t.company; $('tIcp').value = t.icp;
+    $('tCompany').disabled = $('tIcp').disabled = locked;
+    $('templateForm').querySelector('button').disabled = locked;
+  }
+  $('tplList').addEventListener('change', (e) => { const c = e.target.closest('[data-sec]'); if (c) c.closest('li').classList.toggle('off', !c.checked); });
+  $('templateForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const disabled = [...document.querySelectorAll('#tplList [data-sec]')].filter((c) => !c.checked).map((c) => c.dataset.sec);
+    try { await api('/api/template', { method: 'PUT', body: JSON.stringify({ disabled, company: $('tCompany').value, icp: $('tIcp').value }) }); toast('Template saved'); if (current) openLead(current); }
+    catch (err) { toast(err.body?.error || 'Template not saved. Try again.'); }
+  });
 
   async function saveSettings(body, okMsg) {
     try { await api('/api/settings', { method: 'PUT', body: JSON.stringify(body) }); toast(okMsg); loadSettings(); }

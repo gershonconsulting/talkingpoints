@@ -77,3 +77,13 @@ CREATE TABLE IF NOT EXISTS meetings (
   sent_at       TEXT,
   PRIMARY KEY (client_id, event_id)
 );
+
+-- Talking-points template per client: which sections appear, plus the client's own company & ICP
+-- (used by the AI for "What you have in common" and "Lead with this").
+CREATE TABLE IF NOT EXISTS client_templates (
+  client_id   INTEGER PRIMARY KEY REFERENCES clients(id),
+  disabled    TEXT NOT NULL DEFAULT '',   -- comma list of section ids switched off
+  company     TEXT NOT NULL DEFAULT '',   -- the client's company, as on its LinkedIn page
+  icp         TEXT NOT NULL DEFAULT '',   -- ideal customer profile
+  updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);

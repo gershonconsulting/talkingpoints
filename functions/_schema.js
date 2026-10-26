@@ -73,6 +73,14 @@ CREATE TABLE IF NOT EXISTS meetings (
   PRIMARY KEY (client_id, event_id)
 );
 
+CREATE TABLE IF NOT EXISTS client_templates (
+  client_id   INTEGER PRIMARY KEY REFERENCES clients(id),
+  disabled    TEXT NOT NULL DEFAULT '',   -- comma list of section ids switched off
+  company     TEXT NOT NULL DEFAULT '',   -- the client's company, as on its LinkedIn page
+  icp         TEXT NOT NULL DEFAULT '',   -- ideal customer profile
+  updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
 INSERT OR IGNORE INTO clients (slug, name, pipeline_key, email_domains)
 VALUES ('valos', 'Valos Srl', 'pipeline:aina.andriamangason@gmail.com:5165361957781504', '');
 

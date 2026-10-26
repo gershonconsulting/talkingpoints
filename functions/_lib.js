@@ -174,7 +174,7 @@ export async function loadLead(key, boxKey) {
 // POST /api/briefs and replaces this draft.
 const MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
 
-export async function generateBrief(env, { lead, clientName, team, financials }) {
+export async function generateBrief(env, { lead, clientName, team, financials, company = '', icp = '' }) {
   const teamText = team
     .map((m) => `- ${m.name} (${m.title || 'team member'}): ${m.background || 'no background on file'}`)
     .join('\n');
@@ -190,12 +190,19 @@ CRM notes: ${lead.notes || '(none)'}
 Profile: ${lead.leadProfile || '(no enriched profile yet)'}
 Public financials: ${financials?.text || '(none found)'}
 
+${clientName.toUpperCase()} — THE COMPANY
+${company || '(no company description yet)'}
+
+${clientName.toUpperCase()} — IDEAL CUSTOMER PROFILE
+${icp || '(no ICP yet)'}
+
 ${clientName.toUpperCase()} TEAM
 ${teamText}
 
 Rules: never invent facts. Only use what is above. If something is unknown, leave it out.
 Find genuine overlaps between the lead and each team member (employers, schools, cities, countries,
 therapeutic areas, conferences, topics). If there is little in common, say so and lean on timing instead.
+"Lead with this" must tie what ${clientName} sells to this lead, using the ICP to say why the lead fits.
 Use **bold** for the key fact in a sentence.
 
 Return ONLY JSON:
