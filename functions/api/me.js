@@ -1,4 +1,4 @@
-import { currentUser, json } from '../_lib.js';
+import { currentUser, json, isOwner } from '../_lib.js';
 
 // GET  /api/me → signed-in member + client
 // PUT  /api/me { background, linkedin_url, title, notify } → update own profile
@@ -11,7 +11,7 @@ export async function onRequestGet({ request, env }) {
   return json({
     member: {
       id: u.id, name: u.name, email: u.email, title: u.title, picture: u.picture,
-      linkedin_url: u.linkedin_url, background: u.background, notify: !!u.notify, is_admin: !!u.is_admin,
+      linkedin_url: u.linkedin_url, background: u.background, notify: !!u.notify, is_admin: !!u.is_admin, is_owner: isOwner(u),
     },
     client: { slug: u.client_slug, name: u.client_name },
     team: team.results,

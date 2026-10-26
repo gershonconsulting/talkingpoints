@@ -207,6 +207,7 @@
   (async function boot() {
     try { me = await api('/api/me'); } catch { return; }
     $('clientName').textContent = me.client.name;
+    if (me.member.is_owner) document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin">Admin</a>');
     $('userChip').innerHTML = `${avatar(me.member)}<div class="who"><b>${esc(me.member.name || me.member.email)}</b><span>${esc(me.client.name)}</span><br>
       <form method="post" action="/api/auth/logout" style="display:inline"><button class="linkish" type="submit">Sign out</button></form></div>`;
     $('topRight').innerHTML = `<span class="tag">${esc(me.client.name)}</span>`;

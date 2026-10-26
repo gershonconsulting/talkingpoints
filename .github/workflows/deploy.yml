@@ -1,0 +1,23 @@
+name: Deploy talkingpoints.gershon.ai
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Publishes the site to the Cloudflare Pages project "gershon-talkingpoints" with the
+# CLOUDFLARE_API_TOKEN repo secret (token "talkingpoints-deploy": Pages Edit, D1 Edit, DNS Edit on gershon.ai).
+# App secrets (LinkedIn, Google, Resend) live in Cloudflare → gershon-talkingpoints → Variables and Secrets.
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: 0b8434adba9af8231df90a1f3d2e6e12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Build
+        run: node scripts/gen-schema.mjs
+      - name: Deploy
+        run: npx -y wrangler@4 pages deploy public --project-name=gershon-talkingpoints --branch=main --commit-dirty=true

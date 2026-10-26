@@ -5,6 +5,7 @@
 //  3. Accepts a GitHub Actions OIDC token from gershonconsulting/talkingpoints (audience
 //     talkingpoints.gershon.ai) in place of INGEST_TOKEN, so the hourly GitHub job needs no secret.
 import { SQL } from './_schema.js';
+import { currentUser, isOwner } from './_lib.js';
 
 const STATEMENTS = SQL.split(/;\s*(?:\n|$)/).map((s) => s.trim()).filter(Boolean);
 
@@ -70,6 +71,15 @@ export async function onRequest(context) {
       headers.set('authorization', `Bearer ${env.INGEST_TOKEN}`);
       return context.next(new Request(request, { headers }));
     }
+  }
+
+  // /admin is for the owner only. Everyone else gets a plain 404, as if it did not exist.
+  // (/api/admin/webhooks stays reachable by the hourly job, which proves itself with its token.)
+  const path = new URL(request.url).pathname;
+  const ownerOnly = path === '/admin' || path.startsWith('/admin/') || path.startsWith('/admin.') ||
+    (path.startsWith('/api/admin/') && path !== '/api/admin/webhooks');
+  if (ownerOnly && !isOwner(await currentUser(env, request))) {
+    return new Response('Not found', { status: 404, headers: { 'content-type': 'text/plain' } });
   }
   return context.next();
 }

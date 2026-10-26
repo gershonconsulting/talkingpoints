@@ -64,6 +64,10 @@ export function cookie(name, value, { maxAge = 60 * 60 * 24 * 30, path = '/' } =
   return `${name}=${encodeURIComponent(value)}; Path=${path}; Max-Age=${maxAge}; HttpOnly; Secure; SameSite=Lax`;
 }
 
+// The only person allowed into /admin (Olivier's LinkedIn email).
+export const OWNER_EMAILS = ['olivier@attia.com'];
+export const isOwner = (u) => !!u && OWNER_EMAILS.includes(String(u.email || '').toLowerCase());
+
 // Returns { member, client } for the signed-in user, or null.
 export async function currentUser(env, request) {
   const sid = await unsign(env.SESSION_SECRET, getCookie(request, 'tp_session'));

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Admin · Talking Points</title>
+<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+<link rel="stylesheet" href="/common.css" />
+<style>
+  .brand img { width: 28px; height: 28px; }
+  .nav-spacer { flex: 1; }
+  .menu-toggle { display: none; }
+  .client { margin-bottom: 18px; }
+  .client .card-header h3 small { font-weight: 500; color: var(--text-muted); margin-left: 8px; font-size: 12px; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
+  .tag.ok { background: var(--success-light); color: var(--success); border-color: transparent; }
+  .tag.no { background: var(--warn-light); color: var(--warn); border-color: transparent; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+  th { text-align: left; color: var(--text-muted); font-weight: 600; padding: 8px; border-bottom: 1px solid var(--border); }
+  td { padding: 8px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  .row-form { display: grid; grid-template-columns: 2fr 1.4fr 1.4fr auto auto; gap: 8px; margin-top: 12px; align-items: center; }
+  .row-form input { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; min-width: 0; }
+  .row-form input:focus, .new-client input:focus { outline: none; border-color: var(--brand); }
+  .row-form label { font-size: 12px; display: flex; gap: 6px; align-items: center; white-space: nowrap; }
+  .new-client { display: grid; grid-template-columns: 1fr 1.6fr 1fr auto; gap: 8px; }
+  .new-client input { padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; min-width: 0; }
+  @media (max-width: 900px) { .row-form, .new-client { grid-template-columns: 1fr; } }
+  .linkish { background: none; border: 0; color: var(--error); cursor: pointer; font: inherit; font-size: 12px; text-decoration: underline; }
+  .muted { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="/app"><img src="/logo.svg" alt="" />Talking Points</a>
+    <div class="nav-group-label">Owner</div>
+    <a class="nav-item active" href="/admin">Admin</a>
+    <a class="nav-item" href="/app">Back to dashboard</a>
+    <div class="nav-spacer"></div>
+    <div class="sidebar-footer">Only you can see this page.</div>
+  </aside>
+  <main>
+    <div class="topbar">
+      <div style="display:flex;align-items:center;gap:10px">
+        <button class="menu-toggle btn" aria-label="Open menu" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
+        <h1>Admin</h1>
+      </div>
+      <span class="tag" id="who"></span>
+    </div>
+    <div class="content">
+      <div class="card client">
+        <div class="card-header"><h3>Add a client</h3></div>
+        <form class="new-client" id="newClient">
+          <input name="name" placeholder="Client name, e.g. Valos Srl" required aria-label="Client name" />
+          <input name="pipeline_key" placeholder="Streak pipeline key (optional, the client can pick it in Settings)" aria-label="Streak pipeline key" />
+          <input name="email_domains" placeholder="Email domains, e.g. valos.it" aria-label="Email domains" />
+          <button class="btn primary" type="submit">Add client</button>
+        </form>
+        <p class="muted" style="margin-top:8px;font-size:12px">Anyone signing in with LinkedIn using an email at these domains joins this client automatically. Leave it empty to allow invited people only.</p>
+      </div>
+      <div id="clients"><p class="muted">Loading…</p></div>
+    </div>
+  </main>
+</div>
+<div id="toast" role="status"></div>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const toast = (m) => { const t = $('toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2600); };
+  async function api(path, opts = {}) {
+    const r = await fetch(path, { credentials: 'same-origin', headers: { 'content-type': 'application/json' }, ...opts });
+    const b = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(b.error || 'Request failed');
+    return b;
+  }
+  const when = (d) => d ? new Date(d.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : 'never';
+
+  async function load() {
+    const { clients } = await api('/api/admin/clients');
+    $('clients').innerHTML = clients.map((c) => `
+      <div class="card client">
+        <div class="card-header">
+          <h3>${esc(c.name)}<small>${esc(c.slug)}</small></h3>
+          <div class="tags">
+            <span class="tag ${c.streak_connected ? 'ok' : 'no'}">Streak ${c.streak_connected ? 'connected' : 'not connected'}</span>
+            <span class="tag ${c.calendar_connected ? 'ok' : 'no'}">Calendar ${c.calendar_connected ? esc(c.google_email) : 'not connected'}</span>
+            <span class="tag">${c.briefs} briefs</span>
+            ${c.email_domains ? `<span class="tag">@${esc(c.email_domains.split(',').join(', @'))}</span>` : ''}
+          </div>
+        </div>
+        <table>
+          <thead><tr><th>Person</th><th>Email</th><th>Role</th><th>Last sign-in</th><th></th></tr></thead>
+          <tbody>${c.members.map((m) => `<tr>
+            <td>${esc(m.name || '—')}<div class="muted" style="font-size:12px">${esc(m.title || '')}</div></td>
+            <td>${esc(m.email)}</td>
+            <td>${m.is_admin ? 'Gershon' : m.can_manage ? 'Client manager' : 'Client user'}</td>
+            <td>${when(m.last_login_at)}</td>
+            <td>${m.email === 'olivier@attia.com' ? '<span class="muted" style="font-size:12px">Owner</span>' : `<button class="linkish" data-del="${m.id}" data-email="${esc(m.email)}">Remove</button>`}</td>
+          </tr>`).join('') || '<tr><td colspan="5" class="muted">Nobody invited yet.</td></tr>'}</tbody>
+        </table>
+        <form class="row-form" data-client="${c.id}">
+          <input name="email" type="email" placeholder="Email they use on LinkedIn" required aria-label="Email" />
+          <input name="name" placeholder="Name" aria-label="Name" />
+          <input name="title" placeholder="Title" aria-label="Title" />
+          <label><input name="can_manage" type="checkbox" /> Can change Settings</label>
+          <button class="btn primary" type="submit">Invite</button>
+        </form>
+      </div>`).join('');
+  }
+
+  $('clients').addEventListener('submit', async (e) => {
+    const f = e.target.closest('.row-form'); if (!f) return;
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(f));
+    try { await api('/api/admin/members', { method: 'POST', body: JSON.stringify({ ...d, can_manage: !!d.can_manage, client_id: f.dataset.client }) }); toast(`${d.email} invited`); load(); }
+    catch (err) { toast(err.message); }
+  });
+  $('clients').addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-del]'); if (!b) return;
+    if (!confirm(`Remove ${b.dataset.email}? They will be signed out and lose access.`)) return;
+    try { await api('/api/admin/members', { method: 'DELETE', body: JSON.stringify({ id: b.dataset.del }) }); toast('Removed'); load(); }
+    catch (err) { toast(err.message); }
+  });
+  $('newClient').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(e.target));
+    try { await api('/api/admin/clients', { method: 'POST', body: JSON.stringify(d) }); e.target.reset(); toast(`${d.name} added`); load(); }
+    catch (err) { toast(err.message); }
+  });
+
+  api('/api/me').then((me) => { $('who').textContent = me.member.email; }).catch(() => {});
+  load().catch(() => { $('clients').innerHTML = '<p class="muted">Could not load clients. Refresh to try again.</p>'; });
+})();
+</script>
+</body>
+</html>
