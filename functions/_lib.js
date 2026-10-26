@@ -111,7 +111,15 @@ export async function getSettings(env, clientId) {
 // The client's own Streak API key (from Settings); falls back to Gershon's key if one is configured.
 export async function clientStreakKey(env, clientId) {
   const s = await getSettings(env, clientId);
-  return (await decryptText(env, s?.streak_key_enc)) || env.STREAK_API_KEY || '';
+  return (await decryptText(env, s?.streak_key_enc)) || (await gershonStreakKey(env));
+}
+
+// Gershon's own Streak key (sees every "- LG" pipeline). A Pages secret wins; otherwise the owner
+// pastes it once in /admin and it is kept encrypted in D1 (app_secrets GERSHON_STREAK_KEY_ENC).
+export async function gershonStreakKey(env) {
+  if (env.STREAK_API_KEY) return env.STREAK_API_KEY;
+  const row = await env.DB.prepare("SELECT value FROM app_secrets WHERE name = 'GERSHON_STREAK_KEY_ENC'").first().catch(() => null);
+  return row?.value ? await decryptText(env, row.value) : '';
 }
 
 // ---------- Streak ----------

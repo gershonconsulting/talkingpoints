@@ -8,7 +8,10 @@ export async function onRequestGet({ request, env }) {
   if (!u) return json({ error: 'signed_out' }, 401);
   const s = (await getSettings(env, u.client_id)) || {};
 
-  const key = await clientStreakKey(env, u.client_id);
+  // Only the client's own key lists pipelines. Gershon's shared key is shown to Gershon admins only,
+  // so a client never sees (or picks) another client's pipeline.
+  const ownKey = await decryptText(env, s.streak_key_enc);
+  const key = ownKey || (u.is_admin ? await clientStreakKey(env, u.client_id) : '');
   let pipelines = [];
   if (key) {
     try {
@@ -58,6 +61,14 @@ export async function onRequestPut({ request, env }) {
     await env.DB.prepare("UPDATE client_settings SET streak_key_enc = '', streak_key_hint = '' WHERE client_id = ?").bind(u.client_id).run();
   }
   if (typeof b.pipeline_key === 'string') {
+    const pk = b.pipeline_key.trim();
+    if (pk && !u.is_admin) {
+      const s2 = (await getSettings(env, u.client_id)) || {};
+      const own = await decryptText(env, s2.streak_key_enc);
+      let ok = false;
+      try { const list = await streak(own, '/v1/pipelines'); ok = (Array.isArray(list) ? list : []).some((p) => (p.pipelineKey || p.key) === pk); } catch { ok = false; }
+      if (!ok) return json({ error: 'Choose a pipeline from your own Streak account.' }, 400);
+    }
     await env.DB.prepare('UPDATE clients SET pipeline_key = ? WHERE id = ?').bind(b.pipeline_key.trim(), u.client_id).run();
   }
   if (typeof b.recipients === 'string') {

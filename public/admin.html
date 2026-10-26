@@ -51,7 +51,16 @@
     </div>
     <div class="content">
       <div class="card client">
+        <div class="card-header"><h3>Gershon Streak key</h3><span class="tag" id="gkStatus">Checking…</span></div>
+        <p class="muted" style="margin-bottom:10px;font-size:13px">One key for all campaigns: the Streak API key of olivier@gershonconsulting.com (Gmail → Streak → Integrations → API key). Paste it once; every campaign below then shows its leads. A client who pastes their own key in Settings uses theirs instead.</p>
+        <form class="new-client" id="gkForm" style="grid-template-columns:1fr auto">
+          <input name="key" type="password" autocomplete="off" placeholder="Paste the Streak API key" required aria-label="Streak API key" />
+          <button class="btn primary" type="submit">Save key</button>
+        </form>
+      </div>
+      <div class="card client">
         <div class="card-header"><h3>Add a client</h3></div>
+        <p class="muted" style="margin-bottom:10px;font-size:13px">The 10 live campaigns from client.gershon.ai are already listed below with their Streak pipelines. Click <b>Test this campaign</b> to open your dashboard on it, or invite a tester with their LinkedIn email.</p>
         <form class="new-client" id="newClient">
           <input name="name" placeholder="Client name, e.g. Valos Srl" required aria-label="Client name" />
           <input name="pipeline_key" placeholder="Streak pipeline key (optional, the client can pick it in Settings)" aria-label="Streak pipeline key" />
@@ -79,16 +88,17 @@
   const when = (d) => d ? new Date(d.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : 'never';
 
   async function load() {
-    const { clients } = await api('/api/admin/clients');
+    const { clients, viewing } = await api('/api/admin/clients');
     $('clients').innerHTML = clients.map((c) => `
       <div class="card client">
         <div class="card-header">
           <h3>${esc(c.name)}<small>${esc(c.slug)}</small></h3>
           <div class="tags">
-            <span class="tag ${c.streak_connected ? 'ok' : 'no'}">Streak ${c.streak_connected ? 'connected' : 'not connected'}</span>
-            <span class="tag ${c.calendar_connected ? 'ok' : 'no'}">Calendar ${c.calendar_connected ? esc(c.google_email) : 'not connected'}</span>
+            ${c.streak_url ? `<a class="tag ok" href="${esc(c.streak_url)}" target="_blank" rel="noopener">Open in Streak ↗</a>` : '<span class="tag no">No Streak pipeline</span>'}
+            <span class="tag">${c.streak_connected ? 'Own Streak key' : 'Gershon Streak key'}</span>
             <span class="tag">${c.briefs} briefs</span>
             ${c.email_domains ? `<span class="tag">@${esc(c.email_domains.split(',').join(', @'))}</span>` : ''}
+            ${c.id === viewing ? '<span class="tag ok">You are testing this one</span>' : `<button class="btn primary" data-test="${c.id}">Test this campaign</button>`}
           </div>
         </div>
         <table>
@@ -119,6 +129,12 @@
     catch (err) { toast(err.message); }
   });
   $('clients').addEventListener('click', async (e) => {
+    const t = e.target.closest('[data-test]');
+    if (t) {
+      try { await api('/api/admin/view-as', { method: 'POST', body: JSON.stringify({ client_id: t.dataset.test }) }); location.href = '/app'; }
+      catch (err) { toast(err.message); }
+      return;
+    }
     const b = e.target.closest('[data-del]'); if (!b) return;
     if (!confirm(`Remove ${b.dataset.email}? They will be signed out and lose access.`)) return;
     try { await api('/api/admin/members', { method: 'DELETE', body: JSON.stringify({ id: b.dataset.del }) }); toast('Removed'); load(); }
@@ -130,6 +146,22 @@
     try { await api('/api/admin/clients', { method: 'POST', body: JSON.stringify(d) }); e.target.reset(); toast(`${d.name} added`); load(); }
     catch (err) { toast(err.message); }
   });
+
+  async function loadKey() {
+    try {
+      const k = await api('/api/admin/streak-key');
+      const el = $('gkStatus');
+      el.textContent = !k.connected ? 'Not set' : k.pipelines < 0 ? `Key ends ${k.hint} · Streak refused it` : `Connected · key ends ${k.hint} · ${k.pipelines} pipelines`;
+      el.className = `tag ${k.connected && k.pipelines > 0 ? 'ok' : 'no'}`;
+    } catch { $('gkStatus').textContent = 'Unknown'; }
+  }
+  $('gkForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const key = e.target.key.value; e.target.reset();
+    try { const r = await api('/api/admin/streak-key', { method: 'POST', body: JSON.stringify({ key }) }); toast(`Saved · ${r.pipelines} Streak pipelines visible`); loadKey(); }
+    catch (err) { toast(err.message); }
+  });
+  loadKey();
 
   api('/api/me').then((me) => { $('who').textContent = me.member.email; }).catch(() => {});
   load().catch(() => { $('clients').innerHTML = '<p class="muted">Could not load clients. Refresh to try again.</p>'; });

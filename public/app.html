@@ -52,6 +52,7 @@
   .member .n { font-weight: 700; }
   .member .t { font-size: 12px; color: var(--text-muted); }
   [hidden] { display: none !important; }
+  .campaign-pick { margin: 0 12px 10px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; background: #fff; max-width: calc(100% - 24px); }
   .muted { color: var(--text-muted); margin-bottom: 16px; }
   #sRecipients { min-height: 84px; }
   .set-card { margin-bottom: 16px; }
@@ -72,9 +73,9 @@
   <aside class="sidebar" id="sidebar">
     <a class="brand" href="/app"><img src="/logo.svg" alt="" />Talking Points</a>
     <div class="nav-group-label" id="clientName">Your campaign</div>
+    <select id="campaignPick" class="campaign-pick" aria-label="Campaign to test" hidden></select>
     <a class="nav-item active" href="#leads" data-view="leads">Leads</a>
     <a class="nav-item" href="#profile" data-view="profile">My profile</a>
-    <a class="nav-item" href="#team" data-view="team">Team</a>
     <a class="nav-item" href="#settings" data-view="settings">Settings</a>
     <div class="nav-spacer"></div>
     <div class="user-chip" id="userChip"></div>
@@ -91,10 +92,6 @@
     <div class="content">
 
       <section id="view-leads">
-        <div class="card meetings-card" id="meetingsCard" hidden>
-          <div class="card-header"><h3>Upcoming meetings</h3><span class="tag">Talking points go out 48 hours before</span></div>
-          <div id="meetingsList"></div>
-        </div>
         <div class="leads-layout">
           <div>
             <div class="filter-row"><input id="filter" type="search" placeholder="Filter by company or name" aria-label="Filter leads" /></div>
@@ -133,18 +130,12 @@
           </form>
         </div>
 
-        <div class="card form-card set-card">
-          <div class="card-header"><h3>Google Calendar</h3><span class="tag" id="calStatus">Not connected</span></div>
-          <p class="muted">Connect the calendar where your meetings with leads are booked. Talking points for each meeting are sent before it starts.</p>
-          <div id="calBody"></div>
-        </div>
 
         <div class="card form-card set-card">
           <div class="card-header"><h3>Talking points emails</h3></div>
           <form id="emailForm">
-            <div class="field"><label for="sRecipients">Send talking points to</label><textarea id="sRecipients" rows="3" placeholder="name@company.com, colleague@company.com"></textarea><div class="hint">Separate addresses with commas. Teammates who ticked "Email me" in My profile also receive them.</div></div>
-            <div class="field"><label for="sHours">Send before each meeting</label><select id="sHours"><option value="24">24 hours</option><option value="48">48 hours</option><option value="72">72 hours</option></select></div>
-            <button class="btn primary" type="submit">Save email settings</button>
+            <div class="field"><label for="sRecipients">Send talking points to</label><textarea id="sRecipients" rows="3" placeholder="name@company.com, colleague@company.com"></textarea><div class="hint">Separate addresses with commas.</div></div>
+                        <button class="btn primary" type="submit">Save email settings</button>
           </form>
         </div>
 
@@ -154,12 +145,6 @@
         </div>
       </section>
 
-      <section id="view-team" hidden>
-        <div class="card">
-          <div class="card-header"><h3>Your team on Talking Points</h3></div>
-          <div class="team-grid" id="teamGrid"></div>
-        </div>
-      </section>
 
     </div>
   </main>

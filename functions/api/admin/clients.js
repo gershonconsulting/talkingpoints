@@ -1,9 +1,10 @@
-import { json } from '../../_lib.js';
+import { json, currentUser } from '../../_lib.js';
 
 // Owner only (enforced in functions/_middleware.js).
 // GET  /api/admin/clients → every client with its members and status
 // POST /api/admin/clients { name, slug, pipeline_key, email_domains } → create or update a client
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  const me = await currentUser(env, request);
   const clients = (await env.DB.prepare(
     `SELECT c.*, s.streak_key_hint, s.google_email, s.recipients,
             (SELECT COUNT(*) FROM briefs b WHERE b.client_id = c.id) AS briefs
@@ -13,10 +14,11 @@ export async function onRequestGet({ env }) {
     'SELECT id, client_id, email, name, title, is_admin, can_manage, notify, last_login_at FROM members ORDER BY name'
   ).all()).results;
   return json({
+    viewing: me?.client_id || null,
     clients: clients.map((c) => ({
       ...c,
       streak_connected: !!c.streak_key_hint,
-      calendar_connected: !!c.google_email,
+      streak_url: c.pipeline_key && !c.pipeline_key.startsWith('pipeline:') ? `https://www.streak.com/a/pipelines/${c.pipeline_key}` : '',
       members: members.filter((m) => m.client_id === c.id),
     })),
   });
