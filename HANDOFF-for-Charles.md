@@ -1,7 +1,7 @@
-# Talking Points app: setup (status 2026-10-22)
+# Talking Points app: setup (status 2026-10-26)
 
 The repository **github.com/gershonconsulting/talkingpoints** holds all the code. Every push to `main` deploys automatically, as with Linalysis.
-Remaining secret keys: see **HANDOFF-for-Ariel.md**.
+Remaining secret keys: see **HANDOFF-for-Ariel.md** (4 left, all need a person to paste).
 
 ## 1. LinkedIn ✅
 Talking Points uses its **own** LinkedIn app, **"TalkingPoints"** (Client ID `78b871bbkd4wyu`, https://www.linkedin.com/developers/apps/266625528/auth), not the "Client" app.
@@ -26,8 +26,8 @@ A **dedicated Google Cloud project "Talking Points"** (`talking-points-512415`, 
 |---|---|---|
 | `LINKEDIN_CLIENT_ID` | ✅ set | `78b871bbkd4wyu` |
 | `GOOGLE_CLIENT_ID` | ✅ set | see step 2 |
+| `CLOUDFLARE_ACCOUNT_ID` | ✅ set 2026-10-26 | `0b8434adba9af8231df90a1f3d2e6e12` |
 | `CLOUDFLARE_API_TOKEN` | ❌ | see HANDOFF-for-Ariel.md |
-| `CLOUDFLARE_ACCOUNT_ID` | ❌ | see HANDOFF-for-Ariel.md |
 | `LINKEDIN_CLIENT_SECRET` | ❌ | see HANDOFF-for-Ariel.md |
 | `GOOGLE_CLIENT_SECRET` | ❌ | see HANDOFF-for-Ariel.md |
 | `RESEND_API_KEY` | ❌ | see HANDOFF-for-Ariel.md |
