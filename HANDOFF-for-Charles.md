@@ -1,7 +1,7 @@
 # Talking Points app: setup (status 2026-10-26)
 
-The repository **github.com/gershonconsulting/talkingpoints** holds all the code. Every push to `main` deploys automatically, as with Linalysis.
-Remaining secret keys: see **HANDOFF-for-Ariel.md** (4 left, all need a person to paste).
+The repository **github.com/gershonconsulting/talkingpoints** holds all the code. Every push to `main` deploys automatically through **Cloudflare Pages' own GitHub connection** (project `gershon-talkingpoints`, since 2026-10-26). No Cloudflare API token and no GitHub secrets are used any more.
+Remaining secret keys: see **HANDOFF-for-Ariel.md** (3 left, pasted in Cloudflare, need a person).
 
 ## 1. LinkedIn ✅
 Talking Points uses its **own** LinkedIn app, **"TalkingPoints"** (Client ID `78b871bbkd4wyu`, https://www.linkedin.com/developers/apps/266625528/auth), not the "Client" app.
@@ -19,25 +19,18 @@ A **dedicated Google Cloud project "Talking Points"** (`talking-points-512415`, 
 - ✅ Test users (kept): oattia@gmail.com, olivier@gershonconsulting.com, aina.rama@gershonconsulting.com, dmitri.petratchenko@valos.it.
 - ✅ **Published: "In production"** (2026-10-22). Any Google account can connect, up to 100 users. Users see Google's "unverified app" screen (Advanced → Go to Talking Points) until verification.
 - ❌ *(later)* Submit for verification (Verification Center) once the site is live, to remove the "unverified app" screen.
-- ❌ **Client secret:** not stored. Clients → talkingpoints.gershon.ai → **Add secret** → GitHub `GOOGLE_CLIENT_SECRET` (in Ariel's handoff).
+- ❌ **Client secret:** not stored. Clients → talkingpoints.gershon.ai → **Add secret** → Cloudflare secret `GOOGLE_CLIENT_SECRET` (in Ariel's handoff).
 
-## 3. GitHub secrets
-| Secret | Status | Value |
-|---|---|---|
-| `LINKEDIN_CLIENT_ID` | ✅ set | `78b871bbkd4wyu` |
-| `GOOGLE_CLIENT_ID` | ✅ set | see step 2 |
-| `CLOUDFLARE_ACCOUNT_ID` | ✅ set 2026-10-26 | `0b8434adba9af8231df90a1f3d2e6e12` |
-| `CLOUDFLARE_API_TOKEN` | ❌ | see HANDOFF-for-Ariel.md |
-| `LINKEDIN_CLIENT_SECRET` | ❌ | see HANDOFF-for-Ariel.md |
-| `GOOGLE_CLIENT_SECRET` | ❌ | see HANDOFF-for-Ariel.md |
-| `RESEND_API_KEY` | ❌ | see HANDOFF-for-Ariel.md |
-| `PAPPERS_API_KEY` *(optional)* | ❌ | pappers.fr |
-| `COMPANIES_HOUSE_API_KEY` *(optional)* | ❌ | Companies House |
+## 3. Cloudflare ✅ (done by Claude 2026-10-26)
+- ✅ D1 database `talkingpoints-db` (`a1ac634b-d6f9-469d-b3d5-bc75c882abd4`). The app applies `schema.sql` + `seed.sql` itself on first request.
+- ✅ Session / webhook / ingest passwords: created by the app itself and stored in D1 (`app_secrets`). Nobody types them.
+- ✅ Client IDs (public) in `wrangler.toml` `[vars]`.
+- ✅ Pages project `gershon-talkingpoints` connected to the repo (build command `node scripts/gen-schema.mjs`, output `public`). Live at https://gershon-talkingpoints.pages.dev.
+- ❌ Custom domain `talkingpoints.gershon.ai` (CNAME → gershon-talkingpoints.pages.dev): waiting for Olivier's OK on the DNS change.
+- ❌ 3 secrets (LinkedIn, Google, Resend): **HANDOFF-for-Ariel.md**. Old GitHub secrets are no longer read.
 
-## 4. Run the deploy ❌ (after step 3)
-1. **Actions → "Deploy talkingpoints.gershon.ai" → Run workflow**.
-2. If the log line `dns:` says the token can't see the zone, add in Cloudflare (zone **gershon.ai**) **CNAME `talkingpoints` → the printed pages subdomain**, proxied. Do **not** use `talkingpoints.pages.dev` (someone else's).
-3. "Hourly: new leads and meeting talking points" then runs by itself every hour.
+## 4. Hourly job ✅
+`.github/workflows/cron.yml` signs in with a GitHub OIDC token (no secret). It runs every hour once the domain is live.
 
 ## Check ❌
 1. Open https://talkingpoints.gershon.ai → **Sign in with LinkedIn**. Olivier's accounts are already admins on Valos.

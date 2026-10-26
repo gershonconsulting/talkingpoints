@@ -13,8 +13,11 @@ STACK (same shape as Linalysis / radar)
 - D1 database talkingpoints-db (schema.sql, seed.sql)
 - Workers AI (binding AI) for the draft brief
 - Resend for email (from talkingpoints@gershon.ai) — OFF until Olivier approves the format
-- Deploy: push to main → .github/workflows/deploy.yml (creates D1 + Pages project, sets secrets,
-  deploys, attaches talkingpoints.gershon.ai, registers Streak webhooks)
+- Deploy (since 2026-10-26): push to main → Cloudflare Pages Git integration builds project
+  gershon-talkingpoints (build: node scripts/gen-schema.mjs, output: public). No API token anywhere.
+  functions/_middleware.js applies schema+seed, creates SESSION_SECRET/WEBHOOK_TOKEN/INGEST_TOKEN in
+  D1 (app_secrets), and accepts GitHub OIDC tokens from this repo in place of INGEST_TOKEN.
+  After editing schema.sql/seed.sql run the build (or node scripts/gen-schema.mjs) so _schema.js follows.
 
 ROUTES
 /                         home page
@@ -59,9 +62,9 @@ STATUS
 ✅ Code written and tested locally (home, login, dashboard, brief rendering, ingest, session)
 ✅ Repo gershonconsulting/talkingpoints created by Olivier; code pushed by Claude
 ✅ Settings page, Google Calendar sync, hourly job, recipients — tested locally
-❌ Charles (HANDOFF-for-Charles.md): LinkedIn redirect on app "Client", Google OAuth client,
-   GitHub secrets, run the deploy, DNS CNAME if needed
-❌ DNS CNAME talkingpoints → talkingpoints.pages.dev if the workflow log says the token cannot see the zone
+✅ 2026-10-26 Cloudflare: D1 created, Pages project connected to the repo, live at gershon-talkingpoints.pages.dev
+❌ Custom domain talkingpoints.gershon.ai (CNAME → gershon-talkingpoints.pages.dev) — waiting for Olivier's OK
+❌ Ariel: 3 secrets in Cloudflare (HANDOFF-for-Ariel.md) — LinkedIn, Google, Resend
 ❌ Valos team members + their email domain (members rows) — needed before Valos users can sign in
 ❌ Final email format sign-off by Olivier → set EMAIL_ENABLED = "true" in wrangler.toml
 ❌ Research step that POSTs full briefs to /api/briefs (LinkedIn profiles, social audit, industry, events)
