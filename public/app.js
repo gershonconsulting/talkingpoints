@@ -38,7 +38,7 @@
   window.addEventListener('hashchange', route);
   function route() {
     const h = decodeURIComponent(location.hash.slice(1));
-    if (h.startsWith('box:')) { show('leads'); openLead(h); return; }
+    if (h && !titles[h]) { show('leads'); openLead(h); return; }   // any other hash is a Streak box key
     show(h || 'leads');
   }
 
