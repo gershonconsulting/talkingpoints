@@ -69,7 +69,7 @@
   "lead_with": [
    {
     "title": "Respect his timing",
-    "text": "He said the team is busy and has no room for change now. Open in April by referring back to his own words: “you suggested we reconnect in six months.”"
+    "text": "He joined Electra only in June 2026 and said the team has no room for change now. Open in April by referring back to his own words: “you suggested we reconnect in six months.”"
    },
    {
     "title": "The post-IPO scale-up",
@@ -78,11 +78,15 @@
    {
     "title": "Submission readiness",
     "text": "Offer a short, no-cost review of what an integrated summary of safety/efficacy package would need — concrete value for a VP Clinical Development."
+   },
+   {
+    "title": "Speak CRO to a former CRO insider",
+    "text": "Nine years at IQVIA: skip the basics, talk about responsiveness, senior statisticians on the work and fewer hand-offs — the gaps big CROs leave."
    }
   ],
   "person": {
    "name": "Ali Ashrafzadeh",
-   "text": "Vice President, Clinical Development at Electra Therapeutics (title from Streak). Public background beyond his LinkedIn profile was not found; check his profile (linkedin.com/in/ali-ashrafzadeh-a723018) for prior employers before the April touch."
+   "text": "Joined Electra as **VP Clinical Development in June 2026** — only five months ago, which explains “no time for a change” right now. Before that: **Eli Lilly** for 6 years (Associate VP Medical, Immunology Research; Senior Medical Director) and **IQVIA** for 9 years (Medical Director, Therapeutic Strategy Lead and Chair of the Rheumatology Center of Excellence). Based in Rancho Santa Fe, California. Having spent 9 years inside a CRO, he knows exactly how outsourced biometrics should work — and where it breaks."
   },
   "company": {
    "text": "Electra was spun out of **Star Therapeutics** in 2022 and is based in South San Francisco. It targets signal regulatory proteins (SIRPs), cell-surface receptors on activated immune cells, to deplete disease-driving cells while sparing normal immune function. Its lead antibody **ipsoprubart (ELA026)** is in a global registrational program for secondary hemophagocytic lymphohistiocytosis, a hyperinflammatory syndrome with no broadly approved therapy."
@@ -115,16 +119,16 @@
    {
     "title": "Personal email only.",
     "text": "He shared a Gmail address; keep the April message personal and short, not a mass mailing."
-   },
-   {
-    "title": "Thin profile data.",
-    "text": "Prior employers and education were not verified; read his LinkedIn profile before writing."
    }
   ],
   "sources": [
    {
     "used": true,
     "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Electra Therapeutics company page and Ali Ashrafzadeh's profile and experience (Oct 26, 2026)"
    },
    {
     "used": true,
@@ -136,14 +140,33 @@
    },
    {
     "used": false,
-    "text": "Social network audit — not run for this brief"
-   },
-   {
-    "used": false,
     "text": "US events — not matched yet"
    }
   ],
-  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026",
+  "grade": {
+   "letter": "C+",
+   "headline": "A modest, occasional LinkedIn presence — **3,520 followers** and roughly one post a month.",
+   "detail": "About 10 company posts in the last 10 months; the latest (1 month ago) celebrated the Nasdaq listing. For a newly public company this is light: little science communication, no visible thought leadership. Ali himself has 1,986 followers and posts rarely.",
+   "context": "LinkedIn audited from Gershon's account on Oct 26, 2026; other networks not audited for this brief."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Electra Therapeutics",
+     "audience": "3,520 followers · 11–50 employees",
+     "recency": "~10 posts in 10 months; last 1 month ago (IPO)",
+     "read": "Corporate milestones only"
+    },
+    {
+     "channel": "LinkedIn — Ali Ashrafzadeh",
+     "audience": "1,986 followers",
+     "recency": "Reposted the Nasdaq listing 1 month ago; otherwise quiet for years",
+     "read": "Reader, not a poster"
+    }
+   ],
+   "note": "Engage through direct messages and his own words, not through content."
+  }
  },
  "send": false
 }

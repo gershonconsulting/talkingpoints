@@ -61,9 +61,9 @@
     "reason": "As CEO he can sign off the rates and the study concept; Audrey, Francesco, Sergey and Andrea already met the team."
    },
    "items": [
+    "**Dmitri and Debra are already 1st-degree LinkedIn connections** — he can write to her directly.",
     "Valos already covers **device studies** as well as drug trials — a direct match for a first-in-human/feasibility device program.",
-    "Valos's European base (Genoa, Italy) is an advantage for a study run in **Spain**: same regulatory region (EU MDR) and time zone.",
-    "Dmitri: add your background in **My profile** so future briefs can match on employers, schools and conferences."
+    "Valos's European base (Genoa, Italy) is an advantage for a study run in **Spain**: same regulatory region (EU MDR) and time zone."
    ]
   },
   "lead_with": [
@@ -82,7 +82,7 @@
   ],
   "person": {
    "name": "Debra Mitchell, PhD",
-   "text": "Principal and clinical research consultant (Beofor, beofor.ca), acting for Hybernia on this study. She is the gatekeeper for the vendor questionnaire; confirm who at Hybernia signs the contract."
+   "text": "Founder & President of **Beofor Research Consulting** (since May 2025, Toronto): clinical research and medical affairs strategy for biotechs, including **CRO oversight** and vendor optimization. Before that, **16 years at Janssen (J&J)**, latest as Director, Global Clinical Program Leader; also ex-Eli Lilly. Her headline cites 150+ studies, 50+ countries and a $1B+ portfolio. She is already **connected to Dmitri on LinkedIn**. She chooses vendors for a living — expect a rigorous qualification."
   },
   "company": {
    "text": "Hybernia Medical develops an endovascular catheter system that cools the brain locally (selective hypothermia) during stroke procedures, to protect tissue and limit reperfusion injury. It started as a Columbia University spin-off, is based in Uniondale, New York, and holds US patents on estimating regional metabolic rate and blood flow from heat. Its founders co-edited a Frontiers in Neurology series on brain hypothermia and neuroprotection."
@@ -123,12 +123,20 @@
    {
     "title": "Contact record.",
     "text": "Streak shows the contact as “Debra4 M” — fix the name to Debra Mitchell."
+   },
+   {
+    "title": "Vendor-selection expert.",
+    "text": "Debra builds CRO oversight frameworks professionally; prepare SOPs, QA process and references before the questionnaire arrives."
    }
   ],
   "sources": [
    {
     "used": true,
     "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Hybernia Medical company page and Debra Mitchell's profile and experience (Oct 26, 2026)"
    },
    {
     "used": true,
@@ -140,14 +148,34 @@
    },
    {
     "used": false,
-    "text": "Social network audit — not run for this brief"
-   },
-   {
-    "used": false,
     "text": "US events — not matched yet"
    }
   ],
-  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026",
+  "grade": {
+   "letter": "D+",
+   "headline": "Almost invisible on LinkedIn — **266 followers**, about four posts in a year.",
+   "detail": "Last company post 5 months ago, before that 11 months ago; 2–10 employees listed. The science is published (Frontiers in Neurology series), but none of it is amplified socially. Their consultant Debra Mitchell is far more visible than the company (2,328 followers, posting every few weeks).",
+   "context": "LinkedIn audited from Gershon's account on Oct 26, 2026; other networks not audited for this brief."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Hybernia Medical, LLC",
+     "audience": "266 followers · 2–10 employees",
+     "recency": "~4 posts in 12 months; last 5 months ago",
+     "read": "Dormant",
+     "tone": "warn"
+    },
+    {
+     "channel": "LinkedIn — Debra Mitchell, PhD",
+     "audience": "2,328 followers",
+     "recency": "Posts every few weeks (latest 2 weeks ago, on AI and automation)",
+     "read": "Active, opinionated voice"
+    }
+   ],
+   "note": "Debra's post two weeks ago argued that not every problem needs automation — useful context if Valos talks about AI in biometrics."
+  }
  },
  "send": false
 }

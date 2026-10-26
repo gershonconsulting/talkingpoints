@@ -45,6 +45,11 @@
    {
     "label": "Contact",
     "value": "ramaiahshashi@speccro.com"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/shashiramaiah (the link stored in Streak is dead)",
+    "tone": "warn"
    }
   ],
   "in_common": {
@@ -53,9 +58,10 @@
     "reason": "CEO to founder-CEO: a partnership conversation is best held at the top."
    },
    "items": [
+    "**Dmitri is a 1st-degree LinkedIn connection of Shashi** — no introduction needed.",
+    "Olivier Attia (Gershon) shares **91 mutual connections** with Shashi, including Andy Palmer and Bill Malloy — useful if a warm reference helps.",
     "Both are **senior experts selling to small and mid-sized biotechs** — Dmitri has spoken on outsourcing strategy for biostatistics and data management at summits in London, Boston, Munich and Zurich.",
-    "Both are based or active in the **Boston** biotech scene (Valos attended PharmaSUG 2026 in Boston).",
-    "Dmitri: add your background in **My profile** so future briefs can match on employers, schools and conferences."
+    "Both are active in the **Boston** biotech scene (SPECCRO is in Cambridge/Lexington, MA; Valos attended PharmaSUG 2026 in Boston)."
    ]
   },
   "lead_with": [
@@ -103,12 +109,20 @@
    {
     "title": "Partner category.",
     "text": "Set the Streak **Category** to *Partner* so it is tracked separately from sponsors."
+   },
+   {
+    "title": "Fix the Streak link.",
+    "text": "The LinkedIn URL in Streak returns “page doesn't exist”; replace it with linkedin.com/in/shashiramaiah."
    }
   ],
   "sources": [
    {
     "used": true,
     "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — SPECCRO Inc company page, Shashi Ramaiah's profile and mutual connections (Oct 26, 2026)"
    },
    {
     "used": true,
@@ -121,13 +135,38 @@
    {
     "used": false,
     "text": "Financials — private company, none public"
-   },
-   {
-    "used": false,
-    "text": "Social network audit — not run for this brief"
    }
   ],
-  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "A founder-led voice: **Shashi has 12,701 followers**; the company page is small but active.",
+   "detail": "SPECCRO Inc has 912 followers and 2–10 employees, with recent posts 5 days and 1 week ago after a two-month gap. Shashi is also on X (@ShashiRamaiah) and speaks at industry panels. One standout channel (the founder), weaker elsewhere — a textbook B.",
+   "context": "LinkedIn audited from Gershon's account on Oct 26, 2026; other networks not audited for this brief."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Shashi Ramaiah",
+     "audience": "12,701 followers",
+     "recency": "Active; frequent speaker and panelist",
+     "read": "Standout channel"
+    },
+    {
+     "channel": "LinkedIn — SPECCRO Inc",
+     "audience": "912 followers · 2–10 employees",
+     "recency": "Posts 5 days and 1 week ago; gap of ~2 months before",
+     "read": "Small, picking up"
+    },
+    {
+     "channel": "X — @ShashiRamaiah",
+     "audience": "Not counted",
+     "recency": "Active profile (NAMs advocacy)",
+     "read": "Secondary"
+    }
+   ],
+   "note": "A co-authored post or joint webinar (NAMs and statistics) would reach his 12.7K audience — an easy first project."
+  }
  },
  "send": false
 }
