@@ -74,7 +74,7 @@
     pane.innerHTML = '<div class="empty"><p>Loading talking points…</p></div>';
     try {
       const { brief } = await api(`/api/leads/${encodeURIComponent(box)}`);
-      if (brief) { pane.innerHTML = brief.html; return; }
+      if (brief) { showBrief(brief); return; }
       const lead = leads.find((l) => l.box_key === box);
       pane.innerHTML = `<div class="empty"><h3>No talking points for ${esc(lead?.company || 'this lead')} yet</h3>
         <p>Create a first draft now from your pipeline data. The full researched version replaces it when ready.</p>
@@ -85,12 +85,61 @@
     }
   }
 
+  // ---------- Brief toolbar: download + send ----------
+  let shown = null;
+  function showBrief(brief) {
+    shown = brief;
+    $('briefPane').innerHTML = `<div class="brief-tools">
+        <button class="btn" id="dlPdf">Download PDF</button>
+        <button class="btn" id="dlHtml">Download HTML</button>
+        <button class="btn primary" id="sendOpen">Send by email</button>
+      </div>
+      <form class="send-box" id="sendBox" hidden>
+        <label for="sendTo">Send to</label><input id="sendTo" type="text" placeholder="name@company.com, colleague@company.com" />
+        <label for="sendNote">Message (optional)</label><textarea id="sendNote" placeholder="A line to go above the talking points"></textarea>
+        <div class="row-actions"><button class="btn primary" type="submit" id="sendGo">Send now</button><button class="btn" type="button" id="sendCancel">Cancel</button></div>
+      </form>
+      <div id="briefDoc">${brief.html}</div>`;
+    const name = `Talking Points - ${brief.company || 'lead'} - ${brief.lead_name || ''}`.replace(/[\\/:*?"<>|]+/g, '').trim();
+    $('dlHtml').onclick = () => {
+      const doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${esc(name)}</title></head><body style="margin:0">${brief.html}</body></html>`;
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([doc], { type: 'text/html' }));
+      a.download = `${name}.html`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    };
+    $('dlPdf').onclick = async () => {
+      const btn = $('dlPdf'); btn.disabled = true; btn.textContent = 'Preparing PDF…';
+      try {
+        if (!window.html2pdf) throw new Error('pdf');
+        await window.html2pdf().set({ margin: [6, 6, 6, 6], filename: `${name}.pdf`, image: { type: 'jpeg', quality: 0.95 },
+          html2canvas: { scale: 2, useCORS: true }, jsPDF: { unit: 'mm', format: 'a4' }, pagebreak: { mode: ['css', 'legacy'] } })
+          .from($('briefDoc')).save();
+      } catch { toast('The PDF could not be made. Use Download HTML instead.'); }
+      btn.disabled = false; btn.textContent = 'Download PDF';
+    };
+    $('sendOpen').onclick = async () => {
+      $('sendBox').hidden = false;
+      try { const s = await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`); if (!$('sendTo').value) $('sendTo').value = s.suggested; } catch { /* keep empty */ }
+      $('sendTo').focus();
+    };
+    $('sendCancel').onclick = () => { $('sendBox').hidden = true; };
+    $('sendBox').onsubmit = async (e) => {
+      e.preventDefault();
+      const go = $('sendGo'); go.disabled = true; go.textContent = 'Sending…';
+      try {
+        const r = await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`, { method: 'POST', body: JSON.stringify({ to: $('sendTo').value, note: $('sendNote').value }) });
+        toast(`Sent to ${r.sent_to.length} ${r.sent_to.length === 1 ? 'person' : 'people'}`); $('sendBox').hidden = true;
+      } catch (err) { toast(err.body?.error || 'Not sent. Try again.'); }
+      go.disabled = false; go.textContent = 'Send now';
+    };
+  }
+
   async function makeDraft(box) {
     const btn = $('makeDraft');
     btn.disabled = true; btn.textContent = 'Creating draft…';
     try {
       const { brief } = await api(`/api/leads/${encodeURIComponent(box)}`, { method: 'POST' });
-      $('briefPane').innerHTML = brief.html;
+      showBrief(brief);
       const l = leads.find((x) => x.box_key === box);
       if (l) l.brief = { status: brief.status, lead_name: brief.lead_name, lead_role: brief.lead_role };
       renderList();

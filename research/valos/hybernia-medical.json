@@ -92,7 +92,7 @@
    "text": "Small private company (1–50 people). A third-party directory lists about **$3.7M raised** with support from the NIH, New York State and the Dana Foundation — _unverified, treat as indicative_. Budget sensitivity is likely: lead with hourly rates and a phased scope."
   },
   "history": {
-   "text": "Meeting held with Audrey, Francesco, Sergey and Andrea about the follow-up feasibility study in Spain. Agreed: Valos sends senior statistical study-design hourly rates, identifies Spanish regulatory and operational partners, and drafts a preliminary study concept. Hybernia sends a vendor qualification questionnaire. Broader scope and pricing come once the design is clear."
+   "text": "Meeting held with Audrey, Francesco, Sergey and Andrea about the follow-up feasibility study in Spain. Agreed: Valos sends senior statistical study-design hourly rates, identifies Spanish regulatory and operational partners, and drafts a preliminary study concept. Hybernia sends a vendor qualification questionnaire. Broader scope and pricing come once the design is clear. Background: Hybernia's 8-patient Post-MECC feasibility study ran at Vall d'Hebron University Hospital (Barcelona) from June to October 2025."
   },
   "industry": [
    {
@@ -136,7 +136,11 @@
    },
    {
     "used": true,
-    "text": "LinkedIn — Hybernia Medical company page and Debra Mitchell's profile and experience (Oct 26, 2026)"
+    "text": "LinkedIn — Debra Mitchell's activity and experience; Hybernia company page (Oct 26, 2026)"
+   },
+   {
+    "used": true,
+    "text": "ClinicalTrials.gov NCT06634303 (Post-MECC); NYS-IN 2026 agenda (Westchester Medical Center)"
    },
    {
     "used": true,
@@ -175,7 +179,76 @@
     }
    ],
    "note": "Debra's post two weeks ago argued that not every problem needs automation — useful context if Valos talks about AI in biometrics."
-  }
+  },
+  "network": {
+   "summary": "Dmitri and Debra are **already 1st-degree connections** on LinkedIn.",
+   "items": [
+    "Gershon (Olivier Attia) shares 4 connections with Debra, including Dmitri.",
+    "The exact number of connections Dmitri shares with this person is only visible from Dmitri's own LinkedIn account; LinkedIn does not share it with other apps."
+   ]
+  },
+  "posts": [
+   {
+    "when": "2 weeks ago",
+    "where": "LinkedIn",
+    "text": "“Not every problem needs automation.” Before buying a tool, define the problem: is it process, people, data or technology?",
+    "use": "If AI comes up, frame Valos's AI work as fixing defined bottlenecks, not tech for its own sake."
+   },
+   {
+    "when": "2 weeks ago",
+    "where": "Beofor Research Consulting",
+    "text": "Programs struggle on execution, not science — they need clarity on decision rights, accountability, **vendor oversight**, resources and milestones.",
+    "use": "Show the governance Valos offers: named senior statistician, escalation path, milestone reporting."
+   },
+   {
+    "when": "2 months ago",
+    "where": "LinkedIn",
+    "text": "A biotech's Phase II was inspection-ready but not **evidence-ready**: endpoints, registry design and the CRO statement of work had ignored publication and payer needs.",
+    "use": "Propose that the Spain study concept is designed to be evidence-ready from day one (publications, next financing)."
+   },
+   {
+    "when": "7 months ago",
+    "where": "LinkedIn",
+    "text": "Her rules: she doesn't work for free, every meeting needs a **clear purpose**, she declines cold outreach and checks LinkedIn twice a week.",
+    "use": "Send a tight agenda before any call and reach her by email."
+   },
+   {
+    "when": "7 months ago",
+    "where": "LinkedIn",
+    "text": "Regulators look for process awareness — “can you defend why a vendor was **qualified and selected**?”",
+    "use": "Have Valos's QA and vendor-qualification answers ready before her questionnaire arrives."
+   },
+   {
+    "when": "9 months ago",
+    "where": "LinkedIn",
+    "text": "A protocol amendment costs about **$500,000** and months of delay; the fix is robust design with KOLs and regulators up front.",
+    "use": "Position Valos's senior study design as amendment insurance."
+   }
+  ],
+  "groups": [
+   {
+    "name": "No public LinkedIn groups listed"
+   }
+  ],
+  "events_attended": [
+   {
+    "name": "NYS-IN 2026 (New York Symposium: Innovation in Neurosciences)",
+    "when": "July 17, 2026, New York Academy of Medicine",
+    "role": "Hybernia trial presented",
+    "note": "John Pile-Spellman presented the Hybernia Post-MECC trial in the trials update."
+   },
+   {
+    "name": "Debra Mitchell — no public conference appearances found",
+    "note": "She communicates mainly through LinkedIn posts."
+   }
+  ],
+  "hooks": [
+   "Hybernia's first study, **Post-MECC (NCT06634303)**, was an 8-patient device feasibility study at **Vall d'Hebron, Barcelona**, completed in October 2025 — the new Spanish study builds on it.",
+   "Debra **co-developed statistical analysis plans, designed CRFs and revamped RfP processes** at J&J — she will judge Valos's study-design depth personally.",
+   "Her own words: “If you want better outcomes, ask better questions” — start by asking what the Spain study must prove for Hybernia's next step.",
+   "Like Ali Ashrafzadeh at Electra, she is **ex-Eli Lilly** (and 16 years at J&J/Janssen).",
+   "She values long-term partnerships (“with CROs and vendors, think of how you can work together for the long term”) — present Valos for the program, not one study."
+  ]
  },
  "send": false
 }

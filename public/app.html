@@ -51,6 +51,12 @@
   .member img, .member .avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
   .member .n { font-weight: 700; }
   .member .t { font-size: 12px; color: var(--text-muted); }
+  .brief-tools { display: flex; gap: 8px; justify-content: flex-end; padding: 10px 12px; background: #fff; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+  .brief-tools .btn { font-size: 13px; padding: 7px 12px; }
+  .send-box { background: #fff; border-bottom: 1px solid var(--border); padding: 12px; }
+  .send-box label { display: block; font-size: 12px; font-weight: 600; margin: 0 0 4px; }
+  .send-box input, .send-box textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; margin-bottom: 8px; }
+  .send-box textarea { min-height: 60px; }
   [hidden] { display: none !important; }
   .tpl-list { list-style: none; margin: 0 0 18px; padding: 0; counter-reset: tpl; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
   .tpl-list li { counter-increment: tpl; display: flex; gap: 12px; align-items: flex-start; padding: 10px 14px; border-top: 1px solid var(--border); font-size: 14px; }
@@ -169,6 +175,7 @@
   </main>
 </div>
 <div id="toast" role="status"></div>
-<script src="/app.js?v=20261026c"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+<script src="/app.js?v=20261026d"></script>
 </body>
 </html>

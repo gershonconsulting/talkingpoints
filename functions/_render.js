@@ -14,6 +14,11 @@
 //   company:    { text },
 //   financials: { country, text },                 // only when public data exists
 //   history:    { text },
+//   network:    { summary, items:[ "…" ] },                  // connections in common with the client user
+//   posts:      [{ when, where, text, use }],                 // what the lead posted / shared recently
+//   groups:     [{ name, members, note }],                    // LinkedIn groups
+//   events:     see below; events_attended: [{ name, when, role, note }]
+//   hooks:      [ "…" ],                                      // anything worth using during the call
 //   social:     { rows:[{ channel, audience, recency, read, tone? }], note },
 //   industry:   [{ title, text }],
 //   talking_points: [ "…" ],
@@ -104,6 +109,36 @@ ${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-h
   if (has(d.company)) out.push(card(`${label('The company')}${para(d.company.text)}`));
   if (has(d.financials) && d.financials.text) out.push(card(`${label(`Financials & ownership${d.financials.country ? ` (${d.financials.country})` : ''}`)}${para(d.financials.text)}`));
   if (has(d.history)) out.push(card(`${label('Previous conversation')}${para(d.history.text)}`));
+
+  // 9b. Network in common
+  if (has(d.network)) {
+    out.push(card(`${label('Network in common', C.brand)}${d.network.summary ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;line-height:1.5;">${fmt(d.network.summary)}</div>` : ''}
+${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:6px;">• ${fmt(t)}</div>`).join('')}`));
+  }
+
+  // 9c. What they posted
+  if (has(d.posts)) {
+    out.push(card(`${label('What they posted recently')}${d.posts.map((p, i, a) =>
+      `<div style="${i < a.length - 1 ? `padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid ${C.line};` : ''}">
+<div style="font-size:11px;color:${C.muted};font-weight:700;letter-spacing:.4px;margin-bottom:4px;">${esc(p.when || '')}${p.where ? ` · ${esc(p.where)}` : ''}</div>
+<div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt(p.text)}</div>
+${p.use ? `<div style="font-size:12px;color:${C.brand};margin-top:6px;line-height:1.5;"><strong>Use it:</strong> ${fmt(p.use)}</div>` : ''}</div>`).join('')}`));
+  }
+
+  // 9d. Groups and events attended
+  if (has(d.groups)) {
+    out.push(card(`${label('LinkedIn groups')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.groups.map((g) =>
+      `<strong>${esc(g.name)}</strong>${g.members ? ` <span style="color:${C.faint};">(${esc(g.members)} members)</span>` : ''}${g.note ? ` — ${fmt(g.note)}` : ''}`).join('<br>')}</div>`));
+  }
+  if (has(d.events_attended)) {
+    out.push(card(`${label('Events they attended or spoke at')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events_attended.map((e) =>
+      `<strong>${esc(e.name)}</strong>${e.when ? ` — ${esc(e.when)}` : ''}${e.role ? ` · <span style="color:${C.brand};font-weight:700;">${esc(e.role)}</span>` : ''}${e.note ? `<br><span style="color:${C.muted};">${fmt(e.note)}</span>` : ''}`).join('<br>')}</div>`));
+  }
+
+  // 9e. Worth using in the call
+  if (has(d.hooks)) {
+    out.push(card(`${label('Worth using in the call', C.brand)}${d.hooks.map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:8px;padding-left:14px;border-left:3px solid ${C.brand};">${fmt(t)}</div>`).join('')}`, { border: C.brand }));
+  }
 
   // 10. LinkedIn & social intelligence
   if (has(d.social) && has(d.social.rows)) {

@@ -95,11 +95,11 @@
    }
   ],
   "talking_points": [
-   "Which of your biotech clients struggle most once they reach the clinic — data, statistics, or vendor management?",
-   "Do you refer clients to biometrics providers today, and how do you choose them?",
-   "How do you see NAM data being validated statistically for regulators?",
-   "Would a joint offer (de-risking plus biometrics) help your investor clients during due diligence?",
-   "What would a good first project together look like?"
+   "Your diligence questions end with “a real decision point with the money being raised” — who owns the statistics that prove that decision point today?",
+   "Which CRO partners in your network handle biostatistics and data management, and where do they fall short?",
+   "How do you expect NAMs data to be validated statistically for FDA, now that the agency encourages NAMs-based strategies?",
+   "Would a joint offer — SPECCRO de-risking plus Valos biometrics — help your investor and biotech clients?",
+   "What would a good first project together look like in the next quarter?"
   ],
   "attention": [
    {
@@ -122,7 +122,7 @@
    },
    {
     "used": true,
-    "text": "LinkedIn — SPECCRO Inc company page, Shashi Ramaiah's profile and mutual connections (Oct 26, 2026)"
+    "text": "LinkedIn — Shashi Ramaiah's activity (last 3 months), groups and mutual connections; SPECCRO company page (Oct 26, 2026)"
    },
    {
     "used": true,
@@ -166,7 +166,123 @@
     }
    ],
    "note": "A co-authored post or joint webinar (NAMs and statistics) would reach his 12.7K audience — an easy first project."
-  }
+  },
+  "network": {
+   "summary": "Dmitri and Shashi are **already 1st-degree connections** on LinkedIn — Dmitri can message him directly.",
+   "items": [
+    "Gershon (Olivier Attia) shares **91 connections** with Shashi, including Andy Palmer and Bill Malloy — a warm reference is available if needed.",
+    "Shashi's close circle: SPECCRO advisors Ravi Kurumbail and Chakrapani Subramanyam, board advisor Chandra Williams, and former Pfizer colleagues.",
+    "The exact number of connections Dmitri shares with this person is only visible from Dmitri's own LinkedIn account; LinkedIn does not share it with other apps."
+   ]
+  },
+  "posts": [
+   {
+    "when": "5 days ago",
+    "where": "LinkedIn (reshared SPECCRO post)",
+    "text": "“Three questions we ask first in scientific diligence”: what target biology predicts about safety, whether the efficacious exposure is reachable without the tox liabilities, and whether the plan reaches a real **decision point with the money being raised**.",
+    "use": "Mirror his language: Valos's statistics turn those three questions into a clean, defensible data package for investors."
+   },
+   {
+    "when": "1 week ago",
+    "where": "LinkedIn",
+    "text": "“Most programs don't stall on the science. They stall on the sequence.” SPECCRO builds the order of questions with **40+ former large-pharma heads of function**, then runs the CRO work that answers them.",
+    "use": "Valos fits right after his sequence: when the questions reach the clinic, someone has to analyse the answers."
+   },
+   {
+    "when": "3 weeks ago",
+    "where": "LinkedIn",
+    "text": "Joined the **BioCryst Pharmaceuticals Scientific Advisory Board** (rare disease), chaired by Tony Manning.",
+    "use": "Congratulate him — it's his most-liked recent post (76 reactions)."
+   },
+   {
+    "when": "3 weeks ago",
+    "where": "LinkedIn",
+    "text": "Spoke on a panel at **LSX Congress USA (Boston)** about pitching science: “What would kill this programme?” is the first question he asks; “a founder loses my conviction when the deck can't tell me what would kill it.”",
+    "use": "Open with a candid statement of what Valos does **not** do — he respects naming the weak spot."
+   },
+   {
+    "when": "1 month ago",
+    "where": "LinkedIn",
+    "text": "Commented “Nice” on **Pfizer's Head of Internal Medicine Statistics** (Jared Christensen) publishing his talk in the ASA Biopharmaceutical Report.",
+    "use": "He follows and respects biostatistics leaders — a natural bridge to Dmitri."
+   },
+   {
+    "when": "2–3 months ago",
+    "where": "LinkedIn",
+    "text": "SPECCRO became a **founding member of CRO Marketplace**; it publishes a biweekly **NAMs roundup** (FDA/CDER MPS training, OECD TG 497, China NMPA PIONEER program).",
+    "use": "Ask how NAMs data will be validated statistically — an opening for Valos."
+   }
+  ],
+  "groups": [
+   {
+    "name": "Regulatory Affairs Professionals Society (RAPS)",
+    "members": "96,137"
+   },
+   {
+    "name": "Good Clinical Practice (GCP)",
+    "members": "96,160"
+   },
+   {
+    "name": "Cambridge Biotech Club",
+    "members": "1,817",
+    "note": "Boston/Cambridge network"
+   },
+   {
+    "name": "Boston Society Gene & Cell Therapy",
+    "members": "114",
+    "note": "he spoke at its conference on AAV safety"
+   },
+   {
+    "name": "Pfizer Boston Area Alumni"
+   },
+   {
+    "name": "Blueprint Medicines Talent Exchange",
+    "members": "431"
+   },
+   {
+    "name": "Triangle Biotech Tuesday",
+    "members": "4,889"
+   },
+   {
+    "name": "Femtech & Women's health / FemTech Innovation / FemTech Europe",
+    "note": "three FemTech groups"
+   }
+  ],
+  "events_attended": [
+   {
+    "name": "LSX Congress USA",
+    "when": "Boston, early October 2026",
+    "role": "Panelist",
+    "note": "Panel on commercial pitching — turning breakthrough science into a credible business story."
+   },
+   {
+    "name": "Inflammation Research Association (IRA) Annual Meeting",
+    "when": "Boston, ~August 2026",
+    "role": "Attended with SPECCRO"
+   },
+   {
+    "name": "BLPN evening, Biotech Week Boston",
+    "when": "Sep 22, 2026, The Comedy Studio, Harvard Square",
+    "role": "Listed attendee"
+   },
+   {
+    "name": "Boston Society Gene and Cell Therapy Conference",
+    "role": "Speaker",
+    "note": "“Derisking Gene Therapy (AAV): Translational Strategies and Emerging Tools to Navigate Safety Risks”."
+   },
+   {
+    "name": "NAMs Revolution virtual panel (Drug Discovery Online)",
+    "role": "Panelist",
+    "note": "Argued for regulatory clarity and global harmonization of NAMs in GLP settings."
+   }
+  ],
+  "hooks": [
+   "Congratulate him on the **BioCryst SAB** seat (3 weeks ago).",
+   "Quote his LSX line back to him: “What would kill this programme?” — then say what would kill a biometrics partnership (slow hand-offs, junior staff on senior work) and how Valos avoids it.",
+   "He just wrote that SPECCRO “runs the CRO work” behind its sequence of questions — ask who handles **statistics and data** in that CRO network today.",
+   "Both Valos and SPECCRO are small expert teams selling against big CROs — a shared story.",
+   "He posted an internship ad and a NAMs roundup every two weeks: SPECCRO is building BD capacity — partnering is timely."
+  ]
  },
  "send": false
 }

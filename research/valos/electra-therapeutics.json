@@ -86,7 +86,7 @@
   ],
   "person": {
    "name": "Ali Ashrafzadeh",
-   "text": "Joined Electra as **VP Clinical Development in June 2026** — only five months ago, which explains “no time for a change” right now. Before that: **Eli Lilly** for 6 years (Associate VP Medical, Immunology Research; Senior Medical Director) and **IQVIA** for 9 years (Medical Director, Therapeutic Strategy Lead and Chair of the Rheumatology Center of Excellence). Based in Rancho Santa Fe, California. Having spent 9 years inside a CRO, he knows exactly how outsourced biometrics should work — and where it breaks."
+   "text": "Joined Electra as **VP Clinical Development in June 2026** — only five months ago, which explains “no time for a change” right now. Before that: **Eli Lilly** for 6 years (Associate VP Medical, Immunology Research; Senior Medical Director) and **IQVIA** for 9 years (Medical Director, Therapeutic Strategy Lead and Chair of the Rheumatology Center of Excellence). Based in Rancho Santa Fe, California. Having spent 9 years inside a CRO, he knows exactly how outsourced biometrics should work — and where it breaks. Education: BS Biomedical Engineering and MA Medical Sciences (Boston University), MD (Ross University), internal medicine residency (Cornell-affiliated New York Methodist), rheumatology fellowship (University of Arizona). 1,986 LinkedIn followers."
   },
   "company": {
    "text": "Electra was spun out of **Star Therapeutics** in 2022 and is based in South San Francisco. It targets signal regulatory proteins (SIRPs), cell-surface receptors on activated immune cells, to deplete disease-driving cells while sparing normal immune function. Its lead antibody **ipsoprubart (ELA026)** is in a global registrational program for secondary hemophagocytic lymphohistiocytosis, a hyperinflammatory syndrome with no broadly approved therapy."
@@ -128,7 +128,7 @@
    },
    {
     "used": true,
-    "text": "LinkedIn — Electra Therapeutics company page and Ali Ashrafzadeh's profile and experience (Oct 26, 2026)"
+    "text": "LinkedIn — Ali Ashrafzadeh's profile, experience, education, groups and activity; Electra company page (Oct 26, 2026)"
    },
    {
     "used": true,
@@ -166,7 +166,68 @@
     }
    ],
    "note": "Engage through direct messages and his own words, not through content."
-  }
+  },
+  "network": {
+   "summary": "Dmitri and Ali are **already 1st-degree connections** on LinkedIn.",
+   "items": [
+    "Gershon (Olivier Attia) shares 3 connections with Ali, including Dmitri and Pejvack Motlagh.",
+    "The exact number of connections Dmitri shares with this person is only visible from Dmitri's own LinkedIn account; LinkedIn does not share it with other apps."
+   ]
+  },
+  "posts": [
+   {
+    "when": "1 month ago",
+    "where": "LinkedIn (repost of Nasdaq)",
+    "text": "“So excited to be a part of this! 🎉” — on Electra joining Nasdaq under **ETRA**.",
+    "use": "Congratulate him on the IPO when you reconnect in April."
+   },
+   {
+    "when": "Earlier",
+    "where": "LinkedIn",
+    "text": "Otherwise posts very rarely (a few personal reposts years ago). He reads more than he writes.",
+    "use": "Reach him by direct message or email, not through content."
+   }
+  ],
+  "groups": [
+   {
+    "name": "Immunology Drug Development Physicians",
+    "members": "335",
+    "note": "his core professional community"
+   },
+   {
+    "name": "Cell Therapy Industry group",
+    "members": "31,883"
+   },
+   {
+    "name": "The International Society for Musculoskeletal Imaging in Rheumatology (ISEMIR)",
+    "members": "188"
+   },
+   {
+    "name": "Cartilage Repair/Regeneration/Degeneration Group",
+    "members": "2,056"
+   },
+   {
+    "name": "University of Arizona Alumni",
+    "members": "32,411"
+   },
+   {
+    "name": "Boston University (BU) Bay Area Alumni",
+    "members": "780"
+   }
+  ],
+  "events_attended": [
+   {
+    "name": "No public speaking or conference appearances found",
+    "note": "Check ACR Convergence attendance lists if relevant — he is a rheumatologist by training (University of Arizona fellowship)."
+   }
+  ],
+  "hooks": [
+   "He joined Electra in **June 2026** — five months in, with a registrational program and a fresh $350M: he is still building his vendor bench.",
+   "**Nine years at IQVIA** as Medical Director and Chair of the Rheumatology Center of Excellence: he has sat on the CRO side of the table — speak frankly about what big CROs get wrong.",
+   "Rheumatologist and immunologist by training (Boston University MA in medical sciences, focus on immunology; Cornell residency; University of Arizona rheumatology fellowship).",
+   "He grew up around **Boston** (Newton North High School, Boston University) — Valos is active in Boston (PharmaSUG 2026).",
+   "Ex-Eli Lilly (AVP Medical, Immunology Research) — like Debra Mitchell at Hybernia, also ex-Lilly."
+  ]
  },
  "send": false
 }
