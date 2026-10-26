@@ -87,3 +87,15 @@ CREATE TABLE IF NOT EXISTS client_templates (
   icp         TEXT NOT NULL DEFAULT '',   -- ideal customer profile
   updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+-- Emails waiting for the social.gershon.ai relay (read once, then marked fetched).
+CREATE TABLE IF NOT EXISTS outbox (
+  id          TEXT PRIMARY KEY,
+  to_list     TEXT NOT NULL,
+  subject     TEXT NOT NULL,
+  html        TEXT NOT NULL,
+  text        TEXT NOT NULL DEFAULT '',
+  reply_to    TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+  fetched_at  TEXT
+);

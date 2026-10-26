@@ -81,6 +81,17 @@ CREATE TABLE IF NOT EXISTS client_templates (
   updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
+CREATE TABLE IF NOT EXISTS outbox (
+  id          TEXT PRIMARY KEY,
+  to_list     TEXT NOT NULL,
+  subject     TEXT NOT NULL,
+  html        TEXT NOT NULL,
+  text        TEXT NOT NULL DEFAULT '',
+  reply_to    TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+  fetched_at  TEXT
+);
+
 INSERT OR IGNORE INTO clients (slug, name, pipeline_key, email_domains)
 VALUES ('valos', 'Valos Srl', 'pipeline:aina.andriamangason@gmail.com:5165361957781504', '');
 

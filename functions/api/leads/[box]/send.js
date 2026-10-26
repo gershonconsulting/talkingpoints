@@ -11,7 +11,7 @@ export async function onRequestGet({ request, env }) {
   if (!u) return json({ error: 'signed_out' }, 401);
   const s = (await getSettings(env, u.client_id)) || {};
   const list = String(s.recipients || '').split(/[\s,;]+/).filter((e) => EMAIL.test(e));
-  return json({ suggested: [...new Set([u.email, ...list])].join(', '), ready: !!env.RESEND_API_KEY });
+  return json({ suggested: [...new Set([u.email, ...list])].join(', '), ready: true });
 }
 
 export async function onRequestPost({ request, env, params }) {
@@ -25,7 +25,6 @@ export async function onRequestPost({ request, env, params }) {
   const bad = to.filter((e) => !EMAIL.test(e));
   if (!to.length || bad.length) return json({ error: bad.length ? `Check these addresses: ${bad.join(', ')}` : 'Add at least one email address.' }, 400);
   if (to.length > 20) return json({ error: 'Send to 20 people at most.' }, 400);
-  if (!env.RESEND_API_KEY) return json({ error: 'Email sending is being switched on by Gershon Consulting. Use Download PDF for now.' }, 503);
 
   const data = applyTemplate(row.data, await getTemplate(env, u.client_id));
   const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -35,6 +34,7 @@ export async function onRequestPost({ request, env, params }) {
   try {
     await sendEmail(env, {
       to,
+      reply_to: EMAIL.test(u.email || '') ? u.email : undefined,
       subject: `Talking Points : ${row.company} - ${row.lead_name || 'Lead'} - ${date}`,
       html: intro + renderBrief(data),
       text: (note ? `${note}\n\n` : '') + renderBriefText(data),
