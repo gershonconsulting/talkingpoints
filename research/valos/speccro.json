@@ -1,0 +1,133 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOX_i6yKCAw",
+ "company": "SPECCRO Inc",
+ "lead_name": "Shashi Ramaiah, DVM, PhD",
+ "lead_role": "President, Founder & CEO",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "SPECCRO Inc",
+   "person": "Shashi Ramaiah, DVM, PhD, DACVP, DABT",
+   "role": "President, Founder & CEO",
+   "location": "Lexington, MA",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Interest: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Partner, not sponsor"
+    }
+   ],
+   "alert": {
+    "title": "He said yes:",
+    "text": "on LinkedIn he agreed to a call and asked for a note at **ramaiahshashi@speccro.com**. Streak shows no email sent since Oct 1."
+   },
+   "source_line": "Lead added to Streak on Oct 1, 2026 by Aina R."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Drug development advisory firm that helps biotechs and investors **de-risk programs and portfolios**"
+   },
+   {
+    "label": "Network",
+    "value": "More than 40 senior industry experts; works with national and international scientific consortia"
+   },
+   {
+    "label": "Focus",
+    "value": "Translational safety, toxicology, gene therapy de-risking, **New Approach Methodologies (NAMs)**"
+   },
+   {
+    "label": "Contact",
+    "value": "ramaiahshashi@speccro.com"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "CEO to founder-CEO: a partnership conversation is best held at the top."
+   },
+   "items": [
+    "Both are **senior experts selling to small and mid-sized biotechs** — Dmitri has spoken on outsourcing strategy for biostatistics and data management at summits in London, Boston, Munich and Zurich.",
+    "Both are based or active in the **Boston** biotech scene (Valos attended PharmaSUG 2026 in Boston).",
+    "Dmitri: add your background in **My profile** so future briefs can match on employers, schools and conferences."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Partnership, not a sale",
+    "text": "SPECCRO advises biotechs before and during development but does not run biometrics. Propose a **referral partnership**: SPECCRO de-risks the program, Valos delivers the statistics and data."
+   },
+   {
+    "title": "His Pfizer depth",
+    "text": "18 years at Pfizer, ending as VP and Global Head of Discovery, Investigative and Translational Sciences — speak his language on translational data and safety."
+   },
+   {
+    "title": "NAMs need statistics",
+    "text": "He champions human-relevant NAMs over animal testing; validating them for regulators is a statistical problem. Offer Valos as the analytics partner for NAM validation work."
+   }
+  ],
+  "person": {
+   "name": "Shashi Ramaiah",
+   "text": "Board-certified veterinary pathologist and toxicologist (DACVP, DABT). Spent 18 years at Pfizer, most recently Vice President and Global Head of Discovery, Investigative and Translational Sciences. Founder and CEO of SPECCRO; member of BioCryst's scientific advisory board on rare diseases; speaker on gene therapy (AAV) safety de-risking and on NAMs in drug development."
+  },
+  "company": {
+   "text": "SPECCRO is a drug development advisory firm based in Lexington, Massachusetts. It helps biotechnology companies and investors de-risk their programs and portfolios, drawing on a network of 40+ senior experts. Its stated mission is building the infrastructure for NAMs — predictive, human-relevant science instead of animal testing."
+  },
+  "history": {
+   "text": "LinkedIn, around Oct 1, 2026. Shashi: “Sure. Send me a note.” and gave **ramaiahshashi@speccro.com**. The box moved to *Contacted* on Oct 13, but Streak holds no email thread yet."
+  },
+  "industry": [
+   {
+    "title": "NAMs move toward regulators",
+    "text": "Industry panels on New Approach Methodologies stress regulatory clarity and global harmonization so NAM data can be used in GLP settings — Shashi made that point himself."
+   }
+  ],
+  "talking_points": [
+   "Which of your biotech clients struggle most once they reach the clinic — data, statistics, or vendor management?",
+   "Do you refer clients to biometrics providers today, and how do you choose them?",
+   "How do you see NAM data being validated statistically for regulators?",
+   "Would a joint offer (de-risking plus biometrics) help your investor clients during due diligence?",
+   "What would a good first project together look like?"
+  ],
+  "attention": [
+   {
+    "title": "Send the note now.",
+    "text": "He agreed to a call on Oct 1 and no email is logged — over three weeks. Send a short note proposing two call times."
+   },
+   {
+    "title": "Partner category.",
+    "text": "Set the Streak **Category** to *Partner* so it is tracked separately from sponsors."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "BioBuzz — BioCryst scientific advisory board announcement"
+   },
+   {
+    "used": true,
+    "text": "Drug Discovery Online — NAMs panel; Boston Society Gene & Cell Therapy Conference; X profile @ShashiRamaiah"
+   },
+   {
+    "used": false,
+    "text": "Financials — private company, none public"
+   },
+   {
+    "used": false,
+    "text": "Social network audit — not run for this brief"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+ },
+ "send": false
+}

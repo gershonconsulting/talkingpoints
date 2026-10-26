@@ -1,0 +1,149 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWYzvzACAw",
+ "company": "Electra Therapeutics",
+ "lead_name": "Ali Ashrafzadeh",
+ "lead_role": "Vice President, Clinical Development",
+ "stage": "For Later Stage",
+ "data": {
+  "header": {
+   "company": "Electra Therapeutics",
+   "person": "Ali Ashrafzadeh",
+   "role": "Vice President, Clinical Development",
+   "location": "South San Francisco, CA",
+   "chips": [
+    {
+     "label": "For Later Stage",
+     "tone": "warn"
+    },
+    {
+     "label": "Nasdaq: ETRA"
+    },
+    {
+     "label": "Source: LinkedIn messaging"
+    }
+   ],
+   "alert": {
+    "title": "Timing:",
+    "text": "Ali asked to reconnect in about six months (mid-October reply). Next touch: **mid-April 2027**. Do not push before then."
+   },
+   "source_line": "Lead added to Streak on Oct 16, 2026 by Juliana R."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Clinical-stage biotech, SIRP-directed antibodies for immune-mediated diseases and cancer"
+   },
+   {
+    "label": "Lead program",
+    "value": "**Ipsoprubart (ELA026)** — global registrational program in secondary HLH"
+   },
+   {
+    "label": "Second program",
+    "value": "ELA822 — chronic T-cell-mediated diseases"
+   },
+   {
+    "label": "Size",
+    "value": "About 46 full-time employees"
+   },
+   {
+    "label": "Funding",
+    "value": "$183M Series C (Oct 2025), then **$350M IPO** at $15/share, listed Sep 18, 2026"
+   },
+   {
+    "label": "Contact",
+    "value": "aliash.md@gmail.com (personal address he shared on LinkedIn)",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "Dmitri ran the LinkedIn conversation himself and Ali replied to him by name."
+   },
+   "items": [
+    "Electra is now running a **registrational** program — exactly the phase where Valos's CDISC (SDTM/ADaM) and submission-ready statistical programming matter most.",
+    "No personal overlap on file between Dmitri and Ali yet. Dmitri: add your background in **My profile** so future briefs can match on employers, schools and conferences."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Respect his timing",
+    "text": "He said the team is busy and has no room for change now. Open in April by referring back to his own words: “you suggested we reconnect in six months.”"
+   },
+   {
+    "title": "The post-IPO scale-up",
+    "text": "A **$350M IPO** and a registrational sHLH program mean a growing biometrics workload toward submission. Position Valos as flexible capacity, not a replacement for current vendors."
+   },
+   {
+    "title": "Submission readiness",
+    "text": "Offer a short, no-cost review of what an integrated summary of safety/efficacy package would need — concrete value for a VP Clinical Development."
+   }
+  ],
+  "person": {
+   "name": "Ali Ashrafzadeh",
+   "text": "Vice President, Clinical Development at Electra Therapeutics (title from Streak). Public background beyond his LinkedIn profile was not found; check his profile (linkedin.com/in/ali-ashrafzadeh-a723018) for prior employers before the April touch."
+  },
+  "company": {
+   "text": "Electra was spun out of **Star Therapeutics** in 2022 and is based in South San Francisco. It targets signal regulatory proteins (SIRPs), cell-surface receptors on activated immune cells, to deplete disease-driving cells while sparing normal immune function. Its lead antibody **ipsoprubart (ELA026)** is in a global registrational program for secondary hemophagocytic lymphohistiocytosis, a hyperinflammatory syndrome with no broadly approved therapy."
+  },
+  "financials": {
+   "country": "US, Nasdaq-listed",
+   "text": "Raised a **$183M Series C** in October 2025 (led by Nextech and EQT Life Sciences). Priced an upsized **$350M IPO** (23.3M shares at $15) on Nasdaq under **ETRA**, trading from Sep 18, 2026; underwriters hold an option for 3.5M more shares (up to ~$52.5M). Quarterly filings will now be public on SEC EDGAR."
+  },
+  "history": {
+   "text": "LinkedIn, mid-October 2026. Ali: “at this moment we are actively working on our projects and there is no time for a change… perhaps in six months time.” Dmitri thanked him, offered help and asked for his email; Ali replied with **aliash.md@gmail.com**. The box was moved to *For Later Stage* on Oct 20."
+  },
+  "industry": [
+   {
+    "title": "IPO window for late-stage immunology",
+    "text": "Electra's upsized IPO shows investors funding late-stage immunology assets with near-term registrational data. Companies in this position typically expand outsourced biometrics as they approach submission."
+   }
+  ],
+  "talking_points": [
+   "How is the registrational sHLH program progressing, and when do you expect top-line data?",
+   "Who handles biostatistics and statistical programming today — in-house, a full-service CRO, or a niche provider?",
+   "Where do you feel the most time pressure between data management, programming and statistics?",
+   "Is ELA822 moving into the clinic, and will it use the same vendors?",
+   "Would a short submission-readiness review (SDTM/ADaM, ISS/ISE) be useful ahead of filing?"
+  ],
+  "attention": [
+   {
+    "title": "Reminder needed.",
+    "text": "Create a Streak task for **mid-April 2027** so the six-month follow-up is not missed."
+   },
+   {
+    "title": "Personal email only.",
+    "text": "He shared a Gmail address; keep the April message personal and short, not a mass mailing."
+   },
+   {
+    "title": "Thin profile data.",
+    "text": "Prior employers and education were not verified; read his LinkedIn profile before writing."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "Electra IPO coverage — Pulse 2.0 and BioXconomy (Sep 2026); Yahoo Finance ETRA listing"
+   },
+   {
+    "used": true,
+    "text": "Series C coverage (Oct 2025) and BioWorld (Star Therapeutics spin-out)"
+   },
+   {
+    "used": false,
+    "text": "Social network audit — not run for this brief"
+   },
+   {
+    "used": false,
+    "text": "US events — not matched yet"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+ },
+ "send": false
+}

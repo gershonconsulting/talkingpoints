@@ -1,0 +1,153 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWIxpO_CAw",
+ "company": "Hybernia Medical",
+ "lead_name": "Debra Mitchell, PhD",
+ "lead_role": "Principal, Clinical Research Consultant",
+ "stage": "NDA Signed",
+ "data": {
+  "header": {
+   "company": "Hybernia Medical",
+   "person": "Debra Mitchell, PhD",
+   "role": "Principal, Clinical Research Consultant (Beofor)",
+   "location": "Hybernia: Uniondale, NY",
+   "chips": [
+    {
+     "label": "NDA Signed"
+    },
+    {
+     "label": "Next step: Send proposal"
+    },
+    {
+     "label": "Fit: High"
+    },
+    {
+     "label": "Interest: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Valos owes three items:",
+    "text": "senior statistical study-design hourly rates, Spanish regulatory/operational partners, and a preliminary study concept."
+   },
+   "source_line": "Lead added to Streak on Oct 13, 2026 (NDA already signed)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Clinical-stage medical device company — endovascular **selective brain cooling** for acute ischemic stroke"
+   },
+   {
+    "label": "Origin",
+    "value": "Columbia University spin-off; co-founder and chairman John Pile-Spellman"
+   },
+   {
+    "label": "Project",
+    "value": "Follow-up **feasibility study in Spain**"
+   },
+   {
+    "label": "Contact",
+    "value": "debra@beofor.ca — external clinical research consultant to Hybernia"
+   },
+   {
+    "label": "Pending from them",
+    "value": "Vendor qualification questionnaire",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "As CEO he can sign off the rates and the study concept; Audrey, Francesco, Sergey and Andrea already met the team."
+   },
+   "items": [
+    "Valos already covers **device studies** as well as drug trials — a direct match for a first-in-human/feasibility device program.",
+    "Valos's European base (Genoa, Italy) is an advantage for a study run in **Spain**: same regulatory region (EU MDR) and time zone.",
+    "Dmitri: add your background in **My profile** so future briefs can match on employers, schools and conferences."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Deliver what was promised, together",
+    "text": "Send the hourly rates, the Spanish partner shortlist and the preliminary study concept as **one package** — it shows control and speed."
+   },
+   {
+    "title": "Design for feasibility, not just analysis",
+    "text": "Earlier stroke-cooling trials (EuroHYP-1, ICTuS 2/3) stopped early because cooling targets and recruitment were not feasible. Show how Valos's design would measure exactly that: time to target temperature, protocol adherence, recruitment rate."
+   },
+   {
+    "title": "Use the latest evidence",
+    "text": "The CHILL-ART trial (ESOC, May 2026) reported better 90-day functional independence with intra-arterial cooling during thrombectomy — a useful anchor for endpoints and sample-size assumptions."
+   }
+  ],
+  "person": {
+   "name": "Debra Mitchell, PhD",
+   "text": "Principal and clinical research consultant (Beofor, beofor.ca), acting for Hybernia on this study. She is the gatekeeper for the vendor questionnaire; confirm who at Hybernia signs the contract."
+  },
+  "company": {
+   "text": "Hybernia Medical develops an endovascular catheter system that cools the brain locally (selective hypothermia) during stroke procedures, to protect tissue and limit reperfusion injury. It started as a Columbia University spin-off, is based in Uniondale, New York, and holds US patents on estimating regional metabolic rate and blood flow from heat. Its founders co-edited a Frontiers in Neurology series on brain hypothermia and neuroprotection."
+  },
+  "financials": {
+   "country": "US, private",
+   "text": "Small private company (1–50 people). A third-party directory lists about **$3.7M raised** with support from the NIH, New York State and the Dana Foundation — _unverified, treat as indicative_. Budget sensitivity is likely: lead with hourly rates and a phased scope."
+  },
+  "history": {
+   "text": "Meeting held with Audrey, Francesco, Sergey and Andrea about the follow-up feasibility study in Spain. Agreed: Valos sends senior statistical study-design hourly rates, identifies Spanish regulatory and operational partners, and drafts a preliminary study concept. Hybernia sends a vendor qualification questionnaire. Broader scope and pricing come once the design is clear."
+  },
+  "industry": [
+   {
+    "title": "Intra-arterial cooling is back",
+    "text": "At ESOC 2026, CHILL-ART (26 centers, 262 patients) reported more than half of cooled patients functionally independent at 90 days vs 39.8% with sham; another Chinese phase 3 trial showed conflicting results."
+   },
+   {
+    "title": "Feasibility is the known failure point",
+    "text": "Systemic cooling trials EuroHYP-1 (98 of 1,500 patients) and ICTuS 2/3 (120 of 1,600) stopped early for slow recruitment or poor target attainment — the reason a well-designed feasibility study matters."
+   }
+  ],
+  "talking_points": [
+   "What is the primary objective in Spain — device performance, safety, or feasibility for a pivotal trial?",
+   "How many sites and patients are you planning, and have Spanish sites already been approached?",
+   "Will the study run under EU MDR as a clinical investigation, and who is the EU legal representative?",
+   "Which endpoints matter most for your next financing or FDA discussion?",
+   "When can we expect the vendor qualification questionnaire?"
+  ],
+  "attention": [
+   {
+    "title": "Overdue risk.",
+    "text": "The three Valos deliverables have no task in Streak. Add a task with an owner and due date."
+   },
+   {
+    "title": "Questionnaire.",
+    "text": "Hybernia's vendor qualification questionnaire has not arrived; chase it alongside the package."
+   },
+   {
+    "title": "Contact record.",
+    "text": "Streak shows the contact as “Debra4 M” — fix the name to Debra Mitchell."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Valos - LG pipeline (box, contact, notes, LinkedIn thread)"
+   },
+   {
+    "used": true,
+    "text": "MTEC life sciences directory and IntuitionLabs company profile (Hybernia Medical)"
+   },
+   {
+    "used": true,
+    "text": "ESOC 2026 coverage of CHILL-ART (WebProNews); EuroHYP-1 and ICTuS 2/3 publications (PMC)"
+   },
+   {
+    "used": false,
+    "text": "Social network audit — not run for this brief"
+   },
+   {
+    "used": false,
+    "text": "US events — not matched yet"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared October 26, 2026"
+ },
+ "send": false
+}
