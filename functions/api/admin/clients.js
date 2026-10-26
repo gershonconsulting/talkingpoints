@@ -1,4 +1,4 @@
-import { json, currentUser } from '../../_lib.js';
+import { json, currentUser, pipelineKeyFrom } from '../../_lib.js';
 
 // Owner only (enforced in functions/_middleware.js).
 // GET  /api/admin/clients → every client with its members and status
@@ -33,7 +33,7 @@ export async function onRequestPost({ request, env }) {
   await env.DB.prepare(
     `INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES (?, ?, ?, ?)
      ON CONFLICT(slug) DO UPDATE SET name = excluded.name, pipeline_key = excluded.pipeline_key, email_domains = excluded.email_domains`
-  ).bind(slug, name, String(b.pipeline_key || '').trim(), domains).run();
+  ).bind(slug, name, pipelineKeyFrom(b.pipeline_key), domains).run();
   const c = await env.DB.prepare('SELECT id FROM clients WHERE slug = ?').bind(slug).first();
   await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(c.id).run();
   return json({ ok: true, id: c.id, slug });

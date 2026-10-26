@@ -123,6 +123,12 @@ export async function gershonStreakKey(env) {
 }
 
 // ---------- Streak ----------
+// Accepts a pipeline key or a pasted Streak link (https://www.streak.com/a/pipelines/<key>[/...]).
+export const pipelineKeyFrom = (v) => {
+  const t = String(v || '').trim();
+  const m = t.match(/\/pipelines\/([^/?#\s]+)/);
+  return m ? m[1] : t;
+};
 const STREAK = 'https://api.streak.com/api';
 
 // `key` is the client's own Streak API key (Settings), see clientStreakKey().

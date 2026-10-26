@@ -1,4 +1,4 @@
-import { currentUser, json, streak, getSettings, encryptText, decryptText, clientStreakKey } from '../_lib.js';
+import { pipelineKeyFrom, currentUser, json, streak, getSettings, encryptText, decryptText, clientStreakKey } from '../_lib.js';
 import { googleAccessToken, listCalendars } from '../_google.js';
 
 // GET /api/settings → the client's settings (secrets never returned)
@@ -61,7 +61,7 @@ export async function onRequestPut({ request, env }) {
     await env.DB.prepare("UPDATE client_settings SET streak_key_enc = '', streak_key_hint = '' WHERE client_id = ?").bind(u.client_id).run();
   }
   if (typeof b.pipeline_key === 'string') {
-    const pk = b.pipeline_key.trim();
+    const pk = pipelineKeyFrom(b.pipeline_key);
     if (pk && !u.is_admin) {
       const s2 = (await getSettings(env, u.client_id)) || {};
       const own = await decryptText(env, s2.streak_key_enc);
@@ -69,7 +69,7 @@ export async function onRequestPut({ request, env }) {
       try { const list = await streak(own, '/v1/pipelines'); ok = (Array.isArray(list) ? list : []).some((p) => (p.pipelineKey || p.key) === pk); } catch { ok = false; }
       if (!ok) return json({ error: 'Choose a pipeline from your own Streak account.' }, 400);
     }
-    await env.DB.prepare('UPDATE clients SET pipeline_key = ? WHERE id = ?').bind(b.pipeline_key.trim(), u.client_id).run();
+    await env.DB.prepare('UPDATE clients SET pipeline_key = ? WHERE id = ?').bind(pk, u.client_id).run();
   }
   if (typeof b.recipients === 'string') {
     const list = b.recipients.split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter(Boolean);
