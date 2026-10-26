@@ -8,9 +8,12 @@ binding = "AI"
 [[d1_databases]]
 binding = "DB"
 database_name = "talkingpoints-db"
-database_id = "REPLACE_WITH_D1_ID"
+database_id = "a1ac634b-d6f9-469d-b3d5-bc75c882abd4"
 
 [vars]
+# Public OAuth client IDs (not secrets). The 3 secrets are set in Cloudflare → gershon-talkingpoints → Settings → Variables and Secrets.
+LINKEDIN_CLIENT_ID = "78b871bbkd4wyu"
+GOOGLE_CLIENT_ID = "905961246921-42hr3jfob0mkolb9798pic2cdqnag1ep.apps.googleusercontent.com"
 APP_URL = "https://talkingpoints.gershon.ai"
 EMAIL_ENABLED = "false"
 EMAIL_ON_DRAFT = "false"
