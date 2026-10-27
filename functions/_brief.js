@@ -1,6 +1,7 @@
 import { loadLead, generateBrief, sendEmail, rowToBrief, clientStreakKey, getSettings } from './_lib.js';
 import { lookupFinancials } from './_financials.js';
 import { renderBrief, renderBriefText } from './_render.js';
+import { splitTypoEmails } from './_email.js';
 import { getTemplate, applyTemplate } from './_template.js';
 
 export async function saveBrief(env, clientId, boxKey, { company, lead_name, lead_role, stage, status, data }) {
@@ -42,13 +43,16 @@ export async function buildDraftFromLead(env, clientRow, boxKey, lead, extra = {
 
 // Email a brief to the client's team. Off until EMAIL_ENABLED = "true" (final format approval).
 // Recipients: the addresses listed in Settings, plus every member who ticked "email me".
+// Addresses on known look-alike domains (e.g. gershconsulting.com) are skipped and logged.
 export async function recipients(env, clientId) {
   const s = await getSettings(env, clientId);
   const listed = String(s?.recipients || '').split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter((e) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e));
   const members = (await env.DB.prepare(
     'SELECT email FROM members WHERE client_id = ? AND notify = 1 AND is_admin = 0'
   ).bind(clientId).all()).results.map((r) => r.email.toLowerCase());
-  return [...new Set([...listed, ...members])];
+  const { ok, typos } = splitTypoEmails([...new Set([...listed, ...members])]);
+  for (const t of typos) console.warn(`[talkingpoints] skipping recipient ${t.email}: typo domain, did you mean ${t.suggestion}?`);
+  return ok;
 }
 
 export async function emailBrief(env, clientRow, brief, { force = false, subjectDate } = {}) {
