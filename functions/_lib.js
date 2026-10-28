@@ -257,15 +257,20 @@ Return ONLY JSON:
   };
 }
 
+// App version (semver), bumped with every change; also sent as the User-Agent.
+export const VERSION = '1.0.1';
+
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay
 // reads the queued email back once via GET /api/outbox/:id), so no key is ever copied.
-export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com' }) {
+// `from`: brief emails pass the sender chosen by _audience.js ("GC Talking Points" for all-Gershon
+// recipients, "Gershon Consulting" otherwise); the default is the client-facing one.
+export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com', from = 'Gershon Consulting <talkingpoints@gershon.ai>' }) {
   if (env.RESEND_API_KEY) {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
-      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json', 'user-agent': 'talkingpoints.gershon.ai/1.0' },
-      body: JSON.stringify({ from: 'Talking Points <talkingpoints@gershon.ai>', reply_to, to, subject, html, text }),
+      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json', 'user-agent': `talkingpoints.gershon.ai/${VERSION}` },
+      body: JSON.stringify({ from, reply_to, to, subject, html, text }),
     });
     if (!res.ok) throw new Error(`Resend ${res.status}: ${await res.text()}`);
     return res.json();
@@ -274,7 +279,7 @@ export async function sendEmail(env, { to, subject, html, text, reply_to = 'oliv
   await env.DB.prepare('INSERT INTO outbox (id, to_list, subject, html, text, reply_to) VALUES (?, ?, ?, ?, ?, ?)')
     .bind(id, JSON.stringify(to), subject, html, text || '', reply_to).run();
   const res = await fetch('https://social.gershon.ai/api/relay/talkingpoints', {
-    method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': 'talkingpoints.gershon.ai/1.0' }, body: JSON.stringify({ id }),
+    method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': `talkingpoints.gershon.ai/${VERSION}` }, body: JSON.stringify({ id, from }),
   });
   const out = await res.json().catch(() => ({}));
   if (!res.ok || !out.ok) throw new Error(`Relay ${res.status}: ${JSON.stringify(out)}`);
