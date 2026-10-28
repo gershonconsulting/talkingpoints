@@ -1,6 +1,7 @@
 import { currentUser, json, rowToBrief, sendEmail, getSettings } from '../../../_lib.js';
 import { renderBrief, renderBriefText } from '../../../_render.js';
 import { getTemplate, applyTemplate } from '../../../_template.js';
+import { planBriefEmail, briefSubject } from '../../../_audience.js';
 
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
@@ -26,7 +27,9 @@ export async function onRequestPost({ request, env, params }) {
   if (!to.length || bad.length) return json({ error: bad.length ? `Check these addresses: ${bad.join(', ')}` : 'Add at least one email address.' }, 400);
   if (to.length > 20) return json({ error: 'Send to 20 people at most.' }, 400);
 
-  const data = applyTemplate(row.data, await getTemplate(env, u.client_id));
+  // Any recipient outside Gershon -> client version (no internal blocks, sender "Gershon Consulting").
+  const plan = planBriefEmail(to, applyTemplate(row.data, await getTemplate(env, u.client_id)));
+  const data = plan.data;
   const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   const note = String(b.note || '').trim().slice(0, 1000);
   const esc = (x) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -34,8 +37,9 @@ export async function onRequestPost({ request, env, params }) {
   try {
     await sendEmail(env, {
       to,
+      from: plan.from,
       reply_to: EMAIL.test(u.email || '') ? u.email : undefined,
-      subject: `Talking Points : ${row.company} - ${row.lead_name || 'Lead'} - ${date}`,
+      subject: briefSubject(row.company, row.lead_name || 'Lead', date),
       html: intro + renderBrief(data),
       text: (note ? `${note}\n\n` : '') + renderBriefText(data),
     });
