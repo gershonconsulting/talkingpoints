@@ -5,6 +5,9 @@
 // CLIENT version: internal blocks are removed and it is sent as "Gershon Consulting".
 // Only an all-Gershon recipient list gets the INTERNAL version (everything, sender "GC Talking Points":
 // Gershon internal report senders start with "GC").
+// The dashboard follows the same rule per signed-in user (isInternalUser / forViewer, v1.0.2).
+
+import { isOwner } from './_lib.js';
 
 export const INTERNAL_DOMAINS = ['gershonconsulting.com', 'gershon.ai'];
 
@@ -28,12 +31,19 @@ export function isInternalEmail(email) {
 
 export const audienceOf = (to) => (to.length && to.every(isInternalEmail) ? 'internal' : 'client');
 
+// Signed-in dashboard user (row from currentUser()): internal only when the owner or a Gershon
+// address. Members of a client (e.g. Valos) are never internal, even if they are client admins.
+export const isInternalUser = (u) => !!u && (isOwner(u) || isInternalEmail(u.email));
+
 // Copy of the brief without internal blocks.
 export function clientSafe(data = {}) {
   const out = { ...data };
   for (const k of INTERNAL_SECTIONS) delete out[k];
   return out;
 }
+
+// What this signed-in user may see of a brief (no user = client, the safe default).
+export const forViewer = (data, u) => (isInternalUser(u) ? data : clientSafe(data));
 
 export const briefSubject = (company, name, date) =>
   `[${REPORT_NUMBER}] Talking Points : ${company || ''} - ${name || 'New lead'} - ${date}`;
