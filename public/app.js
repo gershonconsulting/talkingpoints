@@ -12,6 +12,17 @@
     toast._t = setTimeout(() => t.classList.remove('show'), 2600);
   }
 
+  // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
+  const APP_VERSION = '1.5.3';
+  async function checkVersion() {
+    try {
+      const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
+      if (v && v !== APP_VERSION && !document.querySelector('#sendBox:not([hidden])')) location.reload();
+    } catch { /* offline: try later */ }
+  }
+  setInterval(checkVersion, 120000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) checkVersion(); });
+
   async function api(path, opts = {}) {
     const r = await fetch(path, { credentials: 'same-origin', headers: { 'content-type': 'application/json' }, ...opts });
     if (r.status === 401) { location.href = '/login.html'; throw new Error('signed_out'); }
