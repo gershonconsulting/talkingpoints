@@ -93,6 +93,22 @@ CREATE TABLE IF NOT EXISTS outbox (
   fetched_at  TEXT
 );
 
+CREATE TABLE IF NOT EXISTS send_log (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  client_id   INTEGER NOT NULL,
+  box_key     TEXT NOT NULL DEFAULT '',
+  company     TEXT NOT NULL DEFAULT '',
+  lead_name   TEXT NOT NULL DEFAULT '',
+  sent_by     TEXT NOT NULL DEFAULT '',   -- member email, or 'daily run' / 'meeting run'
+  to_list     TEXT NOT NULL DEFAULT '',   -- comma list
+  status      TEXT NOT NULL DEFAULT 'sent', -- 'sent' | 'failed'
+  error       TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE INDEX IF NOT EXISTS send_log_box ON send_log(box_key, created_at);
+
+
 INSERT OR IGNORE INTO clients (slug, name, pipeline_key, email_domains)
 VALUES ('valos', 'Valos Srl', 'pipeline:aina.andriamangason@gmail.com:5165361957781504', '');
 

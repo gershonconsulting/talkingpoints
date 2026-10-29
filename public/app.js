@@ -85,6 +85,17 @@
     }
   }
 
+  // ---------- Send log: when this talking point was emailed, to whom, and whether it went out ----------
+  async function loadSendLog(brief) {
+    const el = $('sendLog'); if (!el) return;
+    let h = [];
+    try { h = (await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`)).history || []; } catch { /* no log */ }
+    const fmt = (t) => new Date(t.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+    el.innerHTML = h.length
+      ? `<div class="muted" style="font-size:12px;margin:6px 0 10px"><b>Send log</b><ul style="margin:4px 0 0 18px;padding:0">${h.map((x) => `<li>${esc(fmt(x.created_at))} · ${x.status === 'sent' ? '✅ sent' : '❌ failed'} to ${esc(x.to_list)} · by ${esc(x.sent_by)}${x.error ? ` · <span title="${esc(x.error)}">${esc(x.error.slice(0, 80))}</span>` : ''}</li>`).join('')}</ul></div>`
+      : '<div class="muted" style="font-size:12px;margin:6px 0 10px">Not emailed yet.</div>';
+  }
+
   // ---------- Brief toolbar: download + send ----------
   let shown = null;
   function showBrief(brief) {
@@ -99,7 +110,9 @@
         <label for="sendNote">Message (optional)</label><textarea id="sendNote" placeholder="A line to go above the talking points"></textarea>
         <div class="row-actions"><button class="btn primary" type="submit" id="sendGo">Send now</button><button class="btn" type="button" id="sendCancel">Cancel</button></div>
       </form>
+      <div class="send-log" id="sendLog"></div>
       <div id="briefDoc">${brief.html}</div>`;
+    loadSendLog(brief);
     const name = `Talking Points - ${brief.company || 'lead'} - ${brief.lead_name || ''}`.replace(/[\\/:*?"<>|]+/g, '').trim();
     $('dlHtml').onclick = () => {
       const doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${esc(name)}</title></head><body style="margin:0">${brief.html}</body></html>`;
@@ -130,6 +143,7 @@
         const r = await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`, { method: 'POST', body: JSON.stringify({ to: $('sendTo').value, note: $('sendNote').value }) });
         toast(`Sent to ${r.sent_to.length} ${r.sent_to.length === 1 ? 'person' : 'people'}`); $('sendBox').hidden = true;
       } catch (err) { toast(err.body?.error || 'Not sent. Try again.'); }
+      loadSendLog(brief);
       go.disabled = false; go.textContent = 'Send now';
     };
   }

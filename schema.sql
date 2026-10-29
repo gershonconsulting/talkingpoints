@@ -100,3 +100,20 @@ CREATE TABLE IF NOT EXISTS outbox (
   created_at  TEXT NOT NULL DEFAULT (datetime('now')),
   fetched_at  TEXT
 );
+
+-- Every attempt to email a talking point: who sent it, to whom, when, and whether it went out.
+CREATE TABLE IF NOT EXISTS send_log (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  client_id   INTEGER NOT NULL,
+  box_key     TEXT NOT NULL DEFAULT '',
+  company     TEXT NOT NULL DEFAULT '',
+  lead_name   TEXT NOT NULL DEFAULT '',
+  sent_by     TEXT NOT NULL DEFAULT '',   -- member email, or 'daily run' / 'meeting run'
+  to_list     TEXT NOT NULL DEFAULT '',   -- comma list
+  status      TEXT NOT NULL DEFAULT 'sent', -- 'sent' | 'failed'
+  error       TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE INDEX IF NOT EXISTS send_log_box ON send_log(box_key, created_at);
+

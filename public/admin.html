@@ -69,6 +69,10 @@
         </form>
         <p class="muted" style="margin-top:8px;font-size:12px">Anyone signing in with LinkedIn using an email at these domains joins this client automatically. Leave it empty to allow invited people only.</p>
       </div>
+      <div class="card client">
+        <div class="card-header"><h3>Send log</h3><small class="muted">Last 100 talking-point emails, every campaign</small></div>
+        <table><thead><tr><th>When</th><th>Campaign</th><th>Lead</th><th>To</th><th>By</th><th>Result</th></tr></thead><tbody id="sendRows"><tr><td colspan="6" class="muted">Loading…</td></tr></tbody></table>
+      </div>
       <div id="clients"><p class="muted">Loading…</p></div>
     </div>
   </main>
@@ -148,6 +152,16 @@
     try { await api('/api/admin/clients', { method: 'POST', body: JSON.stringify(d) }); e.target.reset(); toast(`${d.name} added`); load(); }
     catch (err) { toast(err.message); }
   });
+
+  async function loadSends() {
+    try {
+      const { sends } = await api('/api/admin/sends');
+      const fmt = (t) => new Date(t.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+      $('sendRows').innerHTML = sends.map((s) => `<tr><td>${esc(fmt(s.created_at))}</td><td>${esc(s.client || '')}</td><td>${esc(s.company)}<div class="muted" style="font-size:12px">${esc(s.lead_name)}</div></td><td>${esc(s.to_list)}</td><td>${esc(s.sent_by)}</td><td>${s.status === 'sent' ? '✅ Sent' : `❌ Failed<div class="muted" style="font-size:12px">${esc(s.error)}</div>`}</td></tr>`).join('')
+        || '<tr><td colspan="6" class="muted">No talking points emailed yet.</td></tr>';
+    } catch { $('sendRows').innerHTML = '<tr><td colspan="6" class="muted">The send log could not be loaded.</td></tr>'; }
+  }
+  loadSends();
 
   async function loadKey() {
     try {
