@@ -191,6 +191,12 @@
       ? `<option value="">Choose a pipeline</option>${st.streak.pipelines.map((p) => `<option value="${esc(p.key)}" ${p.key === st.streak.pipeline_key ? 'selected' : ''}>${esc(p.name)}</option>`).join('')}`
       : '<option value="">Connect Streak to list your pipelines</option>';
 
+    // Direct link to the client's dedicated Streak pipeline (set by Gershon or chosen above).
+    const pk = st.streak.pipeline_key && !st.streak.pipeline_key.startsWith('pipeline:') ? st.streak.pipeline_key : '';
+    const pUrl = pk ? `https://www.streak.com/a/pipelines/${pk}` : '';
+    $('sPipeLinkBox').hidden = !pUrl;
+    if (pUrl) { $('sPipeLink').href = pUrl; $('sPipeUrl').textContent = pUrl; }
+
     $('sRecipients').value = st.recipients || (me && me.member.email) || '';
   }
 
