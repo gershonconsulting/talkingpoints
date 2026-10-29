@@ -250,7 +250,11 @@
   $('sRemove').addEventListener('click', () => saveSettings({ remove_streak: true }, 'Streak disconnected'));
   $('emailForm').addEventListener('submit', (e) => {
     e.preventDefault();
-    saveSettings({ recipients: $('sRecipients').value }, 'Email settings saved');
+    const btn = e.submitter || $('emailForm').querySelector('button'); btn.disabled = true;
+    api('/api/settings', { method: 'PUT', body: JSON.stringify({ recipients: $('sRecipients').value }) })
+      .then((r) => { const n = (r.recipients || []).length; $('sRecipients').value = (r.recipients || []).join(', '); toast(n ? `Saved — talking points go to ${n} ${n === 1 ? 'person' : 'people'}` : 'Saved — nobody will receive talking points'); })
+      .catch((err) => toast(err.body?.error || `Not saved (${err.message}). Try again.`))
+      .finally(() => { btn.disabled = false; });
   });
 
 
