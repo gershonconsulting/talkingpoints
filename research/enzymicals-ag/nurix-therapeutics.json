@@ -1,0 +1,277 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV6KSotAgM",
+ "company": "Nurix Therapeutics",
+ "lead_name": "Stefan Gajewski",
+ "lead_role": "Principal Scientist (structural biology)",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Nurix Therapeutics, Inc. (Nasdaq: NRIX)",
+   "person": "Stefan Gajewski",
+   "role": "Principal Scientist — structural biology / protein crystallography",
+   "location": "San Francisco Bay Area · Nurix HQ San Francisco (current postings list Brisbane, CA)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Interest: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Keep-warm lead"
+    }
+   ],
+   "alert": {
+    "title": "Keep warm, then go to CMC:",
+    "text": "Stefan said enzymology is not a routine question for his team but asked to **stay in touch** and gave **sgajewski@nurixtx.com** (Oct 15). He is a structural biologist, not the buyer for synthesis. Use him for a light touch and an intro to **Nurix CMC / chemical development** (CTO **Dr. Pasit Phiasivongsa**)."
+   },
+   "source_line": "Lead added to Streak on Oct 19, 2026 by Juliana R; moved Lead → Contacted on Oct 22. Source: LinkedIn messaging.",
+   "linkedin_url": "https://www.linkedin.com/in/stefan-gajewski-12a87318"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Clinical-stage **targeted protein degradation** biotech (degraders + ligase modulators), Nasdaq NRIX"
+   },
+   {
+    "label": "Lead asset",
+    "value": "**Bexobrutideg (NX-5948)**, oral BTK degrader — Phase 3 DAYBreak CLL-306 (~620 patients) started; partnered with **Roche** (June 2026)"
+   },
+   {
+    "label": "Other programs",
+    "value": "NX-1607 (oral CBL-B inhibitor, Phase 1b); partnered degraders with Sanofi (STAT6), Gilead (IRAK4), Pfizer; zelebrudomide (NX-2127) discontinued"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Stefan solves **X-ray crystal structures** of BTK and degrader complexes (protein made in insect cells) — a protein scientist, not a process chemist"
+   },
+   {
+    "label": "Size",
+    "value": "~$1.1B cash (Aug 31, 2026); runway into 2H 2029; scaling CMC for late-phase/commercial"
+   },
+   {
+    "label": "Contact",
+    "value": "sgajewski@nurixtx.com"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#1 Pharmaceuticals** — strong company fit (late-phase small-molecule CMC, process managers); weak person fit (Stefan is discovery/structural). Target CMC instead."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "Scientist to scientist: David (PhD chemist, COO) runs a company built on protein science — enzyme engineering and recombinant protein expression — the same toolbox Stefan uses to produce proteins for crystallography."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.** David: Duisburg-Essen / Evonik; Stefan's education to be confirmed.",
+    "Both work with **recombinant proteins**: Enzymicals expresses and engineers enzymes; Stefan produces kinase protein (insect-cell expressed) for X-ray structures.",
+    "Stefan already engaged warmly: he called Enzymicals' offer **an amazing capability** and asked to stay in touch.",
+    "Enzymicals' academic roots (Prof. Uwe Bornscheuer, Greifswald, protein engineering) are well known in structural/protein-engineering circles — a credibility point."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Chiral building blocks for degraders",
+    "text": "Degraders such as bexobrutideg are large, multi-part molecules with stereocentres in ligands and linkers. Offer **biocatalytic routes (ketoreductases, transaminases, esterases/lipases, kinetic resolution)** to chiral intermediates — cleaner, greener and cheaper at scale. This is a CMC conversation, so ask Stefan who owns chemical development."
+   },
+   {
+    "title": "Phase 3 + Roche = commercial process",
+    "text": "With a ~620-patient Phase 3 and a Roche partnership, Nurix must lock a **robust, scalable commercial route** and second-source key intermediates. Enzymicals offers route scouting and scale-up **from mg to ton** alongside existing CDMOs."
+   },
+   {
+    "title": "Proteins for Stefan's own work",
+    "text": "For his team: **tailor-made recombinant protein expression** and enzyme engineering as a service — e.g. hard-to-express proteins, tool enzymes, or protein variants for structural and assay work. Low-cost, project-based."
+   }
+  ],
+  "person": {
+   "name": "Stefan Gajewski",
+   "text": "Principal Scientist at Nurix. Verified function: **structural biology / protein X-ray crystallography**. He is the depositing author of Nurix's **BTK crystal structures** in the Protein Data Bank (e.g. PDB 8GC7, 1.9 Å X-ray, protein expressed in insect cells), and a co-author of Nurix's key BTK-degrader papers: NRX-0492 in *Blood* (2023), NX-2127 in *Science* and *J. Med. Chem.* (2024), and pan-resistance to BTK degraders/inhibitors in *Cancer Discovery* (2026). Not a process or medicinal chemist. Education and prior employers: **to be confirmed** (LinkedIn profile not readable from the web)."
+  },
+  "company": {
+   "text": "Nurix Therapeutics discovers and develops **small-molecule protein degraders** and E3 ligase modulators for cancer and immune diseases, using its DNA-encoded library (DEL) platform. Lead drug **bexobrutideg (NX-5948)**, an oral BTK degrader, is in a pivotal Phase 2 (DAYBreak CLL-201) and a Phase 3 head-to-head versus pirtobrutinib (DAYBreak CLL-306). In **June 2026 Roche** signed a global co-development deal for bexobrutideg (**$700M upfront**, ~$2.3B milestones; 40/60 cost split; 50/50 US profit share). Partnered research with **Sanofi** (STAT6 degrader in Phase 1), **Gilead** (IRAK4 degrader GS-6791, Phase 1) and **Pfizer**. Leadership: Arthur Sands (CEO), Gwenn Hansen (CSO), **Pasit Phiasivongsa (CTO, leads CMC/technical operations)**, Hans van Houte (CFO). Sites: San Francisco Bay Area and The Woodlands, TX (medicinal chemistry). Current hiring includes Associate Director Chemical Engineering, Director Pharmaceutical Development and Regulatory CMC (small molecules) — a CMC build-out for late-phase."
+  },
+  "financials": {
+   "country": "US, Nasdaq-listed",
+   "text": "**Listing:** Nasdaq: NRIX. **Fiscal Q3 2026 (quarter ended Aug 31, 2026):** revenue **$673.1M** (vs $7.9M a year earlier), of which $653.2M Roche license revenue and $10M Sanofi milestone. **Net income:** $549.8M ($4.73/diluted share) vs net loss of $86.4M a year earlier — a one-off driven by the Roche upfront; underlying R&D spend $79.3M in the quarter. **Cash & investments:** ~**$1.1B** (vs $592.9M at Nov 30, 2025). **Runway:** into the second half of 2029. Nurix is well funded and paying 40% of bexobrutideg development — budget exists for process optimisation and supply security."
+  },
+  "history": {
+   "text": "LinkedIn (as David). Stefan called Enzymicals' offer **an amazing capability**, but said his team does not routinely look at enzymology questions; suggested staying in touch and shared **sgajewski@nurixtx.com** (Oct 15). Box created Oct 19, 2026 by Juliana R; moved Lead → Contacted Oct 22. Streak: Fit Medium, Interest Low, Source Messaging."
+  },
+  "industry": [
+   {
+    "title": "Degraders reach late-stage CMC",
+    "text": "Protein degraders are moving into Phase 3 and big-pharma deals. Their size and stereochemistry make routes long and costly — the area where **biocatalysis** cuts steps, solvents and cost of goods."
+   },
+   {
+    "title": "Green chemistry in pharma process",
+    "text": "Big pharma partners like Roche push sustainable manufacturing (PMI targets). Enzymatic steps are a standard lever for chiral amines, alcohols and resolutions — matching Enzymicals' ICP of pharma wanting greener synthesis."
+   }
+  ],
+  "talking_points": [
+   "Congratulations on the Roche deal and Phase 3 start — how is the team's structural work shifting now that bexobrutideg is late-stage?",
+   "Who leads **chemical development / process chemistry** for bexobrutideg and NX-1607 — would you be open to a short intro?",
+   "Does your group ever struggle to **express or purify** a protein (kinases, ligases, tool enzymes)? Enzymicals runs tailor-made expression as a service.",
+   "Are any degrader intermediates (chiral amines, alcohols, linkers) made by classical resolution or chiral chromatography today? Enzymes can often replace those steps.",
+   "Will Nurix attend **ASH (Dec 2026)** or other US meetings where David or the team could meet? (to be confirmed)"
+  ],
+  "attention": [
+   {
+    "title": "Do not push Stefan for a project.",
+    "text": "He was clear enzymology is not his routine. Keep it light: congratulate on Roche/Phase 3, offer value, ask for one intro."
+   },
+   {
+    "title": "Find the CMC buyer.",
+    "text": "CTO **Pasit Phiasivongsa** leads technical operations/CMC. Search LinkedIn for Nurix Directors of Chemical Development / Process Chemistry / Chemical Engineering (names to be confirmed) and approach them from David's account."
+   },
+   {
+    "title": "Bring a concrete example.",
+    "text": "Prepare one short case: a biocatalytic step that replaced a resolution or chiral separation in a pharma intermediate, with scale reached. Process people buy proof, not capability lists."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Enzymicals pipeline (box, LinkedIn messages, stage history)"
+   },
+   {
+    "used": true,
+    "text": "SEC — Nurix 8-K exhibit 99.1, fiscal Q3 2026 results (Oct 13, 2026)"
+   },
+   {
+    "used": true,
+    "text": "AWP/RTT News via vermoegenszentrum.ch — Q3 2026 results (Oct 13, 2026)"
+   },
+   {
+    "used": true,
+    "text": "PharmaShots — Roche–Nurix bexobrutideg deal (Jun 8, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Roche investor update (Aug 4, 2026) — Phase 3 DAYBreak CLL-306 first patient"
+   },
+   {
+    "used": true,
+    "text": "nurixtx.com — leadership page; Nurix Greenhouse job board (Oct 2026)"
+   },
+   {
+    "used": true,
+    "text": "PubMed — S. Gajewski publications (Blood 2023; Science 2024; J Med Chem 2024; Cancer Discovery 2026)"
+   },
+   {
+    "used": true,
+    "text": "RCSB Protein Data Bank — entry 8GC7 (BTK, X-ray, author Gajewski S.)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Stefan's profile and Nurix company page (not readable from the web; counts to be confirmed)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared October 28, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Strong investor and scientific voice: frequent **press releases**, top-journal papers and major medical meetings; LinkedIn audience **to be confirmed**.",
+   "detail": "Nurix publishes several press releases per quarter (Roche deal, Phase 3 start, quarterly results), presents at EHA/ASH-type meetings and investor conferences, and publishes in Science, Blood and Cancer Discovery. Social channels look corporate and investor-focused rather than community-driven; no follower counts verified.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Nurix Therapeutics",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "Press releases (ir.nurixtx.com)",
+     "audience": "Investors / trade media",
+     "recency": "Several per quarter; latest Oct 13, 2026 (Q3 results)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Scientific publications & congresses",
+     "audience": "Hematology / drug-discovery community",
+     "recency": "EHA 2026 data; Cancer Discovery (Jul 2026)",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn — Stefan Gajewski",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Nurix's voice is about clinical data and partnerships. A sustainability/green-chemistry angle on degrader manufacturing is not part of their public story yet — an opening for Enzymicals."
+  },
+  "network": {
+   "summary": "No verified shared network between David and Stefan. Stefan sits in the structural-biology / protein-degradation community; the Enzymicals buyer at Nurix is in CMC.",
+   "items": [
+    "Nurix CMC leadership: **Dr. Pasit Phiasivongsa** (CTO; ex-Kronos Bio, Principia, Tobira). Check whether David has any link to him.",
+    "Nurix scientific advisors: **John Kuriyan** (structural biology, Berkeley) and **Arthur Weiss** (UCSF) — check for academic links via Prof. Bornscheuer's network.",
+    "Your exact number of shared connections with Stefan is on his LinkedIn profile, under his name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/stefan-gajewski-12a87318",
+    "label": "See your mutual connections with Stefan on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 13, 2026",
+    "where": "Press release (company)",
+    "text": "Fiscal Q3 2026 results: **$673M revenue**, ~$1.1B cash, runway into 2H 2029; NX-1607 Phase 1b expansion dosed.",
+    "use": "Shows budget and late-stage focus — reason to talk process efficiency now."
+   },
+   {
+    "when": "Aug 2026",
+    "where": "Press release (company / Roche)",
+    "text": "First patient enrolled in Phase 3 **DAYBreak CLL-306** (bexobrutideg vs pirtobrutinib).",
+    "use": "Congratulate; Phase 3 means commercial route and supply decisions."
+   },
+   {
+    "when": "Jul 22, 2026",
+    "where": "Cancer Discovery (paper)",
+    "text": "Nurix paper on the molecular and structural basis of **pan-resistance to BTK degraders and inhibitors**; Stefan is a co-author.",
+    "use": "Best personal opener — congratulate him on the paper."
+   },
+   {
+    "when": "Jun 8, 2026",
+    "where": "Press release (company)",
+    "text": "Global **Roche** collaboration on bexobrutideg: $700M upfront, ~$2.3B milestones.",
+    "use": "Big-pharma partner raises the bar on process quality and sustainability."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "EHA 2026 Congress",
+    "when": "June 2026",
+    "role": "Company presented Phase 1a/1b bexobrutideg data"
+   },
+   {
+    "name": "ASH Annual Meeting",
+    "when": "December 2026",
+    "role": "To be confirmed"
+   },
+   {
+    "name": "Discovery on Target",
+    "when": "Boston (year to be confirmed)",
+    "role": "Company presenter (past)"
+   }
+  ],
+  "hooks": [
+   "Congratulate Stefan on the **Cancer Discovery** paper (Jul 2026) on BTK degrader resistance.",
+   "Pick up his words — **an amazing capability** — and ask who at Nurix would use it: process chemistry / chemical development.",
+   "Offer value for his own lab: **custom recombinant protein expression** or enzyme tools, project-based.",
+   "Phase 3 + Roche: pitch **chemo-enzymatic routes to chiral intermediates** and scale-up mg → ton as a cost-of-goods and green-chemistry lever.",
+   "Meet in person: AIChE (Nov 8–12, Minneapolis) or ASH (Dec) — ask if any Nurix CMC staff attend (to be confirmed)."
+  ]
+ },
+ "send": false
+}

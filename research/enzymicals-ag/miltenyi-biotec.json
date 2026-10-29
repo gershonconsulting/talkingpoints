@@ -1,0 +1,285 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV2P3M9QsM",
+ "company": "Miltenyi Biotec",
+ "lead_name": "Reto Müller",
+ "lead_role": "Senior Scientist II",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Miltenyi Biotec (private, Bergisch Gladbach, Germany)",
+   "person": "Reto Müller",
+   "role": "Senior Scientist II",
+   "location": "Site to be confirmed · Miltenyi HQ Bergisch Gladbach, Germany; North American HQ Gaithersburg, MD",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Interest: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Keep warm — no push"
+    }
+   ],
+   "alert": {
+    "title": "Low-intent lead — stay relevant, don't push:",
+    "text": "Reto said Miltenyi has a **capable protein group in Germany** and they are fine for now, but he gave **retom@miltenyi.com** for information (Oct 22). Send one short, useful email; then a light touch every 6–8 weeks."
+   },
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Juliana R; moved Lead → Contacted on Oct 26. Source: LinkedIn messaging.",
+   "linkedin_url": "https://www.linkedin.com/in/retomuller"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global **cell & gene therapy tools** leader (MACS cell separation, CliniMACS Prodigy, flow cytometry, reagents, cytokines, lentiviral-vector CDMO)"
+   },
+   {
+    "label": "Size",
+    "value": "About **4,600 employees** worldwide (May 2026); over 19,000 products in the portfolio"
+   },
+   {
+    "label": "Ownership",
+    "value": "Private, founder-owned (Stefan Miltenyi, founder & president); founded 1989"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Senior Scientist II; exact team and site **to be confirmed** — he referred to the protein group \"in Germany\", which suggests he may sit outside it"
+   },
+   {
+    "label": "Stated need",
+    "value": "None today — in-house protein group covers expression needs"
+   },
+   {
+    "label": "Contact",
+    "value": "retom@miltenyi.com"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#1 Pharmaceuticals / #5 Chemicals — partial fit**: life-science tools maker with in-house protein capacity; realistic entry is niche enzymes, overflow expression or process enzymes, not route development."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "Both are German-rooted protein/biotech scientists. Miltenyi's large GMP plant in **Teterow** is roughly an hour from Enzymicals in **Greifswald** (both Mecklenburg-Vorpommern) — a regional, peer-to-peer angle rather than a sales pitch."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified** between David and Reto.",
+    "Regional link: Miltenyi runs a **GMP site in Teterow** (opened 2003, ~600 staff, the region's largest employer); Enzymicals is in Greifswald, same state.",
+    "Both companies sell **recombinant proteins/reagents** to research and clinical users — David can talk shop on expression hosts and quality.",
+    "Reto kept the door open by giving his work email — he is polite, not hostile."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Overflow and niche expression, not replacement",
+    "text": "Respect the in-house group. Position Enzymicals' **tailor-made protein expression** as a backup when the internal team is booked, or for **hard-to-express enzymes** outside their core (e.g. esterases, lipases, oxidoreductases)."
+   },
+   {
+    "title": "Ready-made recombinant enzymes",
+    "text": "Enzymicals sells **recombinant enzymes for research, production and diagnostics** (e.g. patented pig liver esterase isoforms). Offer the catalogue as a quick reference for Reto's team — low commitment."
+   },
+   {
+    "title": "Enzymes for chemistry around the reagents",
+    "text": "Miltenyi also makes small-molecule-type products (labels, linkers, imaging agents). Enzymicals' **screening and chemo-enzymatic route development, mg to ton**, can fit when a chemical step is hard or costly — to be confirmed whether Reto touches that work."
+   }
+  ],
+  "person": {
+   "name": "Reto Müller",
+   "text": "LinkedIn lists him as **Senior Scientist II at Miltenyi Biotec**. A Google Scholar profile under his name exists but could not be read. Education, prior employers, exact site (Germany, Switzerland or US) and team are **to be confirmed** — check his LinkedIn profile before writing. His reply suggests he knows the internal protein group well but is not part of it, or at least not its decision maker."
+  },
+  "company": {
+   "text": "Miltenyi Biotec was founded in 1989 in Bergisch Gladbach (near Cologne) by **Stefan Miltenyi**, inventor of magnetic-activated cell sorting (MACS). It sells tools across the cell-therapy workflow — sample prep, cell separation, flow cytometry, antibodies, cell culture media and **cytokines**, the CliniMACS Prodigy automated manufacturing platform — plus lentiviral-vector CDMO work through Lentigen in the US. Sites include a GMP plant in **Teterow** (Germany), North American HQ in **Gaithersburg, MD** (expanded 2022: manufacturing, R&D, QA, CDMO), and subsidiaries in about 28 countries. Acquisitions include Lentigen assets (2014), LaVision BioTec (2018) and biosensor maker **Lino Biotech** (Zurich, 2023). In 2026 it is converting a former pharma complex in **Cologne** (~12,000 m²) into a clinical-reagents plant, due online by end of 2026, and building a new €10M production hall in Teterow (groundbreaking Dec 2025)."
+  },
+  "financials": {
+   "country": "Germany, privately held",
+   "text": "**Revenue:** not published by the company; third-party directories estimate **over $1B** (to be confirmed). **Employees:** ~4,600 worldwide (May 2026). **Funding:** none — founder-owned and self-financed; investing in capacity (Cologne clinical-reagents plant, Teterow €10M hall with 50–70 new jobs). Budget is not the issue; the barrier is **make-vs-buy** — they have internal protein capacity."
+  },
+  "history": {
+   "text": "LinkedIn (as David). Reto replied that Miltenyi has a **pretty capable protein group in Germany** and they are fine for now. David asked to share information by email; Reto gave **retom@miltenyi.com** (Oct 22, 2026). Box created Oct 23 by Juliana R; moved to *Contacted* Oct 26. Streak: Fit Low, Interest Low, Source Messaging."
+  },
+  "industry": [
+   {
+    "title": "Cell-therapy tools makers are adding capacity",
+    "text": "Miltenyi says demand for clinical reagents often exceeds supply — hence the Cologne and Teterow builds. Capacity strain inside a company is when outside expression partners get a call."
+   },
+   {
+    "title": "Animal-free, GMP-grade proteins",
+    "text": "Cell-therapy customers push suppliers for animal-origin-free, GMP-ready cytokines and enzymes. Recombinant enzyme supply with clean documentation is a recurring buying criterion."
+   },
+   {
+    "title": "Greener chemistry in pharma supply chains",
+    "text": "Pharma customers increasingly ask suppliers for lower-footprint processes; Miltenyi's own Cologne plant uses heat pumps to cut CO₂. Biocatalysis fits that same story."
+   }
+  ],
+  "talking_points": [
+   "Which proteins or enzymes does your team still **buy outside** today, even with the internal protein group?",
+   "When the German protein group is fully booked, how do you handle **urgent or small-batch** expression needs?",
+   "Are there **difficult enzymes** (esterases, lipases, oxidoreductases) where an outside specialist would save time?",
+   "Do any of your products involve a **chemical synthesis step** that is costly or messy, where an enzyme could help?",
+   "Who in the protein group would be the right person to keep in the loop for niche requests?"
+  ],
+  "attention": [
+   {
+    "title": "Send the promised email — short.",
+    "text": "Thank Reto, attach a one-page Enzymicals overview (expression service, recombinant enzyme catalogue, mg-to-ton scale-up) and say clearly there is no need to reply now."
+   },
+   {
+    "title": "Confirm his site and team.",
+    "text": "Check his LinkedIn: is he in Germany, Switzerland or the US, and in which department? It changes the angle (US = North American overflow; Germany = Teterow/Greifswald regional link)."
+   },
+   {
+    "title": "Keep warm, low frequency.",
+    "text": "Set a Streak follow-up in 6–8 weeks with one useful item (new enzyme, application note, event meeting). Do not push for a call."
+   },
+   {
+    "title": "Find the real buyer.",
+    "text": "The decision maker is likely the head of the protein group in Germany — ask Reto for a name only once there is a concrete reason."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Enzymicals pipeline (box, LinkedIn thread, stage history)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn search listing — Reto Muller, Senior Scientist II at Miltenyi Biotec (profile not fetchable)"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia — Miltenyi Biotec (history, products, acquisitions, sites)"
+   },
+   {
+    "used": true,
+    "text": "Bionity — Cologne clinical-reagents site expansion (May 15, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Nordkurier — Teterow groundbreaking, €10M hall, ~600 staff (Dec 2025)"
+   },
+   {
+    "used": true,
+    "text": "Maryland Dept. of Commerce — Gaithersburg North American HQ (Mar 2022)"
+   },
+   {
+    "used": true,
+    "text": "Life Sciences Europe — Lino Biotech acquisition (Feb 2023)"
+   },
+   {
+    "used": true,
+    "text": "IntuitionLabs company directory — revenue estimate ($1B+), ownership (AI-generated, to be confirmed)"
+   },
+   {
+    "used": false,
+    "text": "Google Scholar — Reto Muller profile (not readable)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Miltenyi company page follower count not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared October 28, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Big, established brand with **steady scientific content** (webinars, application notes, trade shows); audience counts not verified.",
+   "detail": "Miltenyi exhibits at major cell-therapy and immunology meetings worldwide and publishes a large technical content library around its 19,000+ products. Company LinkedIn and other follower counts could not be audited. Reto himself shows no visible public posting.",
+   "context": "Web-audited Oct 28, 2026; follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Miltenyi Biotec",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Likely main corporate channel"
+    },
+    {
+     "channel": "Website / technical content (miltenyibiotec.com)",
+     "audience": "Researchers and cell-therapy developers",
+     "recency": "Ongoing",
+     "read": "Strong"
+    },
+    {
+     "channel": "Trade shows and scientific meetings",
+     "audience": "Global life-science buyers",
+     "recency": "Ongoing (e.g. cancer and immunology congresses, 2026)",
+     "read": "Active"
+    },
+    {
+     "channel": "Press / trade media",
+     "audience": "Industry",
+     "recency": "Cologne site story May 2026; Teterow Dec 2025",
+     "read": "Occasional"
+    },
+    {
+     "channel": "LinkedIn — Reto Müller",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low"
+    }
+   ],
+   "note": "Miltenyi talks to scientists, not investors. Content that helps Reto's team (an application note, an enzyme datasheet) will land better than a sales message."
+  },
+  "network": {
+   "summary": "No shared network between David and Reto was verified.",
+   "items": [
+    "Regional route: Miltenyi's **Teterow** GMP site (~600 staff) is near Greifswald — check whether David or the Enzymicals team knows anyone there.",
+    "Decision makers likely sit in the **protein group in Germany** (names to be confirmed).",
+    "Your exact number of shared connections with Reto is on his LinkedIn profile, under the name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/retomuller",
+    "label": "See your mutual connections with Reto on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "May 15, 2026",
+    "where": "Trade press (Bionity)",
+    "text": "Miltenyi is converting a former pharma complex in **Cologne** into a GMP clinical-reagents plant; says demand often exceeds supply.",
+    "use": "Capacity pressure = reason to have a backup expression partner."
+   },
+   {
+    "when": "Dec 18, 2025",
+    "where": "Regional press (Nordkurier)",
+    "text": "Groundbreaking for a **€10M production hall in Teterow**, 50–70 new jobs.",
+    "use": "Regional opener: \"we're your neighbours in Greifswald.\""
+   },
+   {
+    "when": "Feb 2023",
+    "where": "Company acquisition",
+    "text": "Bought **Lino Biotech** (ETH Zurich spin-out, biosensors for bioprocess fluids).",
+    "use": "Shows interest in bioprocess tools — possible link to enzyme-based assays (to be confirmed)."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "AIChE Annual Meeting",
+    "when": "Minneapolis, Nov 8–12, 2026",
+    "role": "Miltenyi attendance to be confirmed",
+    "note": "Enzymicals target event — check if Miltenyi or Reto attend."
+   },
+   {
+    "name": "SIMB Annual Meeting",
+    "when": "Long Beach, Jan 17–21, 2027",
+    "role": "To be confirmed"
+   }
+  ],
+  "hooks": [
+   "Thank him for the email address and keep it **no-pressure**: \"for your files, when the internal team is busy.\"",
+   "Regional angle: Enzymicals in **Greifswald** is close to Miltenyi's **Teterow** site.",
+   "Offer the **recombinant enzyme catalogue** (e.g. pig liver esterase isoforms) as a reference, not a pitch.",
+   "Mention **overflow / hard-to-express** proteins as the one case where an outside specialist helps.",
+   "Next touch in 6–8 weeks with one useful item; no call request."
+  ]
+ },
+ "send": false
+}
