@@ -195,6 +195,7 @@
     const pk = st.streak.pipeline_key && !st.streak.pipeline_key.startsWith('pipeline:') ? st.streak.pipeline_key : '';
     const pUrl = pk ? `https://www.streak.com/a/pipelines/${pk}` : '';
     $('sPipeLinkBox').hidden = !pUrl;
+    $('sPipeNone').hidden = !!pUrl;
     if (pUrl) { $('sPipeLink').href = pUrl; $('sPipeUrl').textContent = pUrl; }
 
     $('sRecipients').value = st.recipients || (me && me.member.email) || '';
