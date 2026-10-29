@@ -56,7 +56,7 @@ export async function emailBrief(env, clientRow, brief, { force = false, subject
   const to = await recipients(env, clientRow.id);
   if (!to.length) return false;
   const shown = applyTemplate(brief.data, await getTemplate(env, clientRow.id));
-  const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
   const who = { client_id: clientRow.id, box_key: brief.box_key, company: brief.company, lead_name: brief.lead_name, sent_by: subjectDate ? 'meeting run' : 'daily run', to };
   try {
     await sendEmail(env, {

@@ -212,7 +212,7 @@
     $('sPipeNone').hidden = !!pUrl;
     if (pUrl) { $('sPipeLink').href = pUrl; $('sPipeUrl').textContent = pUrl; }
 
-    $('sRecipients').value = st.recipients || (me && me.member.email) || '';
+    $('sRecipients').value = st.recipients || ''; // empty means nobody yet — no pre-filled address that only looks saved
   }
 
   // ---------- Talking points template ----------

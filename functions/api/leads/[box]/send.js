@@ -30,7 +30,7 @@ export async function onRequestPost({ request, env, params }) {
   if (to.length > 20) return json({ error: 'Send to 20 people at most.' }, 400);
 
   const data = applyTemplate(row.data, await getTemplate(env, u.client_id));
-  const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
   const note = String(b.note || '').trim().slice(0, 1000);
   const esc = (x) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const intro = note ? `<div style="max-width:680px;margin:0 auto 12px;font-family:Arial,sans-serif;font-size:14px;color:#33475b;line-height:1.6;">${esc(note).replace(/\n/g, '<br>')}<br><br>— ${esc(u.name || u.email)}</div>` : '';
