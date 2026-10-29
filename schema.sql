@@ -14,7 +14,8 @@ CREATE TABLE IF NOT EXISTS clients (
 CREATE TABLE IF NOT EXISTS members (
   id               INTEGER PRIMARY KEY AUTOINCREMENT,
   client_id        INTEGER NOT NULL REFERENCES clients(id),
-  email            TEXT UNIQUE NOT NULL,
+  email            TEXT UNIQUE NOT NULL,       -- work email: talking points and reports go here
+  login_email      TEXT UNIQUE,                -- LinkedIn sign-in email when it differs from the work email
   name             TEXT NOT NULL DEFAULT '',
   title            TEXT NOT NULL DEFAULT '',
   linkedin_url     TEXT NOT NULL DEFAULT '',

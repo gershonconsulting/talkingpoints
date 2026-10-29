@@ -4,8 +4,8 @@ import { googleAccessToken, listEvents } from '../../_google.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
-//   1. New leads: any Streak box created since the last check gets a draft brief
-//      (safety net behind the Streak webhook).
+//   1. New leads — ONCE A DAY (first run after 7 am New York time): every Streak box created
+//      in the client's pipeline since the last daily check gets its talking points.
 //   2. Meetings: every calendar meeting with an outside attendee starting within the next
 //      `lead_hours` (default 48h) gets its talking points prepared and emailed once.
 export async function onRequestPost({ request, env }) {
@@ -21,13 +21,22 @@ export async function onRequestPost({ request, env }) {
   return json({ ok: true, at: new Date().toISOString(), report });
 }
 
+// New York calendar day and hour, e.g. { day: '2026-10-29', hour: 7 }.
+function nyNow(ms = Date.now()) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' })
+    .formatToParts(new Date(ms)).map((x) => [x.type, x.value]));
+  return { day: `${p.year}-${p.month}-${p.day}`, hour: Number(p.hour) };
+}
+
 async function newLeads(env, client, r) {
   const key = await clientStreakKey(env, client.id);
   if (!key || !client.pipeline_key) { r.notes.push('Streak not connected'); return; }
   const s = (await getSettings(env, client.id)) || {};
+  const now = nyNow();
+  if (now.hour < 7 || (s.streak_checked_at && nyNow(s.streak_checked_at).day === now.day)) { r.notes.push('new leads: already checked today'); return; }
   const since = s.streak_checked_at || Date.now() - 24 * 3600 * 1000;
   const boxes = await streak(key, `/v1/pipelines/${client.pipeline_key}/boxes?sortBy=creationTimestamp&limit=25`);
-  const fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since).slice(0, 5);
+  const fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
   for (const b of fresh) {
     const boxKey = b.boxKey || b.key;
     const has = await env.DB.prepare('SELECT 1 FROM briefs WHERE box_key = ?').bind(boxKey).first();

@@ -102,21 +102,23 @@
           </div>
         </div>
         <table>
-          <thead><tr><th>Person</th><th>Email</th><th>Role</th><th>Last sign-in</th><th></th></tr></thead>
+          <thead><tr><th>Person</th><th>Work email (reports)</th><th>LinkedIn sign-in</th><th>Role</th><th>Last sign-in</th><th></th></tr></thead>
           <tbody>${c.members.map((m) => `<tr>
             <td>${esc(m.name || '—')}<div class="muted" style="font-size:12px">${esc(m.title || '')}</div></td>
             <td>${esc(m.email)}</td>
+            <td>${m.login_email ? esc(m.login_email) : '<span class="muted">same</span>'}</td>
             <td>${m.is_admin ? 'Gershon' : m.can_manage ? 'Client manager' : 'Client user'}</td>
             <td>${when(m.last_login_at)}</td>
             <td>${m.email === 'olivier@attia.com' ? '<span class="muted" style="font-size:12px">Owner</span>' : `<button class="linkish" data-del="${m.id}" data-email="${esc(m.email)}">Remove</button>`}</td>
-          </tr>`).join('') || '<tr><td colspan="5" class="muted">Nobody invited yet.</td></tr>'}</tbody>
+          </tr>`).join('') || '<tr><td colspan="6" class="muted">Nobody invited yet.</td></tr>'}</tbody>
         </table>
         <form class="row-form" data-client="${c.id}">
-          <input name="email" type="email" placeholder="Email they use on LinkedIn" required aria-label="Email" />
+          <input name="email" type="email" placeholder="Work email (reports go here)" required aria-label="Work email" />
+          <input name="login_email" type="email" placeholder="LinkedIn email, if different" aria-label="LinkedIn sign-in email" />
           <input name="name" placeholder="Name" aria-label="Name" />
           <input name="title" placeholder="Title" aria-label="Title" />
           <label><input name="can_manage" type="checkbox" /> Can change Settings</label>
-          <button class="btn primary" type="submit">Invite</button>
+          <button class="btn primary" type="submit">Invite or update</button>
         </form>
       </div>`).join('');
   }
