@@ -40,7 +40,11 @@ async function newLeads(env, client, r) {
   for (const b of fresh) {
     const boxKey = b.boxKey || b.key;
     const has = await env.DB.prepare('SELECT 1 FROM briefs WHERE box_key = ?').bind(boxKey).first();
-    if (!has) { await buildDraft(env, client, boxKey); r.new_leads++; }
+    if (has) continue;
+    const brief = await buildDraft(env, client, boxKey); r.new_leads++;
+    // Sent to every address in the client's Settings ("Send talking points to") plus members who
+    // ticked "Email me" — only while EMAIL_ENABLED is "true".
+    try { if (brief && await emailBrief(env, client, brief)) r.emails_sent++; } catch (e) { r.notes.push(`email: ${e.message}`); }
   }
   await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(client.id).run();
   await env.DB.prepare('UPDATE client_settings SET streak_checked_at = ? WHERE client_id = ?').bind(Date.now(), client.id).run();
