@@ -1,0 +1,100 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAleivirMIDA",
+ "company": "Juniper Square",
+ "lead_name": "Stephanie D. Miller",
+ "lead_role": "Chief Operating Officer",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Juniper Square (private-markets fund software and fund administration), US",
+   "person": "Stephanie D. Miller",
+   "role": "Chief Operating Officer (appointed July 2025; current role to be confirmed)",
+   "location": "Tampa, Florida per Streak (to be confirmed; her phone has a New York 917 area code)",
+   "chips": [{"label": "Lead"}, {"label": "Fit: High", "tone": "good"}, {"label": "Said yes to a call", "tone": "good"}, {"label": "Slot missed: reset now", "tone": "warn"}],
+   "alert": {"title": "Next step is Noza's, and it is overdue:", "text": "Stephanie answered **'Sure'** to a call, gave her mobile **917-945-5583**, said she was **free the next afternoon** (mid-October) and then gave her email **stephanie.d.miller@outlook.com**. **That slot has passed and no email or call is logged in Streak.** Noza should **email today with 2-3 time options and call her mobile** to reset the meeting, with a short apology for the delay."},
+   "source_line": "Lead added to Streak on Oct 16, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/stephanie-d-miller"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Juniper Square**, San Francisco, founded **2014**: software plus **fund administration** services for private-markets managers (GPs); AI platform **JunieAI**"},
+   {"label": "Scale", "value": "**2,300+ GPs**, **700,000+ LP accounts**, **US$1 trillion+ of LP capital** on the platform; **US$300B+ under administration**; **1,000+ employees** (company figures, 2026)"},
+   {"label": "Funding", "value": "Private. **US$130M Series D at a US$1.1B valuation** (June 2025, led by Ribbit Capital); **US$350M+ raised** in total; Nasdaq Ventures strategic investment (Sep 2025)"},
+   {"label": "Lead", "value": "**COO since July 2025**; ex-**CEO of Hazeltree** and **CEO of Intertrust Group**, ex-**Global Head of Fund Services at J.P. Morgan**; earlier Citco, SS&C, Credit Suisse"},
+   {"label": "Contact", "value": "stephanie.d.miller@outlook.com · mobile 917-945-5583 · LinkedIn stephanie-d-miller"},
+   {"label": "Finance Montréal angle", "value": "A fast-growing **fund-admin operation** that already hires **remotely in Canada** and runs ops in **India**: Montreal offers a **New York-time-zone ops hub** at about half NY cost, with the **IFC credit** for fund admin roles"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Noza Mutalova", "reason": "Noza takes the meeting and speaks Stephanie's language: **where to place a fund-services operations team**. Stephanie has built and run fund administration businesses at Citco, J.P. Morgan and Intertrust."},
+   "items": [
+    "**Fund services is Montreal's home turf:** firms Stephanie knows well as peers or competitors, such as **State Street**, already run large operations in Montreal.",
+    "**Operations mindset:** Steve (VP Direct Investment) pitches location and cost; Stephanie's stated COO focus is **operational clarity and executional excellence**: scaling teams is her job.",
+    "**No shared employer, school or contact verified** between Steve/Noza and Stephanie (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Fund admin is scaling: where do the next teams go?", "text": "Juniper Square says its **fund administration business grew at a 3-year CAGR above 100%** and now has **US$300B+ under administration**. Each new fund needs accountants, investor-services and onboarding staff. Ask where the next 100-150 operations roles will sit."},
+   {"title": "New York hours at about half the cost", "text": "A Finance Montréal-commissioned 2026 cost study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**. Montreal is in the **New York time zone**, bilingual, and complements the company's **Mumbai and Bangalore** teams with same-day coverage for US GPs."},
+   {"title": "Credits that fit both halves of the business", "text": "Quebec's **IFC tax credit** (24% of eligible salaries, up to **C$18,000 per employee per year**, min. 6 eligible staff) covers activities such as **third-party fund administration support**: eligibility for Juniper Square's roles **to be confirmed** case by case. For software and AI engineers, Quebec's **e-business/AI credit (CDAEIA)** offers about **30% of eligible salaries**; exact rate and eligibility **to be confirmed** with Investissement Québec."}
+  ],
+  "person": {"name": "Stephanie D. Miller", "text": "Appointed **Chief Operating Officer of Juniper Square in July 2025**, reporting into a founder-led company (CEO and co-founder Alex Robinson). More than **20 years** in financial services, technology and operations. Career: nearly a decade at **Citco Fund Services** (built its middle-office services business), **SS&C** (SVP, sales implementation and strategy, 2016), **Global Head of Fund Services at J.P. Morgan** (four years), **CEO and Management Board member of Intertrust Group** (from Jan 2018), **President and CEO of Hazeltree** (Oct 2023 to Dec 2024), plus Credit Suisse; also an **independent board director**. Education: **BA in accounting, Queens College (CUNY), class of 1991**. **To be confirmed:** that she is still COO in Oct 2026 (she replied from a personal email) and whether she is based in Tampa or New York."},
+  "company": {"text": "Juniper Square is a founder-led US company (founded 2014, San Francisco) that positions itself as the **operations partner for private markets**: investor portal and CRM, fund accounting and **fund administration** services, and the **JunieAI** platform. It serves **2,300+ GPs** (real estate, private equity, venture, private credit). Physical offices are in **San Francisco, New York, Mumbai and Bangalore**; staff also work remotely across **27 US states, 2 Canadian provinces, India, Luxembourg and England**. It has been **hiring fund administration staff remotely in Canada** (job posts listed on Built In Calgary and Vancouver). Recent moves: Forstone Luxembourg acquisition (May 2025), Tenor Digital (private credit, Oct 2025), **Sightglass** (AI for IR, Apr 2026), Nasdaq eVestment partnership (2026), a 'headless' API opening to any AI (Jun 2026), a fund-admin oversight AI agent (Jul 2026), and its **first CIO** (Oct 2026). Named to Fast Company's Most Innovative Companies 2026."},
+  "financials": {"country": "USA, private (venture-backed)", "text": "**Series D (Jun 2025): US$130M at a US$1.1B valuation**, led by **Ribbit Capital** with Fifth Wall, Redpoint, HighSage and Blue Owl. **Feb 2023: US$133M** growth round led by Owl Rock (Blue Owl), valuation not disclosed. **Sep 2025:** strategic investment from **Nasdaq Ventures** (amount not disclosed). Total raised: **more than US$350M** (company job posts). **Revenue / ARR: not publicly disclosed.** Reported growth signals: fund administration **3-year CAGR above 100%** (2025), fund-admin AUA grew **more than 4x** in 2022; **1,000+ employees**."},
+  "history": {"text": "LinkedIn (as Steve). Stephanie replied **'Sure'** to a call, wrote 'Happy to', gave her mobile **917-945-5583** and said she was **free tomorrow afternoon**. Steve asked for the best email so a colleague could set up the meeting; she replied **stephanie.d.miller@outlook.com**. Exchange logged and box created **Oct 16, 2026** by Juliana R. **Open item:** no email, call or meeting is logged in Streak since then; the offered slot (around Oct 17) has passed. Noza should email and call promptly to reset."},
+  "industry": [
+   {"title": "Private markets keep outsourcing fund admin", "text": "GPs increasingly hand fund accounting and investor services to tech-enabled administrators. Juniper Square competes with incumbents Stephanie knows from the inside (Citco, SS&C, J.P. Morgan, Intertrust)."},
+   {"title": "Fund-services hubs follow cost and time zone", "text": "Administrators run multi-site models (US, India, Europe). Montreal already hosts large fund-services and banking operations, including **State Street, BNP Paribas, Société Générale, Crédit Agricole and Morgan Stanley**."},
+   {"title": "AI changes the ops mix", "text": "Juniper Square is pushing AI agents into fund admin. That shifts hiring toward **data, AI and control roles**: Montreal has about **150,000 tech specialists** and a strong AI research base."},
+   {"title": "Retail and private credit growth", "text": "Juniper Square reports the rise of retail investors and private credit (Tenor Digital deal), both of which add investor accounts and servicing volume."}
+  ],
+  "talking_points": [
+   "Is she still **COO at Juniper Square**, and does she own **location and headcount decisions** for fund administration?",
+   "Where does fund admin capacity sit today (**US remote, Canada remote, Mumbai, Bangalore, Luxembourg**), and where will the next teams go?",
+   "Who are the **Canadian remote staff** today, and would a **Montreal hub** make sense for US-hours servicing and French-speaking clients?",
+   "Would a short **cost and IFC/CDAEIA comparison** (Montreal vs New York vs Tampa) for a 50-150-person ops team be useful?",
+   "How is **AI** (JunieAI, oversight agent) changing the roles she needs to hire?"
+  ],
+  "attention": [
+   {"title": "Reset the missed slot now.", "text": "She offered a time in mid-October and nobody followed up in Streak. Email and call today; keep it short and propose 2-3 slots."},
+   {"title": "Verify her current role.", "text": "She gave a **personal email**; confirm on LinkedIn that she is still COO before referring to Juniper Square plans."},
+   {"title": "Don't promise credits.", "text": "IFC and CDAEIA eligibility depends on activity and company structure; say Finance Montréal will check."},
+   {"title": "Juniper Square headcount is mostly remote.", "text": "Frame Montreal as a **hub option** that fits their hybrid model (they already list physical offices plus remote staff), not as a full relocation."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Finance Montreal Steve - LG): box, LinkedIn conversation logged by Juliana R (Oct 16, 2026)"},
+   {"used": true, "text": "junipersquare.com: press release 'Juniper Square Appoints Stephanie Miller as COO' (Jul 22, 2025) and press page (2025-2026 announcements)"},
+   {"used": true, "text": "Global Fintech Series / FinTech Global: Series D at US$1.1B valuation (Jun 2025)"},
+   {"used": true, "text": "FinTech Futures: US$133M fundraise (Feb 2023)"},
+   {"used": true, "text": "Built In Calgary / Vancouver: Juniper Square job posts (Canada remote, offices, 1,000+ staff, US$300B+ AUA)"},
+   {"used": true, "text": "Pulse 2.0: first CIO appointment (Oct 2026)"},
+   {"used": true, "text": "Hazeltree team page; Global Custodian (Dec 2017, Intertrust CEO); Queens College panel flyer (Apr 2024)"},
+   {"used": true, "text": "finance-montreal.com: IFC credit, 2026 cost study; Leyton: CDAEIA credit summary"},
+   {"used": false, "text": "LinkedIn profile of Stephanie D. Miller (not readable; current role to be confirmed)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "B", "headline": "**Juniper Square is an active communicator** (frequent press releases, awards, podcast sponsorship); **Stephanie herself is low-visibility** online.", "detail": "The company publishes news almost monthly (AI launches, acquisitions, Nasdaq partnership) and sponsors the 'How I Invest' interview series. No public LinkedIn posts by Stephanie were found. Follower counts are to be confirmed.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Juniper Square (company page)", "audience": "To be confirmed", "recency": "Frequent", "read": "Strong"},
+   {"channel": "junipersquare.com newsroom", "audience": "GPs, LPs, press", "recency": "Monthly (latest Oct 8, 2026)", "read": "Strong"},
+   {"channel": "'How I Invest' title sponsorship", "audience": "Institutional investors", "recency": "Since Sep 2026", "read": "Moderate"},
+   {"channel": "LinkedIn: Stephanie D. Miller", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low"}
+  ], "note": "Use direct email and phone; reference company news rather than her posts."},
+  "network": {"summary": "No shared network between Steve and Stephanie was verified.", "items": ["Steve's exact number of shared connections with Stephanie is on her LinkedIn profile.", "Check whether Steve or Noza knows former Citco, J.P. Morgan fund services or State Street Montreal colleagues of hers."], "link": {"url": "https://www.linkedin.com/in/stephanie-d-miller", "label": "See Steve's mutual connections with Stephanie on LinkedIn"}},
+  "posts": [
+   {"when": "Oct 8, 2026", "where": "Juniper Square newsroom", "text": "Appointed its **first Chief Information Officer** and achieved **ISO/IEC 42001** (AI management) certification.", "use": "Shows the company is building senior ops and tech functions: ask where those teams will grow."},
+   {"when": "Jul 28, 2026", "where": "Juniper Square newsroom", "text": "Launched an **AI-powered fund admin oversight agent** for GPs.", "use": "Open on how AI changes the fund-admin roles she hires."},
+   {"when": "Apr 14, 2026", "where": "Juniper Square newsroom", "text": "Acquired **Sightglass** to add AI for investor relations.", "use": "Growth by acquisition means integrating teams: a location question."},
+   {"when": "Jul 22, 2025", "where": "Juniper Square newsroom", "text": "Announced Stephanie as COO; she said her focus would be operational clarity and cross-functional alignment.", "use": "Congratulate her on the role and tie Montreal to operational scaling."}
+  ],
+  "groups": [],
+  "events_attended": [
+   {"name": "Queens College (CUNY) alumni panel", "when": "Apr 3, 2024", "role": "Speaker (alumna, then Hazeltree CEO)"}
+  ],
+  "hooks": [
+   "Apologise briefly for the missed mid-October slot and offer 2-3 new times.",
+   "Open on her **fund-services career** (Citco, J.P. Morgan, Intertrust) and Juniper Square's **fund-admin growth**.",
+   "Offer a **one-page Montreal vs New York cost and credit comparison** for a fund-admin ops team."
+  ]
+ },
+ "send": false
+}

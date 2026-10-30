@@ -1,0 +1,228 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlajV4qoJDA",
+ "company": "Indosuez Wealth Management (CA Indosuez, Crédit Agricole group)",
+ "lead_name": "Shiladitya Choudhuri",
+ "lead_role": "Managing Director",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Indosuez Wealth Management (CA Indosuez), Singapore branch: wealth management arm of the Crédit Agricole group",
+   "person": "Shiladitya Choudhuri",
+   "role": "Managing Director",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Agreed to meet",
+     "tone": "good"
+    },
+    {
+     "label": "Slot week of Nov 2: URGENT",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours (urgent):",
+    "text": "Shiladitya can meet in the **week of November 2** and asked to liaise by **WhatsApp (+65 9018 6711)** because he checks LinkedIn less; he gave his email on Oct 17 (shiladitya.choudhuri@ca-indosuez.sg). **Noza must confirm a slot in Singapore now** by WhatsApp, with email as backup (Steve in copy)."
+   },
+   "source_line": "Lead added to Streak on Oct 19, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/shiladitya-choudhuri-9661a3b"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Indosuez Wealth Management**, the global wealth management brand of **Crédit Agricole**; about **€233bn of assets under management** at end-2025 and a record **€3.9bn** of net inflows in Q4 2025. Singapore is its **Asia headquarters**"
+   },
+   {
+    "label": "Lead",
+    "value": "**Managing Director** at the Singapore branch since **2014**, with Indosuez since **2009**; named in 2021 **Market Head, External Asset Manager (EAM) & Multi-Family Office business**. 20+ years in banking (HSBC Private Bank, ABN Amro, ICICI Bank)"
+   },
+   {
+    "label": "Contact",
+    "value": "shiladitya.choudhuri@ca-indosuez.sg · **prefers WhatsApp: +65 9018 6711**"
+   },
+   {
+    "label": "Montreal link",
+    "value": "**Crédit Agricole is already in Montreal**: Crédit Agricole CIB Canada has a Montreal-based Head of Coverage for Québec and Eastern Canada (Arnaud Achour, appointed Oct 2025)"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "Two tracks: (1) **the Crédit Agricole family**: Montreal as a lower-cost North American base for wealth, operations or support roles, next to a group entity already there; (2) **Shiladitya as a connector** to the **external asset managers and family offices** he serves, some of which may look at North America"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "She is the one meeting him **in Singapore** in early November, and as Finance Montréal's **Senior Director, International Business Development** with a financial-sector background, she can talk wealth and asset management with a long-tenured private banker."
+   },
+   "items": [
+    "**Same city, same week:** Noza is in Singapore in early November and Shiladitya offered the week of **Nov 2**.",
+    "**French financial family:** Finance Montréal can point to **BNP Paribas, Société Générale and Crédit Agricole** already in Montreal, which matters to a Crédit Agricole banker.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Your group is already in Montreal",
+    "text": "**Crédit Agricole CIB** runs Canadian coverage from **Montreal and Toronto**. Indosuez would not be starting from zero: it would join an existing group footprint, in the **New York time zone** and in a **bilingual (French/English)** city."
+   },
+   {
+    "title": "The cost case",
+    "text": "A Finance Montréal-commissioned 2026 study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**. Quebec's **International Financial Centre (IFC) credit** covers **24% of eligible salaries, up to C$18,000 per employee per year** (minimum 6 eligible staff)."
+   },
+   {
+    "title": "Peers already there",
+    "text": "**BNP Paribas, Société Générale, Crédit Agricole, State Street** and **Morgan Stanley** operate in Montreal: a ready talent pool for wealth, fund, compliance and middle-office work."
+   }
+  ],
+  "person": {
+   "name": "Shiladitya Choudhuri",
+   "text": "**Managing Director** at Indosuez Wealth Management's **Singapore branch** since **2014**; joined Indosuez in **2009**. In March 2021 he was also named **Market Head for the External Asset Manager & Multi-Family Office business** in Singapore (reporting at the time to Omar Shokur, then Asia CEO; current reporting line **to be confirmed**: Laurent Proutière is now CEO Asia). More than **two decades** in banking and financial services: earlier roles at **HSBC Private Bank** and **ABN Amro** in Singapore, and **ICICI Bank** in Dubai and India. Education **to be confirmed**. Whether he still leads the EAM/MFO desk in 2026 is **to be confirmed**. Replied positively to Steve and gave both his email and WhatsApp."
+  },
+  "company": {
+   "text": "Indosuez Wealth Management is the wealth management arm of the **Crédit Agricole group** (Jacques Prost has been CEO since 2018), with roots in Asia going back to the **Banque de l'Indochine** offices in Hong Kong and Singapore. The Singapore branch belongs to **CA Indosuez (Switzerland) SA** and is supervised by the Monetary Authority of Singapore. Recent build-up: majority stake in **Degroof Petercam** (Belgium, 2024), absorption of **Banque Thaler** (Switzerland, Dec 2025) and purchase of BNP Paribas Wealth Management's **Monaco client book** (Mar 2026). In August 2026 Indosuez moved the global management of its **Advisory and Capital Markets** to **Singapore**, its Asia headquarters, under Asia CEO **Laurent Proutière**. North American presence of Indosuez itself **to be confirmed** (none found in Canada)."
+  },
+  "financials": {
+   "country": "France, part of Crédit Agricole S.A. (Euronext Paris: ACA)",
+   "text": "Indosuez: **€233bn AuM** at end-December 2025 (up 3.2% over Q4) with record Q4 net inflows of **€3.9bn**. A third-party profile cites about **€249bn AuM at June 30, 2026**, 2025 net income of **€170m** (+19.7%) and **4,300+ staff in 15 territories** (to be confirmed against Crédit Agricole's own reports). Parent **Crédit Agricole S.A.** FY2025: revenues **€28.1bn** (+3.3%), pre-tax income **€10.4bn** (-2.1%), with costs up 4.9%. Context: a growing, acquisitive business under **cost pressure**, which suits a cost-location pitch."
+  },
+  "history": {
+   "text": "LinkedIn (as Steve). Shiladitya agreed to meet and said he can do the **week of November 2**. He asked to liaise by **WhatsApp (+65 9018 6711)** as he checks LinkedIn less, and gave his email on **Oct 17**. Box created **Oct 19, 2026** by Juliana R. **Open item (urgent):** Noza confirms a slot in the week of Nov 2 by WhatsApp/email."
+  },
+  "industry": [
+   {
+    "title": "Singapore wealth boom, global footprint",
+    "text": "Indosuez is shifting global functions to Singapore (Advisory and Capital Markets, 2026). Asia-based clients and EAMs increasingly want access to **North American markets and assets**."
+   },
+   {
+    "title": "Consolidation and cost discipline",
+    "text": "Wealth managers are buying books and banks (Degroof Petercam, Thaler, Monaco) and then need **integration, operations and compliance** capacity at a sensible cost."
+   },
+   {
+    "title": "Financial-centre competition",
+    "text": "Montreal competes with Toronto, New York and US nearshore cities on **cost**, **tax credits**, **bilingual talent** and **AI/fintech**."
+   }
+  ],
+  "talking_points": [
+   "How does Indosuez serve **North American assets and clients** today: through Crédit Agricole CIB, partners or not at all?",
+   "Does Crédit Agricole's **Montreal presence** ever come up in group discussions on where to place operations or support roles?",
+   "Do any of the **external asset managers or family offices** he works with plan a **North American** office or fund presence that Finance Montréal could help with?",
+   "Who in the Indosuez group owns **location and operating-model decisions** (Paris, Geneva, Singapore?), and would he introduce Noza?",
+   "Would a short **Montreal cost + IFC credit brief** be useful to share internally?"
+  ],
+  "attention": [
+   {
+    "title": "Confirm the slot now, on WhatsApp.",
+    "text": "He asked for WhatsApp, not LinkedIn. The window (week of Nov 2) is days away: send 2 or 3 concrete options and a place in Singapore today."
+   },
+   {
+    "title": "He is a client banker, not a location decision maker.",
+    "text": "Treat him as a **door-opener** to the group and to his EAM/family-office network; ask for the right internal contact."
+   },
+   {
+    "title": "Facts to confirm.",
+    "text": "His current scope (EAM/MFO still?), reporting line, education and Indosuez's North American footprint are **to be confirmed** before the meeting."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montréal): box, LinkedIn conversation with Steve"
+   },
+   {
+    "used": true,
+    "text": "ca-indosuez.com press release (Mar 3, 2021): three new appointments in Singapore"
+   },
+   {
+    "used": true,
+    "text": "finews.asia (Mar 2021): Indosuez grows team in Singapore"
+   },
+   {
+    "used": true,
+    "text": "Hubbis (Jul 31, 2026): Indosuez Asia leadership, Advisory & Capital Markets move to Singapore"
+   },
+   {
+    "used": true,
+    "text": "WealthBriefing (Feb 5, 2026): Crédit Agricole FY/Q4 2025 results, Indosuez AuM"
+   },
+   {
+    "used": true,
+    "text": "private.law wiki: Indosuez profile (H1 2026 AuM, 2025 net income, acquisitions)"
+   },
+   {
+    "used": true,
+    "text": "Business Wire (Oct 30, 2025): Crédit Agricole CIB appoints Head of Coverage for Québec and Eastern Canada (Montreal)"
+   },
+   {
+    "used": true,
+    "text": "Finance Montréal sibling briefs: cost study, IFC credit, firms in Montreal"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile of Shiladitya Choudhuri (activity not indexed; check directly)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "**Strong corporate presence**: Indosuez publishes press releases and market insights across its country sites; Shiladitya has **no visible public posting**.",
+   "detail": "Indosuez and Crédit Agricole communicate regularly (appointments, results, investment outlooks), and trade media in Asia cover its moves. Exact follower counts could not be retrieved and are **to be confirmed**. The lead says he checks LinkedIn less, so his personal channel is low-visibility.",
+   "context": "Web-audited Oct 30, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Indosuez Wealth Management",
+     "audience": "To be confirmed (large)",
+     "recency": "Active",
+     "read": "Main corporate channel"
+    },
+    {
+     "channel": "ca-indosuez.com press + insights",
+     "audience": "Clients, media",
+     "recency": "Monthly",
+     "read": "Strong"
+    },
+    {
+     "channel": "Asian wealth trade media (Hubbis, Asian Private Banker, WealthBriefingAsia)",
+     "audience": "Wealth industry",
+     "recency": "2021–2026",
+     "read": "Good coverage"
+    },
+    {
+     "channel": "LinkedIn: Shiladitya Choudhuri",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low (prefers WhatsApp)"
+    }
+   ],
+   "note": "Do not rely on LinkedIn to reach him; use WhatsApp."
+  },
+  "network": {
+   "summary": "Steve reached Shiladitya directly through LinkedIn messaging; no shared network was verified.",
+   "items": [
+    "Steve's exact number of shared connections with Shiladitya is on his LinkedIn profile."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/shiladitya-choudhuri-9661a3b",
+    "label": "See Steve's mutual connections with Shiladitya on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank him for making time in the **week of Nov 2** and for sharing his WhatsApp.",
+   "Open on **Crédit Agricole's existing Montreal presence**: Indosuez would be joining family.",
+   "Ask about his **EAM and family-office clients'** North American plans, and leave the Montreal cost + IFC one-pager."
+  ]
+ },
+ "send": false
+}
