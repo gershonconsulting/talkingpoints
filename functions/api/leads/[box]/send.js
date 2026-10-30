@@ -47,6 +47,6 @@ export async function onRequestPost({ request, env, params }) {
     return json({ error: 'The email could not be sent. Try again in a minute.', detail: String(e.message || e) }, 502);
   }
   await logSend(env, { client_id: u.client_id, box_key: box, company: row.company, lead_name: row.lead_name, sent_by: u.email, to });
-  await env.DB.prepare("UPDATE briefs SET emailed_at = datetime('now') WHERE box_key = ?").bind(brief.box_key).run();
+  await env.DB.prepare("UPDATE briefs SET emailed_at = datetime('now') WHERE box_key = ?").bind(box).run();
   return json({ ok: true, sent_to: to });
 }
