@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS clients (
 CREATE TABLE IF NOT EXISTS members (
   id               INTEGER PRIMARY KEY AUTOINCREMENT,
   client_id        INTEGER NOT NULL REFERENCES clients(id),
-  email            TEXT UNIQUE NOT NULL,
+  email            TEXT UNIQUE NOT NULL,       -- work email: talking points and reports go here
+  login_email      TEXT UNIQUE,                -- LinkedIn sign-in email when it differs from the work email
   name             TEXT NOT NULL DEFAULT '',
   title            TEXT NOT NULL DEFAULT '',
   linkedin_url     TEXT NOT NULL DEFAULT '',
@@ -92,6 +93,22 @@ CREATE TABLE IF NOT EXISTS outbox (
   fetched_at  TEXT
 );
 
+CREATE TABLE IF NOT EXISTS send_log (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  client_id   INTEGER NOT NULL,
+  box_key     TEXT NOT NULL DEFAULT '',
+  company     TEXT NOT NULL DEFAULT '',
+  lead_name   TEXT NOT NULL DEFAULT '',
+  sent_by     TEXT NOT NULL DEFAULT '',   -- member email, or 'daily run' / 'meeting run'
+  to_list     TEXT NOT NULL DEFAULT '',   -- comma list
+  status      TEXT NOT NULL DEFAULT 'sent', -- 'sent' | 'failed'
+  error       TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE INDEX IF NOT EXISTS send_log_box ON send_log(box_key, created_at);
+
+
 INSERT OR IGNORE INTO clients (slug, name, pipeline_key, email_domains)
 VALUES ('valos', 'Valos Srl', 'pipeline:aina.andriamangason@gmail.com:5165361957781504', '');
 
@@ -109,11 +126,13 @@ INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('finance-m
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('finance-montreal-noza', '#175 Finance Montreal (Noza)', 'agxzfm1haWxmb29nYWVyNwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEghXb3JrZmxvdxiAgKWVvvDkCgw', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('mabsilico', '#200 MAbSilico', 'agxzfm1haWxmb29nYWVyNwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEghXb3JrZmxvdxiAgOqI26zZCAw', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('wallix', '#212 Wallix', 'agxzfm1haWxmb29nYWVyRAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIIV29ya2Zsb3cYgIChwIjTlwsM', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
-INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('altavia', '#229 Altavia', 'agxzfm1haWxmb29nYWVyRAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIIV29ya2Zsb3cYgICFz_elmwgM', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
+INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('altavia', '#229 Altavia (Anne)', 'agxzfm1haWxmb29nYWVyRAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIIV29ya2Zsb3cYgICFz_elmwgM', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('valos', '#233 Valos', 'agxzfm1haWxmb29nYWVyRAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIIV29ya2Zsb3cYgICF5ei7lgkM', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('phitech-bioinformatics', '#245 PhiTech Bioinformatics', 'agxzfm1haWxmb29nYWVyRAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIIV29ya2Zsb3cYgIDlxrSm4AgM', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('enzymicals-ag', '#246 Enzymicals AG', 'agxzfm1haWxmb29nYWVyPAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSCFdvcmtmbG93GICA5cmO9r8KDA', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('flying-secoya', '#247 Flying Secoya', 'agxzfm1haWxmb29nYWVyPAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSCFdvcmtmbG93GICA5fWghcsJDA', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('meteor-biotech', '#248 Meteor Biotech', 'agxzfm1haWxmb29nYWVyPAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSCFdvcmtmbG93GICA5bXyvtcKDA', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
+INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('altavia-alexandre', '#229 Altavia (Alexandre)', 'agxzfm1haWxmb29nYWVyPAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSCFdvcmtmbG93GICAlaTF_YAKDA', '') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
+INSERT INTO clients (slug, name, pipeline_key, email_domains) VALUES ('amphasys', '#250 Amphasys', '', 'amphasys.com') ON CONFLICT(slug) DO UPDATE SET name = CASE WHEN clients.name LIKE '#%' THEN clients.name ELSE excluded.name END, pipeline_key = CASE WHEN clients.pipeline_key = '' OR clients.pipeline_key LIKE 'pipeline:%' THEN excluded.pipeline_key ELSE clients.pipeline_key END;
 INSERT OR IGNORE INTO client_settings (client_id) SELECT id FROM clients;
 `;

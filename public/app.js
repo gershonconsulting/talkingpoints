@@ -12,6 +12,17 @@
     toast._t = setTimeout(() => t.classList.remove('show'), 2600);
   }
 
+  // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
+  const APP_VERSION = '1.5.3';
+  async function checkVersion() {
+    try {
+      const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
+      if (v && v !== APP_VERSION && !document.querySelector('#sendBox:not([hidden])')) location.reload();
+    } catch { /* offline: try later */ }
+  }
+  setInterval(checkVersion, 120000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) checkVersion(); });
+
   async function api(path, opts = {}) {
     const r = await fetch(path, { credentials: 'same-origin', headers: { 'content-type': 'application/json' }, ...opts });
     if (r.status === 401) { location.href = '/login.html'; throw new Error('signed_out'); }
@@ -85,6 +96,17 @@
     }
   }
 
+  // ---------- Send log: when this talking point was emailed, to whom, and whether it went out ----------
+  async function loadSendLog(brief) {
+    const el = $('sendLog'); if (!el) return;
+    let h = [];
+    try { h = (await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`)).history || []; } catch { /* no log */ }
+    const fmt = (t) => new Date(t.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+    el.innerHTML = h.length
+      ? `<div class="muted" style="font-size:12px;margin:6px 0 10px"><b>Send log</b><ul style="margin:4px 0 0 18px;padding:0">${h.map((x) => `<li>${esc(fmt(x.created_at))} · ${x.status === 'sent' ? '✅ sent' : '❌ failed'} to ${esc(x.to_list)} · by ${esc(x.sent_by)}${x.error ? ` · <span title="${esc(x.error)}">${esc(x.error.slice(0, 80))}</span>` : ''}</li>`).join('')}</ul></div>`
+      : '<div class="muted" style="font-size:12px;margin:6px 0 10px">Not emailed yet.</div>';
+  }
+
   // ---------- Brief toolbar: download + send ----------
   let shown = null;
   function showBrief(brief) {
@@ -99,7 +121,9 @@
         <label for="sendNote">Message (optional)</label><textarea id="sendNote" placeholder="A line to go above the talking points"></textarea>
         <div class="row-actions"><button class="btn primary" type="submit" id="sendGo">Send now</button><button class="btn" type="button" id="sendCancel">Cancel</button></div>
       </form>
+      <div class="send-log" id="sendLog"></div>
       <div id="briefDoc">${brief.html}</div>`;
+    loadSendLog(brief);
     const name = `Talking Points - ${brief.company || 'lead'} - ${brief.lead_name || ''}`.replace(/[\\/:*?"<>|]+/g, '').trim();
     $('dlHtml').onclick = () => {
       const doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${esc(name)}</title></head><body style="margin:0">${brief.html}</body></html>`;
@@ -130,6 +154,7 @@
         const r = await api(`/api/leads/${encodeURIComponent(brief.box_key)}/send`, { method: 'POST', body: JSON.stringify({ to: $('sendTo').value, note: $('sendNote').value }) });
         toast(`Sent to ${r.sent_to.length} ${r.sent_to.length === 1 ? 'person' : 'people'}`); $('sendBox').hidden = true;
       } catch (err) { toast(err.body?.error || 'Not sent. Try again.'); }
+      loadSendLog(brief);
       go.disabled = false; go.textContent = 'Send now';
     };
   }
@@ -191,7 +216,14 @@
       ? `<option value="">Choose a pipeline</option>${st.streak.pipelines.map((p) => `<option value="${esc(p.key)}" ${p.key === st.streak.pipeline_key ? 'selected' : ''}>${esc(p.name)}</option>`).join('')}`
       : '<option value="">Connect Streak to list your pipelines</option>';
 
-    $('sRecipients').value = st.recipients || (me && me.member.email) || '';
+    // Direct link to the client's dedicated Streak pipeline (set by Gershon or chosen above).
+    const pk = st.streak.pipeline_key && !st.streak.pipeline_key.startsWith('pipeline:') ? st.streak.pipeline_key : '';
+    const pUrl = pk ? `https://www.streak.com/a/pipelines/${pk}` : '';
+    $('sPipeLinkBox').hidden = !pUrl;
+    $('sPipeNone').hidden = !!pUrl;
+    if (pUrl) { $('sPipeLink').href = pUrl; $('sPipeUrl').textContent = pUrl; }
+
+    $('sRecipients').value = st.recipients || ''; // empty means nobody yet — no pre-filled address that only looks saved
   }
 
   // ---------- Talking points template ----------
@@ -229,7 +261,11 @@
   $('sRemove').addEventListener('click', () => saveSettings({ remove_streak: true }, 'Streak disconnected'));
   $('emailForm').addEventListener('submit', (e) => {
     e.preventDefault();
-    saveSettings({ recipients: $('sRecipients').value }, 'Email settings saved');
+    const btn = e.submitter || $('emailForm').querySelector('button'); btn.disabled = true;
+    api('/api/settings', { method: 'PUT', body: JSON.stringify({ recipients: $('sRecipients').value }) })
+      .then((r) => { const n = (r.recipients || []).length; $('sRecipients').value = (r.recipients || []).join(', '); toast(n ? `Saved — talking points go to ${n} ${n === 1 ? 'person' : 'people'}` : 'Saved — nobody will receive talking points'); })
+      .catch((err) => toast(err.body?.error || `Not saved (${err.message}). Try again.`))
+      .finally(() => { btn.disabled = false; });
   });
 
 

@@ -11,7 +11,7 @@ export async function onRequestGet({ request, env }) {
        FROM clients c LEFT JOIN client_settings s ON s.client_id = c.id ORDER BY c.name`
   ).all()).results;
   const members = (await env.DB.prepare(
-    'SELECT id, client_id, email, name, title, is_admin, can_manage, notify, last_login_at FROM members ORDER BY name'
+    'SELECT id, client_id, email, login_email, name, title, is_admin, can_manage, notify, last_login_at FROM members ORDER BY name'
   ).all()).results;
   return json({
     viewing: me?.client_id || null,

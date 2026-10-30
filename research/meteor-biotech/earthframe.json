@@ -1,0 +1,286 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVyO7I8QsM",
+ "company": "EarthFrame (and Phileal LLC)",
+ "lead_name": "Eric T. Dawson, PhD",
+ "lead_role": "President & Co-Founder, EarthFrame · Founder, Phileal LLC",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "EarthFrame (and Phileal LLC)",
+   "person": "Eric T. Dawson, PhD",
+   "role": "President & Co-Founder, EarthFrame · Founder, Phileal LLC",
+   "location": "Austin, TX",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Partner, not customer"
+    },
+    {
+     "label": "No reply since Oct 21",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "He opened the door:",
+    "text": "on LinkedIn (~Oct 16) Eric offered to talk about **collaboration** — EarthFrame could \"accelerate that work with our hardware / software\" — and gave **eric@earthframe.com**. He also said they do no wet lab, so they **won't be customers**. Jenny Park emailed on Oct 21 (cc Amos); opened once, no reply."
+   },
+   "source_line": "Streak box \"Phileal\" (stage Contacted); LinkedIn thread sent as Amos; LinkedIn profile checked Oct 28, 2026.",
+   "linkedin_url": "https://www.linkedin.com/in/eric-t-dawson"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**EarthFrame** — builds energy-efficient AI/HPC computers, software and networks so organizations can run AI and genomics **on their own hardware** instead of the cloud"
+   },
+   {
+    "label": "Products",
+    "value": "Ember (portable workstation), EarthFrame 1 (single node), Mesa (5-node cluster in 24U), built in the USA; open-source WARPT CLI (power monitoring); Mar archive format"
+   },
+   {
+    "label": "Life sciences",
+    "value": "**Sovereign Biobank Reference Design** — on-premises genomics platform; supports NVIDIA Parabricks and Nextflow"
+   },
+   {
+    "label": "Size",
+    "value": "Small founding team (EarthFrame founded Nov 2025, Austin TX); Eric also runs **Phileal LLC** (Oct 2025–) — bioinformatics/genomics infrastructure consulting"
+   },
+   {
+    "label": "Contact",
+    "value": "eric@earthframe.com"
+   },
+   {
+    "label": "Two companies",
+    "value": "Streak box is named **\"Phileal\"** (his consulting LLC), but his email and ASHG booth are **EarthFrame**",
+    "tone": "warn"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#6 Platform partner** (compute/analysis) — not a buyer."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Founder to founder, both genomics-method scientists — and Eric already invited Amos personally."
+   },
+   "items": [
+    "**Both were at ASHG 2026 in Montréal:** Eric exhibited at booth **1723**; Meteor posted \"what happens after the image?… we are in Montréal this week\". They did not meet.",
+    "**Single-cell scale:** Eric was head architect of NVIDIA BioNeMo's single-cell data loader (**SCDL**, built for billions of cells) — Amos's spatial/single-cell data is exactly that kind of load.",
+    "**Both are genomics-method scientists with Nature Biotechnology papers:** Eric co-authored the 2018 *vg* toolkit paper; Amos has published CosmoSort (SLACS) work in Nature Biotech.",
+    "**Cancer genomics:** Eric's PhD (Cambridge + NIH/NCI) was the largest genomic study of the Chernobyl Tissue Bank (400+ whole genomes); Meteor works on the tumor microenvironment.",
+    "No shared school or employer: Eric studied at **UT Austin** and **Cambridge**; Amos at **UC Berkeley** and **SNU**. No co-authorship found."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Partnership, not a sale",
+    "text": "Eric was clear: no wet lab, so not a customer. Lead with a **compute partnership** — SLACS isolates the cells, EarthFrame accelerates the downstream sequencing and analysis."
+   },
+   {
+    "title": "His NVIDIA single-cell and genomics depth",
+    "text": "5.5 years at NVIDIA (to Oct 2025): Parabricks contributor, led BioNeMo protein-structure NIMs (AlphaFold2, Boltz-2, MMseqs2), architect of the **SCDL single-cell loader**. EarthFrame boxes run Parabricks on RTX Pro GPUs — **WGS alignment + calling in under 20 minutes**."
+   },
+   {
+    "title": "Data stays on site",
+    "text": "EarthFrame sells **sovereign, on-prem** compute. Hospitals and pharma sending clinical tissue to Meteor care about where data lives — a joint \"sample to result, data never leaves\" story."
+   }
+  ],
+  "person": {
+   "name": "Eric T. Dawson",
+   "text": "President & Co-Founder of **EarthFrame** (Nov 2025–, Austin TX) and Founder of **Phileal, LLC** (Oct 2025–; bioinformatics and genomics infrastructure, accelerated workflows, custom software and consulting). Before that **5.5 years at NVIDIA**: Bioinformatics Scientist (2020–23), then Senior Scientist (2023–Oct 2025) — Parabricks contributor, led BioNeMo protein-structure NIMs (AlphaFold2, Boltz-2, MMseqs2), head architect of the BioNeMo single-cell data loader (SCDL) for billions of cells. PhD at the **University of Cambridge** and **NIH/NCI** (2015–2020) in Richard Durbin's group at Sanger with Stephen Chanock: the largest genomic study of the Chernobyl Tissue Bank (400+ WGS), vg-based SV calling, HPV coinfection detection. Undergrad at UT Austin, worked at TACC and won the Student Cluster Competition. Teaches Wellcome courses. 1,672 LinkedIn followers; X @erictdawson; GitHub edawson."
+  },
+  "company": {
+   "text": "EarthFrame Corporation is a Public Benefit Corporation (Austin, TX; founded Nov 2025) building **sovereign, sustainable AI**: local GPU compute and storage that cut AI's energy footprint and keep sensitive data on site, with a genomics focus (Sovereign Biobank Reference Design; NVIDIA Parabricks, Nextflow). Systems: Ember, EarthFrame 1, Mesa. Cofounders: **Eric T. Dawson** (President), **Prof. Keolu Fox** (UC San Diego; Indigenous Data Sovereignty) and **Yousuf W. Rajput**; Head of Product **Juvenson Edouard**. Eric's separate **Phileal, LLC** offers bioinformatics infrastructure, accelerated workflows and custom software/consulting — the vehicle for one-off analysis projects."
+  },
+  "history": {
+   "text": "LinkedIn, around Oct 16, 2026 (as Amos). Eric: “Would be happy to talk about collaboration opportunities (we could probably accelerate that work with our hardware / software). We don't do any wet lab though so wouldn't be customers. Come by booth 1723 and chat” — at **ASHG 2026**, Montréal. He gave **eric@earthframe.com**. Jenny Park emailed him on Oct 21 (cc Amos); opened once, no reply."
+  },
+  "industry": [
+   {
+    "title": "GPU acceleration reaches single-cell data",
+    "text": "NVIDIA's single-cell AI Blueprint (rapids-singlecell) claims 676x faster UMAP and 70x faster PCA on a 1M-cell dataset. Spatial multi-omics is next in line — data volumes keep growing."
+   },
+   {
+    "title": "Sovereign data in genomics",
+    "text": "Data-sovereignty and on-prem genomics are a rising theme (biobanks, Indigenous data, national programs). Keolu Fox, EarthFrame's cofounder, is a leading voice on Indigenous genomic data sovereignty."
+   }
+  ],
+  "talking_points": [
+   "You said EarthFrame could accelerate our work — which step would you attack first: sequencing analysis after SLACS, image processing, or the integration of both?",
+   "What does a SLACS spatial multi-omics dataset look like on an Ember or Mesa box — hours instead of days?",
+   "Your new **Phindex** annotates germline/somatic VCFs in under 10 seconds — could it slot into the analysis of SLACS-isolated tumor regions?",
+   "Your Sovereign Biobank design runs Parabricks and Nextflow on site — could it be a reference setup we recommend to US hospital and pharma partners who can't send data to the cloud?",
+   "Would a joint application note or webinar (SLACS sample prep + EarthFrame compute) be useful for both of us before AGBT or AACR?",
+   "Who in your network — ex-NVIDIA BioNeMo/Parabricks, Sanger, NCI — works on spatial or tumor-microenvironment data and should know about SLACS?",
+   "What would a small first project look like this quarter — one public dataset, benchmarked end to end?",
+   "Should a first project run through **Phileal** (consulting) or **EarthFrame** (hardware) — which do you want in front?"
+  ],
+  "attention": [
+   {
+    "title": "Two companies — clarify the box.",
+    "text": "The box is named **\"Phileal\"** (Eric's consulting LLC, Oct 2025–), but his email, booth and the collaboration offer are **EarthFrame**. Rename to **EarthFrame (Phileal LLC)** so nobody mistakes it for a different lead."
+   },
+   {
+    "title": "Fix his title.",
+    "text": "Streak says \"Founder\"; use **President & Co-Founder, EarthFrame** (also Founder, Phileal LLC)."
+   },
+   {
+    "title": "Partner category.",
+    "text": "Eric said they won't be customers. Tag the box as a **Partner** so it doesn't inflate the customer pipeline."
+   },
+   {
+    "title": "Follow up — ASHG is over.",
+    "text": "Both teams were in Montréal but did not meet. Jenny's Oct 21 email got one open, no reply. Send a short note from Amos himself: \"we were both at ASHG — sorry we missed booth 1723\", plus two call times."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "earthframe.com — home page and Our Team page (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Eric T. Dawson profile, experience and recent posts; Meteor Biotech ASHG post (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "ASHG 2026 exhibitor list (kokoquest.com) — EarthFrame booth 1723, Austin TX address; Seqera ASHG 2026 event page (Montréal)"
+   },
+   {
+    "used": true,
+    "text": "Wellcome Sanger Institute — Eric T. Dawson alumni profile; NVIDIA Developer blog author page"
+   },
+   {
+    "used": true,
+    "text": "UCSC CGL — vg toolkit paper (Nature Biotechnology, 2018); erictdawson.com (social links)"
+   },
+   {
+    "used": true,
+    "text": "NVIDIA blog — Parabricks and single-cell AI Blueprint (Mar 2025)"
+   },
+   {
+    "used": false,
+    "text": "Financials — private, none public"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared October 28, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "A founder-led voice: **Eric has 1,672 followers and posts very actively**; EarthFrame's own channels are small.",
+   "detail": "Eric posts several times a week (Phindex, public reference indices, ASHG booth, a new Substack \"A.I. can just be Assistive Inference\"); his NVIDIA departure post drew 333 reactions. EarthFrame has a website, newsletter, open-source WARPT tool and an ASHG booth, but no company follower count surfaced. One standout channel — the founder — a B.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Eric T. Dawson",
+     "audience": "1,672 followers",
+     "recency": "Very active — posts 5 and 6 days ago, ASHG posts, Substack launch",
+     "read": "Standout channel"
+    },
+    {
+     "channel": "LinkedIn — EarthFrame",
+     "audience": "Not found in search",
+     "recency": "Unknown",
+     "read": "To be confirmed"
+    },
+    {
+     "channel": "X — @erictdawson",
+     "audience": "Not counted",
+     "recency": "Unknown",
+     "read": "Secondary"
+    },
+    {
+     "channel": "Substack — Eric T. Dawson",
+     "audience": "Not counted",
+     "recency": "First post: \"A.I. can just be Assistive Inference\"",
+     "read": "New"
+    },
+    {
+     "channel": "Website / GitHub",
+     "audience": "earthframe.com; github.com/edawson; WARPT CLI open source",
+     "recency": "Site updated 2026",
+     "read": "Technical audience"
+    }
+   ],
+   "note": "A joint SLACS + EarthFrame benchmark post would give both small companies content with a real result — easy co-marketing."
+  },
+  "network": {
+   "summary": "No verified mutual tie — the link is Eric's own invitation, and **both teams were at ASHG 2026 in Montréal**.",
+   "items": [
+    "**Shared scientific world:** both publish genomics methods in Nature-family journals; Eric's circle includes Richard Durbin (Sanger), Benedict Paten (UCSC), Erik Garrison and Stephen Chanock (NCI).",
+    "**EarthFrame cofounder Keolu Fox** (UC San Diego, JCVI-affiliated) is well known in human genomics — check if anyone in Amos's US network knows him.",
+    "**ex-NVIDIA genomics (Parabricks / BioNeMo / Clara)** is Eric's former team — any Meteor contact there is a warm bridge.",
+    "Your exact number of shared connections with Eric is on his LinkedIn profile, under the name. LinkedIn only shows it inside your own account, so open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/eric-t-dawson",
+    "label": "See your mutual connections with Eric on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "5 days ago",
+    "where": "LinkedIn",
+    "text": "Launched **Phindex**: germline/somatic VCF annotation in under 10 seconds (30–50x gnomAD compression, 100M variants/s query); offered free to anyone who messages from an institutional email.",
+    "use": "Ask for access from a Meteor address — an easy, concrete first step."
+   },
+   {
+    "when": "6 days ago",
+    "where": "LinkedIn",
+    "text": "Released public reference genome indices (\"marbles\"); EarthFrame boxes run NVIDIA Parabricks on RTX Pro GPUs — WGS alignment + calling under 20 minutes.",
+    "use": "Ask what the same box does with SLACS low-input sequencing data."
+   },
+   {
+    "when": "~1 week ago",
+    "where": "LinkedIn",
+    "text": "Several **ASHG 2026 booth 1723** posts; \"See y'all in Nashville next year\" (ASHG 2027).",
+    "use": "Open with the missed meeting in Montréal; propose meeting in Nashville too."
+   },
+   {
+    "when": "Recent",
+    "where": "Substack",
+    "text": "First post: \"A.I. can just be Assistive Inference\".",
+    "use": "Read it before the call — it shows how he frames AI."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn reposts",
+    "text": "Indigenous data-sovereignty content (Native Nations Institute, CARE principles).",
+    "use": "Data sovereignty matters to him — tie it to clinical samples staying on site."
+   },
+   {
+    "when": "Oct–Nov 2025",
+    "where": "LinkedIn",
+    "text": "Post on leaving NVIDIA — 333 reactions.",
+    "use": "Ask what he set out to fix by leaving."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ASHG 2026 Annual Meeting",
+    "when": "Montréal, October 2026",
+    "role": "Exhibitor (EarthFrame, booth 1723)",
+    "note": "Meteor was there too — they did not meet. He plans ASHG 2027 in Nashville."
+   },
+   {
+    "name": "AISES convening 2026",
+    "when": "Portland, 2026 (just before ASHG)",
+    "role": "Attendee"
+   }
+  ],
+  "hooks": [
+   "We were **both at ASHG in Montréal** — sorry we missed booth 1723. Nashville 2027?",
+   "His own words: EarthFrame \"could probably accelerate that work\" — ask him to name the step.",
+   "Ask for **Phindex** access from a Meteor institutional email — he offered it publicly.",
+   "He architected NVIDIA's single-cell loader for billions of cells — spatial multi-omics is the next scale problem.",
+   "His PhD was on **cancer genomes** (Chernobyl Tissue Bank) — Meteor's tumor-microenvironment work is close to home.",
+   "EarthFrame is a **Public Benefit Corporation** on energy and data sovereignty — show you read that."
+  ]
+ },
+ "send": false
+}

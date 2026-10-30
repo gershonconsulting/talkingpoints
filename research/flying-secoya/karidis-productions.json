@@ -1,0 +1,89 @@
+{
+ "client": "flying-secoya",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVgO_23QsM",
+ "company": "Karidis Productions, Inc.",
+ "lead_name": "Harry Karidis",
+ "lead_role": "Director / Executive Producer",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Karidis Productions, Inc. (independent video production company)",
+   "person": "Harry Karidis, DGA",
+   "role": "Director / Executive Producer",
+   "location": "Westlake Village, California (Greater Los Angeles)",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Wants a call", "tone": "good"}, {"label": "Booking to confirm", "tone": "warn"}],
+   "alert": {"title": "Next step is yours:", "text": "Harry said **'Happy to chat'** and sent his **Google calendar booking link** (Sep 28). Reply on Oct 7: *will book into your calendar*. **Check the meeting is actually booked**; if not, book it now."},
+   "source_line": "Lead added to Streak on Oct 7, 2026 by Aina R. Source: LinkedIn messaging (as Charles).",
+   "linkedin_url": "https://www.linkedin.com/in/harrykaridis"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Small full-service **video production company** founded in **1990**: commercials, branded content, documentaries"},
+   {"label": "Niche", "value": "Strong in **hospitality, casino and travel (DMO) commercials**; work aired on **HBO, CBS, NBC, ABC, A&E**"},
+   {"label": "Lead", "value": "Owner, **DGA** director, producer and cinematographer, 30+ years; positions himself as a **digital imagery / AI thought leader**"},
+   {"label": "Contact", "value": "harry@harrykaridis.com · booking link: calendar.app.google/5U4F6X8HAcji2FuB8"},
+   {"label": "Flying Secoya angle", "value": "Small client on its own; better as a **US partner/reseller** or a first **US case study** on hospitality campaigns"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Charles Gachet-Dieuzeide", "reason": "Both are **independent producers/founders** who mix production craft with technology (Secoset® for Charles, AI and virtual production for Harry)."},
+   "items": [
+    "**Tech-forward:** Harry did the **Singularity University Executive Program (2017)** and talks about AI and 3D; Flying Secoya sells a platform plus expertise.",
+    "**Advertising production:** both run commercial shoots for brands.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "A selling point for his clients", "text": "Casinos, hotels and tourism boards increasingly publish sustainability commitments. A **measured, labelled responsible shoot** is something Harry can sell on top of his production."},
+   {"title": "Partner, not consultant", "text": "Offer a **partner model**: Harry brings US clients, Flying Secoya provides the carbon measurement, report and label."},
+   {"title": "First US case study", "text": "One pilot shoot gives Flying Secoya a **US reference** and Harry new content for his 'thought leader' posts."}
+  ],
+  "person": {"name": "Harry Karidis, DGA", "text": "Producer, director and cinematographer with **30+ years** of national and international experience; running **Karidis Productions since 1990** (Greater LA). Member of the **Directors Guild of America**. Education: **Arizona State University** (AA, broadcast journalism), **UCLA** film studies, **Singularity University** Executive Program (2017). Co-founded **VeColab** (2010–2011); listed as a member of **METal International**. Works with his team including **Perry Karidis**. Recent work: commercials for **Rolling Hills Casino and Resort** (with Tribal Resource LLC) and a **Lavidge** TV commercial."},
+  "company": {"text": "Karidis Productions, Inc. is a Los Angeles-area full-service video production company (Westlake Village, CA) offering concept, shooting and post-production for commercials, branded content and documentaries. Its website pitches **dynamic video for hotels, casinos and travel companies (DMOs)**, with client testimonials praising reliability (no missed deadlines) and use of new AI technologies."},
+  "financials": {"country": "USA, private", "text": "Small private company: no public financial data. Expect a **small budget**; a partner or revenue-share model is more realistic than a consulting contract."},
+  "history": {"text": "LinkedIn (as Charles). On **Sep 28, 2026**, Harry wrote 'Happy to chat' and shared his calendar link. Reply on **Oct 7**: *will book into your calendar*. Box created Oct 7 by Aina R. **Open item:** no meeting is logged in Streak, so the booking must be confirmed."},
+  "industry": [
+   {"title": "Hospitality brands push sustainability", "text": "Hotel groups, casinos and tourism boards report ESG data and like to show green credentials in their marketing."},
+   {"title": "No US mandate for productions", "text": "Unlike Europe, US commercial shoots have no legal reporting duty: the case is **marketing and client demand**."},
+   {"title": "AI and virtual production", "text": "Fewer travel days and smaller crews reduce footprint: a story Harry already tells about technology."}
+  ],
+  "talking_points": [
+   "Do his **casino, hotel and tourism clients** ask about sustainability or ESG in their campaigns?",
+   "Would he be open to a **partner model** (he sells, Flying Secoya measures and labels)?",
+   "Could his **AI/virtual production** approach be measured to show the carbon saved vs a classic shoot?",
+   "Is there an upcoming shoot (Q1 2027) that could be a **pilot and joint case study**?"
+  ],
+  "attention": [
+   {"title": "Confirm the meeting.", "text": "He offered his calendar on Sep 28; the reply came on Oct 7. If no slot was booked, book one now and apologise for the delay."},
+   {"title": "Small company.", "text": "Keep expectations realistic: aim for partnership or referral, not a big contract."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Flying Secoya - LG): box, LinkedIn reply summary"},
+   {"used": true, "text": "LinkedIn public profile (headline, experience)"},
+   {"used": true, "text": "harrykaridis.com (hospitality/DMO page, testimonials)"},
+   {"used": true, "text": "RocketReach / ContactOut: education and past roles"},
+   {"used": true, "text": "LinkedIn post by Ben Gordon (Tribal Resource): Rolling Hills Casino shoot"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Flying Secoya · prepared October 29, 2026",
+  "grade": {"letter": "C", "headline": "Personal-brand driven: **Harry posts on LinkedIn** about his work and AI; company channels are small.", "detail": "Visibility relies on Harry's LinkedIn and his website. Client partners tag him in shoot posts. No large company audience found; follower counts to be confirmed.", "context": "Web-audited Oct 29, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Harry Karidis, DGA", "audience": "To be confirmed", "recency": "Recent posts (commercials, comedy, AI)", "read": "Main channel"},
+   {"channel": "Website harrykaridis.com", "audience": "Prospects", "recency": "Active", "read": "Moderate"},
+   {"channel": "Client tags (e.g. Tribal Resource)", "audience": "Hospitality/gaming", "recency": "2025–2026", "read": "Moderate"}
+  ], "note": "A joint 'responsible shoot' post would give both companies content."},
+  "network": {"summary": "No shared network between Charles and Harry was verified.", "items": ["Your exact number of shared connections with Harry is on his LinkedIn profile."], "link": {"url": "https://www.linkedin.com/in/harrykaridis", "label": "See your mutual connections with Harry on LinkedIn"}},
+  "posts": [
+   {"when": "Recent", "where": "LinkedIn (Harry)", "text": "Shared a **Lavidge TV commercial** with creative director Bob Case.", "use": "Compliment the spot; ask how the shoot was organised."},
+   {"when": "Recent", "where": "LinkedIn (Harry)", "text": "Post on AI video: 'It's getting there... especially in the comedy genre.'", "use": "Open on technology: AI reduces shooting days, which reduces footprint."},
+   {"when": "2025–2026", "where": "LinkedIn (Tribal Resource)", "text": "New commercials for **Rolling Hills Casino and Resort** produced by Karidis Productions.", "use": "Example of the hospitality client type to discuss."}
+  ],
+  "groups": [],
+  "events_attended": [
+   {"name": "Singularity University Executive Program", "when": "2017", "role": "Participant"}
+  ],
+  "hooks": [
+   "Thank him for the calendar link and confirm the slot.",
+   "Open on **AI and new production methods**: his favourite topic.",
+   "Pitch a **partnership** for his hospitality clients, plus a pilot case study."
+  ]
+ },
+ "send": false
+}

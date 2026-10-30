@@ -73,11 +73,15 @@ export async function onRequestPut({ request, env }) {
     }
     await env.DB.prepare('UPDATE clients SET pipeline_key = ? WHERE id = ?').bind(pk, u.client_id).run();
   }
+  let savedRecipients;
   if (typeof b.recipients === 'string') {
-    const list = b.recipients.split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter(Boolean);
-    const bad = list.filter((e) => !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e));
-    if (bad.length) return json({ error: `Check these email addresses: ${bad.join(', ')}` }, 400);
-    await env.DB.prepare('UPDATE client_settings SET recipients = ? WHERE client_id = ?').bind(list.join(', '), u.client_id).run();
+    // Accept anything people paste — "Jenny Park <jenny@x.com>", one per line, commas, semicolons —
+    // and keep only the email addresses in it.
+    const list = [...new Set((b.recipients.match(/[^\s<>,;:"'()\[\]]+@[^\s<>,;:"'()\[\]]+\.[a-z]{2,}/gi) || []).map((e) => e.toLowerCase()))];
+    if (b.recipients.trim() && !list.length) return json({ error: 'No email address found. Type addresses like name@company.com, separated by commas.' }, 400);
+    if (list.length > 30) return json({ error: 'Keep it to 30 addresses at most.' }, 400);
+    await env.DB.prepare("UPDATE client_settings SET recipients = ?, updated_at = datetime('now') WHERE client_id = ?").bind(list.join(', '), u.client_id).run();
+    savedRecipients = list;
   }
   if (b.lead_hours !== undefined) {
     const h = Math.max(1, Math.min(168, parseInt(b.lead_hours, 10) || 48));
@@ -89,5 +93,5 @@ export async function onRequestPut({ request, env }) {
   if (b.disconnect_google) {
     await env.DB.prepare("UPDATE client_settings SET google_refresh_enc = '', google_email = '', calendar_id = 'primary' WHERE client_id = ?").bind(u.client_id).run();
   }
-  return json({ ok: true });
+  return json({ ok: true, recipients: savedRecipients });
 }

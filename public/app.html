@@ -95,7 +95,7 @@
     <a class="nav-item" href="#settings" data-view="settings">Settings</a>
     <div class="nav-spacer"></div>
     <div class="user-chip" id="userChip"></div>
-    <div class="sidebar-footer">© 2026 Gershon Consulting</div>
+    <div class="sidebar-footer">© 2026 Gershon Consulting · <span title="Talking Points version">v1.5.3</span></div>
   </aside>
   <main>
     <div class="topbar">
@@ -150,12 +150,14 @@
 
 
         <div class="card form-card set-card">
-          <div class="card-header"><h3>CRM: Streak</h3><span class="tag" id="streakStatus">Not connected</span></div>
-          <p class="muted">Talking Points reads your leads from Streak. Paste your Streak API key (in Gmail, open Streak, then Integrations, then API key) and choose the pipeline your campaign uses.</p>
-          <form id="streakForm">
-            <div class="field"><label for="sKey">Streak API key</label><input id="sKey" type="password" autocomplete="off" placeholder="Paste a new key to connect or replace" /></div>
-            <div class="field"><label for="sPipeline">Campaign pipeline</label><select id="sPipeline"><option value="">Connect Streak to list your pipelines</option></select></div>
-            <div class="row-actions"><button class="btn primary" type="submit">Save Streak settings</button><button class="btn" type="button" id="sRemove" hidden>Disconnect Streak</button></div>
+          <div class="card-header"><h3>Your campaign in Streak</h3><span class="tag" id="streakStatus" hidden></span></div>
+          <p class="muted" id="sPipeNone">Gershon links your campaign's Streak pipeline here.</p>
+          <div class="field" id="sPipeLinkBox" hidden><a class="btn primary" id="sPipeLink" href="#" target="_blank" rel="noopener">Open your Streak pipeline ↗</a><div class="hint" id="sPipeUrl" style="word-break:break-all;margin-top:8px"></div></div>
+          <!-- No Streak API key for clients: Gershon reads the leads. Kept hidden so the page script still finds its fields. -->
+          <form id="streakForm" hidden>
+            <input id="sKey" type="password" autocomplete="off" />
+            <select id="sPipeline"></select>
+            <button type="submit">Save</button><button type="button" id="sRemove" hidden>Disconnect</button>
           </form>
         </div>
 
@@ -183,6 +185,6 @@
 </div>
 <div id="toast" role="status"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
-<script src="/app.js?v=20261026e"></script>
+<script src="/app.js?v=1.5.3"></script>
 </body>
 </html>
