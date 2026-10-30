@@ -81,9 +81,8 @@
   .mtg:hover .mtg-co { color: var(--brand); }
   .mtg-co { font-weight: 700; }
   .mtg-when { color: var(--text-muted); font-size: 13px; white-space: nowrap; }
-  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid rgba(204,51,51,0.35); outline-offset: 2px; }
+  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid rgba(254,27,4,0.3); outline-offset: 2px; }
 </style>
-<link rel="stylesheet" href="/unified-theme.css?v=1.1.0" />
 </head>
 <body>
 <div class="app">
@@ -91,12 +90,12 @@
     <a class="brand" href="/app"><img src="/logo.svg" alt="" />Talking Points</a>
     <div class="nav-group-label" id="clientName">Your campaign</div>
     <select id="campaignPick" class="campaign-pick" aria-label="Campaign to test" hidden></select>
-    <a class="nav-item active" href="#leads" data-view="leads"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Leads</a>
-    <a class="nav-item" href="#profile" data-view="profile"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>My profile</a>
-    <a class="nav-item" href="#settings" data-view="settings"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Settings</a>
+    <a class="nav-item active" href="#leads" data-view="leads">Leads</a>
+    <a class="nav-item" href="#profile" data-view="profile">My profile</a>
+    <a class="nav-item" href="#settings" data-view="settings">Settings</a>
     <div class="nav-spacer"></div>
     <div class="user-chip" id="userChip"></div>
-    <div class="sidebar-footer">© 2026 Gershon Consulting<span class="version">Talking Points v1.1.0</span></div>
+    <div class="sidebar-footer">© 2026 Gershon Consulting · <span title="Talking Points version">v1.5.3</span></div>
   </aside>
   <main>
     <div class="topbar">
@@ -151,12 +150,14 @@
 
 
         <div class="card form-card set-card">
-          <div class="card-header"><h3>CRM: Streak</h3><span class="tag" id="streakStatus">Not connected</span></div>
-          <p class="muted">Talking Points reads your leads from Streak. Paste your Streak API key (in Gmail, open Streak, then Integrations, then API key) and choose the pipeline your campaign uses.</p>
-          <form id="streakForm">
-            <div class="field"><label for="sKey">Streak API key</label><input id="sKey" type="password" autocomplete="off" placeholder="Paste a new key to connect or replace" /></div>
-            <div class="field"><label for="sPipeline">Campaign pipeline</label><select id="sPipeline"><option value="">Connect Streak to list your pipelines</option></select></div>
-            <div class="row-actions"><button class="btn primary" type="submit">Save Streak settings</button><button class="btn" type="button" id="sRemove" hidden>Disconnect Streak</button></div>
+          <div class="card-header"><h3>Your campaign in Streak</h3><span class="tag" id="streakStatus" hidden></span></div>
+          <p class="muted" id="sPipeNone">Gershon links your campaign's Streak pipeline here.</p>
+          <div class="field" id="sPipeLinkBox" hidden><a class="btn primary" id="sPipeLink" href="#" target="_blank" rel="noopener">Open your Streak pipeline ↗</a><div class="hint" id="sPipeUrl" style="word-break:break-all;margin-top:8px"></div></div>
+          <!-- No Streak API key for clients: Gershon reads the leads. Kept hidden so the page script still finds its fields. -->
+          <form id="streakForm" hidden>
+            <input id="sKey" type="password" autocomplete="off" />
+            <select id="sPipeline"></select>
+            <button type="submit">Save</button><button type="button" id="sRemove" hidden>Disconnect</button>
           </form>
         </div>
 
@@ -184,6 +185,6 @@
 </div>
 <div id="toast" role="status"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
-<script src="/app.js?v=1.1.0"></script>
+<script src="/app.js?v=1.5.3"></script>
 </body>
 </html>
