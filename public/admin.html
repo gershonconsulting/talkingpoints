@@ -29,6 +29,11 @@
   @media (max-width: 900px) { .row-form, .new-client { grid-template-columns: 1fr; } }
   .linkish { background: none; border: 0; color: var(--error); cursor: pointer; font: inherit; font-size: 12px; text-decoration: underline; }
   .muted { color: var(--text-muted); }
+  form.nc { display:grid; grid-template-columns:1fr 1fr; gap:10px 14px; }
+  form.nc label { display:flex; flex-direction:column; gap:4px; font-size:12px; font-weight:600; color:var(--text-muted); }
+  form.nc .full { grid-column:1 / -1; }
+  form.nc input, form.nc select, form.nc textarea { font:inherit; font-weight:400; font-size:14px; color:var(--text); padding:8px 10px; border:1px solid var(--border); border-radius:8px; background:var(--surface, #fff); }
+  @media (max-width:700px) { form.nc { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
@@ -39,7 +44,7 @@
     <a class="nav-item active" href="/admin">Admin</a>
     <a class="nav-item" href="/app">Back to dashboard</a>
     <div class="nav-spacer"></div>
-    <div class="sidebar-footer">Only you can see this page. · v1.6.0</div>
+    <div class="sidebar-footer">Only you can see this page. · v1.7.0</div>
   </aside>
   <main>
     <div class="topbar">
@@ -59,15 +64,24 @@
         </form>
       </div>
       <div class="card client">
-        <div class="card-header"><h3>Add a client</h3></div>
-        <p class="muted" style="margin-bottom:10px;font-size:13px">The 10 live campaigns from client.gershon.ai are already listed below with their Streak pipelines. Click <b>Test this campaign</b> to open your dashboard on it, or invite a tester with their LinkedIn email.</p>
-        <form class="new-client" id="newClient">
-          <input name="name" placeholder="Client name, e.g. Valos Srl" required aria-label="Client name" />
-          <input name="pipeline_key" placeholder="Streak pipeline key (optional, the client can pick it in Settings)" aria-label="Streak pipeline key" />
-          <input name="email_domains" placeholder="Email domains, e.g. valos.it" aria-label="Email domains" />
-          <button class="btn primary" type="submit">Add client</button>
+        <div class="card-header"><h3>Add a client</h3><small class="muted" id="srcStatus">Loading client.gershon.ai and ICP.gershon.ai…</small></div>
+        <p class="muted" style="margin-bottom:10px;font-size:13px">Pick the company from client.gershon.ai: its number, Streak pipeline, report emails and ICP (from ICP.gershon.ai) fill in by themselves. Check, complete, then <b>Create client</b>.</p>
+        <form id="newClient" class="nc">
+          <label class="full">From client.gershon.ai<select id="ncPick"><option value="">— New company (not in client.gershon.ai) —</option></select></label>
+          <label>Company name *<input name="name" required placeholder="e.g. Valos Srl" /></label>
+          <label>Client number<input name="no" inputmode="numeric" placeholder="e.g. 233" /></label>
+          <label>Contact name<input name="contact_name" placeholder="e.g. Dmitri Petratchenko" /></label>
+          <label>Contact title<input name="contact_title" placeholder="e.g. CEO" /></label>
+          <label>Professional email *<input name="email" type="email" required placeholder="name@company.com" /></label>
+          <label>LinkedIn login email<input name="login_email" type="email" placeholder="only if different, e.g. name@gmail.com" /></label>
+          <label class="full">Streak pipeline *<input name="pipeline_key" required placeholder="Pipeline key or https://www.streak.com/a/pipelines/… link" /></label>
+          <label class="full">Who receives the talking points *<textarea name="recipients" rows="2" required placeholder="One or more emails, separated by commas or new lines"></textarea></label>
+          <label class="full">ICP report (ICP.gershon.ai)<select id="ncIcp"><option value="">— None —</option></select></label>
+          <label class="full">Company (what they sell)<textarea name="company" rows="4" placeholder="Filled from the ICP report — pitch, problem solved, key facts"></textarea></label>
+          <label class="full">ICP (who they sell to)<textarea name="icp" rows="5" placeholder="Filled from the ICP report — target industries, decision-makers, titles"></textarea></label>
+          <label class="full">Email domains (optional)<input name="email_domains" placeholder="e.g. valos.it — anyone signing in with LinkedIn at these domains joins this client" /></label>
+          <div class="full" style="display:flex;gap:10px;align-items:center"><button class="btn primary" type="submit">Create client</button><small class="muted" id="ncNote"></small></div>
         </form>
-        <p class="muted" style="margin-top:8px;font-size:12px">Anyone signing in with LinkedIn using an email at these domains joins this client automatically. Leave it empty to allow invited people only.</p>
       </div>
       <div class="card client">
         <div class="card-header"><h3>Send log</h3><small class="muted">Last 100 talking-point emails, every campaign</small></div>
@@ -146,11 +160,49 @@
     try { await api('/api/admin/members', { method: 'DELETE', body: JSON.stringify({ id: b.dataset.del }) }); toast('Removed'); load(); }
     catch (err) { toast(err.message); }
   });
+  // ---------- Add a client: prefill from client.gershon.ai + ICP.gershon.ai ----------
+  let src = { companies: [], icp_reports: [] };
+  const F = (n) => $('newClient').elements[n];
+  async function loadSources() {
+    try {
+      src = await api('/api/admin/sources');
+      $('ncPick').innerHTML = '<option value="">— New company (not in client.gershon.ai) —</option>' +
+        src.companies.map((c) => `<option value="${esc(c.key)}">${c.no ? '#' + c.no + ' ' : ''}${esc(c.name)}</option>`).join('');
+      $('ncIcp').innerHTML = '<option value="">— None —</option>' +
+        src.icp_reports.map((r) => `<option value="${esc(r.slug)}">${esc(r.company)}${r.created_at ? ' · ' + esc(r.created_at.slice(0, 10)) : ''}</option>`).join('');
+      $('srcStatus').textContent = `${src.companies.length} companies · ${src.icp_reports.length} ICP reports`;
+    } catch { $('srcStatus').textContent = 'client.gershon.ai / ICP.gershon.ai not reachable — fill the form by hand'; }
+  }
+  async function fillIcp(slug) {
+    if (!slug) return;
+    try {
+      const { icp } = await api(`/api/admin/sources?icp=${encodeURIComponent(slug)}`);
+      if (!icp) return;
+      F('company').value = icp.company; F('icp').value = icp.icp;
+      $('ncNote').textContent = `ICP from ICP.gershon.ai — ${icp.company_name}${icp.created_at ? ', ' + icp.created_at.slice(0, 10) : ''}`;
+    } catch { /* keep typed text */ }
+  }
+  $('ncPick').addEventListener('change', async () => {
+    const c = src.companies.find((x) => x.key === $('ncPick').value);
+    if (!c) return;
+    F('name').value = c.name; F('no').value = c.no || '';
+    F('pipeline_key').value = c.pipeline_key || '';
+    if (c.report_emails.length) F('recipients').value = c.report_emails.join(', ');
+    if (!F('email').value && c.report_emails[0]) F('email').value = c.report_emails[0];
+    $('ncIcp').value = c.icp_slug || '';
+    if (c.icp_slug) await fillIcp(c.icp_slug); else $('ncNote').textContent = 'No ICP report found for this company — run one on ICP.gershon.ai or type it.';
+  });
+  $('ncIcp').addEventListener('change', () => fillIcp($('ncIcp').value));
+  loadSources();
+
   $('newClient').addEventListener('submit', async (e) => {
     e.preventDefault();
     const d = Object.fromEntries(new FormData(e.target));
-    try { await api('/api/admin/clients', { method: 'POST', body: JSON.stringify(d) }); e.target.reset(); toast(`${d.name} added`); load(); }
-    catch (err) { toast(err.message); }
+    try {
+      const r = await api('/api/admin/clients', { method: 'POST', body: JSON.stringify(d) });
+      e.target.reset(); $('ncNote').textContent = '';
+      toast(`${r.name} created · ${r.recipients} recipient${r.recipients === 1 ? '' : 's'}${r.member ? ' · login ready' : ''}`); load();
+    } catch (err) { toast(err.message); }
   });
 
   async function loadSends() {
