@@ -2,6 +2,7 @@
 
 Shown in the app sidebar, the Admin page and the home page footer. Bump on every release.
 
+- **v1.6.0** (2026-10-30) — Unified Gershon design: public/unified-theme.css on every page (brand red #CC3333, white sidebar with red pill, 12px cards, red buttons/focus rings), menu icons, red sign-in button and logo, phone menu; Admin tables scroll inside their box on a phone.
 - **v1.5.3** (2026-10-28) — Open tabs reload themselves when a new version is deployed (public/version.txt; bump it with VERSION and APP_VERSION in app.js).
 - **v1.5.2** (2026-10-28) — Save email settings accepts any pasted format (names, one per line, “Name <email>”), keeps only the addresses and shows how many people will receive the talking points.
 - **v1.5.1** (2026-10-28) — Settings no longer pre-fills your own address in “Send talking points to” when the list is empty (it looked saved but wasn't); email subject dates in New York time.

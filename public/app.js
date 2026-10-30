@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.5.3';
+  const APP_VERSION = '1.6.0';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -301,7 +301,7 @@
     try { me = await api('/api/me'); } catch { return; }
     $('clientName').textContent = me.client.name;
     if (me.member.is_owner) {
-      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin">Admin</a>');
+      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Admin</a>');
       loadCampaignPicker();
     }
     $('userChip').innerHTML = `${avatar(me.member)}<div class="who"><b>${esc(me.member.name || me.member.email)}</b><span>${esc(me.member.title || me.member.email)}</span><br>
