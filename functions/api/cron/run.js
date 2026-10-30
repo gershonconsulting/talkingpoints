@@ -1,5 +1,5 @@
 import { json, streak, clientStreakKey, getSettings, rowToBrief } from '../../_lib.js';
-import { buildDraft, buildDraftFromLead, emailBrief } from '../../_brief.js';
+import { buildDraft, buildDraftFromLead, emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
@@ -93,7 +93,8 @@ async function meetings(env, client, r) {
       try {
         const found = await streak(key, `/v1/search?query=${encodeURIComponent(guest.email)}`);
         const boxes = found?.results?.boxes || [];
-        boxKey = (boxes.find((b) => b.pipelineKey === client.pipeline_key) || boxes[0] || {}).boxKey || '';
+        // Only a box in THIS client's pipeline — never another client's lead (2026-10-30).
+        boxKey = (boxes.find((b) => samePipeline(b.pipelineKey, client.pipeline_key)) || {}).boxKey || '';
       } catch { /* not found */ }
     }
 

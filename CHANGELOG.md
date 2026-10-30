@@ -2,6 +2,7 @@
 
 Shown in the app sidebar, the Admin page and the home page footer. Bump on every release.
 
+- **v1.5.5** (2026-10-30) — Fix: a lead can only be briefed for the client whose Streak pipeline it is in. “Create draft” refuses a lead from another campaign (it had filed 3 PhiTech leads — NxGen MDx, TrilliumBiO, Golden Valley — under Finance Montréal (Steve) after the campaign was switched in another tab); the meeting run no longer falls back to another client's Streak box.
 - **v1.5.4** (2026-10-30) — Security: brief emails with any recipient outside gershonconsulting.com / gershon.ai are the client version (no “Needs your attention”, CRM/Streak flags or internal notes; sender “Gershon Consulting”); all-Gershon lists get the internal version (sender “GC Talking Points”); subject starts with “[21]” (functions/_audience.js).
 - **v1.5.3** (2026-10-28) — Open tabs reload themselves when a new version is deployed (public/version.txt; bump it with VERSION and APP_VERSION in app.js).
 - **v1.5.2** (2026-10-28) — Save email settings accepts any pasted format (names, one per line, “Name <email>”), keeps only the addresses and shows how many people will receive the talking points.

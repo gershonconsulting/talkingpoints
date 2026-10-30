@@ -16,12 +16,47 @@ export async function saveBrief(env, clientId, boxKey, { company, lead_name, lea
   return rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first());
 }
 
+// Streak returns the same pipeline as an encoded key ("agxz…") or as "pipeline:<owner>:<id>".
+export function samePipeline(a, b) {
+  if (!a || !b) return false;
+  return a === b || pipelineId(a) === pipelineId(b);
+}
+function pipelineId(k) {
+  const m = String(k).match(/^pipeline:[^:]+:(\d+)$/);
+  if (m) return m[1];
+  try {
+    // Encoded datastore key: the numeric id is the last varint after the "Workflow" kind.
+    const raw = atob(String(k).replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((String(k).length + 3) % 4));
+    const i = raw.lastIndexOf('Workflow');
+    if (i < 0) return String(k);
+    let n = 0n, shift = 0n;
+    for (let j = i + 'Workflow'.length + 1; j < raw.length; j++) {
+      const c = BigInt(raw.charCodeAt(j)); n |= (c & 0x7fn) << shift; shift += 7n;
+      if (!(c & 0x80n)) break;
+    }
+    return n.toString();
+  } catch { return String(k); }
+}
+
+// Client that owns a Streak pipeline, or null.
+export async function clientForPipeline(env, pipelineKey) {
+  const all = (await env.DB.prepare('SELECT * FROM clients').all()).results;
+  return all.find((c) => samePipeline(c.pipeline_key, pipelineKey)) || null;
+}
+
 // Draft brief for a new Streak box. Never overwrites a researched ("ready") brief.
 export async function buildDraft(env, clientRow, boxKey) {
   const existing = await env.DB.prepare('SELECT status FROM briefs WHERE box_key = ?').bind(boxKey).first();
   if (existing?.status === 'ready') return rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first());
 
   const lead = await loadLead(await clientStreakKey(env, clientRow.id), boxKey);
+  // Guard (2026-10-30, NxGen MDx incident): a lead may only ever be briefed for the client whose
+  // Streak pipeline it sits in. Never write a PhiTech lead into Finance Montréal's brief, etc.
+  if (!samePipeline(lead.pipelineKey, clientRow.pipeline_key)) {
+    const err = new Error(`wrong_client: box ${boxKey} is in pipeline ${lead.pipelineKey}, not ${clientRow.slug}'s`);
+    err.code = 'wrong_client'; err.pipelineKey = lead.pipelineKey;
+    throw err;
+  }
   return buildDraftFromLead(env, clientRow, boxKey, lead);
 }
 
