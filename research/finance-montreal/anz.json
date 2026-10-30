@@ -1,0 +1,86 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldi5nNEJDA",
+ "company": "ANZ (Australia and New Zealand Banking Group)",
+ "lead_name": "Sheila Hie",
+ "lead_role": "Head of Banks (Singapore & Thailand)",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "ANZ (Australia and New Zealand Banking Group), Singapore branch, Institutional banking",
+   "person": "Sheila Hie",
+   "role": "Head of Banks (Singapore & Thailand)",
+   "location": "Singapore",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Agreed to meet", "tone": "good"}, {"label": "Intro email pending", "tone": "warn"}],
+   "alert": {"title": "Next step is yours:", "text": "Sheila told Steve she is **happy to meet his colleague in Singapore** and asked to be connected **by email** (sheila.hie@anz.com). **Noza must email Sheila now** (Steve in copy) to propose dates and a place in Singapore."},
+   "source_line": "Lead added to Streak on Oct 26, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/sheilahie"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**ANZ**, one of Australia's big four banks (ASX-listed), with a strong **Institutional** franchise and a network across **Asia**; Singapore is its regional hub for **8 markets** (South East Asia, India, Middle East)"},
+   {"label": "Lead", "value": "**Head of Banks, Singapore & Thailand**: covers **banks as clients** inside ANZ's Financial Institutions Group (FIG) coverage. Career details **to be confirmed** (public profile not indexed)"},
+   {"label": "Contact", "value": "sheila.hie@anz.com · asked to be introduced by email"},
+   {"label": "North America", "value": "ANZ has a **New York** team (in the US since 1968). **No Canadian office found** (to be confirmed)"},
+   {"label": "Finance Montréal angle", "value": "Two tracks: (1) **ANZ itself**: Montreal as a lower-cost North American site for operations/support roles serving New York and the group; (2) **Sheila as a connector** to the Singapore and Thai banks she covers that may look at North America"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Noza Mutalova", "reason": "Sheila agreed to meet **Steve's colleague in Singapore**: Noza is the one taking the in-person meeting, and both work in **international financial-institution relationships**."},
+   "items": [
+    "**Same world:** Steve (VP Direct Investment) and Sheila both work with **banks and financial institutions** across borders.",
+    "**Financial-hub lens:** Singapore and Montreal both sell themselves as **international financial centres** with tax incentives: an easy, shared starting point.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Montreal as ANZ's cost-smart North American base", "text": "A Finance Montréal-commissioned Boyd study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the same time zone as ANZ's New York team."},
+   {"title": "The IFC tax credit", "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including for services provided under contract to a **foreign affiliate** (compliance, data, IT, fund and transaction support)."},
+   {"title": "Peers already there", "text": "**Morgan Stanley, BNP Paribas, Société Générale, Crédit Agricole** and **State Street** have operations in Montreal, alongside **120,000+ finance and insurance** and **150,000+ tech** professionals, with an AI and fintech ecosystem."}
+  ],
+  "person": {"name": "Sheila Hie", "text": "**Head of Banks (Singapore & Thailand)** at ANZ, based in Singapore. The role sits in ANZ's Institutional coverage of **financial institutions**, which in this region is led by a FIG head for South East Asia, India and Middle East (Yeekei Chan was named to that role in 2024; current reporting line **to be confirmed**). Prior roles, education and tenure **to be confirmed**: her LinkedIn profile is not indexed by search engines. Replied quickly and positively to Steve, and gave her direct email."},
+  "company": {"text": "ANZ Group (ASX: ANZ) is an Australian bank serving retail, commercial and institutional clients in Australia, New Zealand and around 30 markets, with Institutional banking as a core strength. CEO **Nuno Matos** names Institutional as one of its two market-leading positions and its **Asia presence** as a source of diversification. Singapore is the hub for South East Asia, India and the Middle East (Country Head **Chris Raciti** since mid-2025). In the US, ANZ's New York team (Country Head **John McLean**, appointed Dec 2025) supports trade and investment flows with Australia, New Zealand and Asia, and covers local and international banks."},
+  "financials": {"country": "Australia, listed (ASX: ANZ)", "text": "FY2025 (year ended **Sep 30, 2025**): statutory profit **A$5.89bn** (down 10%), cash profit **A$5.79bn**, or **A$6.90bn** excluding significant items (flat; significant items of A$1.1bn included an ASIC settlement and restructuring). Full-year dividend **166 cents** per share; **CET1 12.0%**. FY2026 results are due in early **November 2026** (date to be confirmed): check them before the meeting. Context: a large, well-capitalised group under **cost and restructuring pressure**, which supports a cost-saving location pitch."},
+  "history": {"text": "LinkedIn (as Steve). Sheila replied: happy to meet Steve's colleague in Singapore, and asked to be connected by email (sheila.hie@anz.com). Steve thanked her. Box created **Oct 26, 2026** by Juliana R. **Open item:** Noza has to send the intro email and set the Singapore meeting."},
+  "industry": [
+   {"title": "Banks are cutting costs", "text": "ANZ is mid-restructuring after FY2025 significant items. Moving support and operations work to cheaper, skilled hubs is a standard lever for global banks."},
+   {"title": "North America flows", "text": "ANZ's New York team serves US corporates and financial institutions linked to Asia-Pacific. Canada is not visible in ANZ's public footprint (to be confirmed): a gap worth exploring."},
+   {"title": "Financial-centre competition", "text": "Montreal competes with Toronto, New York and US nearshore cities using **cost**, **tax credits**, **bilingual talent** and **AI research**."}
+  ],
+  "talking_points": [
+   "How does ANZ serve **Canadian clients and banks** today: from New York, or not at all?",
+   "Is ANZ reviewing where it locates **operations, compliance, data or tech roles** that support the US business or the group?",
+   "Do any of the **Singapore or Thai banks** she covers plan a North American presence that Finance Montréal could help with?",
+   "Who at ANZ owns **international location decisions** (International division under Simon Ireland, Group Operations?), and would she introduce Noza?",
+   "Would she welcome a short **Montreal cost and IFC credit brief** to share internally?"
+  ],
+  "attention": [
+   {"title": "Send the intro email.", "text": "Sheila asked for an email introduction. Do it quickly while the reply is fresh; propose 2 or 3 slots and a place in Singapore."},
+   {"title": "She covers banks, she does not pick locations.", "text": "Her role is client coverage, so treat her as a **door-opener and insight source**, not the decision maker. Ask for the right internal contact."},
+   {"title": "Facts to confirm.", "text": "Her background, ANZ's Canada footprint and the FY2026 numbers (due early November) are **to be confirmed** before the meeting."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Finance Montréal): box, LinkedIn conversation with Steve"},
+   {"used": true, "text": "ANZ newsroom: 2025 full-year result (Nov 2025)"},
+   {"used": true, "text": "ANZ newsroom: Chris Raciti, Country Head Singapore (Apr 2025); John McLean, Country Head USA (Dec 2025)"},
+   {"used": true, "text": "FinanceAsia: Yeekei Chan named ANZ FIG head SE Asia, India & Middle East (May 2024)"},
+   {"used": true, "text": "finance-montreal.com: mission, IFC credit, Montreal cost study (Boyd)"},
+   {"used": false, "text": "LinkedIn profile of Sheila Hie (not indexed; check directly)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "B", "headline": "**Large corporate presence**: ANZ runs active LinkedIn, newsroom and **bluenotes** channels; Sheila has no visible public posting.", "detail": "ANZ publishes regularly (results, appointments, economics, bluenotes articles). Exact follower counts could not be retrieved and are **to be confirmed**. The lead herself shows no indexed posts, so the company drives the visibility.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: ANZ company page", "audience": "To be confirmed (large)", "recency": "Active", "read": "Main corporate channel"},
+   {"channel": "ANZ newsroom + bluenotes", "audience": "Investors, clients, media", "recency": "Weekly", "read": "Strong"},
+   {"channel": "LinkedIn: Sheila Hie", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low visibility"}
+  ], "note": "Check her LinkedIn activity before the meeting for any recent post to mention."},
+  "network": {"summary": "Steve contacted Sheila directly on LinkedIn; no shared network was verified.", "items": ["Steve's exact number of shared connections with Sheila is on her LinkedIn profile."], "link": {"url": "https://www.linkedin.com/in/sheilahie", "label": "See Steve's mutual connections with Sheila on LinkedIn"}},
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank her for agreeing to meet and for the fast reply to Steve.",
+   "Open on **how ANZ covers North America** and whether Canada is on its map.",
+   "Leave a short **Montreal cost and IFC credit** one-pager and ask who else at ANZ should see it."
+  ]
+ },
+ "send": false
+}

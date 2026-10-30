@@ -1,0 +1,95 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlZjb6rwIDA",
+ "company": "Santander Corporate & Investment Banking",
+ "lead_name": "Julio Castro Zuazo",
+ "lead_role": "Managing Director - Head of FX Continental Europe, Risk Solutions Group",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Santander Corporate & Investment Banking (Santander CIB, wholesale division of Banco Santander)",
+   "person": "Julio Castro Zuazo",
+   "role": "Managing Director - Head of FX Continental Europe, Risk Solutions Group",
+   "location": "Madrid, Spain",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium-High", "tone": "good"}, {"label": "Accepted InMail", "tone": "good"}, {"label": "Email not yet sent", "tone": "warn"}],
+   "alert": {"title": "Next step is Noza's:", "text": "Julio accepted Steve's InMail (**Oct 21**) and asked to be contacted at **julio.castro@gruposantander.com** for work matters. Steve replied that a colleague will connect there. **Noza must email Julio now** to propose a call."},
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/julio-castro-zuazo-1011411"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Santander CIB**, the corporate & investment banking arm of **Banco Santander** (Madrid; c. **200,000** employees, **189M** customers)"},
+   {"label": "Division size", "value": "CIB 2025: **€8.5bn revenue (+5%)**, **€2.8bn profit (+7%)**; 9M 2026: profit **€2,433M (+15%)**, revenue **+14%**, RoTE **19.2%**"},
+   {"label": "Lead", "value": "**Managing Director, Head of FX Continental Europe** in the Risk Solutions Group (FX hedging and risk products for corporate and institutional clients)"},
+   {"label": "Contact", "value": "julio.castro@gruposantander.com (his preferred channel for work matters)"},
+   {"label": "Finance Montréal angle", "value": "A **Montreal FX / risk-solutions desk or support hub** under the **IFC tax credit**, near the US franchise Santander just expanded (Webster) and at about **half the cost of New York**"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Steve Gauthier", "reason": "Steve, **VP Direct Investment**, opened the conversation and Julio accepted his InMail. He is the natural sponsor for a bank-expansion discussion; **Noza** takes the call and follows up by email."},
+   "items": [
+    "**Capital markets:** Julio runs an FX franchise; Finance Montréal's IFC credit targets exactly this kind of **international financial transaction** activity.",
+    "**European banks in Montreal:** **BNP Paribas, Société Générale and Crédit Agricole** (plus Morgan Stanley) are cited by Finance Montréal as having set up there: useful peers for a Madrid-based banker.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Cost of an Americas FX hub", "text": "A Finance Montréal-commissioned **Boyd Company study (2026)** puts the annual cost of a 150-FTE financial support centre at about **US$18.9M in Montreal vs US$35.3M in New York**, and estimates **c. 51% savings vs New York** with the IFC incentive."},
+   {"title": "IFC tax credit built for FX", "text": "Quebec's **International Financial Centre credit** pays **24% of eligible salary, up to $18,000 per employee per year**, for international financial transactions and back-office work done in Montreal (minimum **6 eligible employees** per site)."},
+   {"title": "Talent in the same time zone as New York", "text": "Finance Montréal cites **120,000+ finance and insurance professionals** and **150,000+ tech specialists**, a bilingual (French/English) workforce, and New York business hours: a fit for serving Santander's **expanded US client base** after Webster."}
+  ],
+  "person": {"name": "Julio Castro Zuazo", "text": "**Managing Director and Head of FX for Continental Europe** in Santander CIB's **Risk Solutions Group**, based in **Madrid**. The role covers FX and hedging solutions for corporate and institutional clients across continental Europe. Career history, education and tenure at Santander: **to be confirmed** (LinkedIn profile not publicly readable). He replied quickly to Steve's InMail and redirected to his corporate email: a sign of genuine but formal interest."},
+  "company": {"text": "Santander CIB is Banco Santander's wholesale bank, serving **corporates, financial institutions, financial sponsors and institutional clients** with markets (incl. FX), financing, and transaction banking. Group strategy stresses **deeper client relationships, collaboration across the Group and an AI-enabled operating model**. Santander's FX franchise is well recognised: **Euromoney named it Latin America's best FX bank in 2025 and 2026**. In the Americas, the group completed the **US$12.2bn acquisition of Webster Financial** (Stamford, CT) on **Aug 20, 2026**. A Santander CIB presence in **Canada** was not found: **to be confirmed**."},
+  "financials": {"country": "Spain, listed (BME / NYSE: SAN)", "text": "**FY2025:** record attributable profit **€14.1bn (+12%)**, total income **€62.4bn**, c. **200,000** employees. **CIB 2025:** revenue **€8.5bn (+5%)**, profit **€2.8bn (+7%)**, constant euros. **9M 2026:** attributable profit **€12,405M (+20%)**, incl. a **€1.9bn** gain on the Poland sale; revenue **€46,807M (+8%)**; underlying RoTE **16.0%**; CET1 **12.7%**; efficiency ratio **42.6%**. **CIB 9M 2026:** underlying profit **€2,433M (+15%)**, revenue **+14%**, RoTE **19.2%**. Buybacks of at least **€10bn** announced against 2025-2026 results."},
+  "history": {"text": "LinkedIn (as Steve). Julio **accepted Steve's InMail on Oct 21, 2026** and asked Steve to write to **julio.castro@gruposantander.com** for work matters. Steve replied that his colleague would connect there. Box created **Oct 23** by Juliana R. **Open item:** Noza has not yet emailed Julio to set the call."},
+  "industry": [
+   {"title": "European banks building US/Americas capacity", "text": "Santander's Webster deal makes it a top-10 US retail and corporate bank by assets, per press reports: more North American clients means more FX and hedging flow to service."},
+   {"title": "Cost pressure on markets businesses", "text": "Banks keep moving middle/back office and some trading support to lower-cost hubs (Warsaw, Lisbon, Montreal). The Boyd study rates Montreal close to Warsaw on cost vs London, and far cheaper than New York."},
+   {"title": "AI in markets operations", "text": "Santander lists an **AI-enabled operating model** as a CIB priority; Montreal's AI ecosystem and Finance Montréal's IFC community events on AI-driven cost reduction are a natural link."}
+  ],
+  "talking_points": [
+   "How does his **Continental Europe FX desk** work with Santander's teams covering **North American clients**, especially since Webster?",
+   "Does Santander CIB have, or plan, a **North American hub** for FX sales, structuring, risk or operations? Is **Canada** covered today, and from where?",
+   "Would a **bilingual, New York-time-zone team** at about half the New York cost help his business or the wider Risk Solutions Group?",
+   "Who in Santander CIB decides on **new locations** (Group strategy, COO, Americas head)? Can Julio introduce Finance Montréal?",
+   "Offer a **cost model with the IFC credit** for a sample team (e.g., 20 to 50 FTE) and a **visit to Montreal** to meet BNP Paribas / Société Générale peers already there."
+  ],
+  "attention": [
+   {"title": "Email first, fast.", "text": "He asked for email; it has been more than a week. Noza should write now, mention Steve's InMail, and propose 2-3 slots (Madrid is 6 hours ahead of Montreal)."},
+   {"title": "He is likely not the final decision-maker.", "text": "A regional FX head can champion the idea but location decisions sit higher. Aim for an **introduction to strategy / operations**, not a commitment."},
+   {"title": "Unverified points.", "text": "His background, any existing Santander Canada footprint and IFC eligibility of specific activities are **to be confirmed**."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Finance Montréal): box and LinkedIn conversation summary"},
+   {"used": true, "text": "Santander 9M 2026 results press release (SEC Form 6-K)"},
+   {"used": true, "text": "Santander 2025 Form 20-F / annual report (group and CIB 2025 figures)"},
+   {"used": true, "text": "santander.com: Santander CIB page (9M'26 highlights, priorities)"},
+   {"used": true, "text": "Ara.cat: Santander 2025 record profit and Webster acquisition"},
+   {"used": true, "text": "Euromoney: Latin America's best FX bank 2025 and 2026, Santander"},
+   {"used": true, "text": "Finance Montréal: Boyd Company cost study article; mission page"},
+   {"used": true, "text": "Quebec.ca: tax credit for international financial centres"},
+   {"used": false, "text": "LinkedIn profile of Julio Castro Zuazo (not publicly readable)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "A", "headline": "Global brand with a **strong corporate social presence** (Santander and Santander CIB on LinkedIn, X, YouTube); **Julio himself is low-profile** online.", "detail": "Santander publishes results, awards (e.g., Euromoney FX awards) and CIB news on a regular basis. No public posts by Julio were found. Follower counts are to be confirmed.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Santander CIB company page", "audience": "To be confirmed", "recency": "Active (results, deals, awards)", "read": "Main corporate channel"},
+   {"channel": "LinkedIn: Banco Santander group page", "audience": "To be confirmed (very large)", "recency": "Active", "read": "Strong"},
+   {"channel": "santander.com / santandercib.com", "audience": "Clients, investors", "recency": "Active", "read": "Strong"},
+   {"channel": "LinkedIn: Julio Castro Zuazo", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low"}
+  ], "note": "Use Santander's own news (Webster, FX awards, CIB results) as conversation openers rather than personal posts."},
+  "network": {"summary": "Steve contacted Julio by LinkedIn InMail; Julio accepted. No shared network between Steve and Julio was verified.", "items": ["Steve's exact number of shared connections with Julio is on Julio's LinkedIn profile.", "Ask Julio which Santander colleagues cover the Americas; they may already be in Finance Montréal's network."], "link": {"url": "https://www.linkedin.com/in/julio-castro-zuazo-1011411", "label": "See Steve's mutual connections with Julio on LinkedIn"}},
+  "posts": [
+   {"when": "Oct 2026", "where": "Santander (results)", "text": "CIB 9M 2026 underlying profit **€2,433M, up 15%**, with revenue up 14% across all business lines.", "use": "Congratulate him on the strong year for CIB markets."},
+   {"when": "2026", "where": "Euromoney", "text": "Santander named **Latin America's best FX bank 2026** (also Chile, Argentina, Uruguay).", "use": "Compliment the FX franchise; ask how Europe and the Americas FX teams work together."},
+   {"when": "Aug 2026", "where": "Santander (corporate news)", "text": "Completed the **Webster** acquisition in the US.", "use": "Bridge to a North American hub conversation."},
+   {"when": "To be confirmed", "where": "LinkedIn (Julio)", "text": "No recent personal posts found.", "use": "Do not reference personal posts."}
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Reference Steve's InMail and his request to write to his Santander email.",
+   "Open on **Santander's FX recognition and CIB results**, then the **Webster** expansion.",
+   "Offer a short call and a **Montreal cost model with the IFC credit** for an FX/risk team."
+  ]
+ },
+ "send": false
+}

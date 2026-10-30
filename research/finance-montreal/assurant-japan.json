@@ -1,0 +1,93 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlZiY-IkJDA",
+ "company": "Assurant (Assurant Japan)",
+ "lead_name": "Yoshiharu \"Yoshi\" Kamo",
+ "lead_role": "Chief Financial Officer, Assurant Japan",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Assurant Japan (Japanese unit of Assurant, Inc., NYSE: AIZ)",
+   "person": "Yoshiharu \"Yoshi\" Kamo",
+   "role": "Chief Financial Officer, Assurant Japan",
+   "location": "Tokyo, Japan",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Warm: knows Noza", "tone": "good"}, {"label": "No email in Streak", "tone": "warn"}],
+   "alert": {"title": "Next step is Noza's:", "text": "Yoshi apologised for the delay (busy with **Q3 earnings** since early October) and said he was **going to text Noza**. Steve thanked him on **Oct 23**. **Check whether Yoshi texted**; if not, Noza follows up herself **once earnings season is over** (early-to-mid November)."},
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/yoshiharu-yoshi-kamo-5a328413"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Assurant Japan**, set up in **August 2016**, about **100 employees** (2022 figure); adapts Assurant's global **device protection and lifecycle services** to Japan"},
+   {"label": "Business", "value": "Smartphone warranties, **trade-in and upgrade** programs, repair (about **150 in-store repair points** via Yuu Solutions), refurbished phones, appliance warranties and the **Torisetsu** app; serves **3 of Japan's 4 major carriers**"},
+   {"label": "Parent", "value": "**Assurant, Inc.** (NYSE: AIZ): **$12.8B revenue** in 2025, operations in **21 countries**"},
+   {"label": "Canada", "value": "Assurant already has a **Canadian HQ in Toronto** (320 Bay St) and a vehicle-protection office in **Hamilton**; no Montréal office listed"},
+   {"label": "Contact", "value": "No email in Streak. LinkedIn only; Yoshi said he would **text Noza** directly"},
+   {"label": "Finance Montréal angle", "value": "Yoshi is a **CFO**: the cost case (back office, finance, actuarial, IT) and the **IFC tax credit** speak his language. Realistic goal: an **introduction to Assurant decision-makers** for a Montréal service or finance centre, not a decision from Tokyo"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Noza Mutalova", "reason": "Yoshi already **knows Noza** and said he would text her directly; she is Finance Montréal's **Senior Director, International Business Development** and comes from the financial sector, so she can talk finance with a CFO."},
+   "items": [
+    "**Existing relationship:** Yoshi's reply refers to Noza by name, so the meeting starts warm.",
+    "**Finance background:** Noza spent several years in the financial sector before Finance Montréal; Yoshi runs finance for a regulated insurance/services subsidiary.",
+    "**How they met is to be confirmed** (event, earlier mandate, mutual contact): ask Noza before the call."
+   ]
+  },
+  "lead_with": [
+   {"title": "A CFO's cost case", "text": "Finance Montréal's Boyd Company model puts a 150-person support centre at about **US$18.9M a year in Montréal vs US$35.3M in New York**, with payroll at about 56% of New York's. Lead with numbers, not with promotion."},
+   {"title": "Build on Assurant Canada", "text": "Assurant already runs Canadian operations out of **Toronto**. Montréal is a way to add **bilingual, lower-cost capacity** in the same country, same regulator family, without opening a new market."},
+   {"title": "Talent for a device and insurance business", "text": "Montréal cites **120,000+ finance and insurance professionals** and **150,000+ tech specialists**, plus a strong AI ecosystem: relevant to claims, actuarial, finance shared services and the AI-based device processing Assurant Japan already uses."}
+  ],
+  "person": {"name": "Yoshiharu \"Yoshi\" Kamo", "text": "**Chief Financial Officer of Assurant Japan** (Tokyo), per LinkedIn and Streak. As CFO of a subsidiary he reports into Assurant's group finance and handles the quarterly close (hence his October delay with **Q3 earnings**). Career history, education and start date at Assurant Japan **to be confirmed** on his LinkedIn profile: no public bio was found. He appears to **already know Noza**."},
+  "company": {"text": "Assurant Japan was established in **August 2016** as the Japanese arm of Assurant, Inc. It started with **smartphone warranties** and now covers the whole device lifecycle: trade-in and upgrade programs, **AI- and robotics-based device processing**, sale of refurbished phones, and repairs through **Yuu Solutions**, which joined the group and operates about **150 in-store repair locations**. It also offers appliance extended warranties with technical support, built on the **Torisetsu** appliance-manual app. The company celebrated its **10th anniversary in August 2026**. Its parent, Assurant, is a US provider of device protection, vehicle protection, renters and lender-placed housing insurance, operating in 21 countries. In Canada, Assurant has its **headquarters in Toronto** and a vehicle-protection office in **Hamilton**; it acquired the Canadian cellular repair centre **All Tech Neek Electronics (2019)** and **Coast To Coast Dealer Services (2015)**. A Montréal presence was **not found** (to be confirmed)."},
+  "financials": {"country": "USA, listed (NYSE: AIZ)", "text": "**Assurant, Inc. FY2025:** total revenue **$12.81B** (vs $11.88B in 2024); net income **$872.7M** (+15%); adjusted EBITDA **$1.54B** (+16%); adjusted EPS **$19.77** (+19%). **Global Lifestyle** (device and vehicle protection, where Japan sits) earned **$9.58B** in premiums, fees and other income (+7%), adjusted EBITDA $801M. **Global Housing** adjusted EBITDA $859M (+28%). Capital returned to shareholders in 2025: **$468M**. 2026 outlook: Global Lifestyle adjusted EBITDA expected up **high single digits**. Assurant Japan's own figures are **not published**."},
+  "history": {"text": "LinkedIn (as Steve Gauthier). Yoshi replied apologising for the delay: he had been busy with **Q3 earnings since early October** and said he was thinking about **Noza** and would **send her a text**. Steve thanked him on **Oct 23, 2026**. Box created Oct 23 by Juliana R. **Open items:** no email for Yoshi in Streak; Noza to check whether he texted and, if not, follow up herself after earnings season."},
+  "industry": [
+   {"title": "Device protection keeps growing", "text": "Assurant's 2025 growth in Global Lifestyle was driven by **global mobile programs**; Japan is one of those markets (warranties, trade-in, refurbishment)."},
+   {"title": "Insurers look for lower-cost hubs", "text": "Large financial groups put finance, compliance, IT and claims work in support centres. Montréal positions itself as **about 51% cheaper than New York** for such centres, including the IFC credit."},
+   {"title": "Québec IFC tax credit", "text": "Companies running an **International Financial Centre** in greater Montréal can get a credit of **up to C$18,000 per eligible employee per year**, including for **outsourced services to a foreign affiliated financial entity** (compliance, corporate finance and tax, IT). Eligibility of insurance activities **to be confirmed** with Finance Montréal's IFC team."}
+  ],
+  "talking_points": [
+   "Congratulate him on **Assurant Japan's 10 years** (August 2026) and on getting through the Q3 close.",
+   "How does Assurant organise **finance, actuarial and shared services** globally today: where are the hubs, and who decides on new locations?",
+   "Is **Assurant Canada (Toronto)** growing, and does the group look at **bilingual capacity** for North America?",
+   "Would a short **cost comparison** (Montréal vs New York/Toronto, with the IFC credit) be useful to share with group finance?",
+   "Who in **Assurant's US or Canadian leadership** should Finance Montréal meet next, and would Yoshi make the introduction?"
+  ],
+  "attention": [
+   {"title": "He is a subsidiary CFO.", "text": "Location decisions for North America are made at group or Assurant Canada level. Aim for an **introduction**, not a commitment."},
+   {"title": "Earnings season.", "text": "Do not chase before mid-November; Assurant's Q3 cycle explains his delay. Keep the follow-up short and warm."},
+   {"title": "No email.", "text": "Ask for his **email** (or confirm the texting channel) so the box can be completed in Streak."},
+   {"title": "IFC eligibility.", "text": "The IFC credit targets international financial transactions and outsourced services; check how it applies to an **insurance/warranty** group before promising numbers."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Finance Montréal): box, LinkedIn conversation summary"},
+   {"used": true, "text": "Assurant Q4 and full-year 2025 results press release (Business Wire, Feb 10, 2026)"},
+   {"used": true, "text": "assurant.com office locations (Toronto HQ, Hamilton)"},
+   {"used": true, "text": "Assurant Japan 10th-anniversary press release (Aug 26, 2026, via PC Watch)"},
+   {"used": true, "text": "Nikkei BP sponsored feature on Assurant Japan (2022)"},
+   {"used": true, "text": "Finance Montréal: IFC credit page; cost-advantage study (Boyd Company); Noza Mutalova team profile"},
+   {"used": true, "text": "Assurant newsroom: All Tech Neek Electronics (2019) and Coast To Coast Dealer Services (2015) acquisitions"},
+   {"used": false, "text": "Yoshi Kamo LinkedIn profile: not readable without login, details to be confirmed"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "C", "headline": "Strong **group brand** (Assurant corporate channels), but **Assurant Japan and Yoshi are low-visibility** on social media.", "detail": "Assurant, Inc. runs active corporate LinkedIn and newsroom channels. Assurant Japan communicates mainly through **Japanese press releases** (e.g. the 10th anniversary). No public posts by Yoshi were found. Follower counts to be confirmed.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Assurant (corporate)", "audience": "To be confirmed (large)", "recency": "Active", "read": "Main group channel"},
+   {"channel": "Assurant Japan press releases (Japanese)", "audience": "Japan media/partners", "recency": "Aug 2026", "read": "Moderate"},
+   {"channel": "LinkedIn: Yoshi Kamo", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low"}
+  ], "note": "Yoshi is not a public poster: personal contact (Noza's text channel) matters more than social engagement."},
+  "network": {"summary": "Steve reached Yoshi through LinkedIn messaging; Yoshi already knows Noza. No other shared network was verified.", "items": ["Steve's exact number of shared connections with Yoshi is on Yoshi's LinkedIn profile."], "link": {"url": "https://www.linkedin.com/in/yoshiharu-yoshi-kamo-5a328413", "label": "See Steve's mutual connections with Yoshi on LinkedIn"}},
+  "posts": [
+   {"when": "Aug 2026", "where": "Press release (Assurant Japan)", "text": "Assurant Japan marks its **10th anniversary**; Yuu Solutions joins the group with about 150 repair points.", "use": "Opening compliment; shows a growing, acquisitive unit."},
+   {"when": "Feb 2026", "where": "Assurant investor release", "text": "Strong 2025 results: revenue **$12.8B**, adjusted EPS up 19%, Global Lifestyle growth from mobile programs.", "use": "Shows the group is investing and growing: good timing for capacity discussions."}
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank him for thinking of Noza and ask if he got through the **Q3 close**.",
+   "Open on **Assurant Japan's 10 years** and its device-lifecycle growth.",
+   "Offer a **CFO-style cost comparison** for a Montréal centre and ask who at group level should see it."
+  ]
+ },
+ "send": false
+}
