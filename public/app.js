@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.5.5';
+  const APP_VERSION = '1.6.0';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -63,7 +63,7 @@
     }
     $('leadList').innerHTML = items.map((l) => {
       const b = l.brief;
-      const status = b ? `<span class="tag ${b.status === 'ready' ? 'ready' : 'draft'}">${b.status === 'ready' ? 'Talking points ready' : 'Draft'}</span>` : '<span class="tag">No talking points yet</span>';
+      const status = b ? `<span class="tag ${b.status === 'ready' ? 'ready' : 'draft'}">${b.status === 'ready' ? 'Talking points ready' : 'Draft'}</span>` : '<span class="tag">Research in progress</span>';
       const added = l.created ? new Date(l.created).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
       return `<button class="lead" role="listitem" data-box="${esc(l.box_key)}" aria-current="${l.box_key === current}">
         <div class="co">${esc(l.company)}</div>
@@ -88,9 +88,7 @@
       if (brief) { showBrief(brief); return; }
       const lead = leads.find((l) => l.box_key === box);
       pane.innerHTML = `<div class="empty"><h3>No talking points for ${esc(lead?.company || 'this lead')} yet</h3>
-        <p>Create a first draft now from your pipeline data. The full researched version replaces it when ready.</p>
-        <button class="btn primary" id="makeDraft">Create draft</button></div>`;
-      $('makeDraft').onclick = () => makeDraft(box);
+        <p>Gershon is researching this lead. The talking points appear here as soon as they are ready.</p></div>`;
     } catch (e) {
       pane.innerHTML = '<div class="empty"><h3>Could not load this lead</h3><p>Refresh the page to try again.</p></div>';
     }

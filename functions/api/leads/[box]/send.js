@@ -22,7 +22,7 @@ export async function onRequestPost({ request, env, params }) {
   const u = await currentUser(env, request);
   if (!u) return json({ error: 'signed_out' }, 401);
   const box = decodeURIComponent(params.box);
-  const row = rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ? AND client_id = ?').bind(box, u.client_id).first());
+  const row = rowToBrief(await env.DB.prepare("SELECT * FROM briefs WHERE box_key = ? AND client_id = ? AND status = 'ready'").bind(box, u.client_id).first());
   if (!row) return json({ error: 'There are no talking points for this lead yet.' }, 404);
   const b = await request.json().catch(() => ({}));
   const to = [...new Set(String(b.to || '').split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter(Boolean))];
