@@ -5,7 +5,7 @@
 // CLIENT version: internal blocks are removed and it is sent as "Gershon Consulting".
 // Only an all-Gershon recipient list gets the INTERNAL version (everything, sender "GC Talking Points":
 // Gershon internal report senders start with "GC").
-// The dashboard follows the same rule per signed-in user (isInternalUser / forViewer, v1.0.2).
+// The dashboard follows the same rule per signed-in user (isInternalUser / forViewer, v1.5.5).
 
 import { isOwner } from './_lib.js';
 
