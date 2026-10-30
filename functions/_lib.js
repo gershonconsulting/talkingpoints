@@ -258,7 +258,7 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.5.5';
+export const VERSION = '1.6.0';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay

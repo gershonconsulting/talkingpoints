@@ -1,5 +1,6 @@
 TALKINGPOINTS.GERSHON.AI — HANDOFF
-Updated 2026-10-30 (v1.5.5)
+Updated 2026-10-30 (v1.6.0)
+✅ 2026-10-30 v1.6.0: quick AI drafts removed (Olivier: "No quick draft anymore"). Only status=ready (researched, published from research/*.json) briefs are listed/opened/sent; daily run notes "research needed"; meeting run sends only researched briefs. Old draft rows stay in D1 but are hidden.
 ✅ 2026-10-30 v1.5.5: lead↔client pipeline guard (Create draft refuses a lead from another campaign; meeting run no longer falls back to another client's box). Cause of NxGen MDx/TrilliumBiO/Golden Valley (PhiTech) being briefed for Finance Montréal (Steve).
 
 WHAT IT IS

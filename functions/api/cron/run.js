@@ -1,5 +1,5 @@
 import { json, streak, clientStreakKey, getSettings, rowToBrief } from '../../_lib.js';
-import { buildDraft, buildDraftFromLead, emailBrief, samePipeline } from '../../_brief.js';
+import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
@@ -39,12 +39,11 @@ async function newLeads(env, client, r) {
   const fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
   for (const b of fresh) {
     const boxKey = b.boxKey || b.key;
-    const has = await env.DB.prepare('SELECT 1 FROM briefs WHERE box_key = ?').bind(boxKey).first();
+    const has = await env.DB.prepare("SELECT 1 FROM briefs WHERE box_key = ? AND status = 'ready'").bind(boxKey).first();
     if (has) continue;
-    const brief = await buildDraft(env, client, boxKey); r.new_leads++;
-    // Sent to every address in the client's Settings ("Send talking points to") plus members who
-    // ticked "Email me" — only while EMAIL_ENABLED is "true".
-    try { if (brief && await emailBrief(env, client, brief)) r.emails_sent++; } catch (e) { r.notes.push(`email: ${e.message}`); }
+    // No quick AI drafts any more (2026-10-30): the new lead is reported as needing a researched brief.
+    r.new_leads++;
+    r.notes.push(`research needed: ${b.name || boxKey}`);
   }
   await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(client.id).run();
   await env.DB.prepare('UPDATE client_settings SET streak_checked_at = ? WHERE client_id = ?').bind(Date.now(), client.id).run();
@@ -100,17 +99,12 @@ async function meetings(env, client, r) {
 
     let brief;
     if (boxKey) {
-      brief = rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first()) || (await buildDraft(env, client, boxKey));
+      // Only a researched brief is ever sent before a meeting — no quick drafts (2026-10-30).
+      brief = rowToBrief(await env.DB.prepare("SELECT * FROM briefs WHERE box_key = ? AND status = 'ready'").bind(boxKey).first());
+      if (!brief) { r.notes.push(`research needed before meeting: ${guest.email}`); continue; }
       brief.data.header = { ...brief.data.header, ...header };
     } else {
-      boxKey = `cal:${client.id}:${ev.id}`;
-      const domain = guest.email.split('@')[1];
-      brief = rowToBrief(await env.DB.prepare('SELECT * FROM briefs WHERE box_key = ?').bind(boxKey).first()) ||
-        (await buildDraftFromLead(env, client, boxKey, {
-          company: domain, leadName: guest.displayName || guest.email, leadRole: '', leadEmail: guest.email,
-          stage: 'Meeting', notes: ev.description || '', linkedin: '',
-        }, { header }));
-      r.notes.push(`${guest.email} is not in Streak`);
+      r.notes.push(`${guest.email} is not in Streak — no talking points sent`); continue;
     }
 
     await env.DB.prepare(

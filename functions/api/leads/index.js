@@ -9,7 +9,7 @@ export async function onRequestGet({ request, env }) {
   const [boxes, pipeline, briefs] = await Promise.all([
     streak(key, `/v1/pipelines/${u.pipeline_key}/boxes?sortBy=creationTimestamp&limit=50`).catch(() => []),
     streak(key, `/v1/pipelines/${u.pipeline_key}`).catch(() => ({ stages: {} })),
-    env.DB.prepare('SELECT * FROM briefs WHERE client_id = ? ORDER BY created_at DESC').bind(u.client_id).all(),
+    env.DB.prepare("SELECT * FROM briefs WHERE client_id = ? AND status = 'ready' ORDER BY created_at DESC").bind(u.client_id).all(),
   ]);
 
   const summary = (r) => {
