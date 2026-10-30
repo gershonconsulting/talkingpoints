@@ -35,7 +35,8 @@ export async function onRequestGet({ request, env }) {
   if (!email) return fail('noemail');
 
   // 3. Match to a member, or to a client by email domain
-  let member = await env.DB.prepare('SELECT * FROM members WHERE email = ?').bind(email).first();
+  // A person signs in with their LinkedIn email, which is often not their work email (members.login_email).
+  let member = await env.DB.prepare('SELECT * FROM members WHERE lower(login_email) = ? OR email = ? ORDER BY (lower(login_email) = ?) DESC').bind(email, email, email).first();
   if (!member) {
     const domain = email.split('@')[1];
     const client = await env.DB.prepare(

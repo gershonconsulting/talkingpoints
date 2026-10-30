@@ -281,6 +281,14 @@ export async function sendEmail(env, { to, subject, html, text, reply_to = 'oliv
   return out;
 }
 
+// Records one send attempt in send_log (never throws).
+export async function logSend(env, { client_id, box_key = '', company = '', lead_name = '', sent_by = '', to = [], status = 'sent', error = '' }) {
+  try {
+    await env.DB.prepare('INSERT INTO send_log (client_id, box_key, company, lead_name, sent_by, to_list, status, error) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+      .bind(client_id, box_key, company, lead_name, sent_by, (Array.isArray(to) ? to : [to]).join(', '), status, String(error).slice(0, 500)).run();
+  } catch { /* the log must never block a send */ }
+}
+
 export function rowToBrief(r) {
   if (!r) return null;
   let data = {};

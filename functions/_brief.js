@@ -1,4 +1,4 @@
-import { loadLead, generateBrief, sendEmail, rowToBrief, clientStreakKey, getSettings } from './_lib.js';
+import { loadLead, generateBrief, sendEmail, rowToBrief, clientStreakKey, getSettings, logSend } from './_lib.js';
 import { lookupFinancials } from './_financials.js';
 import { renderBrief, renderBriefText } from './_render.js';
 import { getTemplate, applyTemplate } from './_template.js';
@@ -56,13 +56,17 @@ export async function emailBrief(env, clientRow, brief, { force = false, subject
   const to = await recipients(env, clientRow.id);
   if (!to.length) return false;
   const shown = applyTemplate(brief.data, await getTemplate(env, clientRow.id));
-  const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-  await sendEmail(env, {
-    to,
-    subject: `Talking Points : ${brief.company} - ${brief.lead_name || 'New lead'} - ${date}`,
-    html: renderBrief(shown),
-    text: renderBriefText(shown),
-  });
+  const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
+  const who = { client_id: clientRow.id, box_key: brief.box_key, company: brief.company, lead_name: brief.lead_name, sent_by: subjectDate ? 'meeting run' : 'daily run', to };
+  try {
+    await sendEmail(env, {
+      to,
+      subject: `Talking Points : ${brief.company} - ${brief.lead_name || 'New lead'} - ${date}`,
+      html: renderBrief(shown),
+      text: renderBriefText(shown),
+    });
+  } catch (e) { await logSend(env, { ...who, status: 'failed', error: e.message || e }); throw e; }
+  await logSend(env, who);
   await env.DB.prepare("UPDATE briefs SET emailed_at = datetime('now') WHERE box_key = ?").bind(brief.box_key).run();
   return true;
 }

@@ -1,0 +1,283 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVyK7UuQgM",
+ "company": "PrognomiQ Inc",
+ "lead_name": "Joon-Yong Lee, PhD",
+ "lead_role": "Director of Bioinformatics",
+ "stage": "Engaged",
+ "data": {
+  "header": {
+   "company": "PrognomiQ Inc",
+   "person": "Joon-Yong Lee, PhD",
+   "role": "Director of Bioinformatics",
+   "location": "Richland, WA (hybrid) · PrognomiQ HQ San Mateo, CA",
+   "chips": [
+    {
+     "label": "Engaged"
+    },
+    {
+     "label": "Fit: Good",
+     "tone": "good"
+    },
+    {
+     "label": "Interest: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Future project, not buying now"
+    }
+   ],
+   "alert": {
+    "title": "Scheduling in progress:",
+    "text": "Jenny Park's last email (Oct 23) was **viewed 28 times** — it is likely being forwarded inside PrognomiQ. Expect more people on the call than Joon."
+   },
+   "source_line": "Lead from Meteor's US LinkedIn outreach (sent as Amos); Streak stage Engaged.",
+   "linkedin_url": "https://www.linkedin.com/in/joonyong"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Seer spin-out (2020) building **multi-omics blood tests** for early cancer detection; first product **ProVue Lung** launched Nov 2025"
+   },
+   {
+    "label": "Size",
+    "value": "About 60–80 staff; San Mateo, CA"
+   },
+   {
+    "label": "Funding",
+    "value": "About **$147M** disclosed (aMoon, Bruker, Seer, Casdin, Catalio, Invus and others); latest tranche ~$11.9M, Jan 2026"
+   },
+   {
+    "label": "Person",
+    "value": "Computational omics lead: KAIST PhD, ex-**PNNL**; led bioinformatics for **ProVue Lung** through validation and launch"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "557 followers, 500+ connections; no own posts (comments only)"
+   },
+   {
+    "label": "Interest",
+    "value": "Biomarker discovery and clinical validation — **not buying now**, considering for future projects"
+   },
+   {
+    "label": "Contact",
+    "value": "joon-yong.lee@prognomiq.com (Streak also holds a personal Gmail)"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Biotech biomarker discovery** — fit good, timing later (future projects)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Scientist to scientist: Joon is a technical evaluator, and Amos invented CosmoSort (SLACS) — the call should be a peer discussion of data, not a pitch."
+   },
+   "items": [
+    "**No shared school found.** Amos: UC Berkeley and Seoul National University. Joon: Ajou University (BS) and **KAIST** (MS, PhD in Electrical Engineering).",
+    "Both are **Korean-trained engineers working in multi-omics and biomarkers** — Amos from bioengineering (SNU), Joon from electrical engineering and deep learning (KAIST).",
+    "**Proteomics is the bridge:** Joon runs LC-MS/MS proteomics, metabolomics, lipidomics and glycoproteomics data (Seer Proteograph, timsTOF, ZenoTOF); SLACS delivers spatially defined tissue input for exactly these assays.",
+    "**Spatial thinking:** Joon published deep learning on **spatiotemporal patterns** (2020).",
+    "No shared co-authors, employers or conferences were found."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Tissue truth for blood signals",
+    "text": "PrognomiQ finds cancer signals in **plasma**. SLACS can isolate tumor, stroma and normal regions from **matched tissue** to show where a candidate protein comes from — evidence that strengthens a biomarker for clinical validation and FDA."
+   },
+   {
+    "title": "His own words and his launch",
+    "text": "He said he is interested in **biomarker discovery and clinical validation**, and he led bioinformatics for **ProVue Lung** through validation and launch. Congratulate him, then ask what is next."
+   },
+   {
+    "title": "A small pilot, later",
+    "text": "Streak says they are not buying now. Offer a **small pilot or data sample** on a future program, so Meteor is in place when budgets open."
+   },
+   {
+    "title": "Data for his models",
+    "text": "Joon is computational, not wet-lab. Frame SLACS as **better, spatially defined training data** for his proteomics/ML biomarker models — and a way to check tissue findings against blood."
+   }
+  ],
+  "person": {
+   "name": "Joon-Yong Lee",
+   "text": "Director of Bioinformatics at PrognomiQ since Oct 2023, working hybrid from Richland, WA. He **led bioinformatics for ProVue Lung** through analytical and clinical validation and launch, and runs multi-omics biomarker discovery with machine learning on LC-MS/MS proteomics, metabolomics, lipidomics and glycoproteomics (Seer Proteograph, timsTOF, ZenoTOF) on AWS pipelines. Joined PrognomiQ in Dec 2021 as Principal Data Scientist: built a cloud mass-spec platform; deep learning on raw MS data, patented (**US 12,387,508**). Before: **Pacific Northwest National Laboratory** 2014–2021 (postdoc, then staff scientist; tools LipidOz, Kaiko, AutoCCS, Blazing Signature Filter; CPTAC ovarian cancer proteomics), postdoc at Iowa State (2013–14), researcher at ATR Kyoto on the Honda ASIMO project (2011–13). PhD in Electrical Engineering, KAIST (2011)."
+  },
+  "company": {
+   "text": "PrognomiQ was spun out of **Seer** in September 2020 and is based in San Mateo, CA. It combines proteomics (Seer's Proteograph), metabolomics and genomics to build blood tests for cancer and other complex diseases. Its MOSAIC study of 2,513 subjects reported **89% sensitivity and 89% specificity** for lung cancer in validation, 80% at stage I. In November 2025 it launched **ProVue Lung**, an 11-protein blood LDT for high-risk adults, in an early experience program with Allegheny Health Network and Penn Highlands Healthcare. It plans an FDA-facing trial and a PMA. CEO: Philip Ma, PhD; VP Data Sciences: Manway Liu, PhD."
+  },
+  "financials": {
+   "country": "US, venture-backed",
+   "text": "**Sep 2020 — initial financing:** $55M, led by aMoon; Fidelity, T. Rowe Price, Invus, Maverick, Emerson Collective, Wing VC, Bruker. Seer kept ~19%. **Mar 2022:** $46M, led by Bruker with Catalio Capital — total $101M. **Nov 2024 — Series D:** $34M (Seer and Casdin Capital reported as leads). **Aug 2025:** Series D-II tranche, amount not disclosed. **Jan 2026:** ~$11.9M (SEC Form D), aMoon reported as lead. **Total disclosed:** ~$147M (CB Insights shows ~$157M incl. undisclosed tranche). Private company; no revenue published. ProVue Lung is in limited release, so revenue is likely small."
+  },
+  "history": {
+   "text": "LinkedIn, around Oct 14–16, 2026: Joon said he is interested in **biomarker discovery and clinical validation** and proposed Thursday or Friday. Oct 21–23: a 7-email thread between **Jenny Park** and Joon (cc Amos, Emily Kim, David Kim) to schedule. Jenny's last email (Oct 23) was **viewed 28 times**. Streak note: looking into the technology, not immediately looking to purchase, considering for future projects. Joon's LinkedIn headline already says **“Launched ProVue Lung LDT”** — it is his proudest result."
+  },
+  "industry": [
+   {
+    "title": "Blood tests need tissue proof",
+    "text": "Proteomic liquid biopsy is moving to FDA trials. Regulators and payers ask whether a blood marker truly comes from the tumor — matched-tissue, spatially resolved data answers that."
+   },
+   {
+    "title": "Specificity is the gap",
+    "text": "ProVue Lung shows high sensitivity but about **55% specificity**. Better tumor-specific markers, found in tissue, could lift specificity in a next version."
+   }
+  ],
+  "talking_points": [
+   "After ProVue Lung, which cancers or diseases are next for biomarker discovery?",
+   "How do you confirm today that a plasma protein in your panel is really produced by the tumor and not by normal tissue or inflammation?",
+   "Your patent applies deep learning to raw MS data — would spatially labeled tissue samples (tumor vs stroma vs normal) be useful training data?",
+   "Your 682-feature model was narrowed to 11 proteins — would tissue-level, spatial data help choose markers for the next version, or improve specificity?",
+   "Do you have access to matched tissue (FFPE) from MOSAIC or the FDA-facing trial sites?",
+   "Who else should see Meteor's data — Manway Liu (data science), Yi Zeng (mass spec), the CTO or clinical?",
+   "What would a small first project look like when budget opens — a service pilot on a few tissue samples?"
+  ],
+  "attention": [
+   {
+    "title": "Confirm the meeting.",
+    "text": "The scheduling thread ended Oct 23 with Jenny's email. Check that a date is locked and that Amos is on the invite."
+   },
+   {
+    "title": "Expect a group.",
+    "text": "28 views on one email suggests forwarding. Ask Joon who will join and prepare a short technical deck on SLACS + proteomics."
+   },
+   {
+    "title": "Do not push for a sale.",
+    "text": "Streak says no purchase now. Aim for a **named future project** and a follow-up date."
+   },
+   {
+    "title": "Use the work email.",
+    "text": "Write to joon-yong.lee@prognomiq.com, not the personal Gmail, for anything about the company."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech pipeline (box, notes, LinkedIn exchange, Oct 21–23 email thread)"
+   },
+   {
+    "used": true,
+    "text": "PNNL staff profile — Joon-Yong Lee (education, career, publications)"
+   },
+   {
+    "used": true,
+    "text": "Frontiers Loop profile — lists PrognomiQ Inc (San Mateo) and PNNL"
+   },
+   {
+    "used": true,
+    "text": "PrognomiQ website — leadership, board, advisors"
+   },
+   {
+    "used": true,
+    "text": "Seer press release (Sep 2020); BioWorld (Mar 2022, Nov 2024, Nov 2025); CB Insights and Employbl (SEC Form D, Jan 2026)"
+   },
+   {
+    "used": true,
+    "text": "BioSpace / GlobeNewswire — ProVue Lung launch (Nov 18, 2025); 360Dx; MLO Online (Jan 2024, May 2026); medRxiv MOSAIC preprint"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Joon-Yong Lee profile, career and activity (checked Oct 28, 2026); company page counts to be confirmed"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared October 28, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Low public voice: **Joon has 557 followers and no own posts**; PrognomiQ speaks mainly through press releases.",
+   "detail": "Joon's LinkedIn activity is only congratulation comments. PrognomiQ news comes in bursts (ProVue Lung launch Nov 2025, real-world data May 2026). Company follower count not found. No standout channel.",
+   "context": "Web-audited Oct 28, 2026; Joon's LinkedIn counts from Oct 28 check; company LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — PrognomiQ",
+     "audience": "To be confirmed",
+     "recency": "Company news Nov 2025 and May 2026",
+     "read": "Low cadence"
+    },
+    {
+     "channel": "LinkedIn — Joon-Yong Lee",
+     "audience": "557 followers · 500+ connections",
+     "recency": "No own posts; comments congratulating former PNNL colleagues",
+     "read": "Quiet"
+    },
+    {
+     "channel": "Press / trade media",
+     "audience": "BioWorld, 360Dx, MLO, BioSpace",
+     "recency": "Last coverage May 2026",
+     "read": "Main channel"
+    }
+   ],
+   "note": "PrognomiQ speaks through press releases and data. A joint poster or short data note would fit their style better than social posts."
+  },
+  "network": {
+   "summary": "No shared school, employer or co-author was found between Amos and Joon. The link is **Korean engineering roots and omics data**.",
+   "items": [
+    "**Schools:** Amos — UC Berkeley, Seoul National University. Joon — Ajou University, KAIST. No overlap.",
+    "**Korean science network:** Joon's KAIST Electrical Engineering cohort and Amos's SNU Bio-MAX circle may share contacts — check mutual connections on LinkedIn.",
+    "**US proteomics circle:** Joon came from PNNL; PrognomiQ's advisors include **Steven Carr (Broad Institute)** — check if Amos knows anyone in these groups.",
+    "**Former PNNL colleagues** Vlad Petyuk and Yehia Ibrahim are active in his LinkedIn activity — check if Amos knows them.",
+    "**Likely decision makers and colleagues:** Manway Liu, PhD (VP Data Science), Yi (Jimmy) Zeng (Director Mass Spec), Bruce Wilcox, PhD (CTO), Brian Koh, MD (CMO). Yi Zeng runs the instruments a SLACS sample would feed."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/joonyong",
+    "label": "See your mutual connections with Joon on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 2026",
+    "where": "LinkedIn (reply to Amos)",
+    "text": "Said he is interested in **biomarker discovery and clinical validation** and proposed Thursday or Friday for a call.",
+    "use": "Open by repeating these two words — it shows Amos listened."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (comments)",
+    "text": "Only congratulation comments on posts by former PNNL colleagues (Vlad Petyuk, Yehia Ibrahim); no posts of his own.",
+    "use": "He reads LinkedIn but does not post — keep contact by message or email, not by commenting."
+   },
+   {
+    "when": "Granted",
+    "where": "US Patent 12,387,508",
+    "text": "Deep learning on raw mass-spectrometry data (from his Principal Data Scientist work at PrognomiQ).",
+    "use": "Respect his ML depth; ask what input data would make his models better."
+   },
+   {
+    "when": "2020",
+    "where": "Computational and Structural Biotechnology Journal",
+    "text": "“Deep Learning Predicts Microbial Interactions from Self-organized **Spatiotemporal Patterns**.”",
+    "use": "He already thinks about spatial patterns — ask how he would model spatially resolved omics."
+   },
+   {
+    "when": "2018",
+    "where": "Journal of Biomolecular Techniques",
+    "text": "Co-author of the **ABRF iPRG 2016 study** on inferring proteoforms from bottom-up proteomics data.",
+    "use": "He knows proteomics data deeply — discuss SLACS input amounts and protein depth openly."
+   },
+   {
+    "when": "2018",
+    "where": "BMC Bioinformatics",
+    "text": "**Blazing Signature Filter** — a library for fast pairwise similarity comparisons.",
+    "use": "Shows he builds tools; ask what data formats his pipeline expects."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "BioVis — 5th Symposium on Biological Data Visualization",
+    "when": "2015",
+    "role": "Best Poster Award"
+   }
+  ],
+  "hooks": [
+   "His headline: **“Launched ProVue Lung LDT”** — open by congratulating him on leading it through validation.",
+   "PrognomiQ launched **ProVue Lung** in Nov 2025 and shared real-world data in May 2026 (83% stage I sensitivity) — congratulate him.",
+   "Ask what comes after lung — new indications mean new biomarker discovery work.",
+   "Specificity is about 54–55% — tumor-specific markers from tissue could help a next version.",
+   "PrognomiQ plans an FDA-facing trial — tissue-level evidence of marker origin can support the submission.",
+   "Two Korean-trained engineers in multi-omics: Amos (SNU) and Joon (KAIST) — an easy, warm opening."
+  ]
+ },
+ "send": false
+}

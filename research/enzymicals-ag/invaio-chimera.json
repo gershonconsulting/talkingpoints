@@ -1,0 +1,274 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVuKn8gAkM",
+ "company": "Invaio Sciences (per LinkedIn) · Chimera Bioscience (email domain) — to be confirmed",
+ "lead_name": "Andrew Stewart",
+ "lead_role": "Head of Process Development – Director",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Invaio Sciences (Flagship Pioneering) per LinkedIn · email at Chimera Bioscience — current employer to be confirmed",
+   "person": "Andrew Stewart",
+   "role": "Head of Process Development – Director",
+   "location": "Cambridge, MA area (Invaio) — to be confirmed",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Interest: Medium"
+    },
+    {
+     "label": "Referral: fumarase buyer",
+     "tone": "good"
+    },
+    {
+     "label": "Company mismatch in Streak",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "This is a referral, not a direct sale:",
+    "text": "Andrew has no need himself, but knows someone who wants **fumarase** for a chemistry workup at **food-grade enzyme prices**. He asked David to email info to **andrew@chimerabioscience.com** and he will pass it on. Send a short, concrete fumarase offer and ask for a direct intro to the end user."
+   },
+   "source_line": "Lead added to Streak on Oct 21, 2026 by Juliana R; moved Lead → Contacted on Oct 22. Source: LinkedIn messaging.",
+   "linkedin_url": "https://www.linkedin.com/in/andrew-stewart-241b5320"
+  },
+  "snapshot": [
+   {
+    "label": "Lead",
+    "value": "Bioprocess / scale-up leader: **Head of Process Development** at Invaio (public 2024 bio); earlier at **Amyris, Clorox, Synlogic, E&J Gallo**"
+   },
+   {
+    "label": "Company (LinkedIn)",
+    "value": "**Invaio Sciences** — Flagship Pioneering ag-biotech (peptide biologicals, Trecise™ tree-injection delivery for citrus greening)"
+   },
+   {
+    "label": "Company (email)",
+    "value": "**Chimera Bioscience** (chimerabioscience.com) — placeholder website only (“Innovating Biological Solutions”); activity and Andrew's role **to be confirmed**"
+   },
+   {
+    "label": "The opportunity",
+    "value": "Third-party end user needs **low-cost fumarase** for an industrial chemistry workup — identity, volume and spec **to be confirmed**"
+   },
+   {
+    "label": "Contact",
+    "value": "andrew@chimerabioscience.com (as Andrew asked)"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#5 Chemicals** (manufacturing / process) via referral — the end user is industrial; Andrew himself sits in **ag-biotech / bioprocess** (outside the top segments). Fit is the end user, not Andrew."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "Process people talking to process people: David (COO, chemist, ex-Evonik) runs chemo-enzymatic scale-up at Enzymicals; Andrew has spent his career turning lab biology into scalable production. Andrew already trusts David enough to pass his info to a buyer."
+   },
+   "items": [
+    "**No shared school, employer or contact verified** between David and Andrew.",
+    "Both are **scale-up specialists**: Enzymicals sells mg→ton biocatalysis; Andrew heads process development (fermentation/bioprocess) and came from **Amyris** — Enzymicals' former CEO Erik de Vries is also ex-Amyris (overlap of dates **to be confirmed**).",
+    "Both work on **biology replacing chemistry**: Invaio's pitch is biologicals instead of agrochemicals; Enzymicals' is enzymes instead of classic synthesis.",
+    "Andrew opened the door himself by offering to forward the fumarase info."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A concrete fumarase offer, ready to forward",
+    "text": "Give Andrew a **one-page note** he can forward as-is: Enzymicals can supply **recombinant fumarase** (fumarate hydratase, EC 4.2.1.2) from a robust expression host, as crude lysate, purified or **immobilized** form, from gram samples to multi-kg/ton supply."
+   },
+   {
+    "title": "Hit the food-grade price point",
+    "text": "Low cost comes from **high-titer recombinant expression**, minimal downstream (crude or lyophilized cell-free extract instead of purified enzyme) and **immobilization for reuse** across many batches. Offer a quick cost model once volume and spec are known."
+   },
+   {
+    "title": "Ask for the direct intro",
+    "text": "Fumarase use in a workup depends on details (fumarate vs. malate direction, pH, temperature, solvent, impurities). Ask Andrew to connect David **directly** with the end user for a 20-minute technical call — faster than relaying questions."
+   }
+  ],
+  "person": {
+   "name": "Andrew Stewart",
+   "text": "Head of Process Development at **Invaio Sciences** (Cambridge, MA) as of a March 2024 Harvard MSI seminar bio, where he co-presented Invaio's delivery and Microbe Derived Particle platforms; he leads building **scalable production processes** for Invaio's products. Earlier roles at **E&J Gallo Winery, Synlogic, Clorox and Amyris**, moving innovations into commercial production. His LinkedIn is indexed as “Andrew Stewart – Invaio” and data brokers list an Invaio email, but he gave David an address at **Chimera Bioscience** — a new or side venture, or a move: **to be confirmed**. Education and follower count not verified."
+  },
+  "company": {
+   "text": "**Invaio Sciences** is a **Flagship Pioneering** company (founded 2017/2018) working on biological crop protection and nutrition: peptide-based actives (“Biologicals by Design”), Microbe Derived Particles and the **Trecise™** precision tree-injection system, first registered in Florida against citrus greening (HLB). In early 2026 it partnered with Brazil's **Fundecitrus** on HLB solutions and said it is preparing its first HLB launch in Brazil. Leadership named in 2026 press: Ricardo Miranda (VP, head of global development), Avram Slovic (head of Latin America); Flagship lists **Amy O'Shea** as CEO (appointment date to be confirmed; co-founder Ignacio Martinez was CEO in 2021). **Chimera Bioscience**: only a placeholder site (2025 copyright, Canadian-English locale); no team, products or address published — **to be confirmed**."
+  },
+  "financials": {
+   "country": "US, private (Flagship-backed)",
+   "text": "**Invaio Sciences:** **Series C $88.9M** closed May 2021 (Flagship Pioneering, Stage 1 Ventures, Bluwave Capital, Alexandria Venture Investments and others); **>$142M raised** since founding at that date. No later round found — **to be confirmed**. **Chimera Bioscience:** no public funding data. The money that matters here is the **end user's** budget: they want food-grade enzyme pricing, so lead with cost per kg of product, not a service fee."
+  },
+  "history": {
+   "text": "LinkedIn (as David). Andrew said he has **no need himself**, but knows someone looking for **fumarase** for a **chemistry workup** — an industrial application, so it needs a **low-cost enzyme** at prices similar to food-grade enzymes. He asked David to send information to **andrew@chimerabioscience.com** and he will pass it on. Box created Oct 21, 2026 by Juliana R; moved Lead → Contacted Oct 22. Streak: Fit Low, Interest Medium, Source Messaging (LinkedIn)."
+  },
+  "industry": [
+   {
+    "title": "Fumarase is a classic industrial enzyme",
+    "text": "Fumarase converts fumaric acid into **L-malic acid**, a food acidulant (juices, jams) that holds roughly a tenth of the acidulant market after citric acid. Industry has long used immobilized microbial cells for this; research now targets immobilized fumarase for better stability."
+   },
+   {
+    "title": "Immobilization is the cost lever",
+    "text": "Published work shows immobilized fumarase keeps about **2.5× more activity** than free enzyme after 30 days — the reuse that makes food-grade price points reachable."
+   },
+   {
+    "title": "Enzymes in workups",
+    "text": "Using an enzyme to convert a by-product (e.g. residual fumarate) into an easier-to-remove compound is a growing green-chemistry tactic. The exact use here is **to be confirmed**."
+   }
+  ],
+  "talking_points": [
+   "Thanks for passing this on — what is the **end user's application** (making L-malate, or removing fumarate/malate from a stream)?",
+   "What **volume** (kg enzyme or tons of substrate per year) and **target price** are they thinking of?",
+   "What **form** suits them: crude lysate, lyophilized powder, purified enzyme or **immobilized** (reusable)?",
+   "Process conditions: **pH, temperature, solvent**, substrate concentration — and any food or pharma grade needs?",
+   "Could you **introduce David directly** to the end user for a short technical call?",
+   "Side question: what is Chimera Bioscience — and does your own process work there ever need enzymes or expression support?"
+  ],
+  "attention": [
+   {
+    "title": "Fix the company in Streak.",
+    "text": "The box says **Invaio**, but Andrew asked to be emailed at **andrew@chimerabioscience.com**. His LinkedIn is still indexed under Invaio. Confirm his current employer and update the Streak organization/contact (possibly two orgs: Invaio and Chimera Bioscience)."
+   },
+   {
+    "title": "Send the fumarase email now.",
+    "text": "Andrew asked for it; delay kills referrals. Make it **forwardable**: short intro of Enzymicals, fumarase supply options (recombinant, crude/immobilized, gram → ton), cost logic, and a request for a direct intro."
+   },
+   {
+    "title": "Do not oversell before the spec.",
+    "text": "Price, form and stability depend on conditions the end user has not shared. Offer a sample and a cost estimate after a technical call — do not quote prices in the first email."
+   },
+   {
+    "title": "Re-score the box.",
+    "text": "Fit Low is right for Andrew; the **end user** may be a better fit (Chemicals/Food). Create a new box once the end user is named."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Enzymicals AG pipeline (box, LinkedIn thread as David)"
+   },
+   {
+    "used": true,
+    "text": "Harvard College calendar — MSI Seminar with James Kraemer and Andrew Stewart, Invaio (Mar 21, 2024)"
+   },
+   {
+    "used": true,
+    "text": "Web search index — LinkedIn profile title “Andrew Stewart – Invaio”; ZoomInfo/Wiza listings at Invaio (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "chimerabioscience.com — placeholder homepage (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Global Agriculture — Invaio Series C $88.9M (May 25, 2021)"
+   },
+   {
+    "used": true,
+    "text": "Citrus Industry — Invaio and Fundecitrus collaboration (Feb 13, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Flagship Pioneering — Amy O'Shea, CEO of Invaio Sciences"
+   },
+   {
+    "used": true,
+    "text": "PMC (Catalysts/NIH) — immobilized fumarase for L-malate production"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Andrew's full profile, posts and follower counts (not accessible)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Invaio company page followers (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared October 28, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Invaio speaks mostly through **press releases and ag trade media** (citrus greening, Fundecitrus); Chimera Bioscience has **no real web presence** (D on its own).",
+   "detail": "Invaio gets steady coverage in citrus and produce trade press (The Packer, Citrus Industry, FreshPlaza) around Trecise and HLB. LinkedIn follower counts for Invaio and Andrew were not accessible. Chimera Bioscience shows only a one-line placeholder site — no team, products or news.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Invaio Sciences",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "Press releases / ag trade media",
+     "audience": "Growers, citrus industry, investors",
+     "recency": "Fundecitrus partnership (early 2026)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Website — chimerabioscience.com",
+     "audience": "None visible",
+     "recency": "Placeholder (© 2025)",
+     "read": "Weak"
+    },
+    {
+     "channel": "LinkedIn — Andrew Stewart",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Social reach is not the point here: this is a warm referral. Speed and a forwardable, concrete offer matter more than content."
+  },
+  "network": {
+   "summary": "No shared network between David and Andrew was verified. Andrew's circle is US industrial biotech and bioprocess (Invaio/Flagship, Amyris, Synlogic, Clorox, Gallo).",
+   "items": [
+    "Possible bridge: Enzymicals' former CEO **Erik de Vries** (ex-Amyris, now BRAIN Biotech and on Enzymicals' Supervisory Board) — check if he knows Andrew from Amyris (**to be confirmed**).",
+    "The real target is the **unnamed fumarase end user** Andrew knows — ask for the intro.",
+    "Your exact number of shared connections with Andrew is on his LinkedIn profile, under the name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/andrew-stewart-241b5320",
+    "label": "See your mutual connections with Andrew on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Early 2026",
+    "where": "Trade press (Citrus Industry, FreshPlaza)",
+    "text": "Invaio and **Fundecitrus** partner on peptide-based HLB (citrus greening) solutions; Invaio preparing its first HLB launch in Brazil.",
+    "use": "Light opener if you talk about Invaio — congratulate on the Brazil push."
+   },
+   {
+    "when": "Mar 21, 2024",
+    "where": "Harvard MSI Seminar",
+    "text": "Andrew co-presented “Accelerating the leap to nature positive agriculture” (Microbe Derived Particles, Trecise™).",
+    "use": "Shows he speaks publicly on scale-up of biologicals — a peer-level opener for David."
+   },
+   {
+    "when": "May 25, 2021",
+    "where": "Press release",
+    "text": "Invaio closes **$88.9M Series C** led by Flagship Pioneering.",
+    "use": "Background only."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Harvard Microbial Sciences Initiative (MSI) Seminar",
+    "when": "Cambridge, MA, Mar 21, 2024",
+    "role": "Speaker (Andrew, with James Kraemer)"
+   }
+  ],
+  "hooks": [
+   "Thank Andrew for the referral and make his job easy: a **forwardable one-pager** on Enzymicals fumarase.",
+   "Speak his language: **scale-up and cost of goods** — recombinant expression, crude/immobilized formats, reuse.",
+   "Offer a **sample + cost estimate** once volume and conditions are known.",
+   "Ask for a **direct intro** to the end user rather than relaying through him.",
+   "Ask what **Chimera Bioscience** is — it may be his own venture and a future enzyme/expression customer."
+  ]
+ },
+ "send": false
+}

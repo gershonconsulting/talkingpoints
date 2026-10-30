@@ -1,0 +1,261 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV2PaDugsM",
+ "company": "Angelini Pharma",
+ "lead_name": "Guido Furlotti",
+ "lead_role": "Drug Substance Development Science Lead",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Angelini Pharma (Angelini Industries)",
+   "person": "Guido Furlotti",
+   "role": "Drug Substance Development Science Lead",
+   "location": "Italy (Aprilia / Rome)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Low (CMC role)",
+     "tone": "warn"
+    },
+    {
+     "label": "Ask for a referral"
+    }
+   ],
+   "alert": {
+    "title": "Warm but wrong seat:",
+    "text": "Guido asked for email, and Jenny's Oct 21 email was **opened 3 times with 6 link clicks** — but he runs **drug substance (chemistry/CMC)**, not biology. Use him as a door to Angelini's **disease biology / translational** team."
+   },
+   "source_line": "Lead added to Streak on Oct 20, 2026 by Juliana R.; moved to Contacted on Oct 28 by Nicolette J.",
+   "linkedin_url": "https://www.linkedin.com/in/guido-furlotti-4119ab1"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Private Italian pharma, part of family-owned **Angelini Industries**; focus on **Brain Health** (epilepsy, mental health) and, since 2026, **rare disease**"
+   },
+   {
+    "label": "Size",
+    "value": "Angelini Pharma: **€1.26B revenue (2025)**, 3,000+ employees, direct presence in 20 countries"
+   },
+   {
+    "label": "Big move",
+    "value": "Closed the **$4.1B acquisition of Catalyst Pharmaceuticals** (Florida) on **Jul 16, 2026** — its US entry"
+   },
+   {
+    "label": "His role",
+    "value": "Drug substance development — API process chemistry and scale-up, not tissue biology",
+    "tone": "warn"
+   },
+   {
+    "label": "Contact",
+    "value": "guido.furlotti@angelinipharma.com (he asked for email on LinkedIn)"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Pharma translational teams** — right company, wrong seat (CMC contact)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Founder-CEO and inventor of CosmoSort (SLACS) — the best person to ask Guido, scientist to scientist, who at Angelini owns biomarkers and translational biology."
+   },
+   "items": [
+    "**Guido was just in Korea** (business trip to meet partners, ~1 week ago) — the most natural opener for a Seoul-based CEO.",
+    "**No direct overlap found** between Amos and Guido (schools, employers, co-authors or events) in public sources.",
+    "**Korean biotech ties at Angelini:** Angelini sells **cenobamate** in Europe under a license from Korea's **SK Biopharmaceuticals**, and in Oct 2024 signed an option deal (up to $360M) on **CV-01** from Korea's **Cureverse**. Angelini already trusts Korean science partners.",
+    "**Angelini Ventures** (€300M fund) is expanding into **Asian biotech** with a new Singapore office — a possible second door for Meteor."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Be honest about fit",
+    "text": "Say it plainly: SLACS serves biology and biomarker teams, not drug-substance chemistry. Ask Guido **who in Angelini's disease biology / translational team** should see it. Scientists respect a straight ask."
+   },
+   {
+    "title": "Rare disease is new for them",
+    "text": "Catalyst brings **Firdapse (LEMS)**, **Agamree (Duchenne)** and **Fycompa (epilepsy)**. Rare neuromuscular and epilepsy tissue is small and precious — exactly where **location-precise cell isolation** helps."
+   },
+   {
+    "title": "Korea-friendly partner",
+    "text": "Angelini already licenses from SK Biopharmaceuticals and Cureverse. A Seoul-born platform company is not a stranger to them."
+   }
+  ],
+  "person": {
+   "name": "Guido Furlotti",
+   "text": "**28 years at Angelini.** Drug Substance Development Science Lead since Jan 2026. Before that: Fine Chemicals Business Project Manager (2022–2026, Aprilia — process development, tech transfer, CMC, and evaluating **CDMO requests for proposal** for business development) and Process Development Manager (2020–2022, ran five lab units: flow chemistry, kilo-lab, synthesis, purification, control). Business training at **LUISS Business School**. A chemistry/CMC and partnering person, not a tissue biologist."
+  },
+  "company": {
+   "text": "Angelini Pharma is the pharmaceutical arm of Angelini Industries, a family-owned Italian group founded in Ancona in 1919 and based in Rome. CEO: **Sergio Marullo di Condojanni**. Its R&D (CSO **Rafal Kaminski**, ex-UCB and Roche, since 2022) covers brain health — epilepsy (cenobamate), mood disorders (trazodone, lurasidone), neurodevelopmental disorders — plus pain/inflammation and pediatrics. The R&D chain runs from computational and medicinal chemistry and pharmacology to **chemical scale-up and analytical development** (Guido's area) and clinical. R&D spend was **€46M in 2025** — modest for its size. In 2026 it bought Catalyst Pharmaceuticals ($4.1B) to enter the US and rare disease."
+  },
+  "financials": {
+   "country": "Italy, family-owned",
+   "text": "**Angelini Industries revenue 2025:** €1.7B (+4.6%); €2.2B under old consolidation method. **Angelini Industries EBITDA 2025:** €229M (−3.8%). **Angelini Industries net income 2025:** €127M (2024: €156M). **Angelini Pharma revenue 2025:** €1.26B (+3.3%), ~¾ of group. **Angelini Pharma R&D 2025:** €46M. **Catalyst acquisition:** $4.1B equity value, closed Jul 16, 2026. **Catalyst 2025 sales:** $589M (Firdapse $358M, Agamree $117M, Fycompa $113M). **Angelini Ventures:** €300M fund; ~€125M invested in 22 companies. Private, family-owned group; figures from Angelini Industries' July 1, 2026 release and deal coverage. Group: ~5,600 employees, 21 countries."
+  },
+  "history": {
+   "text": "LinkedIn, Oct 20, 2026: Guido replied “Sorry not. Please write me at **guido.furlotti@angelinipharma.com**.” Juliana confirmed email would follow. **Oct 21:** Jenny Park (Meteor) emailed him, cc Amos — **opened 3 times, 6 link clicks** (last open Oct 21 evening), **no reply yet**. Box moved to *Contacted* on Oct 28."
+  },
+  "industry": [
+   {
+    "title": "Spatial omics moves into CNS and rare disease",
+    "text": "Spatial and single-cell methods are increasingly used on small, heterogeneous tissues — resected epileptic brain, muscle biopsies — where bulk methods blur the signal. That is Meteor's sweet spot."
+   },
+   {
+    "title": "European mid-caps buying US rare-disease assets",
+    "text": "Angelini's Catalyst deal is its US beachhead. Integration year = new rare-disease biology questions and new budgets, but also busy teams."
+   }
+  ],
+  "talking_points": [
+   "Thanks for opening our note — I know drug substance is far from tissue biology. Who in Angelini's **disease biology & pharmacology** or translational team would be the right person to see SLACS?",
+   "With Catalyst, Angelini now owns **Agamree (Duchenne)** and **Firdapse (LEMS)** — is there in-house work on muscle or neuromuscular-junction biology, or is that done with academic partners?",
+   "For epilepsy, does your team work with **resected human brain tissue** (e.g., focal lesions)? Isolating the exact abnormal region is what SLACS does.",
+   "Does Angelini outsource biomarker and omics work to CROs, or build it in-house in Rome?",
+   "From your side: are there **impurity or cell-based assay** questions in CMC where precise cell isolation would matter? (Only if he shows interest.)",
+   "You already work with Korean partners like SK Biopharmaceuticals and Cureverse — how did those collaborations start?"
+  ],
+  "attention": [
+   {
+    "title": "Fit is low — aim for a referral.",
+    "text": "Guido is CMC/chemistry. Don't pitch him hard; ask for one name in disease biology / translational science. A warm internal intro is the win."
+   },
+   {
+    "title": "Follow up on email now.",
+    "text": "He clicked links 6 times on Oct 21 and has not replied for a week. Send a short reply-to-thread from Amos with the referral question."
+   },
+   {
+    "title": "Fix Streak.",
+    "text": "Contact is saved as “Guido F” — change to **Guido Furlotti**. Set **Fit** (Low/Referral) and **Interest** fields, now empty. The email body of Jenny's Oct 21 note isn't readable in Streak (only metadata)."
+   },
+   {
+    "title": "Parallel door.",
+    "text": "Consider separate outreach to Angelini's R&D leadership (CSO Rafal Kaminski's org) and to **Angelini Ventures** (Asia expansion), rather than relying on Guido only."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech - LG pipeline (box, contact, LinkedIn reply comment, Oct 21 email metadata and tracking)"
+   },
+   {
+    "used": true,
+    "text": "Angelini Industries press release, Jul 1, 2026 — 2025 results"
+   },
+   {
+    "used": true,
+    "text": "BioSpace — Angelini completes Catalyst acquisition (Jul 16, 2026); Pharmaphorum — Catalyst deal and product sales"
+   },
+   {
+    "used": true,
+    "text": "Angelini Pharma — Science & Innovation page; careers page (Head of Disease Biology & Pharmacology, Rome — filled)"
+   },
+   {
+    "used": true,
+    "text": "The Pharma Letter / Business Wire — Rafal Kaminski named CSO (2022)"
+   },
+   {
+    "used": true,
+    "text": "Fierce Biotech — Cureverse CV-01 option deal; Pharma Focus Asia — Arvelle/SK Biopharmaceuticals cenobamate license; Synapse — Angelini deals"
+   },
+   {
+    "used": true,
+    "text": "Global Venturing — Angelini Ventures (Powerlist 2026)"
+   },
+   {
+    "used": false,
+    "text": "Guido Furlotti — no public papers, patents, talks or posts found on the open web"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts — not retrievable without login"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared October 28, 2026",
+  "grade": {
+   "letter": "C+",
+   "headline": "**Guido has 3,182 followers** and posts a few times a year with good engagement; Angelini's corporate channels carry the brand.",
+   "detail": "His role announcement drew 176 reactions and 45 comments, his Korea-trip post 27 reactions a week ago. Personal channel is modest but real; the company relies on corporate news. Nothing standout — a C+.",
+   "context": "LinkedIn audited from Gershon's account on Oct 28, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Guido Furlotti",
+     "audience": "3,182 followers · 500+ connections",
+     "recency": "Posted 1 week ago (Korea trip); 8 and 10 months ago",
+     "read": "Occasional, engaged"
+    },
+    {
+     "channel": "LinkedIn — Angelini Pharma",
+     "audience": "To be confirmed (1,001–5,000 employees listed)",
+     "recency": "Active corporate news (Catalyst, results)",
+     "read": "Corporate only"
+    },
+    {
+     "channel": "Press / newsroom — Angelini Industries & Pharma",
+     "audience": "Italian and pharma trade press",
+     "recency": "Regular releases (Jul 2026 results, Catalyst)",
+     "read": "Main channel"
+    }
+   ],
+   "note": "Guido will not amplify anything publicly; the value of this lead is an internal referral, not reach."
+  },
+  "network": {
+   "summary": "**No verified overlap** between Amos and Guido. Closest bridges are Korean: Angelini's partners **SK Biopharmaceuticals** and **Cureverse**.",
+   "items": [
+    "Check whether Amos or Meteor's investors (Murex Partners, Magnify) know anyone at **SK Biopharmaceuticals** or **Cureverse** who has worked with Angelini.",
+    "Angelini R&D is led by CSO **Rafal Kaminski** (ex-UCB, Roche) — check Amos's connections to former UCB/Roche neuroscience people.",
+    "Angelini Ventures (partner Paolo Di Giorgio) opened a Singapore office for Asian biotech — check Meteor's investor network for a link."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/guido-furlotti-4119ab1",
+    "label": "See your mutual connections with Guido on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "1 week ago",
+    "where": "LinkedIn",
+    "text": "Leaving on a **business trip to Korea to meet important partners** — asked his network what to pack (his choice: scientific papers and crosswords).",
+    "use": "The best opener Amos has: **he was just in Korea.** Ask how the trip went and which partners he met — Meteor is in Seoul."
+   },
+   {
+    "when": "8 months ago",
+    "where": "LinkedIn",
+    "text": "Announced his new role as **Drug Substance Development Science Lead** (176 reactions, 45 comments).",
+    "use": "He is new in the role — ask what he is building."
+   },
+   {
+    "when": "10 months ago",
+    "where": "LinkedIn",
+    "text": "“The best pen found at **CPhI Europe 2025**.”",
+    "use": "He goes to CPhI — the CMC/CDMO show."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "CPhI Europe",
+    "when": "2025",
+    "role": "Attended",
+    "note": "Pharma ingredients / CDMO trade show."
+   },
+   {
+    "name": "Business trip to Korea",
+    "when": "October 2026",
+    "role": "Meeting partners",
+    "note": "From his own LinkedIn post."
+   }
+  ],
+  "hooks": [
+   "“How was Korea?” — he posted about his partner trip a week ago. Offer to meet in Seoul next time.",
+   "He opened Jenny's email 3 times and clicked 6 links — something caught his eye. Ask what.",
+   "Congratulate Angelini on closing **Catalyst** (Jul 16, 2026) and entering the US.",
+   "Agamree (Duchenne) and Firdapse (LEMS) bring **rare neuromuscular biology** into Angelini — new tissue questions for SLACS.",
+   "Korean partners already in Angelini's portfolio: **SK Biopharmaceuticals** (cenobamate) and **Cureverse** (CV-01).",
+   "Ask for one name: “Who owns biomarkers and translational biology at Angelini?”"
+  ]
+ },
+ "send": false
+}

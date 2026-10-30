@@ -1,0 +1,292 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVxLjz4woM",
+ "company": "Decoy Therapeutics Inc.",
+ "lead_name": "Chinh Duong, PhD",
+ "lead_role": "Principal Scientist, R&D",
+ "stage": "Engaged",
+ "data": {
+  "header": {
+   "company": "Decoy Therapeutics Inc. (Nasdaq: DCOY)",
+   "person": "Chinh Duong, PhD",
+   "role": "Principal Scientist, R&D",
+   "location": "NYC metro (hybrid) · Decoy HQ Cambridge, MA",
+   "chips": [
+    {
+     "label": "Engaged"
+    },
+    {
+     "label": "Fit: Good",
+     "tone": "good"
+    },
+    {
+     "label": "AI / automation profile"
+    },
+    {
+     "label": "Call was today 8:30 am ET",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "The call was this morning:",
+    "text": "Chinh agreed on LinkedIn to a call on **Wednesday Oct 28, 2026 at 8:30 am ET** (invite to **cduong@decoytx.com**). Confirm it happened, log notes in Streak and send the follow-up today."
+   },
+   "source_line": "Lead added to Streak on Oct 27, 2026 by Juliana R; moved to Engaged on Oct 28.",
+   "linkedin_url": "https://www.linkedin.com/in/chinhduong"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Preclinical Nasdaq biotech building **AI-designed peptide-conjugate drugs** on its IMP³ACT platform"
+   },
+   {
+    "label": "Lead program",
+    "value": "**DCOY-CoV** — intranasal pan-coronavirus fusion inhibitor; clinic expected in **2027**"
+   },
+   {
+    "label": "Other focus",
+    "value": "Broad respiratory antivirals (flu, RSV, paramyxoviruses) and **oncology** (GI cancers; legacy protein degrader SP-3164)"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Chinh builds Decoy's **autonomous R&D lab** (AI + automation) — not a spatial biologist"
+   },
+   {
+    "label": "Size",
+    "value": "Small team; ~$8.0M cash at Sep 30, 2026; runway into early 2027"
+   },
+   {
+    "label": "Contact",
+    "value": "cduong@decoytx.com"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Pharma/biotech translational teams** — partial fit: preclinical antiviral, small budget."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Inventor to technologist: Chinh builds Decoy's AI-driven automated lab; Amos invented CosmoSort (SLACS), an automated laser-based platform. A peer technical conversation."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.** Chinh: Chemistry PhD, **Yale**; Amos: Berkeley and SNU.",
+    "Both are **inventor-builders of automated lab platforms**: Chinh built Decoy's modular automated lab with an AI engine; Amos invented SLACS (laser-activated, image-guided cell sorting).",
+    "Both work at the **AI + wet-lab (TechBio)** edge — Chinh's headline: “Innovating at the edge of AI, TechBio, and Automation”.",
+    "Chinh opened the door himself: “**always happy to learn more about new technologies**”."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Spatial data for AI models",
+    "text": "Chinh builds **autonomous R&D** (physical/agentic AI). Frame SLACS as an automated, image-guided instrument that turns tissue into **rich, location-tagged omics data** — training and validation data for Decoy's AI design engine."
+   },
+   {
+    "title": "Where does the drug go, and which cells respond?",
+    "text": "Decoy just showed a single intranasal dose stays above antiviral levels for **up to 7 days** in upper airway and deep lung tissue. SLACS can isolate the exact epithelial regions where the drug sits and profile **which cells respond** — the next question after bulk PK."
+   },
+   {
+    "title": "Oncology without a big team",
+    "text": "Decoy keeps oncology in its platform (GI cancers, peptide-based PROTAC work with SP-3164). Spatial isolation of tumor regions supports **target and biomarker work** as a service — no capex, no new hires."
+   }
+  ],
+  "person": {
+   "name": "Chinh Duong",
+   "text": "Chemistry PhD from **Yale**. Four years at Decoy: R&D Scientist II (Oct 2022–May 2026), where he built a **modular automated lab with an AI engine** that designs and synthesizes de novo antiviral peptide conjugates; **Principal Scientist, R&D since May 2026**, building **autonomous R&D** (physical and agentic AI), data science and software for drug discovery, as team lead with several patents submitted. Helped bring Decoy into Google Cloud for AI Startups, NVIDIA Inception, GitHub/JetBrains for Startups and the **Hello Tomorrow Deep Tech Pioneer 2026** program. Also an independent quantitative researcher/investor (blockchain/web3) for ~10 years. Based in the NYC metro area, hybrid."
+  },
+  "company": {
+   "text": "Decoy Therapeutics designs **peptide-conjugate therapeutics** with machine learning, AI and high-speed synthesis (IMP³ACT platform). Its product class, **Designable Multi-Antivirals (D-MAVs)**, targets fusion machinery shared across virus families (coronaviruses, flu, RSV, paramyxoviruses such as measles and Nipah). It became public by merging with Salarius Pharmaceuticals and has traded on Nasdaq as **DCOY** since Jan 8, 2026. Leadership: Rick Pierce (CEO), Dr. Barbara Hibner (CSO, co-founder), Dr. Michael Lipp (CTO, co-founder), Peter Marschel (CBO). Robert Langer (MIT) sits on its scientific advisory board. Supporters include the **Gates Foundation**, BARDA via J&J's Blue Knight, NVIDIA Inception, Google Cloud and the Massachusetts Life Sciences Seed Fund."
+  },
+  "financials": {
+   "country": "US, Nasdaq-listed",
+   "text": "**Listing:** Nasdaq: DCOY (since Jan 8, 2026; ex-Salarius SLRX). **Cash (Sep 30, 2026):** ~$8.0M, of which ~$2.5M restricted to the Gates Foundation grant. **Net loss H1 2026:** $4.6M (Q2: $2.4M). **R&D spend H1 2026:** $2.1M (Q2: $1.3M). **Recent financing:** $3.5M private placement (Jun 2026); $3.85M warrant exercise (Sep 2026). **Runway:** Into early 2027 per management; going-concern warning. Cash is tight. Pitch SLACS as a **pay-per-project service** tied to IND or grant milestones, not a platform purchase."
+  },
+  "history": {
+   "text": "LinkedIn (as Amos). Chinh replied he is “always happy to learn more about new technologies” and prefers Tuesday/Wednesday mornings ET. Agreed to **Wed Oct 28, 2026, 8:30 am ET** and asked for the invite at **cduong@decoytx.com**. Box created Oct 27 by Juliana R; moved to *Engaged* Oct 28. Streak also holds an old 2024 email from a French/US biotech mailing list that included Decoy staff (jcooper@decoytx.com, jsloand@decoytx.com)."
+  },
+  "industry": [
+   {
+    "title": "Spatial biology moves into infection and tissue PK",
+    "text": "Spatial transcriptomics has been used to map SARS-CoV-2 infection in nasal epithelium at cell resolution — the same tissue Decoy's intranasal drug targets."
+   },
+   {
+    "title": "Pandemic-preparedness money",
+    "text": "Decoy's Gates Foundation and BARDA-linked funding favour platforms that show broad, mechanistic data across viruses — spatial data can help make that case."
+   }
+  ],
+  "talking_points": [
+   "You are building an autonomous lab — what **data types** feed your AI engine today, and is tissue-level or cell-level data part of it?",
+   "Your PK data show the drug stays in nasal and lung tissue for a week — do you know **which cell types** it sits in and how they respond?",
+   "Could image-guided, automated cell isolation (SLACS) plug into your automated workflow, or would a service model fit better?",
+   "What does the team need for the IND package in 2027 that you can't generate in-house?",
+   "Who else at Decoy (Dr. Hibner, Dr. Lipp) should see a SLACS pilot proposal?"
+  ],
+  "attention": [
+   {
+    "title": "Confirm the call happened.",
+    "text": "It was scheduled for this morning, Oct 28 at 8:30 am ET. Check with Amos that it took place."
+   },
+   {
+    "title": "Log notes in Streak.",
+    "text": "Add the call notes to the box and set the next step and stage."
+   },
+   {
+    "title": "Send the follow-up today.",
+    "text": "Email cduong@decoytx.com with a short SLACS summary framed for an AI/automation lead (automated instrument + spatial data for models), plus a pilot offer tied to intranasal tissue. Suggest looping in the CSO/CTO — Chinh is a technologist, not the budget holder."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech pipeline (box, contact, LinkedIn thread, 2024 email)"
+   },
+   {
+    "used": true,
+    "text": "decoytx.com — platform, pipeline and news (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "PR Newswire / BioSpace / Nasdaq — name change (Jan 7, 2026), Gates Foundation agreement (Jan 13, 2026), IP update (Aug 3, 2026), DCOY-CoV PK data (Sep 29, 2026)"
+   },
+   {
+    "used": true,
+    "text": "SEC filings — 10-Q for Q2 2026; Form S-1 (Oct 7, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Creative Destruction Lab — Decoy cohort page (2021/22)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Chinh Duong's profile, posts and reposts (via coordinator, Oct 28, 2026)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Decoy company page follower count not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared October 28, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Investor-driven voice: frequent **press releases and investor webcasts**; Chinh has a modest LinkedIn presence (**522 followers**).",
+   "detail": "As a Nasdaq microcap, Decoy issues news on PR Newswire several times a quarter and appears at investor events. No public follower count was found for the company page. Chinh posts occasionally (Hello Tomorrow Summit post drew 53 reactions). No standout channel.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Decoy Therapeutics",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "Press releases (PR Newswire)",
+     "audience": "Investor / trade media",
+     "recency": "Several per quarter; latest Sep 29–30, 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Investor events / webcasts",
+     "audience": "Retail and small-cap investors",
+     "recency": "Small Cap Showcase (fall 2026); Closing Bell webcast (Apr 9, 2026)",
+     "read": "Active"
+    },
+    {
+     "channel": "LinkedIn — Chinh Duong",
+     "audience": "522 followers · 500+ connections",
+     "recency": "Occasional; last original post ~5 months ago",
+     "read": "Modest"
+    }
+   ],
+   "note": "Decoy needs good news for investors. A joint SLACS dataset on intranasal tissue could become a press release — a selling point for them."
+  },
+  "network": {
+   "summary": "No shared network between Amos and Chinh was verified. Chinh is in the AI/TechBio and deep-tech startup world (Hello Tomorrow, NVIDIA Inception, Google Cloud).",
+   "items": [
+    "Decoy's science leaders: **Dr. Barbara Hibner** (CSO, co-founder), **Dr. Michael Lipp** (CTO, co-founder), SAB member **Robert Langer** (MIT). Check if Amos knows any of them.",
+    "Decoy staff appeared on a **France/US biotech mailing list** in 2024 (jcooper@decoytx.com, jsloand@decoytx.com) — other Decoy contacts to approach.",
+    "Your exact number of shared connections with Chinh is on his LinkedIn profile, under the name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/chinhduong",
+    "label": "See your mutual connections with Chinh on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "~5 months ago",
+    "where": "LinkedIn",
+    "text": "“I'll be at **Hello Tomorrow Summit**, June 11–12, 2026, Amsterdam” (53 reactions).",
+    "use": "Ask how it went — deep-tech crowd; easy, personal opener."
+   },
+   {
+    "when": "~8 months ago",
+    "where": "LinkedIn (repost)",
+    "text": "Decoy selected as a **Hello Tomorrow Deep Tech Pioneer 2026**.",
+    "use": "Congratulate — and position Meteor as a fellow deep-tech platform company."
+   },
+   {
+    "when": "Sep 29, 2026",
+    "where": "Press release (company)",
+    "text": "Preclinical PK data: one intranasal dose of **DCOY-CoV** stays above antiviral levels for **up to 7 days** in upper airway and deep lung tissue; clinic expected in 2027.",
+    "use": "Best opening: ask what they know about cell-level distribution — SLACS answers that."
+   },
+   {
+    "when": "Sep 29, 2026",
+    "where": "Boulder Peptide Symposium — Peptide Showcase, Napa Valley",
+    "text": "CTO Dr. Michael Lipp presented the first PK dataset.",
+    "use": "Shows the team presents at peptide meetings — ask if Chinh attended."
+   },
+   {
+    "when": "Aug 3, 2026",
+    "where": "Press release (company)",
+    "text": "IP update: 7 patent families, 1 granted US patent, 19 pending; new platform family filed June 2026 covering IMP³ACT design methods.",
+    "use": "They value proof of platform maturity — spatial data adds mechanistic evidence."
+   },
+   {
+    "when": "Jan 13, 2026",
+    "where": "Press release (company)",
+    "text": "Global Access Commitment Agreement with the **Gates Foundation** to build a scalable peptide-conjugate manufacturing platform.",
+    "use": "Grant-funded work may have budget for outside tissue studies."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Hello Tomorrow Summit",
+    "when": "Amsterdam, Jun 11–12, 2026",
+    "role": "Attendee (Chinh)",
+    "note": "Decoy was a Hello Tomorrow Deep Tech Pioneer 2026."
+   },
+   {
+    "name": "Boulder Peptide Symposium — Peptide Showcase",
+    "when": "Napa Valley, Sep 29, 2026",
+    "role": "Company presenter (CTO Michael Lipp)"
+   },
+   {
+    "name": "The Small Cap Showcase",
+    "when": "Fall 2026 (announced Sep 30)",
+    "role": "Company presenter"
+   },
+   {
+    "name": "Virtual Investor Closing Bell event",
+    "when": "Apr 9, 2026",
+    "role": "CEO Rick Pierce presented the 2026 outlook"
+   },
+   {
+    "name": "Creative Destruction Lab (Toronto), Health stream",
+    "when": "2021/22 cohort",
+    "role": "Program company"
+   }
+  ],
+  "hooks": [
+   "Ask about **Hello Tomorrow Amsterdam** (June) and the Deep Tech Pioneer selection.",
+   "He builds an **autonomous lab**: pitch SLACS as automated, image-guided sampling that produces spatial data an AI engine can learn from.",
+   "Congratulate the team on the **once-weekly intranasal** PK data (Sep 29) — then ask where the drug sits cell by cell.",
+   "Pick up his words: “always happy to learn more about new technologies” — offer a 1-page SLACS overview and a small pilot.",
+   "Cash is tight: frame SLACS as a **fixed-price service** linked to IND or Gates/BARDA milestones."
+  ]
+ },
+ "send": false
+}
