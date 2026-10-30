@@ -1,5 +1,6 @@
 TALKINGPOINTS.GERSHON.AI — HANDOFF
-Updated 2026-10-30 (v1.6.0)
+Updated 2026-10-30 (v1.7.0)
+✅ 2026-10-30 v1.7.0: Admin → Add a client = full form (name, #, contact, pro email, LinkedIn email, Streak pipeline, recipients, company + ICP). Prefill from client.gershon.ai (KV gershoncrm-companies: company:<key>, v3:settings.clientEmails[no]) and ICP.gershon.ai (KV icp-gershon-ai-store: report:<slug>, sections 1/2/6 → company, 3/4/10 → ICP). Read-only. CLIENT_NUMBERS in functions/_sources.js mirrors CLIENT_REGISTRY in the client repo — update both when a client is added.
 ✅ 2026-10-30 v1.6.0: quick AI drafts removed (Olivier: "No quick draft anymore"). Only status=ready (researched, published from research/*.json) briefs are listed/opened/sent; daily run notes "research needed"; meeting run sends only researched briefs. Old draft rows stay in D1 but are hidden.
 ✅ 2026-10-30 v1.5.5: lead↔client pipeline guard (Create draft refuses a lead from another campaign; meeting run no longer falls back to another client's box). Cause of NxGen MDx/TrilliumBiO/Golden Valley (PhiTech) being briefed for Finance Montréal (Steve).
 

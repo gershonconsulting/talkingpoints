@@ -10,6 +10,16 @@ binding = "DB"
 database_name = "talkingpoints-db"
 database_id = "a1ac634b-d6f9-469d-b3d5-bc75c882abd4"
 
+# Read-only links to the other Gershon platforms (same Cloudflare account), used by Admin → Add a client:
+# client.gershon.ai companies (name, Streak pipeline, client report emails) and ICP.gershon.ai reports.
+[[kv_namespaces]]
+binding = "CRM_KV"
+id = "99d8d5c662ca467cb60ab93e8e2b02f3"
+
+[[kv_namespaces]]
+binding = "ICP_KV"
+id = "4bf369dab5d8439a959f5af7b7ed7d95"
+
 [vars]
 # Public OAuth client IDs (not secrets). The 3 secrets are set in Cloudflare → gershon-talkingpoints → Settings → Variables and Secrets.
 LINKEDIN_CLIENT_ID = "78b871bbkd4wyu"
