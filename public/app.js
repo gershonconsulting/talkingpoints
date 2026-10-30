@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.5.3';
+  const APP_VERSION = '1.5.4';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
