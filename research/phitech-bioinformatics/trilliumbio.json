@@ -1,0 +1,297 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWE58PoCAw",
+ "company": "TrilliumBiO",
+ "lead_name": "Aamir Ali, MD",
+ "lead_role": "Chief Medical Officer",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "TrilliumBiO (Trillium Health LLC) · also a practicing gastroenterologist at Capital Digestive Care",
+   "person": "M. Aamir Ali, MD",
+   "role": "Chief Medical Officer, TrilliumBiO",
+   "location": "Rockville, MD (TrilliumBiO HQ) · clinic in Chevy Chase, MD",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "C-level physician lead",
+     "tone": "brand"
+    },
+    {
+     "label": "Two companies, one email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Call already booked:",
+    "text": "Aamir proposed and confirmed **Wednesday Oct 28 at 1:30 pm ET** with Tunahan on LinkedIn and gave **aamir.ali@capitaldigestivecare.com** for the invite. That date has passed and Streak holds no meeting note — confirm whether the call took place or was moved."
+   },
+   "source_line": "Box created in Streak on Oct 28, 2026 by Juliana R (Gershon), stage Lead; LinkedIn thread pasted as a comment the same day; one email from Aamir to ozge.guney@phitech.bio on Oct 27.",
+   "linkedin_url": "https://www.linkedin.com/in/aamir-ali-411bb147"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "TrilliumBiO — biomarker discovery and precision diagnostics lab in Rockville, MD; **CLIA, CAP-accredited, ISO 15189**; NY State-approved lab (Trillium Health LLC)"
+   },
+   {
+    "label": "Tests",
+    "value": "Rare lung disease (**LAMair** VEGF-D test for LAM, **AlphaID** for alpha-1 antitrypsin, **aPAP ClearPath** with Savara), Alzheimer's (with T-NeuroDx), oncology (**Oncular**)"
+   },
+   {
+    "label": "Second hat",
+    "value": "Board-certified gastroenterologist at **Capital Digestive Care** (Chevy Chase, MD); oversees the practice's clinical research trials"
+   },
+   {
+    "label": "Shared leadership",
+    "value": "TrilliumBiO's President **Roderick Kreisberg, MD** is also President and COO of Capital Digestive Care; its NY-listed lab director **David Heydt, MD** also directs Capital Digestive Care Laboratory"
+   },
+   {
+    "label": "Contact",
+    "value": "aamir.ali@capitaldigestivecare.com — a Capital Digestive Care address, not TrilliumBiO",
+    "tone": "warn"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/aamir-ali-411bb147 — followers and current headline to be confirmed"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "A US diagnostic lab with rare-disease and biomarker programs — exactly the **diagnostic-lab and biopharma partner** profile PhiTech's G&M is built for"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "He has run the whole LinkedIn exchange and booked the call, and his Alzheimer's RNA-seq research maps directly onto TrilliumBiO's Alzheimer's blood-biomarker program."
+   },
+   "items": [
+    "**Alzheimer's biomarkers:** Tunahan led a TÜBİTAK project on **RNA-seq data for Alzheimer's disease network models** (2021–2024) and a Gebze Technical University project on Alzheimer's drug targets; TrilliumBiO partnered with **T-NeuroDx** (Jul 2025) to develop and validate blood-based biomarkers for early Alzheimer's detection.",
+    "**Rare disease:** PhiTech's G&M is built for rare diseases; TrilliumBiO's newest tests target rare lung diseases — LAM (3–7 women per million), aPAP and alpha-1 antitrypsin deficiency.",
+    "**Scientists turned operators:** Saliha (Boğaziçi PhD, former Gebze Technical University faculty, now CEO) and Tunahan (professor and CSO) moved research into a product; Aamir is a former clinical academic with **30+ peer-reviewed articles** who now runs clinical trials and is CMO of a diagnostics company.",
+    "**Same buyers:** both companies sell to physicians, hospitals and biopharma — PhiTech to diagnostic labs, clinics and pharma/CROs; TrilliumBiO to physicians and pharma partners such as Savara.",
+    "No shared school, employer or co-author found: Aamir trained at University of Maryland, George Washington University and Johns Hopkins; Saliha and Tunahan at Boğaziçi University (Tunahan also Amsterdam/Utrecht and DTU)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Add RNA to TrilliumBiO's rare-disease menu",
+    "text": "TrilliumBiO already runs rare-disease biomarker tests (LAMair, AlphaID, aPAP). G&M combines **WES/WGS with RNA-seq** — aberrant splicing, expression, allele-specific expression — and PhiTech claims **up to 30% higher diagnostic yield**. Offer G&M as the interpretation layer for a genomic/transcriptomic rare-disease service TrilliumBiO could sell nationally."
+   },
+   {
+    "title": "A partner for biomarker discovery",
+    "text": "TrilliumBiO describes itself as covering **discovery, validation and commercialization** of biomarkers. PhiTech's multi-omics AI, and Tunahan's Alzheimer's network-model work, can feed the discovery step — starting with the T-NeuroDx Alzheimer's program."
+   },
+   {
+    "title": "Speak to the physician",
+    "text": "Aamir is a gastroenterologist who oversees phase III GI trials (IBD, celiac, colorectal cancer, PSC). Frame G&M as **physician-facing decision support** — prioritized genes, clear evidence — and ask where multi-omics could help his trial and hereditary-cancer patients."
+   }
+  ],
+  "person": {
+   "name": "M. Aamir Ali, MD",
+   "text": "Chief Medical Officer of TrilliumBiO (listed on its team page). Board-certified in internal medicine and gastroenterology; practices at Capital Digestive Care in Chevy Chase, MD (Friendship Heights Endoscopy Center) and oversees the practice's clinical research trials. MD from University of Maryland School of Medicine (1998); internal medicine residency (2001) and gastroenterology fellowship (2005) at George Washington University; postdoctoral fellowship in GI motility at Johns Hopkins. Former clinical academic with 30+ peer-reviewed articles, book chapters and abstracts. Fellow of the ACG and AGA; affiliated with Sibley Memorial Hospital. Washingtonian Top Doctor every year 2012–2026 and named to its 2026 Top Doctors Hall of Fame; Bethesda Magazine Top Docs 2025 and 2026. Speaks English, Hindi and Spanish."
+  },
+  "company": {
+   "text": "TrilliumBiO (legal name Trillium Health LLC) is a translational diagnostics company at 9808 Medical Center Drive, Rockville, MD. It positions itself as a biomarker discovery and precision diagnostics partner offering customized, high-volume testing from a CLIA, CAP-accredited, ISO 15189 lab, also approved by New York State (molecular genetic testing). Leadership: Laura Vivian (CEO), Aamir Ali, MD (CMO), Roderick Kreisberg, MD (President), plus VPs for scientific development/lab operations and for business development and translational medicine. Products: **LAMair** (VEGF-D blood test for LAM, launched nationally with The LAM Foundation, Jun 2026), **AlphaID** (alpha-1 antitrypsin), **aPAP ClearPath** dried-blood-spot test developed and validated for Savara (US launch Mar 2025), **Oncular** (oncology) and an Alzheimer's blood-biomarker program with T-NeuroDx (Jul 2025). Member of the Maryland Tech Council and BioHealth Capital Region. Capital Digestive Care — the Mid-Atlantic's largest integrated GI practice, whose own lab runs 300,000+ clinical tests a year — shares its president and a lab medical director with TrilliumBiO; the ownership link between the two is not public."
+  },
+  "financials": {
+   "country": "US, private",
+   "text": "No public financials. Third-party estimate (Prospeo): ~**US$5.9M** annual revenue and 51–100 employees — treat as indicative only. No funding rounds found."
+  },
+  "history": {
+   "text": "LinkedIn, via Tunahan's account (pasted into Streak by Juliana): Aamir replied first — \"What is your availability next week?\" Tunahan followed up on Sep 25 and Oct 1. On **Oct 8** Aamir wrote that the next weeks were packed and asked to be contacted again in two weeks. Tunahan followed up on Friday Oct 23; on **Monday Oct 26** Aamir proposed **1:30 on Wednesday**, Tunahan accepted (1:30 EST) and Aamir gave his Capital Digestive Care email. On **Oct 27** Aamir sent one email to ozge.guney@phitech.bio (content not readable in Streak; one file on the box). Box created **Oct 28** by Juliana R at stage *Lead*; no meeting note, call log or task logged."
+  },
+  "industry": [
+   {
+    "title": "LDTs stay open",
+    "text": "A federal court in Texas vacated FDA's lab-developed-test rule in spring 2025 and FDA formally rescinded it on **Aug 6, 2025**. Labs like TrilliumBiO can keep launching tests as LDTs — T-NeuroDx's Alzheimer's technology is planned as one."
+   },
+   {
+    "title": "RNA lifts rare-disease diagnosis",
+    "text": "Integrating RNA-seq with DNA and phenotype data raised diagnostic yield by **8–16%** in rare-disease cohorts of hundreds of patients (BSGM session, Jul 2026) — independent support for PhiTech's DNA+RNA approach."
+   },
+   {
+    "title": "GI practices build their own labs",
+    "text": "Capital Digestive Care's lab was the first GI specialty practice lab named a **Roche Diagnostics Center of Excellence**; it processes 125,000+ biopsies a year. Physician-owned diagnostics is growing in the region TrilliumBiO serves."
+   }
+  ],
+  "talking_points": [
+   "Which TrilliumBiO programs are you most involved in as CMO — the rare lung tests, Alzheimer's, or oncology?",
+   "For LAM, aPAP and alpha-1 patients who test negative or unclear, what happens next — is there a genomic or transcriptomic follow-up today?",
+   "Would an RNA-seq plus WES/WGS interpretation service (G&M) fit TrilliumBiO's menu, as a co-branded test or a referral?",
+   "How are you validating the T-NeuroDx Alzheimer's biomarkers — is there room for transcriptome-based network analysis in discovery?",
+   "Your pharma partnerships (e.g. Savara) — do sponsors ask for patient identification or companion-diagnostic support that multi-omics could add?",
+   "Who else should be in the next conversation — Laura Vivian, Robert Lavieri (BD & translational medicine) or Joannah Kim (scientific development and lab)?"
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 10–14, 2026 · Seattle Convention Center, WA",
+    "note": "Molecular diagnostics labs — TrilliumBiO's peer group and PhiTech's target buyers. Ask if TrilliumBiO attends.",
+    "best": true
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis Convention Center, MN",
+    "note": "Rare-disease genetics and diagnostic labs; natural stage for a G&M demo."
+   }
+  ],
+  "attention": [
+   {
+    "title": "Did the Oct 28 call happen?",
+    "text": "The call was booked for Wednesday Oct 28, 1:30 pm ET (the day the box was created). No meeting note is logged and the stage is still *Lead*. Confirm with Tunahan/Juliana: held, missed or moved — and log the outcome."
+   },
+   {
+    "title": "Company mismatch.",
+    "text": "Box is named **TrilliumBiO** and he is TrilliumBiO's CMO, but his email is **@capitaldigestivecare.com**, where he is a practicing gastroenterologist (Capital Digestive Care's site does not list him as CMO). The two share leadership; ownership link is not public. Decide which company the deal sits with and find a TrilliumBiO email if the conversation is about TrilliumBiO."
+   },
+   {
+    "title": "Read his Oct 8 message carefully.",
+    "text": "It says \"I **don't** want to learn about your company\" but goes on to ask for a follow-up in two weeks and he then proposed the time himself — most likely a typo for \"do\". Don't quote it back."
+   },
+   {
+    "title": "Unreadable email.",
+    "text": "Aamir's Oct 27 email went to **ozge.guney@phitech.bio**, not Gershon; Streak shows no content. Ask PhiTech what it said (likely the invite reply)."
+   },
+   {
+    "title": "Fix the Streak record.",
+    "text": "Contact name is truncated to \"Aamir A\" — set **M. Aamir Ali, MD**. The *Thread* field holds his LinkedIn URL; Industry, Fit, Interest and Next Steps are empty."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Check his profile for his current headline (TrilliumBiO CMO vs Capital Digestive Care), start date at TrilliumBiO, follower count, recent posts and groups — none could be verified from the public web."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, LinkedIn thread comment, Oct 27 email metadata)"
+   },
+   {
+    "used": true,
+    "text": "trilliumbio.com — home page and Our Team page (leadership, tests, accreditations)"
+   },
+   {
+    "used": true,
+    "text": "capitaldigestivecare.com — Aamir Ali, MD profile; Chevy Chase Clinical Research page; Dr. David Heydt lab announcement (Feb 2023)"
+   },
+   {
+    "used": true,
+    "text": "Johns Hopkins Medicine provider profile — Mohammed Aamir Ali, MD (training years, languages)"
+   },
+   {
+    "used": true,
+    "text": "Wadsworth Center (NY State DOH) — Trillium Health LLC (DBA TrilliumBiO) approved lab listing"
+   },
+   {
+    "used": true,
+    "text": "PR Newswire via TechNode Global (Jun 29, 2026) — TrilliumBiO and The LAM Foundation, LAMair"
+   },
+   {
+    "used": true,
+    "text": "MedTech Spectrum (Jul 30, 2025) — TrilliumBiO and T-NeuroDx Alzheimer's partnership; Stock Titan (Mar 6, 2025) — Savara aPAP ClearPath launch"
+   },
+   {
+    "used": true,
+    "text": "Becker's ASC (Jan 10, 2023) — Capital Digestive Care leadership; BioBuzz — Capital Digestive Care Laboratory, Roche Center of Excellence"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, Webrazzi (Apr 8, 2026), Lucidity Insights, 212.vc — PhiTech, G&M, $2.4M round, founders; Gebze Technical University — Tunahan Cakir CV"
+   },
+   {
+    "used": true,
+    "text": "The FDA Law Blog (Aug 2025) — LDT rule rescinded; BSGM (Jul 2026) — RNA-seq diagnostic uplift; The Pathologist and eMedEvents — AMP 2026 and ACMG 2027 dates"
+   },
+   {
+    "used": true,
+    "text": "Prospeo — TrilliumBiO revenue and headcount estimate (third-party)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — not audited for this brief (no browser access); counts and posts to be verified"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Press-release driven: TrilliumBiO publicizes partnerships, but **no measurable social channel** was found for the company or for Aamir.",
+   "detail": "TrilliumBiO has a PR & marketing director and issued wire releases in Jul 2025 (T-NeuroDx) and Jun 2026 (The LAM Foundation); its site links to LinkedIn, Facebook, YouTube and Instagram, but audience and posting frequency could not be verified. Aamir's public profile is clinical (Top Doctor listings), with no visible original posting. No standout channel.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn counts not checked — grade may move once verified."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Aamir Ali",
+     "audience": "To be confirmed",
+     "recency": "Replies to LinkedIn messages (Oct 8, Oct 26)",
+     "read": "Responsive, posting unknown"
+    },
+    {
+     "channel": "LinkedIn / Facebook / YouTube / Instagram — TrilliumBiO",
+     "audience": "To be confirmed",
+     "recency": "Linked from trilliumbio.com",
+     "read": "Present, size unknown"
+    },
+    {
+     "channel": "Press wire — TrilliumBiO",
+     "audience": "PR Newswire syndication",
+     "recency": "Jun 29, 2026 (LAM Foundation)",
+     "read": "Main outbound channel"
+    }
+   ],
+   "note": "TrilliumBiO announces partnerships through joint press releases (Savara, T-NeuroDx, The LAM Foundation). A pilot with PhiTech could earn the same treatment — useful for PhiTech's US visibility."
+  },
+  "network": {
+   "summary": "No shared employer, school or co-author found between Aamir and Saliha or Tunahan. **Tunahan is already in a direct LinkedIn conversation with him** and booked the call.",
+   "items": [
+    "**TrilliumBiO team to know:** Laura Vivian (CEO), Robert Lavieri, PhD (VP Business Development & Translational Medicine), Joannah Kim (VP Scientific Development & Lab Operations), Kaustabh Basu (Strategic Partnerships), Storm Anderson (Global Business Development).",
+    "**Capital Digestive Care link:** Roderick Kreisberg, MD (President of TrilliumBiO; President and COO of Capital Digestive Care) and David Heydt, MD (lab director) bridge both companies.",
+    "Your exact number of shared connections with Aamir is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/aamir-ali-411bb147",
+    "label": "See your mutual connections with Aamir on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Jun 29, 2026",
+    "where": "PR Newswire (TrilliumBiO)",
+    "text": "TrilliumBiO partners with **The LAM Foundation**; **LAMair**, its VEGF-D blood test, is now available to physicians nationwide.",
+    "use": "Open on rare disease: ask what happens after a LAMair or AlphaID result — where G&M's DNA+RNA analysis could add answers."
+   },
+   {
+    "when": "Jul 30, 2025",
+    "where": "Press (TrilliumBiO)",
+    "text": "Strategic collaboration with **T-NeuroDx** on blood-based biomarkers for early Alzheimer's detection, to be commercialized as an LDT.",
+    "use": "Bridge to Tunahan's Alzheimer's RNA-seq network-model research."
+   },
+   {
+    "when": "Mar 6, 2025",
+    "where": "Savara press release",
+    "text": "Savara launched the **aPAP ClearPath** dried-blood-spot test, developed and validated with TrilliumBiO's CLIA lab.",
+    "use": "Shows TrilliumBiO builds tests with pharma — a model for a PhiTech x TrilliumBiO offer to biopharma."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "BIO International Convention",
+    "when": "Year to confirm (BIO 2026 was Jun 22–25, San Diego)",
+    "role": "Exhibitor listing (TrilliumBiO)",
+    "note": "Listed in the convention.bio.org exhibitor directory as a diagnostics company."
+   }
+  ],
+  "hooks": [
+   "Thank him for proposing the time himself after a packed October — he moved the call forward.",
+   "Congratulate TrilliumBiO on the **LAMair** national launch with The LAM Foundation (June 2026).",
+   "**Alzheimer's:** TrilliumBiO's T-NeuroDx program meets Tunahan's TÜBİTAK RNA-seq Alzheimer's work.",
+   "His **Washingtonian 2026 Top Doctors Hall of Fame** recognition — a light, sincere opener.",
+   "Ask how he splits his time between the clinic, Capital Digestive Care's trials and TrilliumBiO — it tells you where decisions are made."
+  ]
+ },
+ "send": false
+}

@@ -1,0 +1,289 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOWh2I_rCAw",
+ "company": "Bausch + Lomb Corporation",
+ "lead_name": "Christopher Richardson",
+ "lead_role": "Senior Director, Scientific Innovation",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Bausch + Lomb Corporation (NYSE/TSX: BLCO; ~87% owned by Bausch Health)",
+   "person": "Christopher Richardson",
+   "role": "Senior Director, Scientific Innovation",
+   "location": "Corporate seat Vaughan, Ontario · US headquarters Bridgewater, NJ",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Said: not a core focus",
+     "tone": "warn"
+    },
+    {
+     "label": "Biopharma / innovation scout"
+    }
+   ],
+   "alert": {
+    "title": "Weak fit for now:",
+    "text": "in June Christopher told Tunahan on LinkedIn that **precision medicine for rare diseases isn't a core focus** for Bausch + Lomb and he would reach out if that changes. Two emails since (Aug 13, Sep 11) got no reply. The only new opening: in August B+L listed **AI and computational biology** as an emerging pipeline area."
+   },
+   "source_line": "Lead added to Streak on Jun 29, 2026 by Aina R; moved Lead → Contacted on Aug 14 by Özge G.",
+   "linkedin_url": "https://www.linkedin.com/in/christopher-richardson-67790a77"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global eye-health company founded 1853: contact lenses, lens care, eye drops, ophthalmic pharma and surgical devices; more than 400 products"
+   },
+   {
+    "label": "Size",
+    "value": "2026 revenue guidance **US$5.45–5.55B**; Q3 2026 revenue **US$1.375B** (+7%)"
+   },
+   {
+    "label": "Pipeline",
+    "value": "Dry eye, surgical, consumer, contact lenses, **retinal diseases** and emerging areas including **AI and computational biology**"
+   },
+   {
+    "label": "Contact",
+    "value": "christopher.richardson@bausch.com (he gave it himself on LinkedIn)"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/christopher-richardson-67790a77"
+   },
+   {
+    "label": "Fit with PhiTech",
+    "value": "**Low today.** PhiTech's G&M targets rare diseases and hereditary cancers; B+L's money is in dry eye, lenses and surgery.",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Çakır",
+    "reason": "The only real link: Tunahan already had a direct LinkedIn exchange with Christopher (June 2026), and Christopher answered politely and shared his email."
+   },
+   "items": [
+    "**Existing thread:** Christopher replied to Tunahan on LinkedIn, said he would reach out if priorities change, and sent his work email — Tunahan is the warmest sender.",
+    "**Computational biology:** Tunahan (CSO, 20+ years in RNA analysis; systems biology and transcriptomics at Gebze Technical University) speaks directly to the \"AI and computational biology\" area B+L named in August 2026.",
+    "**Scientific innovation role:** Christopher's title points to scouting outside science; Saliha (CEO, PhD, 15+ years in bioinformatics) leads PhiTech's biopharma offer (molecular profiling, data & AI, trial stratification).",
+    "No shared employer, school, co-author or event was found for Saliha or Tunahan and Christopher. His career history could not be verified on the public web."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Respect his \"no\", ask one question",
+    "text": "He said rare-disease precision medicine is not a core focus. Do not pitch again. Ask what B+L's **AI and computational biology** effort is looking for, and whether multi-omics (DNA + RNA) analysis has a place in it."
+   },
+   {
+    "title": "Retina is the only clinical bridge",
+    "text": "B+L is building in **retinal disease** (geographic atrophy: RNAi deal with City Therapeutics, sustained-release implant from Whitecap). PhiTech's offer for biopharma — **molecular profiling, biomarkers, patient stratification** — is the angle, not diagnostics."
+   },
+   {
+    "title": "Keep it a low-cost door",
+    "text": "Offer a short note or a 20-minute exchange between Tunahan and his team on RNA-based analysis — a scientist-to-scientist talk, not a sales demo. Then let it rest until he signals interest."
+   }
+  ],
+  "person": {
+   "name": "Christopher Richardson",
+   "text": "Senior Director, Scientific Innovation at Bausch + Lomb (title as stored in Streak). In June 2026 he replied to Tunahan on LinkedIn that precision medicine for rare diseases is not a core focus for B+L and shared his work email. His earlier career, education and location could not be confirmed from public sources."
+  },
+  "company": {
+   "text": "Bausch + Lomb is a global eye-health company (founded 1853) selling contact lenses, lens care, consumer eye care (LUMIFY, Artelac), ophthalmic pharmaceuticals (MIEBO, Xiidra) and surgical products (premium IOLs, glaucoma devices). It reports three segments: Vision Care, Surgical and Pharmaceuticals. Bausch Health owns about **87%** of its shares and plans to separate it, through a share distribution, a sale or another transaction. On Oct 12, 2026 CEO Brent Saunders left by mutual agreement; **Thomas J. Appio**, CEO of Bausch Health, is now chairman and interim CEO. In August 2026 B+L said its pipeline spans dry eye, surgical, consumer, contact lenses, retinal diseases and \"emerging areas including **AI and computational biology**\". In July 2026 it stopped a glaucoma neuroprotection program after a failed Phase 2 and refocused that asset on geographic atrophy."
+  },
+  "financials": {
+   "country": "Canada / US, NYSE and TSX listed",
+   "text": "**Q3 2026 (reported Oct 28, 2026):** revenue US$1.375B (+7% reported, +8% constant currency); Vision Care US$774M, Surgical US$234M, Pharmaceuticals US$367M. **GAAP net income** US$32M (vs loss of US$28M). **Adjusted EBITDA** US$325M. **Cash flow from operations** US$233M. **R&D** US$91M in the quarter. **2026 guidance raised:** revenue US$5.45–5.55B; adjusted EBITDA (excl. acquired IPR&D) US$1.09–1.14B. **Cash** US$515M; long-term debt about US$5.05B (Sep 30, 2026). Owner: Bausch Health (~87%). Spending is focused on brands that grow (MIEBO +42%, LUMIFY +35%, premium IOLs ~+70%) — a small external data partnership would sit in R&D or innovation budgets, not commercial ones."
+  },
+  "history": {
+   "text": "Box created **Jun 29, 2026** by Aina R. Aina logged Tunahan's LinkedIn exchange: Christopher wrote \"Precision medicine for rare diseases isn't a core focus for us right now. I will reach out if that changes\"; Tunahan asked to send information by email; Christopher sent **christopher.richardson@bausch.com** (seen Jun 25). Özge Güney (PhiTech, Head of US BD) emailed him on **Aug 13** and **Sep 11, 2026**; no reply is logged. Stage moved Lead → *Contacted* on Aug 14."
+  },
+  "industry": [
+   {
+    "title": "Dry eye is the growth engine",
+    "text": "MIEBO revenue grew 42% in Q3 2026; B+L cites a five-country survey where dry-eye symptoms affect up to 39% of people while diagnosis stays low."
+   },
+   {
+    "title": "Retina and geographic atrophy",
+    "text": "B+L has an RNAi collaboration with City Therapeutics for retinal disease including GA, and is developing a sustained-release implant for GA from the Whitecap acquisition."
+   },
+   {
+    "title": "AI and computational biology",
+    "text": "B+L publicly named AI and computational biology as an emerging pipeline area in August 2026 — the one place where PhiTech's DNA + RNA analysis could fit."
+   },
+   {
+    "title": "Leadership change",
+    "text": "New interim CEO since Oct 12 and a pending separation from Bausch Health: expect caution on new external projects in the short term."
+   }
+  ],
+  "talking_points": [
+   "You said rare-disease precision medicine isn't a core focus — has anything changed since June, especially with the new leadership?",
+   "B+L now lists AI and computational biology as an emerging area: what kind of problems is that team trying to solve?",
+   "In retina and geographic atrophy, do your programs use genomic or RNA data for biomarkers or patient selection?",
+   "Who inside B+L owns external partnerships for data and AI tools — your team, R&D, or clinical development?",
+   "Would a short scientist-to-scientist exchange with Tunahan on RNA-based analysis be useful, with no commitment?"
+  ],
+  "attention": [
+   {
+    "title": "Weak fit — be honest.",
+    "text": "He already said **no** on rare-disease precision medicine, and two emails went unanswered. Treat this as a long-term nurture, not an active opportunity."
+   },
+   {
+    "title": "Use one sender.",
+    "text": "Christopher answered **Tunahan**; the follow-up emails came from Özge. Send any next note from Tunahan, who has the relationship."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "His past employers, education, location, time in role, follower count and recent posts could not be confirmed publicly. Check his profile before writing."
+   },
+   {
+    "title": "Fix Streak.",
+    "text": "Contact name is \"Christopher R\" — change to **Christopher Richardson**. The single email thread on this box also holds emails to about ten other prospects, so its view counts are not his. Fit, Interest, Industry and Category are empty: set Fit to *Low*."
+   },
+   {
+    "title": "Timing.",
+    "text": "B+L changed CEO on Oct 12 and is preparing its separation from Bausch Health. Wait for the new structure before pushing."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, comment with LinkedIn exchange, email thread metadata, stage history)"
+   },
+   {
+    "used": true,
+    "text": "SEC EDGAR — Bausch + Lomb Q3 2026 earnings release (Oct 28, 2026) and Form 10-Q for Sep 30, 2026"
+   },
+   {
+    "used": true,
+    "text": "SEC EDGAR — Bausch + Lomb Board update release (Aug 6, 2026): pipeline areas incl. AI and computational biology; Bausch Health ~87%"
+   },
+   {
+    "used": true,
+    "text": "Eyewire News — Whitecap and City Therapeutics deals (Jan 2025); B+L at AAO 2026 (Oct 7, 2026)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Bausch + Lomb public company page (followers, recent posts, LinkedIn Live), viewed Oct 30, 2026"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio — About, Leadership Team, BioPharma, Partnerships, Events, news"
+   },
+   {
+    "used": true,
+    "text": "Webrazzi (2015, Mar 2024, Apr 2026) — PhiTech founders, funding rounds; Gebze Technical University — Tunahan Çakır CV"
+   },
+   {
+    "used": true,
+    "text": "acmgmeeting.net — ACMG 2027 dates"
+   },
+   {
+    "used": false,
+    "text": "Christopher Richardson's LinkedIn profile — not readable from the public web"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "A",
+   "headline": "A big, busy brand: **Bausch + Lomb has 340,807 LinkedIn followers** and posts almost daily.",
+   "detail": "Six company posts in the last week (Q3 results, dry eye, sustainability), up to 232 reactions, and a LinkedIn Live on dry eye set for Nov 17. Also on X, Facebook, Instagram and YouTube. Christopher himself has no public content we could find.",
+   "context": "Company page audited from the public web on Oct 30, 2026; Christopher's personal LinkedIn not audited."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Bausch + Lomb",
+     "audience": "340,807 followers · 9,554 employees on LinkedIn",
+     "recency": "Posts 3h, 1d, 2d (x3), 4d ago",
+     "read": "Standout channel"
+    },
+    {
+     "channel": "LinkedIn — Christopher Richardson",
+     "audience": "To be confirmed",
+     "recency": "No public activity found",
+     "read": "Unknown"
+    },
+    {
+     "channel": "X, Facebook, Instagram, YouTube — Bausch + Lomb",
+     "audience": "Not counted",
+     "recency": "Linked from bausch.com",
+     "read": "Consumer channels"
+    }
+   ],
+   "note": "B+L's social channels are consumer and eye-care focused (dry eye, lenses). They say little about R&D partnering, so they are not a route to Christopher."
+  },
+  "network": {
+   "summary": "No shared connection was found. The only bridge is **Tunahan's own LinkedIn exchange** with Christopher in June 2026.",
+   "items": [
+    "**Direct thread:** Tunahan already messaged Christopher on LinkedIn and got a reply — reuse that thread rather than a cold email.",
+    "**PhiTech US team:** Özge Güney (Head of US BD) sent the August and September emails; Mazhar Adli heads PhiTech's US office.",
+    "Your exact number of shared connections with Christopher is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/christopher-richardson-67790a77",
+    "label": "See your mutual connections with Christopher on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "2 days ago",
+    "where": "LinkedIn (Bausch + Lomb page)",
+    "text": "Q3 2026 results: \"Broad-based growth. Expanding profitability. Continued momentum.\" 232 reactions.",
+    "use": "Light opener only — congratulate on the quarter."
+   },
+   {
+    "when": "1 day ago",
+    "where": "LinkedIn (Bausch + Lomb page)",
+    "text": "Five-country survey: **dry-eye symptoms affect up to 39%** of people, yet diagnosis stays low.",
+    "use": "Shows B+L thinks about under-diagnosis — the same problem PhiTech solves in rare disease, in a different field."
+   },
+   {
+    "when": "1 week ago",
+    "where": "LinkedIn (Bausch + Lomb page)",
+    "text": "Announces a **LinkedIn Live on dry eye**, Nov 17, 2026, 2:00 PM EST.",
+    "use": "Low-effort way to follow B+L's current priorities."
+   },
+   {
+    "when": "Aug 6, 2026",
+    "where": "Bausch + Lomb press release",
+    "text": "Pipeline includes \"emerging areas including **AI and computational biology**\".",
+    "use": "The one sentence to quote when reopening the conversation."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "AAO 2026 (American Academy of Ophthalmology)",
+    "when": "Oct 9–12, 2026, New Orleans",
+    "role": "Bausch + Lomb presented (IOL, glaucoma, dry-eye data)",
+    "note": "Company presence; Christopher's attendance not confirmed."
+   }
+  ],
+  "events": [
+   {
+    "name": "Bausch + Lomb LinkedIn Live — dry eye",
+    "when_where": "Nov 17, 2026, 2:00 PM EST, online",
+    "note": "Free; useful to hear B+L's current priorities."
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027, Minneapolis",
+    "note": "PhiTech exhibited at ACMG 2026 (booth #1309). Genetics-focused, so B+L is unlikely to attend — not a meeting point for Christopher.",
+    "best": false
+   },
+   {
+    "name": "ARVO Annual Meeting 2027",
+    "when_where": "May 2027 (city and dates to confirm)",
+    "note": "The main eye-research meeting; retina and genetics science. Best place to meet B+L's R&D people if PhiTech builds an eye-disease case.",
+    "best": true
+   }
+  ],
+  "hooks": [
+   "Pick up **Tunahan's June thread**: \"you said you'd reach out if priorities changed — B+L now names AI and computational biology, so I wanted to check in.\"",
+   "Congratulate B+L on a strong **Q3 2026** and the raised full-year guidance (Oct 28).",
+   "Ask about **geographic atrophy** work (City Therapeutics RNAi, Whitecap implant) and whether RNA or genetic data guides patient selection.",
+   "Mention PhiTech's **$2.4M round (Apr 2026)** and its US team (Özge Güney, Mazhar Adli) to show staying power."
+  ]
+ },
+ "send": false
+}

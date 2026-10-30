@@ -1,0 +1,267 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOW61dLwCQw",
+ "company": "Biodextris",
+ "lead_name": "Behzad Mahdavi, PhD, MBA",
+ "lead_role": "Executive Chairman & Chief Commercial Officer",
+ "stage": "Recycled",
+ "data": {
+  "header": {
+   "company": "Biodextris (biologics and vaccine CDMO, Laval, Québec; backed by ArchiMed)",
+   "person": "Behzad Mahdavi, PhD, MBA",
+   "role": "Executive Chairman & Chief Commercial Officer (appointed June 2025)",
+   "location": "Laval, Québec, Canada",
+   "chips": [
+    {
+     "label": "Recycled"
+    },
+    {
+     "label": "Fit: Low · Interest: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Referral, not a buyer",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Already met once:",
+    "text": "Behzad accepted Tunahan's InMail and a call was booked for **June 9, 2026**. Three days later the box was moved to *Recycled* and marked **Fit: Low, Interest: Low**. No notes on what was said."
+   },
+   "source_line": "Lead added to Streak on Jun 5, 2026 by Aina R (Gershon); moved Lead → Call Scheduled → Recycled on Jun 12 by Nicolette J.",
+   "linkedin_url": ""
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Press-led, not social-led: Biodextris speaks through **press releases**; Behzad is visible as a **conference speaker and board chair**.",
+   "detail": "Biodextris announced Behzad's appointment (Jun 2025) and a new CEO, Clement Fourny (Sep 2026), on the wire; it has a LinkedIn company page and has exhibited at the World Vaccine Congress. Behzad spoke at SynBioBeta 2025 and is listed by ISPE. No regular content cadence could be confirmed on any channel.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn and follower counts not verified (no browser access)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**CDMO** for biologics, vaccines, and cell and gene therapies — from process development to GMP manufacturing; started as a **GSK** biologics development centre"
+   },
+   {
+    "label": "Site",
+    "value": "Laval (Biotech City): 30,000 sq ft, five cGMP suites, 50–200 L bioreactors, aseptic fill; C$25M build, opened 2023"
+   },
+   {
+    "label": "Ownership",
+    "value": "Acquired by Clean Biologics (backed by **ArchiMed**) in May 2021; ArchiMed-backed today"
+   },
+   {
+    "label": "Leadership",
+    "value": "New CEO **Clement Fourny** (Sep 2026, ex-SmartLabs, Cytiva). Behzad's role since then not confirmed.",
+    "tone": "warn"
+   },
+   {
+    "label": "Contact",
+    "value": "behzad.mahdavi@innov2gro.com (the address he gave) — not a Biodextris address",
+    "tone": "warn"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Weak.** Biodextris makes biologics and vaccines; PhiTech sells DNA + RNA diagnostics and biomarker analysis. Value is Behzad's network, not Biodextris as a buyer.",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Saliha Durmuş",
+    "reason": "Both chemistry-trained PhDs who moved from science into running companies; Saliha was COO and plant manager at an industrial biotech start-up — Behzad's manufacturing world."
+   },
+   "items": [
+    "**Chemistry PhDs:** Behzad holds a PhD in chemistry (Université de Sherbrooke) and an MBA (UQAM); Saliha and Tunahan both hold PhDs in **chemical engineering** from Boğaziçi University.",
+    "**Bio-manufacturing:** Saliha was **COO of an industrial biotech start-up (2018–2020)** and briefly its plant manager; Behzad has 25+ years in CDMO and CRO work (Lonza, Catalent, Ginkgo, Biodextris).",
+    "**Synthetic biology:** Tunahan did his PhD on **yeast metabolic systems biology**, with a guest stay at DTU's Center for Microbial Biotechnology (Jens Nielsen); Behzad led biopharma manufacturing at **Ginkgo Bioworks** and spoke at **SynBioBeta 2025**.",
+    "**Start-up boards and fundraising:** Behzad is Executive Chairman of OpenCell Technologies and advises start-ups on fundraising and commercialising new technology; Saliha has raised several rounds, most recently **US$2.4M (Apr 2026)**.",
+    "**Existing thread:** Behzad accepted **Tunahan's** InMail in June 2026.",
+    "No shared employer, school, co-author or event was found."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Pick up the June call",
+    "text": "Open with what was agreed on June 9 (check with Özge first). Do not re-pitch diagnostics to a CDMO."
+   },
+   {
+    "title": "Ask for his network",
+    "text": "Behzad sits at the crossroads of biopharma, cell and gene therapy and start-ups. PhiTech's biopharma offer — **biomarker identification and patient stratification** from DNA + RNA data — is for drug developers. Ask which of his clients or portfolio companies work in **rare disease or hereditary cancer**."
+   },
+   {
+    "title": "Advisor angle",
+    "text": "He advises start-ups on fundraising and commercialisation. A founder-to-chairman talk with Saliha on **US go-to-market** for PhiTech (fresh US$2.4M) may interest him more than a product pitch."
+   }
+  ],
+  "person": {
+   "name": "Behzad Mahdavi",
+   "text": "Executive Chairman of Biodextris and its Chief Commercial Officer, leading global commercial expansion (appointed June 2025). 25+ years in CDMO and CRO services: about **13 years at Lonza** in leadership roles, then **VP of Global Open Innovation at Catalent**, then **SVP Biopharma Manufacturing & Life Science Tools at Ginkgo Bioworks** (from 2022). Earlier CEO of SAM Electron Technologies. Executive Chairman of **OpenCell Technologies** (Missouri; non-viral cell transfection) since Oct 2023. PhD in chemistry (Université de Sherbrooke), MBA (UQAM). Speaker at SynBioBeta 2025."
+  },
+  "company": {
+   "text": "Biodextris is a contract development and manufacturing organisation (CDMO) in Laval, Québec, built on GSK's former biologics and vaccine development operations. It covers process development, analytics, QC and GMP manufacturing for biologics, vaccines, and cell and gene therapies, from early research to clinical and commercial supply. Its Laval Biotech City centre (C$25M fit-out, opened 2023) has five cGMP suites and 50–200 L bioreactors. Clean Biologics, backed by healthcare investor **ArchiMed**, bought it in May 2021. On **Sep 29, 2026** it named **Clement Fourny** CEO (ex-SVP Commercial, SmartLabs Boston; earlier Cytiva)."
+  },
+  "history": {
+   "text": "LinkedIn, Jun 3, 2026: Behzad accepted Tunahan's InMail — \"A pleasure to be in touch. We can connect next week. Tuesday afternoon at 1 or 2 pm EST is perfect\" — and gave **behzad.mahdavi@innov2gro.com**. Tunahan replied that Özge would send the invite for **1 pm EST, June 9**; Behzad's calendar reply reached Özge on Jun 4. Box created Jun 5 by Aina R. On Jun 12 Nicolette J moved it *Lead → Call Scheduled → Recycled*; Fit and Interest are both **Low**. No call notes, no emails since."
+  },
+  "industry": [
+   {
+    "title": "CDMOs fight for biotech projects",
+    "text": "Biodextris hired a commercial CEO (Sep 2026) after naming a commercial chairman (2025) — a sign that winning new client programs is the priority."
+   },
+   {
+    "title": "Vaccine and cell-therapy demand",
+    "text": "Biodextris positions on vaccines, biologics and cell and gene therapy; its sector meets at the World Vaccine Congress (Washington, Mar 2027)."
+   }
+  ],
+  "talking_points": [
+   "Following our June 9 call — what has changed since, especially with Clement Fourny joining as CEO?",
+   "What is your role now — still Executive Chairman and CCO at Biodextris, and what is innov2gro?",
+   "Which of your biotech clients or portfolio companies work on rare disease or hereditary cancer, where DNA + RNA data could sharpen patient selection?",
+   "Do your cell and gene therapy clients ask for genomic or transcriptomic analysis alongside manufacturing?",
+   "As an advisor to start-ups: what would you tell a European diagnostics company entering the US market this year?"
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 10–14, 2026 · Seattle, WA",
+    "note": "PhiTech's buyers (molecular diagnostics). Not Behzad's crowd.",
+    "best": false
+   },
+   {
+    "name": "World Vaccine Congress Washington 2027",
+    "when_where": "Mar 8–11, 2027 · Walter E. Washington Convention Center, Washington, DC",
+    "note": "Biodextris has exhibited at the World Vaccine Congress; the place to meet Behzad's world in person.",
+    "best": true
+   }
+  ],
+  "attention": [
+   {
+    "title": "Weak fit — say so.",
+    "text": "Biodextris is a vaccine and biologics manufacturer, not a user of clinical diagnostics. The team already rated it Fit Low / Interest Low. Only worth a call for **referrals** through Behzad."
+   },
+   {
+    "title": "Get the June 9 outcome.",
+    "text": "There are no notes in Streak. Ask Özge or Tunahan what Behzad said before anyone reaches out again."
+   },
+   {
+    "title": "Check his current role.",
+    "text": "Biodextris named a new CEO on Sep 29, 2026. Confirm on his LinkedIn whether Behzad is still Executive Chairman/CCO and what **innov2gro** (his email domain) is."
+   },
+   {
+    "title": "Fix the Streak box.",
+    "text": "The **Thread** field holds Biodextris's Sales Navigator company link, not Behzad's profile; contact name is \"Behzad M\" with no title. Add his LinkedIn URL and title."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Follower counts, recent posts and groups for Behzad and Biodextris could not be read from the public web."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, calendar email, stage history, Fit/Interest fields)"
+   },
+   {
+    "used": true,
+    "text": "AI Journal / Investors Hangout (Jun 4, 2025) — Behzad Mahdavi named Executive Chairman and CCO; ArchiMed backing"
+   },
+   {
+    "used": true,
+    "text": "PharmaSource (Sep 29, 2026) — Biodextris appoints Clement Fourny as CEO"
+   },
+   {
+    "used": true,
+    "text": "American Pharmaceutical Review — Laval CDMO centre; Contract Pharma (May 5, 2021) — Clean Biologics acquires Biodextris"
+   },
+   {
+    "used": true,
+    "text": "SynBioBeta 2025 speaker page; Talent4Boards (Oct 31, 2023) — OpenCell Technologies Executive Chairman"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio; 212.vc portfolio page; Webrazzi (Apr 8, 2026); Gebze Technical University — Tunahan Çakır CV"
+   },
+   {
+    "used": true,
+    "text": "The Pathologist — AMP 2026 dates; BioPharma Asia — World Vaccine Congress Washington 2027 dates"
+   },
+   {
+    "used": false,
+    "text": "Financials — private company, none public. LinkedIn — not readable from the public web"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Behzad Mahdavi",
+     "audience": "To be confirmed",
+     "recency": "Not readable",
+     "read": "Unaudited"
+    },
+    {
+     "channel": "LinkedIn — Biodextris",
+     "audience": "To be confirmed",
+     "recency": "Page exists",
+     "read": "Unaudited"
+    },
+    {
+     "channel": "Press — Biodextris",
+     "audience": "Business Wire / trade press",
+     "recency": "Sep 29, 2026 (new CEO)",
+     "read": "Occasional, news-led"
+    },
+    {
+     "channel": "Conferences — Behzad",
+     "audience": "Not counted",
+     "recency": "SynBioBeta, May 2025",
+     "read": "Visible speaker"
+    }
+   ],
+   "note": "Behzad is more visible on stage and in press than in posts. A personal, peer-level follow-up will work better than content."
+  },
+  "network": {
+   "summary": "No shared connection between Behzad and Saliha or Tunahan was found. The bridge is **Tunahan's InMail thread** and the June 9 call.",
+   "items": [
+    "**Direct thread:** Behzad already accepted Tunahan's InMail and met the team once — reuse that thread.",
+    "**Biodextris people to know:** Clement Fourny (CEO since Sep 2026); Patrick Monpetit (Vice-Chairman).",
+    "Your exact number of shared connections with Behzad is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — find his profile on LinkedIn (the Streak link points to the company page)."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/sales/company/9288444",
+    "label": "Open Biodextris on LinkedIn Sales Navigator"
+   }
+  },
+  "posts": [
+   {
+    "when": "Sep 29, 2026",
+    "where": "Biodextris press release",
+    "text": "**Clement Fourny named CEO** — \"exactly the leader Biodextris needs at this stage of our journey.\"",
+    "use": "Ask how the new CEO changes Behzad's role and priorities."
+   },
+   {
+    "when": "Jun 4, 2025",
+    "where": "Biodextris press release",
+    "text": "Behzad named **Executive Chairman and CCO** to lead global commercial expansion.",
+    "use": "He owns growth — ask what kind of partners help Biodextris win clients."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "SynBioBeta 2025",
+    "when": "May 5–8, 2025, San Jose, CA",
+    "role": "Speaker",
+    "note": "Then SVP at Ginkgo Bioworks."
+   }
+  ],
+  "hooks": [
+   "Pick up from the **June 9 call** with Tunahan and Özge.",
+   "Congratulate Biodextris on hiring **Clement Fourny** as CEO (Sep 2026).",
+   "**Chemistry PhD to business leader** — a path he shares with Saliha.",
+   "His **Ginkgo** years and Tunahan's yeast metabolic modelling: common ground in synthetic biology."
+  ]
+ },
+ "send": false
+}

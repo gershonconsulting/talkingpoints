@@ -1,0 +1,186 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJXohevFCAw",
+ "company": "NxGen MDx",
+ "lead_name": "Madeline Allen",
+ "lead_role": "Genetic Counselor Manager",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "NxGen MDx (private molecular diagnostics lab)",
+   "person": "Madeline Allen",
+   "role": "Genetic Counselor Manager",
+   "location": "Grand Rapids, MI (company HQ)",
+   "chips": [
+    {"label": "Lead"},
+    {"label": "Asked for info by email", "tone": "warn"},
+    {"label": "Customer (US genetic testing lab)"}
+   ],
+   "alert": {
+    "title": "She opened the door:",
+    "text": "Madeline replied to Tunahan on LinkedIn: \"if you send some info via email I am happy to look it over\" and gave **mallen@nxgenmdx.com**. Streak shows **no email sent** since that reply was logged on Oct 20, 2026."
+   },
+   "source_line": "Lead added to Streak on Oct 20, 2026 by Juliana R (Gershon); her LinkedIn reply logged as a comment the same day.",
+   "linkedin_url": "https://www.linkedin.com/in/madeline-allen-7b576b142"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Grand Rapids, MI genetic testing lab (founded 2012) — carrier screening, prenatal screening (NIPS/NIPT), **32-gene hereditary cancer panel**, plus PCR tests for vaginosis and UTI"},
+   {"label": "Core offer", "value": "Pan-ethnic **Super Panel** carrier screen (147 recessive and X-linked conditions) and the Early Advantage Panel, sold to OB/GYNs"},
+   {"label": "Leadership", "value": "Alan Mack (founder & CEO), Greg Richard (Chief Commercial Officer), Kristin Sherman (CFO), Michael Todd (VP Sales)"},
+   {"label": "Counseling", "value": "In-house team of **board-certified genetic counselors** — Madeline manages it"},
+   {"label": "Contact", "value": "mallen@nxgenmdx.com (work email she gave herself)"},
+   {"label": "PhiTech fit", "value": "A US NGS lab with genetic counselors and a hereditary-cancer line — the \"diagnostic laboratories\" segment PhiTech's G&M platform targets"}
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "He already has a live LinkedIn thread with Madeline — she answered him and asked for an email. Keep the conversation in his name."
+   },
+   "items": [
+    "**Existing conversation:** Madeline replied to **Tunahan** on LinkedIn (logged Oct 20, 2026) and invited an email. That is the only confirmed link.",
+    "**Same problem, two ends:** NxGen screens couples for inherited recessive disease; PhiTech (Saliha and Tunahan) builds tools to **diagnose rare genetic disease** from DNA and RNA. Same patient journey.",
+    "**Hereditary cancer:** NxGen runs a 32-gene NCCN panel with pre- and post-test counseling; PhiTech's site names hereditary cancer as a G&M focus and its 2026 round funds cancer R&D.",
+    "No shared school, employer, country or conference found on the public web. Saliha and Tunahan trained at Boğaziçi University and taught at Gebze Technical University (Türkiye); Tunahan's postdoc was in the Netherlands."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "After the screen, the diagnosis",
+    "text": "NxGen's carrier screens flag at-risk couples. When a child is affected, DNA-only testing diagnoses **under 40%** of rare-disease cases (per PhiTech's 2026 funding coverage). G&M adds **RNA-seq plus AI gene prioritization** — PhiTech claims **up to 30% better diagnostic yield**."
+   },
+   {
+    "title": "Help for the counselors",
+    "text": "Madeline runs the team that explains results. G&M is a web-based **decision-support tool** that links variants to functional (RNA) evidence — pitch it as clearer, evidence-backed reports for her counselors, not as more lab work."
+   },
+   {
+    "title": "Make it forwardable",
+    "text": "She is a manager, not the buyer. Send a short note plus a one-page summary she can pass to **CEO Alan Mack** or **CCO Greg Richard**, and ask who owns variant interpretation."
+   }
+  ],
+  "person": {
+   "name": "Madeline Allen",
+   "text": "Genetic Counselor Manager at NxGen MDx (title per Streak). She manages the lab's board-certified genetic counseling team in Grand Rapids, MI. Her education and earlier roles could not be confirmed from the public web."
+  },
+  "company": {
+   "text": "NxGen MDx (NxGen MDx, LLC) is a private molecular diagnostics lab at 801 Broadway Ave NW, Grand Rapids, MI, founded in 2012 by **Alan Mack**, still CEO. It started in Grand Valley State University's health-sciences incubator. It sells NGS carrier screening (Super Panel and Early Advantage Panel, marketed as pan-ethnic), whole-genome NIPS, a 32-gene NCCN hereditary cancer panel and PCR infection tests, mostly through OB/GYNs, under its \"NatalCare\" philosophy. In **Nov 2025** it published a 400-patient retrospective study: NIPT plus the 147-condition Super Panel found all 400 carrier couples, against an estimated 63 for a 14-condition single-gene NIPT."
+  },
+  "history": {
+   "text": "Box created on **Oct 20, 2026** by Juliana R (Gershon) in *Phitech Bioinformatics - LG*, stage *Lead*. Same day, Juliana logged Madeline's LinkedIn reply to Tunahan: she apologised for the delay, asked for information by email and gave **mallen@nxgenmdx.com**; Tunahan answered \"sounds good\". **No email** is in Streak yet."
+  },
+  "industry": [
+   {
+    "title": "Expanded carrier screening is the standard",
+    "text": "ACMG recommends offering **Tier 3** carrier screening (a 113-gene set) to all pregnant patients and those planning pregnancy. NxGen's broad panels are built on this trend."
+   },
+   {
+    "title": "Single-gene NIPT under fire",
+    "text": "NxGen's Nov 2025 release cites ACOG, ACMG and SMFM statements that single-gene cfDNA screening is not recommended or not yet proven. Broad panels and confirmatory diagnosis are the line it sells."
+   },
+   {
+    "title": "RNA-seq enters rare-disease diagnosis",
+    "text": "At ASHG 2025, Baylor Genetics reported that RNA-seq **reclassified half of eligible variants** and supported a diagnosis in **24%** of Undiagnosed Diseases Network patients. US labs are adding transcriptomics — the core of PhiTech's G&M."
+   }
+  ],
+  "talking_points": [
+   "When a Super Panel finds an at-risk couple and a baby is later affected, where do those families go for diagnostic testing today?",
+   "How much of your counselors' time goes to explaining variants of uncertain significance?",
+   "Who owns variant interpretation and bioinformatics at NxGen — in-house or outsourced?",
+   "Has NxGen looked at RNA-seq to resolve uncertain or splicing variants, for example in the hereditary cancer panel?",
+   "Would a small pilot — a few unresolved cases re-analysed on G&M — be useful to show the team?",
+   "Who should see this besides you — Alan Mack, Greg Richard or lab operations?"
+  ],
+  "attention": [
+   {
+    "title": "Send the email now.",
+    "text": "Madeline asked for information by email; nothing has been sent in the 10 days since Oct 20. Send it from **Tunahan**, referencing the LinkedIn chat, with a one-page summary."
+   },
+   {
+    "title": "Fix the Streak box.",
+    "text": "Contact name is \"Madeline A\" — change to **Madeline Allen**. Move the stage from *Lead* to *Contacted* (she replied). Industry, Category, Fit and Interest are empty; Source shows only a raw code (9002)."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Check her education, previous roles, posts, groups and mutual connections with Saliha and Tunahan. A Madeline Allen, MS, CGC appears in Wayne State University's genetic counseling Class of 2023 — **not confirmed** as the same person."
+   },
+   {
+    "title": "Find the buyer.",
+    "text": "A counselor manager is likely an influencer, not the budget owner. Ask her who decides on interpretation software (CEO Alan Mack, CCO Greg Richard, or lab operations)."
+   },
+   {
+    "title": "Check accreditation.",
+    "text": "NIH's Genetic Testing Registry lists NxGen's CLIA number 23D2059943 with a 2023 expiry (profile last updated July 2023); the NxGen site does not name CLIA or CAP. Confirm current status before positioning a clinical integration."
+   }
+  ],
+  "sources": [
+   {"used": true, "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Juliana's comment with the LinkedIn exchange, Oct 20, 2026)"},
+   {"used": true, "text": "nxgenmdx.com — tests, genetic counseling, address"},
+   {"used": true, "text": "Healthcare Dive press releases — pan-ethnic carrier screening (Jul 2024); 400-patient retrospective study (Nov 5, 2025)"},
+   {"used": true, "text": "BioSpace / PRNewswire — Early Advantage Panel launch (Sep 15, 2021)"},
+   {"used": true, "text": "Rapid Growth Media (Jan 2014) — Clark Place lab opening, GVSU incubator, Alan Mack"},
+   {"used": true, "text": "CB Insights and Craft.co — founding year, HQ, leadership, social channels"},
+   {"used": true, "text": "NIH Genetic Testing Registry (lab 507143) — CLIA number, lab director, services"},
+   {"used": true, "text": "phitech.bio, 212.vc, Webrazzi (Apr 2026), Lucidity Insights (Apr 2026), GTU news — PhiTech offer, founders, funding, offices"},
+   {"used": true, "text": "Gebze Technical University — Tunahan Çakır CV"},
+   {"used": true, "text": "360dx — ACMG carrier screening recommendations; BioSpace — Baylor Genetics RNA-seq data at ASHG 2025"},
+   {"used": true, "text": "NSGC and eMedEvents — conference dates"},
+   {"used": false, "text": "LinkedIn — Madeline Allen's profile, posts and groups; NxGen company page counts (not accessible for this brief)"},
+   {"used": false, "text": "Financials — private company, none public"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "A company that talks through **press releases**, roughly one a year; Madeline's own presence is not visible on the web.",
+   "detail": "NxGen MDx lists LinkedIn, Instagram, Facebook, YouTube and X accounts and issued releases in Sep 2021, Jul 2024 and Nov 2025. No follower counts or recent posts could be verified, and Madeline shows no public posts, talks or publications.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn counts and activity to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {"channel": "LinkedIn — Madeline Allen", "audience": "To be confirmed", "recency": "Answered Tunahan's message (logged Oct 20, 2026)", "read": "Responsive in DMs"},
+    {"channel": "LinkedIn — NxGen MDx", "audience": "To be confirmed", "recency": "Not verified", "read": "Unknown"},
+    {"channel": "Press releases — NxGen MDx", "audience": "Healthcare Dive, BioSpace", "recency": "Last release Nov 5, 2025", "read": "Occasional, clinical-data led"},
+    {"channel": "Instagram / Facebook / YouTube / X — NxGen MDx", "audience": "Not counted", "recency": "Not audited", "read": "Listed, unverified"}
+   ],
+   "note": "NxGen leads with clinical evidence (its 400-patient study). Data-led material from PhiTech — diagnostic-yield numbers and a case example — will land better than a product brochure."
+  },
+  "network": {
+   "summary": "**Tunahan is already in a LinkedIn conversation with Madeline** — the warmest route. No other shared connection was found on the public web.",
+   "items": [
+    "**Direct thread:** Madeline replied to Tunahan and asked for an email — answer in that thread and by email.",
+    "**NxGen people to know:** Alan Mack (founder & CEO), Greg Richard (Chief Commercial Officer), Scott Pritchard (laboratory operations), Robert Carlson, MD (lab director on the NIH registry, 2023).",
+    "Your exact number of shared connections with Madeline is on her LinkedIn profile, under her name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/madeline-allen-7b576b142",
+    "label": "See your mutual connections with Madeline on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Nov 5, 2025",
+    "where": "Press release (NxGen MDx)",
+    "text": "400-patient retrospective study: NIPT plus the **147-condition Super Panel** found 400 of 400 carrier couples; a 14-condition single-gene NIPT would have missed about 85% of affected pregnancies.",
+    "use": "Speak their language: NxGen sells on breadth and evidence. Present G&M the same way — what it finds that DNA alone misses."
+   },
+   {
+    "when": "Jul 2024",
+    "where": "Press release (NxGen MDx)",
+    "text": "Pan-ethnic carrier screening: the Early Advantage and Super Panels, described as \"truly ethnicity-agnostic\" (Scott Pritchard, laboratory operations).",
+    "use": "Ask how they handle variant interpretation across diverse ancestries — an opening for AI prioritization."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Open with her own words: she asked for \"some info via email\" — keep it short and easy to forward.",
+   "Congratulate NxGen on its **400-patient Super Panel study** (Nov 2025).",
+   "Ask whether her team will be at **NSGC 2026 in Baltimore** (Nov 10–14) — a natural place to meet.",
+   "Bridge from carrier screening to diagnosis: what happens to families after a positive screen."
+  ],
+  "events": [
+   {"name": "NSGC 45th Annual Conference", "when_where": "Nov 10–14, 2026, Baltimore, MD", "best": true, "note": "The genetic counselors' national meeting — Madeline's community; in two weeks."},
+   {"name": "ACMG Annual Clinical Genetics Meeting", "when_where": "Apr 13–17, 2027, Minneapolis, MN", "note": "Lab directors and clinical geneticists — the buyers of interpretation tools."},
+   {"name": "NSGC 46th Annual Conference", "when_where": "Nov 7–11, 2027, Tampa, FL"}
+  ]
+ },
+ "send": false
+}

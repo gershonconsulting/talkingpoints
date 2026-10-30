@@ -1,0 +1,275 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOW-pd2rCQw",
+ "company": "Taconic Biosciences",
+ "lead_name": "Mazi Saberi, PhD",
+ "lead_role": "Chairman of the Scientific Advisory Board",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Taconic Biosciences (private; Avista Capital Partners since 2022)",
+   "person": "Mazi (Maziyar) Saberi, PhD",
+   "role": "Chairman of the Scientific Advisory Board — an advisor, not a Taconic executive",
+   "location": "Taconic: New York State HQ; sites in the US and Europe",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Said \"no immediate needs\"",
+     "tone": "warn"
+    },
+    {
+     "label": "Weak fit",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Set expectations:",
+    "text": "Mazi told Tunahan on June 24 there are **no immediate needs**. He chairs Taconic's advisory board but does not buy for Taconic. Treat this as a **relationship and referral** call, not a sale."
+   },
+   "source_line": "Lead added to Streak on Jun 29, 2026 by Aina R (Gershon), from Tunahan's LinkedIn exchange; moved Lead → Contacted on Aug 14 by Özge G.",
+   "linkedin_url": "https://www.linkedin.com/in/maziyar-saberi"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "A busy events brand, a quiet lead: Taconic runs **trade-show booths, local mixers and webinars**; Mazi has no public content we could read.",
+   "detail": "Taconic exhibited at ASGCT 2026 in Boston (booth #1718), hosts \"Taconic on Tap\" mixers (South San Francisco, May 7, 2026; San Diego) and co-hosts webinars (e.g. with Cyagen). Press releases are regular (Cyagen deal Aug 2025, TransCure acquisition Jan 2026). Mazi has an X account (@Mazi_Health) and a LinkedIn profile, but neither could be read. One strong channel (events), the rest unaudited.",
+   "context": "Web-audited Oct 30, 2026; follower counts not verified (LinkedIn and X not readable without a browser)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Genetically engineered and selectively bred **mouse and rat models**, humanized immune system mice, microbiome models, breeding and colony services. Founded 1952."
+   },
+   {
+    "label": "Size",
+    "value": "2023 revenue **US$259M** (Wikipedia); 3 service labs and 6 breeding sites in the US and Europe"
+   },
+   {
+    "label": "Lead's role",
+    "value": "Chairs the Scientific Advisory Board. Most recently **CSO at January AI** (metabolic health)."
+   },
+   {
+    "label": "Contact",
+    "value": "mazi@thornhill.bio (he gave this address himself) — not a Taconic address",
+    "tone": "warn"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/maziyar-saberi — public search shows him with **Thornhill Therapeutics** (not verified)"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Weak.** Taconic sells animal models; PhiTech sells clinical DNA + RNA diagnostics. Only angle: omics analysis for Taconic's in vivo study services (TransCure).",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Çakır",
+    "reason": "Scientist to scientist: Tunahan's systems biology and metabolic modelling meets Mazi's work as a systems physiologist in metabolic, liver and gut diseases — and Tunahan already has the LinkedIn thread with him."
+   },
+   "items": [
+    "**Existing thread:** Mazi answered **Tunahan** on LinkedIn (Jun 24, 2026) and gave his email — Tunahan is the warm sender.",
+    "**Systems biology:** Mazi is described as a **systems physiologist**; Tunahan's research is computational systems biology and genome-scale metabolic modelling (PhD on yeast metabolism, guest PhD at DTU with Jens Nielsen). Saliha's PhD is also in bioinformatics and systems biology.",
+    "**Metabolism:** Mazi built target discovery for **gastrointestinal, metabolic and liver diseases** (Second Genome) and ran research at January AI (metabolic health). Tunahan maps transcriptome and proteome data onto **metabolic networks**.",
+    "**Host and microbe biology:** Saliha's PhD produced a **pathogen–host interaction database** (PHISTO) and Tunahan works on pathogen–host interactions and microbial metabolic models; Mazi's Second Genome work was in the gut.",
+    "No shared employer, school, co-author or event was found."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Ask for advice, not a purchase",
+    "text": "He said no immediate needs. Ask for his view as an **SAB chair and former CSO**: where do multi-omics (DNA + RNA) analysis and AI help most in translational and preclinical work today?"
+   },
+   {
+    "title": "One concrete Taconic angle",
+    "text": "Since buying **TransCure** (Jan 2026), Taconic runs in vivo studies with immune profiling and flow cytometry. Ask whether **RNA-seq interpretation** of those studies is done in-house or outsourced — PhiTech's biopharma offer covers biomarker identification and patient stratification."
+   },
+   {
+    "title": "Ask for the right door",
+    "text": "Mazi knows biotech R&D leaders (NGM, Second Genome, Applied Molecular Transport, January AI). Ask who in his network works on **rare disease or hereditary cancer** — PhiTech's core — and whether he would introduce Saliha."
+   }
+  ],
+  "person": {
+   "name": "Mazi Saberi",
+   "text": "Chairman of Taconic Biosciences' Scientific Advisory Board. A systems physiologist with a record in target discovery and product development across therapeutics, nutraceuticals and digital health. Most recently **Chief Scientific Officer at January AI** (research, clinical development, regulatory, product). Before that, VP and Head of Biology at **Applied Molecular Transport** (several candidates to the clinic), Head of Research at **Second Genome** (target discovery for GI, metabolic and liver diseases), and early career at **NGM Biopharmaceuticals** (South San Francisco), supporting programs that led to multiple INDs. His Streak email and LinkedIn search result point to **Thornhill** (Thornhill Therapeutics) as his current company — not confirmed on the public web."
+  },
+  "company": {
+   "text": "Taconic Biosciences (founded 1952 as Taconic Farms) supplies genetically engineered and selectively bred mouse and rat models, humanized immune system (HIS) mice, microbiome models, and model design and breeding services, with three service labs and six breeding sites in the US and Europe. CEO **Mike Garrett**. In August 2025 it became exclusive North America/Europe distributor of **Cyagen's 16,000+ mouse model library**. In January 2026 it acquired **TransCure bioServices** (France), adding in vivo pharmacology, immune profiling, flow cytometry and imaging; TransCure's Sebastien Tabruyn is now President of TransCure and Taconic's Head of Innovation."
+  },
+  "financials": {
+   "country": "US, private (PE-owned)",
+   "text": "**2023 revenue:** US$259M. **Ownership:** H.I.G. Capital bought Taconic in 2019; **Avista Capital Partners** acquired it in 2022. No newer figures are public. Growth is coming through deals (Cyagen distribution, TransCure acquisition)."
+  },
+  "history": {
+   "text": "LinkedIn, Jun 24, 2026: Mazi to Tunahan — \"Thank you for reaching out. **No immediate needs at this stage.** I will certainly keep you in mind.\" Tunahan asked to send information by email; Mazi gave **mazi@thornhill.bio**. Box created Jun 29 by Aina R. Özge G emailed him on **Aug 13** and **Sep 11, 2026** (text not readable in Streak); **no reply** from Mazi. Box moved to *Contacted* on Aug 14."
+  },
+  "industry": [
+   {
+    "title": "Humanized models consolidate",
+    "text": "Taconic says the TransCure deal creates a single global platform for humanized models, cohort generation and in vivo studies — model suppliers are becoming full study partners, which generates more omics data to interpret."
+   },
+   {
+    "title": "Bigger model libraries",
+    "text": "The Cyagen deal adds 16,000+ engineered lines (incl. 200+ Cre models) to Taconic's own ~4,500 models."
+   }
+  ],
+  "talking_points": [
+   "As SAB chair, which scientific bets is Taconic making next — humanized immunity, microbiome, or data services?",
+   "After TransCure, who interprets the transcriptomic data from Taconic's in vivo studies — in-house teams, the client, or a partner?",
+   "From your time at Second Genome and January AI: where did combining DNA and RNA data change a decision?",
+   "What are you building now at Thornhill — and does it touch genomics or RNA analysis?",
+   "Who in your network leads rare-disease or hereditary-cancer programs and would value faster DNA + RNA diagnosis?"
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 10–14, 2026 · Seattle, WA",
+    "note": "Molecular diagnostics — PhiTech's buyers. Not a Taconic show; useful for Mazi's referrals, not for Mazi.",
+    "best": false
+   },
+   {
+    "name": "Taconic \"on Tap\" mixers",
+    "when_where": "Bay Area and San Diego (South San Francisco, May 7, 2026; San Diego, Jun 26, 2025)",
+    "note": "Informal biotech evenings Taconic hosts; watch for the next date if Özge is in California.",
+    "best": true
+   }
+  ],
+  "attention": [
+   {
+    "title": "Weak fit — keep it light.",
+    "text": "Taconic sells animal models; PhiTech sells clinical multi-omics diagnostics. Mazi is an advisor, not a buyer, and said no needs. Aim for advice and introductions, not a pilot."
+   },
+   {
+    "title": "Which company is he at?",
+    "text": "His email is @thornhill.bio and a public LinkedIn result says **Thornhill Therapeutics**, but no web page confirms it. Check his LinkedIn **Experience** section for his current title and company before the call."
+   },
+   {
+    "title": "Fix the Streak box.",
+    "text": "The box is named Taconic but Mazi is only its SAB chair. Add his title and current company, and set **Fit**, **Interest** and **Category** (all empty)."
+   },
+   {
+    "title": "Streak thread is mixed.",
+    "text": "The one email thread on this box holds 16 emails to **10 different prospects** (MSKCC, TGen, Myriad, Novogene, Bausch, AEL and others). Only 2 went to Mazi. Unlink the thread or file each email on the right box."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Check his follower count, recent posts and groups — not readable from the public web."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, email thread metadata, stage history)"
+   },
+   {
+    "used": true,
+    "text": "taconic.com — Scientific Advisory Board (Mazi Saberi bio), Executive Management Team, events (ASGCT 2026, Taconic on Tap)"
+   },
+   {
+    "used": true,
+    "text": "Business Wire — Taconic acquires TransCure bioServices (Jan 20, 2026); Taconic–Cyagen partnership (Aug 4, 2025)"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia — Taconic Biosciences (history, ownership, 2023 revenue, sites)"
+   },
+   {
+    "used": true,
+    "text": "University of Chicago myCHOICE — Mazi Saberi as Taconic VP of Innovation (earlier role)"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio; 212.vc portfolio page; Webrazzi (Apr 8, 2026); Gebze Technical University — Tunahan Çakır CV"
+   },
+   {
+    "used": true,
+    "text": "The Pathologist — AMP 2026 dates"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn (Mazi's profile) and X (@Mazi_Health) — not readable from the public web; thornhill.bio could not be opened"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Mazi Saberi",
+     "audience": "To be confirmed",
+     "recency": "Not readable",
+     "read": "Unaudited"
+    },
+    {
+     "channel": "X — @Mazi_Health",
+     "audience": "To be confirmed",
+     "recency": "Not readable",
+     "read": "Exists"
+    },
+    {
+     "channel": "Events — Taconic",
+     "audience": "Not counted",
+     "recency": "ASGCT booth May 2026; South SF mixer May 7, 2026",
+     "read": "Strong, recurring"
+    },
+    {
+     "channel": "Press — Taconic",
+     "audience": "Business Wire",
+     "recency": "Jan 2026 (TransCure)",
+     "read": "Regular, deal-led"
+    }
+   ],
+   "note": "Taconic invests in face-to-face events and webinars. Mazi's own voice is not visible publicly — expect a low-key, private conversation."
+  },
+  "network": {
+   "summary": "No shared connection between Mazi and Saliha or Tunahan was found. The bridge is **Tunahan's own LinkedIn exchange** with him in June 2026.",
+   "items": [
+    "**Direct thread:** reuse Tunahan's LinkedIn conversation rather than another cold email — Özge's two emails got no reply.",
+    "**Taconic people to know:** CEO Mike Garrett; Sebastien Tabruyn (President, TransCure and Head of Innovation) — the likely owner of in vivo study services.",
+    "Your exact number of shared connections with Mazi is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/maziyar-saberi",
+    "label": "See your mutual connections with Mazi on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Jan 20, 2026",
+    "where": "Taconic press release",
+    "text": "Taconic acquires **TransCure bioServices** — \"a fully integrated translational research engine\" (Mike Garrett).",
+    "use": "Ask how the combined company handles the omics data from its in vivo studies."
+   },
+   {
+    "when": "Aug 4, 2025",
+    "where": "Taconic press release",
+    "text": "Exclusive distribution of **Cyagen's 16,000+ mouse models** in North America and Europe.",
+    "use": "Shows Taconic grows through partnerships — a door for a data partner."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ASGCT 2026",
+    "when": "May 11–15, 2026, Boston",
+    "role": "Exhibitor (Taconic, booth #1718)",
+    "note": "Gene and cell therapy — company presence, not confirmed for Mazi."
+   },
+   {
+    "name": "Taconic on Tap — South San Francisco",
+    "when": "May 7, 2026",
+    "role": "Host (Taconic)",
+    "note": "Bay Area biotech mixer."
+   }
+  ],
+  "hooks": [
+   "Congratulate Taconic on the **TransCure** acquisition (Jan 2026).",
+   "His **NGM → Second Genome → Applied Molecular Transport → January AI** path: ask what he learned moving from drugs to digital metabolic health.",
+   "**Systems biology** common ground with Tunahan — metabolic networks and host–microbe biology.",
+   "Ask what **Thornhill** is working on now."
+  ]
+ },
+ "send": false
+}

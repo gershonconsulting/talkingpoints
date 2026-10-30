@@ -1,0 +1,284 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJXYyc7fCAw",
+ "company": "Golden Valley Memorial Healthcare",
+ "lead_name": "Shawn Walters",
+ "lead_role": "Director of Laboratory Services",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Golden Valley Memorial Healthcare (Golden Valley Memorial Hospital District)",
+   "person": "Shawn Walters",
+   "role": "Director of Laboratory Services",
+   "location": "Clinton, MO (west-central Missouri, between Kansas City and Springfield)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Replied — asked for a white paper",
+     "tone": "brand"
+    },
+    {
+     "label": "Fit: weak as a direct buyer",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "He asked for something:",
+    "text": "on LinkedIn Shawn told Tunahan the product is \"very interesting\" and asked for a **white paper or publication** at **shawn.walters@gvmh.org**. Tunahan promised to email it and then offer a demo. Streak shows **no email sent** in the 7 days since."
+   },
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Nicolette J; LinkedIn exchange logged as a meeting note the same day. Box still in Lead.",
+   "linkedin_url": "https://www.linkedin.com/in/shawn-walters"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Independent nonprofit community hospital run as a **Missouri hospital district** (an arm of local government); 56 beds, the only hospital for three rural counties"
+   },
+   {
+    "label": "Size",
+    "value": "More than **1,000 employees**, region's largest employer (AHA, 2023); FY2023 operating revenue **US$154.3M**"
+   },
+   {
+    "label": "Lab today",
+    "value": "CAP-accredited hospital lab plus 4 clinic labs; PCR for respiratory illness; on-site pathologists; send-outs via **Quest**, pathology partner **MAWD Pathology**. **No in-house sequencing** described."
+   },
+   {
+    "label": "Clinical lines that touch PhiTech",
+    "value": "Cancer care (medical oncology, chemotherapy, radiation oncology), **maternal-fetal medicine**, pediatrics, ~350 births a year"
+   },
+   {
+    "label": "Contact",
+    "value": "shawn.walters@gvmh.org (work email he gave himself)"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "G&M needs **DNA/RNA sequencing data**; GVMH does not generate it in-house. Value is indirect — via its oncologists, MFM and reference/pathology partners.",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Shawn replied to Tunahan by name and the thread is his; Tunahan's work is algorithms for diagnostic decision-making — exactly Shawn's question."
+   },
+   "items": [
+    "**Existing conversation:** Shawn answered **Tunahan** on LinkedIn (logged Oct 23, 2026) and asked for a publication. That is the only confirmed link.",
+    "**Chemistry roots:** Shawn holds a **BS in Chemistry** (University of Nebraska Omaha); Saliha and Tunahan both earned their PhDs in **Chemical Engineering** at Boğaziçi University.",
+    "**Diagnosis is the job:** GVMH says its lab supports about **70% of medical decisions**; Tunahan's stated focus at PhiTech is \"extracting information critical for diagnostic decision making\".",
+    "**Cancer:** Shawn is a trained **cytotechnologist** (UNMC certificate) and GVMH runs a cancer center; Tunahan's research covers cancer omics and PhiTech's 2026 round funds cancer R&D.",
+    "No shared school, employer, country or conference found on the public web. Shawn trained and worked in Nebraska (CHI Health, Omaha); Saliha and Tunahan are in Türkiye (Gebze Technical University) and Tunahan's postdoc was in the Netherlands."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Answer his exact question",
+    "text": "He asked how the AI \"stands out and adds value to the patient's experience\" and for a **publication**. Lead with the patient story: rare-disease patients wait years for a diagnosis, and DNA-only tests solve **under 40%** of cases (PhiTech's 2026 funding coverage). G&M reads **DNA and RNA together** to shorten that wait. Attach the founders' peer-reviewed work, and say plainly what is and is not yet validated."
+   },
+   {
+    "title": "Close to home, not in-house",
+    "text": "GVMH does not sequence; it sends tests out. Pitch G&M as decision support that helps **GVMH's oncologists and maternal-fetal medicine team** get a clearer answer from sequencing ordered through reference labs — so patients stay in Clinton instead of being referred to Kansas City."
+   },
+   {
+    "title": "Ask for the door, not the deal",
+    "text": "Shawn is a 20-year lab leader and a former **market director for a multi-hospital lab service line** (CHI Health Midwest). Ask him which reference lab or pathology group (Quest, MAWD Pathology) and which network (the new **Show-Me High Value Network** of 24 independent Missouri hospitals) would be the right home for this."
+   }
+  ],
+  "person": {
+   "name": "Shawn Walters",
+   "text": "Laboratory Director at Golden Valley Memorial Healthcare since September 2022, overseeing the lab's operations and compliance with policies and standards. Previously **Market Director, Laboratory Service Line, CHI Health, Midwest Region** (Omaha, NE). More than 20 years of laboratory experience. BS in Chemistry (University of Nebraska Omaha), BS in Biological Science (Peru State College), Cytotechnology certificate (University of Nebraska Medical Center), and **ASCP certification in Laboratory Management**."
+  },
+  "company": {
+   "text": "Golden Valley Memorial Healthcare (Clinton, MO) has served west-central Missouri for more than 50 years. It is a 56-bed hospital — the only one for three rural counties across an 80-mile radius — with a 24/7 emergency department, four multispecialty clinics, a cancer center (medical and radiation oncology, chemotherapy, infusion, mobile mammography), a birthing center and maternal-fetal medicine, ambulance service and a 340B-funded diabetes program. CEO is **Craig Thompson**. CMS rated it 5 stars (per AHA, 2023) and Becker's named it a Great Community Hospital in 2025. Recent moves: **da Vinci 5** robotic surgery (Jan 2026), a **~US$4M HRSA rural maternal-health grant** as hub of a six-county program (Sep 2026), joining the **Show-Me High Value Network** with 23 other independent Missouri hospitals (Sep 2026), a family medicine residency build-out, and a **specialty pharmacy** opened Oct 19, 2026."
+  },
+  "financials": {
+   "country": "US, public hospital district (no IRS 990)",
+   "text": "**FY ended Mar 31, 2023 (audited, Missouri State Auditor filing):** total operating revenue **US$154.3M**; net patient service revenue US$139.8M; operating income **US$8.8M**; net position US$132.3M; cash US$14.6M. **Federal awards spent:** US$9.66M in the 2024 audit year (Federal Audit Clearinghouse; auditor Forvis Mazars), mainly Provider Relief, disaster and USDA rural programs. **Payer mix (2023):** ~60% Medicare, ~20% Medicaid, ~20% commercial — margins depend on 340B savings. The separate **GVMH Foundation** (501(c)(3)) had US$0.79M revenue and US$3.8M net assets (FY Mar 2025). Read: profitable for a rural hospital but grant- and Medicare-dependent; new spend is easier when tied to a grant or measurable savings."
+  },
+  "history": {
+   "text": "LinkedIn, logged **Oct 23, 2026** by Nicolette J. Shawn to Tunahan: \"Very interesting product you're bringing to the market. I'd like to learn how your product (enhanced with AI) stands out and adds value to the patient's experience. Do you have a white paper or publication I could review?\" — and gave his work email. Tunahan: will share information by email, then a brief call and **demo**. The box is still in *Lead*; **no emails** in Streak."
+  },
+  "industry": [
+   {
+    "title": "Rural money is moving",
+    "text": "Missouri won **US$216.3M** in year one of the federal Rural Health Transformation Program (Dec 2025). Its plan funds a statewide **data \"digital backbone\"**, regional networks and service grants for **obstetrics and oncology** — two GVMH lines."
+   },
+   {
+    "title": "Independent hospitals team up",
+    "text": "GVMH joined 23 other independent Missouri hospitals in the **Show-Me High Value Network** (Sep 2026) for quality, care coordination and value-based care. Shared services across members are the realistic route for niche tools."
+   },
+   {
+    "title": "Beyond DNA-only testing",
+    "text": "Rare disease affects ~400 million people worldwide and diagnosis often takes years; PhiTech's case is that adding RNA to DNA analysis lifts the share of cases solved. For a rural hospital this means fewer referrals out and shorter diagnostic odysseys."
+   }
+  ],
+  "talking_points": [
+   "When a GVMH oncologist or your maternal-fetal medicine team needs a genetic answer today, where does the test go and who interprets it?",
+   "How often do rare or unexplained cases get referred to larger centers for a diagnosis — and what does that cost patients in time and travel?",
+   "What evidence would you need to see before recommending an AI decision-support tool to your medical staff — peer-reviewed papers, US validation, a reference-lab partner?",
+   "Would MAWD Pathology or Quest be the right partner to run G&M on sequencing data for GVMH patients?",
+   "Is genomics part of what the Show-Me High Value Network or Missouri's rural transformation plan might fund for oncology or obstetrics?",
+   "Who besides you would sit in on a demo — pathology, oncology, MFM, IT?"
+  ],
+  "attention": [
+   {
+    "title": "Send the email now.",
+    "text": "Shawn asked for a white paper on Oct 23 and Tunahan promised one; nothing is logged in 7 days. Send from **Tunahan**, referencing the LinkedIn chat, with publications attached and two demo times."
+   },
+   {
+    "title": "Weak fit — be honest.",
+    "text": "GVMH is a 56-bed rural hospital lab doing routine and PCR testing with send-outs to Quest; it does not sequence. Treat Shawn as a **door-opener and adviser** (oncology, MFM, reference lab, the 24-hospital network), not as a near-term buyer."
+   },
+   {
+    "title": "Have the evidence ready.",
+    "text": "No public peer-reviewed validation of G&M or US clinical-use status was found. Before the demo, decide what PhiTech can show: the founders' publications, Turkish case results, and a clear statement of US regulatory/CLIA status."
+   },
+   {
+    "title": "Fix the Streak box.",
+    "text": "Contact name is \"Shawn W\" — change to **Shawn Walters**. Move the stage from *Lead* to *Contacted* (he replied). Industry, Category, Fit, Interest and Next Steps are empty; Source shows only a raw code (9002); the Thread field holds his LinkedIn URL."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "His profile could not be read from the web. Check current title, posts, groups, events and mutual connections with Saliha and Tunahan."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, LinkedIn exchange logged as meeting note, Oct 23, 2026)"
+   },
+   {
+    "used": true,
+    "text": "gvmh.org — Laboratory Director announcement (Sep 2022), Laboratories page, services, newsroom (Sep–Oct 2026: HRSA maternal grant, Show-Me High Value Network, cancer campaign, specialty pharmacy)"
+   },
+   {
+    "used": true,
+    "text": "AHA 340B case study (Jul 2023) — beds, employees, service area, payer mix, CEO"
+   },
+   {
+    "used": true,
+    "text": "Business Wire — da Vinci 5 (Jan 2026); Becker's Great Community Hospitals 2025"
+   },
+   {
+    "used": true,
+    "text": "Missouri State Auditor — GVMH District audited financial statements FY2023; Federal Audit Clearinghouse (2022–2024); GuideStar and ProPublica (district and foundation)"
+   },
+   {
+    "used": true,
+    "text": "Missouri Independent (Dec 30, 2025) — Rural Health Transformation award; MHA convention page"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, 212.vc, Webrazzi (Mar 2024, Apr 2026), Lucidity Insights (Apr 2026), GTU news — PhiTech offer, founders, funding, offices"
+   },
+   {
+    "used": true,
+    "text": "Gebze Technical University — Tunahan Çakır CV; Boğaziçi University archive — Saliha Durmuş Tekir PhD thesis (2013)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Shawn Walters profile and GVMH company page (not readable from the web)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "A busy community-hospital newsroom — **10 posts in 6 weeks** — but Shawn himself has no visible public presence.",
+   "detail": "GVMH publishes news almost weekly (Sep 2–Oct 13, 2026), uses Business Wire for big announcements, runs themed campaigns (\"Live Gold. Fight Bold.\") and links Facebook, Instagram, LinkedIn and YouTube. Follower counts could not be verified. No posts, talks or publications by Shawn were found.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn and Facebook counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Shawn Walters",
+     "audience": "To be confirmed",
+     "recency": "Replied to Tunahan ~Oct 23, 2026",
+     "read": "Responsive in DMs; public activity unknown"
+    },
+    {
+     "channel": "gvmh.org newsroom",
+     "audience": "Not counted",
+     "recency": "10 posts Sep 2–Oct 13, 2026",
+     "read": "Active, community-focused",
+     "tone": "good"
+    },
+    {
+     "channel": "Facebook · Instagram · LinkedIn · YouTube — GVMH",
+     "audience": "To be confirmed",
+     "recency": "Linked from gvmh.org",
+     "read": "Full set of channels"
+    },
+    {
+     "channel": "Business Wire — GVMH",
+     "audience": "Not counted",
+     "recency": "da Vinci 5 release, Jan 2026",
+     "read": "Used for milestones"
+    }
+   ],
+   "note": "GVMH likes to announce \"care close to home\" firsts. A future rare-disease or oncology pilot would fit that story — but only once there is something to announce."
+  },
+  "network": {
+   "summary": "No direct link between Saliha or Tunahan and Shawn was found. The live bridge is **Tunahan's LinkedIn thread**.",
+   "items": [
+    "**Tunahan** already has a conversation with Shawn — keep follow-ups in his name.",
+    "**GVMH people to know:** CEO **Craig Thompson**; **Kyle Adkins**, COO when Shawn was hired (2022); Lea Studer, Executive Director of Marketing and Strategy.",
+    "**Partners around the lab:** Quest Diagnostics (send-outs) and MAWD Pathology (pathology partner) — likely the real users of sequencing-based decision support.",
+    "Your exact number of shared connections with Shawn is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/shawn-walters",
+    "label": "See your mutual connections with Shawn on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 13, 2026",
+    "where": "gvmh.org newsroom",
+    "text": "GVMH to open a **Specialty Pharmacy** on Oct 19, 2026 to bring specialty medications closer to home and cut costs for its employee health plan.",
+    "use": "Shows appetite for specialty services in-house — ask whether oncology genomics is on the same path."
+   },
+   {
+    "when": "Sep 29, 2026",
+    "where": "gvmh.org newsroom",
+    "text": "\"**Live Gold. Fight Bold.**\" — a month-long October cancer awareness, screening and support campaign.",
+    "use": "Open on cancer care: how do GVMH oncologists get genomic answers today?"
+   },
+   {
+    "when": "Sep 9, 2026",
+    "where": "gvmh.org newsroom",
+    "text": "Joined the **Show-Me High Value Network** with 23 other independent Missouri hospitals.",
+    "use": "Ask whether the network could evaluate shared diagnostic tools."
+   },
+   {
+    "when": "Sep 2, 2026",
+    "where": "gvmh.org newsroom",
+    "text": "Awarded nearly **US$4M from HRSA (RMOMS)** to launch the CRADLE maternal and obstetrics program across six counties, serving 1,400+ rural mothers and families.",
+    "use": "Maternal-fetal medicine and newborns are where rare genetic disease shows up first."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Reply to his exact words: \"how your product (enhanced with AI) stands out and adds value to the patient's experience.\"",
+   "Congratulate GVMH on the **~US$4M HRSA maternal-health grant** (Sep 2026).",
+   "Ask about the **Specialty Pharmacy** that opened Oct 19 — a sign GVMH is building specialty care at home.",
+   "His career spans a **multi-hospital lab service line** (CHI Health Midwest) — ask how regional labs share esoteric testing.",
+   "**Chemistry** in common: his BS in Chemistry, Saliha's and Tunahan's PhDs in Chemical Engineering."
+  ],
+  "events": [
+   {
+    "name": "MHA Annual Convention (Missouri Hospital Association)",
+    "when_where": "Nov 4–6, 2026 · Sheraton Kansas City Hotel at Crown Center",
+    "note": "Missouri hospital leaders in Kansas City, GVMH's nearest metro; education-partner options only, no exhibit hall listed.",
+    "best": true
+   },
+   {
+    "name": "ADLM 2027 Annual Meeting & Clinical Lab Expo",
+    "when_where": "Jul 25–29, 2027 · McCormick Convention Center, Chicago, IL",
+    "note": "The main US lab-medicine show — lab directors like Shawn and reference labs in one hall."
+   }
+  ]
+ },
+ "send": false
+}

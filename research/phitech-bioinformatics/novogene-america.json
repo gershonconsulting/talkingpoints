@@ -1,0 +1,252 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOXhzoPoCgw",
+ "company": "Novogene America (Novogene Corporation Inc.)",
+ "lead_name": "Noel Chen",
+ "lead_role": "VP of Business Development",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Novogene America — US arm of Novogene Co., Ltd. (Beijing; Shanghai STAR Market 688315)",
+   "person": "Noel Chen",
+   "role": "VP of Business Development",
+   "location": "US lab: UC Davis campus, Sacramento area, CA",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Asked for info by email",
+     "tone": "good"
+    },
+    {
+     "label": "Partner or channel"
+    }
+   ],
+   "alert": {
+    "title": "He asked for info — and has not answered yet:",
+    "text": "On LinkedIn Noel told Tunahan \"**You can send me some info**\" and gave **noel.chen@novogeneusa.com**. Özge sent two emails (Aug 13 and Sep 11, 2026); Streak shows **no reply** from Noel. Last touch was seven weeks ago."
+   },
+   "source_line": "Lead added to Streak on Jul 9, 2026 by Aina R; moved Lead → Contacted on Aug 14, 2026 by Özge G (PhiTech).",
+   "linkedin_url": "https://www.linkedin.com/in/noel-chen-8b4474b1"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global sequencing and multi-omics service provider, founded 2011 in Beijing by Dr. Ruiqiang Li; listed on the STAR Market since Apr 13, 2021"
+   },
+   {
+    "label": "Size",
+    "value": "2,227 employees; 2025 revenue **RMB 2.21B** (+4.7%), almost half from outside mainland China"
+   },
+   {
+    "label": "US presence",
+    "value": "Sequencing center on the **UC Davis** campus (opened 2016); Illumina describes it as a sequencing center and CLIA-certified clinical lab"
+   },
+   {
+    "label": "Rare disease",
+    "value": "Research services for rare and complex diseases: variant discovery, transcriptome and pathway analysis, multi-omics integration, bioinformatics — labelled **Research Use Only**"
+   },
+   {
+    "label": "Contact",
+    "value": "noel.chen@novogeneusa.com (given by Noel on LinkedIn)"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Medium — as a partner, not a buyer.** Novogene produces the WES/WGS and RNA-seq data that G&M interprets; but it also sells its own bioinformatics."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan opened the conversation, Noel replied to him, and Tunahan's science (omics data on networks) is exactly what Novogene's clients buy sequencing for."
+   },
+   "items": [
+    "**Existing thread:** Noel replied to Tunahan on LinkedIn and asked for information by email.",
+    "**Same data, two halves:** Novogene sells WES, human WGS and mRNA sequencing; PhiTech's G&M analyses **DNA and RNA sequencing data together** to raise rare-disease diagnostic yield.",
+    "**Same model:** both are companies headquartered outside the US (Beijing; Gebze, Türkiye) selling into the US through a local office.",
+    "No shared employer, school or city found between Noel and Saliha or Tunahan — Noel's background is not on the open web."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Sequencing in, diagnosis out",
+    "text": "Novogene's rare-disease customers get raw DNA and RNA data. G&M turns **WES/WGS + RNA-seq** into prioritised genes and a diagnosis. Pitch a **referral or bundled offer**: Novogene sequences, PhiTech interprets."
+   },
+   {
+    "title": "Sell RNA-seq alongside every exome",
+    "text": "PhiTech's case is that DNA-only testing diagnoses **fewer than 40%** of rare-disease cases. If G&M makes RNA-seq useful for diagnosis, every exome customer becomes an RNA-seq customer too — more sequencing revenue for Novogene."
+   },
+   {
+    "title": "A partner for biopharma projects",
+    "text": "PhiTech offers G&M to biopharma and CROs for **biomarker identification and patient stratification**. Novogene's US pharma and academic clients are a ready channel."
+   }
+  ],
+  "person": {
+   "name": "Noel Chen",
+   "text": "Listed as **VP of Business Development** at Novogene on The Org and in Streak. His career history, education and location are not available on the open web."
+  },
+  "company": {
+   "text": "Novogene was founded in Beijing in 2011 by Dr. Ruiqiang Li and listed on the Shanghai STAR Market on April 13, 2021. It runs local labs in the US, UK and Singapore plus subsidiaries in Hong Kong, the Netherlands, Japan and elsewhere, and works with researchers in 70 countries and regions. Its US sequencing center sits on the **UC Davis** campus (announced April 2016). Services cover whole-genome, exome and transcriptome sequencing, single-cell and spatial omics, epigenomics, proteomics and metabolomics, with bioinformatics. Its rare and complex disease offer covers variant discovery, transcriptome and pathway analysis and multi-omics integration, for research use only."
+  },
+  "financials": {
+   "country": "China — listed on the Shanghai STAR Market (688315)",
+   "text": "**2025 revenue:** RMB 2.21B (+4.66%); net profit to shareholders RMB 167M (−15.2%). **Mainland China:** RMB 1.113B; **Hong Kong, Macau, Taiwan and overseas:** RMB 1.090B — overseas is now about half of sales, at similar gross margin (~42.7%). **Q1 2026:** revenue RMB 556M (+10.8%); net profit RMB 29.5M (−13.1%). Last reported period (to Jun 30, 2026): revenue about RMB 2.3B, net income RMB 151M; market cap about RMB 7.2B. Q3 2026 results were due Oct 29, 2026."
+  },
+  "history": {
+   "text": "Box created on **Jul 9, 2026** by Aina R. Her comment logs the LinkedIn exchange: Tunahan asked whether Noel wanted a call or information by email; Noel answered \"You can send me some info :)\" and gave **noel.chen@novogeneUSA.com**. Özge Güney (PhiTech) moved the box to *Contacted* on Aug 14 and emailed Noel on **Aug 13** and **Sep 11, 2026**. **No reply from Noel** is logged. The email text could not be read in Streak."
+  },
+  "industry": [
+   {
+    "title": "RNA joins DNA in rare disease",
+    "text": "Diagnostic yield from DNA-only testing stays below half of rare-disease cases (PhiTech cites under 40%); adding transcriptomics is the main route to close the gap — the reason G&M exists."
+   },
+   {
+    "title": "Service labs move up the value chain",
+    "text": "Sequencing is a price-driven business; Novogene's 2025 profit fell 15% on 4.7% revenue growth. Interpretation and multi-omics analysis are where providers look for margin."
+   },
+   {
+    "title": "BIOSECURE Act",
+    "text": "The revised BIOSECURE Act became US law on Dec 18, 2025 (FY26 NDAA). OMB must publish its list of biotechnology companies of concern by December 2026. The enacted law names no companies, and **Novogene is not named** in the analyses reviewed — but Chinese-owned sequencing providers will be watching the list."
+   }
+  ],
+  "talking_points": [
+   "You asked for information in July — did Özge's emails reach you, and what would be most useful to see?",
+   "When your rare-disease clients get exome or genome data back, who does the interpretation today — their own team, Novogene's bioinformatics, or a third party?",
+   "How many of those clients also order RNA-seq? Would a tool that makes RNA-seq useful for diagnosis help you sell it?",
+   "Would a referral or co-branded offer work — Novogene sequencing, PhiTech G&M interpretation — for US academic and biopharma clients?",
+   "Does a partnership like this get decided in the US, or by Novogene's headquarters in Beijing?",
+   "Are you at AMP in Seattle (Nov 11–14) or ACMG in Minneapolis next April?"
+  ],
+  "attention": [
+   {
+    "title": "Follow up — he asked for this.",
+    "text": "Noel asked for information; two emails went unanswered. Try a short note from **Tunahan in the same LinkedIn thread**, pointing to the email, with one concrete partnership idea."
+   },
+   {
+    "title": "Clinical versus research use.",
+    "text": "G&M is a clinical decision support tool; Novogene's rare-disease services are labelled **Research Use Only**, though Illumina mentions a CLIA lab at UC Davis. Check which side of Novogene US can resell or refer a diagnostic tool."
+   },
+   {
+    "title": "Novogene also sells bioinformatics.",
+    "text": "Novogene offers its own analysis with sequencing, so PhiTech may be seen as a competitor. Lead with what Novogene does not offer: **combined DNA + RNA diagnosis with AI gene prioritisation**."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Noel's career, location, recent posts and groups could not be checked. Confirm he is US-based, whether he covers the Americas or global BD, and how long he has been at Novogene."
+   },
+   {
+    "title": "Fix the Streak thread.",
+    "text": "The one email thread on this box also holds emails to nine other prospects (TGen, MSKCC, Myriad, Bausch, Iowa State, others), so open counts (169 views) are **not Noel's**. Split the thread or log Noel's emails on their own. Contact name reads \"Noel C\"."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, stage history, email metadata)"
+   },
+   {
+    "used": true,
+    "text": "The Org — Novogene org chart (Noel Chen, VP of Business Development)"
+   },
+   {
+    "used": true,
+    "text": "Illumina feature — Novogene history, founder, global labs, UC Davis center; Area Development (Apr 14, 2016) — UC Davis site"
+   },
+   {
+    "used": true,
+    "text": "Novogene Europe — rare and complex diseases page (Research Use Only)"
+   },
+   {
+    "used": true,
+    "text": "Jiemian (Apr 2026) — 2025 annual and Q1 2026 results; Simply Wall St — last reported period, employees, market cap"
+   },
+   {
+    "used": true,
+    "text": "Arnold & Porter (Dec 2025) — BIOSECURE Act enacted"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, 212.vc portfolio page, Webrazzi and Lucidity Insights (Apr 2026) — PhiTech offer, founders, funding, under-40% DNA-only yield"
+   },
+   {
+    "used": true,
+    "text": "FASEB (AMP 2026 dates); eMedEvents (ACMG 2027 dates)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — not audited for this brief (no browser access)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "An active global company, an invisible lead: **no public posts or talks by Noel** were found.",
+   "detail": "Novogene runs regional websites, webinars and symposia (for example a Singapore symposium in May 2026) and a US LinkedIn page (novogeneamerica). Noel's own voice does not appear on the open web. One channel works (the company), the person does not.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn counts not checked."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Noel Chen",
+     "audience": "To be confirmed",
+     "recency": "Not checked",
+     "read": "Unknown",
+     "tone": "warn"
+    },
+    {
+     "channel": "LinkedIn — Novogene America",
+     "audience": "To be confirmed",
+     "recency": "Not checked",
+     "read": "US company page exists"
+    },
+    {
+     "channel": "Webinars and symposia — Novogene",
+     "audience": "Not counted",
+     "recency": "Regional symposium May 2026 (Singapore)",
+     "read": "Active, education-led"
+    }
+   ],
+   "note": "Novogene runs scientific webinars; a joint webinar on **DNA + RNA for rare-disease diagnosis** would be a natural first co-marketing step."
+  },
+  "network": {
+   "summary": "No direct link between Noel and Saliha or Tunahan was found beyond **Tunahan's LinkedIn conversation with him** in July 2026.",
+   "items": [
+    "**Tunahan already has a thread with Noel** — the warmest channel for the follow-up.",
+    "Your exact number of shared connections with Noel is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/noel-chen-8b4474b1",
+    "label": "See your mutual connections with Noel on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Remind him he asked for info in July — keep it light: \"You asked for some info, here is the one-page version.\"",
+   "Novogene's overseas sales are now **about half** of revenue (2025) — the US is a growth market for both companies.",
+   "Ask about the **UC Davis** lab and what share of its work is human rare disease.",
+   "PhiTech's April 2026 **US$2.4M** round funds rare-disease market expansion — PhiTech is looking for sequencing partners now."
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 11–14, 2026 · Seattle, WA",
+    "note": "Molecular diagnostics labs — PhiTech's buyers. Ask Noel if Novogene will be there.",
+    "best": true
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "Clinical geneticists and rare-disease labs; a good place for a joint demo."
+   },
+   {
+    "name": "ASHG 2026",
+    "when_where": "Oct 20–24, 2026 · Montréal (just happened)",
+    "note": "Ask whether Novogene exhibited and what rare-disease clients asked for."
+   }
+  ]
+ },
+ "send": false
+}
