@@ -1,0 +1,246 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOX14s-hCQw",
+ "company": "Variantyx",
+ "lead_name": "Wanying (Angela) Zhang",
+ "lead_role": "Laboratory Director",
+ "stage": "Engaged",
+ "data": {
+  "header": {
+   "company": "Variantyx, Inc.",
+   "person": "Wanying (Angela) Zhang",
+   "role": "Laboratory Director (title as recorded in Streak)",
+   "location": "Framingham, MA (Variantyx HQ)",
+   "chips": [
+    {
+     "label": "Engaged"
+    },
+    {
+     "label": "Rare-disease WGS lab",
+     "tone": "good"
+    },
+    {
+     "label": "Call held? Not logged",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Follow-up due:",
+    "text": "Tunahan booked a call with Angela for **Monday Aug 3, 2026 at 3:30 pm EST**. The box moved to *Engaged* on Aug 21, but **no call notes and no emails** are in Streak since. Three months of silence — reopen with a concrete RNA proposal."
+   },
+   "source_line": "Lead added to Streak on Jul 31, 2026 by Aina R; moved Lead → Connected by Özge G (Aug 14) and Connected → Engaged by Nicolette J (Aug 21).",
+   "linkedin_url": "https://www.linkedin.com/in/wanying-angela-zhang-42309349"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "CLIA/CAP rare-disease diagnostics lab in Framingham, MA; flagship **Genomic Unity®** whole-genome test"
+   },
+   {
+    "label": "Technology",
+    "value": "Genomic Unity 2.0 (Sep 2024) combines Illumina short reads with **Oxford Nanopore long reads**; reports repeat expansions, methylation and phasing"
+   },
+   {
+    "label": "Size",
+    "value": "~222 employees (Revelio Labs, Mar 2026); 80% North America, 20% Central/Western Asia"
+   },
+   {
+    "label": "Funding",
+    "value": "Private, VC-backed; **over US$125M raised** to date (Apr 2024)"
+   },
+   {
+    "label": "Contact",
+    "value": "wanyzhang@gmail.com (personal Gmail she gave Tunahan — no Variantyx address on file)",
+    "tone": "warn"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Strong:** Variantyx sells DNA-based tests to rare-disease clinicians; public sources show **no RNA-seq offer** — G&M's RNA layer is the missing piece."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan opened the LinkedIn conversation, Angela replied \"Sounds interesting\", and he booked the Aug 3 call — the thread is his."
+   },
+   "items": [
+    "**Existing relationship:** Angela accepted Tunahan's invite, gave her personal email and agreed to the Aug 3 call.",
+    "**Same problem, two halves:** Variantyx pushes DNA yield higher (short + long reads, repeats, methylation); PhiTech says DNA-only tests diagnose **fewer than 40%** of rare-disease cases and adds RNA evidence (splicing, expression, allele-specific expression) on top.",
+    "**Multi-omics direction:** Genomic Unity 2.0 already reports methylation — an epigenomic layer. Saliha's G&M pipelines add transcriptomics and epigenomics to genomics.",
+    "No shared employer, school, city or co-authorship found between Angela and Saliha or Tunahan — her career is not on the open web."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Unsolved cases after WGS",
+    "text": "Ask how many Genomic Unity cases come back negative or with a VUS. G&M's **RNA-Seq analysis against structured control cohorts** (aberrant splicing, abnormal expression, allele-specific expression) is built to resolve exactly those — PhiTech claims **up to 30% more diagnostic yield**."
+   },
+   {
+    "title": "Add RNA without building it",
+    "text": "Variantyx publicly sells DNA tests only. G&M lets the lab offer a **reflex RNA step** — the same model Variantyx already uses to reflex from Genomic Unity to 2.0 — without developing an RNA pipeline in-house."
+   },
+   {
+    "title": "Pilot on her own data",
+    "text": "Propose a retrospective pilot: a small set of WGS-negative cases with RNA, analysed by G&M, results reviewed with Angela's team. Low risk, measurable yield."
+   }
+  ],
+  "person": {
+   "name": "Wanying (Angela) Zhang",
+   "text": "Recorded in Streak as **Laboratory Director** at Variantyx; she goes by Angela on LinkedIn. Her education and career are not published on the open web. A board-certified molecular genetic pathologist named Wanying Zhang, MD, is listed at Columbia University (New York) — it is **not confirmed** that this is the same person, so do not use it in the call."
+  },
+  "company": {
+   "text": "Variantyx (Framingham, MA) is a CLIA- and CAP-compliant molecular diagnostics lab focused on rare genetic disease. Its **Genomic Unity®** whole-genome test detects multiple variant types from one sample in one report; **Genomic Unity 2.0** (Sep 2024) adds Oxford Nanopore long reads, 44+ repeat expansions, methylation status and phasing (institutional price US$4,400 proband, US$6,400 trio; 10–12 week turnaround). It also runs **IriSight** prenatal CNV analysis and has expanded into oncology. Health systems using its technology include Penn Medicine, Mayo Clinic, Cleveland Clinic, Emory, Mount Sinai and Johns Hopkins. Leadership named in press: Haim Neerman (co-founder, CEO), Christine Stanley, PhD, FACMG (Chief Genomics & Compliance Officer; NY State lists her as lab director), Lucy Kaplun (Director of Advanced Development)."
+  },
+  "financials": {
+   "country": "US, private (VC-backed)",
+   "text": "**Total raised:** over US$125M (Apr 2024). **Rounds:** US$20M (Mar 2021); **US$41.5M Series C** led by New Era Capital Partners; US$20M from Kreos Capital (Oct 2022); **US$36M** from Peregrine Ventures, Pitango HealthTech, New Era and Bosch Ventures (Apr 2024), citing rapid test-volume growth. No revenue published."
+  },
+  "history": {
+   "text": "Box created on **Jul 31, 2026** by Aina R (Gershon), with Tunahan's LinkedIn exchange pasted as a comment: Angela wrote \"Hi Tunahan. Nice to meet you. Sounds interesting\", preferred afternoons (Mon/Thu/Fri), and gave **wanyzhang@gmail.com**. Tunahan sent the invite for **Monday Aug 3 at 3:30 pm EST**. Özge G (PhiTech) moved the box to *Connected* on Aug 14; Nicolette J moved it to *Engaged* on Aug 21. Box note: \"Angela is the main contact\". **No emails, meeting notes or tasks** are in Streak."
+  },
+  "industry": [
+   {
+    "title": "RNA moves into rare-disease diagnosis",
+    "text": "Peer-reviewed work in 2026 describes targeted long-read RNA sequencing for rare-disease diagnosis and variant interpretation — RNA is becoming the standard second step after a negative genome."
+   },
+   {
+    "title": "Long reads are mainstream",
+    "text": "Variantyx claims to be the first to run nanopore sequencing in a CLIA/CAP rare-disease test, chosen over PacBio for cost. Labs are stacking data types to raise yield."
+   }
+  ],
+  "talking_points": [
+   "Since we spoke in August, what has changed on your side — volumes, new tests, priorities?",
+   "What share of Genomic Unity cases come back negative or with a VUS today, and what do you offer those families next?",
+   "Do clinicians ask you for RNA testing? Where do you send it today?",
+   "Would a retrospective pilot — 10–20 WGS-negative cases with RNA, analysed on G&M — be useful to you?",
+   "Who else at Variantyx should see the results — Christine Stanley's genomics team, advanced development?",
+   "Will Variantyx be at AMP in Seattle (Nov 11–14) or ACMG in Minneapolis next April?"
+  ],
+  "attention": [
+   {
+    "title": "Was the Aug 3 call held?",
+    "text": "Nothing is logged after the booking. Ask Tunahan or Özge what was said, then log it in Streak before the next contact."
+   },
+   {
+    "title": "Verify her title on LinkedIn.",
+    "text": "Streak says **Laboratory Director**, but New York State lists **Christine Stanley** as Variantyx's lab director. Check Angela's exact role and how long she has been at Variantyx on her LinkedIn profile."
+   },
+   {
+    "title": "Get a work email.",
+    "text": "Only her personal Gmail is on file. Find her Variantyx address before sending a pilot proposal."
+   },
+   {
+    "title": "Build-vs-buy risk.",
+    "text": "Variantyx started as a genomic-analysis technology company and builds its own pipelines. Position G&M as the **RNA add-on**, not a replacement for its DNA analysis."
+   },
+   {
+    "title": "Streak fields.",
+    "text": "Fit and Source show raw codes (9001, 9002) and the contact name is \"Wanying Z\" — update to **Wanying (Angela) Zhang**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Business Wire (Sep 18, 2024; Nov 30, 2023) — Genomic Unity 2.0, STR expansion, IriSight; leadership"
+   },
+   {
+    "used": true,
+    "text": "360Dx — Genomic Unity 2.0 pricing, nanopore choice, Christine Stanley and Lucy Kaplun quotes"
+   },
+   {
+    "used": true,
+    "text": "Inside Precision Medicine, MobiHealthNews, Business Wire (Oct 2022), Silicon UK (Apr 26, 2024) — funding rounds and health-system users"
+   },
+   {
+    "used": true,
+    "text": "NY State Wadsworth Center — Variantyx lab director listing; Revelio Labs — headcount (Mar 2026)"
+   },
+   {
+    "used": true,
+    "text": "PubMed 41984969 (2026) — targeted long-read RNA sequencing for rare disease"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, 212.vc portfolio page, Webrazzi and Lucidity Insights (Apr 2026), Gebze Technical University (news page; Tunahan Çakır CV) — PhiTech offer, founders, funding, US and Netherlands offices"
+   },
+   {
+    "used": true,
+    "text": "FASEB (AMP 2026 dates); acmgmeeting.net (ACMG 2027 dates)"
+   },
+   {
+    "used": false,
+    "text": "variantyx.com — could not be fetched; LinkedIn — not audited (no browser access)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "A company known in trade press, an invisible lead: **no public posts or talks by Angela** were found.",
+   "detail": "Variantyx built visibility through Business Wire releases and GenomeWeb/360Dx coverage (2021–2024), but no 2025–2026 news surfaced in web searches. Angela has no public footprint beyond her LinkedIn profile. One working channel (company PR), weak elsewhere.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn counts not checked."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Wanying (Angela) Zhang",
+     "audience": "To be confirmed",
+     "recency": "Replied to Tunahan in July 2026",
+     "read": "Reachable, not a public voice"
+    },
+    {
+     "channel": "Press — Variantyx",
+     "audience": "Business Wire, GenomeWeb, 360Dx",
+     "recency": "Latest found: Genomic Unity 2.0, Sep 2024",
+     "read": "Quiet since 2024",
+     "tone": "warn"
+    },
+    {
+     "channel": "LinkedIn — Variantyx",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Check before the call"
+    }
+   ],
+   "note": "Variantyx announces each new test by press release. A successful RNA pilot could become a joint announcement — a strong proof point for PhiTech in the US."
+  },
+  "network": {
+   "summary": "No direct link between Angela and Saliha or Tunahan was found beyond **Tunahan's LinkedIn conversation with her** in July 2026.",
+   "items": [
+    "**Tunahan already has a thread with Angela** — the warmest channel for the follow-up.",
+    "**Variantyx people to know:** Christine Stanley (Chief Genomics & Compliance Officer) and Lucy Kaplun (Director of Advanced Development) own new-test validation.",
+    "Your exact number of shared connections with Angela is on her LinkedIn profile, under her name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/wanying-angela-zhang-42309349",
+    "label": "See your mutual connections with Angela on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Pick up where Tunahan left off: \"You said it sounded interesting in July — here is a concrete pilot.\"",
+   "**Genomic Unity 2.0** went beyond DNA sequence (methylation, phasing) — RNA is the next layer.",
+   "Variantyx already sells a **reflex** from Genomic Unity to 2.0; an RNA reflex fits the same ordering habit.",
+   "Ask about **AMP 2026 in Seattle** (Nov 11–14) — a chance to meet in person."
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 11–14, 2026 · Seattle, WA",
+    "note": "Molecular diagnostics lab directors in one place. Ask Wanying whether Variantyx will attend; propose a meeting there.",
+    "best": true
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "Rare-disease clinical genetics — Variantyx's core market. A natural place to show G&M RNA results to the Variantyx team."
+   }
+  ]
+ },
+ "send": false
+}

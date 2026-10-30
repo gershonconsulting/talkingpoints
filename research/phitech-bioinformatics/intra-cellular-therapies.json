@@ -1,0 +1,234 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOXG__mpCgw",
+ "company": "Intra-Cellular Therapies (a Johnson & Johnson company)",
+ "lead_name": "Jim Sharpe",
+ "lead_role": "National Account Director (market access) — to be confirmed",
+ "stage": "Recycled",
+ "data": {
+  "header": {
+   "company": "Intra-Cellular Therapies — now a business unit of Johnson & Johnson Innovative Medicine",
+   "person": "Jim Sharpe",
+   "role": "National Account Director, market access (per a public profile — confirm on LinkedIn)",
+   "chips": [
+    {
+     "label": "Recycled"
+    },
+    {
+     "label": "Owned by J&J since Apr 2025",
+     "tone": "warn"
+    },
+    {
+     "label": "Weak fit",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Ownership changed:",
+    "text": "Intra-Cellular Therapies is **no longer independent**. Johnson & Johnson closed the **US$14.6B** acquisition on April 2, 2025, and the company now runs as a business unit inside **J&J Innovative Medicine**. Any deal goes through J&J."
+   },
+   "source_line": "Lead added to Streak on Jun 10, 2026 by Aina R; call booked for Jun 10 (9 a.m. CST) via Tunahan's LinkedIn InMail; moved to Recycled on Jun 12, 2026 by Nicolette J.",
+   "linkedin_url": "https://www.linkedin.com/in/jim-sharp-4a45001"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Neuroscience drug maker (Bedminster, NJ) behind **Caplyta** (lumateperone); acquired by J&J for **US$132/share in cash**"
+   },
+   {
+    "label": "Products",
+    "value": "Caplyta: schizophrenia, bipolar I/II depression, and since **Nov 6, 2025** adjunctive major depressive disorder (MDD). Pipeline: ITI-1284 (Phase 2) for anxiety and **Alzheimer's disease-related psychosis and agitation**"
+   },
+   {
+    "label": "Lead's function",
+    "value": "Market access / national accounts — a commercial role, not R&D or diagnostics",
+    "tone": "warn"
+   },
+   {
+    "label": "Contact",
+    "value": "jksharp3@hotmail.com (personal address he gave on LinkedIn, not a J&J email)",
+    "tone": "warn"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/jim-sharp-4a45001"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Weak.** PhiTech sells multi-omics diagnosis for rare diseases and hereditary cancers; Caplyta is a psychiatric drug sold to payers and prescribers.",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan is the one who reached Jim on LinkedIn and booked the June call — and his research is in neuroscience, the therapy area Jim sells into."
+   },
+   "items": [
+    "**Existing thread:** Jim accepted Tunahan's InMail and booked a call with him for June 10, 2026 — the only PhiTech person he has spoken to.",
+    "**Brain diseases:** Tunahan's academic work at Gebze Technical University centres on **Parkinson's and Alzheimer's disease** (brain metabolic network models). Intra-Cellular's pipeline drug ITI-1284 targets **Alzheimer's disease-related psychosis and agitation**.",
+    "No shared employer, school or city found between Jim and Saliha or Tunahan."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Clear up the job question first",
+    "text": "Jim's first reply was: \"Is this concerning a **role selling the platform**?\" Say plainly that PhiTech is introducing its G&M platform, not recruiting — or decide in advance whether a US commercial adviser role is on the table."
+   },
+   {
+    "title": "Ask for the right door at J&J",
+    "text": "Jim works on market access, not on R&D or diagnostics. The realistic ask is a **referral** to the J&J Innovative Medicine teams that use genomic and RNA data for **biomarker discovery and patient stratification** — the biopharma use case PhiTech lists for G&M."
+   },
+   {
+    "title": "Neuroscience as the bridge",
+    "text": "Tunahan's Parkinson's and Alzheimer's research and G&M's combined **DNA + RNA analysis** give a credible scientific opening with a neuroscience business unit — but only if Jim can pass PhiTech to the right scientific contact."
+   }
+  ],
+  "person": {
+   "name": "Jim Sharpe",
+   "text": "A public profile aggregator (Humantic) lists a Jim Sharpe as **National Account Director – SCG at Johnson & Johnson Innovative Medicine**, previously National Account Director (market access and policy, new business development, product launch) at **Intra-Cellular Therapies** from Oct 2019, Director of Market Access and Policy and State Government Affairs at **Indivior**, and Corporate Director of Sales at **Diplomat Specialty Pharmacy**; B.S. from Aquinas College, Grand Rapids, MI. This matches the Intra-Cellular link in Streak, but the profile is not tied to the LinkedIn URL in Streak — confirm on LinkedIn before using it. Streak spells his name \"Sharp\"; the brief request spelled it \"Sharpe\"."
+  },
+  "company": {
+   "text": "Intra-Cellular Therapies (Bedminster, NJ) develops treatments for central nervous system disorders. Its lead product, **Caplyta** (lumateperone), is a once-daily oral drug approved for schizophrenia and for bipolar I or II depression; on **Nov 6, 2025** the FDA added adjunctive treatment of major depressive disorder in adults, Caplyta's fourth US indication. Pipeline asset **ITI-1284** is in Phase 2 for generalized anxiety disorder and Alzheimer's disease-related psychosis and agitation. Johnson & Johnson announced the deal in January 2025 and closed it on **April 2, 2025** (US$132 per share in cash, about US$14.6B); the stock was delisted from Nasdaq and the company now operates as a business unit within **J&J Innovative Medicine**. The old intracellulartherapies.com site now redirects to J&J Innovative Medicine."
+  },
+  "financials": {
+   "country": "US — part of Johnson & Johnson (NYSE: JNJ)",
+   "text": "Intra-Cellular no longer reports on its own. **J&J Q3 2026** (call on Oct 13, 2026): worldwide sales **US$25.4B**, up 6% (US +9.1%). **Caplyta** passed **US$1B in year-to-date sales**, becoming J&J's 29th billion-dollar platform; US Caplyta sales grew **66.1%** in the quarter, driven by the adjunctive MDD launch, which J&J calls the fastest-growing oral branded therapy in that space."
+  },
+  "history": {
+   "text": "Box created on **Jun 10, 2026** by Aina R. Her comment logs the LinkedIn exchange: Jim accepted Tunahan's InMail and asked whether this was \"a role selling the platform\"; Tunahan said he wanted to introduce the platform; Jim agreed to look \"next week\" and gave **Wednesday 6/10, 9 a.m. CST** and **jksharp3@hotmail.com**. Nicolette J moved the box Lead → *Call Scheduled* → **Recycled** on Jun 12, 2026, within five minutes. **No emails, meeting notes or call logs** are in Streak, so the outcome of the June 10 call is not recorded."
+  },
+  "industry": [
+   {
+    "title": "Big pharma buys neuroscience",
+    "text": "J&J paid US$14.6B for Intra-Cellular to strengthen its neuroscience franchise; Caplyta is now growing fast inside J&J after its 2025 MDD approval."
+   },
+   {
+    "title": "Multi-omics for drug development",
+    "text": "PhiTech positions G&M for biopharma and CROs in **biomarker identification and patient stratification** — the entry point into a large pharma group is its R&D and translational teams, not its market-access teams."
+   }
+  ],
+  "talking_points": [
+   "Thanks for taking the call in June — what did you take away from it, and is there anything you wanted to see that we did not show?",
+   "To be clear on your first question: we are introducing PhiTech's G&M platform, not recruiting. Is that still of interest to you?",
+   "Inside J&J Innovative Medicine, who works on genomic or RNA biomarkers for neuroscience programs such as ITI-1284?",
+   "Would you be open to introducing us to that team, or to the right person in J&J's translational or data science groups?",
+   "From your market-access seat: how much do payers ask for genetic or biomarker evidence in psychiatry and neurology today?"
+  ],
+  "attention": [
+   {
+    "title": "Weak fit — decide before spending more time.",
+    "text": "Jim is a market-access account director for a psychiatric drug. PhiTech sells rare-disease and hereditary-cancer diagnosis and biopharma biomarker work. At best he is a **referral source into J&J**, not a buyer."
+   },
+   {
+    "title": "Find out what happened on June 10.",
+    "text": "A call was booked for June 10 and the box went to Recycled two days later with no note. Ask Tunahan or Nicolette what was said before anyone re-contacts Jim."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Confirm his current title (the public profile says National Account Director – SCG at J&J Innovative Medicine), his location, and whether he still works at J&J. Check his recent posts and groups — none were found on the open web."
+   },
+   {
+    "title": "Fix the Streak record.",
+    "text": "Company name should note **J&J ownership**; contact name reads \"Jim S\" and has role \"Partner\"; email is a personal Hotmail address. Fit and Interest fields hold codes (9001, 9003) rather than readable values."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Johnson & Johnson press releases — acquisition closed (Apr 2, 2025); FDA approval of Caplyta for adjunctive MDD (Nov 6, 2025)"
+   },
+   {
+    "used": true,
+    "text": "DCAT Value Chain Insights (Apr 3, 2025) — US$132/share, US$14.6B"
+   },
+   {
+    "used": true,
+    "text": "J&J Q3 2026 earnings call transcript (Oct 13, 2026), via Bullfincher"
+   },
+   {
+    "used": true,
+    "text": "Humantic AI public profile — Jim Sharpe career (not tied to the Streak LinkedIn URL)"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, 212.vc portfolio page, Webrazzi and Lucidity Insights (Apr 2026) — PhiTech offer, founders, funding"
+   },
+   {
+    "used": true,
+    "text": "Gebze Technical University staff page and CV — Tunahan Çakır research (Parkinson's, Alzheimer's)"
+   },
+   {
+    "used": true,
+    "text": "AMCP — future meetings page"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — not audited for this brief (no browser access)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "D",
+   "headline": "No visible public voice: **no posts, talks or articles by Jim** were found on the open web, and Intra-Cellular no longer runs its own channels.",
+   "detail": "Intra-Cellular's website now redirects to J&J Innovative Medicine, so its communication runs through J&J's corporate channels. Jim's own LinkedIn activity could not be checked.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn not audited — the grade may rise if his profile is active."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Jim Sharpe",
+     "audience": "To be confirmed",
+     "recency": "Not checked",
+     "read": "Unknown",
+     "tone": "warn"
+    },
+    {
+     "channel": "Web — intracellulartherapies.com",
+     "audience": "n/a",
+     "recency": "Redirects to J&J Innovative Medicine",
+     "read": "Folded into J&J"
+    }
+   ],
+   "note": "There is no social channel here worth building a campaign on; treat Jim as a one-to-one contact."
+  },
+  "network": {
+   "summary": "No direct link between Jim and Saliha or Tunahan was found beyond **Tunahan's LinkedIn conversation with him** in June 2026.",
+   "items": [
+    "**Tunahan already has a thread with Jim** — any follow-up should come from Tunahan, in that same LinkedIn conversation.",
+    "Your exact number of shared connections with Jim is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/jim-sharp-4a45001",
+    "label": "See your mutual connections with Jim on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Congratulate him on **Caplyta passing US$1B** in 2026 year-to-date sales (J&J Q3 call, Oct 13, 2026).",
+   "Ask how the **adjunctive MDD launch** (approved Nov 6, 2025) has changed his conversations with payers.",
+   "Ask how the move from Intra-Cellular into **J&J Innovative Medicine** has changed his role.",
+   "Link Tunahan's **Alzheimer's and Parkinson's** research to ITI-1284 (Alzheimer's disease-related psychosis and agitation)."
+  ],
+  "events": [
+   {
+    "name": "AMCP 2027 (Academy of Managed Care Pharmacy)",
+    "when_where": "Apr 13–16, 2027 · Moscone West, San Francisco, CA",
+    "note": "Jim's world (market access, payers). Only useful if PhiTech wants payer insight; not a PhiTech sales venue."
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "Better venue for PhiTech's own buyers (geneticists, diagnostic labs); J&J R&D contacts more likely than Jim.",
+    "best": true
+   }
+  ]
+ },
+ "send": false
+}

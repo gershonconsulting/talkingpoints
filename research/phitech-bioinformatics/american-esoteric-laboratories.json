@@ -1,0 +1,244 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOW1y9XmCQw",
+ "company": "American Esoteric Laboratories",
+ "lead_name": "Hassan Balaaoud",
+ "lead_role": "Microbiology and molecular diagnostics",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "American Esoteric Laboratories (AEL) — Mid-South division of Sonic Healthcare USA",
+   "person": "Hassan Balaaoud",
+   "role": "Microbiology and molecular diagnostics (as recorded in Streak; exact title not verified)",
+   "location": "Memphis, TN (AEL HQ and core lab)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: weak",
+     "tone": "warn"
+    },
+    {
+     "label": "No email reply"
+    }
+   ],
+   "alert": {
+    "title": "Fit check:",
+    "text": "Hassan works in **microbiology and molecular (infectious-disease) diagnostics**; G&M serves rare-disease and hereditary-cancer genetics. AEL does run inherited-disorder testing, but buying decisions likely sit with its genetics team or **Sonic Healthcare USA** — use Hassan for a referral, not a sale."
+   },
+   "source_line": "Lead added to Streak on Jul 31, 2026 by Aina R; moved Lead → Contacted by Özge G on Aug 14.",
+   "linkedin_url": "https://www.linkedin.com/in/hassan-balaaoud-b769ab375"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "\"The largest independent regional clinical laboratory in the Mid-South\"; formerly Memphis Pathology Laboratory, 60+ years old"
+   },
+   {
+    "label": "Owner",
+    "value": "**Sonic Healthcare** (ASX: SHL, Australia) since 2007; AEL is its Mid-South division"
+   },
+   {
+    "label": "Footprint",
+    "value": "Labs in Tennessee (Memphis, Knoxville), Mississippi and Arkansas; patient service centers also in Kentucky and the Florida panhandle"
+   },
+   {
+    "label": "Genetics",
+    "value": "Inherited-disorder testing, oncology, pharmacogenetics, reproductive testing (NIPS, prenatal)"
+   },
+   {
+    "label": "Contact",
+    "value": "lob.hassan33@gmail.com (personal) · hassan.balaaoud@ael.com (work, used Sep 11)"
+   },
+   {
+    "label": "PhiTech fit",
+    "value": "**Weak–medium:** routine regional reference lab; Hassan's area is infectious disease, not rare-disease genomics",
+    "tone": "warn"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Saliha Durmus",
+    "reason": "Saliha's PhD and PhiTech's origin are in **pathogen–host interaction** — the closest scientific bridge to Hassan's microbiology work."
+   },
+   "items": [
+    "**Pathogens:** PhiTech grew out of Saliha's PhD on pathogen–host interaction; she and Tunahan co-authored the **PHISTO** pathogen–host interaction search tool (2012).",
+    "**Infectious disease research:** Tunahan's research covers infectious diseases alongside neurodegeneration and cancer.",
+    "**Existing thread:** Hassan agreed on LinkedIn to meet Tunahan (\"sure\") and offered Friday 9–11 am Central.",
+    "No shared employer, school or city found between Hassan and Saliha or Tunahan — Hassan's background is not on the open web."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Ask for the right door",
+    "text": "Thank Hassan for his time, then ask who leads **genetics / inherited-disorder testing** at AEL or Sonic Healthcare USA. A warm internal referral is the realistic win here."
+   },
+   {
+    "title": "RNA where DNA stops",
+    "text": "For AEL's inherited-disorder and oncology work: PhiTech says DNA-only tests diagnose **fewer than 40%** of rare-disease cases; G&M adds RNA evidence and AI gene prioritization, claiming **up to 30% more diagnostic yield**."
+   },
+   {
+    "title": "Speak his language",
+    "text": "Open on Saliha's pathogen–host background — it gives Hassan a reason to stay in the conversation even though G&M is a genetics product."
+   }
+  ],
+  "person": {
+   "name": "Hassan Balaaoud",
+   "text": "Recorded in Streak under \"microbiology and molecular diagnostics\" at AEL; he uses a personal Gmail and an @ael.com address. No public bio, publications or talks were found on the open web. Check his exact title, seniority and education on LinkedIn before the call."
+  },
+  "company": {
+   "text": "American Esoteric Laboratories (Memphis, TN) began as the pathologist-owned Memphis Pathology Laboratory and was acquired by **Sonic Healthcare** in 2007 (reported at US$180M). It is CAP-accredited and CLIA-approved, with a core lab in Memphis, AEL East in Knoxville, and labs in Mississippi and Arkansas. Molecular testing covers bacterial, viral and protozoan pathogens by nucleic-acid amplification; microbiology includes bacteriology, mycobacteriology, mycology, parasitology, virology and MALDI-TOF; genetics covers inherited disorders, oncology, pharmacogenetics and reproductive testing (NIPS, prenatal)."
+  },
+  "financials": {
+   "country": "Owned by Sonic Healthcare (ASX-listed, Australia)",
+   "text": "AEL does not report separately. **Sonic FY2026 (to Jun 2026):** revenue A$10,867M (+13%). **USA:** A$2,048M (19% of group), down 3% statutory and **flat organic** in constant currency (2% underlying), after losing a major Alabama payor contract and restructuring anatomical pathology. Sonic's US **advanced diagnostics division** (Cairo Diagnostics, ThyroSeq and other specialised testing) grew **16% organically** — the part of Sonic USA where a specialised genomics tool is most likely to land."
+  },
+  "history": {
+   "text": "Box created on **Jul 31, 2026** by Aina R, with Tunahan's LinkedIn exchange pasted as a comment: Hassan apologised for a late answer, gave **lob.hassan33@gmail.com**, and accepted a call on **Friday (Jul 31) between 9 and 11 am Central**. Özge G moved the box to *Contacted* on Aug 14. Özge emailed Hassan on **Aug 13**, sent a **calendar invitation on Aug 28**, and emailed again on **Sep 11** to both his Gmail and **hassan.balaaoud@ael.com**. Email contents are not readable in Streak. **Hassan has not replied by email**; the last sent email was opened on Sep 12. Whether the Jul 31 call happened is not logged."
+  },
+  "industry": [
+   {
+    "title": "Regional labs under price pressure",
+    "text": "Sonic's US routine business was flat in FY2026 while specialised testing grew 16% — regional labs are looking to specialty tests for growth."
+   },
+   {
+    "title": "RNA joins rare-disease workups",
+    "text": "Peer-reviewed 2026 work describes targeted long-read RNA sequencing for rare-disease diagnosis — RNA is becoming the next step after a negative DNA test."
+   }
+  ],
+  "talking_points": [
+   "How is the molecular and microbiology side at AEL evolving — any move into sequencing-based testing?",
+   "Does AEL run its inherited-disorder testing in-house, or is it sent to another Sonic lab?",
+   "Who leads genetics at AEL or Sonic Healthcare USA — would you introduce us?",
+   "Does Sonic USA's advanced diagnostics division evaluate new genomics software centrally?",
+   "Is there an infectious-disease or host-response question in your lab where multi-omics analysis would help?"
+  ],
+  "attention": [
+   {
+    "title": "Weak fit — set expectations.",
+    "text": "AEL is a regional routine/reference lab and Hassan works in infectious-disease molecular testing. G&M targets rare-disease and hereditary-cancer genetics. Treat this as a **referral path to Sonic Healthcare USA**, not a near-term deal."
+   },
+   {
+    "title": "Was the Jul 31 call held?",
+    "text": "Nothing is logged. Ask Tunahan and Özge, then log the outcome in Streak; the Aug 28 calendar invitation suggests a rescheduled meeting."
+   },
+   {
+    "title": "Verify on LinkedIn.",
+    "text": "Check Hassan's exact title, seniority, education and how long he has been at AEL; Streak only says \"microbiology and molecular diagnostics\"."
+   },
+   {
+    "title": "Streak thread is mixed.",
+    "text": "The 16-email thread in this box also holds Özge's emails to **nine other prospects** (TGen, MSKCC, Myriad, Novogene, Bausch, etc.), so its view count (169) is not Hassan's. Split the thread and keep only Hassan's emails here."
+   },
+   {
+    "title": "Fix the contact.",
+    "text": "Contact name is \"Hassan B\" with a Gmail address — set **Hassan Balaaoud** and add **hassan.balaaoud@ael.com** as the primary email."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Phitech Bioinformatics - LG pipeline (box, contact, Aina's comment with the LinkedIn exchange, stage history, email metadata)"
+   },
+   {
+    "used": true,
+    "text": "ael.com — About AEL (history, ownership, locations, molecular, genetics and microbiology services)"
+   },
+   {
+    "used": true,
+    "text": "The Dark Report — Sonic pays US$180M for AEL"
+   },
+   {
+    "used": true,
+    "text": "Sonic Healthcare FY2026 results presentation (ASX, Aug 20, 2026) — group and USA revenue, advanced diagnostics growth"
+   },
+   {
+    "used": true,
+    "text": "PubMed 41984969 (2026) — targeted long-read RNA sequencing for rare disease"
+   },
+   {
+    "used": true,
+    "text": "phitech.bio, 212.vc portfolio page, Webrazzi and Lucidity Insights (Apr 2026), Gebze Technical University (news page; Tunahan Çakır CV) — PhiTech offer, founders, funding, US and Netherlands offices"
+   },
+   {
+    "used": true,
+    "text": "GTU open archive — PHISTO (Durmus Tekir, Çakır et al., 2012)"
+   },
+   {
+    "used": true,
+    "text": "FASEB (AMP 2026 dates); acmgmeeting.net (ACMG 2027 dates)"
+   },
+   {
+    "used": false,
+    "text": "ael.com genetics page — could not be fetched; LinkedIn — not audited (no browser access)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared October 30, 2026",
+  "grade": {
+   "letter": "D",
+   "headline": "Almost no public voice: **no posts, talks or news** by Hassan or AEL were found.",
+   "detail": "AEL's presence is a corporate website listing services and locations; no recent AEL news surfaced in web searches, and Sonic Healthcare USA speaks for the group. Hassan has no public footprint beyond a LinkedIn profile. No working channel to engage on.",
+   "context": "Web-audited Oct 30, 2026; LinkedIn counts not checked."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Hassan Balaaoud",
+     "audience": "To be confirmed",
+     "recency": "Replied to Tunahan in July 2026",
+     "read": "Reachable, not a public voice"
+    },
+    {
+     "channel": "Web — ael.com",
+     "audience": "Not counted",
+     "recency": "Static corporate pages",
+     "read": "Weak",
+     "tone": "warn"
+    },
+    {
+     "channel": "LinkedIn — AEL",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Check before the call"
+    }
+   ],
+   "note": "Engagement here will come from a direct referral, not from social media."
+  },
+  "network": {
+   "summary": "No direct link between Hassan and Saliha or Tunahan was found beyond **Tunahan's LinkedIn conversation with him** in July 2026.",
+   "items": [
+    "**Tunahan already has a thread with Hassan** — use it for the follow-up, since three emails from Özge got no reply.",
+    "**Ask for the genetics lead** at AEL or Sonic Healthcare USA — that person, not Hassan, is the real buyer.",
+    "Your exact number of shared connections with Hassan is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/hassan-balaaoud-b769ab375",
+    "label": "See your mutual connections with Hassan on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "He said \"sure\" to Tunahan in July — reopen on LinkedIn, where he answers, rather than email.",
+   "Saliha's **pathogen–host interaction** PhD and the **PHISTO** tool — common ground with microbiology.",
+   "Sonic USA's **specialised testing grew 16%** in FY2026 while routine was flat — specialty genomics is where growth is.",
+   "Ask about **AMP 2026 in Seattle** (Nov 11–14)."
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 11–14, 2026 · Seattle, WA",
+    "note": "Infectious-disease and genetics lab staff both attend. Ask Hassan whether AEL or Sonic Healthcare USA sends people.",
+    "best": true
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "Relevant only if AEL's genetics team (inherited disorders) becomes the target."
+   }
+  ]
+ },
+ "send": false
+}
