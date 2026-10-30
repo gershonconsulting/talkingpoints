@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.5.4';
+  const APP_VERSION = '1.5.5';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -171,6 +171,7 @@
       toast('Draft created');
     } catch (e) {
       btn.disabled = false; btn.textContent = 'Create draft';
+      if (e.body?.error === 'wrong_client') { toast(e.body.detail || 'This lead belongs to another campaign.'); setTimeout(() => location.reload(), 2500); return; }
       toast('Draft could not be created. Try again in a minute.');
     }
   }

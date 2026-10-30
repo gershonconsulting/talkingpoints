@@ -1,5 +1,5 @@
 import { currentUser, json, rowToBrief } from '../../_lib.js';
-import { buildDraft } from '../../_brief.js';
+import { buildDraft, clientForPipeline } from '../../_brief.js';
 import { renderBrief } from '../../_render.js';
 import { getTemplate, applyTemplate } from '../../_template.js';
 
@@ -20,7 +20,17 @@ export async function onRequestPost({ request, env, params }) {
   if (!u) return json({ error: 'signed_out' }, 401);
   const client = await env.DB.prepare('SELECT * FROM clients WHERE id = ?').bind(u.client_id).first();
   try {
-    const brief = await buildDraft(env, client, box);
+    let brief;
+    try {
+      brief = await buildDraft(env, client, box);
+    } catch (e) {
+      if (e.code !== 'wrong_client') throw e;
+      // The lead is not in this campaign's pipeline (e.g. the campaign was switched in another tab).
+      // Never brief it for the wrong client.
+      const owner = await clientForPipeline(env, e.pipelineKey);
+      return json({ error: 'wrong_client', owner: owner ? { id: owner.id, name: owner.name } : null,
+        detail: owner ? `This lead belongs to ${owner.name}. Switch to that campaign and create the draft there.` : 'This lead is not in this campaign\'s pipeline.' }, 409);
+    }
     if (!brief || brief.client_id !== u.client_id) return json({ error: 'not_found' }, 404);
     const tpl = await getTemplate(env, u.client_id);
     return json({ brief: { ...brief, html: renderBrief(applyTemplate(brief.data, tpl)) } });
