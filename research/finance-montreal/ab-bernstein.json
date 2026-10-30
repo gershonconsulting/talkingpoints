@@ -1,0 +1,231 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlei6opgIDA",
+ "company": "AB Bernstein (AllianceBernstein), Netherlands",
+ "lead_name": "Daan Spoelstra",
+ "lead_role": "Managing Director",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "AB Bernstein (AllianceBernstein): employer and business line to be confirmed",
+   "person": "Daan Spoelstra",
+   "role": "Managing Director",
+   "location": "Bussum, North Holland, Netherlands (per Streak); travelling in October",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Wants a call",
+     "tone": "good"
+    },
+    {
+     "label": "Employer to verify",
+     "tone": "warn"
+    },
+    {
+     "label": "Noza to email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is Noza's:",
+    "text": "Daan could not meet in the Netherlands on **Oct 19** (travelling) but offered **a call any other time** and gave **daan_ny@hotmail.com**. **Noza emails him** to set up a virtual meeting. Before writing, **check his LinkedIn**: his current employer and which part of 'AB Bernstein' he works in (AllianceBernstein asset management, Bernstein Private Wealth, or the Bernstein research/brokerage joint venture with Société Générale) are **not verified**."
+   },
+   "source_line": "Lead added to Streak on Oct 19, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/daan-spoelstra-4133462"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**AllianceBernstein** (NYSE: AB), global asset manager: **US$900.4B AUM** after Q3 2026; FY2025 net revenues **US$4.53B**; about **4,470 staff**"
+   },
+   {
+    "label": "Bernstein brand",
+    "value": "Since **April 2024**, Bernstein's **cash equities and research** business is a **joint venture with Société Générale** (750+ staff, HQs New York and London); SocGen aims to own 100% after five years"
+   },
+   {
+    "label": "Lead",
+    "value": "**Managing Director** (per Streak); exact business line, location and background **to be confirmed** on LinkedIn. His email handle (**daan_ny**) hints at a New York link, also to be confirmed"
+   },
+   {
+    "label": "Contact",
+    "value": "daan_ny@hotmail.com (personal) · LinkedIn daan-spoelstra-4133462"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "An **IFC location case**: New York-hours investment, research or operations roles in Montreal at about **half New York cost**, next to **Société Générale** and other firms already there"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve (**VP Direct Investment**) opened the LinkedIn conversation and Daan replied warmly, offering a call. **Noza** takes the meeting and sends the first email."
+   },
+   "items": [
+    "**Société Générale link:** Bernstein's research/brokerage arm is a joint venture with **Société Générale**, which already has a large Montreal presence that Finance Montréal cites as a reference.",
+    "**New York time zone:** if Daan works with New York (the 'ny' in his email), Montreal's same-time-zone pitch lands naturally.",
+    "**No shared employer, school or contact verified** between Steve/Noza and Daan (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Start from his actual role",
+    "text": "Open by asking what he runs today. 'AB Bernstein' covers three different businesses: **AllianceBernstein** (asset management), **Bernstein Private Wealth**, and **Bernstein** research and cash equities (the JV with **Société Générale**). The Montreal pitch depends on which one."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montréal-commissioned 2026 cost study puts a 150-person financial operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**. Quebec's **IFC tax credit** adds **24% of eligible salaries, up to C$18,000 per employee per year** (min. 6 eligible staff)."
+   },
+   {
+    "title": "His peers are already there",
+    "text": "**Société Générale** (Bernstein's JV partner), **BNP Paribas, Crédit Agricole, State Street and Morgan Stanley** already run teams in Montreal, in a **bilingual** market. Ask whether AB or Bernstein has ever looked at Montreal for research support, operations, data or technology roles."
+   }
+  ],
+  "person": {
+   "name": "Daan Spoelstra",
+   "text": "Listed in Streak as **Managing Director** at **AB Bernstein**, located in **Bussum (North Holland), Netherlands**. His LinkedIn profile could not be read and **no press coverage** of him was found, so his **current employer, business line, past roles and education are to be confirmed**. Flag: Streak's company name may be loose or out of date; check his LinkedIn headline before the call. He uses a personal Hotmail address (**daan_ny**), which may indicate time spent in **New York** (to be confirmed). In the LinkedIn exchange he was **friendly and open**: he was travelling on Oct 19 but proposed a call 'any other time'."
+  },
+  "company": {
+   "text": "**AllianceBernstein** is a US-listed global investment manager serving institutions, retail investors and private clients (**Bernstein Private Wealth**, US$156.3B AUM at end 2025). It has Benelux institutional coverage from the Netherlands. In **April 2024** AB and **Société Générale** launched **Bernstein**, a joint venture combining their cash equities and equity research businesses, with head offices in **New York** (North America) and **London** (Europe and Asia), hubs in Paris and Hong Kong, and **750+ employees**; SocGen's stated aim is to own **100% after five years**, subject to approvals. Leadership: **Onur Erzan** (chairman since January 2026) will also become **CEO on April 1, 2027**, succeeding **Seth Bernstein**, who stays on the board. Whether AB or Bernstein has a Canadian or Montreal presence is **to be confirmed**."
+  },
+  "financials": {
+   "country": "USA, listed (NYSE: AB)",
+   "text": "**FY2025:** net revenues **US$4.53B** (+1%), GAAP operating income **US$1.05B** (margin 23.0%), adjusted operating margin **33.7%**; AUM **US$866.9B** at Dec 31, 2025 (+9%); net outflows **US$11.3B** (private wealth +US$2.4B inflows); **4,468 employees**; 2025 distribution **US$3.38/unit**. Bernstein Research Services was **deconsolidated in April 2024** into the Société Générale JV, so its revenue no longer appears in AB's figures. **Q3 2026** (published late Oct 2026): AUM **US$900.4B**, net inflows **US$6.6B**, net revenues **US$1.23B** (+7.8%), adjusted EPU **US$0.88**. Sources: AB 4Q25 release (Feb 5, 2026) and Q3 2026 earnings coverage."
+  },
+  "history": {
+   "text": "LinkedIn (as Steve). Steve invited Daan to meet in the **Netherlands on Oct 19, 2026**. Daan replied he would be **travelling** but could do **a call any other time**. Steve asked for his best email so a colleague could set up a virtual meeting; Daan sent **daan_ny@hotmail.com**. Box created Oct 19 by Juliana R. **Open item:** Noza emails Daan to set a virtual meeting (no email logged in Streak yet, 11 days later)."
+  },
+  "industry": [
+   {
+    "title": "Asset managers watch costs",
+    "text": "AB's adjusted margin story rests on cost control; firms in this space look for cheaper locations for operations, data, research support and technology."
+   },
+   {
+    "title": "Research and brokerage consolidation",
+    "text": "The Bernstein–Société Générale JV shows how banks and asset managers are regrouping research and execution businesses; new set-ups can open location decisions."
+   },
+   {
+    "title": "Montreal's financial depth",
+    "text": "Montreal is **bilingual**, in the **New York time zone**, and hosts **BNP Paribas, Société Générale, Crédit Agricole, State Street and Morgan Stanley**, with strong AI and quant talent."
+   },
+   {
+    "title": "IFC tax credit",
+    "text": "Quebec's IFC credit: **24% of eligible salaries, up to C$18,000 per employee per year**, minimum **6 eligible staff**. Eligibility depends on the activity (e.g. portfolio management, trading support, back office) and is **to be confirmed** case by case."
+   }
+  ],
+  "talking_points": [
+   "What is his role today and which business does he sit in: **AllianceBernstein, Bernstein Private Wealth, or Bernstein research/brokerage (SocGen JV)**?",
+   "Where do his team's **support, research, data and operations** roles sit today (New York, London, Nashville, other hubs)?",
+   "Is **New York cost** a constraint, and does the business need more **New York-hours** capacity?",
+   "Would a short **Montreal vs New York cost and IFC-credit comparison** for a small team be useful to share internally?",
+   "Who at AB or Bernstein owns **location decisions**, and could he introduce Noza?"
+  ],
+  "attention": [
+   {
+    "title": "Verify the employer.",
+    "text": "Streak says 'AB Bernstein', but nothing public confirms his current firm or role. Check his LinkedIn before Noza writes, and adjust the email if he has moved on."
+   },
+   {
+    "title": "Personal email.",
+    "text": "He gave a **personal Hotmail** address: keep the first email short, personal and non-corporate; don't attach heavy decks."
+   },
+   {
+    "title": "Time zone.",
+    "text": "He is often travelling; offer 2–3 slots and a video link. Netherlands is 6 hours ahead of Montreal."
+   },
+   {
+    "title": "IFC eligibility.",
+    "text": "Don't promise the credit for a specific role; say Finance Montréal will check the activity."
+   },
+   {
+    "title": "Leadership change.",
+    "text": "AB's CEO changes on **April 1, 2027** (Onur Erzan succeeds Seth Bernstein): location decisions may wait for the new leadership."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montreal Steve - LG): box, contact and LinkedIn conversation (Oct 19, 2026)"
+   },
+   {
+    "used": true,
+    "text": "AllianceBernstein Holding 4Q25 / FY2025 results release (Feb 5, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Grafa (Oct 27, 2026): AllianceBernstein Q3 2026 earnings"
+   },
+   {
+    "used": true,
+    "text": "Markets Media / Société Générale press release: official launch of Bernstein JV (Apr 2024)"
+   },
+   {
+    "used": true,
+    "text": "MF Milano Finanza (Oct 2026): Onur Erzan to become AB CEO on April 1, 2027"
+   },
+   {
+    "used": true,
+    "text": "finance-montreal.com: IFC credit, 2026 cost study, firms in Montreal (as used in sibling briefs)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile of Daan Spoelstra (not readable; employer and background to be confirmed)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "**AllianceBernstein and Bernstein publish heavily** (research, insights, LinkedIn); **Daan's own activity is not visible** (no public posts found).",
+   "detail": "AB and Bernstein run large LinkedIn pages and research/insight sites. Daan's personal presence could not be checked; follower counts are to be confirmed. The conversation will run on direct email.",
+   "context": "Web-audited Oct 30, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: AllianceBernstein (company page)",
+     "audience": "Very large (to be confirmed)",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "alliancebernstein.com insights / Bernstein research",
+     "audience": "Clients, investors",
+     "recency": "Active",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Daan Spoelstra",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low"
+    }
+   ],
+   "note": "Engage through direct email; a LinkedIn thank-you from Steve after the call is enough."
+  },
+  "network": {
+   "summary": "No shared network between Steve and Daan was verified.",
+   "items": [
+    "Steve's exact number of shared connections with Daan is on Daan's LinkedIn profile.",
+    "Check whether Steve or Noza knows anyone at Société Générale Montreal who works with Bernstein."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/daan-spoelstra-4133462",
+    "label": "See Steve's mutual connections with Daan on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank him for offering a call despite his travel.",
+   "Ask what he runs today and where his team's support work sits.",
+   "Offer a **one-page Montreal vs New York cost and IFC comparison**, and mention **Société Générale** is already in Montreal."
+  ]
+ },
+ "send": false
+}

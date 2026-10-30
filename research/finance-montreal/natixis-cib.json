@@ -1,0 +1,98 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldCttMIKDA",
+ "company": "Natixis Corporate & Investment Banking",
+ "lead_name": "Abbas A. Rangwala",
+ "lead_role": "Managing Director, Head of M&A, Southeast Asia & India",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Natixis Corporate & Investment Banking (Natixis CIB, the CIB arm of Groupe BPCE), Singapore",
+   "person": "Abbas A. Rangwala",
+   "role": "Managing Director, Head of M&A, Southeast Asia & India",
+   "location": "Singapore",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Asked for email", "tone": "good"}, {"label": "Email not yet sent", "tone": "warn"}, {"label": "Already in Montreal", "tone": "good"}],
+   "alert": {"title": "Next step is Noza's:", "text": "Abbas replied to Steve on LinkedIn: **'Yes, please email me at abbas.rangwala@natixis.com'** (box created **Oct 14**). No email has been sent yet. **Noza must email him now** to set a meeting in **Singapore in early November**."},
+   "source_line": "Lead added to Streak on Oct 14, 2026 by Aina R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/abbas-a-rangwala-80aa"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Natixis CIB**, corporate & investment bank of **Groupe BPCE** (France's no. 2 banking group; c. **35M clients**). Natixis CIB **already has offices in Montreal and Toronto** under a Canada country manager"},
+   {"label": "Division size", "value": "CIB FY2025: record revenue **€4.8bn (+10%** at constant FX); H1 2026: revenue **€2,560M (+5%; +7% constant FX)**, income before tax **€883M (+7%)**"},
+   {"label": "Lead", "value": "**Head of M&A, Southeast Asia & India** since **Sep 2023**, based in Singapore; 20+ years in M&A and corporate development (ex-**Bharti Enterprises**, **Citigroup**, **Deutsche Bank**)"},
+   {"label": "Contact", "value": "abbas.rangwala@natixis.com (his requested channel)"},
+   {"label": "Finance Montréal angle", "value": "Two tracks: (1) **grow Natixis's existing Montreal office** under the **IFC credit**; (2) Abbas as a **referral channel** for Southeast Asian and Indian clients considering **North American acquisitions or expansion**"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Noza Mutalova", "reason": "Noza (**Senior Director, International Business Development**) will be **in Singapore in early November** and can meet Abbas in person. Steve (**VP Direct Investment**) opened the LinkedIn conversation and is the sponsor to mention."},
+   "items": [
+    "**French banking in Montreal:** Natixis is French and already runs a **Montreal office**; Finance Montréal cites **BNP Paribas, Société Générale and Crédit Agricole** as French peers established there.",
+    "**Cross-border deals:** Abbas advises clients on cross-border M&A; Finance Montréal helps foreign companies land and expand in Quebec. Both work on **outbound corporate expansion**.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Natixis is already in Montreal: grow it", "text": "Natixis CIB opened a Toronto office in **Oct 2023**, working alongside its **existing Montreal office**, both led by a senior country manager for Canada. Finance Montréal can help **scale the Montreal side** (support, operations, coverage), with Quebec's **IFC tax credit**: **24% of eligible salaries, up to C$18,000 per employee per year** (minimum **6 eligible employees**)."},
+   {"title": "Cost case vs New York", "text": "A Finance Montréal-commissioned **2026 cost study** puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the **same time zone** and with a **bilingual (French/English)** workforce: a natural fit for a French bank with a large Americas platform."},
+   {"title": "Referral partnership for his clients", "text": "As M&A head for **Southeast Asia and India**, Abbas sees clients looking at **North American targets or expansion**. Finance Montréal can offer them a free **landing service in Montreal** (introductions, cost data, incentives): useful value-add for his advisory work, at no cost to him."}
+  ],
+  "person": {"name": "Abbas A. Rangwala", "text": "**Managing Director, Head of M&A, Southeast Asia & India** at Natixis CIB, based in **Singapore**; appointed to this **newly created role in Sep 2023**. Per the appointment release, he reports to the **Head of M&A Asia Pacific** and to the **Head of Real Assets & Investment Banking, Southeast Asia**. **20+ years** in corporate finance, strategy, business development and change management. Before Natixis: **Group Head of M&A and Business Development at Bharti Enterprises** (Indian conglomerate), **Head of M&A at InterGlobe Enterprises**, and senior investment banking roles at **Citigroup** and **Deutsche Bank** in Singapore, Hong Kong and Mumbai. Education: **to be confirmed**. He answered Steve quickly and moved to email: a sign of genuine but formal interest."},
+  "company": {"text": "Natixis CIB is Groupe BPCE's corporate and investment bank, serving **corporates, financial institutions, financial sponsors and sovereign/supranational clients** with advisory/M&A, investment banking, financing, global markets and transaction banking. In **Canada**, Natixis CIB has a **Montreal office** and opened a **Toronto office (181 Bay Street, Brookfield Place) in Oct 2023**; both are led by **Michael Costakos, Senior Country Manager for Canada**, under the **Americas CEO (Olivier Delay at the time)**. Current Canadian headcount: **to be confirmed**. Note: the asset-management side (Natixis Investment Managers) sold its Canadian operations to **Fiera Capital in 2019** and sold its remaining Fiera stake in **2022**; current Natixis IM Canada distribution: **to be confirmed**. In Asia, Natixis keeps building M&A: in **Oct 2026** it agreed to buy Tokyo adviser **Sangyo Sosei Advisory** to enter Japanese M&A advisory (subject to regulatory approval)."},
+  "financials": {"country": "France, Groupe BPCE (cooperative group; Natixis is wholly owned)", "text": "**Groupe BPCE FY2025:** record net income **€4.1bn (+15%)**, net banking income **€25.7bn (+10%)**, CET1 **16.5%**, c. **35M clients**. **Natixis CIB FY2025:** record revenue **€4.8bn (+10%** at constant FX); Global Markets **+15%**; Investment Banking & M&A **+3%**. **Groupe BPCE H1 2026:** net banking income **€13,919M (+10%)**, net income **€2,357M (+30%)**, CET1 **15.5%** (after the **novobanco** acquisition), underlying cost/income **62.9%**. **CIB H1 2026:** revenue **€2,560M (+5%; +7% constant FX)**, income before tax **€883M (+7%)**; Global Markets c. **€1.5bn**, Global Banking c. **€1.1bn**. In Q2 2026, **Americas** platform revenue rose **19%** and Asia-Pacific/Middle East **7%**. 9M 2026 results: **to be confirmed** (not yet published at time of writing)."},
+  "history": {"text": "LinkedIn (as Steve). Abbas replied: **'Yes, please email me at abbas.rangwala@natixis.com'**. Box created **Oct 14, 2026** by Aina R (note: 'Singapore - wants to set up a call'). No email, task or meeting logged in Streak yet. **Open item:** Noza emails Abbas to set a meeting in **Singapore, early November**; it has been more than two weeks since his reply."},
+  "industry": [
+   {"title": "Asian corporates buying abroad", "text": "Indian and Southeast Asian groups keep pursuing cross-border acquisitions; North America is a key destination. Banks like Natixis are adding M&A capacity in Asia (Japan deal, Oct 2026)."},
+   {"title": "European banks growing in the Americas", "text": "Natixis CIB's Americas platform grew revenue **19%** in Q2 2026. Growth there raises the question of where to add support and coverage staff at a sensible cost."},
+   {"title": "Cost and near-shore hubs", "text": "Banks keep moving operations, risk and support roles to lower-cost centres. Montreal offers **New York hours**, French language and the **IFC credit**, at about half the New York cost."}
+  ],
+  "talking_points": [
+   "Congratulate him on Natixis's **Asian M&A push** (e.g., the Japan advisory acquisition) and ask how the Southeast Asia/India franchise is growing.",
+   "Do his **Indian or Southeast Asian clients** look at **North American acquisitions or expansion**? Would a **Montreal landing package** (introductions, cost model, incentives) help him advise them?",
+   "Is he aware of Natixis CIB's **Montreal office**? Who decides on **growing it** (Americas CEO, Canada country manager, COO)? Can he **introduce Finance Montréal** to them?",
+   "Offer an **IFC-credit cost model** for a sample Natixis team in Montreal, and a visit to meet French peers already there (BNP Paribas, Société Générale, Crédit Agricole).",
+   "Propose a simple **referral loop**: Finance Montréal sends him Quebec companies looking at Asia; he flags Asian clients looking at Canada."
+  ],
+  "attention": [
+   {"title": "Email first, now.", "text": "He asked for email on or before Oct 14 and nothing has been sent. Noza should write now, mention Steve's LinkedIn exchange, and propose 2-3 slots in Singapore in early November."},
+   {"title": "Natixis is already in Montreal.", "text": "Do not pitch Montreal as a new market for Natixis. Pitch **expansion** of the existing office and the **referral** angle."},
+   {"title": "Not the location decision-maker.", "text": "He runs M&A in Asia; office decisions for Canada sit with the Americas team. Aim for an **introduction** and a **referral relationship**."},
+   {"title": "Unverified points.", "text": "Current Montreal headcount, Natixis IM's Canadian presence, his education and his exact current title are **to be confirmed**."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Finance Montreal Steve - LG): box, contact and LinkedIn reply comment"},
+   {"used": true, "text": "Groupe BPCE newsroom: Natixis CIB appoints Abbas Rangwala as Head of M&A, Southeast Asia & India (Sep 2023)"},
+   {"used": true, "text": "finews.asia: Natixis CIB names SEA and India M&A head"},
+   {"used": true, "text": "Groupe BPCE newsroom: Natixis CIB opens Toronto office, works alongside Montreal office (Oct 2023)"},
+   {"used": true, "text": "Wealth Professional (Canada): Natixis CIB Canadian expansion, Montreal and Toronto"},
+   {"used": true, "text": "Groupe BPCE: full-year 2025 and Q4 2025 results"},
+   {"used": true, "text": "Groupe BPCE: Q2 and H1 2026 results (GlobeNewswire)"},
+   {"used": true, "text": "The Star / Bloomberg: Natixis buys Japan adviser Sangyo Sosei Advisory (Oct 2026)"},
+   {"used": true, "text": "Investment Executive / Fasken: Natixis IM sale of Canadian operations (2019) and Fiera stake (2022)"},
+   {"used": true, "text": "Finance Montréal: 2026 cost study; Quebec.ca: IFC tax credit (reused from sibling briefs)"},
+   {"used": false, "text": "LinkedIn profile of Abbas A. Rangwala (not publicly readable)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "B+", "headline": "Global bank with an **active corporate social presence** (Natixis CIB and Groupe BPCE on LinkedIn); **Abbas himself is low-profile** online.", "detail": "Natixis CIB and BPCE regularly publish results, hires and deal news. No public posts by Abbas were found. Follower counts are to be confirmed.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Natixis Corporate & Investment Banking page", "audience": "To be confirmed", "recency": "Active (hires, deals, awards)", "read": "Main corporate channel"},
+   {"channel": "LinkedIn: Groupe BPCE page", "audience": "To be confirmed (large)", "recency": "Active", "read": "Strong"},
+   {"channel": "Groupe BPCE newsroom / natixis.com", "audience": "Clients, investors, press", "recency": "Active", "read": "Strong"},
+   {"channel": "LinkedIn: Abbas A. Rangwala", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low"}
+  ], "note": "Use Natixis's own news (Japan M&A acquisition, CIB results, Canada offices) as openers rather than personal posts."},
+  "network": {"summary": "Steve contacted Abbas on LinkedIn; Abbas replied and asked for email. No shared network between Steve and Abbas was verified.", "items": ["Steve's exact number of shared connections with Abbas is on Abbas's LinkedIn profile.", "Natixis CIB's Canada country manager (Montreal/Toronto) may already be in Finance Montréal's network: check before the meeting."], "link": {"url": "https://www.linkedin.com/in/abbas-a-rangwala-80aa", "label": "See Steve's mutual connections with Abbas on LinkedIn"}},
+  "posts": [
+   {"when": "Oct 2026", "where": "The Star / Bloomberg", "text": "Natixis agreed to buy Tokyo adviser **Sangyo Sosei Advisory** to enter Japan's M&A advisory market.", "use": "Open on Natixis's Asian M&A growth."},
+   {"when": "Aug 2026", "where": "Groupe BPCE (H1 results)", "text": "CIB revenue **€2,560M (+7% constant FX)**; Americas platform revenue **+19%** in Q2.", "use": "Bridge to growth in the Americas and Montreal."},
+   {"when": "Oct 2023", "where": "Groupe BPCE newsroom", "text": "Natixis CIB opened **Toronto**, working with its existing **Montreal** office.", "use": "Show you know Natixis is already in Canada."},
+   {"when": "To be confirmed", "where": "LinkedIn (Abbas)", "text": "No recent personal posts found.", "use": "Do not reference personal posts."}
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Reference Steve's LinkedIn exchange and his request to be emailed.",
+   "Propose meeting in **Singapore in early November** while Noza is there.",
+   "Pitch **growing Natixis's Montreal office** plus a **referral loop** for his Asian M&A clients eyeing North America."
+  ]
+ },
+ "send": false
+}
