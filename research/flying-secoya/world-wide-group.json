@@ -1,0 +1,85 @@
+{
+ "client": "flying-secoya",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgIDlv-fR5wgM",
+ "company": "World Wide Group",
+ "lead_name": "Karen Hayes",
+ "lead_role": "Managing Director",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "World Wide Group Ltd (video production & broadcast services)",
+   "person": "Karen Hayes",
+   "role": "Managing Director",
+   "location": "To be confirmed · World Wide Group Ltd is UK-registered (Company No 02431831)",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Interest: Medium", "tone": "warn"}, {"label": "Referral from Melodee Paul", "tone": "good"}],
+   "alert": {"title": "Next step is yours:", "text": "**Melodee Paul** (WWG) said this wasn't her area and referred you to **Karen Hayes**, giving **karen@worldwidegroup.global**. Email Karen and **mention Melodee's referral** in the first line."},
+   "source_line": "Lead added to Streak on Oct 1, 2026 by Nicolette J. Source: LinkedIn messaging (as Charles). Streak: Fit and Interest set to Medium.",
+   "linkedin_url": ""
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Global **video production and satellite broadcasting / content distribution** group (World Wide Group Ltd)"},
+   {"label": "Lead", "value": "Founded **Flying Colors Europe** in 2006, merged into World Wide Group in **2014**; now Managing Director"},
+   {"label": "Profile", "value": "Certified **Women's Business Enterprise (WBE)** via WEConnect International (2013), active on the WBE council"},
+   {"label": "Contact", "value": "karen@worldwidegroup.global"},
+   {"label": "Flying Secoya angle", "value": "Carbon & ESG reporting for **live broadcasts and productions** WWG runs for clients; WWG already has a **sustainability policy** on its site"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Charles Gachet-Dieuzeide", "reason": "Both **founded their own production-services company** in Europe and grew it internationally."},
+   "items": [
+    "**Name echo:** Karen's company was *Flying Colors*, yours is *Flying Secoya*: an easy, friendly opener.",
+    "**European base:** WWG is UK-registered; Flying Secoya is in Paris/Montreuil: same time zone area, easy to meet.",
+    "**No shared employer, school or contact verified** (Karen's LinkedIn URL not in Streak)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Measure the footprint of broadcasts", "text": "Satellite uplinks, crews and travel make live broadcasts carbon-heavy. Flying Secoya can **measure and reduce** them and give clients a report."},
+   {"title": "Turn the policy into numbers", "text": "WWG publishes a sustainability policy. Secoset® turns it into **per-project data** clients and tenders increasingly ask for."},
+   {"title": "Win tenders", "text": "Corporate and public clients add ESG criteria to supplier selection; certified data helps WWG win."}
+  ],
+  "person": {"name": "Karen Hayes", "text": "Managing Director of World Wide Group. She founded **Flying Colors Europe**, a global video production and satellite broadcasting company, in **2006**, steered it through several management buyouts and merged it with **World Wide Group in 2014**. Known for adopting new technology in content distribution. Advocate of diversity: certified **WBE** with WEConnect International since **2013** and active on the WBE council. Her exact location, education and earlier roles are **to be confirmed** (team page gives a short bio only)."},
+  "company": {"text": "World Wide Group Ltd (UK-registered) provides **video production, satellite broadcasting and content distribution** services worldwide. Its website lists a **Sustainability Policy**. Details on US offices and headcount are **to be confirmed**; Melodee Paul, who referred Karen, also works at WWG."},
+  "financials": {"country": "UK, private (Company No 02431831)", "text": "Private company: accounts are filed at **Companies House** (figures not retrieved for this brief, to be confirmed). Treat as a mid-size services company."},
+  "history": {"text": "LinkedIn (as Charles), logged by Nicolette J on Oct 1, 2026. **Melodee Paul** replied: *it isn't what I am over at WWG*. Asked for a better contact, she suggested **Karen Hayes** at **Karen@worldwidegroup.global**. Streak: Fit Medium, Interest Medium. **Open item:** no email to Karen in the Streak box yet."},
+  "industry": [
+   {"title": "Broadcast & live production go green", "text": "Broadcasters (BBC, Sky, etc.) require carbon data from suppliers via tools like albert; remote production is promoted to cut travel."},
+   {"title": "Supplier diversity + ESG", "text": "Corporate buyers combine diversity (WBE) and sustainability criteria when choosing vendors."}
+  ],
+  "talking_points": [
+   "Do WWG's clients (broadcasters, corporates) already ask for **carbon data per production or broadcast**?",
+   "How is the **sustainability policy** applied on projects today, and who owns it?",
+   "Would a **pilot on one live event or broadcast** be easy to set up?",
+   "Does WWG work on **US productions**? Where are its teams?"
+  ],
+  "attention": [
+   {"title": "Use the referral.", "text": "First line: 'Melodee Paul suggested I contact you'."},
+   {"title": "Verify her profile.", "text": "Find Karen's LinkedIn URL and add it to Streak; confirm her location."},
+   {"title": "One month old.", "text": "The referral dates from late September: email this week."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak (Flying Secoya - LG): box and meeting note (Melodee Paul referral)"},
+   {"used": true, "text": "worldwidegroup.global team page: Karen's bio"},
+   {"used": false, "text": "Companies House accounts: not retrieved"},
+   {"used": false, "text": "LinkedIn: Karen's profile URL not in Streak"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Flying Secoya · prepared October 29, 2026",
+  "grade": {"letter": "C-", "headline": "Low public content: **website and team page**; little recent social activity found.", "detail": "No regular posts, press or thought-leadership content found in this audit. LinkedIn company page and follower count to be confirmed.", "context": "Web-audited Oct 29, 2026."},
+  "social": {"rows": [
+   {"channel": "Website worldwidegroup.global", "audience": "Clients", "recency": "Active", "read": "Main channel"},
+   {"channel": "LinkedIn: World Wide Group", "audience": "To be confirmed", "recency": "Not audited", "read": "Unknown"},
+   {"channel": "LinkedIn: Karen Hayes", "audience": "To be confirmed", "recency": "Not audited", "read": "Unknown"}
+  ], "note": "A joint sustainability case study would give WWG content it currently lacks."},
+  "network": {"summary": "No shared network verified. Mutual link: **Melodee Paul** (WWG), who referred you.", "items": ["Find Karen on LinkedIn to see your mutual connections."], "link": {"url": "https://www.linkedin.com/search/results/people/?keywords=Karen%20Hayes%20World%20Wide%20Group", "label": "Find Karen Hayes on LinkedIn"}},
+  "posts": [
+   {"when": "Recent", "where": "LinkedIn (Karen)", "text": "Not audited (to be confirmed).", "use": "Check before emailing."}
+  ],
+  "groups": [{"name": "WEConnect International / WBE council", "note": "Certified WBE since 2013, active council member"}],
+  "events_attended": [],
+  "hooks": [
+   "Open with **Melodee Paul's referral**.",
+   "Light touch on the name: *Flying Colors* meets *Flying Secoya*.",
+   "Founder to founder: both built a production-services company in Europe.",
+   "Offer carbon measurement for **one broadcast or live production** as a pilot."
+  ]
+ },
+ "send": false
+}

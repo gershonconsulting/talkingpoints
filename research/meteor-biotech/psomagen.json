@@ -1,0 +1,268 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVlJODiQsM",
+ "company": "Psomagen, Inc.",
+ "lead_name": "Su Hong, PhD",
+ "lead_role": "Chief Executive Officer",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Psomagen, Inc. (US subsidiary of Macrogen; KOSDAQ 950200)",
+   "person": "Su Hong, PhD",
+   "role": "Chief Executive Officer",
+   "location": "Rockville, MD (HQ) · Su is based in Gaithersburg, MD",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "CEO-level lead",
+     "tone": "good"
+    },
+    {
+     "label": "Customer or partner"
+    }
+   ],
+   "alert": {
+    "title": "Timely:",
+    "text": "Psomagen is **one of the first US providers of 10x Genomics Atera** (whole-transcriptome spatial). It is moving into spatial right now — CosmoSort (SLACS) can be the **cell/region recovery step** that feeds Psomagen's sequencing."
+   },
+   "source_line": "Lead added to Streak on Oct 28, 2026 by Nicolette J; meeting note logged the same day; moved Lead → Contacted.",
+   "linkedin_url": "https://www.linkedin.com/in/su-hong-a0207a56"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "US genomics service lab (formerly **Macrogen Corp**, renamed 2019); listed on KOSDAQ since 2020"
+   },
+   {
+    "label": "Size",
+    "value": "51–200 employees; 2025 revenue **US$41.6M** (+30%)"
+   },
+   {
+    "label": "Spatial today",
+    "value": "10x **Visium HD, Xenium**, and the new **Atera**; also single-cell (10x, Parse, Cellanome R3200), Olink proteomics, long-read, CLIA"
+   },
+   {
+    "label": "Contact",
+    "value": "hongsu02@gmail.com (personal Gmail, not a Psomagen address)",
+    "tone": "warn"
+   },
+   {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/su-hong-a0207a56 — 514 followers"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#4 Spatial CROs & genomics service labs** (and #6 co-marketing partner) — Psomagen is both."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Founder-CEO to CEO, both Korean-trained bioengineering/biology PhDs running Korean-rooted omics companies in the US."
+   },
+   "items": [
+    "**Korean PhD track:** Su earned his PhD at **KAIST** (2010–2014); Amos earned his at **Seoul National University**. Same Korean research ecosystem, one generation apart.",
+    "**Johns Hopkins:** Su was a postdoc at **Johns Hopkins** for almost seven years (2014–2021); Amos presented at the **Johns Hopkins Global Biotechnology Innovation Center** webinar (Mar 24, 2025).",
+    "**Korean company, US market:** Psomagen is the US arm of Macrogen; Meteor opened its first US site at **UCLA's CNSI** in June 2025. Both are building US business from a Korean base.",
+    "**Same topic:** Psomagen just added Atera, Xenium and Visium HD — spatial biology is now a core topic for both.",
+    "No shared employer, co-author or school found."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Complement, not compete",
+    "text": "Atera, Xenium and Visium image and read tissue in place. **SLACS pulls out the exact cells or regions** seen on the slide for deep downstream sequencing. Pitch Meteor as the step **after imaging** and **before Psomagen's sequencing**."
+   },
+   {
+    "title": "A new service line for Psomagen",
+    "text": "Psomagen says it is the only US provider covering NGS, Sanger, single-cell, proteomics, DTC and microbial work. Spatially-resolved cell sorting would be a **differentiated add-on** for its pharma and academic clients."
+   },
+   {
+    "title": "Korean-to-Korean, at the top",
+    "text": "Su is a former **Macrogen researcher** (2006–2009) and a KAIST PhD. A CEO-to-CEO talk in this context can move fast — a pilot, a co-marketing webinar, or a referral deal."
+   }
+  ],
+  "person": {
+   "name": "Su Hong",
+   "text": "CEO of Psomagen since July 2022 (Director of Strategy Development, Aug 2021–Jun 2022). Postdoctoral fellow at Johns Hopkins University (Dec 2014–Jul 2021). PhD at KAIST (2010–2014), research associate there before (2009–2010). Started as a researcher at Macrogen (2006–2009). BS and MS from Korea University (BS in Biology). Korean press names him Hong Su (홍수)."
+  },
+  "company": {
+   "text": "Psomagen (Rockville, MD) is the US subsidiary of Korean genomics group Macrogen; it was Macrogen Corp until July 2019 and has been listed on KOSDAQ since 2020. It sells sequencing and multi-omics services to academia, government and pharma: genomics, transcriptomics, epigenomics, metagenomics, single-cell, spatial (10x Visium HD, Xenium, Atera), Olink proteomics, long-read (PacBio, Nanopore), bioinformatics and CLIA clinical services. It also runs direct-to-consumer genetic testing. Moderna has been a customer since 2014. In June 2026 it obtained **New York State clinical laboratory certification**. In April 2026 Macrogen and Psomagen committed to deploy multiple **10x Atera** instruments — the first global service provider to do so."
+  },
+  "financials": {
+   "country": "US, KOSDAQ-listed",
+   "text": "**2025 revenue:** US$41.6M (+30% vs US$32.0M in 2024) — record. **2025 operating result:** Consolidated loss US$1.5M (down ~60%); first standalone operating profit. **Q1 2026 revenue:** US$8.76M (+12.4%) — best Q1 ever. **H1 2026:** Revenue US$16.2M; operating profit US$93K (vs loss of US$530K in H1 2025). **Cash (Mar 31, 2026):** US$6.7M; no external funding raised since the 2020 listing. Listed on KOSDAQ (950200). Growth drivers: large NGS projects for US government agencies and the Michael J. Fox Foundation, DTC testing, cost cuts and AI-assisted analysis. Partial stake in subsidiary KEAN Health sold in 2026. Cash is tight — expect interest in revenue-share or low-capex partnership models rather than big equipment buys."
+  },
+  "history": {
+   "text": "Box created on **Oct 28, 2026** by Nicolette J (Gershon). A meeting note was logged the same day (content not readable) and the box moved from *Lead* to *Contacted*. **No emails** in Streak yet. Streak has the name only as \"Su H\" and no title."
+  },
+  "industry": [
+   {
+    "title": "Atera raises the spatial bar",
+    "text": "10x Genomics launched **Atera** in 2026 for whole-transcriptome spatial at subcellular resolution and scale; trade press says it puts pressure on other spatial players. Service labs like Macrogen/Psomagen are adopting it first."
+   },
+   {
+    "title": "From imaging to isolation",
+    "text": "As spatial imaging scales, the next question is how to go deeper on the cells it finds — full transcriptome, genome or proteome of rare cells. That is the gap SLACS addresses."
+   },
+   {
+    "title": "Pharma demand",
+    "text": "Psomagen reports rising pharma revenue and proteomics orders from drug developers — the translational and biomarker users Meteor targets too."
+   }
+  ],
+  "talking_points": [
+   "Congratulations on Atera — what are your first clients asking to do **after** they see the spatial map?",
+   "When a client finds a rare cell population on Xenium or Atera, how do they get deeper data on those exact cells today?",
+   "Would a spatially-resolved cell sorting service (SLACS) fit next to your spatial and single-cell lines — as a referral, a pilot or a co-branded service?",
+   "Which of your client groups — pharma biomarker teams, NIH-funded labs, clinical — would value this first?",
+   "Could we run a joint pilot or webinar: imaging on Atera at Psomagen, cell recovery with SLACS, sequencing back at Psomagen?",
+   "How does Macrogen in Korea decide on new platforms — is that a parallel conversation in Seoul?"
+  ],
+  "attention": [
+   {
+    "title": "Check the meeting note.",
+    "text": "Nicolette logged a meeting note on Oct 28 that could not be read. Confirm with her what was agreed before Amos follows up."
+   },
+   {
+    "title": "Get a work email.",
+    "text": "Streak holds **hongsu02@gmail.com**, a personal address. Find his Psomagen email before sending anything formal."
+   },
+   {
+    "title": "Fix the Streak contact.",
+    "text": "Update the name to **Su Hong** and set the title to **Chief Executive Officer**; the person is in Gaithersburg, MD, company HQ in Rockville."
+   },
+   {
+    "title": "Two angles, one box.",
+    "text": "Psomagen is both a possible customer and a possible service/distribution partner. Tag the box so both paths are tracked."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech pipeline (box, contact, stage history)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Su Hong profile and recent reposts (via coordinator, Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "ZoomInfo and The Org — Su Hong career; Psomagen leadership and size"
+   },
+   {
+    "used": true,
+    "text": "psomagen.com — services and events (ASHG 2026, booth 1327)"
+   },
+   {
+    "used": true,
+    "text": "MTN News (Feb 2026), Asia Economy CORE (May and Aug 2026), Money Today (Aug 2026) — results, Moderna, NY State certification"
+   },
+   {
+    "used": true,
+    "text": "PharmaSource (Apr 20, 2026) — Macrogen and Psomagen adopt 10x Atera; GenomeWeb on the Atera launch"
+   },
+   {
+    "used": true,
+    "text": "PharmaFile (Jun 11, 2025) — Meteor Biotech opens UCLA site"
+   },
+   {
+    "used": true,
+    "text": "GlobeNewswire (2019) — Macrogen Corp renamed Psomagen"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared October 28, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "A steady company feed, a quiet CEO: **Su has 514 followers** and mostly reposts company news.",
+   "detail": "Psomagen posts product news regularly (Atera, FAST-SEQ in the last three weeks) and runs webinars with Olink and the NCI; the Atera repost drew 96 reactions. Su's own reach is small and he does not post original content. No standout channel.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Su Hong",
+     "audience": "514 followers · 472 connections",
+     "recency": "Reposts 2 and 3 weeks ago",
+     "read": "Small, repost-only"
+    },
+    {
+     "channel": "LinkedIn — Psomagen",
+     "audience": "To be confirmed",
+     "recency": "Atera post ~2 weeks ago (96 reactions); FAST-SEQ offer ~3 weeks ago",
+     "read": "Active, product-led"
+    },
+    {
+     "channel": "Webinars — Psomagen",
+     "audience": "Not counted",
+     "recency": "Olink/NCI webinar Sep 15, 2026",
+     "read": "Useful co-marketing format"
+    }
+   ],
+   "note": "Psomagen already co-hosts webinars with vendors (Olink, Agilent). A joint Meteor x Psomagen spatial webinar is a realistic first project."
+  },
+  "network": {
+   "summary": "No direct link between Amos and Su was found. The best bridges are the **Korean PhD path (SNU / KAIST)** and **Johns Hopkins**.",
+   "items": [
+    "**Johns Hopkins:** Su spent ~7 years there as a postdoc; Amos spoke at the Johns Hopkins Global Biotechnology Innovation Center webinar in March 2025.",
+    "**Korean genomics community:** Su began at Macrogen (2006–2009); Amos came up through SNU's Bio-MAX Institute. Ask whether they share contacts in Seoul's genomics scene.",
+    "**Psomagen team to know:** Josh Kim is Psomagen's CSO — the likely technical decision-maker on a new spatial service.",
+    "Your exact number of shared connections with Su is on his LinkedIn profile, under his name. LinkedIn only shows it inside your own account — open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/su-hong-a0207a56",
+    "label": "See your mutual connections with Su on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "~2 weeks ago",
+    "where": "LinkedIn (repost of Psomagen)",
+    "text": "\"**10x Genomics Atera is coming to Psomagen** — one of the first US providers, whole-transcriptome spatial at subcellular resolution.\" 96 reactions, 8 comments.",
+    "use": "Open with this. Then position SLACS as what comes after the Atera map."
+   },
+   {
+    "when": "~3 weeks ago",
+    "where": "LinkedIn (repost of Psomagen)",
+    "text": "**FAST-SEQ** launch: first sample free in October.",
+    "use": "Psomagen uses free-pilot offers to win clients — propose the same for a joint SLACS pilot."
+   },
+   {
+    "when": "Sep 15, 2026",
+    "where": "Psomagen webinar",
+    "text": "\"Circulating Immune Proteins in Liver Cancer Research\" with **Olink and the NCI**.",
+    "use": "Shows the co-marketing model — suggest a Meteor x Psomagen spatial webinar."
+   },
+   {
+    "when": "Aug 2026",
+    "where": "Korean press",
+    "text": "H1 2026 operating profit after cost cuts; Moderna a customer since 2014; rising pharma and proteomics orders.",
+    "use": "Speak to margin: a high-value add-on service, not a capex request."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ASHG 2026",
+    "when": "Oct 20–24, 2026, Montréal",
+    "role": "Exhibitor (Psomagen booth 1327)",
+    "note": "Just happened — ask how Atera interest was at the booth."
+   },
+   {
+    "name": "Olink / NCI webinar",
+    "when": "Sep 15, 2026",
+    "role": "Host (Psomagen)",
+    "note": "Liver cancer immune proteins."
+   }
+  ],
+  "hooks": [
+   "Congratulate him on **Atera** — Psomagen is among the first US providers.",
+   "Ask about **ASHG 2026** last week (booth 1327) — what spatial questions did visitors bring?",
+   "**Johns Hopkins** link: his 7-year postdoc and Amos's 2025 Johns Hopkins GBIC webinar.",
+   "Shared story: **Korean omics company winning the US market** — Psomagen since 2019 as its own brand, Meteor since its UCLA site in 2025.",
+   "Congratulate Psomagen on the **NY State clinical lab certification** (June 2026) — a door to clinical spatial work."
+  ]
+ },
+ "send": false
+}

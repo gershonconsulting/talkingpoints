@@ -1,0 +1,296 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICViK_yrgoM",
+ "company": "Siegfried AG",
+ "lead_name": "Ramzahn Soleymani-Alizadeh",
+ "lead_role": "Associate Director, Strategic Operations",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Siegfried AG (Siegfried Holding, SIX: SFZN)",
+   "person": "Ramzahn Soleymani-Alizadeh (LinkedIn: Ramzahn Alizadeh)",
+   "role": "Associate Director, Strategic Operations",
+   "location": "Site to be confirmed · Siegfried HQ Zofingen, Switzerland",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Interest: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Operations, not R&D"
+    },
+    {
+     "label": "Deck promised by email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Ramzahn said Siegfried has no biocatalysis need **to his knowledge** but will pass it on, and gave his email on Oct 9. Send a **short, forwardable deck** to **ramzahn.soleymani-alizadeh@siegfried.ch** and ask who in **process R&D / chemical development** owns biocatalysis."
+   },
+   "source_line": "Lead added to Streak on Oct 14, 2026 by Juliana R; moved Lead → Contacted on Oct 22. Source: LinkedIn messaging.",
+   "linkedin_url": "https://www.linkedin.com/in/ramzahn-alizadeh-9b8750126"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Swiss **CDMO for small-molecule drug substances (APIs) and drug products**; says it runs the **largest global small-molecule drug substance CDMO network**"
+   },
+   {
+    "label": "Size",
+    "value": "FY2025 net sales **CHF 1.33bn**; >3,800 staff at year-end 2025; ~400 more joined with the 2026 acquisition"
+   },
+   {
+    "label": "US footprint",
+    "value": "Pennsville NJ, plus **Wilmington DE (ex-Noramco)** and **Athens GA (ex-Purisys)**, acquired May 2026"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Strategic Operations, so a **connector**, not the chemistry decision-maker. Use him as a door-opener to process R&D"
+   },
+   {
+    "label": "Contact",
+    "value": "ramzahn.soleymani-alizadeh@siegfried.ch"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#1 Pharmaceuticals (production/process managers)**: good segment fit via the CDMO channel, but Ramzahn is operations. Target persona = head of process R&D / chemical development."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "German chemical-industry chemist (Evonik-trained, PhD Duisburg-Essen) talking to a Swiss/German API manufacturer. Same language and neighbouring market: Siegfried has German plants (e.g. Minden) and its HQ is in Zofingen, a few hours from Germany."
+   },
+   "items": [
+    "**No shared school, employer or contact verified** between David and Ramzahn. Ramzahn's background is to be confirmed (LinkedIn not readable from outside).",
+    "**Industry DNA:** David trained at **Evonik** and did an Evonik-funded PhD. Evonik and Siegfried both serve pharma API supply chains, so he speaks a CDMO's language.",
+    "**DACH proximity:** Enzymicals in Greifswald, Siegfried in Zofingen (CH) with a large German site in **Minden**. Easy to meet in person, same business culture.",
+    "Ramzahn **responded and gave his email**: low interest, but a polite open door."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Partner, not competitor",
+    "text": "Enzymicals doesn't make APIs. It **adds a biocatalysis toolbox** to Siegfried's chemistry: enzyme screening, enzyme engineering, chemo-enzymatic route design, then **tech transfer into Siegfried's own reactors**. Siegfried keeps the customer and the manufacturing."
+   },
+   {
+    "title": "Fill the new capacity with better routes",
+    "text": "Siegfried's CEO says the 2026 acquisition is about **unlocking capacity for new, high-volume business**. Enzymatic steps can cut process steps, solvents and waste on high-volume APIs, helping win and keep that business."
+   },
+   {
+    "title": "Low-risk start",
+    "text": "Offer a **feasibility screen on one route or intermediate** (mg scale), with a clear path **mg → ton**. No capex, no headcount, a fixed scope that ops and R&D can both approve."
+   }
+  ],
+  "person": {
+   "name": "Ramzahn Soleymani-Alizadeh",
+   "text": "Listed on LinkedIn as **Ramzahn Alizadeh**, **Associate Director, Strategic Operations** at Siegfried (title per Streak/LinkedIn). His **site, tenure, education and earlier roles are to be confirmed**: the LinkedIn profile can't be read from outside and no public bio was found. His **@siegfried.ch** email is group-wide and doesn't show a site. Strategic Operations at a CDMO usually covers network capacity, site programs and integration, which is relevant now with three new sites joining. **Don't assume he owns process chemistry.** He said biocatalysis is not a need *to his knowledge*."
+  },
+  "company": {
+   "text": "Siegfried (founded 1873, HQ **Zofingen**, Switzerland) is a CDMO that develops and manufactures **small-molecule drug substances** (APIs, intermediates, controlled substances) and **drug products** for pharma customers. CEO: **Marcel Imwinkelried**. **Eduardo Montanha** (ex-Fresenius Kabi) became the single group **COO** on Sep 1, 2026, after the Drug Substances and Drug Products COO roles were merged. Ramzahn's 'Strategic Operations' likely sits in this operations organisation (to be confirmed). In **May 2026** Siegfried closed the purchase of three drug substance sites from an SK Capital affiliate: **Noramco (Wilmington, DE)** for commercial-scale APIs, **Purisys (Athens, GA)** for clinical API development, and **Extractas (Tasmania, Australia)**. In **June 2026** it opened a new large-scale API plant in **Minden, Germany** (+100 m³ reactor capacity, including highly potent substances). Other drug substance sites include Pennsville NJ and Evionnaz CH."
+  },
+  "financials": {
+   "country": "Switzerland, SIX-listed (SFZN)",
+   "text": "**FY2025:** net sales **CHF 1,327.8M** (+4.3% in local currencies); core EBITDA **CHF 312.3M** (23.5% margin); core net profit **CHF 162.1M**; CHF 0.40/share payout. **H1 2026:** net sales **CHF 633M** (+2.2%); core EBITDA **CHF 142M** (+6%, 22.4% margin); core net profit **CHF 68.2M**; free cash flow down to **CHF 15.1M** (acquisition and capex). **FY2026 outlook:** high-single-digit sales growth including the acquisition, core EBITDA margin above 23%. The acquired sites are expected to add about **$100M** of sales in 2026. Financially strong and investing. Margin focus makes **process efficiency** (fewer steps, lower cost of goods) the right pitch."
+  },
+  "history": {
+   "text": "LinkedIn (as David). David asked whether Siegfried has biocatalysis needs. Ramzahn answered **not to his knowledge** but said he would **pass it on to the team**. David offered to send a deck by email, and Ramzahn gave **ramzahn.soleymani-alizadeh@siegfried.ch** (Oct 9, 2026). Box created Oct 14 by Juliana R; moved Lead → Contacted Oct 22. Streak: Fit Medium, Interest Low, Source Messaging. **Open item:** the deck still has to be sent (to be confirmed in Streak)."
+  },
+  "industry": [
+   {
+    "title": "Biocatalysis is now standard in API route design",
+    "text": "Big pharma and CDMOs increasingly use engineered enzymes for chiral steps and greener routes. CDMOs without in-house enzyme engineering often **partner** for it, which is where Enzymicals fits."
+   },
+   {
+    "title": "CDMO consolidation and capacity race",
+    "text": "Siegfried is adding sites (US, Australia) and reactor volume (Minden). Winning high-volume projects means competing on **cost of goods and sustainability**, both areas where enzymatic steps help."
+   },
+   {
+    "title": "Greener chemistry pressure",
+    "text": "Pharma customers push suppliers to cut solvent use and waste. Siegfried itself highlights optimised solvent use at its new Minden plant."
+   }
+  ],
+  "talking_points": [
+   "Who at Siegfried owns **route scouting / process R&D** for drug substances, and does any site already run enzymatic steps?",
+   "With **Wilmington and Athens** now on board, are customers asking for greener or shorter routes on high-volume APIs?",
+   "Would a **one-route feasibility screen** (enzyme screening + first engineering round) be easy to approve as a small project?",
+   "How does Siegfried handle **tech transfer** from external partners into its plants? Enzymicals can deliver a process package ready to scale.",
+   "Is there a **German or Swiss site** (Minden, Evionnaz, Zofingen) where an in-person meeting with the chemists would make sense?"
+  ],
+  "attention": [
+   {
+    "title": "Send the deck now.",
+    "text": "He gave his email on Oct 9. If the deck hasn't gone out, send it to ramzahn.soleymani-alizadeh@siegfried.ch: **3–5 slides, easy to forward**, framed as a CDMO partnership (screening → engineering → chemo-enzymatic route → mg-to-ton scale-up → tech transfer)."
+   },
+   {
+    "title": "Ask for the right owner.",
+    "text": "Ramzahn is operations. In the email, ask him to name the head of **process R&D / chemical development** (or route scouting) and offer to brief them directly."
+   },
+   {
+    "title": "Verify his site.",
+    "text": "His site is **to be confirmed**: check his LinkedIn (Zofingen vs. Pennsville, or a newly acquired US site). Tailor the deck example to that site."
+   },
+   {
+    "title": "Interest is low.",
+    "text": "Don't push. Aim for one referral inside process R&D, then follow up in 2–3 weeks if there's no reply."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Enzymicals pipeline): box, stage history, LinkedIn thread summary (as David)"
+   },
+   {
+    "used": true,
+    "text": "Siegfried media release: FY2025 results (Feb 20, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Siegfried H1 2026 results (Aug 21, 2026), via company release and press coverage"
+   },
+   {
+    "used": true,
+    "text": "Siegfried media releases: acquisition of three drug substance sites (Jan 27, 2026); leadership change, COO Eduardo Montanha (Jul 16, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Specialty Chemicals Magazine (Feb 2026): acquired sites Noramco, Purisys, Extractas"
+   },
+   {
+    "used": true,
+    "text": "Pharma Manufacturing (Aug 21, 2026): acquisition closed in May; US sites; CEO quotes"
+   },
+   {
+    "used": true,
+    "text": "CHEManager (Jun 16, 2026): new large-scale API plant in Minden"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Ramzahn's profile (site, tenure, education) not readable; to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Siegfried company page follower count not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared October 28, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Steady corporate voice: regular **investor and trade-press releases** and a corporate LinkedIn page; follower count to be confirmed.",
+   "detail": "As a SIX-listed company, Siegfried publishes results, M&A and site news several times a year (Jan, Feb, Jun, Jul, Aug 2026), and trade media pick them up widely (CHEManager, Pharma Manufacturing, Specialty Chemicals). The content is corporate and investor-led, with little scientific or thought-leadership content found. Ramzahn's own LinkedIn activity was not audited.",
+   "context": "Web-audited Oct 28, 2026; LinkedIn follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Siegfried",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Likely main social channel"
+    },
+    {
+     "channel": "Press / investor releases (siegfried.ch, EQS)",
+     "audience": "Investors and trade media",
+     "recency": "Latest: H1 results Aug 21, 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Trade media coverage",
+     "audience": "Pharma/chemical industry",
+     "recency": "Jun–Aug 2026 (Minden plant, results, acquisition)",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Ramzahn Alizadeh",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Siegfried promotes efficiency and solvent savings at new plants. A joint 'greener route' case study could fit its own messaging."
+  },
+  "network": {
+   "summary": "No shared network between David Liese and Ramzahn was verified. The connection so far is the LinkedIn thread David started.",
+   "items": [
+    "Siegfried leaders who could steer a referral: **Marcel Imwinkelried** (CEO), **Eduardo Montanha** (COO since Sep 2026). Check whether David knows anyone in Siegfried's **process R&D** teams in Zofingen, Evionnaz or Minden.",
+    "David's **Evonik** network may include former colleagues now at Siegfried's German sites (to be confirmed).",
+    "Your exact number of shared connections with Ramzahn is on his LinkedIn profile, under his name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/ramzahn-alizadeh-9b8750126",
+    "label": "See your mutual connections with Ramzahn on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Aug 21, 2026",
+    "where": "Press release (company)",
+    "text": "H1 2026: sales CHF 633M, core EBITDA CHF 142M; outlook confirmed; integration of the new sites on track.",
+    "use": "Open with growth and capacity, then ask how they will fill it with efficient routes."
+   },
+   {
+    "when": "Jul 16, 2026",
+    "where": "Press release (company)",
+    "text": "Eduardo Montanha named group COO (from Sep 1, 2026), merging the Drug Substances and Drug Products operations roles.",
+    "use": "Ask Ramzahn how Strategic Operations fits the new single-COO setup."
+   },
+   {
+    "when": "Jun 16, 2026",
+    "where": "Press release / CHEManager",
+    "text": "New large-scale API plant in **Minden, Germany** (+100 m³ reactors, automation, optimised solvent use).",
+    "use": "German site, so a natural place for a David visit; link enzymatic steps to the solvent-reduction story."
+   },
+   {
+    "when": "May 2026",
+    "where": "Company news",
+    "text": "Closed the purchase of Noramco (Wilmington DE), Purisys (Athens GA) and Extractas (Australia).",
+    "use": "Strategic Operations is likely busy with integration. Keep the ask small."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (Ramzahn)",
+    "text": "Not audited (to be confirmed).",
+    "use": "Check his recent posts before the follow-up."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Siegfried H1 2026 results webcast",
+    "when": "Aug 21, 2026",
+    "role": "Company presenter (CEO Marcel Imwinkelried)"
+   },
+   {
+    "name": "Minden plant inauguration",
+    "when": "Jun 2026",
+    "role": "Company host"
+   },
+   {
+    "name": "ZKB Swiss Equity Conference",
+    "when": "2023–2025 (presentations online)",
+    "role": "Company presenter"
+   },
+   {
+    "name": "CPHI / AIChE attendance by Ramzahn",
+    "when": "To be confirmed",
+    "role": "Unknown"
+   }
+  ],
+  "hooks": [
+   "Thank him for passing it on, and attach the promised **short deck** he can forward as-is.",
+   "Ask one simple question: **who owns process R&D / route scouting** for drug substances?",
+   "Frame Enzymicals as Siegfried's **biocatalysis partner**: screening, engineering, chemo-enzymatic routes, **mg → ton**, tech transfer into Siegfried plants.",
+   "Mention David's **Evonik** background and the **German/Swiss proximity** (Minden, Zofingen), and offer to meet in person.",
+   "Tie it to their **margin target (>23%)** and new capacity: shorter, greener routes lower cost of goods on high-volume APIs."
+  ]
+ },
+ "send": false
+}

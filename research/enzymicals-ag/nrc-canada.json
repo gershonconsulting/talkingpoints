@@ -1,0 +1,260 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVhJKz7QoM",
+ "company": "National Research Council Canada / Conseil national de recherches Canada",
+ "lead_name": "Fabrice Berrué",
+ "lead_role": "Research Officer, Aquatic and Crop Resource Development (ACRD), NRC Halifax",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "National Research Council Canada (NRC / CNRC)",
+   "person": "Fabrice Berrué",
+   "role": "Research Officer (analytical / NMR chemistry), Aquatic and Crop Resource Development Research Centre — introduced as Team Lead in 2023; current title to be confirmed",
+   "location": "Halifax, Nova Scotia, Canada (NRC site, 1411 Oxford Street)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Interest: Low",
+     "tone": "warn"
+    },
+    {
+     "label": "Offered intro to chem + synbio teams",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Next step — send the email he asked for:",
+    "text": "Fabrice is not sure NRC is a customer, but asked David to write to **fabrice.berrue@nrc-cnrc.gc.ca** so he can introduce Enzymicals to NRC's **chemistry and synthetic-biology teams**. Send a short Enzymicals overview and ask explicitly for those two introductions."
+   },
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Nicolette J; moved Lead → Contacted on Oct 26 (source: LinkedIn messaging).",
+   "linkedin_url": "https://www.linkedin.com/in/berruef"
+  },
+  "snapshot": [
+   {
+    "label": "Organisation",
+    "value": "Canada's federal **R&D agency** — planned 2026-27 spending of about **C$1.9B** and ~**4,400 FTEs**; runs industry collaborations and fee-for-service research"
+   },
+   {
+    "label": "Lead's centre",
+    "value": "**Aquatic and Crop Resource Development (ACRD)** — turns agricultural and marine bioresources into food, feed, ingredients and high-value bioproducts (~205 staff in 2022)"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Analytical chemist: **NMR + chemometrics** for quality and safety of foods, natural health products and functional ingredients — a method developer, not a buyer of enzymes"
+   },
+   {
+    "label": "Real targets",
+    "value": "The NRC **chemistry** and **synthetic-biology (symbio)** teams Fabrice offered to introduce — names to be confirmed"
+   },
+   {
+    "label": "Contact",
+    "value": "fabrice.berrue@nrc-cnrc.gc.ca"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#5 Chemicals (research scientists)** with overlap into **#2 Food & Beverage** — partial fit: a public research partner/door-opener rather than a direct buyer; value is in co-development, grant-funded projects and NRC's industry network."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "Chemist to chemist, both European-trained: David (PhD chemistry, Duisburg-Essen; ex-Evonik) runs operations at a biocatalysis company; Fabrice is a francophone analytical chemist at a public bioresource-to-bioproducts centre. Natural common ground: analytics for biotransformations and bio-based ingredients."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Both are **chemists working on bio-based molecules**: Enzymicals makes them with enzymes; NRC ACRD converts crops, algae and seafood by-products into ingredients and bioproducts.",
+    "Both have links to **public-funded collaborative R&D**: David coordinated the EU project MACBETH; NRC runs collaborative and fee-for-service programs with industry.",
+    "Fabrice is **French-speaking (native)** — a French or bilingual note may land well (to be confirmed if David wants to use it).",
+    "He already offered the next step himself: an intro to NRC's **chem and synbio teams**."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Enzymes as the missing step between synbio and chemistry",
+    "text": "NRC synbio teams build strains and pathways; chemistry teams make and modify molecules. Enzymicals bridges both with **enzyme screening, enzyme engineering and chemo-enzymatic route development** — offer to be the biocatalysis partner on joint projects."
+   },
+   {
+    "title": "From lab result to kilos",
+    "text": "Public labs often stop at proof of concept. Enzymicals takes a biotransformation **from mg to ton scale** and can supply **recombinant enzymes** for research — useful when NRC's industry partners need scale-up."
+   },
+   {
+    "title": "Upgrading bioresources with enzymes",
+    "text": "ACRD works on oilseeds, algae, seafood by-products and biomass waste. Selective enzymatic conversion (esterases, lipases, oxidoreductases) can turn extracts into **higher-value ingredients** — a concrete angle for a joint proposal."
+   }
+  ],
+  "person": {
+   "name": "Fabrice Berrué",
+   "text": "Analytical chemist at NRC's **Aquatic and Crop Resource Development** Research Centre in **Halifax**. At the Maritimes Biological Chemistry Conference (Aug 2023, Halifax) he gave the keynote as **Research Officer and Team Lead, NRC**, on **NMR-based methods** (with chemometrics) to check the quality and safety of foods and functional ingredients — natural health products, roasted coffee, honey and pulse products. NRC has featured him for NMR analysis for the agri-food industry. LinkedIn: 1,181 followers, 500+ connections; native French, advanced English. His LinkedIn experience/education sections are empty, so earlier career and degrees are **to be confirmed**. He recently shared an NRC posting for a **Team Lead, Natural Products and Analytical team (Halifax)** — his current title may have changed (to be confirmed); the NRC facility page lists Andrew Robertson as Team Lead, Natural Products Chemistry."
+  },
+  "company": {
+   "text": "The **National Research Council Canada** is the federal government's main research and technology organisation, working with industry, universities and other governments through collaborative R&D, fee-for-service work and technology licensing. Its 2026-27 plan highlights **biomanufacturing and life sciences** (including the Biologics Manufacturing Centre). The **ACRD** centre focuses on agrifood and marine biotechnology on an industrial-biotech platform; its disciplines include natural product chemistry, bioprocessing, analytical technologies, algal technologies, marine biotech and plant biotech. ACRD sites are spread across Canada, including Halifax (NPAT facilities) and Charlottetown. Business contact for ACRD: April Luong, Director, Business Development."
+  },
+  "financials": {
+   "country": "Canada, federal government agency",
+   "text": "**Planned spending 2026-27:** about **C$1.92B** (all NRC, incl. internal services). **Planned staff:** ~4,395 FTEs. **ACRD (evaluation 2015-16 to 2020-21):** C$30.2M revenues vs C$207.3M expenses over six years; 205 staff (Jan 2022). No funding rounds — NRC is publicly funded and earns revenue from industry collaborations and fee-for-service. Budget for buying outside enzyme services is **to be confirmed**; a realistic path is joint projects (NRC programs, partner-funded work) rather than a direct purchase."
+  },
+  "history": {
+   "text": "LinkedIn (as David). Fabrice replied late and said he is not sure NRC is the right customer, but asked David to send a note to **fabrice.berrue@nrc-cnrc.gc.ca** — he will then introduce David to NRC's **chemistry and synthetic-biology teams**. Box created Oct 23, 2026 by Nicolette J; moved Lead → Contacted Oct 26. Streak: Fit Medium, Interest Low, Source Messaging (LinkedIn)."
+  },
+  "industry": [
+   {
+    "title": "Canada is investing in biomanufacturing",
+    "text": "NRC's 2026-27 plan makes biomanufacturing and life sciences a priority; Atlantic Canada is also building a 75,000 sq ft **BioAccelerator** scale-up facility in Charlottetown (C$25M federal + C$25M P.E.I.)."
+   },
+   {
+    "title": "Bioresource upgrading needs selective chemistry",
+    "text": "Turning crops, algae and fish by-products into ingredients needs mild, selective conversions — a natural fit for enzymes over harsh chemistry."
+   }
+  ],
+  "talking_points": [
+   "Thank you for offering the intro — which **chemistry and synbio teams** would be the best fit, and where are they based?",
+   "Where do NRC's synbio projects hit a wall today — **enzyme activity, selectivity, or scale-up** of a biotransformation?",
+   "Does NRC partner with outside companies on **co-funded projects**, and how do those usually start?",
+   "Which NRC industry partners need to move a biocatalytic step **from mg to kg or ton scale**?",
+   "From your NMR work: would better analytics on enzymatic products be useful to your industry clients?"
+  ],
+  "attention": [
+   {
+    "title": "Send the email now.",
+    "text": "He asked for it; a slow reply loses the warm intro. Keep it short: who Enzymicals is, 3 capabilities (screening, enzyme engineering, chemo-enzymatic scale-up mg→ton, recombinant enzymes), and a clear ask for intros to the chem and synbio teams."
+   },
+   {
+    "title": "He is not a buyer.",
+    "text": "Fabrice said NRC may not be a customer. Treat him as a door-opener; pitch partnership and joint projects, not a sale."
+   },
+   {
+    "title": "Title to be confirmed.",
+    "text": "He was presented as Team Lead in 2023, but he recently shared an NRC Team Lead posting for his own team. Use 'Research Officer at NRC' unless confirmed."
+   },
+   {
+    "title": "Update Streak.",
+    "text": "Log that the email was sent and add a follow-up task in ~7 days if no intro arrives."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Enzymicals pipeline (box, LinkedIn thread summary)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Fabrice Berrué public profile and activity (Oct 28, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Maritimes Biological Chemistry Conference 2023 programme (Dalhousie) — keynote listing"
+   },
+   {
+    "used": true,
+    "text": "NRC — 2026-27 Departmental Plan"
+   },
+   {
+    "used": true,
+    "text": "NRC — Summary report, Evaluation of the ACRD Research Centre"
+   },
+   {
+    "used": true,
+    "text": "Innovation.ca Research Facilities Navigator — NRC NPAT facilities contact page"
+   },
+   {
+    "used": true,
+    "text": "ACOA news — Growing Atlantic Canada's biomanufacturing capacity (Feb 2023)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — NRC company page follower count (page blocked; not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared October 28, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Large public agency with a steady, multi-channel voice (**LinkedIn, news releases, NRC Stories**); Fabrice himself has a modest profile (**1,181 followers**).",
+   "detail": "NRC publishes regular stories on its research and staff (Fabrice's NMR work was featured) and job and program posts on LinkedIn. Content is institutional, not sales-driven. Fabrice mainly reshares NRC news and job postings; few original posts.",
+   "context": "Web-audited Oct 28, 2026; NRC follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — NRC / CNRC",
+     "audience": "To be confirmed",
+     "recency": "Active (reshared by Fabrice: phytoplankton, kelp restoration, job posts)",
+     "read": "Active"
+    },
+    {
+     "channel": "NRC Stories / news (nrc.canada.ca)",
+     "audience": "Industry, government, media",
+     "recency": "Regular",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn — Fabrice Berrué",
+     "audience": "1,181 followers · 500+ connections",
+     "recency": "Frequent reshares; few original posts",
+     "read": "Modest"
+    }
+   ],
+   "note": "NRC likes partnership stories. A joint project with a European biocatalysis company could become an NRC story — a benefit to mention later."
+  },
+  "network": {
+   "summary": "No shared network between David and Fabrice was verified. Fabrice sits in the Atlantic Canada bioresources and ocean-biotech community (NRC, Merinov, Chinova Bioworks, Industrial Plankton).",
+   "items": [
+    "NRC ACRD contacts: **April Luong** (Director, Business Development, ACRD) and **Andrew Robertson** (Team Lead, Natural Products Chemistry) — check if David knows either.",
+    "The **chem and synbio team leads** Fabrice will introduce — names to be confirmed after his intro.",
+    "Your exact number of shared connections with Fabrice is on his LinkedIn profile, under the name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/berruef",
+    "label": "See your mutual connections with Fabrice on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Recent (2026)",
+    "where": "LinkedIn (share)",
+    "text": "Shared an NRC posting for a **Team Lead, Natural Products and Analytical team** in Halifax, plus Chemistry (Charlottetown) and Business Development (Atlantic) roles.",
+    "use": "Signals NRC is growing its chemistry teams — ask how the teams are organised."
+   },
+   {
+    "when": "Before May 2026",
+    "where": "LinkedIn (share)",
+    "text": "Shared the **Blue Food Innovation Summit** (London, May 27–28, 2026).",
+    "use": "Shows interest in marine and food bio-innovation — link to enzymatic upgrading of marine by-products."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (reshare)",
+    "text": "Reshared a High Commission of Canada post on **engineering biology**.",
+    "use": "Good bridge to the synbio intro he offered."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (reshare)",
+    "text": "Reshared NRC's profile of his **NMR analysis for the agri-food industry**.",
+    "use": "Compliment the work; analytics matters for enzyme product quality."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Maritimes Biological Chemistry Conference (MBCC 2023)",
+    "when": "Halifax, Aug 28, 2023",
+    "role": "Keynote speaker (Fabrice)",
+    "note": "Talk on NMR methods for food and functional-ingredient quality and safety."
+   }
+  ],
+  "hooks": [
+   "Thank him for the offer to connect David with the **chem and synbio teams** — make the ask easy to forward.",
+   "Write the email so he can **forward it as-is**: 5 lines, one link, one PDF.",
+   "Optional: a line in **French** — he is a native speaker.",
+   "Frame Enzymicals as a **partner for joint projects** (biocatalysis + scale-up mg→ton), not a vendor.",
+   "Mention marine/crop by-product upgrading with enzymes — close to ACRD's mission."
+  ]
+ },
+ "send": false
+}

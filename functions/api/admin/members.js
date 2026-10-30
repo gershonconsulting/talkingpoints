@@ -7,13 +7,17 @@ export async function onRequestPost({ request, env }) {
   const b = await request.json().catch(() => ({}));
   const email = String(b.email || '').trim().toLowerCase();
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json({ error: 'Check the email address.' }, 400);
+  const login = String(b.login_email || '').trim().toLowerCase();
+  if (login && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(login)) return json({ error: 'Check the LinkedIn email.' }, 400);
   const client = await env.DB.prepare('SELECT id FROM clients WHERE id = ?').bind(Number(b.client_id)).first();
   if (!client) return json({ error: 'Pick a client.' }, 400);
   await env.DB.prepare(
-    `INSERT INTO members (client_id, email, name, title, can_manage) VALUES (?, ?, ?, ?, ?)
-     ON CONFLICT(email) DO UPDATE SET client_id = excluded.client_id, name = excluded.name,
-       title = excluded.title, can_manage = excluded.can_manage`
-  ).bind(client.id, email, String(b.name || '').trim(), String(b.title || '').trim(), b.can_manage ? 1 : 0).run();
+    `INSERT INTO members (client_id, email, login_email, name, title, can_manage) VALUES (?, ?, ?, ?, ?, ?)
+     ON CONFLICT(email) DO UPDATE SET client_id = excluded.client_id,
+       login_email = COALESCE(excluded.login_email, members.login_email),
+       name = COALESCE(NULLIF(excluded.name, ''), members.name),
+       title = COALESCE(NULLIF(excluded.title, ''), members.title), can_manage = excluded.can_manage`
+  ).bind(client.id, email, login && login !== email ? login : null, String(b.name || '').trim(), String(b.title || '').trim(), b.can_manage ? 1 : 0).run();
   return json({ ok: true });
 }
 
