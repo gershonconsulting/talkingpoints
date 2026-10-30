@@ -1,0 +1,89 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldi98t8KDA",
+ "company": "Citi (Citigroup Inc.), Singapore",
+ "lead_name": "Kanika Berry",
+ "lead_role": "Managing Director, Head of FX Structuring and Solutions",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Citi (Citigroup Inc.), Markets / FX, Singapore",
+   "person": "Kanika Berry",
+   "role": "Managing Director, Head of FX Structuring and Solutions",
+   "location": "Singapore",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium", "tone": "warn"}, {"label": "Open to meet", "tone": "good"}, {"label": "Lukewarm on partnership", "tone": "warn"}, {"label": "Email to watch", "tone": "warn"}],
+   "alert": {"title": "Next step:", "text": "Kanika said she **can't see an immediate partnership angle** but is **keen to meet Noza** and asked for her email so she can write from her official Citi ID. Steve sent **noza.mutalova@finance-montreal.com** on Oct 23. **Watch Noza's inbox**; if nothing arrives within a few days, **Noza writes first** (kanika.berry@citi.com)."},
+   "source_line": "Lead added to Streak on Oct 23, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/kanika-berry-170a395"
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Citigroup Inc.** (NYSE: C), global bank; FY2025 revenue **$85.2B**, net income **$14.3B**; Markets revenue **$22.0B**"},
+   {"label": "Team", "value": "Kanika heads **FX Structuring and Solutions** from **Singapore**: structured FX hedging and solutions for corporate and institutional clients (exact scope to be confirmed)"},
+   {"label": "Citi in Canada", "value": "Citi has been in **Montreal since 1919** and still has an office at **1501 McGill College Ave**; Citi Canada is **expanding** (about 1,000 more hires planned)"},
+   {"label": "Contact", "value": "kanika.berry@citi.com · LinkedIn kanika-berry-170a395"},
+   {"label": "Finance Montréal angle", "value": "Not a partnership: an **IFC location case** for Citi FX/Markets support, quant and structuring roles in the **New York time zone** at about **half NY operating cost**"}
+  ],
+  "in_common": {
+   "best_match": {"name": "Noza Mutalova", "reason": "Kanika asked **specifically to meet Noza** and to write to her directly from her Citi email; Noza owns the follow-up and the meeting."},
+   "items": [
+    "**Capital markets language:** Steve (VP Direct Investment) opened the conversation; the pitch is about where Citi places **Markets and FX roles**, which is Finance Montréal's core business.",
+    "**Citi already knows Montreal:** Citi has operated in Montreal since 1919 and keeps an office downtown (McGill College Ave).",
+    "**No shared employer, school or contact verified** between Steve/Noza and Kanika (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {"title": "Not a partnership, a location option", "text": "Reframe: Finance Montréal is not asking Citi to partner. It helps banks **place teams** in Montreal. The question for Kanika is whether any **FX structuring, pricing, quant, risk or middle-office** work supporting her book could sit in Montreal."},
+   {"title": "New York hours at about half the cost", "text": "Montreal is in the **same time zone as New York**. A Finance Montréal-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**. Useful for an Americas-hours FX coverage or follow-the-sun model with Singapore and London."},
+   {"title": "Citi is already growing in Canada", "text": "Citi Canada's CEO said in July 2026 the bank plans about **1,000 more hires** in Canada and that its Mississauga hub **competes with about 20 other Citi hubs for global mandates**. Montreal (with the IFC tax credit) is a way to win some of those mandates in Canada."}
+  ],
+  "person": {"name": "Kanika Berry", "text": "Managing Director and **Head of FX Structuring and Solutions** at Citi, based in **Singapore** (per her LinkedIn and Streak). Her prior roles, education and time at Citi are **to be confirmed** on her LinkedIn profile: no press coverage of her appointment was found. In the LinkedIn exchange she was **polite but lukewarm**: no immediate partnership angle, but keen to learn more from Noza."},
+  "company": {"text": "Citigroup is a US global bank organised around Services, Markets, Banking, Wealth and US Personal Banking. **Markets** (which includes FX) earned **$22.0B in 2025**, with **Rates and Currencies at $11.4B (+12%)**. In Asia, Citi has been **hiring FX specialists**: seven senior FX hires across Japan, Asia North, Australia and Asia South (incl. Singapore) between Sep and Nov 2025. In Canada, Citi has offices in **Toronto (HQ), Montreal, Calgary, Vancouver and Mississauga** (about 3,500 staff at the Mississauga tech hub) and is investing in its sites, **including Montreal**."},
+  "financials": {"country": "USA, listed (NYSE: C)", "text": "**FY2025:** revenue **$85.2B** (+6%), net income **$14.3B** (+13%), diluted EPS **$6.99** (+18%), RoTCE **7.7%**. **Markets $22.0B** (+11%); Fixed Income Markets **$16.2B** (+10%); **Rates and Currencies $11.4B** (+12%; FX is not reported separately). Services $21.3B (+8%). About **226,000 staff** at Dec 31, 2025 (-1%). Source: Citi 4Q25 earnings release, Jan 14, 2026. 2026 quarterly figures not included here."},
+  "history": {"text": "LinkedIn (as Steve). Kanika replied that she **can't see an immediate partnership angle** but is **keen to meet Noza** to understand more, and asked for Noza's email so she could write from her official ID. On **Oct 23, 2026** Steve shared **noza.mutalova@finance-montreal.com**. Box created Oct 23 by Juliana R. **Open item:** no email from Kanika logged yet; if none in a few days, Noza writes first."},
+  "industry": [
+   {"title": "Banks are re-cutting their location maps", "text": "Global banks run networks of hubs that compete for mandates on cost and talent. Citi Canada describes exactly this competition for its Mississauga hub."},
+   {"title": "Montreal's financial depth", "text": "Finance Montréal cites **120,000+ finance and insurance professionals** and **150,000+ tech specialists**, and lists **Morgan Stanley, State Street, BNP Paribas, Société Générale, Crédit Agricole and Squarepoint** among institutions that chose Montreal."},
+   {"title": "IFC tax credit", "text": "Quebec's International Financial Centre measure gives up to **C$18,000 per eligible employee per year** for international financial transactions (e.g. securities trading, portfolio management), third-party admin support (settlement, clearing) and some outsourced services (compliance, data, IT). Whether **FX structuring** roles qualify is **to be confirmed** case by case."},
+   {"title": "AI and quant talent", "text": "Montreal is known for AI research and quantitative finance talent (risk, trading, IT), plus Station Fintech, Canada's largest fintech hub per Finance Montréal. Relevant for FX pricing, analytics and automation."}
+  ],
+  "talking_points": [
+   "Where does her team's **pricing, risk, quant and middle-office support** sit today (Singapore, London, New York, Mumbai, other Citi hubs)?",
+   "Does Citi need **Americas-hours coverage** for FX structuring, and is New York cost a constraint?",
+   "Is she aware Citi has had a **Montreal office since 1919** and is expanding in Canada? Who at Citi decides on new hub locations?",
+   "Would a short **cost and IFC-credit comparison** (Montreal vs New York/London) for a small FX support team be useful to share internally?",
+   "Could she **introduce Noza** to the Citi Canada or Markets operations person who owns location decisions?"
+  ],
+  "attention": [
+   {"title": "She is lukewarm.", "text": "Don't push a partnership. Ask questions, offer data, and aim for an **introduction** to the right Citi decision-maker rather than a commitment from her."},
+   {"title": "Follow up on the email.", "text": "Kanika promised to write from her Citi address. If nothing arrives within a few days of Oct 23, Noza writes first."},
+   {"title": "Time zone.", "text": "Singapore is 12 hours ahead of Montreal (13 in winter): propose early-morning or evening Montreal slots."},
+   {"title": "IFC eligibility.", "text": "Don't promise the credit for FX structuring roles; say it depends on the activity and Finance Montréal will check."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak: box and LinkedIn conversation summary (Oct 23, 2026)"},
+   {"used": true, "text": "Citigroup 4Q25 earnings release / 8-K (Jan 14, 2026): FY2025 figures"},
+   {"used": true, "text": "citigroup.com, Citi in Canada page: offices and history"},
+   {"used": true, "text": "The Logic (Jul 16, 2026): Citi Canada expansion, interview with CEO Raymond Gatcliffe"},
+   {"used": true, "text": "finance-montreal.com: IFC pages, IFC credit, Boyd Company 2026 cost study"},
+   {"used": true, "text": "East & Partners / The TRADE (Nov 2025): Citi FX hires in Asia"},
+   {"used": false, "text": "LinkedIn profile of Kanika Berry (not readable; background to be confirmed)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared October 30, 2026",
+  "grade": {"letter": "B", "headline": "**Citi's corporate channels are very large**; Kanika's own LinkedIn activity is **low-visibility** (no public posts found).", "detail": "Citi publishes daily across LinkedIn, X, YouTube and its research sites. Kanika's personal presence could not be verified; follower counts are to be confirmed. The conversation will rely on direct email, not social content.", "context": "Web-audited Oct 30, 2026."},
+  "social": {"rows": [
+   {"channel": "LinkedIn: Citi (company page)", "audience": "Very large (to be confirmed)", "recency": "Daily", "read": "Strong"},
+   {"channel": "citigroup.com / Citi Research", "audience": "Clients, investors", "recency": "Active", "read": "Strong"},
+   {"channel": "LinkedIn: Kanika Berry", "audience": "To be confirmed", "recency": "No public posts found", "read": "Low"}
+  ], "note": "Engage through direct email; a later LinkedIn thank-you after the meeting is enough."},
+  "network": {"summary": "No shared network between Steve and Kanika was verified.", "items": ["Steve's exact number of shared connections with Kanika is on her LinkedIn profile.", "Check whether Steve or Noza knows anyone at Citi Canada (Toronto or the Montreal office)."], "link": {"url": "https://www.linkedin.com/in/kanika-berry-170a395", "label": "See Steve's mutual connections with Kanika on LinkedIn"}},
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank her for making time despite no obvious partnership angle.",
+   "Open on **Citi's own Montreal history (since 1919)** and its current Canada expansion.",
+   "Offer a **one-page cost and IFC comparison** for a small FX support team, and ask for an intro to the location decision-maker."
+  ]
+ },
+ "send": false
+}
