@@ -1,5 +1,5 @@
 TALKINGPOINTS.GERSHON.AI — HANDOFF
-Updated 2026-10-28 (v1.0.2)
+Updated 2026-10-30 (v1.5.5)
 
 WHAT IT IS
 Client-facing app for Gershon Consulting clients (pilot: Valos). Clients sign in with LinkedIn,
@@ -63,10 +63,10 @@ STATUS
 ✅ Repo gershonconsulting/talkingpoints created by Olivier; code pushed by Claude
 ✅ Settings page, Google Calendar sync, hourly job, recipients — tested locally
 ✅ 2026-10-26 Cloudflare: D1 created, Pages project connected to the repo, live at gershon-talkingpoints.pages.dev
-✅ 2026-10-28 v1.0.1: brief emails with any non-Gershon recipient = client version (no "Needs your attention"/
+✅ 2026-10-28 v1.5.4: brief emails with any non-Gershon recipient = client version (no "Needs your attention"/
    CRM flags/internal notes, sender "Gershon Consulting"); all-Gershon recipients = internal version (sender
    "GC Talking Points"); subject "[21] Talking Points : …" (functions/_audience.js).
-✅ 2026-10-28 v1.0.2: dashboard follows the same rule. GET/POST /api/leads/:box strip attention/internal/
+✅ 2026-10-30 v1.5.5 (was v1.0.2 before rebase onto #4): dashboard follows the same rule. GET/POST /api/leads/:box strip attention/internal/
    internal_notes/crm_flags/streak_flags from `data` and the rendered `html` unless the signed-in user is the
    owner or has a gershonconsulting.com / gershon.ai email (isInternalUser/forViewer in _audience.js); /api/me
    returns member.is_internal; the Settings template list hides "Needs your attention" for client users.
