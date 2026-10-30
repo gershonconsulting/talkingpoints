@@ -258,7 +258,7 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.0.2';
+export const VERSION = '1.5.5';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay
@@ -284,6 +284,14 @@ export async function sendEmail(env, { to, subject, html, text, reply_to = 'oliv
   const out = await res.json().catch(() => ({}));
   if (!res.ok || !out.ok) throw new Error(`Relay ${res.status}: ${JSON.stringify(out)}`);
   return out;
+}
+
+// Records one send attempt in send_log (never throws).
+export async function logSend(env, { client_id, box_key = '', company = '', lead_name = '', sent_by = '', to = [], status = 'sent', error = '' }) {
+  try {
+    await env.DB.prepare('INSERT INTO send_log (client_id, box_key, company, lead_name, sent_by, to_list, status, error) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+      .bind(client_id, box_key, company, lead_name, sent_by, (Array.isArray(to) ? to : [to]).join(', '), status, String(error).slice(0, 500)).run();
+  } catch { /* the log must never block a send */ }
 }
 
 export function rowToBrief(r) {
