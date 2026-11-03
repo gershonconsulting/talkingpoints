@@ -1,0 +1,292 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOWPj8fbCQw",
+ "company": "TD",
+ "lead_name": "Anthony V. Lambie",
+ "lead_role": "Associate VP Marketing Technology",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "TD Bank Group (Toronto-Dominion Bank) · Canada's #2 bank by assets, ~28.1M clients in Canada and the US",
+   "person": "Anthony V. Lambie",
+   "role": "Associate VP, Marketing Technology",
+   "location": "To be confirmed · HQ Toronto, Ontario",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Owns marketing tech roadmap",
+     "tone": "good"
+    },
+    {
+     "label": "Said 'happy to have a call'",
+     "tone": "good"
+    },
+    {
+     "label": "Only banking reply in 2 months",
+     "tone": "good"
+    },
+    {
+     "label": "Invite not sent yet",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Anthony said **yes to a call on Sep 21** and gave his email. No invite shows in Streak. **Send a calendar invite to anthony.lambie@td.com today** with 2–3 time slots and a one-line agenda on Kazaar. Apologise briefly for the delay."
+   },
+   "source_line": "Lead added to Streak on Sep 23, 2026 by Johanna T; moved to Contacted Nov 2. Source: LinkedIn messaging (as Anne), Banking campaign pitching Kazaar. Industry: banking / financial services.",
+   "linkedin_url": "https://www.linkedin.com/in/anthony-v-lambie-99b1685"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Canada's big-five bank, **100,000+ colleagues**, ~28.1M clients"
+   },
+   {
+    "label": "FY2025 revenue",
+    "value": "**C$67.8B** reported (C$61.8B adjusted)"
+   },
+   {
+    "label": "Lead",
+    "value": "AVP Marketing Technology: **he runs the systems marketing uses**"
+   },
+   {
+    "label": "Timing",
+    "value": "New 'More Human' brand (Feb 2026) + cost program 'Simpler & Faster'"
+   },
+   {
+    "label": "Status",
+    "value": "Said yes to a call **6 weeks ago** — invite still owed"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Anne sells **marketing workflow (Kazaar)**; Anthony **builds and runs TD's marketing technology**. Same problem space: briefs, approvals, suppliers."
+   },
+   "items": [
+    "**Anne is already 1st-degree with Anthony** (since Sep 1, 2026) and with **Maja Neable** (LinkedIn headline: CMO, TD; since Sep 8, 2026).",
+    "Anthony's past roles (American Express, Sun Life) are also big financial-services marketing/CRM shops, a familiar world for Altavia's banking pitch."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Close the loop first",
+    "text": "Open with a short apology for the delay and thank him for agreeing to talk. Keep the meeting to **30 minutes**."
+   },
+   {
+    "title": "Tie Kazaar to his job",
+    "text": "He owns the **marketing technology roadmap**. Pitch Kazaar as one layer for **briefs, quotes, supplier management and approvals**, sitting next to the tools TD already runs, not replacing them."
+   },
+   {
+    "title": "Use the rebrand",
+    "text": "TD launched a **single new visual identity** for Canada and the US in Feb 2026. Every branch and store needs new printed and in-branch materials. Ask how they manage the briefs and suppliers behind that rollout."
+   },
+   {
+    "title": "Speak to 'Simpler & Faster'",
+    "text": "TD's new strategy has a **Simpler & Faster** pillar and targets **~C$750M in annual savings**. Altavia's typical **10–15% savings** on print/POSM and workflow automation fit that goal."
+   }
+  ],
+  "person": {
+   "name": "Anthony V. Lambie",
+   "text": "Associate Vice President on the **technology side of TD marketing**. A York University alumni profile describes him as AVP of Marketing, Collaboration and Internet Technology, leading the IT team that **builds and supports TD's marketing and internet applications and sets their strategic roadmap** (also listed as Head of CX Engagement & Marketing Technology). He joined TD in **2013**. Before that: about 7.5 years at **American Express** supporting marketing and contact-centre technology across seven markets, then **AVP CRM and Contact Centre Solutions at Sun Life Financial**. BA in Political Science, York University. He is a **technology buyer/owner, not the creative or brand lead** — expect questions on integration, security, data and IT approval. Exact current title and team size: to be confirmed on LinkedIn."
+  },
+  "company": {
+   "text": "TD Bank Group is one of Canada's largest banks, headquartered in Toronto, serving **over 28.1 million clients** with **13M+ active mobile users** in Canada and the US. In the US, TD Bank runs about **1,048 retail stores** in 15 states and D.C. (as of Jul 31, 2026). In Canada, TD Canada Trust runs roughly **1,000+ branches** (to be confirmed). On **Feb 9, 2026** TD launched **'More Human'**, its first single brand identity across Canada and the US, with a new visual identity by **Jones Knowles Ritchie** and creative by **Publicis Canada**. TD says the rollout runs across platforms and touchpoints through the year and that it wants to keep its branch-centric identity while pushing to 70% digital adoption. Global CMO is **Tyrrell Schmidt** (since Dec 2023). TD also built **TD AI Prism**, an in-house predictive AI model used for marketing personalization."
+  },
+  "financials": {
+   "country": "Canada, listed (TSX/NYSE: TD) · fiscal year ends Oct 31",
+   "text": "**Fiscal 2025 (to Oct 31, 2025):** revenue **C$67.8B** reported / **C$61.8B** adjusted; net income **C$20.5B** reported (boosted by the C$8.6B gain on selling its Schwab stake) / **C$15.0B** adjusted; adjusted EPS C$8.37. CET1 ratio 14.7%. New strategy: **Deeper Relationships, Simpler & Faster, Disciplined Execution**. Restructuring of ~C$825M with **~C$750M targeted annual savings** and ~3% workforce reduction. Still under US AML remediation (about US$500M spend expected in fiscal 2026). **Fiscal 2026 full-year results are due early December 2026** (not yet published)."
+  },
+  "history": {
+   "text": "Anne's LinkedIn message (Banking campaign, Kazaar pitch) got a reply from Anthony on **Sep 21, 2026**: \"Hi Anne, happy to have a call. Please send an invite to Anthony.lambie@td.com\". Anne answered: \"I'll connect via email to set something up.\" Johanna T created the Streak box on Sep 23; it moved to **Contacted on Nov 2**. **No email to Anthony is logged in Streak**, so the invite appears never to have been sent. This is the **only banking reply in two months** of the campaign. Open item: send the calendar invite now."
+  },
+  "industry": [
+   {
+    "title": "Approval bottlenecks are the pain",
+    "text": "Bank marketing content goes through brand, legal and compliance sign-off. Industry write-ups (e.g. Merkle, 2026) describe workflows that are slow, fragmented and 'linear and approval-driven'."
+   },
+   {
+    "title": "Banks are buying workflow automation now",
+    "text": "On **Oct 29, 2026** NatWest added Adclear AI agents to its marketing approval workflow (built into Workfront) and reported **80% faster approvals** with one audit trail. A timely, concrete peer example."
+   },
+   {
+    "title": "Rebrands drive in-branch spend",
+    "text": "A new identity across ~2,000+ branches/stores means signage, brochures, displays and POS. That is Altavia's core print/POSM territory, where up to **70% of in-store materials are never installed**."
+   },
+   {
+    "title": "Cost pressure on big Canadian banks",
+    "text": "TD's own savings target and job cuts mean marketing ops must do more with less: a direct case for supplier consolidation and automated quotes."
+   }
+  ],
+  "talking_points": [
+   "How does TD marketing handle a request today, from brief to quote to approval to delivery? Which tools touch it (Workfront, Adobe, in-house)?",
+   "With the 'More Human' rebrand rolling out, how are branch and store materials being briefed, produced and deployed across Canada and the US?",
+   "How many print and POSM suppliers does TD use, and who owns supplier selection and quotes — marketing, procurement, or each line of business?",
+   "Where do compliance and legal approvals slow things down most?",
+   "What does your marketing technology roadmap look like for 2027, and where would a workflow layer like Kazaar fit?",
+   "What does IT need to see to approve a new marketing platform (security review, SSO, data residency in Canada)?",
+   "Who else should join a follow-up — brand, procurement, or branch marketing?"
+  ],
+  "attention": [
+   {
+    "title": "Six weeks of silence",
+    "text": "He said yes on Sep 21 and nobody followed up. Acknowledge it and make the invite easy to accept."
+   },
+   {
+    "title": "He is IT, not brand",
+    "text": "Anthony owns technology, not budgets for print or creative. Expect him to bring in marketing ops or procurement. Ask for those names."
+   },
+   {
+    "title": "Heavy compliance and security",
+    "text": "A big regulated bank under US AML remediation will have long vendor-risk and security reviews. Do not promise fast deployment."
+   },
+   {
+    "title": "Cost cuts cut both ways",
+    "text": "Savings goals help the pitch, but new spending is scrutinised. Lead with savings and fewer suppliers, not new spend."
+   },
+   {
+    "title": "Title to be confirmed",
+    "text": "Public sources give slightly different titles. Check his LinkedIn before the call."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box, LinkedIn exchange and stage history (Sep 21 – Nov 2, 2026)"
+   },
+   {
+    "used": true,
+    "text": "TD Q4 & fiscal 2025 results press release (Dec 4, 2025)"
+   },
+   {
+    "used": true,
+    "text": "TD newsroom / Business Wire: 'More Human' brand launch (Feb 9, 2026)"
+   },
+   {
+    "used": true,
+    "text": "MediaPost: Publicis Canada and Jones Knowles Ritchie on TD rebrand"
+   },
+   {
+    "used": true,
+    "text": "Banking Dive (via pulse.bot): TD keeps branch 'essence' amid refresh (Feb 20, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Strategy (strategyonline.ca): Tyrrell Schmidt named global CMO (Dec 18, 2023)"
+   },
+   {
+    "used": true,
+    "text": "TD Bank US corporate profile (stores as of Jul 31, 2026)"
+   },
+   {
+    "used": true,
+    "text": "York University LA&PS alumni profile of Anthony Lambie"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn TD company page (public view): followers and recent posts"
+   },
+   {
+    "used": true,
+    "text": "IT Brief: NatWest + Adclear marketing approvals (Oct 29, 2026); Merkle article on AI content supply chains in financial marketing"
+   },
+   {
+    "used": false,
+    "text": "Anthony's LinkedIn profile: not audited (login wall); current title and activity to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "TD Canada branch count: only an older figure found (~1,100), to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "TD's current marketing workflow / DAM tools: not publicly confirmed"
+   },
+   {
+    "used": true,
+    "text": "Anne Bougel's LinkedIn network export (3,327 connections, Mar 2025 – Oct 2026), Google Drive"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Altavia (Anne) · prepared November 3, 2026",
+  "grade": {
+   "letter": "A",
+   "headline": "Very large LinkedIn page (**~1.04M followers**) with steady, varied posting.",
+   "detail": "TD's main LinkedIn page posts regularly on community, awards (TIME's 2026 Canada's Best Companies #1), innovation (TD AI Prism, iD8) and in both English and French. The Feb 2026 'More Human' campaign ran on TV, YouTube, TikTok and Peacock. Strong reach and volume; engagement rates were not measured.",
+   "context": "Web-audited Nov 3, 2026 from the public LinkedIn page and news coverage."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company (TD)",
+     "audience": "~1,042,800 followers",
+     "recency": "Active, several posts recently",
+     "read": "Corporate voice: culture, awards, AI and community. Mentions TD AI Prism for marketing personalization."
+    },
+    {
+     "channel": "LinkedIn: employees",
+     "audience": "~105,000 employees listed",
+     "recency": "n/a",
+     "read": "Huge org: many marketing stakeholders beyond Anthony."
+    },
+    {
+     "channel": "TV / YouTube / TikTok / Peacock",
+     "audience": "North America",
+     "recency": "Feb 2026 launch",
+     "read": "'More Human' brand campaign by Publicis Canada."
+    },
+    {
+     "channel": "Anthony's LinkedIn",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Not audited."
+    }
+   ],
+   "note": "Grade covers the company's social presence, not Anthony personally."
+  },
+  "network": {
+   "summary": "**Anne is already 1st-degree with Anthony V. Lambie** (connected Sep 1, 2026) and with **Maja (Bogdanovic) Neable**, whose LinkedIn headline says **Chief Marketing Officer, TD** (connected Sep 8, 2026; exact scope to be confirmed, TD's Global CMO is Tyrrell Schmidt).",
+   "items": [
+    "Anthony V. Lambie: 1st-degree since Sep 1, 2026",
+    "Maja Neable – 'Chief Marketing Officer, TD' on LinkedIn: https://www.linkedin.com/in/maja-neable/ (connected Sep 8, 2026)",
+    "Use carefully: name-dropping the CMO can help or hurt; ask Anthony who else should join."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/anthony-v-lambie-99b1685/",
+    "label": "Open Anthony V. Lambie's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Feb 9, 2026",
+    "where": "TD newsroom / LinkedIn",
+    "text": "TD launched 'More Human', its first single brand for Canada and the US, with a new simplified visual identity.",
+    "use": "Ask how the rebrand is being rolled out to branches and stores, and who manages those materials."
+   },
+   {
+    "when": "2025–2026",
+    "where": "LinkedIn (TD page)",
+    "text": "Post on **TD AI Prism**, an in-house predictive AI model used for marketing and personalization.",
+    "use": "Shows TD invests in AI for marketing. Position Kazaar's AI automation on the operations side (briefs, quotes, approvals)."
+   },
+   {
+    "when": "2026",
+    "where": "LinkedIn (TD page)",
+    "text": "Repost of TIME ranking TD #1 among Canada's Best Companies 2026.",
+    "use": "Light opener / congratulations."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "**'You said yes in September — here's the invite I owed you.'** Honest and short.",
+   "TD's **new 'More Human' identity** means new materials across ~2,000+ branches and stores: who briefs, quotes and approves all of that?",
+   "**NatWest cut marketing approval time by 80%** with AI in its workflow (Oct 29, 2026). Kazaar brings the same idea to briefs, suppliers and approvals.",
+   "TD's **Simpler & Faster** pillar and **~C$750M savings target** match Altavia's typical **10–15% savings** on print and POSM.",
+   "Upcoming Canadian venues to meet in person: **Dx3 Canada** (Toronto, likely spring 2027, dates TBD) and **CMA Marketing Week** (Toronto/Vancouver/Montréal, held in May; 2027 dates to be confirmed)."
+  ]
+ },
+ "send": false
+}

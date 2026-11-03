@@ -1,0 +1,293 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWg48DRCww",
+ "company": "Pharmasave Canada",
+ "lead_name": "Victor Hwangbo",
+ "lead_role": "Marketing Programs Specialist",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Pharmasave (Canadian member-owned community pharmacy co-op) · Pharmasave West regional office",
+   "person": "Victor Hwangbo",
+   "role": "Marketing Programs Specialist, Pharmasave West",
+   "location": "To be confirmed · Pharmasave West office in Langley, BC",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Agreed to a 10-min chat",
+     "tone": "good"
+    },
+    {
+     "label": "Has an internal POS team",
+     "tone": "warn"
+    },
+    {
+     "label": "Buying authority unclear",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Victor gave his work email (**vhwangbo@pharmasavewest.ca**) but **no email has been sent yet**. Anne should email him today with **2 concrete time slots** for the 10-minute call, or a calendar link."
+   },
+   "source_line": "Lead added to Streak on Oct 9, 2026 by Aina R; moved to Contacted on Nov 2 by Nicolette J. Source: LinkedIn messaging (as Anne). Industry: pharmacy retail. Streak rating: Fit Low, Interest Low.",
+   "linkedin_url": "https://www.linkedin.com/in/victorhwangbo"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**915 Pharmasave stores** in Canada (Oct 2026), **~354 in the West** (BC, AB, SK, MB, YT)"
+   },
+   {
+    "label": "Model",
+    "value": "Member-owned **co-op**: independent owners, central marketing and merchandising programs"
+   },
+   {
+    "label": "Lead",
+    "value": "Marketing Programs Specialist: **influencer, probably not the buyer**"
+   },
+   {
+    "label": "Status",
+    "value": "Said yes to **10 minutes**; email to book **not sent yet**"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Both work on **in-store marketing programs** that must be rolled out across **many stores**."
+   },
+   "items": [
+    "**Anne is already 1st-degree with Victor** (since Oct 6, 2026) and knows **Terry Denick** (Pharmasave East).",
+    "Altavia's retail clients (Sephora, L'Oréal, Estée Lauder) sell **beauty**, a front-store category Pharmasave also carries."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Respect his team first",
+    "text": "He said his team already optimizes POS displays and materials. Open with: **\"I'm not here to replace your team, I'm here to make their programs land in every store.\"**"
+   },
+   {
+    "title": "Talk about execution, not design",
+    "text": "In a co-op, head office designs the program but **independent owners decide** whether it goes up. Ask how he checks that POP and shelf signage are actually installed in ~350 Western stores. Use Altavia's stat: **up to 70% of in-store materials are never installed.**"
+   },
+   {
+    "title": "Tie it to Blue Rewards",
+    "text": "Pharmasave launched **Blue Rewards** nationwide in **June 2026**, with more in-store promotions promised through the year. New loyalty means new signage in every store: a natural reason to talk about print and POSM rollout."
+   },
+   {
+    "title": "Keep it to 10 minutes",
+    "text": "He asked for 10 minutes. Stick to it, then ask **who else** should join a longer follow-up."
+   }
+  ],
+  "person": {
+   "name": "Victor Hwangbo",
+   "text": "**Marketing Programs Specialist** at Pharmasave West (from his LinkedIn messages and email domain). Specialist titles in a member co-op usually **run** programs (flyer, in-store signage, member campaigns) rather than **sign** vendor contracts. His LinkedIn profile could not be read during research, so his background, tenure and location are **to be confirmed**. He was polite and open: he gave his email and accepted a short chat, but he was clear that his team handles POS internally."
+  },
+  "company": {
+   "text": "Pharmasave was founded in **1981** in British Columbia. It is a **member-owned, member-governed co-op** of independent pharmacies: owners sit on regional boards and the national board, and profits go back to members. There are two regional offices: **West** (BC, AB, SK, MB, Yukon) and **East** (Ontario and Atlantic). The national office and Pharmasave West are both in **Langley, BC**. Pharmasave West is a small team (**~35 people**) that supports owners with tools and programs; it is **Great Place to Work certified** (2026 badge). Central programs include the **flyer**, website and app, digital ads, **point-of-purchase (POP) materials, branded shelf signage**, planograms and recommended pricing, plus **700+ private-label (Pharmasave Brand) products**. Stores range from about **500 to 22,000+ sq ft**, so one display rarely fits all. CEO of Pharmasave National: **Ivan Guillen** (since March 2023, ex-Kimberly-Clark and General Mills)."
+  },
+  "financials": {
+   "country": "Canada, private co-op",
+   "text": "Pharmasave is **not listed**, so revenue is not public. **Estimate (not verified):** with 900+ stores, system-wide retail sales are likely in the **several-billion CAD** range, but most of that belongs to independent owners, not the co-op. The marketing budget that matters for Altavia sits in the **regional and national program budgets**, which are not public. Location count: **915** stores as of Oct 9, 2026 (ScrapeHero): Ontario 489, BC 161, Alberta 126, Saskatchewan 51, Manitoba 15, Yukon 1. That makes **~354 stores in the West**."
+  },
+  "history": {
+   "text": "Anne contacted Victor on LinkedIn about optimizing Pharmasave's **POSM strategy and in-store execution**. Victor replied that his **internal team of specialists** already optimizes store POS displays and materials, but said he would be happy to have **a quick 10-minute chat** to learn more. Anne asked for his email and he gave **vhwangbo@pharmasavewest.ca**. **Open item:** no email has been logged in Streak yet. Anne must email him to book the call. This is the step where most Altavia leads stall, so the email should propose **specific times or a calendar link**, not ask \"when works for you?\"."
+  },
+  "industry": [
+   {
+    "title": "Pharmacy growth is in services, not the front store",
+    "text": "At Shoppers Drug Mart (Loblaw Q2 2026), pharmacy and services comparable sales grew **7.5%** but the front store grew only **1.3%**. Pharmacies need in-store marketing that works harder to lift front-store sales."
+   },
+   {
+    "title": "Loyalty is the new battleground",
+    "text": "Pharmasave moved to **BMO Blue Rewards** in June 2026 (800+ participating stores). A Blue Rewards survey says **65%** of people are more likely to pick a pharmacy with a loyalty program. Loyalty promos need consistent in-store signage."
+   },
+   {
+    "title": "Beauty is a strong front-store category",
+    "text": "Canadian prestige beauty grew **6%** to **$2.2B** in H1 2026 (Circana). Altavia's beauty references (Sephora, L'Oréal, Estée Lauder) are relevant here."
+   },
+   {
+    "title": "Wider pharmacist scope",
+    "text": "Provinces keep adding services (e.g., Ontario added minor ailments and vaccines in July 2026). New services need in-store communication to be visible."
+   },
+   {
+    "title": "Consolidation pressure",
+    "text": "Neighbourly Pharmacy (332 stores) and Pharmacy Brands Canada (300+) keep acquiring. Independent banners like Pharmasave must look and execute as well as the big chains."
+   }
+  ],
+  "talking_points": [
+   "How does your team get a POP or signage program from Langley into ~350 independent stores, and how do you know it went up?",
+   "Since each owner is independent, what share of stores actually install a central campaign? Do you measure it?",
+   "With stores from 500 to 22,000 sq ft, how do you adapt kits by format today?",
+   "How did the Blue Rewards launch go in store? What would you do differently for the next big rollout?",
+   "Who prints and ships your materials today: one supplier or several? Is that managed by marketing or procurement?",
+   "Where does your team spend the most time: design, approvals, supplier quotes, or store follow-up?",
+   "If we found savings or less waste, who besides you would want to see it (Marketing Manager, Director of Marketing, procurement)?",
+   "Does East run its own programs, or is POSM shared nationally?"
+  ],
+  "attention": [
+   {
+    "title": "Objection: \"We have an internal team\"",
+    "text": "He said this up front. Don't pitch design or strategy. Position Altavia as **behind-the-scenes support for his team**: supplier consolidation, production, kitting by store format, and proof of installation. Typical result: **10–15% savings** on print and POSM."
+   },
+   {
+    "title": "Buying authority",
+    "text": "**Marketing Programs Specialist** is likely not the decision-maker. Use the call to learn the process and ask for an introduction to his manager or the head of marketing at Pharmasave West or National."
+   },
+   {
+    "title": "Co-op complexity",
+    "text": "Owners are independent and members govern the co-op. Decisions may need board or national sign-off, and the West and East offices may run separate programs. Expect a long cycle."
+   },
+   {
+    "title": "Low Streak scores",
+    "text": "Streak rates this lead **Fit Low / Interest Low**. Keep the call short and make the goal a referral or a small pilot (e.g., one seasonal campaign in a few stores), not a big deal."
+   },
+   {
+    "title": "Not verified",
+    "text": "Victor's background and tenure, Pharmasave's LinkedIn follower count, the 2027 conference dates, and any current POSM supplier are **to be confirmed**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details and LinkedIn exchange (Oct 9 to Nov 2, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia: Pharmasave (founding, regions, governance, Langley HQ)"
+   },
+   {
+    "used": true,
+    "text": "ScrapeHero: 915 Pharmasave locations by province (Oct 9, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Great Place to Work Canada: Pharmasave West profile (~35 staff, Langley)"
+   },
+   {
+    "used": true,
+    "text": "BC Pharmacy Association: 'Discover Pharmasave' brochure (POP materials, shelf signage, flyer, planograms)"
+   },
+   {
+    "used": true,
+    "text": "Retail Insider (Jun 16, 2026): Pharmasave launches Blue Rewards"
+   },
+   {
+    "used": true,
+    "text": "Retail Insider (Oct 2026): Q3 2026 Health & Beauty report"
+   },
+   {
+    "used": true,
+    "text": "Newswire (Mar 2023): Ivan Guillen named Pharmasave CEO"
+   },
+   {
+    "used": true,
+    "text": "Chain Drug Review: Pharmasave store formats (500 to 22,000+ sq ft), private label"
+   },
+   {
+    "used": true,
+    "text": "Grocery Business: Pharmasave conference and trade show, Vancouver, Apr 28–30, 2025"
+   },
+   {
+    "used": true,
+    "text": "Auto-Star blog (May 2026): Pharmasave Conference and Trade Show 2026, Toronto"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Victor's profile and Pharmasave company page (blocked, not audited)"
+   },
+   {
+    "used": false,
+    "text": "pharmasavewest.ca: site returned no readable content"
+   },
+   {
+    "used": false,
+    "text": "Pharmasave revenue and marketing budget: not public"
+   },
+   {
+    "used": true,
+    "text": "Anne Bougel's LinkedIn network export (3,327 connections, Mar 2025 – Oct 2026), Google Drive"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Altavia (Anne) · prepared November 3, 2026",
+  "grade": {
+   "letter": "C+",
+   "headline": "National brand with **2,000+ employees on LinkedIn**, but the **follower count and posting rhythm could not be verified**.",
+   "detail": "Pharmasave runs a national brand page (Pharmasave Canada) plus a consumer site, app and flyer program. Most marketing is consumer and store-level (flyers, loyalty, local store pages), not LinkedIn. The grade is provisional until the LinkedIn page is checked by hand.",
+   "context": "Web-audited Nov 3, 2026. LinkedIn pages could not be opened during research."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company (Pharmasave Canada)",
+     "audience": "To be confirmed (2,000+ employees listed)",
+     "recency": "To be confirmed",
+     "read": "Corporate and careers page. Check for recent posts on Blue Rewards or the conference."
+    },
+    {
+     "channel": "Website and app (pharmasave.com)",
+     "audience": "900+ store pages",
+     "recency": "Weekly flyers",
+     "read": "Strong consumer channel: weekly flyer per store, loyalty, Rx refills."
+    },
+    {
+     "channel": "LinkedIn: Victor Hwangbo",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Profile could not be read. Check before the call."
+    }
+   ],
+   "note": "Pharmasave's marketing weight is in **flyers, loyalty and in-store**, which is exactly Altavia's territory."
+  },
+  "network": {
+   "summary": "**Anne is already 1st-degree with Victor Hwangbo** (connected Oct 6, 2026). She also knows **Terry Denick, Manager, Business & Retail Development, Pharmasave East** (connected Sep 15, 2026), useful for a second regional door.",
+   "items": [
+    "Victor Hwangbo: 1st-degree since Oct 6, 2026",
+    "Terry Denick – Manager, Business & Retail Development, Pharmasave East: https://www.linkedin.com/in/terry-denick-b5426235/"
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/victorhwangbo",
+    "label": "Open Victor Hwangbo's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Jun 16, 2026",
+    "where": "Retail Insider (press)",
+    "text": "Pharmasave launches **Blue Rewards** at 800+ participating stores. CEO Ivan Guillen: \"Community pharmacy runs on relationships.\" More promos promised through the year.",
+    "use": "Ask how the in-store side of the launch went, and what's next."
+   },
+   {
+    "when": "May 2026",
+    "where": "Pharmasave Conference and Trade Show",
+    "text": "Annual member conference and vendor trade show, held in **Toronto** (Metro Toronto Convention Centre) in 2026. In 2025 it was in Vancouver.",
+    "use": "Ask if Pharmasave West runs a vendor show where Altavia could meet owners."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Pharmasave Conference and Trade Show 2026",
+    "when": "Spring 2026",
+    "where": "Toronto, ON",
+    "note": "Member and vendor event. Victor's attendance **to be confirmed**."
+   },
+   {
+    "name": "Pharmasave Conference and Trade Show 2027",
+    "when": "Spring 2027 (dates to be confirmed)",
+    "where": "To be confirmed (2025 Vancouver, 2026 Toronto, so it may return West)",
+    "note": "Possible place for Altavia to meet store owners and the marketing team."
+   }
+  ],
+  "hooks": [
+   "**Blue Rewards** launched in June 2026: every store needed new loyalty signage. How did that rollout go?",
+   "**Up to 70% of in-store materials are never installed.** In a co-op of independent owners, that risk is even higher.",
+   "**~350 Western stores** from 500 to 22,000 sq ft: one-size kits waste money; format-based kitting saves it.",
+   "Front store grew only **1.3%** at Shoppers vs **7.5%** for pharmacy services: in-store marketing has to work harder.",
+   "We support the team you already have: **production, supplier consolidation, proof of install**, typically **10–15% savings**."
+  ]
+ },
+ "send": false
+}

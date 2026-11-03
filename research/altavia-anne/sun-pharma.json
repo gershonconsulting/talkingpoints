@@ -1,0 +1,251 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOWfrdrXCQw",
+ "company": "Sun Pharma",
+ "lead_name": "Ramana Tata",
+ "lead_role": "Global Sourcing Procurement & Logistics Lead",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Sun Pharma (Sun Pharmaceutical Industries; North America via Taro Pharmaceuticals and Sun Pharma USA)",
+   "person": "Ramana Tata",
+   "role": "Global Sourcing, Procurement & Logistics Lead",
+   "location": "Toronto area, Canada (Taro Pharmaceuticals Canada, per public org chart; to be confirmed) · Group HQ Mumbai, India",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Procurement buyer",
+     "tone": "good"
+    },
+    {
+     "label": "Asked for a Friday morning meeting",
+     "tone": "good"
+    },
+    {
+     "label": "Meeting never booked",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Ramana **asked for a meeting himself** (\"Friday morning\") and gave his email on Sep 28. Nothing was booked. Email **ramana.tata@sunpharma.com today** with **two concrete Friday-morning slots** (Eastern time) and a calendar link."
+   },
+   "source_line": "Lead added to Streak on Sep 29, 2026 by Johanna T; moved to Contacted Nov 2. Source: LinkedIn messaging (as Anne). Industry: pharmaceuticals. Fit: High.",
+   "linkedin_url": "https://www.linkedin.com/in/ramana-tata-95890447"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Listed Indian pharma group, **FY26 sales ~Rs 58,220 crore (~US$6.5–7B)**"
+   },
+   {
+    "label": "North America",
+    "value": "US is **~29% of sales**; Canada via **Taro** (Brampton, Ontario site)"
+   },
+   {
+    "label": "Big news",
+    "value": "Agreed to buy **Organon for $11.75B** (close expected by early 2027)"
+   },
+   {
+    "label": "Lead",
+    "value": "Sourcing / procurement / logistics: **he buys**"
+   },
+   {
+    "label": "Fit with Altavia",
+    "value": "Pharma print management + procurement consolidation, **Canada-first** (matches ICP)"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Both work on the **sourcing side of materials in Canada**: Anne consolidates print and POS suppliers, Ramana sources and ships for a Canadian pharma site."
+   },
+   "items": [
+    "**Anne is already 1st-degree with Ramana** (since May 5, 2026), plus two Sun Pharma directors (Basim Zeineldin, Kevin Green).",
+    "Altavia already serves **pharma** (Novartis, Bayer, Johnson & Johnson): a credible reference for a pharma buyer."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Honour his request",
+    "text": "He asked for **Friday morning**. Open by apologising that the slot slipped, and offer two Friday-morning times. Keep the first call to **20 minutes**."
+   },
+   {
+    "title": "Start from his job",
+    "text": "Ask what he sources today for Taro Canada: printed packaging inserts, leaflets, labels, sales materials, trade-show items. Let him tell you where the pain is."
+   },
+   {
+    "title": "Bring the pharma proof",
+    "text": "Mention Altavia's **end-to-end print management for Novartis, Bayer and J&J**, and the typical **10–15% savings** from supplier consolidation."
+   },
+   {
+    "title": "Use the timing",
+    "text": "Sun is integrating **Taro** and about to absorb **Organon**. Integrations are the moment procurement consolidates suppliers. Ask if that is on his agenda."
+   }
+  ],
+  "person": {
+   "name": "Ramana Tata",
+   "text": "Streak and his LinkedIn headline give **Global Sourcing, Procurement & Logistics Lead**. A public org chart (TheOrg, marked unverified) lists him as **Sourcing – Procurement – Logistics Specialist at Taro Pharmaceuticals Canada since September 2021**, based in **Toronto**, on a small 2-person procurement and sourcing team. Earlier employers listed there: **Expeditors International** (freight/logistics), **Neuland Laboratories** and **BioGenex**. So he has a **logistics and supply-chain** background, not marketing. Exact scope (direct vs indirect spend, Canada only vs global) is **to be confirmed** on the call."
+  },
+  "company": {
+   "text": "**Sun Pharmaceutical Industries** is India's largest drugmaker, headquartered in **Mumbai**, listed in India. It sells generics, branded specialty medicines and consumer health in 100+ countries. Lead specialty product: **Ilumya** (psoriasis, ~US$796M in FY26). Sun has specialty lines in **dermatology, ophthalmology and onco-dermatology**. In **June 2024** it took **100% ownership of Taro Pharmaceuticals**, a dermatology/topicals specialist with a manufacturing site in **Brampton, Ontario** and a US arm (Taro Pharmaceuticals U.S.A.). In 2026 Sun agreed to acquire **Organon** (women's health, biosimilars, legacy Merck brands; New Jersey based; 2025 sales US$6.2B) for **US$11.75B**, expected to close **by early 2027**. That deal would make Sun a top-10 global biosimilars player and much bigger in North America."
+  },
+  "financials": {
+   "country": "India, listed (NSE/BSE: SUNPHARMA)",
+   "text": "**FY26 (year to March 2026):** consolidated revenue **~Rs 58,220 crore**, up ~12% (about US$6.5–7B; conversion is an estimate). EBITDA **~Rs 17,731 crore** (~30% margin). Q4 FY26 net profit up 26% to Rs 2,714 crore. **US = ~29% of sales**; US generics roughly flat; global specialty sales **~US$1.42B**. R&D ~6% of sales. FY27 guidance: mid-to-high single-digit growth. Net cash was ~Rs 30,100 crore before the Organon deal, which will add debt. Canada-only revenue is **not published** (to be confirmed)."
+  },
+  "history": {
+   "text": "Anne connected with Ramana on LinkedIn. Ramana wrote: \"Hello Anne, Good Day!! Can we set up something for Friday morning?\" Anne asked for his best email (twice). On **Sep 28** he replied with **ramana.tata@sunpharma.com**. Box created Sep 29 by Johanna T, moved to Contacted Nov 2. **No email sent to him is logged in Streak**, so the Friday meeting he asked for was apparently **never booked** (5 weeks ago). This is the exact stall pattern in the campaign report: yes, then email, then nothing. **Open next step:** Anne emails him now with concrete slots and a calendar link."
+  },
+  "industry": [
+   {
+    "title": "Procurement under pressure",
+    "text": "Pharma margins are squeezed (Sun's Q4 margin fell 160 bps on higher R&D and marketing). Procurement teams are asked to cut **indirect spend**: print, promotional materials, events. Supplier consolidation is the usual lever."
+   },
+   {
+    "title": "M&A means supplier rationalisation",
+    "text": "Sun is merging **Taro** and buying **Organon**. Each integration brings duplicate print vendors, agencies and event suppliers. A single managed print/POS partner across brands is an easy story to tell."
+   },
+   {
+    "title": "Regulated print",
+    "text": "Pharma print (patient leaflets, HCP materials, pharmacy POS) needs **version control and approvals**. This is where a workflow platform like **Kazaar** (briefs, quotes, approvals, suppliers) adds value beyond price."
+   },
+   {
+    "title": "Trade shows and conferences",
+    "text": "Dermatology is Taro's core. Medical congresses (e.g. the **AAD Annual Meeting** in the US) and pharmacy shows need booths, pop-ups and printed collateral, often bought ad hoc. Altavia's **pop-up activations for trade shows and conferences** fit here. Sun/Taro's actual event footprint is **to be confirmed**."
+   }
+  ],
+  "talking_points": [
+   "You asked for a Friday morning: which Friday works, and how long do you have?",
+   "What does your team source for Taro Canada today: packaging and inserts, marketing print, pharmacy POS, trade-show material?",
+   "Is your scope Canada only, North America, or global as your title suggests?",
+   "How many print and POS suppliers do you work with today? Who approves the artwork?",
+   "Is the Taro integration, and now Organon, changing your vendor list or approval rules?",
+   "Do your brand teams run booths or pop-ups at medical or pharmacy conferences? Who buys those?",
+   "Would a short cost review of one category (for example printed materials) be useful as a first step?"
+  ],
+  "attention": [
+   {
+    "title": "Five weeks of silence",
+    "text": "He asked for a meeting on his own and nobody followed up. **Acknowledge it briefly** and make booking effortless."
+   },
+   {
+    "title": "Direct vs indirect spend",
+    "text": "His background is logistics. He may buy **direct materials** (packaging components, freight) rather than marketing print. Find out early; if so, ask who owns marketing/POS spend and get an introduction."
+   },
+   {
+    "title": "Title not fully verified",
+    "text": "Streak says \"Global ... Lead\"; a public org chart says \"Specialist\" at Taro Canada. Treat his **seniority and budget authority as to be confirmed**."
+   },
+   {
+    "title": "Regulatory sensitivity",
+    "text": "Do not promise anything that touches GMP packaging or labelling compliance. Position Altavia on **marketing print, POS, events and procurement workflow**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box, LinkedIn exchange (as Anne), stage history (Sep 29 – Nov 2)"
+   },
+   {
+    "used": true,
+    "text": "FilingReader summary of Sun Pharma FY26 results (sales, EBITDA, US share, specialty sales)"
+   },
+   {
+    "used": true,
+    "text": "Whalesbook: Sun Pharma Q4 FY26 results article (revenue, profit, margin, outlook)"
+   },
+   {
+    "used": true,
+    "text": "Fierce Pharma: Sun Pharma's US$11.75B Organon acquisition"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia: Taro Pharmaceuticals (Brampton site, dermatology focus, 2024 full Sun ownership)"
+   },
+   {
+    "used": true,
+    "text": "TheOrg: Ramana Tata profile (unverified; Taro Canada, Toronto, since Sep 2021)"
+   },
+   {
+    "used": true,
+    "text": "a-leads.co: Sun Pharma LinkedIn follower and employee counts (third-party, undated)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Ramana's profile and Sun Pharma page not opened directly (login wall)"
+   },
+   {
+    "used": false,
+    "text": "Sun/Taro event and trade-show schedule: not verified"
+   },
+   {
+    "used": true,
+    "text": "Anne Bougel's LinkedIn network export (3,327 connections, Mar 2025 – Oct 2026), Google Drive"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Altavia (Anne) · prepared November 3, 2026",
+  "grade": {
+   "letter": "A",
+   "headline": "Very large LinkedIn page (**~2.1M followers**, third-party count) and an active corporate presence.",
+   "detail": "Sun Pharma's LinkedIn reach is in the top tier of Indian and global generics companies. Posting volume could not be audited directly (login wall), so the grade rests mainly on audience size. The Canadian (Taro) presence on social is much smaller and **not audited**.",
+   "context": "Web-audited Nov 3, 2026. Follower count from a third-party data site (a-leads.co); to be confirmed on LinkedIn."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company (Sun Pharma)",
+     "audience": "~2.1M followers (third-party)",
+     "recency": "To be confirmed",
+     "read": "Corporate, India-centred voice. Good place to spot results, M&A and event news before the call."
+    },
+    {
+     "channel": "LinkedIn: Taro Pharmaceuticals",
+     "audience": "Not audited",
+     "recency": "Not audited",
+     "read": "The entity Ramana works for in Canada; check for local news before the call."
+    }
+   ],
+   "note": "Audience size is strong; posting cadence and engagement were not verified."
+  },
+  "network": {
+   "summary": "**Anne is already 1st-degree with Ramana Tata** (connected May 5, 2026). She also knows **two Sun Pharma directors**: Basim Zeineldin (Director of Business Development, Portfolios and Launches, **Sun Pharma Canada**, connected Jun 2, 2026) and Kevin Green (Director, Sales & Marketing – Ophthalmics, connected Sep 22, 2026).",
+   "items": [
+    "Ramana Tata: 1st-degree since May 5, 2026",
+    "Basim Zeineldin – Director BD, Portfolios & Launches, Sun Pharma Canada: https://www.linkedin.com/in/basim-zeineldin-8884587/",
+    "Kevin Green – Director, Sales & Marketing (Ophthalmics), Sun Pharma: https://www.linkedin.com/in/kevin-green-0827927/",
+    "Mention a launch-materials angle with Basim's team if Ramana is packaging/freight only."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/ramana-tata-95890447/",
+    "label": "Open Ramana Tata's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "2026",
+    "where": "News (Fierce Pharma)",
+    "text": "Sun Pharma agreed to acquire **Organon for US$11.75B**, the largest biopharma deal of 2026, expected to close by early 2027.",
+    "use": "Ask how the integration will change suppliers and procurement in North America."
+   },
+   {
+    "when": "2026",
+    "where": "Results (Q4 FY26)",
+    "text": "FY26 revenue up ~12%; Q4 profit up 26%; US generics flat; margin down on higher R&D and marketing spend.",
+    "use": "Cost pressure supports a **savings** conversation (10–15% typical with Altavia)."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "**He asked for the meeting**: just give him Friday-morning slots.",
+   "**Organon + Taro integration** = moment to consolidate print, POS and event suppliers.",
+   "Altavia already runs pharma print for **Novartis, Bayer and J&J**.",
+   "Typical **10–15% savings** and the **70% of in-store materials never installed** stat for pharmacy POS.",
+   "Both in **Canada**: easy to meet in person in Toronto."
+  ]
+ },
+ "send": false
+}
