@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.7.0';
+  const APP_VERSION = '1.8.0';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -54,11 +54,12 @@
   }
 
   // ---------- Leads ----------
+  let scheduledOnly = false;
   function renderList() {
     const q = $('filter').value.trim().toLowerCase();
     const items = leads.filter((l) => !q || `${l.company} ${l.brief?.lead_name || ''}`.toLowerCase().includes(q));
     if (!items.length) {
-      $('leadList').innerHTML = `<p style="color:var(--text-muted)">${leads.length ? 'No lead matches that filter.' : 'No leads in your pipeline yet. They appear here as soon as our team adds them.'}</p>`;
+      $('leadList').innerHTML = `<p style="color:var(--text-muted)">${leads.length ? 'No lead matches that filter.' : (scheduledOnly ? 'No call scheduled yet. A lead appears here, with its talking points, once it reaches the “Scheduled” stage in Streak.' : 'No leads in your pipeline yet. They appear here as soon as our team adds them.')}</p>`;
       return;
     }
     $('leadList').innerHTML = items.map((l) => {
@@ -272,6 +273,7 @@
     try {
       const res = await api('/api/leads');
       leads = res.leads;
+      scheduledOnly = !!res.scheduled_only;
       if (!res.streak_connected && !leads.length) {
         $('leadList').innerHTML = '<p style="color:var(--text-muted)">Connect Streak in <a href="#settings" style="color:var(--brand);font-weight:600">Settings</a> to see your leads here.</p>';
         return;

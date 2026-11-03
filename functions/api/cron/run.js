@@ -1,4 +1,4 @@
-import { json, streak, clientStreakKey, getSettings, rowToBrief } from '../../_lib.js';
+import { json, streak, clientStreakKey, getSettings, rowToBrief, scheduledOnly, scheduledBoxes } from '../../_lib.js';
 import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
 
@@ -35,15 +35,21 @@ async function newLeads(env, client, r) {
   const now = nyNow();
   if (now.hour < 7 || (s.streak_checked_at && nyNow(s.streak_checked_at).day === now.day)) { r.notes.push('new leads: already checked today'); return; }
   const since = s.streak_checked_at || Date.now() - 24 * 3600 * 1000;
-  const boxes = await streak(key, `/v1/pipelines/${client.pipeline_key}/boxes?sortBy=creationTimestamp&limit=25`);
-  const fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
+  let fresh;
+  if (scheduledOnly(client)) {
+    // Gershon's own pipelines: talking points only once a call is scheduled (stage "Scheduled").
+    fresh = (await scheduledBoxes(key, client.pipeline_key)).boxes;
+  } else {
+    const boxes = await streak(key, `/v1/pipelines/${client.pipeline_key}/boxes?sortBy=creationTimestamp&limit=25`);
+    fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
+  }
   for (const b of fresh) {
     const boxKey = b.boxKey || b.key;
     const has = await env.DB.prepare("SELECT 1 FROM briefs WHERE box_key = ? AND status = 'ready'").bind(boxKey).first();
     if (has) continue;
     // No quick AI drafts any more (2026-10-30): the new lead is reported as needing a researched brief.
     r.new_leads++;
-    r.notes.push(`research needed: ${b.name || boxKey}`);
+    r.notes.push(`research needed${scheduledOnly(client) ? ' (call scheduled)' : ''}: ${b.name || boxKey}`);
   }
   await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(client.id).run();
   await env.DB.prepare('UPDATE client_settings SET streak_checked_at = ? WHERE client_id = ?').bind(Date.now(), client.id).run();
