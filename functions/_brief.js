@@ -103,7 +103,7 @@ export async function emailBrief(env, clientRow, brief, { force = false, subject
     await sendEmail(env, {
       to,
       from: plan.from,
-      subject: briefSubject(brief.company, brief.lead_name, date),
+      subject: briefSubject(clientRow.name, brief.company, brief.lead_name, date),
       html: renderBrief(plan.data),
       text: renderBriefText(plan.data),
     });
