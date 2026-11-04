@@ -1,4 +1,4 @@
-import { currentUser, json, streak, rowToBrief, clientStreakKey } from '../../_lib.js';
+import { currentUser, json, streak, rowToBrief, clientStreakKey, scheduledOnly, scheduledBoxes } from '../../_lib.js';
 
 // GET /api/leads → newest leads in the client's Streak pipeline, with brief status
 export async function onRequestGet({ request, env }) {
@@ -6,9 +6,12 @@ export async function onRequestGet({ request, env }) {
   if (!u) return json({ error: 'signed_out' }, 401);
 
   const key = await clientStreakKey(env, u.client_id);
+  // Gershon's own pipelines list only the leads with a call scheduled (2026-11-03).
+  const onlyScheduled = scheduledOnly(u);
+  const sched = onlyScheduled ? await scheduledBoxes(key, u.pipeline_key).catch(() => ({ pipeline: { stages: {} }, boxes: [] })) : null;
   const [boxes, pipeline, briefs] = await Promise.all([
-    streak(key, `/v1/pipelines/${u.pipeline_key}/boxes?sortBy=creationTimestamp&limit=50`).catch(() => []),
-    streak(key, `/v1/pipelines/${u.pipeline_key}`).catch(() => ({ stages: {} })),
+    sched ? sched.boxes : streak(key, `/v1/pipelines/${u.pipeline_key}/boxes?sortBy=creationTimestamp&limit=50`).catch(() => []),
+    sched ? sched.pipeline : streak(key, `/v1/pipelines/${u.pipeline_key}`).catch(() => ({ stages: {} })),
     env.DB.prepare("SELECT * FROM briefs WHERE client_id = ? AND status = 'ready' ORDER BY created_at DESC").bind(u.client_id).all(),
   ]);
 
@@ -36,5 +39,5 @@ export async function onRequestGet({ request, env }) {
   for (const b of Object.values(byBox)) {
     if (!seen.has(b.box_key)) live.push({ box_key: b.box_key, company: b.company, stage: b.stage, created: b.created_at, brief: b });
   }
-  return json({ leads: live, streak_connected: !!key });
+  return json({ leads: live, streak_connected: !!key, scheduled_only: onlyScheduled });
 }

@@ -1,0 +1,261 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOWXtYn1Cww",
+ "company": "Seviroli Foods (Fresia Foods)",
+ "lead_name": "Rachel Waynberg",
+ "lead_role": "Vice President Marketing",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Seviroli Foods, LLC, now trading as Fresia Foods (frozen filled pasta and Italian foods, US)",
+   "person": "Rachel Waynberg",
+   "role": "Vice President Marketing",
+   "location": "To be confirmed · HQ Garden City, New York",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "VP Marketing: decision maker",
+     "tone": "good"
+    },
+    {
+     "label": "Asked to chat about her 2027 strategy",
+     "tone": "good"
+    },
+    {
+     "label": "Proposed week has passed",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Rachel said **\"would love to chat\"** on Sep 16 and gave her email. No email was ever sent. Email **rwaynberg@fresiafoods.com** now with **2–3 concrete slots** and tie it to her **2027 strategy**."
+   },
+   "source_line": "Lead added to Streak on Sep 16, 2026 by Johanna T. Moved to Contacted Nov 2. Source: LinkedIn messaging (as Anne). Industry: CPG / frozen food. Fit: Medium.",
+   "linkedin_url": "https://www.linkedin.com/in/rachel-w-9029583"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **1960** in Queens. Now **Fresia Foods**: 4 heritage brands under one name"
+   },
+   {
+    "label": "Owner",
+    "value": "**Mill Point Capital** (private equity) since **Dec 2022**"
+   },
+   {
+    "label": "Size",
+    "value": "Est. **~$50M** revenue, **~100–200** staff (third-party estimate, to be confirmed)"
+   },
+   {
+    "label": "Lead",
+    "value": "VP Marketing: **owns the 2027 plan** she mentioned"
+   },
+   {
+    "label": "Fit",
+    "value": "CPG/food = Altavia's **best-converting** segment. US (secondary market)"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Altavia works with big CPG and retail brands; Fresia sells to **grocery, club and foodservice** and is rebuilding its brand identity."
+   },
+   "items": [
+    "**Anne is already 1st-degree with Rachel** (since Aug 17, 2026).",
+    "**Rebrand moment:** Fresia just unified 4 brands. Every sales sheet, trade-show booth and in-store piece needs a refresh. That is Altavia's core work."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Re-open the door she opened",
+    "text": "She asked to talk in September. Apologize briefly for the delay. Offer **2–3 specific slots** and a calendar link. Do not ask \"what is your work email\" — she already gave it."
+   },
+   {
+    "title": "Tie it to her 2027 plan",
+    "text": "She is building the **2027 strategy** now. Position Altavia as an input: how to plan **trade, POS and print** spend across four brands under the new Fresia name."
+   },
+   {
+    "title": "Talk consolidation",
+    "text": "Four brands came from **four acquisitions** (D'Orazio, Mama Rosie's, Ajinomoto's Bernardi/Rotanelli's/Mona's). Likely many print and display suppliers. Altavia's **supplier consolidation** and typical **10–15% savings** fit a PE-owned roll-up."
+   }
+  ],
+  "person": {
+   "name": "Rachel Waynberg",
+   "text": "**Vice President Marketing** at Seviroli Foods / Fresia Foods (per Streak and her email domain). She replied warmly and fast, and said she is **putting together a 2027 strategy**. Her career history, start date and location were **not found in public sources** — to be confirmed on her LinkedIn profile before the call."
+  },
+  "company": {
+   "text": "Seviroli started as a **pastry shop in Queens in 1960** and grew into a family-owned frozen pasta maker (ravioli, tortellini, stuffed shells, manicotti, short cuts) plus a specialty Italian import line (**Vertullo**, 150+ items from 19 countries). **Mill Point Capital** bought it in **Dec 2022** (financing by PGIM). Since then it has been a roll-up: **Mama Rosie's** (Boston, founded 1976) in **Jul 2023**, and the **Bernardi, Rotanelli's and Mona's** Italian frozen pasta brands from **Ajinomoto Foods North America** in **Jan 2024**. It also owns **D'Orazio**. In **2025** it closed its Bellmawr, NJ plant (77 jobs) and moved production to **Garden City and Hauppauge, NY**. The brands are now unified under **Fresia Foods** (\"Premium Pastas. For Every Chef.\"), which claims the **world's largest tortellini operation** and stresses **private label** for retailers and **foodservice**. Channels: foodservice, club and grocery/retail (e.g. Mama Rosie's at Stop & Shop). CEO in 2023: **Paul Vertullo** (to be confirmed if still in role)."
+  },
+  "financials": {
+   "country": "US, private (PE-owned)",
+   "text": "No public revenue. Third-party estimate: **~$50M revenue**, **101–200 employees** (Prospeo; figures conflict, treat as rough). Likely higher after the Ajinomoto and Mama Rosie's deals — **to be confirmed**. Debt-financed by PGIM (revolver, term loan, sub notes). PE ownership usually means a focus on **cost savings and margin** — a good angle for supplier consolidation."
+  },
+  "history": {
+   "text": "Anne reached out on LinkedIn. On **Sep 16, 2026** Rachel replied: \"Would love to chat. Putting together a 2027 strategy and would love to learn more about what you do. If you have some availability next week Wednesday or Thursday, let's coordinate.\" She gave **rwaynberg@fresiafoods.com**. **No email is logged in Streak.** The week she proposed (Sep 23–24) has passed. Box moved to Contacted on Nov 2. **Open item:** email her now with new slots, apologize for the delay, and link it to her 2027 planning."
+  },
+  "industry": [
+   {
+    "title": "Frozen is big and moving to value",
+    "text": "US frozen food is a **$93.5B** market. Value-size packs are **40%+** of frozen aisle sales; \"takeout-style\" frozen is **$14.3B** (Conagra Future of Frozen Food 2026). Restaurant-quality Italian at home fits Fresia's pitch."
+   },
+   {
+    "title": "The freezer door is the battleground",
+    "text": "Shoppers decide at the shelf, and frozen is hard to merchandise: closed doors, cold surfaces, little space. Door clings, shelf talkers, secondary displays and digital screens are the levers. Industry claims of **~70% of decisions made at shelf** are unverified — use as directional only."
+   },
+   {
+    "title": "Private label pressure",
+    "text": "Fresia leans into **private label** for retailers. That means its own brands (Mama Rosie's, Seviroli) must earn shelf space with stronger in-store support."
+   }
+  ],
+  "talking_points": [
+   "What is in your 2027 plan for retail versus foodservice and private label?",
+   "With four brands now under Fresia, how are you rolling out the new identity — sell sheets, trade shows, in-store?",
+   "How many print, display and promo suppliers do you work with today across the brands?",
+   "How do you support Mama Rosie's and Seviroli at shelf today — freezer door, endcaps, demos?",
+   "Which retailers or club accounts are priorities for 2027?",
+   "How do you measure whether in-store materials actually get installed?",
+   "Are you exhibiting at AFFI-CON or other shows in 2027? Who builds your booth?",
+   "Who else is involved in budget decisions — procurement, CEO, Mill Point?"
+  ],
+  "attention": [
+   {
+    "title": "Long silence",
+    "text": "Seven weeks passed since she asked to talk. Own it in one line, then move on with concrete slots."
+   },
+   {
+    "title": "US, not Canada",
+    "text": "Altavia's ICP is **Canada first**. Fresia is US-only as far as known. Check if any Canadian retail distribution exists (to be confirmed)."
+   },
+   {
+    "title": "Foodservice-heavy",
+    "text": "Fresia's website leads with **foodservice**. POSM matters most for its **retail** brands. Ask what share of sales is retail before pitching in-store."
+   },
+   {
+    "title": "Name confusion",
+    "text": "Use **Fresia** in emails (her domain) and mention Seviroli as the heritage brand. A 2024 \"Fresia\" trademark filing was abandoned in Apr 2026 — do not comment on it."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box, stage and LinkedIn exchange (Sep 16 – Nov 2, 2026)"
+   },
+   {
+    "used": true,
+    "text": "fresiafoods.com (brands, HQ, LinkedIn link)"
+   },
+   {
+    "used": true,
+    "text": "Supermarket Perimeter: brands unified under Fresia banner"
+   },
+   {
+    "used": true,
+    "text": "Business Wire (Jul 2023): Seviroli acquires Mama Rosie's"
+   },
+   {
+    "used": true,
+    "text": "Just Food (Jan 2024): Ajinomoto Italian portfolio acquisition"
+   },
+   {
+    "used": true,
+    "text": "PGIM case study: Mill Point deal financing, 1960 origin"
+   },
+   {
+    "used": true,
+    "text": "Food Business News (Jun 2025): Bellmawr NJ plant closure"
+   },
+   {
+    "used": true,
+    "text": "Prospeo: revenue/employee estimate"
+   },
+   {
+    "used": true,
+    "text": "Conagra Future of Frozen Food 2026 (via Mass Market Retailers)"
+   },
+   {
+    "used": true,
+    "text": "Event listings: AFFI-CON 2027, NFRA Convention 2027"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: company pages and Rachel's profile not readable (blocked)"
+   },
+   {
+    "used": false,
+    "text": "Rachel's career history: not found in public sources"
+   },
+   {
+    "used": true,
+    "text": "Anne Bougel's LinkedIn network export (3,327 connections, Mar 2025 – Oct 2026), Google Drive"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Altavia (Anne) · prepared November 3, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Thin social presence: **LinkedIn only** linked from the website; follower count **not verified**.",
+   "detail": "Fresia's website links to a single channel (LinkedIn). No Instagram, Facebook or YouTube found for the Fresia brand. Followers and posting frequency could not be read (LinkedIn blocks audits). A brand-new name usually means a small audience. Grade is **provisional — to be confirmed**.",
+   "context": "Web-audited Nov 3, 2026. LinkedIn page not readable."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company (Fresia Foods)",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Only channel linked from fresiafoods.com. New name, likely still building audience."
+    },
+    {
+     "channel": "LinkedIn: Company (Seviroli Foods)",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Legacy page may still exist alongside Fresia."
+    },
+    {
+     "channel": "Instagram / Facebook / YouTube",
+     "audience": "None found",
+     "recency": "—",
+     "read": "No consumer social linked for Fresia. Retail brands lean on the shelf, not social."
+    }
+   ],
+   "note": "Weak consumer social means the **shelf and freezer door** do the selling. That strengthens the case for in-store materials."
+  },
+  "network": {
+   "summary": "**Anne is already 1st-degree with Rachel Waynberg** (connected Aug 17, 2026). No other Seviroli / Fresia Foods person in Anne's network export.",
+   "items": [
+    "Rachel Waynberg: 1st-degree since Aug 17, 2026",
+    "Open Rachel's profile from Anne's account to see shared connections."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/rachel-w-9029583",
+    "label": "Open Rachel Waynberg's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Recent (date to be confirmed)",
+    "where": "Trade press / fresiafoods.com",
+    "text": "Four heritage brands (Seviroli, Mama Rosie's, Bernardi, D'Orazio) **unified under the Fresia banner** after a year of record growth that **doubled production capacity**.",
+    "use": "Congratulate her on the rebrand and the growth. Ask how the new identity reaches retail."
+   },
+   {
+    "when": "Jun 2025",
+    "where": "Food Business News",
+    "text": "Bellmawr, NJ plant closed; production moved to Garden City and Hauppauge, NY.",
+    "use": "Background only. Shows a cost-and-consolidation mindset."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "**Your 2027 plan:** you asked to talk in September — here are new slots so Altavia can feed into it.",
+   "**New Fresia identity:** one partner to roll out the new brand across sell sheets, trade booths and freezer-aisle POS.",
+   "**Four brands, many suppliers:** consolidation typically saves **10–15%** — relevant for a PE-backed roll-up.",
+   "**Up to 70% of in-store materials are never installed:** ask how Fresia checks execution in the freezer aisle.",
+   "**AFFI-CON 2027 (Feb 27–Mar 2, 2027)** and **NFRA Convention (Oct 2027)**: Altavia builds pop-ups and trade-show presence. Venue to be confirmed.",
+   "**March Frozen Food Month:** a natural window for a retail POS program for Mama Rosie's/Seviroli."
+  ]
+ },
+ "send": false
+}

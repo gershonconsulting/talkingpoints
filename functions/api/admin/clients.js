@@ -3,7 +3,7 @@ import { saveTemplate } from '../../_template.js';
 import { emailsIn } from '../../_sources.js';
 
 // Owner only (enforced in functions/_middleware.js).
-// GET  /api/admin/clients → every client with its members and status
+// GET  /api/admin/clients → every client with its members and status (+ dashboard counts, v1.9.0)
 // POST /api/admin/clients → create or update a client in one go (2026-10-30):
 //   { name, no, pipeline_key, email_domains,
 //     contact_name, email (professional), login_email (LinkedIn sign-in),
@@ -12,7 +12,12 @@ export async function onRequestGet({ request, env }) {
   const me = await currentUser(env, request);
   const clients = (await env.DB.prepare(
     `SELECT c.*, s.streak_key_hint, s.google_email, s.recipients,
-            (SELECT COUNT(*) FROM briefs b WHERE b.client_id = c.id) AS briefs
+            (SELECT COUNT(*) FROM briefs b WHERE b.client_id = c.id) AS briefs,
+            (SELECT COUNT(*) FROM briefs b WHERE b.client_id = c.id AND b.status = 'ready') AS ready,
+            (SELECT COUNT(*) FROM briefs b WHERE b.client_id = c.id AND b.status <> 'ready') AS drafts,
+            (SELECT COUNT(DISTINCT l.box_key) FROM send_log l WHERE l.client_id = c.id AND l.status = 'sent') AS sent,
+            (SELECT MAX(b.created_at) FROM briefs b WHERE b.client_id = c.id) AS last_brief,
+            (SELECT CASE WHEN length(t.icp) > 0 THEN 1 ELSE 0 END FROM client_templates t WHERE t.client_id = c.id) AS has_icp
        FROM clients c LEFT JOIN client_settings s ON s.client_id = c.id ORDER BY c.name`
   ).all()).results;
   const members = (await env.DB.prepare(

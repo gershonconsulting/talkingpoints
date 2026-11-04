@@ -34,6 +34,15 @@
   form.nc .full { grid-column:1 / -1; }
   form.nc input, form.nc select, form.nc textarea { font:inherit; font-weight:400; font-size:14px; color:var(--text); padding:8px 10px; border:1px solid var(--border); border-radius:8px; background:var(--surface, #fff); }
   @media (max-width:700px) { form.nc { grid-template-columns:1fr; } }
+  .dash td.n, .dash th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .dash tr.total td { font-weight: 700; background: var(--bg); }
+  .dash .ok { color: var(--success); font-weight: 700; }
+  .dash .no { color: var(--error); font-weight: 700; }
+  .kpis { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  .kpi { border: 1px solid var(--border); border-radius: 10px; padding: 8px 14px; min-width: 120px; }
+  .kpi b { display: block; font-size: 20px; color: var(--brand); }
+  .kpi span { font-size: 12px; color: var(--text-muted); }
+  .dash-wrap { overflow-x: auto; }
 </style>
 </head>
 <body>
@@ -44,7 +53,7 @@
     <a class="nav-item active" href="/admin">Admin</a>
     <a class="nav-item" href="/app">Back to dashboard</a>
     <div class="nav-spacer"></div>
-    <div class="sidebar-footer">Only you can see this page. · v1.7.0</div>
+    <div class="sidebar-footer">Only you can see this page. · v1.9.0</div>
   </aside>
   <main>
     <div class="topbar">
@@ -55,6 +64,15 @@
       <span class="tag" id="who"></span>
     </div>
     <div class="content">
+      <div class="card client">
+        <div class="card-header"><h3>Dashboard</h3><small class="muted" id="dashWhen">Live</small></div>
+        <div class="kpis" id="dashKpis"></div>
+        <div class="dash-wrap"><table class="dash">
+          <thead><tr><th>Streak link</th><th>Client</th><th>Streak pipeline</th><th class="n">Logins</th><th class="n">Recipients</th><th>ICP</th><th class="n">Researched</th><th class="n">Drafts</th><th class="n">Sent</th><th>Last talking point</th></tr></thead>
+          <tbody id="dashRows"><tr><td colspan="10" class="muted">Loading…</td></tr></tbody>
+        </table></div>
+        <p class="muted" style="font-size:12px;margin-top:8px">✅ Streak link = the client's Streak pipeline is linked. Logins = client people who can sign in. Recipients = emails that receive the talking points. Researched = talking points the client can see. Drafts = old quick drafts, hidden from clients. Sent = talking points emailed at least once (logged since Oct 28, 2026).</p>
+      </div>
       <div class="card client">
         <div class="card-header"><h3>Gershon Streak key</h3><span class="tag" id="gkStatus">Checking…</span></div>
         <p class="muted" style="margin-bottom:10px;font-size:13px">One key for all campaigns: the Streak API key of olivier@gershonconsulting.com (Gmail → Streak → Integrations → API key). Paste it once; every campaign below then shows its leads. A client who pastes their own key in Settings uses theirs instead.</p>
@@ -105,8 +123,41 @@
   }
   const when = (d) => d ? new Date(d.replace(' ', 'T') + 'Z').toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : 'never';
 
+  function renderDash(clients) {
+    const short = (d) => d ? new Date(d.replace(' ', 'T') + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '—';
+    const rows = [...clients].sort((a, b) => (b.ready - a.ready) || (b.briefs - a.briefs) || a.name.localeCompare(b.name));
+    const n = (c, k) => Number(c[k] || 0);
+    const count = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean).length;
+    const sum = (k) => rows.reduce((t, c) => t + n(c, k), 0);
+    const linked = rows.filter((c) => c.streak_url).length;
+    const logins = (c) => c.members.filter((m) => !m.is_admin).length;
+    $('dashKpis').innerHTML = [
+      [rows.length, 'clients'], [`${linked} / ${rows.length}`, 'Streak link ✅'],
+      [sum('ready'), 'researched talking points'], [sum('sent'), 'sent at least once'],
+      [rows.filter((c) => n(c, 'ready') > 0).length, 'clients with talking points'],
+    ].map(([v, l]) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
+    $('dashRows').innerHTML = rows.map((c) => `<tr>
+      <td>${c.streak_url ? '<span class="ok">✅</span>' : '<span class="no">❌</span>'}</td>
+      <td>${esc(c.name)}</td>
+      <td>${c.streak_url ? `<a href="${esc(c.streak_url)}" target="_blank" rel="noopener">Open in Streak ↗</a>` : '<span class="muted">No pipeline</span>'}</td>
+      <td class="n">${logins(c)}</td>
+      <td class="n">${count(c.recipients)}</td>
+      <td>${c.has_icp ? '<span class="ok">✅</span>' : '<span class="no">❌</span>'}</td>
+      <td class="n">${n(c, 'ready')}</td>
+      <td class="n">${n(c, 'drafts')}</td>
+      <td class="n">${n(c, 'sent')}</td>
+      <td>${short(c.last_brief)}</td>
+    </tr>`).join('') + `<tr class="total"><td>${linked} ✅</td><td>Total</td><td></td>
+      <td class="n">${rows.reduce((t, c) => t + logins(c), 0)}</td>
+      <td class="n">${rows.reduce((t, c) => t + count(c.recipients), 0)}</td>
+      <td>${rows.filter((c) => c.has_icp).length} ✅</td>
+      <td class="n">${sum('ready')}</td><td class="n">${sum('drafts')}</td><td class="n">${sum('sent')}</td><td></td></tr>`;
+    $('dashWhen').textContent = 'Live · ' + new Date().toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  }
+
   async function load() {
     const { clients, viewing } = await api('/api/admin/clients');
+    renderDash(clients);
     $('clients').innerHTML = clients.map((c) => `
       <div class="card client">
         <div class="card-header">

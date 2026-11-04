@@ -1,0 +1,260 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOXn2u78CQw",
+ "company": "New Belgium Brewing",
+ "lead_name": "Heather Johnston",
+ "lead_role": "VP Hospitality, Retail Marketing",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "New Belgium Brewing (US craft brewer: Voodoo Ranger, Fat Tire; owned by Lion / Kirin)",
+   "person": "Heather Johnston",
+   "role": "VP Hospitality, Retail Marketing",
+   "location": "Fort Collins, Colorado (HQ) · personal location to be confirmed",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "VP Retail Marketing: Altavia ICP title",
+     "tone": "good"
+    },
+    {
+     "label": "Said 'let's set up some time'",
+     "tone": "good"
+    },
+    {
+     "label": "US, not Canada",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Heather asked on Sep 16 for an **email to hjohnston@newbelgium.com**. Nothing is logged in Streak as sent. Send it **now** with **2-3 concrete times** and a calendar link."
+   },
+   "source_line": "Lead added to Streak on Sep 17, 2026 by Johanna T; moved to Contacted Nov 2. Source: LinkedIn InMail (as Anne). Pipeline: Altavia - Anne (on HubSpot). Fit: Medium. Industry: beer / CPG food & beverage.",
+   "linkedin_url": "https://www.linkedin.com/in/heather-johnston-1aa1177"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **1991** in Fort Collins, CO; owned by **Lion (Kirin)** since **2019**; Bell's joined in **2021**"
+   },
+   {
+    "label": "Scale",
+    "value": "Revenue est. **~$219M** (third-party estimate); Voodoo Ranger family **>1M barrels** a year (brand estimate)"
+   },
+   {
+    "label": "Lead",
+    "value": "VP Hospitality, **Retail Marketing**: owns taprooms + retail marketing"
+   },
+   {
+    "label": "Status",
+    "value": "Warm. She said yes in May; stalled at the **work-email step**"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Anne runs **retail / shopper marketing and POS** programs; Heather runs **retail marketing and hospitality** for a brand that lives on c-store and grocery shelves."
+   },
+   "items": [
+    "Heather is **not** in Anne's LinkedIn network yet; no one at New Belgium, Lion or Kirin either.",
+    "Both sides work on the **in-store experience**: Altavia on POS and displays, Heather on retail programs and taprooms."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Close the loop she opened",
+    "text": "She asked for an email in September. Open with: \"As promised, here is the email you asked for.\" Keep it short. Propose **2-3 times** and add the calendar link."
+   },
+   {
+    "title": "Lead with POS waste, not with Altavia's size",
+    "text": "**Up to 70% of in-store materials are never installed.** For a brand with display programs across thousands of c-stores and grocery stores, that is real money. Altavia typically saves **10-15%** by consolidating suppliers."
+   },
+   {
+    "title": "Talk Voodoo Ranger in c-store",
+    "text": "Voodoo Ranger doubled its points of distribution by pushing into **convenience**, craft's No. 1 growth channel (Brewbound, Jan 2024). More doors means more POS kits to ship, install and check."
+   },
+   {
+    "title": "Taprooms as brand stages",
+    "text": "New Belgium runs taprooms in Fort Collins, Asheville and Denver (Source Hotel), plus a Daleville, VA site. Altavia does **pop-ups, modular displays and retail experience design**: a natural fit for her hospitality side."
+   }
+  ],
+  "person": {
+   "name": "Heather Johnston",
+   "text": "Heather is **VP Hospitality, Retail Marketing** at New Belgium (title from Streak / LinkedIn). An older public directory lists her as **Retail Programming and Operations Director** at New Belgium in Fort Collins, which suggests she grew into the VP role internally (**to be confirmed**). She covers two areas Altavia sells into: **retail marketing** (in-store programs, displays) and **hospitality** (taprooms). She replied positively to Anne's InMail and asked for an email herself. Career history and education are not verified."
+  },
+  "company": {
+   "text": "New Belgium was founded in **1991** in Fort Collins, Colorado, by Kim Jordan and Jeff Lebesch. It was sold to **Lion**, Kirin's Australian beverage arm, in **2019**. Lion then bought **Bell's Brewery** (Michigan) in **2021** and put it under New Belgium. Breweries: **Fort Collins**, **Asheville NC** (hit by Hurricane Helene in 2024, now back online), and **Daleville VA** (bought from Constellation in 2023). Brands: **Voodoo Ranger** (the US's top craft IPA family; Imperial IPA was No. 1 craft beer in c-stores per Circana), **Fat Tire** (recipe changed in 2023), Bell's Two Hearted, plus beyond-beer: Voodoo Ranger Hardcharged Tea, LightStrike refreshers and RTDs. CEO is **Shaun Belongie** (former CMO, CEO since Nov 2023). His strategy is \"radical simplicity\": focus on three big brands. Since 2025 New Belgium also brews Kirin beer for the US. Hospitality: taprooms in Fort Collins, Asheville and Denver; the San Francisco brewpub **closed in Feb 2024**; a Mohegan Sun (CT) taproom was announced (**status to be confirmed**)."
+  },
+  "financials": {
+   "country": "US, private (subsidiary of Lion / Kirin Holdings, listed in Tokyo)",
+   "text": "New Belgium does not publish its own numbers. **Estimates:** revenue **~$219M** and **~609 employees** (RocketReach, 2026); this looks low for a 1M+ barrel brewer, so treat as a floor (**to be confirmed**). Older data: **$245M revenue (2015)**, **~958,000 barrels (2016)**, **703 employees (2018)**. In 2021, New Belgium and Bell's together had about **$361M** in tracked off-premise sales year-to-date (Brewbound). The Voodoo Ranger family alone passed **1M barrels** a year (brand estimate, Nov 2025). Kirin Holdings reports Lion results but not a New Belgium line."
+  },
+  "history": {
+   "text": "Anne reached Heather by **LinkedIn InMail**. In **May**, Heather replied: \"Thanks for reaching out. Let's set up some time to dig into these ideas.\" Anne asked for her work email on **May 20**, then followed up on **Jul 7** and again in **September**. On **Sep 16**, Heather wrote: \"can you send me an email to hjohnston@newbelgium.com?\" The box was created **Sep 17** by Johanna T and moved to **Contacted on Nov 2**. **No email is logged in Streak.** Open item: send the email now with concrete times. This matches the campaign pattern: warm leads stall at the work-email step."
+  },
+  "industry": [
+   {
+    "title": "Display space is the battleground",
+    "text": "Beer volumes are soft, so brewers fight for **display space** in grocery and c-stores (Bump Williams Consulting via Brewbound, 2025). Better POS execution protects that space."
+   },
+   {
+    "title": "Convenience is the growth channel",
+    "text": "C-stores are craft's No. 1 growth channel. Voodoo Ranger built its lead there and held close to **15% of craft c-store dollars** (Circana, 2023). C-store POS is high volume, small format and hard to verify in-store."
+   },
+   {
+    "title": "Beyond beer means new shelves",
+    "text": "Hardcharged Tea, RTDs and refreshers sit on **different shelves** (hard tea, RTD), so each needs its own POS and planogram. New Belgium itself said placement drives Hardcharged's success."
+   },
+   {
+    "title": "Taprooms under pressure",
+    "text": "Big brewers are closing taprooms (New Belgium SF, 2024; AB InBev too). The ones that stay must work harder as **brand experiences**."
+   }
+  ],
+  "talking_points": [
+   "How do you manage POS for Voodoo Ranger across c-stores and grocery today: one agency, many printers, or your distributors?",
+   "Do you know how much of your in-store material actually gets installed?",
+   "With Hardcharged and the RTDs on different shelves, how many separate POS kits do you run per season?",
+   "How do the taprooms tie into retail marketing: shared creative, or separate programs?",
+   "Who else signs off on in-store spend: procurement, brand, or distributors?",
+   "What does a good 2027 look like for your team, and what would you change first?"
+  ],
+  "attention": [
+   {
+    "title": "US, not Canada",
+    "text": "The campaign now focuses on **Canada**. New Belgium is US-only (Canada distribution **to be confirmed**). Keep it, the title is strong, but flag it to the team."
+   },
+   {
+    "title": "Distributors pay for some POS",
+    "text": "In US beer, distributors often place and fund POS. Ask who controls the budget before pitching savings."
+   },
+   {
+    "title": "Cost pressure",
+    "text": "New Belgium has had several small layoffs and restructurings (Bell's merger in 2022; sales and marketing restructure). Pitch savings and simplicity, not big creative spend."
+   },
+   {
+    "title": "Title not fully verified",
+    "text": "Exact title and remit come from Streak / LinkedIn; the public directory shows an older title. Confirm her scope early in the call."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: lead details and LinkedIn exchange (as provided)"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia: New Belgium Brewing Company (history, ownership, breweries, older figures)"
+   },
+   {
+    "used": true,
+    "text": "Brewbound: New Belgium news tag; Beer Industry Summit (Jan 2024); Circana c-store share (Sep 2023); Bell's sale to Lion (2021)"
+   },
+   {
+    "used": true,
+    "text": "Mid Atlantic Brew News (Nov 2025): Voodoo Ranger passes 1M barrels"
+   },
+   {
+    "used": true,
+    "text": "Brauwelt (Feb 2024): San Francisco taproom closure; NEREJ: Mohegan Sun taproom announcement"
+   },
+   {
+    "used": true,
+    "text": "RocketReach: revenue / employee estimate"
+   },
+   {
+    "used": true,
+    "text": "Connectplex: Heather Johnston directory entry (older title)"
+   },
+   {
+    "used": true,
+    "text": "Brewers Association (CBC 2027); C-Store Dive (2027 c-store shows)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: company page followers and posts (blocked; not audited)"
+   },
+   {
+    "used": false,
+    "text": "Instagram / TikTok follower counts (not audited)"
+   },
+   {
+    "used": true,
+    "text": "Anne Bougel's LinkedIn network export (3,327 connections, Mar 2025 – Oct 2026), Google Drive"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Altavia (Anne) · prepared November 3, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Strong consumer brands (Voodoo Ranger, Fat Tire) and an active brand presence; **follower counts not verified**.",
+   "detail": "New Belgium is a national consumer brand with a large, younger audience for Voodoo Ranger and frequent launches and partnerships (TV and video game tie-ins planned for 2026). The LinkedIn company page could not be audited, so follower count and posting rate are **to be confirmed**. Grade is provisional.",
+   "context": "Web-audited Nov 3, 2026. LinkedIn and Instagram blocked from automated check."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Page exists; not audited. Check before the call for hiring or retail news."
+    },
+    {
+     "channel": "Brand social (Voodoo Ranger, Fat Tire)",
+     "audience": "To be confirmed",
+     "recency": "Active (frequent launches)",
+     "read": "Consumer-facing. Shows how they speak to shoppers: bold, playful, gaming and pop-culture tie-ins."
+    },
+    {
+     "channel": "Trade press",
+     "audience": "Brewbound, Beer Business Daily",
+     "recency": "Frequent",
+     "read": "Leadership speaks often at trade events; good source for strategy quotes."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "**Heather Johnston is not in Anne's 1st-degree network** (she replied to an InMail). Anne has **no connection at New Belgium, Lion or Kirin** in her network export (Mar 2025 – Oct 2026).",
+   "items": [
+    "Send a connection request after the email so the next touch is on LinkedIn too.",
+    "Open Heather's profile from Anne's account to see shared connections."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/heather-johnston-1aa1177",
+    "label": "Open Heather Johnston's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "2026 plans",
+    "where": "Brewbound",
+    "text": "Voodoo Ranger plans two new IPAs, partnerships with major TV and video game releases, and two RTDs for 2026.",
+    "use": "Each launch and partnership needs in-store POS. Ask how they roll it out at shelf."
+   },
+   {
+    "when": "Nov 2025",
+    "where": "Mid Atlantic Brew News",
+    "text": "Voodoo Ranger family estimated to pass 1 million barrels a year.",
+    "use": "Congratulate; scale means big POS volume."
+   },
+   {
+    "when": "Jan 2024",
+    "where": "Beer Industry Summit (Brewbound)",
+    "text": "CEO Belongie: Voodoo Ranger doubled distribution via convenience; Hardcharged must sit on the hard tea shelf.",
+    "use": "Shows leadership cares about shelf execution: Altavia's core."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "\"As promised, here is the email you asked for\": close her own open loop.",
+   "**Up to 70% of in-store materials are never installed**: how sure are you about Voodoo Ranger's c-store kits?",
+   "Voodoo Ranger doubled its doors through convenience: more doors, more POS to manage.",
+   "Taprooms as brand stages: Altavia's pop-ups and modular displays.",
+   "Upcoming events to suggest meeting at: **Craft Brewers Conference**, Apr 5-7, 2027, San Antonio; **NACS State of the Industry**, Apr 21-23, 2027; **NACS Show**, Oct 5-8, 2027, Atlanta (her attendance **to be confirmed**)."
+  ]
+ },
+ "send": false
+}

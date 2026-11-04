@@ -122,6 +122,25 @@ export async function gershonStreakKey(env) {
   return row?.value ? await decryptText(env, row.value) : '';
 }
 
+// ---------- Which leads get talking points ----------
+// Client campaigns: every new lead (daily run). Gershon's own pipelines (GC Pipeline for Olivier,
+// GC Campaigns for Julien): ONLY leads in the "Scheduled" stage, i.e. a call is booked (2026-11-03).
+export const SCHEDULED_ONLY = new Set(['gershon-consulting-olivier', 'gershon-consulting-julien']);
+export const scheduledOnly = (c) => SCHEDULED_ONLY.has(String(c?.slug || c?.client_slug || ''));
+export const isScheduledStage = (name) => /scheduled/i.test(String(name || ''));
+
+// Boxes of a pipeline sitting in its "Scheduled" stage(s).
+export async function scheduledBoxes(key, pipelineKey) {
+  const pipeline = await streak(key, `/v1/pipelines/${pipelineKey}`);
+  const stages = Object.entries(pipeline.stages || {}).filter(([, st]) => isScheduledStage(st.name));
+  const out = [];
+  for (const [stageKey, st] of stages) {
+    const boxes = await streak(key, `/v1/pipelines/${pipelineKey}/boxes?stageKey=${stageKey}&limit=200`).catch(() => []);
+    for (const b of Array.isArray(boxes) ? boxes : []) if (b.stageKey === stageKey) out.push({ ...b, stageName: st.name });
+  }
+  return { pipeline, boxes: out };
+}
+
 // ---------- Streak ----------
 // Accepts a pipeline key or a pasted Streak link (https://www.streak.com/a/pipelines/<key>[/...]).
 export const pipelineKeyFrom = (v) => {
