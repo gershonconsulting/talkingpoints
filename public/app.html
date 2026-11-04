@@ -67,6 +67,11 @@
   .tpl-list .tpl-main span { color: var(--text-muted); font-size: 12px; }
   .tpl-list .tpl-src { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); white-space: nowrap; }
   .tpl-list li.off .tpl-main { opacity: .45; }
+  .view-switch { display:flex; margin: 0 12px 12px; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+  .view-switch button { flex:1; padding:8px 6px; border:0; background:#fff; font:inherit; font-size:13px; font-weight:600; color:var(--text-muted); cursor:pointer; }
+  .view-switch button.on { background: var(--brand); color:#fff; }
+  .admin-banner { background:#fff1ef; color:#b31200; border:1px solid #ffc9c1; border-radius:8px; padding:6px 12px; font-size:13px; font-weight:600; }
+  body.mode-admin .sidebar { box-shadow: inset 4px 0 0 var(--brand); }
   .campaign-pick { margin: 0 12px 10px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; background: #fff; max-width: calc(100% - 24px); }
   .muted { color: var(--text-muted); margin-bottom: 16px; }
   #sRecipients { min-height: 84px; }
@@ -88,6 +93,9 @@
 <div class="app">
   <aside class="sidebar" id="sidebar">
     <a class="brand" href="/app"><img src="/logo.svg" alt="" />Talking Points</a>
+    <div class="view-switch" id="viewSwitch" role="group" aria-label="View" hidden>
+      <button type="button" data-mode="user">User view</button><button type="button" data-mode="admin">Admin view</button>
+    </div>
     <div class="nav-group-label" id="clientName">Your campaign</div>
     <select id="campaignPick" class="campaign-pick" aria-label="Campaign to test" hidden></select>
     <a class="nav-item active" href="#leads" data-view="leads">Leads</a>
@@ -95,7 +103,7 @@
     <a class="nav-item" href="#settings" data-view="settings">Settings</a>
     <div class="nav-spacer"></div>
     <div class="user-chip" id="userChip"></div>
-    <div class="sidebar-footer">© 2026 Gershon Consulting · <span title="Talking Points version">v1.9.0</span></div>
+    <div class="sidebar-footer">© 2026 Gershon Consulting · <span title="Talking Points version">v1.9.2</span></div>
   </aside>
   <main>
     <div class="topbar">
