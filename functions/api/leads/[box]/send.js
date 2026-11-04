@@ -34,6 +34,7 @@ export async function onRequestPost({ request, env, params }) {
   const plan = planBriefEmail(to, applyTemplate(row.data, await getTemplate(env, u.client_id)));
   const data = plan.data;
   const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
+  const clientName = (await env.DB.prepare('SELECT name FROM clients WHERE id = ?').bind(u.client_id).first())?.name || '';
   const note = String(b.note || '').trim().slice(0, 1000);
   const esc = (x) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const intro = note ? `<div style="max-width:680px;margin:0 auto 12px;font-family:Arial,sans-serif;font-size:14px;color:#33475b;line-height:1.6;">${esc(note).replace(/\n/g, '<br>')}<br><br>— ${esc(u.name || u.email)}</div>` : '';
@@ -42,7 +43,7 @@ export async function onRequestPost({ request, env, params }) {
       to,
       from: plan.from,
       reply_to: EMAIL.test(u.email || '') ? u.email : undefined,
-      subject: briefSubject(row.company, row.lead_name || 'Lead', date),
+      subject: briefSubject(clientName, row.company, row.lead_name || 'Lead', date),
       html: intro + renderBrief(data),
       text: (note ? `${note}\n\n` : '') + renderBriefText(data),
     });
