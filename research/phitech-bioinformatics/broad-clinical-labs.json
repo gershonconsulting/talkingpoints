@@ -1,0 +1,273 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOX_5aq1CQw",
+ "company": "Broad Clinical Labs",
+ "lead_name": "Carrie Cibulskis",
+ "lead_role": "Director, Cancer Genomics",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Broad Clinical Labs (wholly owned subsidiary of the Broad Institute of MIT and Harvard)",
+   "person": "Carrie Cibulskis",
+   "role": "Director, Cancer Genomics",
+   "location": "Burlington / Cambridge, MA (to be confirmed which site)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Happy to chat",
+     "tone": "good"
+    },
+    {
+     "label": "Email her now",
+     "tone": "warn"
+    },
+    {
+     "label": "CLIA/CAP genomics lab",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Carrie wrote **\"Happy to chat about this!\"**, said she is away at conferences a lot in October, and asked to be emailed at **carrie@broadinstitute.org**. October is over and no email is logged in Streak. Send a short email this week proposing a call."
+   },
+   "source_line": "Lead added to Streak on Oct 6, 2026 by Aina R. Source: LinkedIn messaging (sender to be confirmed: Saliha or Tunahan).",
+   "linkedin_url": "https://www.linkedin.com/in/carrie-cibulskis-67a5486a"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**CLIA-certified, CAP-accredited** clinical genomics lab of the Broad Institute (formerly the Clinical Research Sequencing Platform), renamed and spun out as a subsidiary in **Oct 2023**"
+   },
+   {
+    "label": "Scale",
+    "value": "Nearly **900,000 whole human genomes** sequenced; **240,000+** genomes for NIH *All of Us*; 37.5M COVID-19 tests; partnered directly with tens of thousands of cancer patients"
+   },
+   {
+    "label": "Services",
+    "value": "Clinical-trial analyses, biobank profiling, biomarker discovery, population genomics, newborn/adult risk screening, direct-to-patient studies, **high-complexity 'omics assay development**"
+   },
+   {
+    "label": "Recent",
+    "value": "**Roche SBX** sequencing partnership (May 2025): NICU trio WGS first, then **bulk and single-cell RNA-seq**"
+   },
+   {
+    "label": "Contact",
+    "value": "carrie@broadinstitute.org"
+   },
+   {
+    "label": "PhiTech ICP",
+    "value": "**#4 Clinical / diagnostic labs** — fit: **strong segment, partner model**. BCL generates large clinical-grade genomic and RNA data for pharma trials and research; PhiTech's AI multi-omics interpretation can sit on top. Carrie leads cancer genomics (person fit good for oncology use cases); BCL also builds its own tools, so position as a **complement**, not a replacement."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Saliha Durmus",
+    "reason": "Co-founder and computational biologist: the right peer for a cancer-genomics director who built sequencing workflows for cancer research."
+   },
+   "items": [
+    "**Carrie said yes** to a chat and gave her email.",
+    "**Cancer genomics + data analysis:** Carrie co-authored work on blood-biopsy (cell-free DNA) exome sequencing for direct-to-patient cancer research (AACR 2017); PhiTech adds AI interpretation across omics layers.",
+    "**RNA is on BCL's roadmap:** the Roche SBX deal includes bulk and single-cell RNA-seq, a layer PhiTech's pipelines analyse.",
+    "**No shared employer, school or contact verified** between Carrie and Saliha or Tunahan (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Multi-omics interpretation on top of BCL data",
+    "text": "BCL produces clinical-grade DNA and RNA data at huge scale. PhiTech's AI turns multi-omics data into **prognostic and treatment-relevant signals**, useful for BCL's pharma trial and biobank clients."
+   },
+   {
+    "title": "Oncology use case first",
+    "text": "Start where Carrie works: a **retrospective cancer cohort** (tumor DNA + RNA) analysed by PhiTech, with results reviewed by her team."
+   },
+   {
+    "title": "A partner for pharma projects",
+    "text": "BCL runs clinical-trial analyses for sponsors. A joint offer (BCL data generation + PhiTech AI analytics) can make **larger pharma studies** easier to win."
+   }
+  ],
+  "person": {
+   "name": "Carrie Cibulskis",
+   "text": "Listed in Streak as **Director, Cancer Genomics** at Broad Clinical Labs (email @broadinstitute.org). Public record: co-author with Andrew Hollinger of an **AACR 2017 abstract** on the Broad Genomics Platform and Cancer Program's **blood-biopsy sequencing** workflow for direct-to-patient cancer research (cell-free DNA exomes; validation in 23 breast and prostate cancer patients). Her exact reporting line (BCL vs. Broad Genomics Platform), education and tenure are **to be confirmed**. She attends many conferences (busy October 2026)."
+  },
+  "company": {
+   "text": "Broad Clinical Labs (BCL) was established in **October 2023** as a **wholly owned subsidiary** of the Broad Institute of MIT and Harvard, building on the former Clinical Research Sequencing Platform. It is a **CLIA-certified, CAP-accredited** lab at **27 Blue Sky Drive, Burlington, MA**, providing genomic testing and data generation for translational research and precision medicine. Leadership: **Niall Lennon, PhD** (Chair and CSO), **Heidi Rehm, PhD, FACMG** (CMO and Clinical Lab Director), **Sean Hofherr** (Chief of Clinical Strategy and Product Development); Broad director **Todd Golub** sits on its board. In **May 2025** BCL partnered with **Roche** to pilot SBX sequencing, starting with trio WGS for critically ill newborns and extending to bulk and single-cell RNA sequencing."
+  },
+  "financials": {
+   "country": "USA, subsidiary of a nonprofit research institute",
+   "text": "No separate financial figures published. BCL is backed by the Broad Institute and funded through large programs (e.g. NIH *All of Us*) and paid services for pharma and research partners. Budget decisions likely involve BCL leadership (Niall Lennon, Sean Hofherr) as well as Carrie."
+  },
+  "history": {
+   "text": "LinkedIn. Carrie replied: **\"Happy to chat about this! I'm away at conferences a lot in October but email me at carrie@broadinstitute.org.\"** Box created Oct 6, 2026 by Aina R, stage Lead. No email or meeting is logged in Streak yet."
+  },
+  "industry": [
+   {
+    "title": "Clinical labs move to multi-omics",
+    "text": "Large genome centres are adding RNA, methylation and single-cell assays; interpretation becomes the bottleneck."
+   },
+   {
+    "title": "New sequencing platforms",
+    "text": "Roche SBX and other new technologies promise faster, cheaper reads, so more data per patient and more need for analytics."
+   },
+   {
+    "title": "Pharma demands clinical-grade data",
+    "text": "Trial sponsors want CLIA/CAP-quality genomics and ready-to-use insights for biomarker and patient-selection work."
+   }
+  ],
+  "talking_points": [
+   "What cancer-genomics projects does your team run today: trials, biobanks, direct-to-patient studies?",
+   "Where does **interpretation** happen: inside BCL, at the sponsor, or with partners?",
+   "How will **RNA-seq on SBX** change your cancer work, and who analyses the RNA data?",
+   "Would a **retrospective pilot** on a de-identified tumor cohort be possible?",
+   "Who else at BCL (clinical strategy, product development) should join a next call?"
+  ],
+  "attention": [
+   {
+    "title": "Email her this week.",
+    "text": "She asked to be emailed after a busy October; nothing is logged yet. Send a short note to carrie@broadinstitute.org with 2–3 call slots."
+   },
+   {
+    "title": "Confirm the sender.",
+    "text": "Streak doesn't show who wrote to Carrie on LinkedIn (Saliha or Tunahan). The email should come from the same person."
+   },
+   {
+    "title": "Complement, don't compete.",
+    "text": "BCL has strong in-house bioinformatics. Frame PhiTech as **AI multi-omics interpretation** that adds to their pipeline."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (PhiTech Bioinformatics pipeline): box, contact, LinkedIn reply copied by Aina R (Oct 6, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Broad Institute news (Oct 3, 2023): Broad Clinical Labs established; scale figures; leadership"
+   },
+   {
+    "used": true,
+    "text": "MassBio Member Spotlight (Oct 14, 2025): CLIA/CAP status, address, leadership"
+   },
+   {
+    "used": true,
+    "text": "Roche / Broad Clinical Labs SBX partnership (May 26, 2025), via BioPharma Boardroom"
+   },
+   {
+    "used": true,
+    "text": "Cancer Research 77(13 Suppl), AACR 2017 Abstract 5390 (Cibulskis, Hollinger), via BetterScholar"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Carrie's profile and BCL follower counts not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Strong institutional voice through the **Broad Institute**; BCL's own channels and Carrie's activity to be confirmed.",
+   "detail": "BCL news reaches a wide audience via the Broad Institute newsroom, MassBio and trade media (GenomeWeb, Lab Manager), plus partner releases (Roche). BCL's own content volume is modest, and no recent public posts by Carrie were found; her visible work is scientific (AACR abstract).",
+   "context": "Web-audited Nov 5, 2026; LinkedIn follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Broad Institute newsroom",
+     "audience": "Very large scientific audience",
+     "recency": "BCL items 2023–2024",
+     "read": "Strong amplifier"
+    },
+    {
+     "channel": "Trade media (GenomeWeb, Lab Manager, MassBio)",
+     "audience": "Genomics and lab industry",
+     "recency": "2025",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn: Broad Clinical Labs",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Check before follow-up"
+    },
+    {
+     "channel": "LinkedIn: Carrie Cibulskis",
+     "audience": "To be confirmed",
+     "recency": "Replied in early Oct 2026",
+     "read": "Reachable"
+    }
+   ],
+   "note": "BCL announces technology partnerships (Roche). A co-authored poster or abstract on a pilot would be the natural joint output."
+  },
+  "network": {
+   "summary": "No direct link between Carrie and Saliha or Tunahan was found beyond the LinkedIn exchange.",
+   "items": [
+    "BCL leaders relevant to a partnership: **Niall Lennon** (Chair & CSO), **Sean Hofherr** (Clinical Strategy & Product Development), **Heidi Rehm** (CMO).",
+    "Carrie's past co-author **Andrew Hollinger** (Broad) is another possible contact (to be confirmed).",
+    "Your exact number of shared connections with Carrie is on her LinkedIn profile, under her name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/carrie-cibulskis-67a5486a",
+    "label": "See your mutual connections with Carrie on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 14, 2025",
+    "where": "MassBio Member Spotlight",
+    "text": "BCL profiled as a CLIA/CAP genomic testing and data-generation lab for translational research and precision medicine.",
+    "use": "Use their own wording: 'translational research and precision medicine'."
+   },
+   {
+    "when": "May 26, 2025",
+    "where": "Roche / BCL release",
+    "text": "Partnership to pilot SBX sequencing: NICU trio WGS, then bulk and single-cell RNA-seq.",
+    "use": "Ask who will analyse the RNA data."
+   },
+   {
+    "when": "2017",
+    "where": "AACR Annual Meeting (abstract)",
+    "text": "Carrie co-authored the Broad's blood-biopsy exome sequencing workflow for direct-to-patient cancer research.",
+    "use": "Shows her hands-on cancer-genomics background; speak to data quality and scale."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "October 2026 conferences",
+    "when": "October 2026",
+    "role": "Carrie said she was away at conferences a lot; which ones to be confirmed"
+   },
+   {
+    "name": "AACR Annual Meeting",
+    "when": "2017",
+    "role": "Abstract co-author"
+   }
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 10–14, 2026 · Seattle, WA",
+    "note": "Molecular diagnostics labs; ask Carrie whether BCL attends.",
+    "best": true
+   },
+   {
+    "name": "AACR Annual Meeting 2027",
+    "when_where": "April 2027 · location to be confirmed",
+    "note": "Cancer research, Carrie's field; a good venue to present a joint pilot."
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "Heidi Rehm's community (clinical genetics); PhiTech exhibited at ACMG 2026."
+   }
+  ],
+  "hooks": [
+   "Pick up her words: **\"Happy to chat\"**, now that the October conferences are done.",
+   "Lead with an **oncology multi-omics** use case: tumor DNA + RNA interpreted by AI.",
+   "Mention the **Roche SBX RNA-seq** plans and ask who analyses that data.",
+   "Offer a **small retrospective pilot**, reviewed with her team.",
+   "Ask who at BCL (clinical strategy / product) should join the next step."
+  ]
+ },
+ "send": false
+}

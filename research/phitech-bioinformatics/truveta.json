@@ -1,0 +1,279 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWIyK3-Cgw",
+ "company": "Truveta",
+ "lead_name": "Kristin Rand",
+ "lead_role": "Senior Director, Genomics Product",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Truveta, Inc. (health-system-owned real-world data and AI company)",
+   "person": "Kristin Rand",
+   "role": "Senior Director, Genomics Product",
+   "location": "Seattle area, WA (Truveta HQ) · personal location to be confirmed",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Call agreed: early Nov",
+     "tone": "good"
+    },
+    {
+     "label": "Book it this week",
+     "tone": "warn"
+    },
+    {
+     "label": "Genomics + EHR at scale",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Book the call now:",
+    "text": "Kristin told Tunahan she is **open to a call** but traveling most of October, so **\"sometime in the first couple weeks of November\"**, and gave **Kristinr@Truveta.com**. That window is **now**. Email her today with two or three slots for the week of Nov 9 or Nov 16."
+   },
+   "source_line": "Lead added to Streak on Oct 14, 2026 by Juliana R. Source: LinkedIn messaging (as Tunahan).",
+   "linkedin_url": "https://www.linkedin.com/in/kristin-rand"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Seattle real-world intelligence company **built and owned by 30 US health systems** (Providence, Advocate, Trinity, Tenet, Northwell, AdventHealth, Henry Ford…); de-identified EHR data from **120M+ patients**, updated daily"
+   },
+   {
+    "label": "Genomics",
+    "value": "**Truveta Genome Project** (Jan 2025): exomes of up to **10 million** consenting patients sequenced by the **Regeneron Genetics Center**, linked to EHRs; leftover biospecimens stored **for future multi-omics research**"
+   },
+   {
+    "label": "Funding",
+    "value": "**$320M Series C** (Jan 2025): Regeneron $119.5M, Illumina $20M, plus 17 health systems"
+   },
+   {
+    "label": "Leadership",
+    "value": "CEO Terry Myerson retired (announced Sep 15, 2026); **interim co-CEOs Jay Nanduri (CTO) and Ryan Ahern (CMO)**. **Johnathan Lancaster, MD, PhD** (ex-Regeneron, ex-Myriad) President & CSO since Jan 2026"
+   },
+   {
+    "label": "Contact",
+    "value": "Kristinr@Truveta.com"
+   },
+   {
+    "label": "PhiTech ICP",
+    "value": "**#2 Healthcare / hospitals** (via its 30 owner health systems) with a channel to **#1 Pharma** (Truveta's data buyers) — fit: **partial, as a partner**. Truveta is a data platform, not a lab buying tests; but genomic data at 10M scale plus stored samples for multi-omics needs **AI interpretation and multi-omics analytics**, which is PhiTech's core. Kristin owns the genomics product, so person fit is strong."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan opened the conversation and Kristin replied to him by name with a date window and her email. He is a systems biologist working on omics data on networks, the science Truveta wants on top of its genomic data."
+   },
+   "items": [
+    "**Warm reply:** Kristin agreed to a call and gave her work email.",
+    "**Multi-omics is in Truveta's plan:** the Genome Project stores leftover biospecimens for future multi-omics research; PhiTech's AI combines genomics, transcriptomics and other omics for precision medicine.",
+    "**Same customers:** both serve pharma researchers and health systems with precision-medicine insight.",
+    "**No shared employer, school or contact verified** between Kristin and Saliha or Tunahan (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "From 10M exomes to answers",
+    "text": "Raw variants linked to EHRs are only the start. PhiTech's AI can **interpret variants in clinical context** and add pathway/network-level insight, making Truveta's genomic data more useful to pharma and health-system researchers."
+   },
+   {
+    "title": "Ready for the multi-omics phase",
+    "text": "Truveta is storing samples for future multi-omics work. PhiTech already runs **multi-omics pipelines** (genomics + transcriptomics + epigenomics), so it can be the analytics partner when that phase starts."
+   },
+   {
+    "title": "Pilot on a defined cohort",
+    "text": "Propose a small **joint analysis** on one disease area (for example a rare-disease or oncology cohort) to show added value before any commercial terms."
+   }
+  ],
+  "person": {
+   "name": "Kristin Rand",
+   "text": "Listed in Streak as **Senior Director, Genomics Product** at Truveta. Truveta has been hiring product managers to **integrate genomics into Truveta Data and Truveta Studio**, so Kristin likely leads that roadmap (to be confirmed). Her education, tenure and earlier employers are **to be confirmed**: no public bio was found and her LinkedIn profile was not read for this brief. She travels often (most of October 2026), which suggests conference or partner activity."
+  },
+  "company": {
+   "text": "Truveta (founded 2020, launched 2021 with 14 health systems, Seattle) is a **real-world intelligence** company built and owned by US health systems, now **30 members**. It combines de-identified EHR data (120M+ patients) with AI (Truveta Language Model) on Microsoft Azure and sells regulatory-grade evidence and insights to biopharma, researchers and public health. In **Jan 2025** it launched the **Truveta Genome Project** with **Regeneron** (sequencing at the Regeneron Genetics Center) and **Illumina**, aiming to sequence exomes from up to 10 million volunteers and link them to clinical records. 2026 news: **Johnathan Lancaster** named President & Chief Scientific Officer (Jan 26); a **real-time clinical trials** solution (Jan 27); a **clinical AI** collaboration with Knit Health (May 2026); CEO **Terry Myerson** stepping down with CTO **Jay Nanduri** and CMO **Ryan Ahern** as interim co-CEOs while the board searches (Sep 15)."
+  },
+  "financials": {
+   "country": "USA, private (health-system and strategic investors)",
+   "text": "**Series C: $320M** (Jan 2025) from Regeneron ($119.5M), Illumina ($20M) and 17 health systems including Advocate Health, CommonSpirit and Northwell. No revenue published. Well funded, but in a **CEO transition**: new partnerships may need sign-off from the interim co-CEOs or Johnathan Lancaster."
+  },
+  "history": {
+   "text": "LinkedIn (as Tunahan). Kristin replied: **\"I would be open for a call, but I will be traveling most of October so let's plan for sometime in the first couple weeks of November.\"** She gave **Kristinr@Truveta.com**. Box created Oct 14, 2026 by Juliana R, stage Lead. No email or meeting is logged in Streak yet."
+  },
+  "industry": [
+   {
+    "title": "Genomics joins real-world data",
+    "text": "Linking sequencing to longitudinal health records (Truveta, All of Us, UK Biobank) is the new standard for target discovery and trial design."
+   },
+   {
+    "title": "Multi-omics is the next layer",
+    "text": "DNA alone explains only part of disease. RNA and other omics on stored biospecimens are the next step, and they need specialised AI interpretation."
+   },
+   {
+    "title": "Pharma buys insight, not raw data",
+    "text": "Real-world data vendors compete on analytics. Partners that turn genomic data into ready answers help win pharma contracts."
+   }
+  ],
+  "talking_points": [
+   "Where is the **Truveta Genome Project** today: how many exomes are linked, and when will genomic data be in Truveta Studio?",
+   "Which **genomic analyses** do pharma customers ask for most, and which are hardest to deliver?",
+   "What is the plan for the **stored biospecimens** and future multi-omics work?",
+   "Does Truveta build interpretation tools in-house or **partner with specialist analytics companies**?",
+   "Would a **joint pilot on one cohort** be a good first step, and who else should join the next call?"
+  ],
+  "attention": [
+   {
+    "title": "Email her this week.",
+    "text": "She asked for the **first couple weeks of November**; that is now. Send 2–3 time slots to Kristinr@Truveta.com and mention Tunahan's LinkedIn thread."
+   },
+   {
+    "title": "CEO transition.",
+    "text": "Truveta's CEO stepped down in Sep 2026. Keep the first ask small (exploratory call, then a pilot idea) and ask Kristin who signs off partnerships."
+   },
+   {
+    "title": "Seattle next week.",
+    "text": "AMP 2026 is in Seattle (Nov 10–14). If PhiTech attends, offer to meet in person."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (PhiTech Bioinformatics pipeline): box, contact, LinkedIn thread copied by Juliana R (Oct 14, 2026)"
+   },
+   {
+    "used": true,
+    "text": "BioPharmaTrend (Jan 13, 2025): $320M Series C, Regeneron/Illumina, 120M patients, 10M exomes"
+   },
+   {
+    "used": true,
+    "text": "Healthcare IT News: Truveta and 30 health systems, Genome Project process, multi-omics biospecimens"
+   },
+   {
+    "used": true,
+    "text": "Truveta press release (Jan 26, 2026): Johnathan Lancaster named President & CSO"
+   },
+   {
+    "used": true,
+    "text": "BriefGlance summary of Truveta release (Sep 15, 2026): CEO steps down, interim co-CEOs"
+   },
+   {
+    "used": true,
+    "text": "Truveta job posting (Greenhouse): Senior Product Management, Genomics"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn: Kristin's profile and Truveta follower counts not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared November 5, 2026",
+  "grade": {
+   "letter": "A",
+   "headline": "Very active company voice: **frequent press releases, research output and big-name partners**; Kristin's own activity to be confirmed.",
+   "detail": "Truveta issued several releases in 2026 alone (Jan, May, Sep) via GlobeNewswire, publishes research and is covered by GeekWire, Healthcare IT News and Fortune. Partners Regeneron and Illumina amplify its genomics news. No public posts or talks by Kristin were found in this audit.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Press releases (GlobeNewswire)",
+     "audience": "Investors, pharma, health systems",
+     "recency": "Sep 15, 2026 (CEO transition)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Truveta blog / research",
+     "audience": "Researchers, pharma",
+     "recency": "Ongoing",
+     "read": "Strong"
+    },
+    {
+     "channel": "Media coverage (GeekWire, Healthcare IT News, Fortune)",
+     "audience": "Tech and health",
+     "recency": "2025–2026",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Truveta",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Likely active"
+    },
+    {
+     "channel": "LinkedIn: Kristin Rand",
+     "audience": "To be confirmed",
+     "recency": "Replied to Tunahan, Oct 2026",
+     "read": "Reachable"
+    }
+   ],
+   "note": "Truveta announces partnerships publicly. A successful pilot could become a joint announcement, a strong US proof point for PhiTech."
+  },
+  "network": {
+   "summary": "No direct link between Kristin and Saliha or Tunahan was found beyond **Tunahan's LinkedIn conversation** in October 2026.",
+   "items": [
+    "**Tunahan already has a thread with Kristin**: the warmest channel.",
+    "Truveta leaders relevant to genomics partnerships: **Johnathan Lancaster** (President & CSO, ex-Regeneron, ex-Myriad Genetics) and interim co-CEOs **Jay Nanduri** and **Ryan Ahern**.",
+    "Your exact number of shared connections with Kristin is on her LinkedIn profile, under her name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/kristin-rand",
+    "label": "See your mutual connections with Kristin on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Sep 15, 2026",
+    "where": "Press release",
+    "text": "CEO Terry Myerson stepping down; Jay Nanduri and Ryan Ahern named interim co-CEOs.",
+    "use": "Ask how priorities are set during the transition."
+   },
+   {
+    "when": "May 2026",
+    "where": "Press release",
+    "text": "Collaboration with Knit Health to power a new generation of clinical AI.",
+    "use": "Shows Truveta partners with specialist AI companies, the model PhiTech proposes."
+   },
+   {
+    "when": "Jan 26, 2026",
+    "where": "Press release",
+    "text": "Johnathan Lancaster (ex-Regeneron, ex-Myriad) appointed President & CSO, with an oncology and precision-medicine focus.",
+    "use": "Precision medicine is a stated priority; tie PhiTech's diagnostics AI to it."
+   },
+   {
+    "when": "Jan 2025",
+    "where": "Press release / media",
+    "text": "Truveta Genome Project launched with Regeneron and Illumina; $320M raised; up to 10M exomes.",
+    "use": "Open with the Genome Project and ask where it stands."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Kristin's October 2026 travel",
+    "when": "October 2026",
+    "role": "Reason given for the November timing; events to be confirmed"
+   }
+  ],
+  "events": [
+   {
+    "name": "AMP 2026 Annual Meeting & Expo",
+    "when_where": "Nov 10–14, 2026 · Seattle, WA",
+    "note": "Molecular diagnostics in **Truveta's home city**. Ask Kristin if anyone from Truveta's genomics team attends; an in-person coffee is possible.",
+    "best": true
+   },
+   {
+    "name": "ACMG Annual Clinical Genetics Meeting 2027",
+    "when_where": "Apr 13–17, 2027 · Minneapolis, MN",
+    "note": "PhiTech exhibited at ACMG 2026. Clinical geneticists and health-system genetics leaders, the users of Truveta's genomic data."
+   }
+  ],
+  "hooks": [
+   "Pick up her own words: **\"the first couple weeks of November\"**, with 2–3 concrete slots.",
+   "Open with the **Truveta Genome Project** and its plan for future multi-omics.",
+   "Position PhiTech as an **AI multi-omics interpretation partner**, not a data competitor.",
+   "Suggest a **small joint pilot** on one disease cohort.",
+   "If timing works, offer to meet in **Seattle during AMP 2026** (Nov 10–14)."
+  ]
+ },
+ "send": false
+}
