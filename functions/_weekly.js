@@ -55,6 +55,9 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
   const done = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(doneKey(client.id)).first();
   if (!force && done?.value === now.day) return;
 
+  // No ICP, no talking points (Olivier, 2026-11-05): a brief can't be judged against the client's ICP without one.
+  const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
+  if (!String(tpl?.icp || '').trim()) { r.notes.push('friday: ICP missing — nothing sent; add it in Admin'); return; }
   const { connected, leads } = await lastLeads(env, client);
   r.friday = { sent: 0, already_sent: 0, research_needed: [] };
   if (!connected) r.notes.push('friday: Streak not connected');
