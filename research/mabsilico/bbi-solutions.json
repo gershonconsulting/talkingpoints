@@ -1,0 +1,216 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlfjF7OcJDA",
+ "company": "BBI Solutions",
+ "lead_name": "Harold Jerome Coyne III",
+ "lead_role": "Principal Scientist - Antibodies",
+ "stage": "Recycled",
+ "data": {
+  "header": {
+   "company": "BBI Solutions (BBI Group)",
+   "person": "Harold Jerome Coyne III",
+   "role": "Principal Scientist - Antibodies",
+   "location": "US (likely BBI's Portland, Maine antibody site — to be confirmed) · BBI HQ UK",
+   "chips": [
+    {
+     "label": "Recycled",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Partial",
+     "tone": "warn"
+    },
+    {
+     "label": "Asked for a call",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Recycled, but he asked for a call:",
+    "text": "Harold wrote: “Hit me at work email first and we can set something up — **jeromecoyne@bbisolutions.com**.” Vincent said Zak would reach out. Zak moved the box to *Recycled* on Oct 30 and no email is logged. Check why it was recycled; if it was not deliberate, email him and book the call."
+   },
+   "source_line": "Lead added to Streak on Oct 29, 2026 by Juliana R; moved to Recycled on Oct 30 by Zak O.",
+   "linkedin_url": "https://www.linkedin.com/in/harold-jerome-coyne-iii-2932a04"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Maker of **IVD raw materials**: antibodies, antigens, enzymes, gold conjugates; lateral-flow contract manufacturing"
+   },
+   {
+    "label": "Antibody activity",
+    "value": "In-house **hybridoma and custom antibody development** (from its 2018 acquisition of Maine Biotechnology Services)"
+   },
+   {
+    "label": "Use case",
+    "value": "Antibodies for **detection** (diagnostic assays), not therapeutics"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Principal Scientist for antibodies — technical owner of antibody development"
+   },
+   {
+    "label": "Ownership",
+    "value": "Part of BBI Group (UK)"
+   },
+   {
+    "label": "Contact",
+    "value": "jeromecoyne@bbisolutions.com"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#6 CROs / antibody service providers** — partial fit: real antibody development team, but for diagnostics; value depends on whether MAbSilico's optimization applies to detection antibodies (affinity, specificity, stability) — to be confirmed with Vincent."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Antibody engineer to antibody engineer: Harold runs antibody development for diagnostic reagents; MAbSilico optimizes antibody affinity and specificity in silico."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Both work on **antibody affinity and specificity** — the core metrics of a good detection antibody.",
+    "Harold proposed the call himself — warm lead."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Better detection antibodies, faster",
+    "text": "Diagnostic assays live or die on **affinity, specificity and lot-to-lot consistency**. Pitch in-silico affinity maturation and specificity optimization of existing hybridoma clones, ending with a recombinant, sequence-defined antibody."
+   },
+   {
+    "title": "Rescue hard targets",
+    "text": "For difficult antigens (cross-reactive variants, infectious-disease strains), MAbSilico can design or refine binders in ~21 days instead of new immunization campaigns."
+   },
+   {
+    "title": "A service for BBI's own clients",
+    "text": "BBI sells custom antibody development. An in-silico optimization step could become an add-on to BBI's offer — partner model."
+   }
+  ],
+  "person": {
+   "name": "Harold Jerome Coyne III",
+   "text": "Principal Scientist - Antibodies at BBI Solutions (per Streak/LinkedIn). Likely based at the former Maine Biotechnology Services site in Portland, ME — to be confirmed. Education and prior roles: to be confirmed."
+  },
+  "company": {
+   "text": "BBI Solutions, part of BBI Group (UK, manufacturing in several countries), supplies the **in-vitro diagnostics** and life-science market with enzymes, antigens, antibodies, gold colloid and conjugates, human serum and controls, plus services: antibody development and production, lateral-flow contract manufacturing and custom gold conjugation. In 2018 it acquired **Maine Biotechnology Services** (Portland, ME), adding 80+ antibodies and in-house hybridoma development. In 2026 it exhibited at ADA 2026 (New Orleans) with antibodies and antigens for diabetes assays."
+  },
+  "financials": {
+   "country": "UK group, private",
+   "text": "Private company; revenue and headcount **not disclosed** — to be confirmed. Budget for outside antibody work is plausible as a reagent/CDMO business, but likely project-based and price-sensitive."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Harold: “Hello Vincent. Hit me at work email first and we can set something up. Jeromecoyne@bbisolutions.com.” Vincent: “Thank you for your reply Harold, my colleague Zak will reach out.” Box created Oct 29 by Juliana R; moved to *Recycled* Oct 30 by Zak O. No email logged."
+  },
+  "industry": [
+   {
+    "title": "Recombinant antibodies in diagnostics",
+    "text": "IVD makers are moving from hybridoma to recombinant antibodies for supply security and consistency — sequence-level optimization is a natural next step."
+   },
+   {
+    "title": "Diabetes and infectious-disease assays",
+    "text": "BBI is pushing reagents for diabetes (ADA 2026) and infectious disease, where specificity across variants matters."
+   }
+  ],
+  "talking_points": [
+   "Where do your detection antibodies fall short today — **affinity, cross-reactivity, stability, supply**?",
+   "Do you convert hybridoma clones to **recombinant** formats? Would sequence optimization help there?",
+   "Do your custom-antibody clients ask for faster or higher-performance binders?",
+   "Would a pilot on one existing antibody be a useful test?"
+  ],
+  "attention": [
+   {
+    "title": "Check why the box was recycled.",
+    "text": "Harold asked for a call. Confirm with Zak whether there was a reason (e.g. diagnostics out of scope) before letting it go."
+   },
+   {
+    "title": "If still in scope, email him.",
+    "text": "Zak to write to jeromecoyne@bbisolutions.com with 2–3 time slots and a short note on detection-antibody optimization."
+   },
+   {
+    "title": "Log the email in Streak.",
+    "text": "No thread is in the box yet."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG pipeline (box, contact, LinkedIn exchange copied Oct 29, 2026)"
+   },
+   {
+    "used": true,
+    "text": "BioSpace — BBI acquires Maine Biotechnology Services (Jan 16, 2018)"
+   },
+   {
+    "used": true,
+    "text": "bbisolutions.com — ADA 2026 news (May 19, 2026) and product/service pages"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — BBI company page and Harold's profile not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 5, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "B2B trade voice: **website news and trade-show presence** (ADA 2026); modest content flow.",
+   "detail": "BBI publishes occasional event and product news on its website and in lab trade media. No follower counts were checked. Grade is provisional.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Website news",
+     "audience": "IVD buyers",
+     "recency": "May 2026 (ADA 2026)",
+     "read": "Occasional"
+    },
+    {
+     "channel": "Trade media (CLP, Lab Bulletin)",
+     "audience": "Lab / IVD industry",
+     "recency": "Older product news",
+     "read": "Occasional"
+    },
+    {
+     "channel": "LinkedIn — BBI Solutions",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Technical buyers; a short case study on improving a detection antibody would speak to them."
+  },
+  "network": {
+   "summary": "No shared network verified.",
+   "items": [
+    "Dr. James Steggles was BBI's Commercial Manager for Antibodies (2018) — current role to be confirmed.",
+    "Your number of shared connections is shown on Harold's LinkedIn profile. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/harold-jerome-coyne-iii-2932a04",
+    "label": "See your mutual connections with Harold on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "May 19, 2026",
+    "where": "Website (company)",
+    "text": "“Meet our experts at **ADA 2026**” — antibodies, antigens and enzymes for diabetes assays.",
+    "use": "Ask whether diabetes assays are a priority and if antibody performance is a bottleneck."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ADA 2026",
+    "when": "New Orleans, 2026",
+    "role": "Exhibitor (company)"
+   }
+  ],
+  "hooks": [
+   "He **proposed the call** — reply with times.",
+   "Speak diagnostic metrics: affinity, specificity, lot consistency.",
+   "Offer a small pilot on one existing antibody."
+  ]
+ },
+ "send": false
+}
