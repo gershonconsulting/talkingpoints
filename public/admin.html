@@ -102,6 +102,10 @@
         </form>
       </div>
       <div class="card client">
+        <div class="card-header"><h3>Friday talking points</h3><small class="muted">Every Friday after 7 AM New York time, each client's 5 newest leads get their talking point by email — never twice for the same lead</small></div>
+        <table><thead><tr><th>Client</th><th>Lead</th><th>Added</th><th>Friday</th></tr></thead><tbody id="weeklyRows"><tr><td colspan="4" class="muted">Loading…</td></tr></tbody></table>
+      </div>
+      <div class="card client">
         <div class="card-header"><h3>Send log</h3><small class="muted">Last 100 talking-point emails, every campaign</small></div>
         <table><thead><tr><th>When</th><th>Campaign</th><th>Lead</th><th>To</th><th>By</th><th>Result</th></tr></thead><tbody id="sendRows"><tr><td colspan="6" class="muted">Loading…</td></tr></tbody></table>
       </div>
@@ -255,6 +259,18 @@
       toast(`${r.name} created · ${r.recipients} recipient${r.recipients === 1 ? '' : 's'}${r.member ? ' · login ready' : ''}`); load();
     } catch (err) { toast(err.message); }
   });
+
+  async function loadWeekly() {
+    try {
+      const { clients } = await api('/api/admin/weekly');
+      const day = (t) => t ? new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+      const tag = (l) => l.status === 'sent' ? `✅ Sent ${esc(when(l.sent_at))}` : l.status === 'ready to send' ? '📨 Goes out Friday' : '❌ Research needed';
+      $('weeklyRows').innerHTML = clients.map((c) => c.leads.length
+        ? c.leads.map((l, i) => `<tr><td>${i ? '' : esc(c.name)}</td><td>${esc(l.name)}</td><td>${esc(day(l.created))}</td><td>${tag(l)}</td></tr>`).join('')
+        : `<tr><td>${esc(c.name)}</td><td colspan="3" class="muted">${c.error ? esc(c.error) : c.connected ? 'No lead yet' : 'Streak not connected'}</td></tr>`).join('');
+    } catch { $('weeklyRows').innerHTML = '<tr><td colspan="4" class="muted">Could not load the Friday list.</td></tr>'; }
+  }
+  loadWeekly();
 
   async function loadSends() {
     try {
