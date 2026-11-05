@@ -1,0 +1,232 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlZjq7swLDA",
+ "company": "Alter Domus",
+ "lead_name": "Francesca Mauger",
+ "lead_role": "Sales & Relationship Manager",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Alter Domus, private markets fund administration",
+   "person": "Francesca Mauger",
+   "role": "Sales & Relationship Manager",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Met in person",
+     "tone": "good"
+    },
+    {
+     "label": "Call proposed",
+     "tone": "good"
+    },
+    {
+     "label": "Sales role: two-way interest",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is Noza's:",
+    "text": "Francesca wrote that it was **great to meet Noza** and offered **availability 'next week'** (message logged Oct 21), with **Francesca.mauger@alterdomus.com**. If no call has been booked yet, **Noza emails now** with new slots; the original week has passed."
+   },
+   "source_line": "Lead added to Streak on Oct 21, 2026 by Juliana R. Source: LinkedIn messaging (as Noza); tagged 'investops'.",
+   "linkedin_url": "https://www.linkedin.com/in/francesca-mauger-97876210a"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Alter Domus**, global fund administrator for private equity, real assets and private credit: **US$3.9tn** assets under administration, **6,000+ staff**, **40 offices in 24 jurisdictions**; majority-owned by **Cinven** since 2024"
+   },
+   {
+    "label": "Lead",
+    "value": "**Sales & Relationship Manager**: wins and looks after fund manager clients. Location, coverage and background **to be confirmed** (public profile not indexed)"
+   },
+   {
+    "label": "Contact",
+    "value": "francesca.mauger@alterdomus.com · LinkedIn francesca-mauger-97876210a"
+   },
+   {
+    "label": "North America",
+    "value": "US offices in New York, Chicago, Boston, Atlanta, Los Angeles, Darien, Indianapolis, Ogden and Salt Lake City, plus Cayman. **No Canadian office listed**"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "Montreal as Alter Domus's **first Canadian site**: fund accounting and investor services in the New York time zone, IFC credit for **fund administration**, and proximity to Canada's large private-markets investors"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Francesca and Noza **met in person** (lead tagged 'investops', likely the InvestOps conference: to be confirmed) and Francesca proposed the follow-up call herself."
+   },
+   "items": [
+    "**Canadian leadership links:** Alter Domus's new non-executive chair **André Bourbonnais** (appointed Oct 21, 2026) and previous chair **Mark Wiseman** (former CEO of the Canada Pension Plan Investment Board) both come from Canadian pension investing.",
+    "**Same client world:** Montreal hosts major private-markets investors such as **CDPQ** and **PSP Investments**: the fund managers Alter Domus serves.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A first Canadian base, in New York hours",
+    "text": "Alter Domus has nine US offices and none in Canada. A Finance Montréal-commissioned Boyd study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the New York time zone. Fund accounting, loan administration and investor reporting can run from Montreal for North American clients."
+   },
+   {
+    "title": "The IFC credit covers fund work",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including for services provided under contract to a **foreign affiliate** (compliance, data, IT, fund and transaction support). Eligibility is checked case by case. **Fund administration and middle-office** support for foreign affiliates is a core use case."
+   },
+   {
+    "title": "Fund services peers and investors",
+    "text": "**State Street** runs a large Montreal operation, and Montreal is home to **CDPQ** and a major **PSP Investments** office, plus **120,000+ finance and insurance** professionals."
+   }
+  ],
+  "person": {
+   "name": "Francesca Mauger",
+   "text": "**Sales & Relationship Manager** at Alter Domus (per Streak). She met Noza in person and followed up first, warmly ('great to meet you'), offering a call. Her location, client segment (private equity, real assets or debt), prior roles and education are **to be confirmed**: her LinkedIn profile is not indexed by search engines. Being in sales, she may also see Finance Montréal as a **door to Canadian fund managers**: be ready for that."
+  },
+  "company": {
+   "text": "Alter Domus provides fund administration, depositary, AIFM, middle-office, loan agency and technology services to private markets managers. CEO **Charlotte Hogg** (since 2025). In 2026 it **acquired MSC Group** in Australia (May), won a **Bain Capital** credit mandate (Feb), supported Pantheon's first **US$1B** fund (Aug) and expanded in the **Nordics** (Oct). **André Bourbonnais** was named non-executive chair on Oct 21, 2026. Its North American growth came through acquisitions (Cortland Capital Market Services, IPS Fund Services) and US offices."
+  },
+  "financials": {
+   "country": "Luxembourg-headquartered, private (majority-owned by Cinven)",
+   "text": "Private company: no public accounts found. Cinven's 2024 majority investment valued Alter Domus at about **€4.9bn enterprise value**. Scale: **US$3.9tn** assets under administration and **6,000+** staff (company site). Revenue **to be confirmed**."
+  },
+  "history": {
+   "text": "Met in person (tag 'investops'). LinkedIn (as Noza): Francesca wrote 'It was great to meet you and I hope you've had a good October so far! I have availability next week, if this works for you?' and gave **Francesca.mauger@alterdomus.com**. Box created **Oct 21, 2026** by Juliana R. **Open item:** confirm the call is booked; if not, Noza emails with new slots."
+  },
+  "industry": [
+   {
+    "title": "Private markets outsourcing",
+    "text": "More private equity and credit managers outsource fund administration. Administrators compete on scale, technology and cost, so new delivery centres matter."
+   },
+   {
+    "title": "Private credit boom",
+    "text": "Loan administration and agency work is growing fast and needs staff in North American hours."
+   },
+   {
+    "title": "Canada's pension investors",
+    "text": "Canadian pension funds are among the world's largest private-markets investors; several are based in or have major offices in Montreal."
+   }
+  ],
+  "talking_points": [
+   "How does Alter Domus serve **Canadian** fund managers and investors today, from the US?",
+   "Where are its **North American delivery centres**, and is it adding capacity (private credit, loan administration)?",
+   "Has the new chair **André Bourbonnais** or the leadership discussed a **Canadian** presence?",
+   "Who decides on **new office locations** (operations, COO, North America head), and would she introduce Noza?",
+   "Would a short **Montreal cost and IFC credit brief for fund administration** be useful to share internally?"
+  ],
+  "attention": [
+   {
+    "title": "Follow-up timing.",
+    "text": "Her 'next week' was the last week of October. Check the call happened; if not, re-propose slots promptly."
+   },
+   {
+    "title": "She sells.",
+    "text": "Expect her to pitch Alter Domus services. Keep the focus on the location question and ask for the right internal contact."
+   },
+   {
+    "title": "Facts to confirm.",
+    "text": "Her location and background, where they met (InvestOps?), and André Bourbonnais's background (former PSP Investments CEO) are **to be confirmed**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montréal, Noza): box and LinkedIn conversation"
+   },
+   {
+    "used": true,
+    "text": "careers.alterdomus.com/about: size, offices, services"
+   },
+   {
+    "used": true,
+    "text": "alterdomus.com news: 2026 items (Bourbonnais chair Oct 21; MSC Group; Bain Capital; Pantheon; Nordics)"
+   },
+   {
+    "used": true,
+    "text": "alterdomus.com: Mark Wiseman appointed chairman (Mar 18, 2025)"
+   },
+   {
+    "used": true,
+    "text": "PE Hub / Funds Europe: Cinven majority stake at about €4.9bn EV (2024)"
+   },
+   {
+    "used": true,
+    "text": "finance-montreal.com: mission, IFC credit, Montreal cost study (Boyd)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile of Francesca Mauger (not indexed; check directly)"
+   }
+  ],
+  "grade": {
+   "letter": "B",
+   "headline": "**Active B2B presence**: Alter Domus posts regularly on LinkedIn and its news/insights pages; Francesca has no visible public posting.",
+   "detail": "Steady flow of client wins, appointments and thought leadership. Exact follower counts are **to be confirmed**. The lead herself shows no indexed posts.",
+   "context": "Web-audited Nov 5, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Alter Domus company page",
+     "audience": "To be confirmed",
+     "recency": "Weekly",
+     "read": "Good"
+    },
+    {
+     "channel": "alterdomus.com news + insights",
+     "audience": "Fund managers, investors",
+     "recency": "Several per month",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn: Francesca Mauger",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low visibility"
+    }
+   ],
+   "note": "Check her LinkedIn activity before the call for any recent post to mention."
+  },
+  "network": {
+   "summary": "Noza met Francesca in person; no other shared network was verified.",
+   "items": [
+    "Noza's exact number of shared connections with Francesca is on her LinkedIn profile.",
+    "Check whether Noza's network includes anyone at CDPQ or PSP Investments who knows Alter Domus's leadership."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/francesca-mauger-97876210a",
+    "label": "See Noza's mutual connections with Francesca on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 21, 2026",
+    "where": "Alter Domus news",
+    "text": "**André Bourbonnais** appointed **non-executive chair**.",
+    "use": "A Canadian chair is a natural opening for a Canadian presence question."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "InvestOps (to be confirmed)",
+    "when": "2026 (to be confirmed)",
+    "role": "Attendee; met Noza"
+   }
+  ],
+  "hooks": [
+   "Thank her for the follow-up after meeting in person.",
+   "Open on **Alter Domus's growth in 2026** and its new chair with Canadian roots.",
+   "Ask whether a **first Canadian site** in Montreal has ever been discussed, and offer a fund-administration cost and IFC one-pager."
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 5, 2026"
+ },
+ "send": false
+}

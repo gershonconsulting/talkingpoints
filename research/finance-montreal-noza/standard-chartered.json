@@ -1,0 +1,226 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlaSqtvQJDA",
+ "company": "Standard Chartered PLC, Singapore",
+ "lead_name": "Jacqui Maughan",
+ "lead_role": "Managing Director, Global Network & Nostro Management",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Standard Chartered PLC, Transaction Banking / Operations, Singapore",
+   "person": "Jacqui Maughan",
+   "role": "Managing Director, leads Global Network & Nostro Management",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Wants to meet in Singapore",
+     "tone": "good"
+    },
+    {
+     "label": "Not at the festival",
+     "tone": "warn"
+    },
+    {
+     "label": "Senior: global scope",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Next step is Noza's:",
+    "text": "Jacqui asked to meet when Noza is around: she **won't be at the conference** but **will be in Singapore**. Noza said she is there the **week of November 15**; Jacqui gave **jamhk@mac.com** on Nov 1. **Noza emails now** with 2 or 3 slots that week, away from the Festival venue (Nov 18-20)."
+   },
+   "source_line": "Lead added to Streak on Nov 3, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/jacqui-maughan-a5116424"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Standard Chartered PLC** (LSE/HKEX: STAN), international bank focused on Asia, Africa and the Middle East; **record H1 2026 profit before tax of US$4.8B** (+9%)"
+   },
+   {
+    "label": "Lead",
+    "value": "**Leads global network and nostro management** (the bank's correspondent accounts and clearing network worldwide), based in Singapore; previously led **treasury services and financial markets operations** for ASEAN and South Asia"
+   },
+   {
+    "label": "Contact",
+    "value": "jamhk@mac.com (personal address) · LinkedIn jacqui-maughan-a5116424"
+   },
+   {
+    "label": "Canada",
+    "value": "**No current Canadian office found**: the bank sold its Canadian branches in the 1990s and its last Canadian advisory entity was dissolved in 2018. Americas presence: US, Brazil, Argentina, Colombia"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "An **operations and network** leader: Montreal as an IFC-eligible base for payments, clearing and nostro operations in the **New York time zone**, and a way back into Canadian dollar flows"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Jacqui wrote to Noza herself asking to meet **in Singapore**, and Noza is in town the **week of November 15**."
+   },
+   "items": [
+    "**Operations language:** Jacqui spent her career in bank operations (Barclays, Goldman Sachs, Standard Chartered); the IFC credit is built for exactly this kind of work (settlement, clearing, transaction support).",
+    "**Long-time Asia expat:** she has lived and worked in Asia for **18 years**, a natural opening on international mobility and hubs.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Montreal for network and payments operations",
+    "text": "Nostro, reconciliation, payment investigations and clearing support run around the clock. Montreal adds a **bilingual, New York-hours** operations site to Singapore and other hubs. A Finance Montréal-commissioned Boyd study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the New York time zone."
+   },
+   {
+    "title": "The IFC tax credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including for services provided under contract to a **foreign affiliate** (compliance, data, IT, fund and transaction support). Eligibility is checked case by case."
+   },
+   {
+    "title": "Peers already there",
+    "text": "**Morgan Stanley, BNP Paribas, Société Générale, Crédit Agricole** and **State Street** run operations in Montreal, alongside **120,000+ finance and insurance** and **150,000+ tech** professionals."
+   }
+  ],
+  "person": {
+   "name": "Jacqui Maughan",
+   "text": "Standard Chartered's people page says Jacqui **leads global network and nostro management** and is based in **Singapore**. She previously led **global treasury services and financial markets operations for ASEAN and South Asia**. She joined the bank in **2017** after operations roles at **Barclays** and **Goldman Sachs** in London, Hong Kong and Singapore, and has lived in Asia for 18 years. Her exact title (Streak lists Managing Director) and reporting line are **to be confirmed**. She replied warmly and gave a personal email."
+  },
+  "company": {
+   "text": "Standard Chartered serves corporates, institutions and affluent clients across Asia, Africa and the Middle East, with Transaction Banking (cash, clearing, trade) as a core strength. Group CEO **Bill Winters**. In May 2026 the bank named **Tanuj Kapilashrami** Group Chief Operating Officer, overseeing strategy and company-wide transformation, and **Manus Costello** interim Group CFO. Management says it is investing to become **'simpler, faster and more connected'** while holding costs. In the Americas the bank lists offices in the US, Brazil, Argentina and Colombia; it has **no Canadian office** today."
+  },
+  "financials": {
+   "country": "UK, listed (LSE and HKEX: STAN)",
+   "text": "**H1 2026** (released Jul 29, 2026): operating income **US$11.6B** (+6%), record profit before tax **US$4.8B** (+9%); Wealth Solutions +38%, Global Banking +19%. Operating expenses **US$6.3B** (+1%). Guidance raised: 2026 income growth near the middle of 5-7%, expenses about **US$13.3B**, RoTE above 12%; new **US$1B buyback**. A profitable bank that still watches costs closely, which suits a cost-and-talent location pitch."
+  },
+  "history": {
+   "text": "LinkedIn (as Noza). Jacqui: 'Please let me know when you're around. I won't be at the conference but will be in Singapore.' Noza replied she is there the **week of November 15** and asked for the best email; on **Nov 1, 2026** Jacqui gave **jamhk@mac.com**. Box created Nov 3 by Juliana R. **Open item:** Noza sends the email and books the meeting."
+  },
+  "industry": [
+   {
+    "title": "Correspondent banking is consolidating",
+    "text": "Global banks keep cutting the number of correspondent relationships and moving nostro and payments work into fewer, automated hubs: a live topic for her team."
+   },
+   {
+    "title": "Faster payments, 24/7 operations",
+    "text": "Instant and cross-border payment schemes push banks towards follow-the-sun operations; a North American time zone site closes the gap between Asia and the US."
+   },
+   {
+    "title": "Financial-centre competition",
+    "text": "Montreal competes with Toronto, New York and US nearshore cities using **cost**, **tax credits**, **bilingual talent** and **AI research**."
+   }
+  ],
+  "talking_points": [
+   "Where do her **network and nostro operations** teams sit today, and is there an **Americas-hours** gap?",
+   "How does Standard Chartered handle **Canadian dollar** flows and Canadian correspondents without a local presence?",
+   "Is the new Group COO's **transformation agenda** reviewing operations locations?",
+   "Who owns **location decisions** for operations hubs, and would she introduce Noza?",
+   "Would a short **Montreal cost and IFC credit brief** for an operations team be useful to share internally?"
+  ],
+  "attention": [
+   {
+    "title": "Meet away from the Festival.",
+    "text": "She will not attend the conference: propose a coffee or lunch near her office, not at the Expo."
+   },
+   {
+    "title": "Personal email.",
+    "text": "She gave a personal address: keep the message short and do not attach heavy documents in the first email."
+   },
+   {
+    "title": "Facts to confirm.",
+    "text": "Her exact title and reporting line, and whether the bank has any Canadian activity left, are **to be confirmed**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montréal, Noza): box and LinkedIn conversation"
+   },
+   {
+    "used": true,
+    "text": "sc.com people page: Jacqui Maughan"
+   },
+   {
+    "used": true,
+    "text": "Standard Chartered press release: Half Year 2026 results (Jul 29, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Standard Chartered RNS: Directorate and Group Management Team changes (May 18, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Wikipedia: Standard Chartered Bank of Canada; sc.com Americas pages"
+   },
+   {
+    "used": true,
+    "text": "finance-montreal.com: mission, IFC credit, Montreal cost study (Boyd)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile of Jacqui Maughan (check directly)"
+   }
+  ],
+  "grade": {
+   "letter": "B",
+   "headline": "**Large corporate presence**: Standard Chartered publishes daily on LinkedIn and its website; Jacqui has no visible public posting.",
+   "detail": "The group runs active LinkedIn, X and newsroom channels (results, appointments, insights). Exact follower counts are **to be confirmed**. Jacqui's public footprint is her sc.com profile page.",
+   "context": "Web-audited Nov 5, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Standard Chartered company page",
+     "audience": "To be confirmed (large)",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "sc.com newsroom + insights",
+     "audience": "Clients, investors, media",
+     "recency": "Weekly",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Jacqui Maughan",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low visibility"
+    }
+   ],
+   "note": "Check her LinkedIn activity before the meeting for any recent post to mention."
+  },
+  "network": {
+   "summary": "Noza contacted Jacqui directly on LinkedIn; no shared network was verified.",
+   "items": [
+    "Noza's exact number of shared connections with Jacqui is on her LinkedIn profile.",
+    "Check whether Noza knows anyone in Standard Chartered's New York office."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/jacqui-maughan-a5116424",
+    "label": "See Noza's mutual connections with Jacqui on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "May 18, 2026",
+    "where": "Standard Chartered announcement",
+    "text": "**Tanuj Kapilashrami** appointed **Group Chief Operating Officer**, overseeing strategy and company-wide transformation.",
+    "use": "Ask whether the COO's transformation work includes where operations teams sit."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Thank her for making time outside the Festival week rush.",
+   "Open on her **career in operations across London, Hong Kong and Singapore** and how she thinks about hub locations.",
+   "Leave a short **Montreal cost and IFC credit** one-pager for an operations team and ask who else should see it."
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 5, 2026"
+ },
+ "send": false
+}

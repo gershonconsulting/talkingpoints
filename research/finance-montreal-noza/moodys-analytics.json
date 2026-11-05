@@ -1,0 +1,218 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlej2_8IKDA",
+ "company": "Moody's Analytics (Moody's Corporation)",
+ "lead_name": "Tara Talbott (referred by Chris Fiscalini)",
+ "lead_role": "Role to be confirmed; referred by Chris Fiscalini, Director, Growth & Strategy",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Moody's Analytics (Moody's Corporation, NYSE: MCO)",
+   "person": "Tara Talbott (referred by Chris Fiscalini)",
+   "role": "Tara: role to be confirmed · Chris: Director, Growth & Strategy",
+   "location": "United States (to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Referral",
+     "tone": "good"
+    },
+    {
+     "label": "Write to Tara",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is Noza's:",
+    "text": "Chris Fiscalini replied that his counterpart **Tara Talbott** is 'a better connection' and asked Noza to reach her at **Tara.Talbott@moodys.com**. Noza said she would. **Noza emails Tara now** (if not already done), naming Chris's referral in the first line."
+   },
+   "source_line": "Lead added to Streak on Oct 21, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/chrisfiscalini"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Moody's Analytics**, the data, software and AI division of Moody's Corporation: **US$936M** Q3 2026 revenue (+8% organic), **US$3.7B** recurring revenue (ARR)"
+   },
+   {
+    "label": "Lead",
+    "value": "**Tara Talbott**, Chris Fiscalini's counterpart (role **to be confirmed**). **Chris Fiscalini**, Director, Growth & Strategy, made the referral"
+   },
+   {
+    "label": "Contact",
+    "value": "tara.talbott@moodys.com · Chris on LinkedIn: chrisfiscalini"
+   },
+   {
+    "label": "Canada",
+    "value": "Moody's lists a Canadian office in **Toronto** (Moody's Analytics Canada Inc., Yonge Street). **No Montreal office listed**"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "Montreal for **AI, data and risk-model** teams: deep AI research talent, bilingual staff, New York hours, and the IFC credit for data/IT services to foreign affiliates"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Chris pointed Noza **by name** to Tara; the email to Tara is a warm referral, not a cold contact."
+   },
+   "items": [
+    "**Growth and strategy language:** Chris's team works on growth and strategy; Finance Montréal's pitch is a growth location decision.",
+    "**AI focus on both sides:** Moody's Analytics sells AI and data platforms; Montreal is one of the world's main **AI research** hubs (Mila).",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Montreal's AI and quant talent",
+    "text": "Montreal combines **AI research** (Mila), **quantitative finance** and **150,000+ tech** professionals: a fit for data, model and AI product teams behind Moody's Analytics' platforms."
+   },
+   {
+    "title": "New York hours at lower cost",
+    "text": "A Finance Montréal-commissioned Boyd study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the New York time zone."
+   },
+   {
+    "title": "The IFC tax credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including for services provided under contract to a **foreign affiliate** (compliance, data, IT, fund and transaction support). Eligibility is checked case by case. Data, IT and risk services for financial institutions are relevant (to be confirmed case by case)."
+   }
+  ],
+  "person": {
+   "name": "Tara Talbott / Chris Fiscalini",
+   "text": "**Chris Fiscalini** is **Director, Growth & Strategy** at Moody's (per Streak and LinkedIn); he redirected Noza quickly and politely. **Tara Talbott** is described by Chris as his **counterpart**; her title, team and location are **to be confirmed**: no public profile or press mention was found. Treat Tara as the main contact and thank Chris after the first exchange."
+  },
+  "company": {
+   "text": "Moody's Corporation has two businesses: **Moody's Ratings** and **Moody's Analytics** (data, credit and risk analytics, KYC, insurance and banking software, AI tools). CEO **Rob Fauber**. **Christina Kosmowski** (ex-LogicMonitor CEO, Slack, Salesforce) became **CEO of Moody's Analytics** in June 2026, after an interim period under COO Andy Frepp. In Canada, Moody's has a Toronto office and a ratings franchise covering Canadian issuers."
+  },
+  "financials": {
+   "country": "USA, listed (NYSE: MCO)",
+   "text": "**Q3 2026** (released Oct 21, 2026): revenue **US$2,023M** (+1%; +3% organic constant currency). **Moody's Analytics US$936M** (+3%; +8% organic), **ARR US$3,688M** (+8%). Moody's Ratings US$1,087M (-1%). Net income **US$734M**; diluted EPS **US$4.24** (+18%), adjusted **US$4.14**. Full-year 2026 guidance reaffirmed (adjusted EPS US$16.50-17.00)."
+  },
+  "history": {
+   "text": "LinkedIn (as Noza). Chris Fiscalini: 'My counterpart Tara Talbott is going to be a better connection for you. Please reach her directly at Tara.Talbott@moodys.com.' Noza thanked him and said she would reach out. Box created **Oct 21, 2026** by Juliana R. **Open item:** email to Tara (no email logged in Streak yet)."
+  },
+  "industry": [
+   {
+    "title": "AI platforms for finance",
+    "text": "Data and analytics firms are racing to build AI products for banks and insurers, which drives demand for AI engineers and data scientists."
+   },
+   {
+    "title": "New leadership, new plans",
+    "text": "A new CEO at Moody's Analytics (June 2026) often means a review of go-to-market and team footprint: a timely moment to show a location option."
+   },
+   {
+    "title": "Financial-centre competition",
+    "text": "Montreal competes with Toronto, New York and US nearshore cities using **cost**, **tax credits**, **bilingual talent** and **AI research**."
+   }
+  ],
+  "talking_points": [
+   "What does Tara's team cover, and why did Chris think she is the right contact?",
+   "Where do Moody's Analytics' **AI, data and product teams** sit in North America today (Toronto, New York, others)?",
+   "Is the business **adding technical teams** under the new Moody's Analytics CEO?",
+   "Would a short **Montreal AI talent, cost and IFC brief** be useful for internal planning?",
+   "Who owns **location decisions** for new teams, and would she introduce Noza?"
+  ],
+  "attention": [
+   {
+    "title": "Mention the referral.",
+    "text": "Open the email to Tara with 'Chris Fiscalini suggested I reach out' and keep it to 4 or 5 lines."
+   },
+   {
+    "title": "Unknown role.",
+    "text": "Tara's role is unknown: ask open questions before pitching."
+   },
+   {
+    "title": "Facts to confirm.",
+    "text": "Tara's title and location, and Chris's location, are **to be confirmed**. Note that Streak stores Tara's email on Chris's contact record."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montréal, Noza): box and LinkedIn conversation"
+   },
+   {
+    "used": true,
+    "text": "Moody's Q3 2026 earnings release / 8-K (Oct 21, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Moody's IR: Christina Kosmowski named CEO of Moody's Analytics (Apr 15, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Moody's offices page: Moody's Analytics Canada Inc., Toronto"
+   },
+   {
+    "used": true,
+    "text": "finance-montreal.com: mission, IFC credit, Montreal cost study (Boyd)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profiles of Tara Talbott and Chris Fiscalini (check directly)"
+   }
+  ],
+  "grade": {
+   "letter": "B+",
+   "headline": "**Strong corporate content engine**: Moody's publishes research, podcasts and insights daily; neither contact has visible public posting.",
+   "detail": "Active LinkedIn, X and YouTube channels plus the 'Moody's Talks' podcast. Exact follower counts are **to be confirmed**. Engagement with the contacts will be by email.",
+   "context": "Web-audited Nov 5, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Moody's company page",
+     "audience": "To be confirmed (large)",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "Moody's research, podcasts, YouTube",
+     "audience": "Clients, investors",
+     "recency": "Weekly",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Tara Talbott / Chris Fiscalini",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low visibility"
+    }
+   ],
+   "note": "Find Tara on LinkedIn before the call to confirm her role."
+  },
+  "network": {
+   "summary": "Chris referred Noza to Tara; no other shared network was verified.",
+   "items": [
+    "Noza's exact number of shared connections with Chris is on his LinkedIn profile.",
+    "Check whether Noza knows anyone at Moody's Toronto office."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/chrisfiscalini",
+    "label": "See Noza's mutual connections with Chris on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Apr 15, 2026",
+    "where": "Moody's press release",
+    "text": "**Christina Kosmowski** named **CEO of Moody's Analytics**, a US$3.6B business, starting June 2026.",
+    "use": "Ask whether the new leadership is reshaping teams and locations."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Open with **Chris's referral** and thank Tara for taking the call.",
+   "Mention Moody's Analytics' **8% organic growth** and new CEO as context for growing teams.",
+   "Offer a **Montreal AI talent, cost and IFC** one-pager and ask who else should see it."
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 5, 2026"
+ },
+ "send": false
+}
