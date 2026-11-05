@@ -1,0 +1,228 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV1KO28gsM",
+ "company": "Laverock Therapeutics",
+ "lead_name": "Kevin Gillinder",
+ "lead_role": "Associate Director - Bioinformatics",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Laverock Therapeutics (programmable gene silencing for cell therapies)",
+   "person": "Kevin Gillinder",
+   "role": "Associate Director - Bioinformatics",
+   "location": "United Kingdom (Laverock: London / Stevenage) · to be confirmed",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Medium (biotech, data seat)",
+     "tone": "warn"
+    },
+    {
+     "label": "Email him to book a call"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Kevin said 'Sounds interesting Amos. **Send through a meeting planner**' and, after several nudges, gave **kevin.gillinder@laverocktx.com**. Email him **today** with a short note and a scheduling link / 2–3 slots in UK hours."
+   },
+   "source_line": "Lead added to Streak on Nov 4, 2026 by Juliana R.; moved to Contacted on Nov 5 by Jenny P (Meteor). Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/kevin-gillinder"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "UK biotech (founded 2021) with **GEiGS®** programmable, multiplex **gene silencing** via recoded miRNAs, used to program **T-cells and macrophages** for solid tumours and islet cells for Type 1 diabetes"
+   },
+   {
+    "label": "Pipeline",
+    "value": "**LVK201** (CAR-T hitting three immunomodulatory pathways; ovarian cancer models) and **LVK301** (macrophages that turn 'cold' tumours 'hot')"
+   },
+   {
+    "label": "Funding",
+    "value": "Seed **> £20M** (led by Calculus Capital; Eli Lilly, Mercia, Maven, Eos, Norcliffe) + **> £2.2M** non-dilutive grants (Jun 2026)"
+   },
+   {
+    "label": "Platform note",
+    "value": "June 2026: platform now uses **single-cell data and AI** to choose gene-control targets — Kevin's team"
+   },
+   {
+    "label": "His role",
+    "value": "Leads bioinformatics — the person who analyses single-cell and tumour datasets"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Biotech translational / biomarker teams** — medium fit: real tumour-microenvironment questions, small company, data seat (influencer, not buyer)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Scientist to scientist: Kevin is a genomics/data person, and Amos can talk data — how location-precise cell isolation gives cleaner single-cell input on tumour T-cells and macrophages."
+   },
+   "items": [
+    "**Same data:** Laverock builds its targets from **single-cell tumour datasets**; CosmoSort isolates cells by their position in tissue for sequencing — spatial context their dissociated data lacks.",
+    "**Possible academic overlap (to be confirmed):** a Kevin Gillinder, PhD, published on transcription factor KLF1 as a Research Fellow at **Monash University** (Australian Centre for Blood Diseases). Not confirmed to be the same person.",
+    "**No shared employer, school or event found** between Amos and Kevin."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Where the cells sit",
+    "text": "LVK301 aims to turn 'cold' tumours 'hot'. Proving that needs to know **where macrophages and T-cells sit** in the tumour before and after — SLACS isolates cells from exact regions (tumour core vs. edge) for sequencing."
+   },
+   {
+    "title": "Better input for the AI",
+    "text": "Their AI picks gene targets from single-cell data. Region-specific single-cell data from CosmoSort can sharpen target selection."
+   },
+   {
+    "title": "Small, partnered pilot",
+    "text": "Laverock is grant-funded and partnering. Offer a small data pilot or a joint grant application rather than an instrument sale."
+   }
+  ],
+  "person": {
+   "name": "Kevin Gillinder",
+   "text": "Associate Director of Bioinformatics at Laverock Therapeutics (per Streak / LinkedIn). Public records show a **Kevin Gillinder, PhD** who studied transcription-factor gene regulation (KLF1, red blood cells) as a Research Fellow at **Monash University's Australian Centre for Blood Diseases** and was an ASHG trainee author — **to be confirmed** as the same person. He is direct and brief in messages and asked for a 'meeting planner'."
+  },
+  "company": {
+   "text": "Laverock Therapeutics was set up in **2021** to commercialise the **gene editing–induced gene silencing (GEiGS®)** platform for human therapeutics. CEO **David Venables** previously founded Synpromics. Its programmable, tunable, multiplex silencing is applied to **T-cell and macrophage** therapies for solid tumours and to **hypoimmunogenic islet cells** for Type 1 diabetes. In Jun 2025 it said platform validation was complete and it was moving to lead-product selection, with better tumour control in models. In June 2026 it won **> £2.2M** in grants to scale the platform with single-cell data and AI for T-cell products and to extend macrophage programmes into non-oncology, via a consortium with academic and clinical partners."
+  },
+  "financials": {
+   "country": "UK, private (VC-backed)",
+   "text": "**Seed:** £13.5M (Oct 2023), extended to **> £20M** total (Jun 2025), led by Calculus Capital with Eli Lilly, Mercia Ventures, Maven Capital Partners, Eos Advisory, Norcliffe Capital, UK Innovation & Science Seed Fund, Tekfen Ventures. **Grants:** ~£1.8M from UKRI (Biomedical Catalyst, SMART, Investor Partnership) + **> £2.2M** (Jun 2026). Revenue: none disclosed (preclinical). Headcount to be confirmed."
+  },
+  "history": {
+   "text": "LinkedIn (as Amos): Kevin replied 'Sounds interesting Amos. Send through a meeting planner if you like.' Amos asked for his email on **Oct 5** and again on **Oct 19**, then on **Nov 4** asked if now was a better time. Kevin replied: 'Send me an email on **Kevin.gillinder@laverocktx.com**.' **Open item:** email with meeting planner not yet sent (no emails in Streak)."
+  },
+  "industry": [
+   {
+    "title": "Solid tumours need spatial answers",
+    "text": "Cell therapies struggle in solid tumours because of the tumour microenvironment. Spatial data on immune cell location is becoming standard in these programmes."
+   },
+   {
+    "title": "AI target discovery needs better data",
+    "text": "Single-cell atlases lose tissue position on dissociation. Spatially resolved, cell-level data is the next input layer for AI target selection."
+   }
+  ],
+  "talking_points": [
+   "You use single-cell tumour data to pick gene-control targets — do you work with **dissociated scRNA-seq** only, or also spatial data?",
+   "For **LVK301**, how do you measure whether macrophages change the tumour from 'cold' to 'hot' — and where in the tumour?",
+   "Would **region-specific** single-cell data (tumour edge vs. core, near vs. far from T-cells) help your target selection?",
+   "Do you generate data in-house or through CROs and academic partners (e.g., the new grant consortium)?",
+   "Would a small **pilot dataset** on one of your tumour models be useful for the next grant milestone?"
+  ],
+  "attention": [
+   {
+    "title": "Send the meeting planner now.",
+    "text": "It took three nudges to get his email. Make the email short, with a scheduling link or 2–3 slots in **UK business hours** (Seoul afternoon = UK morning)."
+   },
+   {
+    "title": "He is a data user, not the budget owner.",
+    "text": "Win him on data quality, then ask who owns translational biology / CSO-level decisions."
+   },
+   {
+    "title": "Background unconfirmed.",
+    "text": "Don't cite the Monash/KLF1 work unless he mentions it — identity not confirmed."
+   },
+   {
+    "title": "Fix Streak.",
+    "text": "Contact saved as “Kevin G” — change to **Kevin Gillinder**. Set **Fit** (Medium) and **Interest** (Call requested); both empty."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech - LG pipeline (box, contact, LinkedIn conversation comment Nov 4)"
+   },
+   {
+    "used": true,
+    "text": "Startup Mag / Cambridge Network — Laverock awarded > £2.2M in grants (Jun 1, 2026)"
+   },
+   {
+    "used": true,
+    "text": "News-Medical via Pulse — Laverock oncology milestones LVK201 / LVK301 (Jun 10, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Bio-IT World — Laverock expands seed funding (Jun 30, 2025); Startups Magazine / Stevenage Catalyst — £13.5M seed (2023)"
+   },
+   {
+    "used": true,
+    "text": "ASHG — Trainee Author: Kevin Gillinder, PhD (Monash) — identity to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "Kevin Gillinder — no Laverock-era talks or posts found on the open web"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts — not retrievable without login"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared November 5, 2026",
+  "grade": {
+   "letter": "C+",
+   "headline": "Laverock communicates through **occasional press releases** (seed rounds, grants, milestones) and a refreshed website.",
+   "detail": "News roughly every 6–12 months (Oct 2023, Jun 2025, Jun 2026) picked up by UK biotech press. No regular content program found. Kevin's personal activity to be confirmed. Modest but real — a C+.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn not audited."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Press releases — Laverock",
+     "audience": "UK biotech / investor press",
+     "recency": "Jun 2026 (grants, milestones)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn — Laverock Therapeutics",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "LinkedIn — Kevin Gillinder",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Value of this lead is a data collaboration or pilot, not public reach."
+  },
+  "network": {
+   "summary": "**No verified overlap** between Amos and Kevin. Possible bridge: **Eli Lilly**, an investor in Laverock.",
+   "items": [
+    "Check whether Amos or Meteor's investors know anyone at **Calculus Capital** or **Eli Lilly** connected to Laverock.",
+    "CEO **David Venables** (founder of Synpromics) is the decision-maker — consider a parallel note once Kevin is engaged."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/kevin-gillinder",
+    "label": "See your mutual connections with Kevin on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Jun 2026",
+    "where": "Press (company)",
+    "text": "Awarded **> £2.2M** in grants to scale its gene-control platform with **single-cell data and AI**.",
+    "use": "Congratulate him — his team is at the centre of this grant."
+   },
+   {
+    "when": "Jun 2026",
+    "where": "Press (company)",
+    "text": "**LVK301** reprograms macrophages to turn 'cold' tumours 'hot'.",
+    "use": "Ask how they measure it spatially."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "“As requested, here's a meeting planner.” Keep it to three lines.",
+   "Congrats on the June grants — the **single-cell + AI** work is his area.",
+   "LVK301 'cold to hot' tumours — where macrophages sit is a spatial question.",
+   "Region-specific single-cell data could feed their AI target selection."
+  ]
+ },
+ "send": false
+}
