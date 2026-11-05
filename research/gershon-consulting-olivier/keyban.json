@@ -1,0 +1,258 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICA5dfxy5EKDA",
+ "company": "KEYBAN",
+ "lead_name": "Nenad Cetkovic",
+ "lead_role": "Chief Operating Officer, Co-Founder",
+ "stage": "Scheduled",
+ "data": {
+  "header": {
+   "company": "KEYBAN (Paris blockchain SaaS: Digital Product Passports, programmable loyalty, Agent Wallet for agentic commerce)",
+   "person": "Nenad Cetkovic",
+   "role": "Chief Operating Officer, Co-Founder",
+   "location": "Paris, France (131 boulevard Pereire, 75017)",
+   "chips": [
+    {
+     "label": "Call scheduled"
+    },
+    {
+     "label": "Follow-up call Dec 8, 2026, 11:00 ET",
+     "tone": "good"
+    },
+    {
+     "label": "Wants to go US after fundraise",
+     "tone": "warn"
+    },
+    {
+     "label": "Proposal already sent: $3,400/mo",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Next call:",
+    "text": "**Tuesday Dec 8, 2026, 11:00-11:30 ET** (Google Meet, Nenad accepted). Agenda agreed on Sep 22: **debrief his November trips** (Silicon Summit Sunnyvale, Web Summit Lisbon) and **prepare a January campaign launch** for Q1."
+   },
+   "source_line": "Lead added to Streak on Sep 16, 2026 by Johanna T (origin: LinkedIn); moved to Scheduled Sep 17. First call held Sep 22, 2026. Pipeline: GC Pipeline. Language: French. Co-founder Charles Kremer (CEO) is the other decision-maker.",
+   "linkedin_url": "https://www.linkedin.com/in/cetkovic/"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **2024** in Paris by **Charles Kremer** (CEO) and **Nenad Cetkovic** (COO)"
+   },
+   {
+    "label": "Scale",
+    "value": "Revenue **>€1M**, self-funded, Plug and Play (per Nenad on the Sep 22 call, as quoted by Olivier); **€500K pre-seed** from existing shareholders (Mar 2026)"
+   },
+   {
+    "label": "Lead",
+    "value": "COO and co-founder; ex-**Lengow** (e-commerce feeds), which had a hard US experience"
+   },
+   {
+    "label": "Status",
+    "value": "Warm. Proposal sent Sep 22; he said he would review and talk again as agreed"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Both are French founders selling tech into commerce; Olivier has already spoken to Nenad once and knows his concern (the Lengow US experience)."
+   },
+   "items": [
+    "Both meet the market at trade events: Nenad at **VivaTech**, Silicon Summit and Web Summit; Gershon has long worked the VivaTech and CES French delegations.",
+    "Nenad's Lengow background means he knows the e-commerce platform ecosystem (Shopify, marketplaces) that US targets live in."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Debrief his November trips first",
+    "text": "Ask what he learned at **Silicon Summit (Sunnyvale)** and **Web Summit (Lisbon)**: who showed interest, which US buyer types. Use his own words to frame the ICP for January."
+   },
+   {
+    "title": "Traction before the raise, not after",
+    "text": "Olivier's Sep 22 point: launching in **January** builds US proof **during** the fundraise. Investors value a pipeline of qualified meetings with North American decision-makers far more than a plan."
+   },
+   {
+    "title": "Fix credibility first",
+    "text": "Olivier told Nenad that KEYBAN's social presence (notably X/Twitter) **does not reflect** >€1M revenue and Plug and Play backing. US buyers check. Show 2-3 quick wins (LinkedIn page, founder posts on Agent Wallet / agentic commerce)."
+   },
+   {
+    "title": "Agentic commerce is a US story",
+    "text": "The agentic-commerce wave (AI agents that search and buy) is being driven by US platforms and payment networks. KEYBAN's **Agent Wallet** fits that conversation better than the EU-only Digital Product Passport angle."
+   }
+  ],
+  "person": {
+   "name": "Nenad Cetkovic",
+   "text": "Nenad is **COO and co-founder** of KEYBAN (title from Streak and his email signature). Frenchweb describes him as bringing **e-commerce experience, including at Lengow**. On the Sep 22 call he explained his caution about the US, linked to the **Lengow US experience** (details **to be confirmed**). He plans to go to the US **after** KEYBAN's next fundraise. He writes in French and is formal but friendly; he rescheduled once (Sep 17) and confirmed quickly. He travels to tech events (VivaTech 2026, Silicon Summit, Web Summit). Earlier career and education are not verified."
+  },
+  "company": {
+   "text": "KEYBAN was founded in **2024** in Paris. It sells a **blockchain-based SaaS / API platform** that turns user accounts into wallets and products into digital assets. Three building blocks: **Digital Product Passports** (certified product data for the EU DPP rules), **programmable loyalty**, and an **Agent Wallet** so AI agents can pay and subscribe on behalf of buyers. It targets **retail, e-commerce, luxury and art**. The March 2026 release says clients include large French banks, big retail brands, listed companies and art-sector organizations (**none named**). SaaS and commerce-platform plugins were announced for the following quarter. Co-founder and CEO **Charles Kremer** is a blockchain specialist. KEYBAN was a Business France exhibitor at **VivaTech 2026**."
+  },
+  "financials": {
+   "country": "France, private",
+   "text": "No public accounts found. **Funding:** seed round with business angels including Jean-Marc Bouhelier and Jean-Christophe Personnat (Frenchweb), then a **€500K pre-seed** from existing shareholders announced **Mar 17, 2026**. **Revenue:** **>€1M** and self-funded, as Nenad said on the Sep 22 call (Olivier's recap); not publicly verified. A larger fundraise is being prepared (amount and timing **to be confirmed**). Team size **to be confirmed**."
+  },
+  "history": {
+   "text": "Johanna T booked the first call from LinkedIn on **Sep 16**. Nenad moved it on **Sep 17**; Olivier rescheduled to **Sep 22** and Nenad confirmed. The call took place **Sep 22, 2026**. Same day, Olivier sent a recap: start in **January**, build traction during the raise, fix social credibility, program = **10 qualified meetings a month** for **$3,400/month** (no long-term contract, one-month notice, 3-month minimum), 3 pillars Promote / Network / Engage, plus the 2-min and 9-min videos for Nenad and Charles. Nenad replied: \"Je regarde tout cela et on se reparle comme convenu.\" On **Oct 18** Olivier sent the new-website email (opened once, no reply). Follow-up call booked for **Dec 8, 2026**; a Streak task is due Dec 7."
+  },
+  "industry": [
+   {
+    "title": "Agentic commerce is taking off",
+    "text": "AI agents that search, compare and buy are a fast-growing topic in 2026; wallets and payment rails for agents are the infrastructure layer. KEYBAN positions itself there."
+   },
+   {
+    "title": "EU Digital Product Passport",
+    "text": "The EU DPP rules push brands to certify product data. This is a European driver; in the US the hook is traceability, authenticity and loyalty instead."
+   },
+   {
+    "title": "Luxury and resale authentication",
+    "text": "US resale and luxury players use digital IDs for authenticity. A natural US use case for product passports (**to be confirmed** with Nenad which verticals he sees in the US)."
+   },
+   {
+    "title": "Crowded wallet space",
+    "text": "Many wallet and tokenization start-ups compete. US buyers will ask what is different; KEYBAN needs a crisp one-line answer."
+   }
+  ],
+  "talking_points": [
+   "What came out of Silicon Summit and Web Summit: which US companies or buyer types showed real interest?",
+   "Where are you on the fundraise: target amount, timing, and do investors ask about US traction?",
+   "Which US buyer do you want first: retail brands, e-commerce platforms, luxury, or payment players?",
+   "Who signs off on the US budget: you, Charles, or the board?",
+   "What happened at Lengow in the US, and what would you do differently this time?",
+   "Can we agree on a January start so you have Q1 meetings to show investors?"
+  ],
+  "attention": [
+   {
+    "title": "US timing objection",
+    "text": "He wants to wait until after the raise. Expect him to repeat it; answer with the traction-for-valuation argument."
+   },
+   {
+    "title": "Two decision-makers",
+    "text": "CEO **Charles Kremer** must be convinced too. Ask whether Charles watched the videos and invite him to the Dec 8 call or a follow-up."
+   },
+   {
+    "title": "Revenue not verified",
+    "text": "The >€1M figure comes from the call, not public filings. Do not quote it back as a public fact."
+   },
+   {
+    "title": "Small budget",
+    "text": "€500K pre-seed means $3,400/month is a real line item. Frame it against the value of a stronger fundraise."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details, email threads (Sep 17 rescheduling, Sep 22 recap, Oct 18 website email)"
+   },
+   {
+    "used": true,
+    "text": "Google Calendar: Sep 22 call and Dec 8, 2026 follow-up (Nenad accepted)"
+   },
+   {
+    "used": true,
+    "text": "Frenchweb: \"Connaissez-vous KEYBAN\" (founders, seed angels, VivaTech launch)"
+   },
+   {
+    "used": true,
+    "text": "E-Commerce Nation (Apr 17, 2026): €500K pre-seed, founded 2024"
+   },
+   {
+    "used": true,
+    "text": "Press release via FinancialContent (Mar 17, 2026): agentic commerce infrastructure, Agent Wallet, client types"
+   },
+   {
+    "used": true,
+    "text": "b2match: VivaTech 2026 Business France participation"
+   },
+   {
+    "used": false,
+    "text": "Gemini meeting notes of Sep 22 call (Drive file not accessible)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn / X follower counts (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting (Olivier) · prepared November 5, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Real product and revenue, but a **thin social presence** that undersells the company.",
+   "detail": "Olivier's own assessment after the Sep 22 call: KEYBAN's digital presence, notably on X, **does not reflect** its reality (>€1M revenue, self-funded, Plug and Play). Coverage exists in French trade press (Frenchweb, E-Commerce Nation) but nothing in US media. Follower counts **to be confirmed**.",
+   "context": "Based on Olivier's Sep 22 recap and a web check on Nov 5, 2026. LinkedIn and X not audited automatically."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Main B2B channel for US buyers; check before the call."
+    },
+    {
+     "channel": "X / Twitter",
+     "audience": "To be confirmed",
+     "recency": "Low (per Olivier)",
+     "read": "Flagged by Olivier as a red flag for US credibility."
+    },
+    {
+     "channel": "Founder LinkedIn (Nenad, Charles)",
+     "audience": "To be confirmed",
+     "recency": "Some posts (Nenad wrote on Digital Product Passports)",
+     "read": "Best lever: founder-led posts on agentic commerce."
+    },
+    {
+     "channel": "Trade press",
+     "audience": "Frenchweb, E-Commerce Nation",
+     "recency": "2026",
+     "read": "French only; no US coverage yet."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "Nenad is a direct contact (call held Sep 22). Olivier's LinkedIn network export was not checked for this brief.",
+   "items": [
+    "Check whether Olivier is connected to **Charles Kremer** (CEO); if not, send an invitation before Dec 8.",
+    "Look at shared connections around Plug and Play and the VivaTech French delegation."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/cetkovic/",
+    "label": "Open Nenad Cetkovic's LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Mar 2026",
+    "where": "Press release",
+    "text": "KEYBAN raises €500K to accelerate its infrastructure for agentic commerce; CEO: AI agents will search, compare and buy for individuals.",
+    "use": "Agentic commerce is a US-led trend: tie his product to the US market."
+   },
+   {
+    "when": "2026",
+    "where": "LinkedIn (Nenad)",
+    "text": "Article on brands and retailers facing the Digital Product Passport challenge.",
+    "use": "Shows he writes; offer to turn this into a regular US-facing series."
+   },
+   {
+    "when": "Jun 2026",
+    "where": "VivaTech (Business France)",
+    "text": "KEYBAN exhibited and took B2B meetings.",
+    "use": "Ask which international contacts came out of VivaTech."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   "VivaTech 2026 (Paris)",
+   "Silicon Summit, Sunnyvale (Nov 2026, planned per Sep 22 call)",
+   "Web Summit, Lisbon (Nov 2026, planned per Sep 22 call)"
+  ],
+  "hooks": [
+   "\"How did Sunnyvale go?\": open on his own US trip.",
+   "Traction during the raise, not after: investors pay for proof.",
+   "Your social presence undersells a €1M+ company: fix it before US buyers check.",
+   "Agent Wallet is a US conversation: agentic commerce is being built by US platforms.",
+   "Target: campaign live in **January 2027** to show Q1 meetings to investors."
+  ]
+ },
+ "send": false
+}
