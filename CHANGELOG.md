@@ -2,6 +2,7 @@
 
 Shown in the app sidebar, the Admin page and the home page footer. Bump on every release.
 
+- **v1.9.4** (2026-11-06) — Client talking-point emails are sent as “GC Talking Points” (was “Gershon Consulting”), like the internal ones: report senders start with “GC ”. Address talkingpoints@gershon.ai unchanged (functions/_audience.js, FROM_CLIENT). 1.9.1–1.9.3 and 1.10.0 are taken by open PRs #16, #17, #19, #18.
 - **v1.9.0** (2026-11-03) — Admin → Dashboard (owner only, live): every client in one table — Streak link ✅/❌ with a link to its pipeline, client logins, talking-point recipients, ICP ✅/❌, researched talking points, old drafts, talking points sent, date of the last one — plus totals.
 - **v1.8.0** (2026-11-03) — Gershon's own pipelines are in Talking Points: “Gershon Consulting (Olivier)” = GC Pipeline, “Gershon Consulting (Julien)” = GC Campaigns (Julien signs in with his LinkedIn email). For these two, talking points are made ONLY for leads in the “Scheduled” stage (call booked): the Leads page lists only those, and the daily run asks for research on each scheduled lead without a brief. Client campaigns are unchanged (every new lead).
 - **v1.7.0** (2026-10-30) — Admin → Add a client asks for everything at once: company name, client number, contact, professional email, LinkedIn login email, Streak pipeline, who receives the talking points, company description and ICP. Picking a company from client.gershon.ai fills number, pipeline and report emails; the ICP and company text come from its ICP.gershon.ai report (read-only KV links CRM_KV / ICP_KV).
