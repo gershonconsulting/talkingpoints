@@ -1,0 +1,234 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICA5YXi4YYKDA",
+ "company": "AbbVie Contract Manufacturing",
+ "lead_name": "Jon Best",
+ "lead_role": "Director, Business Development & Market Strategies",
+ "stage": "Scheduled",
+ "data": {
+  "header": {
+   "company": "AbbVie Contract Manufacturing (CDMO arm of AbbVie: APIs, biologics, fill-finish, oral solids, HME)",
+   "person": "Jon Best",
+   "role": "Director, Business Development & Market Strategies",
+   "location": "Atlanta, Georgia, US (per public profile) · AbbVie CMO based in North Chicago, Illinois",
+   "chips": [
+    {
+     "label": "Call scheduled"
+    },
+    {
+     "label": "US company: not a market-entry case",
+     "tone": "warn"
+    },
+    {
+     "label": "Aug 11 follow-up not confirmed",
+     "tone": "warn"
+    },
+    {
+     "label": "Proposal sent: $3,400/mo",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "No upcoming call found:",
+    "text": "First call was **Jul 21, 2026**. Olivier proposed a follow-up on **Aug 11**, but no Aug 11 event or reply is logged, and Jon has **not replied** to any email (0 received in Streak). Re-book before treating this as a live opportunity."
+   },
+   "source_line": "Box created Jul 22, 2026 by Aina R; moved to Scheduled Jul 24. Contact email is a personal Gmail (joncbest@gmail.com). Pipeline: GC Pipeline.",
+   "linkedin_url": ""
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "CDMO arm of **AbbVie**; **11 production sites** in North America and Europe; **40+ years** serving partners"
+   },
+   {
+    "label": "Scale",
+    "value": "CMO division about **$1B** inside a **~$60B** group (figures from Olivier's Jul 22 recap, **to be confirmed**)"
+   },
+   {
+    "label": "Lead",
+    "value": "Director BD & Market Strategies since **2019**; ex-**Lonza**, Helsinn, Abbott"
+   },
+   {
+    "label": "Status",
+    "value": "Lukewarm. Good first call; no reply since"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Outside the ICP** — US company (ICP = international companies outside the US); lead-generation pitch, not market entry"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier ran the Jul 21 call and already knows Jon's goal: reposition AbbVie's CMO from \"excess capacity\" to a long-term partner for small and mid-size biotechs."
+   },
+   "items": [
+    "Both dislike heavy CRM work: Jon said Salesforce is too sterile for prospecting; Gershon runs campaigns outside the CRM.",
+    "Olivier has run many biotech and pharma outreach campaigns (BIO, AACR lead generation)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Re-open with his own problem",
+    "text": "\"Changing how biotechs see AbbVie CMO, from excess-capacity filler to a dedicated partner from development to commercial.\" That was his challenge on Jul 21."
+   },
+   {
+    "title": "Concrete pipeline, not market entry",
+    "text": "AbbVie is already in the US. Pitch **pipeline generation**: 10 qualified discovery meetings a month with user, technical and financial buyers at emerging biotechs."
+   },
+   {
+    "title": "His SSI and BIO",
+    "text": "Olivier told him his LinkedIn **SSI is 52**; the target is 70+. Tie outreach to the next **BIO International Convention** and CPHI to lift acceptance rates."
+   },
+   {
+    "title": "Onshoring tailwind",
+    "text": "US pharma is investing in domestic API capacity (AbbVie announced new Illinois API investments, amounts **to be confirmed**). US-made supply is a selling point to biotechs worried about tariffs."
+   }
+  ],
+  "person": {
+   "name": "Jon Best",
+   "text": "Jon is **Director, Business Development & Market Strategies** at AbbVie (since Jan 2019, per public profile; title also in Streak). Before that: **Senior Manager Sales at Lonza** (2015-2019), **Manager BD at Helsinn** (2011-2015), Senior Manager BD at Ferro-Pfanstiehl, VP Marketing & Sales at Rohner, and a long first chapter at **Abbott** (1995-2007, contract marketing then BD), which is where AbbVie's CMO business came from. MBA from Lake Forest Graduate School of Management; BA from the University of Northern Iowa. Based in **Atlanta** (public profile). On the call he mentioned team planning meetings in **Dublin** (AbbVie has CMO BD roles in Ireland)."
+  },
+  "company": {
+   "text": "AbbVie Contract Manufacturing is the CDMO arm of AbbVie, based in **North Chicago, Illinois**. It offers custom **API and bulk manufacturing**, **biologics** (incl. monoclonal antibodies), **aseptic fill-finish** (vials, prefilled syringes), **oral solid dose**, **hot melt extrusion**, potent compound handling, packaging and eye care. It runs **11 production facilities** in North America and Europe and stresses an \"embedded CMO\" model with access to AbbVie scientists. It is hiring BD managers in Dublin and Italy (Campoverde), a sign it is pushing to grow third-party revenue."
+  },
+  "financials": {
+   "country": "US, division of AbbVie Inc. (NYSE: ABBV)",
+   "text": "AbbVie does not report the CMO arm separately. Olivier's recap describes it as a **~$1B division** of a **~$60B** group (**to be confirmed**). AbbVie has announced several US manufacturing investments (API capacity in North Chicago; biologics in Singapore), amounts **to be confirmed**."
+  },
+  "history": {
+   "text": "Aina booked a video call for **Jul 21, 2026** (Jon used a personal Gmail). The call happened after some camera trouble. On **Jul 22** Olivier sent a recap: reposition the CMO with small/mid biotechs; \"We do not sell. We make sure they want to buy.\"; 10 qualified meetings/month for **$3,400/month** (3-month minimum); lift SSI from 52 to 70s; 100 invitations a week; campaign run outside Salesforce, leads handed over at meeting stage. A follow-up was proposed for **Aug 11** after Jon's Dublin meetings. **No reply** from Jon is logged and no Aug 11 meeting was found. On **Oct 18** Olivier sent the new-website email (no open recorded)."
+  },
+  "industry": [
+   {
+    "title": "CDMO demand rebounding",
+    "text": "Biotech funding and outsourcing are recovering; emerging biotechs outsource most manufacturing."
+   },
+   {
+    "title": "Onshoring and tariffs",
+    "text": "US tariffs and the BIOSECURE debate push biotechs toward US and EU suppliers, away from some Asian CDMOs."
+   },
+   {
+    "title": "Big-pharma CDMOs fight perception",
+    "text": "Pharma-owned CMOs are often seen as filling spare capacity; they must prove long-term commitment."
+   },
+   {
+    "title": "Events drive deals",
+    "text": "BIO International, CPHI and DCAT are where CDMO BD teams meet buyers."
+   }
+  ],
+  "talking_points": [
+   "Where are you since Dublin: did the team set 2027 targets for new biotech accounts?",
+   "Which modalities do you want to fill first: biologics, fill-finish, HME, APIs?",
+   "What deal size and stage of biotech is the sweet spot?",
+   "Who else needs to approve an outside partner: marketing, procurement, compliance?",
+   "Is there a budget line for 2027 business development support?",
+   "Would a pilot around the next BIO convention make sense?"
+  ],
+  "attention": [
+   {
+    "title": "Not a US-entry prospect",
+    "text": "AbbVie is American. This is a lead-generation deal, not market entry. Adapt the pitch."
+   },
+   {
+    "title": "Gone quiet",
+    "text": "No reply since July. Stage \"Scheduled\" may be stale; confirm a date before preparing more."
+   },
+   {
+    "title": "Personal email",
+    "text": "He uses a Gmail address. Big-company compliance and procurement may slow or block a vendor."
+   },
+   {
+    "title": "Figures unverified",
+    "text": "The $1B / $60B figures come from Olivier's recap; AbbVie does not publish the CMO revenue."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details and Jul 22 recap email, Oct 18 website email"
+   },
+   {
+    "used": true,
+    "text": "Google Calendar: Jul 21, 2026 call"
+   },
+   {
+    "used": true,
+    "text": "Drug Development & Delivery: AbbVie Contract Manufacturing company profile"
+   },
+   {
+    "used": true,
+    "text": "village.ai: Jon Best career summary"
+   },
+   {
+    "used": true,
+    "text": "AbbVie careers: BD Manager (CMO) roles in Dublin and Campoverde"
+   },
+   {
+    "used": false,
+    "text": "Gemini notes of Jul 21 call (Drive file not accessible)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting (Olivier) · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Strong parent brand; the **CMO arm itself is low-profile**, and Jon's SSI is **52**.",
+   "detail": "AbbVie is a top-10 pharma brand with a large social following, but AbbVie Contract Manufacturing has a modest separate presence (trade profiles, CPHI listing). Jon's LinkedIn SSI of 52 (per Olivier's recap) shows room to grow. Follower counts **to be confirmed**.",
+   "context": "Web-audited Nov 5, 2026. LinkedIn not audited automatically."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: AbbVie",
+     "audience": "Very large (to be confirmed)",
+     "recency": "Active",
+     "read": "Corporate, not CMO-specific."
+    },
+    {
+     "channel": "LinkedIn: AbbVie Contract Manufacturing",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Check whether the CMO has its own page and how often it posts."
+    },
+    {
+     "channel": "Jon Best LinkedIn",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "SSI 52 per Olivier: the lever Gershon would work on."
+    },
+    {
+     "channel": "Trade directories",
+     "audience": "CPHI Online, Drug Dev & Delivery",
+     "recency": "Ongoing",
+     "read": "Where biotech buyers look for CDMOs."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "Jon is a direct contact (call held Jul 21). Olivier's LinkedIn network export was not checked for this brief.",
+   "items": [
+    "Check whether Olivier is connected to Jon on LinkedIn; if so, use LinkedIn to re-open since email is silent."
+   ],
+   "link": {
+    "url": "",
+    "label": "Find Jon Best on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "\"How was Dublin?\": re-open on his own plans.",
+   "From excess capacity to strategic partner: his words, our job.",
+   "SSI 52 to 70+: top 1% of the industry.",
+   "Made-in-USA supply as a selling point to biotechs worried about tariffs.",
+   "Pilot around **BIO 2027** (dates **to be confirmed**)."
+  ]
+ },
+ "send": false
+}

@@ -1,0 +1,227 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYSC_cMKDA",
+ "company": "Starpharma Holdings Ltd",
+ "lead_name": "Aynaz Seta",
+ "lead_role": "CMC & Development Programs Manager",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Starpharma Holdings Ltd (ASX: SPL)",
+   "person": "Aynaz Seta → referred to Melanie Heinlein",
+   "role": "CMC & Development Programs Manager",
+   "location": "Australia · Starpharma HQ Melbourne, VIC (to be confirmed)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Good",
+     "tone": "good"
+    },
+    {
+     "label": "Potential ADC project"
+    },
+    {
+     "label": "Email Melanie",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Referral to follow up:",
+    "text": "Aynaz wrote: “Please contact **Melanie**, our Cancer Biology Specialist, at **melanie.heinlein@starpharma.com**. We are interested in getting more information.” Box moved to *Contacted* on Oct 30, but no email is logged. Make sure Zak's email to Melanie went out, mentioning Aynaz."
+   },
+   "source_line": "Lead added to Streak on Oct 22, 2026 by Juliana R; moved to Contacted on Oct 30 by Zak O.",
+   "linkedin_url": "https://www.linkedin.com/in/aynazseta"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "ASX-listed oncology biotech built on **DEP® dendrimer drug delivery** — targeted therapies and radiopharmaceuticals"
+   },
+   {
+    "label": "Lead program",
+    "value": "**DEP® HER2-Lutetium** radiopharmaceutical; other clinical and preclinical DEP assets"
+   },
+   {
+    "label": "Big partner",
+    "value": "**Genentech** (Roche) licence of DEP technology, announced Sep 2025 (deal worth >US$569M, $8.3M upfront)"
+   },
+   {
+    "label": "Why antibodies",
+    "value": "Targeted DEP conjugates (radioligands, ADC-type) need **targeting antibodies/binders** — internal note: potential ADC project"
+   },
+   {
+    "label": "Size",
+    "value": "FY26 revenue A$12.0M; cash A$11.0M + A$30M raised post year-end; runway into FY28"
+   },
+   {
+    "label": "Contacts",
+    "value": "Melanie Heinlein, Cancer Biology Specialist — melanie.heinlein@starpharma.com (referral from Aynaz)"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech** (R&D-level contacts) — good fit: oncology biotech building targeted conjugates and openly interested; small budget, so pitch a focused project."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Starpharma has the payload and delivery platform (DEP); MAbSilico can design the targeting antibody. A complementary build."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Aynaz is CMC/development — she will care about **manufacturability and developability** of any antibody.",
+    "Starpharma said itself: “We are interested in getting more information.”"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Targeting antibodies for DEP conjugates",
+    "text": "For a DEP-based ADC or radioconjugate, the antibody decides tumour targeting. MAbSilico can design or optimize binders (affinity, specificity, **conjugation-friendly developability**) in ~21 days."
+   },
+   {
+    "title": "Developability for CMC",
+    "text": "Aynaz's CMC lens: MAbSilico screens developability in silico and validates with partner **Sartorius** — fewer surprises in manufacturing."
+   },
+   {
+    "title": "Small, milestone-based project",
+    "text": "Cash is limited but runway reaches FY28. Offer a defined first project on one target (e.g. HER2 alternatives or a new tumour antigen)."
+   }
+  ],
+  "person": {
+   "name": "Aynaz Seta",
+   "text": "At Starpharma since 2016: Analytical Chemist (2016–2020), CMC Project Manager (2020–2021), Nonclinical and CMC Project Manager since Dec 2021 (Streak lists her as CMC & Development Programs Manager). M.Phil. in Chemistry, University of Wollongong; BS Analytical Chemistry, University of Tabriz; earlier QC chemist at Zahravi Pharmaceutical. Referred us to **Melanie Heinlein**, Cancer Biology Specialist — Melanie's background to be confirmed. Career data from a public profile aggregator — to be confirmed."
+  },
+  "company": {
+   "text": "Starpharma (Melbourne, ASX: SPL; CEO **Cheryl Maley**) develops oncology medicines using its **DEP® dendrimer** platform, which can carry drugs or radioisotopes and improve their delivery. Lead asset: **DEP® HER2-Lutetium** radiopharmaceutical, plus clinical DEP assets and preclinical next-generation programs. In Sep 2025 it out-licensed DEP technology to **Genentech** in a deal worth over US$569M; shares are up more than 500% over 12 months (as of Aug 2026)."
+  },
+  "financials": {
+   "country": "Australia, ASX-listed",
+   "text": "**FY26 (to Jun 30, 2026):** revenue A$12.0M (+145%, mainly Genentech); loss A$7.5M (from A$10.0M); R&D A$11.1M. **Cash:** A$11.0M at year-end, plus a **A$30M** entitlement offer after year-end; runway into **FY28**. Small but funded — suits a focused, milestone-based project."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Aynaz: “Hi Vincent, thanks for reaching out. Please contact Melanie our Cancer Biology Specialist at melanie.heinlein@starpharma.com. We are interested in getting more information.” Vincent: “Thank you for your reply Aynaz, will do.” Box created Oct 22 by Juliana R; moved to *Contacted* Oct 30 by Zak O. No email thread logged. Note: the Streak contact is named Aynaz but holds Melanie's email."
+  },
+  "industry": [
+   {
+    "title": "Targeted conjugates boom",
+    "text": "ADCs and radioligand therapies are among oncology's hottest areas; differentiated targeting antibodies are a key bottleneck."
+   },
+   {
+    "title": "Delivery platforms partner with binder makers",
+    "text": "Platform companies like Starpharma license or partner for targeting moieties rather than building antibody discovery in-house."
+   }
+  ],
+  "talking_points": [
+   "Which **targets** are you exploring for DEP conjugates beyond HER2?",
+   "Do you source targeting antibodies today (licensed, biosimilar, in-house)?",
+   "What antibody properties matter most for DEP conjugation — size/format, conjugation sites, stability?",
+   "Would a 21-day in-silico design on one target fit your preclinical plan?",
+   "Who decides on new discovery partners — Melanie, R&D leadership?"
+  ],
+  "attention": [
+   {
+    "title": "Confirm the email to Melanie went out.",
+    "text": "Stage says Contacted but no thread is in Streak. Email melanie.heinlein@starpharma.com, mention Aynaz's referral and the ADC/targeting angle."
+   },
+   {
+    "title": "Mind the time zone.",
+    "text": "Melbourne is ~16 h ahead of US Eastern — propose early-morning Europe or late-evening US slots."
+   },
+   {
+    "title": "Fix the Streak contact.",
+    "text": "Add Melanie Heinlein as a separate contact; keep Aynaz as referrer."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG pipeline (box, contact, LinkedIn exchange copied Oct 22, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Motley Fool Australia — FY26 results (Aug 26, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Biotech Dispatch — FY26 results and Genentech upfront (Aug 26, 2026)"
+   },
+   {
+    "used": true,
+    "text": "BioWorld — Genentech deal (Sep 22, 2025)"
+   },
+   {
+    "used": true,
+    "text": "Village.ai — Aynaz Seta public career profile"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — company page and follower counts not audited; Melanie Heinlein not researched in depth"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Active **investor voice**: ASX announcements, results and partnering news; LinkedIn counts not audited.",
+   "detail": "As an ASX-listed company, Starpharma publishes regular announcements and gets Australian biotech press (Biotech Dispatch, Motley Fool). The Genentech deal drew wide coverage. Grade is provisional.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "ASX announcements",
+     "audience": "Investors",
+     "recency": "Regular; FY26 results Aug 26, 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Australian biotech press",
+     "audience": "Investors, industry",
+     "recency": "Aug 2026",
+     "read": "Active"
+    },
+    {
+     "channel": "LinkedIn — Starpharma",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "A partnership on a new targeted DEP program could be ASX-announcement material — attractive to them."
+  },
+  "network": {
+   "summary": "No shared network verified. Two internal contacts: Aynaz (CMC) and Melanie (cancer biology).",
+   "items": [
+    "CEO **Cheryl Maley** — senior contact if the project grows.",
+    "Your number of shared connections is shown on Aynaz's LinkedIn profile. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/aynazseta",
+    "label": "See your mutual connections with Aynaz on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Aug 26, 2026",
+    "where": "FY26 results (company)",
+    "text": "Revenue +145% to A$12.0M; A$30M raised; runway into FY28; progress on DEP® HER2-Lutetium.",
+    "use": "Congratulate on the raise — budget exists for new preclinical work."
+   },
+   {
+    "when": "Sep 22, 2025",
+    "where": "Deal news",
+    "text": "DEP technology licensed to **Genentech** (worth >US$569M).",
+    "use": "Validates DEP; ask what other partnered or in-house conjugate programs need binders."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "They **said they want more information** — deliver a crisp ADC/targeting one-pager.",
+   "Mention Aynaz's referral in the first line to Melanie.",
+   "Tie MAbSilico to DEP: *your platform, our targeting antibody*."
+  ]
+ },
+ "send": false
+}

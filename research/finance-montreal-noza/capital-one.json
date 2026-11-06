@@ -1,0 +1,226 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYSP0-kLDA",
+ "company": "Capital One Financial Corp.",
+ "lead_name": "Santiago Cuarterola",
+ "lead_role": "Director of Business Development, International Markets",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Capital One Financial Corp., International Markets (payments network)",
+   "person": "Santiago Cuarterola",
+   "role": "Director of Business Development, International Markets",
+   "location": "United States (city to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Call agreed",
+     "tone": "good"
+    },
+    {
+     "label": "New in role",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is Noza's:",
+    "text": "Santiago said **'next week could work'** for a call and gave **santiago.cuarteroladurand@capitalone.com**. He **started the role last month** and wanted to **socialize it internally** first. **Noza emails now** with 2 or 3 call slots and a 3-line summary he can forward internally."
+   },
+   "source_line": "Lead added to Streak on Oct 29, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/santiagocuarterola"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Capital One** (NYSE: COF), major US card issuer and bank; owner of the **Discover** payments network since its 2025 acquisition; Q3 2026 net income **US$3.5B**"
+   },
+   {
+    "label": "Lead",
+    "value": "**Director of Business Development, International Markets**, new in role (started about September 2026). The team grows Capital One's network presence with **partners in North America and Latin America** (team scope from public job postings; his exact remit **to be confirmed**)"
+   },
+   {
+    "label": "Contact",
+    "value": "santiago.cuarteroladurand@capitalone.com · LinkedIn santiagocuarterola"
+   },
+   {
+    "label": "Canada",
+    "value": "Capital One operates in the **US, Canada and the UK**; Capital One Canada is based in **Toronto**. **No Montreal office found** (to be confirmed)"
+   },
+   {
+    "label": "Finance Montréal angle",
+    "value": "Two tracks: (1) Montreal's **payments ecosystem** (Nuvei, Lightspeed, Desjardins) for network and partner growth in Canada; (2) Montreal as a bilingual, **New York-hours** site for international network, partner and fraud/AI teams"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#1 Global Banks** — partial fit: US bank; Santiago is international business development (expansion role, not operations)"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Santiago answered Noza directly, agreed to a call 'next week', and gave his work email."
+   },
+   "items": [
+    "**Business development on both sides:** Noza attracts companies to Montreal; Santiago grows Capital One's network through partners. Easy, peer-to-peer conversation.",
+    "**International and multilingual:** his role covers North and Latin America (Spanish-speaking markets); Montreal is a **French-English** city with strong Latin American ties.",
+    "**No shared employer, school or contact verified** (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Montreal is a payments city",
+    "text": "Montreal is home to payments and commerce players such as **Nuvei** and **Lightspeed**, and **Desjardins**, a major Quebec card issuer. Finance Montréal can open doors for network and partner discussions in Canada."
+   },
+   {
+    "title": "A New York-hours base for international teams",
+    "text": "A Finance Montréal-commissioned Boyd study puts a 150-person financial operation at about **US$18.9M a year in Montreal vs US$35.3M in New York**, in the New York time zone. Bilingual talent and strong **AI and fraud-analytics** research help network, partner support and risk teams."
+   },
+   {
+    "title": "The IFC tax credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including for services provided under contract to a **foreign affiliate** (compliance, data, IT, fund and transaction support). Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Santiago Cuarterola",
+   "text": "**Director of Business Development, International Markets** at Capital One (per Streak and LinkedIn); told Noza he **started the role last month**. A speaker profile for a Santiago Cuarterola (B2B Marketing Expo) describes **15+ years at American Express** in operations and client service, then **fintech startups** setting up payment processors and gateways, with Fortune 500 client work: **same person to be confirmed**. Location and full career **to be confirmed** on LinkedIn. Tone: open and friendly, wants to 'keep the conversation fluid'."
+  },
+  "company": {
+   "text": "Capital One is one of the largest US credit card issuers and banks (HQ McLean, Virginia), CEO **Richard Fairbank**. After buying **Discover** in 2025 it owns a card network: debit cards have already moved to Discover rails, and it is now **gradually moving credit cards** and issuing new cards on the network. Management has discussed **improving acceptance of Discover cards abroad** (American Banker, Oct 21, 2026). Its International Market Development team manages **partner relationships across North America** and grows **commercial payments in North and Latin America** (per Capital One job postings)."
+  },
+  "financials": {
+   "country": "USA, listed (NYSE: COF)",
+   "text": "**Q3 2026** (released Oct 20, 2026): net income **US$3.5B**, diluted EPS **US$5.61** (adjusted **US$6.69**); total net revenue **US$16.3B** (+3% vs Q2). Discover integration expenses **US$338M** in the quarter; CEO says synergies are on track. Target: add **US$175B+** of purchase volume to the Discover network by 2027."
+  },
+  "history": {
+   "text": "LinkedIn (as Noza). Santiago: thanks for the note, started the role last month, interested in 'keeping the conversation fluid', will socialize internally and come back end of next week. Noza followed up; he replied **'next week could work'**. Noza asked for his email; he gave **santiago.cuarteroladurand@capitalone.com**. Box created **Oct 29, 2026** by Juliana R. **Open item:** Noza emails to book the call."
+  },
+  "industry": [
+   {
+    "title": "Discover network push",
+    "text": "Capital One is building volume on its own network. International acceptance and partner issuing are the next step, which is his team's territory."
+   },
+   {
+    "title": "Canada is a mature card market",
+    "text": "Canadian payments are led by Visa, Mastercard, Amex and Interac; network partners and acquirers in Canada are a natural growth topic (Capital One's Canada plans for Discover **to be confirmed**)."
+   },
+   {
+    "title": "AI and fraud talent",
+    "text": "Montreal's AI research base (Mila) and fintech hub (Station FinTech) are relevant for network risk, fraud and data teams."
+   }
+  ],
+  "talking_points": [
+   "What does **International Markets** cover in his role: Canada, Latin America, partner issuing, acceptance?",
+   "How does the **Discover network** plan to grow **acceptance and partners in Canada**?",
+   "Would introductions to **Montreal payments players** (acquirers, fintechs, issuers) be useful?",
+   "Where do Capital One's international network and partner-support teams sit today, and is there room for a **Montreal** team?",
+   "Who should Finance Montréal speak to on **location decisions** (Capital One Canada in Toronto? corporate real estate?)"
+  ],
+  "attention": [
+   {
+    "title": "He is new in the role.",
+    "text": "He is still mapping his remit. Ask questions, offer introductions, and give him something easy to share internally."
+   },
+   {
+    "title": "Business development, not real estate.",
+    "text": "He grows partnerships; he probably does not decide office locations. Lead with ecosystem value, then ask who owns location."
+   },
+   {
+    "title": "Facts to confirm.",
+    "text": "His background (American Express match), location and exact market scope are **to be confirmed**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Finance Montréal, Noza): box and LinkedIn conversation"
+   },
+   {
+    "used": true,
+    "text": "Capital One Q3 2026 earnings release / 8-K (Oct 20, 2026)"
+   },
+   {
+    "used": true,
+    "text": "American Banker: 'Capital One wrestles with how to best use Discover's network' (Oct 21, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Capital One job posting (Built In): Business Development Director, International Market Development"
+   },
+   {
+    "used": true,
+    "text": "B2B Marketing Expo speaker page: Santiago Cuarterola (identity to be confirmed)"
+   },
+   {
+    "used": true,
+    "text": "finance-montreal.com: mission, IFC credit, Montreal cost study (Boyd)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile of Santiago Cuarterola (check directly)"
+   }
+  ],
+  "grade": {
+   "letter": "A",
+   "headline": "**Very large consumer brand presence**: Capital One posts daily across LinkedIn, Instagram, X, YouTube and TikTok; Santiago's own activity is low.",
+   "detail": "One of the most visible US financial brands on social media, with heavy advertising and content. Exact follower counts are **to be confirmed**. Santiago has no indexed posts, so the conversation will run on email.",
+   "context": "Web-audited Nov 5, 2026."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Capital One company page",
+     "audience": "To be confirmed (very large)",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "Instagram / X / YouTube / TikTok",
+     "audience": "Consumers (very large)",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn: Santiago Cuarterola",
+     "audience": "To be confirmed",
+     "recency": "No public posts found",
+     "read": "Low visibility"
+    }
+   ],
+   "note": "Congratulate him on the new role on LinkedIn after the call."
+  },
+  "network": {
+   "summary": "Noza contacted Santiago directly on LinkedIn; no shared network was verified.",
+   "items": [
+    "Noza's exact number of shared connections with Santiago is on his LinkedIn profile.",
+    "Check whether Noza knows anyone at Capital One Canada (Toronto)."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/santiagocuarterola",
+    "label": "See Noza's mutual connections with Santiago on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Oct 21, 2026",
+    "where": "American Banker",
+    "text": "After Q3 results, Capital One said it will **gradually move credit cards to the Discover network** and work on **acceptance abroad**.",
+    "use": "Ask how international acceptance and partners fit his new role."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Congratulate him on the **new role** and thank him for socializing the idea internally.",
+   "Open on **Discover network growth outside the US** and whether Canada is on the map.",
+   "Offer **introductions to Montreal payments players** and a one-page Montreal cost and IFC brief."
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 5, 2026"
+ },
+ "send": false
+}

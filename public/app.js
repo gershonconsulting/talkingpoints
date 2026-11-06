@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.9.0';
+  const APP_VERSION = '1.9.3';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -282,14 +282,20 @@
     } catch { $('leadList').innerHTML = '<p style="color:var(--text-muted)">Your leads could not be loaded. Refresh to try again.</p>'; }
   }
 
-  // ---------- Owner: switch the campaign being tested ----------
+  // ---------- Owner: User view / Admin view ----------
+  // User view  = exactly what a client sees, on Olivier's own campaign (GC Pipeline), with his own profile.
+  // Admin view = test any client campaign (picker), Admin link, red banner; "My profile" hidden so the
+  //              owner's profile is never mixed with the campaign being tested.
+  const VIEW_KEY = 'tp_view';
+  const getMode = () => { try { return localStorage.getItem(VIEW_KEY); } catch { return null; } };
+  const setMode = (m) => { try { localStorage.setItem(VIEW_KEY, m); } catch { /* storage off */ } };
+
   async function loadCampaignPicker() {
     try {
       const { clients } = await api('/api/admin/clients');
       const sel = $('campaignPick');
       sel.innerHTML = clients.map((c) => `<option value="${c.id}" ${c.slug === me.client.slug ? 'selected' : ''}>${esc(c.name)}</option>`).join('');
       sel.hidden = false;
-      $('clientName').textContent = 'Testing campaign';
       sel.onchange = async () => {
         try { await api('/api/admin/view-as', { method: 'POST', body: JSON.stringify({ client_id: sel.value }) }); location.hash = ''; location.reload(); }
         catch (e) { toast(e.message || 'Could not switch campaign'); }
@@ -297,14 +303,45 @@
     } catch { /* owner-only extra */ }
   }
 
+  async function applyOwnerView() {
+    const atHome = me.client.slug === me.home_slug;
+    let mode = getMode() || (atHome ? 'user' : 'admin');
+    if (mode === 'user' && !atHome) {
+      // User view always shows the owner's own campaign.
+      try { await api('/api/admin/view-as', { method: 'POST', body: JSON.stringify({ home: true }) }); location.reload(); return false; }
+      catch { mode = 'admin'; }
+    }
+    setMode(mode);
+    document.body.classList.toggle('mode-admin', mode === 'admin');
+    const sw = $('viewSwitch');
+    sw.hidden = false;
+    sw.querySelectorAll('button').forEach((b) => {
+      b.classList.toggle('on', b.dataset.mode === mode);
+      b.onclick = async () => {
+        if (b.dataset.mode === mode) return;
+        setMode(b.dataset.mode);
+        if (b.dataset.mode === 'user' && !atHome) {
+          try { await api('/api/admin/view-as', { method: 'POST', body: JSON.stringify({ home: true }) }); } catch (e) { toast(e.message || 'Could not switch view'); return; }
+        }
+        location.hash = ''; location.reload();
+      };
+    });
+    if (mode === 'admin') {
+      $('clientName').textContent = 'Testing campaign';
+      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin">Admin</a>');
+      document.querySelector('.nav-item[data-view="profile"]').hidden = true;
+      if (location.hash === '#profile') location.hash = '#leads';
+      $('topRight').insertAdjacentHTML('afterbegin', `<span class="admin-banner">Admin view · ${esc(me.client.name)}</span>`);
+      loadCampaignPicker();
+    }
+    return true;
+  }
+
   // ---------- Boot ----------
   (async function boot() {
     try { me = await api('/api/me'); } catch { return; }
     $('clientName').textContent = me.client.name;
-    if (me.member.is_owner) {
-      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin">Admin</a>');
-      loadCampaignPicker();
-    }
+    if (me.member.is_owner && !(await applyOwnerView())) return;
     $('userChip').innerHTML = `${avatar(me.member)}<div class="who"><b>${esc(me.member.name || me.member.email)}</b><span>${esc(me.member.title || me.member.email)}</span><br>
       <form method="post" action="/api/auth/logout" style="display:inline"><button class="linkish" type="submit">Sign out</button></form></div>`;
     fillProfile();

@@ -91,14 +91,16 @@ export async function recipients(env, clientId) {
   return ok;
 }
 
-export async function emailBrief(env, clientRow, brief, { force = false, subjectDate } = {}) {
-  if (env.EMAIL_ENABLED !== 'true' || (brief.emailed_at && !force)) return false;
+// `weekly`: the Friday run (Olivier's standing instruction, 2026-11-05) — sends even while the
+// daily auto-email switch EMAIL_ENABLED is off; duplicates are prevented by the caller (send_log).
+export async function emailBrief(env, clientRow, brief, { force = false, subjectDate, weekly = false } = {}) {
+  if ((env.EMAIL_ENABLED !== 'true' && !weekly) || (brief.emailed_at && !force)) return false;
   const to = await recipients(env, clientRow.id);
   if (!to.length) return false;
   // Any recipient outside Gershon -> client version (no internal blocks, sender "Gershon Consulting").
   const plan = planBriefEmail(to, applyTemplate(brief.data, await getTemplate(env, clientRow.id)));
   const date = subjectDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
-  const who = { client_id: clientRow.id, box_key: brief.box_key, company: brief.company, lead_name: brief.lead_name, sent_by: subjectDate ? 'meeting run' : 'daily run', to };
+  const who = { client_id: clientRow.id, box_key: brief.box_key, company: brief.company, lead_name: brief.lead_name, sent_by: weekly ? 'friday run' : subjectDate ? 'meeting run' : 'daily run', to };
   try {
     await sendEmail(env, {
       to,

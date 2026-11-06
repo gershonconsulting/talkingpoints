@@ -1,0 +1,244 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICA5cr5oKIJDA",
+ "company": "Meritis",
+ "lead_name": "Sébastien Videment",
+ "lead_role": "Président-Directeur Général, Founder",
+ "stage": "Scheduled",
+ "data": {
+  "header": {
+   "company": "Meritis (French IT consulting / ESN: finance, tech and regulatory consulting; ~€98M revenue)",
+   "person": "Sébastien Videment",
+   "role": "Founder & Chairman (PDG)",
+   "location": "Paris, France (36 avenue Pierre 1er de Serbie, 75008)",
+   "chips": [
+    {
+     "label": "Call scheduled"
+    },
+    {
+     "label": "He declined the Sep 16 meeting",
+     "tone": "warn"
+    },
+    {
+     "label": "Dormant US vehicle: MERITIS INTERNATIONAL",
+     "tone": "good"
+    },
+    {
+     "label": "Priority: Medium"
+    }
+   ],
+   "alert": {
+    "title": "No meeting is actually booked:",
+    "text": "On **Sep 16, 2026** Sébastien **declined** the slot and wrote he would come back **\"si jamais j'estime avoir un besoin\"**. Olivier answered with a direct argument. He opened the Oct 18 email but did not reply. Treat as **re-engagement**, not a scheduled call."
+   },
+   "source_line": "Box created May 26, 2026 by Aina R; origin: Botdog (LinkedIn). Moved to Scheduled Aug 5. GPT USA: To Create. Language: French. 4 files on the box.",
+   "linkedin_url": ""
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **2007** in Paris; **900+ staff**; offices in **Lisbon, Brussels, London**"
+   },
+   {
+    "label": "Scale",
+    "value": "Revenue **€98M (2025)**; growth slowed from **+19.3% to +3.2%** (Olivier's analysis)"
+   },
+   {
+    "label": "Lead",
+    "value": "Founder; now Chairman as **Romain Danielou** became Group MD (**Apr 2026**)"
+   },
+   {
+    "label": "Status",
+    "value": "Cold. Declined meeting; opens emails"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Outside the ICP** — French company (France excluded) and ~900 staff (ICP is 1–19 employees)"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier already analysed Meritis in depth (growth, MERITIS INTERNATIONAL, Neofin) and laid out a US case in his Sep 16 email."
+   },
+   "items": [
+    "Both are French founders who built a company over 15+ years.",
+    "Meritis's finance clients (banks, asset managers) overlap with US financial-services targets Gershon works on (e.g. the Finance Montreal campaigns)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Respect his \"no\" and bring something new",
+    "text": "He said he'd come back if he felt a need. Re-open only with a new fact: e.g. a **US AI-regulation** development or a US bank looking for DORA/AI Act expertise."
+   },
+   {
+    "title": "Regulation is the wedge",
+    "text": "With **Neofin Advisory** (London, ~20 people, acquired 2025), Meritis has **DORA, NIS2, AI Act** skills. US financial institutions face a patchwork of **state AI laws**; few European specialists are on the ground."
+   },
+   {
+    "title": "The vehicle exists",
+    "text": "**MERITIS INTERNATIONAL** was created about three years ago, funded by debt, with **0 employees** (Olivier's analysis). A US launch would put it to work."
+   },
+   {
+    "title": "Talk to the new MD too",
+    "text": "**Romain Danielou** (Group MD since Apr 2026; ex-Devoteam BeLux, ~10 European acquisitions) runs scale-up. He may be the better entry point."
+   }
+  ],
+  "person": {
+   "name": "Sébastien Videment",
+   "text": "Sébastien **founded Meritis in 2007** and is **Founder & Chairman** (signature: Président directeur général). He opened the capital to employees (about **40% of staff are shareholders**, Le Journal des Entreprises) and brought in Société Générale Capital Partenaires in a 2022 transaction. He said Meritis needed to pass the **€100M** revenue mark. Since **April 2026** Romain Danielou is Group Managing Director, freeing Sébastien for strategy. His tone on Sep 16 was polite but closed."
+  },
+  "company": {
+   "text": "Meritis is a French IT consulting firm (ESN) founded in **2007**, focused on **finance, IT and regulatory** consulting, with regional agencies in France. External growth started with **Navigacom** (Dec 2024; ~40 people, ~€10M revenue; cloud, workplace, networks, cybersecurity, IoT), then **Neofin Advisory** in London (2025; ~20 consultants on regulation and risk for financial institutions). It opened **Brussels** in 2025 (3 business developers) and **Lisbon** in 2023 (17 consultants, plan to double). It aims to grow international activity **by 2027**. Executive team: Sébastien Videment (Founder & Chairman), Romain Danielou (Group MD), Cyrille Deliry (CFO), Eric Varache (HR), Julien Foulquier (Solutions)."
+  },
+  "financials": {
+   "country": "France, private (employee- and PE-backed)",
+   "text": "Revenue **€98M in 2025**, **900+ employees** (Le Monde Informatique, Apr 2026). Olivier's analysis: growth slowed from **+19.3% to +3.2%**, while the French ESN market fell **-1.8%** and recovers only **+1.4%** (sources **to be confirmed**). Société Générale Capital Partenaires invested in Dec 2022. MERITIS INTERNATIONAL: debt-funded, 0 employees (Olivier's analysis, **to be confirmed** in filings)."
+  },
+  "history": {
+   "text": "Sébastien wrote first on **May 26, 2026** (to oattia@gmail.com); several exchanges followed in early June; Olivier booked a call for **Sep 16, 2026, 08:30 ET**. Box moved to Scheduled **Aug 5**. On **Sep 16** Sébastien **declined**: he will come back if he sees a need. Olivier replied the same day with four points (slowing growth, dormant MERITIS INTERNATIONAL, Neofin regulatory edge vs. US state AI laws, new MD frees his time). On **Oct 18** Olivier sent the new-website email; Sébastien opened it (Oct 18) but did not reply. Total sent-email views: **11**, so he reads."
+  },
+  "industry": [
+   {
+    "title": "French ESN market is flat",
+    "text": "After a contraction, the French IT services market is recovering only slowly; growth must come from abroad or acquisitions."
+   },
+   {
+    "title": "Regulation drives demand",
+    "text": "DORA (EU), NIS2 and the AI Act create consulting demand; US banks face state AI rules and federal guidance."
+   },
+   {
+    "title": "Consolidation",
+    "text": "Mid-size ESNs are buying niche firms (Meritis: Navigacom, Neofin) to add skills and countries."
+   },
+   {
+    "title": "Nearshoring",
+    "text": "Lisbon-style nearshore delivery is a selling point for US clients wanting cost-effective EU talent."
+   }
+  ],
+  "talking_points": [
+   "What would make you feel the need for a US move: a client request, a deal, or growth targets?",
+   "Do any of your French or UK banking clients have US operations asking for DORA / AI-governance help?",
+   "What is the 2027 plan for MERITIS INTERNATIONAL?",
+   "Is Romain Danielou leading international expansion? Could he join a short call?",
+   "Would a US acquisition or a partnership be more realistic than organic entry?",
+   "What would a successful first US year look like for Meritis?"
+  ],
+  "attention": [
+   {
+    "title": "He said no",
+    "text": "Pushing hard again may close the door. Lead with new value or a referral, not pressure."
+   },
+   {
+    "title": "Stage is wrong",
+    "text": "The box is in Scheduled but no meeting exists. Consider moving it to Nurturing."
+   },
+   {
+    "title": "Unverified numbers",
+    "text": "Growth rates, market figures and the MERITIS INTERNATIONAL details come from Olivier's own analysis; check sources before repeating."
+   },
+   {
+    "title": "GPT USA pending",
+    "text": "Streak shows GPT USA as **To Create**. A tailored US analysis could be the new reason to re-engage."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details, Sep 16 decline and Olivier's reply, Oct 18 email (views)"
+   },
+   {
+    "used": true,
+    "text": "Google Calendar: Sep 16, 2026 call (declined)"
+   },
+   {
+    "used": true,
+    "text": "Le Monde Informatique (Apr 15, 2026): Meritis expands in Europe; €98M 2025, 900+ staff, Neofin, Brussels, Lisbon"
+   },
+   {
+    "used": true,
+    "text": "Solutions Numériques (Dec 2024): Navigacom acquisition"
+   },
+   {
+    "used": true,
+    "text": "Meritis.fr: executive team (Romain Danielou Group MD since Apr 2026)"
+   },
+   {
+    "used": true,
+    "text": "Le Journal des Entreprises: 40% employee shareholders; €100M threshold (headlines)"
+   },
+   {
+    "used": true,
+    "text": "Société Générale Capital Partenaires press release (Dec 2022)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting (Olivier) · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Active employer brand and steady press coverage; **follower counts not verified**.",
+   "detail": "A 900-person ESN with a recruiting-driven LinkedIn presence, a blog and regular trade-press coverage (Le Monde Informatique, Solutions Numériques, Le Journal des Entreprises). Coverage is French-language; nothing aimed at US buyers. Grade provisional.",
+   "context": "Web-audited Nov 5, 2026. LinkedIn not audited automatically."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company",
+     "audience": "To be confirmed",
+     "recency": "Likely active (recruiting)",
+     "read": "Check for international announcements."
+    },
+    {
+     "channel": "Blog / website",
+     "audience": "meritis.fr",
+     "recency": "Active",
+     "read": "French and English pages; no US content."
+    },
+    {
+     "channel": "Trade press",
+     "audience": "French IT press",
+     "recency": "2024-2026",
+     "read": "Good proof points for acquisitions and growth."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "Sébastien is a direct contact (emails since May 2026). Olivier's LinkedIn network export was not checked for this brief.",
+   "items": [
+    "Check whether Olivier is connected to **Romain Danielou**; a separate, light touch to him may work better."
+   ],
+   "link": {
+    "url": "",
+    "label": "Find Sébastien Videment on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Apr 2026",
+    "where": "Le Monde Informatique",
+    "text": "Meritis expands its European network (London via Neofin, Brussels, Lisbon); aims to grow international by 2027.",
+    "use": "International growth is already on his agenda; the US is the next step."
+   },
+   {
+    "when": "Apr 2026",
+    "where": "Meritis.fr",
+    "text": "Romain Danielou appointed Group Managing Director.",
+    "use": "New leadership = new bandwidth for expansion."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "You already built the vehicle: MERITIS INTERNATIONAL is waiting.",
+   "DORA / AI Act know-how vs. 50 US state AI rules: few European experts on the ground.",
+   "Europe is flat (+1.4%); the US is where the growth is.",
+   "Bring Romain into the conversation.",
+   "Offer a tailored GPT USA analysis as the re-engagement reason."
+  ]
+ },
+ "send": false
+}

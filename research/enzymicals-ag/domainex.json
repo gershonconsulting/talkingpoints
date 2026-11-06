@@ -1,0 +1,265 @@
+{
+ "client": "enzymicals-ag",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV5LuHtQoM",
+ "company": "Domainex",
+ "lead_name": "Andrew (AJ) Ratcliffe, PhD",
+ "lead_role": "Chief Scientific Officer",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Domainex Ltd (integrated drug discovery CRO, Cambridge, UK)",
+   "person": "Andrew (AJ) Ratcliffe, PhD",
+   "role": "Chief Scientific Officer",
+   "location": "Cambridge area, UK (Domainex chemistry centre at Chesterford Research Park; biology centre at Unity Campus, Pampisford)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "CSO: decision-maker",
+     "tone": "good"
+    },
+    {
+     "label": "Asked to hear more",
+     "tone": "good"
+    },
+    {
+     "label": "\"Will come back in due course\"",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step is yours:",
+    "text": "Andrew asked David to reach out about **biocatalysis services** at **andrew.ratcliffe@domainex.co.uk**. David shared slides; Andrew replied he **will come back in due course**. Don't wait passively: send one short, specific follow-up that ties enzymes to Domainex's **medicinal and synthetic chemistry** projects."
+   },
+   "source_line": "Lead added to Streak on Oct 29, 2026 by Juliana R. Source: LinkedIn messaging (as David).",
+   "linkedin_url": "https://www.linkedin.com/in/andrew-ratcliffe-415a1830"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "UK **integrated drug discovery CRO**: medicinal and synthetic chemistry, biology, structural biology, CADD, bioanalytics. Spun out of UCL, Birkbeck and the ICR in 2001"
+   },
+   {
+    "label": "Size",
+    "value": "Over **100 scientists** (Feb 2024); Cambridge footprint above **44,000 sq ft** after the new Biology Centre of Excellence opened"
+   },
+   {
+    "label": "Chemistry scale",
+    "value": "On-site chemistry **scale-up unit up to 10 L**: discovery and early development, not commercial manufacturing"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "CSO and medicinal chemist (30+ years; ex-Rhône-Poulenc Rorer, Celltech, UCB, Redx). **Owns the chemistry toolbox**, so he can decide whether to add an enzyme partner"
+   },
+   {
+    "label": "Contact",
+    "value": "andrew.ratcliffe@domainex.co.uk"
+   },
+   {
+    "label": "Enzymicals ICP",
+    "value": "**#1 Pharmaceuticals (R&D directors)** — fit: **partial**. Strong person fit (CSO = R&D decision-maker) but Domainex is a **discovery-stage CRO** in the UK, not a US pharma producer. Realistic role: **channel partner** that brings enzymatic steps into client projects (chiral building blocks, selective oxidations, metabolite synthesis), with scale-up handed on to Enzymicals."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "David Liese",
+    "reason": "Chemist to chemist: David (Evonik-trained, PhD Duisburg-Essen) wrote to a medicinal chemist who leads a chemistry-heavy CRO, and Andrew answered him personally."
+   },
+   "items": [
+    "**Andrew replied to David directly** and asked him to email: a warm, peer-to-peer thread.",
+    "**Same customers:** both firms sell R&D services to pharma and biotech; Domainex at discovery stage, Enzymicals from enzyme screening to mg → ton scale-up.",
+    "**European neighbours:** Cambridge (UK) and Greifswald (DE); easy to meet at European chemistry events.",
+    "**No shared employer, school or contact verified** between David and Andrew (check LinkedIn)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "An enzyme toolbox for Domainex chemists",
+    "text": "Domainex sells medicinal and synthetic chemistry. Enzymicals can add **biocatalytic steps** (enantioselective reductions, selective oxidations, late-stage functionalisation) that are hard or slow by classic chemistry, **without Domainex building an enzyme lab**."
+   },
+   {
+    "title": "Drug metabolites on demand",
+    "text": "Discovery projects often need **human metabolites** of a candidate for testing and analytics. Enzymatic synthesis can make them selectively; Domainex's bioanalytical team is a natural user (to be confirmed with Andrew)."
+   },
+   {
+    "title": "A path beyond 10 L",
+    "text": "Domainex's own scale-up stops at **10 L**. When a candidate moves on, Enzymicals can take an enzymatic route from mg to ton, so Domainex keeps its client's project moving."
+   }
+  ],
+  "person": {
+   "name": "Andrew (AJ) Ratcliffe",
+   "text": "**Chief Scientific Officer** at Domainex (company website). Medicinal chemist with **more than 30 years** in drug discovery at **Rhône-Poulenc Rorer, Celltech, UCB, Cellzome, Redx Anti-infectives and Novintum Bioscience**. Led projects that nominated several clinical candidates: two JAK inhibitors (rheumatoid arthritis), a mitochondrial disruptor (oncology) and two VLA4 antagonists (MS), one of which, **CDP323**, reached Phase II. Also worked on PDE4, IMPDH, JNK and PI3Kδ inhibitors (UCB5857 entered the clinic) and DNA gyrase antibacterials with European ENABLE funding. First degree and **PhD at the University of Bath**, NATO/SERC postdoc at **Duke University**; 70+ papers and patents. Joined Domainex in **2019**, promoted to **Head of Chemistry** in Nov 2022, now CSO."
+  },
+  "company": {
+   "text": "Domainex (founded 2001 as a spin-out of UCL, Birkbeck and the Institute of Cancer Research) is a Cambridge-based **integrated drug discovery CRO**. Services listed: medicinal, synthetic and analytical chemistry, direct-to-biology, CADD/SBDD, protein production, assay development, biochemistry/enzymology, biophysics, cryo-EM and X-ray crystallography, bioanalytics. Chemistry sits at the **Medicines Research Centre, Chesterford Research Park**; a three-storey **Biology Centre of Excellence** (24,000+ sq ft) opened at Unity Campus, Pampisford in 2024. **CEO: Hayley French, PhD** (since May 2025, ex-CEO of Apitope); former CEO **Eddy Littler** became non-executive Chairman. Other leaders: **Ray Boffey** (CCO), Tom Amies (Finance Director). Domainex won the **King's Award for Enterprise: International Trade 2023** after international revenue grew more than 100% in three years."
+  },
+  "financials": {
+   "country": "United Kingdom, private",
+   "text": "Private company: no revenue published in the sources checked (UK Companies House accounts **to be confirmed**). Growth signals: 100+ scientists, a new 24,000 sq ft biology building (2024) and international revenue up **more than 100% over three years** (King's Award 2023). A growing CRO is more likely to **add a partner** than build an enzyme platform itself."
+  },
+  "history": {
+   "text": "LinkedIn (as David). David wrote about **biocatalysis services**. Andrew answered that he would be **interested in hearing more** about the capabilities and asked David to reach out at **andrew.ratcliffe@domainex.co.uk**. David replied that he had **shared slides by email**; Andrew thanked him and said he **will come back in due course**. Box created Oct 29, 2026 by Juliana R, stage Lead. No email thread is linked in Streak yet (exact send date of the slides to be confirmed)."
+  },
+  "industry": [
+   {
+    "title": "Biocatalysis moves earlier into discovery",
+    "text": "Engineered enzymes are no longer only a process-chemistry tool: discovery chemists use them for chiral intermediates, late-stage C–H oxidation and metabolite synthesis."
+   },
+   {
+    "title": "CROs compete on breadth",
+    "text": "Integrated CROs win projects by offering more under one roof. Partnering for a niche skill like biocatalysis is faster than building it."
+   },
+   {
+    "title": "Greener chemistry from day one",
+    "text": "Pharma clients increasingly ask for sustainable routes early, so the route chosen in discovery doesn't need a full redesign later."
+   }
+  ],
+  "talking_points": [
+   "Do any current Domainex chemistry projects struggle with a **chiral centre or a selective oxidation** where an enzyme could help?",
+   "How do you produce **drug metabolites** for clients today: in-house synthesis, purchase, or not at all?",
+   "What happens to a client's route **after your 10 L scale-up**? Would a hand-over partner for enzymatic steps be useful?",
+   "Would a small **feasibility screen on one Domainex compound or intermediate** be easy to set up as a pilot?",
+   "Who in your chemistry team would be the right day-to-day contact for a technical exchange?"
+  ],
+  "attention": [
+   {
+    "title": "Follow up with one concrete idea.",
+    "text": "\"In due course\" can mean never. In about a week, send a 3-line email to andrew.ratcliffe@domainex.co.uk with **one specific use case** (metabolite synthesis or a chiral step) and offer a 20-minute call."
+   },
+   {
+    "title": "Check the slides arrived.",
+    "text": "No email thread is linked to the Streak box. Make sure the deck went to his Domainex address and link the thread in Streak."
+   },
+   {
+    "title": "Not a US prospect.",
+    "text": "Domainex is UK-based. Treat it as a **partner/channel** conversation; its US pharma clients are the prize (to be confirmed with Andrew)."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Enzymicals AG pipeline): box, contact, LinkedIn thread copied by Juliana R (Oct 29, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Domainex website: Senior Leadership Team (Andrew Ratcliffe bio), Our Team / services list"
+   },
+   {
+    "used": true,
+    "text": "Domainex news: management team expansion (Nov 15, 2022); 20 years in drug discovery (Sep 7, 2021)"
+   },
+   {
+    "used": true,
+    "text": "Business Weekly: new CEO Hayley French (May 7, 2025); new Cambridge biology facility and King's Award (Feb 13, 2024)"
+   },
+   {
+    "used": true,
+    "text": "TheOrg: Andrew Ratcliffe profile (London listed; unverified)"
+   },
+   {
+    "used": false,
+    "text": "UK Companies House financials: not checked; to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts (Domainex, Andrew): not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Enzymicals AG · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Solid company voice: **regular news, awards and trade coverage**; Andrew's personal activity to be confirmed.",
+   "detail": "Domainex publishes leadership, facility and partnership news (2021–2025) picked up by Business Weekly, One Nucleus and Pharma's Almanac, and has won several awards (King's Award 2023). Content is mostly corporate. No public posts or talks by Andrew were found in this audit.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn follower counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Domainex",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Likely main social channel"
+    },
+    {
+     "channel": "News page (domainex.co.uk)",
+     "audience": "Clients, partners, investors",
+     "recency": "Leadership news May 2025",
+     "read": "Regular"
+    },
+    {
+     "channel": "Trade press (Business Weekly, One Nucleus, Pharma's Almanac)",
+     "audience": "UK life-science community",
+     "recency": "2024–2025",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn: Andrew Ratcliffe",
+     "audience": "To be confirmed",
+     "recency": "Replied to David, Oct 2026",
+     "read": "Reachable, not a public voice"
+    }
+   ],
+   "note": "Domainex likes award and capability news. A joint case study (for example an enzymatic metabolite synthesis) would fit its own messaging."
+  },
+  "network": {
+   "summary": "No shared network between David Liese and Andrew was verified. The link so far is David's LinkedIn thread, which Andrew answered.",
+   "items": [
+    "Domainex leaders who could back a partnership: **Hayley French** (CEO) and **Ray Boffey** (CCO, commercial and alliances).",
+    "Andrew's past employers (**UCB, Celltech, Redx**) may overlap with David's chemistry network (to be confirmed).",
+    "Your exact number of shared connections with Andrew is on his LinkedIn profile, under his name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/andrew-ratcliffe-415a1830",
+    "label": "See your mutual connections with Andrew on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "May 7, 2025",
+    "where": "Company news / Business Weekly",
+    "text": "Hayley French appointed CEO; Eddy Littler becomes non-executive Chairman.",
+    "use": "New CEO, new partnerships: ask Andrew whether broadening the service offer is on her agenda."
+   },
+   {
+    "when": "Feb 13, 2024",
+    "where": "Business Weekly",
+    "text": "New three-storey Biology Centre of Excellence; 100+ scientists; King's Award for international trade.",
+    "use": "Growth story: an enzyme partner adds capability without new lab space."
+   },
+   {
+    "when": "Nov 15, 2022",
+    "where": "Company news",
+    "text": "Andrew promoted to Head of Chemistry as part of a management expansion.",
+    "use": "Shows he built the chemistry function; speak to his chemistry roadmap."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (Andrew)",
+    "text": "Not audited (to be confirmed).",
+    "use": "Check his recent posts before the follow-up."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "One Nucleus / Cambridge life-science events",
+    "when": "To be confirmed",
+    "role": "Domainex is a visible member of the Cambridge cluster"
+   },
+   {
+    "name": "SCI / RSC medicinal chemistry meetings",
+    "when": "To be confirmed",
+    "role": "His bio mentions committee service for a medicines research society (name to be confirmed)"
+   }
+  ],
+  "hooks": [
+   "Thank him for the quick reply and confirm the slides reached **andrew.ratcliffe@domainex.co.uk**.",
+   "Offer **one concrete use case**: enzymatic synthesis of a drug metabolite or a chiral intermediate for a Domainex project.",
+   "Position Enzymicals as **Domainex's biocatalysis partner**, not a competitor: Domainex keeps the client, Enzymicals adds the enzyme step and the scale-up path.",
+   "Mention David's **Evonik** background: industrial chemistry that speaks a medicinal chemist's language.",
+   "Propose a **20-minute call** with Andrew and one of his chemistry team leads."
+  ]
+ },
+ "send": false
+}

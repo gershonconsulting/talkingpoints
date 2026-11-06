@@ -1,0 +1,215 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV1MbuvwgM",
+ "company": "Bruker",
+ "lead_name": "Zijian Deng",
+ "lead_role": "Instrumentation R&D Manager",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Bruker Corporation (scientific instruments; owns Bruker Spatial Biology)",
+   "person": "Zijian Deng",
+   "role": "Instrumentation R&D Manager",
+   "location": "To be confirmed · Bruker HQ Billerica, Massachusetts",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Low now (not cell projects)",
+     "tone": "warn"
+    },
+    {
+     "label": "Send 1-pager only"
+    },
+    {
+     "label": "Adjacent to Bruker Spatial",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Keep it light:",
+    "text": "Zijian said he is **not doing cell-related projects** and can't take a call, but would keep CosmoSort **on his radar** and asked for a **brief overview / one-pager** at **zijian.deng@bruker.com**. Send a **non-confidential** one-pager — Bruker also sells spatial biology instruments."
+   },
+   "source_line": "Lead added to Streak on Nov 3, 2026 by Juliana R.; moved to Contacted on Nov 5 by Jenny P (Meteor). Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/zijian-deng-954615150"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global scientific-instrument maker (NMR, mass spec, X-ray, microscopy) — **Nasdaq: BRKR**; CEO **Frank H. Laukien**"
+   },
+   {
+    "label": "Size",
+    "value": "Q3 2026 revenue **$874M** (+1.6%); FY2026 guidance **$3.52–3.56B**"
+   },
+   {
+    "label": "Spatial biology",
+    "value": "**Bruker Spatial Biology**: CosMx SMI, GeoMx DSP, CellScape XR, PaintScape, AtoMx informatics"
+   },
+   {
+    "label": "His role",
+    "value": "Instrumentation R&D manager — **not on cell projects** today (his words); division to be confirmed"
+   },
+   {
+    "label": "Contact",
+    "value": "zijian.deng@bruker.com (work email he gave)"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#6 Platform partner** (long shot) — not a buyer; Bruker Spatial is adjacent and partly competitive."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Engineer to engineer: Amos built SLACS — an imaging + laser instrument. An instrumentation R&D manager will appreciate the optics and engineering story more than the biology pitch."
+   },
+   "items": [
+    "**Instrument builders:** both work on optical/laser instrumentation.",
+    "**Possible research overlap (to be confirmed):** a researcher named Zijian Deng published on **photoacoustic and optical imaging** for cancer (2013–2015). Not confirmed to be the same person.",
+    "**No shared employer, school or event found** between Amos and Zijian."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Respect the 'not now'",
+    "text": "Send only what he asked for: a **one-page, non-confidential** overview. No call request."
+   },
+   {
+    "title": "Engineering angle",
+    "text": "Lead with the **instrument**: image-guided laser activation, throughput, resolution, compatible inputs. That is what an instrumentation R&D manager remembers."
+   },
+   {
+    "title": "Complement, not compete",
+    "text": "Frame CosmoSort as the **retrieval step after imaging** — relevant to any spatial imaging platform, including Bruker's."
+   }
+  ],
+  "person": {
+   "name": "Zijian Deng",
+   "text": "Instrumentation R&D Manager at Bruker (per Streak / LinkedIn). Which Bruker division (Biosystems, NANO, Spatial Biology…) and his location are **to be confirmed**. He told Amos he is **not doing cell-related projects**. A Zijian Deng is listed as author of photoacoustic / optical imaging papers (e.g., *Biomaterials* 2014) — **to be confirmed** as the same person."
+  },
+  "company": {
+   "text": "Bruker makes high-performance scientific instruments and analytical/diagnostic solutions. Since Jul 1, 2026 it reports four segments: **Biosystems (BIOS)**, **Microbiology & Infection Diagnostics (BMID)**, **NANO** and **BEST**. Its **Bruker Spatial Biology** unit (from the NanoString acquisition) sells **CosMx SMI** (spatial transcriptomics), **GeoMx DSP** (region-based multiomics), **CellScape XR** (spatial proteomics), **PaintScape** (3D genome) and **AtoMx** informatics; at AGBT in Feb 2026 it added a mouse whole-transcriptome CosMx assay and a Spatial Biology Center of Excellence with the University of Glasgow."
+  },
+  "financials": {
+   "country": "US, public (Nasdaq: BRKR)",
+   "text": "**Q3 2026 (reported Nov 4, 2026):** revenue $874.0M (+1.6%; organic +0.7%); GAAP EPS −$0.81 incl. a $174.5M goodwill impairment; non-GAAP EPS $0.56 (+24%). **FY2026 guidance:** revenue $3.52–3.56B; non-GAAP EPS $2.10–2.15. Segment Q3: BIOS $397.2M, NANO $263.1M, BMID $133.6M, BEST $82.1M."
+  },
+  "history": {
+   "text": "LinkedIn (as Amos): Zijian replied that since he is **not doing cell-related projects** he can't take a call, but would keep **CosmoSort on his radar** and asked for a **brief overview or one-pager**. Amos asked for his email (Oct 19 and again later); Zijian gave **zijian.deng@bruker.com**. **Open item:** one-pager not yet sent (no emails in Streak)."
+  },
+  "industry": [
+   {
+    "title": "Spatial vendors are building full workflows",
+    "text": "Bruker now links GeoMx, CosMx and CellScape on the same tissue section. The next step customers ask about is **retrieving** the cells they image."
+   },
+   {
+    "title": "Instrument market is slow",
+    "text": "Bruker's organic growth is ~1% in 2026 and it is cutting costs — partnerships and add-ons are evaluated carefully."
+   }
+  ],
+  "talking_points": [
+   "As promised, here is a one-page overview of CosmoSort — no call needed.",
+   "If it's ever useful, the engineering side (laser activation, imaging, throughput) is where I'd love your view as an instrument builder.",
+   "Who at Bruker works on **cell or spatial biology** instrumentation, if a colleague would find this relevant?"
+  ],
+  "attention": [
+   {
+    "title": "Low fit, low effort.",
+    "text": "One email, one-pager attached, one line asking for a referral. Then a light check-in in a few months."
+   },
+   {
+    "title": "Bruker is adjacent to Meteor.",
+    "text": "GeoMx already collects material from selected tissue regions. Keep the one-pager **public-level** — no unpublished data or roadmap."
+   },
+   {
+    "title": "Fix Streak.",
+    "text": "Contact saved as “Zijian D” — change to **Zijian Deng**. Set **Fit** (Low / Partner) and **Interest** (One-pager); both empty."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech - LG pipeline (box, contact, LinkedIn conversation comment Nov 3)"
+   },
+   {
+    "used": true,
+    "text": "Bruker Q3 2026 results — SEC Form 8-K exhibit 99.1 (Nov 4, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Business Wire — Bruker announces major advancements at AGBT 2026 (Feb 23, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Rankless author profile — Zijian Deng (photoacoustic imaging papers) — identity to be confirmed"
+   },
+   {
+    "used": false,
+    "text": "Zijian Deng — no Bruker-era talks or posts found on the open web"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts — not retrievable without login"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared November 5, 2026",
+  "grade": {
+   "letter": "A-",
+   "headline": "Bruker runs a **large, professional communications machine**: quarterly results, frequent press releases and major conference launches (AGBT, AACR 2026).",
+   "detail": "Company channels are strong and active; Zijian's personal activity is to be confirmed and likely low. Company-level A−; it does not translate to reach for Meteor through this lead.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn not audited."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Press / investor news — Bruker",
+     "audience": "Global science & investor press",
+     "recency": "Nov 4, 2026 (Q3 results)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Bruker Spatial Biology news",
+     "audience": "Spatial biology community",
+     "recency": "Apr 2026 (AACR), Feb 2026 (AGBT)",
+     "read": "Very active"
+    },
+    {
+     "channel": "LinkedIn — Zijian Deng",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "This lead is a radar/referral contact, not a channel."
+  },
+  "network": {
+   "summary": "**No verified overlap** between Amos and Zijian.",
+   "items": [
+    "Ask Zijian for one name in Bruker's cell or spatial biology instrumentation teams.",
+    "Check Meteor's network for contacts at **Bruker Spatial Biology** (ex-NanoString) before any partnership talk."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/zijian-deng-954615150",
+    "label": "See your mutual connections with Zijian on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Feb 23, 2026",
+    "where": "Bruker (company)",
+    "text": "At AGBT, launched **CellScape XR**, **PaintScape** pre-orders and a CosMx mouse whole-transcriptome assay.",
+    "use": "Context only — shows where Bruker's spatial roadmap is heading."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "“As promised, the one-pager — no call needed.”",
+   "Engineer-to-engineer: ask his view on the instrument design.",
+   "Ask for one referral in Bruker's cell/spatial teams."
+  ]
+ },
+ "send": false
+}

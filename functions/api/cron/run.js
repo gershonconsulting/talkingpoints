@@ -1,6 +1,7 @@
 import { json, streak, clientStreakKey, getSettings, rowToBrief, scheduledOnly, scheduledBoxes } from '../../_lib.js';
 import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
+import { fridayRun } from '../../_weekly.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
@@ -8,6 +9,8 @@ import { googleAccessToken, listEvents } from '../../_google.js';
 //      in the client's pipeline since the last daily check gets its talking points.
 //   2. Meetings: every calendar meeting with an outside attendee starting within the next
 //      `lead_hours` (default 48h) gets its talking points prepared and emailed once.
+//   3. Fridays (first run after 7 am New York time): the 5 newest leads get their talking point
+//      emailed — never twice for the same lead (functions/_weekly.js).
 export async function onRequestPost({ request, env }) {
   if (!env.INGEST_TOKEN || request.headers.get('authorization') !== `Bearer ${env.INGEST_TOKEN}`) return json({ error: 'forbidden' }, 403);
   const clients = (await env.DB.prepare('SELECT * FROM clients').all()).results;
@@ -16,6 +19,7 @@ export async function onRequestPost({ request, env }) {
     const r = { client: c.slug, new_leads: 0, meetings_prepared: 0, emails_sent: 0, notes: [] };
     try { await newLeads(env, c, r); } catch (e) { r.notes.push(`leads: ${e.message}`); }
     try { await meetings(env, c, r); } catch (e) { r.notes.push(`calendar: ${e.message}`); }
+    try { await fridayRun(env, c, r); } catch (e) { r.notes.push(`friday: ${e.message}`); }
     report.push(r);
   }
   return json({ ok: true, at: new Date().toISOString(), report });
