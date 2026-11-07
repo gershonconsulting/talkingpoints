@@ -18,7 +18,7 @@ export const INTERNAL_SECTIONS = ['attention', 'internal', 'internal_notes', 'cr
 
 const SENDER = 'talkingpoints@gershon.ai';
 export const FROM_INTERNAL = `GC Talking Points <${SENDER}>`;
-export const FROM_CLIENT = `Gershon Consulting <${SENDER}>`;
+export const FROM_CLIENT = `GC Talking Points <${SENDER}>`; // v1.9.4: "GC " prefix for client emails too (was "Gershon Consulting")
 
 export function isInternalEmail(email) {
   const e = String(email || '').trim().toLowerCase();
