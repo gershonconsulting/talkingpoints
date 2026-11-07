@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.9.3';
+  const APP_VERSION = '1.10.0';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -328,7 +328,7 @@
     });
     if (mode === 'admin') {
       $('clientName').textContent = 'Testing campaign';
-      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin">Admin</a>');
+      document.querySelector('.nav-item[data-view="settings"]').insertAdjacentHTML('afterend', '<a class="nav-item" href="/admin"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Admin</a>');
       document.querySelector('.nav-item[data-view="profile"]').hidden = true;
       if (location.hash === '#profile') location.hash = '#leads';
       $('topRight').insertAdjacentHTML('afterbegin', `<span class="admin-banner">Admin view · ${esc(me.client.name)}</span>`);
