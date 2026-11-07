@@ -1,0 +1,254 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgOWfocO9CAw",
+ "company": "Sygnomics",
+ "lead_name": "Thomas Brown, MD, MBA",
+ "lead_role": "Chief Medical Officer",
+ "stage": "Connected",
+ "data": {
+  "header": {
+   "company": "Sygnomics (precision-oncology systems-biology startup, ISB technology)",
+   "person": "Thomas Brown, MD, MBA",
+   "role": "Chief Medical Officer",
+   "location": "Seattle, WA",
+   "chips": [
+    {
+     "label": "Connected"
+    },
+    {
+     "label": "Call held Oct 1",
+     "tone": "good"
+    },
+    {
+     "label": "Partner, not sponsor"
+    },
+    {
+     "label": "Materials + intros pending",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Follow-up due:",
+    "text": "On the **Oct 1** call Thomas agreed to send the **deck, ASCO posters and a publication**, and to introduce Dmitri to **CEO Ashutosh Tiwari** (spelling to be confirmed) and the **IT/AI team**. Five weeks on, nothing is logged in Streak. Send a friendly reminder with a concrete next step: a joint call with the CEO on the **retrospective blinded validation** idea."
+   },
+   "source_line": "Lead added to Streak on Sep 30, 2026 by Johanna T; moved Lead → Connected on Oct 6. Source: LinkedIn InMail (as Dmitri).",
+   "linkedin_url": "https://www.linkedin.com/in/thomas-brown-m-d-m-b-a-08b0a584"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Seattle precision-oncology startup (founded 2020) using **transcriptomic data + AI/ML causal network analysis** (SYGNAL technology, from the **Institute for Systems Biology**) to predict prognosis and select therapies"
+   },
+   {
+    "label": "Model",
+    "value": "Lab-developed test report for oncologists; plans to work with **pharma on biomarkers and new indications**. Does **not** run clinical trials"
+   },
+   {
+    "label": "Stage",
+    "value": "Early-stage; **Creative Destruction Lab** (Seattle, Computational Health, 2023/24); funding amounts not published"
+   },
+   {
+    "label": "Opportunity",
+    "value": "**Retrospective blinded validation** in an oncology trial; a possible **pancreatic cancer Phase II** discussed on the call"
+   },
+   {
+    "label": "Contact",
+    "value": "thomas.brown@sygnomics.net"
+   },
+   {
+    "label": "Valos ICP",
+    "value": "**#2 Biotech (CEO, CSO, Clin Ops)**, overlapping **#6 Healthcare IT** — fit: **partial**. Right segment and a C-level medical contact, but Sygnomics is too early for a paid CRO engagement. Value is a **strategic collaboration**: Valos biostatistics, data management, programming and validation behind Sygnomics' platform in joint biotech/pharma projects."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "Dmitri led the Oct 1 call and Thomas offered to introduce him personally to the CEO and AI team."
+   },
+   "items": [
+    "**Already met:** Dmitri, Francesco, Andrea and Sergey spoke with Thomas on Oct 1, 2026.",
+    "**Trials and evidence:** Thomas has led large-scale and early-phase (I/II) oncology trials and a decade of **real-world evidence** work in a health system; Valos delivers the statistics and data behind such studies.",
+    "**Thomas wants CRO collaborations:** he wrote that Sygnomics is \"interested in potential collaborations with CROs\".",
+    "**No shared employer, school or contact verified** beyond the call."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Validation that regulators and pharma trust",
+    "text": "A causal-AI biomarker needs a **pre-specified, blinded statistical validation**. Valos can design the analysis plan, run blinded data management and produce a clean validation report."
+   },
+   {
+    "title": "Bring a pharma use case together",
+    "text": "Use the pancreatic Phase II idea: Sygnomics supplies the predictions, Valos the clinical development and biostatistics, and the pair approaches the sponsor **as one team**."
+   },
+   {
+    "title": "Low-cost start",
+    "text": "Propose a scoped **retrospective blinded validation** on an existing dataset, with roles and IP clear from day one, before any paid engagement."
+   }
+  ],
+  "person": {
+   "name": "Thomas Brown",
+   "text": "**Chief Medical Officer of Sygnomics** and **Board Treasurer of the Andy Hill CARE Fund** (Washington State cancer research fund). Medical oncologist focused on **gastrointestinal cancers** and **early-phase (I/II) drug trials**. Former **Executive Director of the Swedish Cancer Institute** (Seattle, from 2013), where he created the SCI Personalized Medicine Program; co-chaired the Providence St. Joseph Health **Cancer Leadership Council** and **Genomics Initiative**. Earlier: COO and professor at the **University of Arizona Cancer Center**, professor and VP at **MD Anderson**, faculty at **Duke** (GI cancer program, community trial consortium). MD Medical College of Virginia, internal medicine at University of Florida, oncology fellowship at **Johns Hopkins**, **MBA from Rice** (Jones Scholar)."
+  },
+  "company": {
+   "text": "Sygnomics (Seattle, founded 2020) builds on technology from the **Institute for Systems Biology (ISB)**. Its **SYGNAL** platform runs systems-biology **causal network analysis** on a tumor's transcriptomic / multi-omics profile, rather than mutations alone, to predict risk of progression and identify therapies likely to work. It offers a lab-developed test report to oncologists and plans to partner with pharma on **biomarkers and new indications**. It went through **Creative Destruction Lab** (Seattle, Computational Health, 2023/24). CEO per the Oct 1 call notes: **Ashutosh Tiwari** (spelling to be confirmed). Funding: not published."
+  },
+  "history": {
+   "text": "LinkedIn InMail (as Dmitri). Thomas accepted, explained Sygnomics **does not run clinical trials** but is **interested in collaborations with CROs**, and offered slots. Dmitri asked for a time before 11:00 AM PDT (he is in Europe); they agreed on **Oct 1, 2026 at 10:00 AM PDT**, with **thomas.brown@sygnomics.net** for the invite. Box created Sep 30 by Johanna T. **Call held Oct 1** with Dmitri, Francesco, Andrea and Sergey: partnership model discussed (Sygnomics technology + Valos clinical development, biostatistics, data management, programming, validation); use case: **retrospective blinded validation**, possibly a **pancreatic cancer Phase II**. Thomas agreed to share the **deck, ASCO posters and a publication** and to introduce Dmitri to the CEO and IT/AI team. Moved to Connected on Oct 6. No follow-up logged since."
+  },
+  "industry": [
+   {
+    "title": "AI biomarkers need statistical proof",
+    "text": "Regulators and pharma expect pre-specified, blinded validation of AI-derived biomarkers before using them in trials or companion diagnostics."
+   },
+   {
+    "title": "Transcriptomic signatures in oncology",
+    "text": "RNA-based prognostic and predictive signatures are moving into trial enrichment, especially in hard-to-treat cancers such as pancreatic."
+   },
+   {
+    "title": "Startups partner with CROs",
+    "text": "Early-stage diagnostics companies often team up with CROs for joint pharma offers instead of building trial capability themselves."
+   }
+  ],
+  "talking_points": [
+   "Which **dataset** could host a first retrospective blinded validation, and who owns it?",
+   "Where does the **pancreatic Phase II** opportunity stand, and who is the sponsor contact?",
+   "What validation evidence exists today (the ASCO posters and publication), and what gap would Valos close?",
+   "How would Sygnomics want to **split roles and IP** in a joint offer?",
+   "When can we meet **Ashutosh and the AI team**?"
+  ],
+  "attention": [
+   {
+    "title": "Chase the materials and intros.",
+    "text": "Promised Oct 1; nothing logged after five weeks. Email thomas.brown@sygnomics.net with a short recap and ask for the deck, ASCO posters, publication and the CEO intro."
+   },
+   {
+    "title": "Log the call.",
+    "text": "The Oct 1 call is only in the box notes. Add meeting notes in Streak so the partnership is tracked."
+   },
+   {
+    "title": "Partner category.",
+    "text": "Set the Streak **Category** to *Partner*; this is not a paying sponsor today."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak (Valos - LG pipeline): box, notes of the Oct 1 call, LinkedIn InMail thread"
+   },
+   {
+    "used": true,
+    "text": "Creative Destruction Lab: Sygnomics company page (2023/24 cohort)"
+   },
+   {
+    "used": true,
+    "text": "CB Insights: Sygnomics profile (founded 2020, Seattle, SYGNAL)"
+   },
+   {
+    "used": true,
+    "text": "Andy Hill CARE Fund: board profile of Thomas Brown, MD, MBA"
+   },
+   {
+    "used": true,
+    "text": "Jeffrey Bland podcast page (July 2015): Thomas Brown biography"
+   },
+   {
+    "used": false,
+    "text": "Sygnomics website and LinkedIn follower counts: not audited"
+   },
+   {
+    "used": false,
+    "text": "Financials: private startup, none public"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared November 5, 2026",
+  "grade": {
+   "letter": "D",
+   "headline": "Almost **no public company content**; credibility rests on Thomas's career and ISB roots.",
+   "detail": "Sygnomics appears only on accelerator and database listings (Creative Destruction Lab, CB Insights); no press releases or recent news were found. Thomas is visible through board roles and past leadership, not regular posting. ASCO posters exist per the call (to be confirmed).",
+   "context": "Web-audited Nov 5, 2026; LinkedIn not audited for this brief."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Accelerator / database listings (CDL, CB Insights)",
+     "audience": "Investors",
+     "recency": "2023/24 cohort",
+     "read": "Thin"
+    },
+    {
+     "channel": "Scientific posters (ASCO)",
+     "audience": "Oncologists",
+     "recency": "Per Oct 1 call; to be confirmed",
+     "read": "Main proof channel"
+    },
+    {
+     "channel": "LinkedIn: Sygnomics",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "LinkedIn: Thomas Brown",
+     "audience": "To be confirmed",
+     "recency": "Active (InMail, Sep 2026)",
+     "read": "Reachable"
+    }
+   ],
+   "note": "A joint validation study could give Sygnomics its first co-authored publication with a CRO partner, useful content for both."
+  },
+  "network": {
+   "summary": "Dmitri and Thomas **have already met** (Oct 1 call). Thomas offered to introduce Dmitri to the CEO and the IT/AI team.",
+   "items": [
+    "Next people to meet: **Ashutosh Tiwari** (CEO, spelling to be confirmed) and Sygnomics' **IT/AI team**.",
+    "Thomas's network spans the **Swedish Cancer Institute / Providence**, MD Anderson, Duke and Washington State cancer research (CARE Fund): a potential source of trial sponsors and datasets.",
+    "Your exact number of shared connections with Thomas is on his LinkedIn profile, under his name. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/thomas-brown-m-d-m-b-a-08b0a584",
+    "label": "See your mutual connections with Thomas on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Sep 2026",
+    "where": "LinkedIn InMail reply",
+    "text": "\"We are interested in potential collaborations with CROs.\"",
+    "use": "Quote it back: Valos is the CRO collaboration he asked for."
+   },
+   {
+    "when": "2023/24",
+    "where": "Creative Destruction Lab",
+    "text": "Sygnomics in CDL-Seattle's Computational Health stream.",
+    "use": "Ask what investors want to see next; validation data is usually first."
+   },
+   {
+    "when": "Recent",
+    "where": "LinkedIn (Thomas)",
+    "text": "Not audited (to be confirmed).",
+    "use": "Check before writing."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ASCO Annual Meeting",
+    "when": "Posters per Oct 1 call (year to be confirmed)",
+    "role": "Sygnomics presenter"
+   },
+   {
+    "name": "Thought Leaders Consortium with ISB",
+    "when": "2014",
+    "role": "Thomas presented"
+   }
+  ],
+  "hooks": [
+   "Thank him for the Oct 1 call and recap the **retrospective blinded validation** idea in two lines.",
+   "Ask for the **deck, ASCO posters and publication** he offered.",
+   "Request the **intro to Ashutosh and the AI team** with two proposed times before 11:00 AM PDT.",
+   "Suggest a **one-page joint concept** for the pancreatic Phase II opportunity.",
+   "Keep it partnership-first: no pricing in this round."
+  ]
+ },
+ "send": false
+}

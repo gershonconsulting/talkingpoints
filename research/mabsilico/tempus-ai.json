@@ -1,0 +1,232 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldTIhq4LDA",
+ "company": "Tempus AI, Inc.",
+ "lead_name": "Radia Johnson, PhD",
+ "lead_role": "Senior Director, Computational Discovery Science",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Tempus AI, Inc. (Nasdaq: TEM)",
+   "person": "Radia Johnson, PhD",
+   "role": "Senior Director, Computational Discovery Science",
+   "location": "US (exact city to be confirmed) · Tempus HQ Chicago, IL",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: Partial",
+     "tone": "warn"
+    },
+    {
+     "label": "Computational biology profile"
+    },
+    {
+     "label": "Email Radia now",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "She asked for an email:",
+    "text": "On LinkedIn Radia wrote: “Please email me at **radia.johnson@tempus.com** and I can introduce you to our **partnering and strategy lead**.” Vincent replied on Oct 30 that Zak would email her. No email is logged in Streak yet — send it now."
+   },
+   "source_line": "Lead added to Streak on Oct 30, 2026 by Juliana R (stage: Lead).",
+   "linkedin_url": "https://www.linkedin.com/in/radiajohnson"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "AI precision-medicine company: **genomic diagnostics + one of the largest clinical/molecular data libraries**, licensed to pharma"
+   },
+   {
+    "label": "Pharma business",
+    "value": "Data licensing and co-development with pharma; YTD 2026 data bookings **>$550M** (incl. BMS, Merck, Moderna)"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Leads **computational discovery science** — target and biomarker discovery from real-world multimodal data"
+   },
+   {
+    "label": "Size",
+    "value": "Q3 2026 revenue **$411.5M** (+23%); 2026 guidance **$1.60–1.605B**"
+   },
+   {
+    "label": "Next step offered",
+    "value": "Intro to Tempus's **partnering and strategy lead**"
+   },
+   {
+    "label": "Contact",
+    "value": "radia.johnson@tempus.com"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech** (AI/data biotech, Research Director level) — partial fit: Tempus finds targets but does not design antibodies itself; value is as a **partner** (targets → MAbSilico antibodies) rather than a classic buyer."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "AI meets AI: Radia's team turns patient data into targets; MAbSilico turns targets into antibody candidates in ~21 days. A natural hand-off conversation between two computational teams."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Both sides are **computational-first** drug discovery teams: Tempus on targets/biomarkers, MAbSilico on in-silico antibody design.",
+    "Radia trained in **immunology** (PhD, University of Toronto) — she will understand antibody biology quickly.",
+    "Radia has French-speaking Montreal links (McGill BSc, Université de Montréal postdoc) — to be confirmed whether she speaks French."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "From Tempus targets to antibody leads in 21 days",
+    "text": "Tempus surfaces novel oncology/immunology targets from real-world data. MAbSilico can turn a validated target into **developable antibody candidates in silico in ~21 days** — a fast way for Tempus or its pharma partners to test a target with a molecule."
+   },
+   {
+    "title": "A partnering offer, not a tool sale",
+    "text": "Radia offered an intro to the **partnering and strategy lead**. Position a co-development or referral model: Tempus data partners (BMS, Merck, Moderna…) who need antibodies against Tempus-derived targets."
+   },
+   {
+    "title": "AI-to-AI credibility",
+    "text": "Show how MAbSilico's models handle **affinity, specificity and developability** together, with wet-lab validation (cytometry, BLI, HTRF; developability with partner Sartorius)."
+   }
+  ],
+  "person": {
+   "name": "Radia Johnson",
+   "text": "PhD in **Immunology**, University of Toronto; BSc Honours Immunology, McGill; postdoc in bioinformatics/computational biology at Université de Montréal; research associate at Cambridge (UK) and McGill. Industry: **Genentech** 2017–2023 (bioinformatics → Principal Scientist, Reverse Translation/Oncology Bioinformatics), **Gilead** Director, Research Data Sciences (2023–2024), **Tempus** Senior Director, Computational Discovery Science since Sep 2024. Career history from a public profile aggregator — to be confirmed on LinkedIn."
+  },
+  "company": {
+   "text": "Tempus AI (Chicago) combines **molecular diagnostics** (sequencing, MRD testing, FDA-approved xT CDx) with a large de-identified **clinical and molecular data library** used by pharma for discovery and development. In 2026 it launched **Paige Predict** (AI pathology predicting 123 biomarkers from H&E slides) and agreed to acquire **Personalis** (~$1.5B, reported). Its Data and Applications segment grew 33% in Q3 2026."
+  },
+  "financials": {
+   "country": "US, Nasdaq-listed",
+   "text": "**Q3 2026 revenue:** $411.5M (+23% YoY) — Diagnostics $303.5M, Data and Applications $108.1M (+33%). **GAAP net loss Q3:** $14.9M (vs ~$80M a year earlier). **Adjusted EBITDA Q3:** $25.6M. **2026 guidance:** revenue $1.60–1.605B; adj. EBITDA ~$65M. **Data licensing bookings YTD:** >$550M. Well funded; budget is not the issue — the question is strategic fit and who owns antibody work."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Radia replied: “Hi Vincent, thank you. Please email me at radia.johnson@tempus.com and I can introduce you to our partnering and strategy lead.” Vincent answered (Oct 30): “Thank you for your reply Radia, sounds great. My colleague Zak will connect via email.” Box created Oct 30 by Juliana R. No email logged in the box yet."
+  },
+  "industry": [
+   {
+    "title": "Data companies moving closer to molecules",
+    "text": "AI/real-world-data firms increasingly pair target discovery with partners that can generate molecules quickly — a gap in-silico antibody design fills."
+   },
+   {
+    "title": "Pharma pays for data-driven targets",
+    "text": "Tempus's >$550M of 2026 data bookings shows pharma is buying target and biomarker insight; antibody design is the next step after a target is chosen."
+   }
+  ],
+  "talking_points": [
+   "How does your team move from a **data-derived target** to a molecule today — internally, or through pharma partners?",
+   "Are there targets where **antibody feasibility** (epitope, developability) is the open question?",
+   "Would a fast in-silico antibody package (~21 days) help Tempus or its partners de-risk a target?",
+   "What does the partnering and strategy lead look for in a co-development partner?",
+   "Which therapeutic areas matter most for you now — oncology, immunology?"
+  ],
+  "attention": [
+   {
+    "title": "Send the email to Radia now.",
+    "text": "Write to radia.johnson@tempus.com (Zak, copying Vincent): thank her, 3-line MAbSilico summary framed for a computational discovery leader, and ask for the intro to the partnering and strategy lead."
+   },
+   {
+    "title": "Log it in Streak.",
+    "text": "No email is in the box yet — add the thread so follow-ups are tracked."
+   },
+   {
+    "title": "Prepare a partnering one-pager.",
+    "text": "The next contact is a BD/strategy person: lead with a partnership model (targets → antibodies), not a service quote."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG pipeline (box, contact, LinkedIn exchange copied Oct 30, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Grafa — Tempus AI Q3 2026 results (Nov 2, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Rallies.ai — Tempus TCV, adjusted EBITDA and Paige Predict (Jan 21, 2026)"
+   },
+   {
+    "used": true,
+    "text": "Village.ai — Radia J. public career profile"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Tempus company page and Radia's follower counts not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "Big, investor-facing voice: frequent **press releases, earnings calls and product launches**; Radia's personal activity not audited.",
+   "detail": "Tempus issues regular news (results, Paige Predict, acquisitions, FDA approvals) and is widely covered by financial media. Follower counts on LinkedIn/X were not checked. Grade is provisional.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn — Tempus",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "Press releases / earnings",
+     "audience": "Investors, pharma, media",
+     "recency": "Q3 results early Nov 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn — Radia Johnson",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Tempus talks to pharma and investors. A joint target-to-antibody story would fit its 'AI for drug discovery' message."
+  },
+  "network": {
+   "summary": "No shared network verified between Vincent and Radia. Radia comes from Genentech and Gilead computational teams.",
+   "items": [
+    "Ask Radia for the name of the **partnering and strategy lead** she mentioned.",
+    "Former Genentech oncology bioinformatics colleagues may be useful contacts for MAbSilico.",
+    "Your number of shared connections is shown on Radia's LinkedIn profile. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/radiajohnson",
+    "label": "See your mutual connections with Radia on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Nov 2026",
+    "where": "Earnings release (company)",
+    "text": "Q3 2026 revenue $411.5M (+23%), guidance raised; data licensing bookings >$550M YTD.",
+    "use": "Congratulate on the quarter; ask how pharma uses the data for target discovery."
+   },
+   {
+    "when": "Jan 2026",
+    "where": "Product launch (company)",
+    "text": "**Paige Predict** — AI pathology predicting 123 biomarkers across 16 cancer types.",
+    "use": "Shows multimodal AI ambition — ask whether biomarkers feed target selection."
+   },
+   {
+    "when": "2026",
+    "where": "News (company)",
+    "text": "Agreement to acquire **Personalis** (~$1.5B, as reported).",
+    "use": "Light opener on growth; confirm details before citing."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Radia **asked for the email** and offered an intro — reply fast and make it easy to forward.",
+   "Her background is **immunology + oncology bioinformatics** — speak antibodies and targets, not generic AI.",
+   "Frame MAbSilico as the **molecule step after Tempus targets**.",
+   "Montreal/McGill background — optional French-speaking rapport, to be confirmed."
+  ]
+ },
+ "send": false
+}

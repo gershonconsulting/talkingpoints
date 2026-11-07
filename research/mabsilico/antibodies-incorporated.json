@@ -1,0 +1,209 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcTpipcIDA",
+ "company": "Antibodies Incorporated",
+ "lead_name": "Shyam Kannan",
+ "lead_role": "Research Associate - Antibody Development",
+ "stage": "Recycled",
+ "data": {
+  "header": {
+   "company": "Antibodies Incorporated",
+   "person": "Shyam Kannan",
+   "role": "Research Associate - Antibody Development",
+   "location": "Davis, California (company HQ); Shyam's location to be confirmed",
+   "chips": [
+    {
+     "label": "Recycled",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Weak",
+     "tone": "bad"
+    },
+    {
+     "label": "Personal interest only"
+    }
+   ],
+   "alert": {
+    "title": "This box is in Recycled:",
+    "text": "Shyam said **Antibodies Inc isn't currently looking to optimize antibodies in silico**, but has a personal interest (protein language models, folding models) and asked for information at his **personal email sputhenofficial@gmail.com**. Zak moved the box to *Recycled* on Oct 30. Send a light info email and keep him as a technical champion for later."
+   },
+   "source_line": "Lead added to Streak on Oct 29, 2026 by Juliana R; moved to Recycled on Oct 30 by Zak O.",
+   "linkedin_url": "https://www.linkedin.com/in/shyam-kannan-210442216"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Antibody **reagent** maker since 1962 (Davis, CA): research antibodies (incl. **NeuroMab**), ELISA kits, custom antibody services"
+   },
+   {
+    "label": "Brands",
+    "value": "Antibodies Inc. (NeuroMab), Aves Labs, Biosensis, ImmunoChemistry Technologies, PhosphoSolutions"
+   },
+   {
+    "label": "Services",
+    "value": "Custom antibody development, ADCC/CDC services, contract manufacturing, peptide synthesis"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Research associate with **side projects in protein language models and folding prediction** for antibody optimization"
+   },
+   {
+    "label": "Company need",
+    "value": "Not looking for in-silico optimization today (his words)"
+   },
+   {
+    "label": "Contact",
+    "value": "sputhenofficial@gmail.com (personal)"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#6 CROs / antibody service providers** — weak fit: research-reagent focus, no current need, and the lead is not a decision maker."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Shyam is personally building antibody optimization with protein language models — the field MAbSilico works in. A peer-learning conversation, not a sale."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Shared interest in **AI for antibody optimization** (language models, structure prediction).",
+    "Shyam opened the door: “I'd love to learn more about your technology and how your pipeline works.”"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Share, don't sell",
+    "text": "Send a short overview of how MAbSilico's pipeline works (affinity, specificity, developability in ~21 days) and a public paper or webinar link. Keep it educational."
+   },
+   {
+    "title": "Custom-antibody service angle (later)",
+    "text": "Antibodies Inc offers **custom antibody development**. If demand grows for recombinant or optimized antibodies, MAbSilico could be a partner — a topic for when a manager is involved."
+   },
+   {
+    "title": "Build a champion",
+    "text": "Shyam is technically curious. Invite him to future MAbSilico content so he can bring the idea inside when the timing is right."
+   }
+  ],
+  "person": {
+   "name": "Shyam Kannan",
+   "text": "Research Associate, Antibody Development at Antibodies Incorporated (per Streak/LinkedIn). Describes personal side projects on **antibody and drug optimization using protein language models and folding prediction models**. Education and prior roles: to be confirmed."
+  },
+  "company": {
+   "text": "Founded in **1962** by Jim and Carol Hillman in **Davis, California**, where it still manufactures. Started with secondary antibodies, then radioimmunoassays, latex/strep tests and ELISA. Today sells monoclonal and polyclonal antibodies, kits and reagents worldwide, and offers custom antibody development, ADCC/CDC services, adenovirus production, contract manufacturing and ELISA services. Exhibits at neuroscience and gene-therapy meetings (SfN, ASGCT)."
+  },
+  "financials": {
+   "country": "US, private",
+   "text": "Private company; revenue, headcount and ownership **not disclosed** — to be confirmed. Reagent business; no therapeutic pipeline, so budget for in-silico therapeutic design is unlikely."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Shyam: “Although Antibodies Inc isn't currently looking to optimize antibodies in silico, I have a personal passion for this space and several side projects… I'd love to learn more about your technology.” Vincent (Oct 15): asked for the best email. Shyam gave **sputhenofficial@gmail.com**. Box created Oct 29 by Juliana R; moved to *Recycled* Oct 30 by Zak O."
+  },
+  "industry": [
+   {
+    "title": "Reagent makers moving to recombinant antibodies",
+    "text": "Research-antibody suppliers are shifting toward recombinant, sequence-defined antibodies for reproducibility — a possible future use of in-silico design."
+   }
+  ],
+  "talking_points": [
+   "Which models do you use in your side projects — protein language models, structure prediction?",
+   "Does Antibodies Inc see custom-antibody clients asking for **optimized or humanized** antibodies?",
+   "Who owns new technology decisions at Antibodies Inc?",
+   "Would a short technical demo of the MAbSilico pipeline be useful to you?"
+  ],
+  "attention": [
+   {
+    "title": "Send a short info email.",
+    "text": "Zak to email sputhenofficial@gmail.com with a pipeline overview — he asked for it, and it keeps goodwill."
+   },
+   {
+    "title": "Keep it Recycled.",
+    "text": "No current company need; revisit in 6 months or if Shyam reports interest from management."
+   },
+   {
+    "title": "Do not invest call time now.",
+    "text": "Personal email and non-decision-maker — low priority versus Tempus, Genmab and Starpharma."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG pipeline (box, contact, LinkedIn exchange copied Oct 29, 2026)"
+   },
+   {
+    "used": true,
+    "text": "antibodiesinc.com — company page"
+   },
+   {
+    "used": true,
+    "text": "SfN 2025 / ASGCT 2025 exhibitor listings"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — company page and Shyam's profile not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 5, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Catalog-driven presence: **e-commerce site and trade-show booths**; little visible content.",
+   "detail": "Antibodies Inc reaches buyers through its online catalog, distributors and exhibitor booths (SfN, ASGCT). No press-release flow or follower counts were found. Grade is provisional.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Website / online catalog",
+     "audience": "Researchers (buyers)",
+     "recency": "Active",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Trade shows",
+     "audience": "Neuroscience, gene therapy",
+     "recency": "SfN 2025, ASGCT 2025",
+     "read": "Active"
+    },
+    {
+     "channel": "LinkedIn — Antibodies Incorporated",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Not a buyer today; useful only as a future partner for custom antibody work."
+  },
+  "network": {
+   "summary": "No shared network verified. Shyam is a junior technical contact.",
+   "items": [
+    "Identify the **head of custom antibody services** at Antibodies Inc for any future approach.",
+    "Your number of shared connections is shown on Shyam's LinkedIn profile. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/shyam-kannan-210442216",
+    "label": "See your mutual connections with Shyam on LinkedIn"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Society for Neuroscience (SfN) 2025",
+    "when": "2025",
+    "role": "Exhibitor (company)"
+   },
+   {
+    "name": "ASGCT 2025",
+    "when": "2025",
+    "role": "Exhibitor (company)"
+   }
+  ],
+  "hooks": [
+   "He asked to **learn how your pipeline works** — answer that, briefly.",
+   "Talk models: protein language models and folding prediction are his hobby.",
+   "Keep the door open for when Antibodies Inc moves on recombinant/optimized custom antibodies."
+  ]
+ },
+ "send": false
+}

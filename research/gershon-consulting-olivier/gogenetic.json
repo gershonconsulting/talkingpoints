@@ -1,0 +1,219 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICA5Zqgyq4LDA",
+ "company": "GoGenetic",
+ "lead_name": "Michelle Tadra",
+ "lead_role": "CEO",
+ "stage": "Scheduled",
+ "data": {
+  "header": {
+   "company": "GoGenetic (Brazil; genetics / qPCR for agricultural bioinputs: to be confirmed)",
+   "person": "Michelle Tadra",
+   "role": "CEO (per Streak)",
+   "location": "Brazil (city to be confirmed)",
+   "chips": [
+    {
+     "label": "Call scheduled"
+    },
+    {
+     "label": "No-show on Oct 7",
+     "tone": "warn"
+    },
+    {
+     "label": "Market analysis already done",
+     "tone": "good"
+    },
+    {
+     "label": "Company identity to confirm",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Re-book first:",
+    "text": "Michelle **accepted** the Oct 7, 2026 call (10:30 ET) but **did not join**. Olivier emailed the same day offering to reschedule; no reply. The Oct 18 email (in Portuguese) was opened on Oct 19. No new date is on the calendar."
+   },
+   "source_line": "Box created Jun 2, 2026 by Aina R; origin: LinkedIn. Moved Scheduled (Jun 11) > Contacted (Aug 5) > Scheduled (Oct 7). Language: English (emails also sent in Portuguese). 5 files on the box.",
+   "linkedin_url": ""
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Public info points to **GoGenetic Agro**: genetic IDs (qPCR primers) and genomics for **agricultural bioinputs** (**to be confirmed**)"
+   },
+   {
+    "label": "Scale",
+    "value": "Revenue and headcount **to be confirmed**"
+   },
+   {
+    "label": "Lead",
+    "value": "CEO per Streak; no public profile found"
+   },
+   {
+    "label": "Status",
+    "value": "Interested but unreliable: accepted twice, missed the call"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**#3 Life-science / #1 Technology** — Brazilian company, eligible market; size and revenue to be confirmed against the >USD 1M, 1–19 employees rule"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Gershon has already prepared a **US market analysis** for GoGenetic and has ICP databases in biotech / agtech."
+   },
+   "items": [
+    "Michelle has been in contact since **June 2026** and accepted two calendar invites (Sep 22 and Sep 23)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Lead with the finished analysis",
+    "text": "Olivier told her the **US market analysis is ready**. Offer to walk through it: the strongest reason for her to show up."
+   },
+   {
+    "title": "US biologicals market",
+    "text": "The US is one of the largest markets for biostimulants and biocontrol. Bioinput makers need strain identity and quality control for EPA/state registration: GoGenetic's genetic ID fits that (**to be confirmed** what she sells exactly)."
+   },
+   {
+    "title": "Brazil as a proof point",
+    "text": "Brazil's bioinputs segment grew about **30% over three harvests** (R$3.9B to R$5.1B, CropLife Brasil via Business Moment). Brazilian know-how is credible to US growers and biological companies."
+   },
+   {
+    "title": "Small first step",
+    "text": "Propose a 3-month campaign to meet US biological product makers and labs: 10 qualified meetings a month."
+   }
+  ],
+  "person": {
+   "name": "Michelle Tadra",
+   "text": "Streak lists Michelle as **CEO** of GoGenetic (michelle@gogenetic.com.br). **No public profile was found** online. A 2025 article names **Vânia Pankievicz** as CEO of **GoGenetic Agro**; Michelle may lead the group or another unit (**to be confirmed** on the call; ask her role and scope gently). She wrote first in June 2026 (to oattia@gmail.com) and accepted invites in Portuguese (\"Aceite\")."
+  },
+  "company": {
+   "text": "The best public match is **GoGenetic Agro** (Business Moment, Apr 2025): it builds next-generation **bioinputs** using strain selection, **genomic analysis**, **qPCR quality control** and field validation by metagenomics. It sells **exclusive primers**, a genetic ID (\"RG genético\") that identifies the microorganisms in biological products, supports traceability, avoids cross-contamination and supports **MAPA registration** and strain exclusivity. Whether GoGenetic (gogenetic.com.br) is the same company, and its exact offer, is **to be confirmed**; the website could not be reached for this brief."
+  },
+  "financials": {
+   "country": "Brazil, private",
+   "text": "No public financials found. Revenue, headcount and funding **to be confirmed**. Market context: global bioinputs about **US$13-15B** (2023); Brazil commercial segment **R$5.1B** in 2023/24 (CropLife Brasil via Business Moment)."
+  },
+  "history": {
+   "text": "Michelle first wrote on **Jun 1, 2026** (to oattia@gmail.com); Aina created the box Jun 2 and replied Jun 10; Michelle wrote again Jun 11 and the box moved to Scheduled. It went back to Contacted on Aug 5. Johanna booked a new call; Michelle **accepted** invites on **Sep 22 and Sep 23** for **Oct 7, 2026, 10:30 ET**. On Oct 7 she **did not join**; Olivier wrote twice (\"I am waiting for you\" and \"sorry we could not connect... we have completed a market analysis\") with his calendar link. On **Oct 18** Olivier sent the Portuguese new-website email (opened Oct 19). No reply since."
+  },
+  "industry": [
+   {
+    "title": "Biologicals are growing fast",
+    "text": "Farmers adopt biostimulants and biocontrol to cut chemicals; the US and Brazil are the two biggest arenas."
+   },
+   {
+    "title": "Quality and identity matter",
+    "text": "Contamination and mislabeled strains are a known problem; regulators and buyers want proof of what is in the product."
+   },
+   {
+    "title": "US registration",
+    "text": "Biopesticides go through the EPA; biostimulants have state-level rules. Testing partners help companies through that."
+   },
+   {
+    "title": "Brazil leads on-farm biologicals",
+    "text": "Brazil is a world leader in bioinput use, which gives Brazilian firms credibility abroad."
+   }
+  ],
+  "talking_points": [
+   "Can you tell me your role and which GoGenetic activities you lead?",
+   "Who are your customers today: bioinput manufacturers, labs, growers?",
+   "Why the US now: a customer, a partner, or a registration need?",
+   "Which US buyers would you want to meet first?",
+   "Do you already have US customers, distributors or a legal entity?",
+   "Who else decides on a US budget?"
+  ],
+  "attention": [
+   {
+    "title": "No-show risk",
+    "text": "She missed the last call. Send a reminder the day before and a WhatsApp/LinkedIn nudge if possible."
+   },
+   {
+    "title": "Identity unclear",
+    "text": "Public sources name another CEO for GoGenetic Agro. Confirm company and role early, politely."
+   },
+   {
+    "title": "Language",
+    "text": "Box language is English, but invites were accepted in Portuguese. Offer English or Portuguese material."
+   },
+   {
+    "title": "Little public data",
+    "text": "Most facts are unverified; rely on the market analysis already prepared."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details, Oct 7 no-show emails, Oct 18 Portuguese email, acceptance notices"
+   },
+   {
+    "used": true,
+    "text": "Google Calendar: Oct 7, 2026 call (Michelle accepted)"
+   },
+   {
+    "used": true,
+    "text": "Business Moment (Apr 15, 2025): GoGenetic Agro bioinputs, qPCR primers, CEO Vânia Pankievicz"
+   },
+   {
+    "used": false,
+    "text": "gogenetic.com.br website (could not be fetched)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn / Instagram follower counts (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting (Olivier) · prepared November 5, 2026",
+  "grade": {
+   "letter": "D",
+   "headline": "**Almost no findable web or social presence** in English; provisional.",
+   "detail": "Only one Brazilian trade article was found, and no public profile for Michelle. US buyers searching for GoGenetic would find very little. Grade is provisional until LinkedIn and Instagram are checked.",
+   "context": "Web-audited Nov 5, 2026. Website and social networks not reachable automatically."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Check before the call."
+    },
+    {
+     "channel": "Instagram",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Common channel for Brazilian agtech."
+    },
+    {
+     "channel": "Press",
+     "audience": "Business Moment (Brazil)",
+     "recency": "Apr 2025",
+     "read": "Portuguese only."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "Michelle reached out directly and has an existing LinkedIn thread. Olivier's LinkedIn network export was not checked for this brief.",
+   "items": [
+    "Use the LinkedIn thread to confirm the new date."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/messaging/thread/2-ZDRjYjA4OTktYTUwMy00ZGY5LWI0ZjYtZTU2OTBjZWE1ZWMwXzEwMA==/",
+    "label": "Open the LinkedIn thread"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "\"Your US market analysis is ready\": the reason to meet.",
+   "Brazil's bioinputs grew ~30% in three harvests: you have know-how US players need.",
+   "Genetic ID for biologicals: proof of what's in the bottle.",
+   "3-month test: 10 qualified US meetings a month.",
+   "Event to suggest: **World BioProtection Forum** or **Biostimulants World Congress** (dates **to be confirmed**)."
+  ]
+ },
+ "send": false
+}

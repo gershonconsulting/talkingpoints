@@ -1,0 +1,224 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICA5b6b258JDA",
+ "company": "SELFBETON",
+ "lead_name": "Alexandre Mathis",
+ "lead_role": "Directeur Général (CEO)",
+ "stage": "Scheduled",
+ "data": {
+  "header": {
+   "company": "SELFBETON (French network of self-service ready-mix concrete dispensers, Moselle)",
+   "person": "Alexandre Mathis",
+   "role": "Directeur Général / PDG",
+   "location": "Moselle, Grand Est, France (personal location to be confirmed)",
+   "chips": [
+    {
+     "label": "Call scheduled"
+    },
+    {
+     "label": "No call date found",
+     "tone": "warn"
+    },
+    {
+     "label": "No reply logged",
+     "tone": "warn"
+    },
+    {
+     "label": "Texas / Florida construction angle",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Check the date first:",
+    "text": "The box sits in **Scheduled since Aug 5, 2026**, but **no meeting is on the calendar** and Alexandre has **not replied** to the Oct 8 and Oct 18 emails. Confirm a date (LinkedIn thread via Botdog) before the call."
+   },
+   "source_line": "Box created Jun 29, 2026 by Aina R; origin: Botdog (LinkedIn automation). Moved to Scheduled Aug 5. Language: French. Earlier briefs exist in the project (selfbeton-2026-07-01 / 07-03).",
+   "linkedin_url": ""
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Self-service concrete: pay at a kiosk, scan a QR ticket, the dispenser loads your truck; **up to 50 mixes** per site"
+   },
+   {
+    "label": "Scale",
+    "value": "**~40 dispensers** across France in 2022 (Connexion); current count **to be confirmed**"
+   },
+   {
+    "label": "Lead",
+    "value": "**New PDG** (Le Journal des Entreprises); founder **François Behr**"
+   },
+   {
+    "label": "Status",
+    "value": "Cold-to-lukewarm. No reply to email since Oct"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Outside the ICP** — French company (France excluded); also not technology"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier has helped French SMEs open the US through distributors and franchise partners; SELFBETON's model is a machine network that could scale by partners."
+   },
+   "items": [
+    "Both work with network/franchise models: Gershon has worked with franchise prospects (Franchise 2017/2018 events).",
+    "Olivier already shared the **Transatlantic Expansion Barometer 2026** with him (Texas +46%, Florida +51% European projects)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "The Sun Belt construction boom",
+    "text": "European projects in the US are moving south: **+46% Texas, +51% Florida** (Barometer 2026, as Olivier wrote on Oct 8). These are the busiest US residential and light-construction markets."
+   },
+   {
+    "title": "US contractors already buy small loads",
+    "text": "Small US contractors and DIY buyers rely on bagged mix or short-load trucks with minimum-load fees. A 24/7 self-service dispenser solves that (US competitors and pricing **to be confirmed**)."
+   },
+   {
+    "title": "Partner model, low capex",
+    "text": "Ask whether he would go US via **building-material dealers or franchisees** hosting machines rather than owning sites. Gershon can find and qualify those partners."
+   },
+   {
+    "title": "Start with a test market",
+    "text": "Propose a 3-month market test: ICP, 10 qualified meetings a month with dealers / ready-mix players in Texas or Florida."
+   }
+  ],
+  "person": {
+   "name": "Alexandre Mathis",
+   "text": "Alexandre is **Directeur Général / PDG** of SELFBETON (Streak; Le Journal des Entreprises reported he became the new PDG, date **to be confirmed**, likely 2025). The company was founded by **François Behr**. Le Journal des Entreprises also ran a piece on SELFBETON \"launching several avenues to develop its activity\" (content not accessible). His background before SELFBETON is **not verified**; a possible link to the Mathis construction family group in Alsace is **not confirmed** and should not be raised."
+  },
+  "company": {
+   "text": "SELFBETON runs **self-service concrete dispensers** open to professionals and the public. Customers pick a mix (up to **50** depending on the site), pay at a kiosk, then scan a **QR-code ticket**; the machine loads the concrete into their trailer or truck. This avoids buying cement, sand and gravel separately or waiting for a mixer truck. In 2022 it had **almost 40 dispensers** in Normandy, Brittany, Ile-de-France and Occitanie, with new sites such as **Pédernec** (Brittany). It planned online pre-payment. The company is listed as a **Moselle** BTP firm. Prices were about **€15-20 above** usual market rates (2022), paid for by convenience."
+  },
+  "financials": {
+   "country": "France, private (SAS)",
+   "text": "Revenue and headcount **to be confirmed**; check Pappers / Infogreffe before the call (French accounts may be public or filed confidential). Site count: ~40 in 2022; current network **to be confirmed**."
+  },
+  "history": {
+   "text": "Aina created the box on **Jun 29, 2026** from a Botdog LinkedIn conversation; briefs were prepared on Jul 1 and Jul 3, which suggests a call was planned in early July (**outcome not logged**). Moved to Scheduled on **Aug 5**. On **Oct 8** Olivier emailed the Barometer 2026 article (Texas +46%, Florida +51%) and his calendar link; on **Oct 18** the new-website email. **No reply** and no opens recorded."
+  },
+  "industry": [
+   {
+    "title": "US housing shortage",
+    "text": "The US needs millions of new homes; Texas and Florida lead permits. Small contractors are a big buyer group."
+   },
+   {
+    "title": "Short-load pain",
+    "text": "US ready-mix suppliers often charge short-load fees for small orders. That is the gap self-service fills."
+   },
+   {
+    "title": "Volumetric trucks compete",
+    "text": "Volumetric mixer trucks and bagged mix are the current US alternatives."
+   },
+   {
+    "title": "Local permits",
+    "text": "Concrete plants need local environmental and zoning permits; partners with existing yards make it faster."
+   }
+  ],
+  "talking_points": [
+   "How many dispensers are running today, and what is the target for 2027?",
+   "Who is your best customer: small builders, landscapers, farmers, or DIY?",
+   "Have you been approached by foreign partners or distributors already?",
+   "Would you sell machines, franchise sites, or operate them yourself in the US?",
+   "Which state interests you: Texas, Florida, or elsewhere?",
+   "What budget and timeline would you give a US test?"
+  ],
+  "attention": [
+   {
+    "title": "Meeting not confirmed",
+    "text": "No calendar event and no reply. The stage may be wrong."
+   },
+   {
+    "title": "Heavy, local business",
+    "text": "Concrete is local and permit-heavy. A US move is a bigger step than for software; keep the first step small (market test)."
+   },
+   {
+    "title": "New CEO",
+    "text": "A new PDG may be focused on France. Ask his priorities before pushing the US."
+   },
+   {
+    "title": "Data gaps",
+    "text": "Revenue, site count and his background are not verified."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak: box details, Oct 8 and Oct 18 emails"
+   },
+   {
+    "used": true,
+    "text": "Connexion France (May 2022): self-service concrete dispenser, ~40 sites"
+   },
+   {
+    "used": true,
+    "text": "Le Journal des Entreprises: \"Alexandre Mathis est le nouveau PDG de Selfbeton\" (headline only); Pédernec site; \"plusieurs pistes\" article (headline only)"
+   },
+   {
+    "used": true,
+    "text": "Gershon Consulting: Transatlantic Expansion Barometer 2026 article (as quoted in Oct 8 email)"
+   },
+   {
+    "used": false,
+    "text": "Pappers / Infogreffe financials (not checked)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn / Facebook follower counts (not audited)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting (Olivier) · prepared November 5, 2026",
+  "grade": {
+   "letter": "C",
+   "headline": "Regional press coverage, but **little visible social activity**; provisional.",
+   "detail": "SELFBETON is covered by regional and national French press (Le Journal des Entreprises, Connexion, Sud Radio) and has a site map, but no strong LinkedIn or content presence was found. Follower counts **to be confirmed**.",
+   "context": "Web-audited Nov 5, 2026. LinkedIn and Facebook not audited automatically."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn: Company",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Check for site openings and hiring."
+    },
+    {
+     "channel": "Facebook / local",
+     "audience": "To be confirmed",
+     "recency": "To be confirmed",
+     "read": "Likely main channel for local builders."
+    },
+    {
+     "channel": "Press",
+     "audience": "Regional French",
+     "recency": "2022-2026",
+     "read": "Good for proof points; nothing in English."
+    }
+   ],
+   "note": "Numbers not verified. Do not quote follower counts on the call."
+  },
+  "network": {
+   "summary": "Contact came via a Botdog LinkedIn conversation. Olivier's LinkedIn network export was not checked for this brief.",
+   "items": [
+    "Re-open in the existing LinkedIn thread before the call."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/messaging/thread/2-MGEyZjAxNDUtMjIwOS00OWM4LTg2ZmYtNThiNTAwMDk4M2JhXzEwMA==/",
+    "label": "Open the LinkedIn thread"
+   }
+  },
+  "posts": [],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "Texas +46%, Florida +51%: European projects are moving to the Sun Belt.",
+   "No more short-load fees: self-service concrete for US small builders.",
+   "A partner model (dealers host the machines) keeps capex low.",
+   "Start with a 3-month US market test.",
+   "Upcoming event to suggest: **World of Concrete**, Las Vegas, January 2027 (dates **to be confirmed**)."
+  ]
+ },
+ "send": false
+}

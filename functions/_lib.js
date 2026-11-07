@@ -66,6 +66,8 @@ export function cookie(name, value, { maxAge = 60 * 60 * 24 * 30, path = '/' } =
 
 // The only person allowed into /admin (Olivier's LinkedIn email).
 export const OWNER_EMAILS = ['olivier@attia.com'];
+// The owner's own campaign: what "User view" always shows (his GC Pipeline).
+export const OWNER_HOME_SLUG = 'gershon-consulting-olivier';
 export const isOwner = (u) => !!u && OWNER_EMAILS.includes(String(u.email || '').toLowerCase());
 
 // Returns { member, client } for the signed-in user, or null.

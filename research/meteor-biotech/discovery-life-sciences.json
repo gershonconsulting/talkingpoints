@@ -1,0 +1,254 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVjMSt3AkM",
+ "company": "Discovery Life Sciences",
+ "lead_name": "Tina Gangi",
+ "lead_role": "Director of Business Development - Clinical & Research Lab Services",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Discovery Life Sciences (biospecimens + specialty biomarker lab services)",
+   "person": "Tina Gangi",
+   "role": "Director of Business Development - Clinical & Research Lab Services",
+   "location": "To be confirmed · DLS HQ Huntsville, Alabama (Pacific time per her proposed slot)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: High (spatial service lab)",
+     "tone": "good"
+    },
+    {
+     "label": "Wants a call — book it now",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Hot lead, slot missed:",
+    "text": "Tina **accepted Amos's InMail, said the technology 'looks very interesting'** and proposed **Mon Nov 2, 4 pm PDT / Tue Nov 3, 8 am KST**. That slot passed; Amos apologized on Nov 4 and asked for another day. **Send a calendar invite with 2–3 concrete slots today** to **tgangi@gmail.com** (her choice) — her work email is tina.gangi@dls.com."
+   },
+   "source_line": "Lead added to Streak on Nov 4, 2026 by Juliana R.; moved to Contacted on Nov 5 by Jenny P (Meteor). Source: LinkedIn InMail (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/tinagangi"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global provider of **human biospecimens** and **specialty lab services** (genomics, proteomics, molecular pathology, cell biology) for pharma, biotech and diagnostics clinical trials"
+   },
+   {
+    "label": "Spatial today",
+    "value": "Certified **10x Visium** provider, **Xenium** in situ services, and **Bio-Techne/Lunaphore COMET** hyperplex IF (partnership Sep 2024)"
+   },
+   {
+    "label": "Scale",
+    "value": "Built through **13+ acquisitions**; supports **750+ pharma, biotech and diagnostics** companies (2023). AllCells division supplies human cells for cell & gene therapy"
+   },
+   {
+    "label": "Leadership",
+    "value": "CEO **Greg Herrema** (ex-Thermo Fisher, since Nov 2023); HQ on the **HudsonAlpha** campus, Huntsville AL"
+   },
+   {
+    "label": "Her role",
+    "value": "Business development for **clinical & research lab services** — she sells DLS's lab services and scouts technologies to add to them"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#4 Spatial CROs & genomics service labs** — strong fit: DLS adds new spatial platforms as services (COMET, Xenium) and owns the tissue."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Tina replied to Amos personally and wants to hear about the technology from him — the inventor of SLACS / CosmoSort is the right voice for a service-lab partnership talk."
+   },
+   "items": [
+    "**Same tissue workflow:** DLS already runs Visium, Xenium and COMET on FFPE tissue — CosmoSort's image-guided isolation is a natural next step after imaging (pick the cells you just saw).",
+    "**Platform-partner model:** DLS added Lunaphore COMET as a branded service in 2024 — the exact path a CosmoSort service partnership could follow.",
+    "**No shared employer, school or event found** between Amos and Tina in public sources."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A new service DLS can sell",
+    "text": "Position CosmoSort as a **new spatial service line**: image the tissue (Visium/Xenium/COMET), then **isolate the exact cells or regions** for deep sequencing or proteomics. DLS can sell that to its 750+ pharma clients."
+   },
+   {
+    "title": "Make every sample count",
+    "text": "DLS's own Sep 2026 blog theme is 'making every clinical trial sample count'. SLACS pulls rare cells from small, precious biopsies — same message."
+   },
+   {
+    "title": "Follow the COMET path",
+    "text": "Ask how the Lunaphore partnership was set up (instrument placement, co-marketing, CLIA work) and offer a similar pilot."
+   }
+  ],
+  "person": {
+   "name": "Tina Gangi",
+   "text": "Director of Business Development for **Clinical & Research Lab Services** at Discovery Life Sciences (per Streak / LinkedIn). Prior roles, education and exact location are **to be confirmed** — no public bio, talks or papers found on the open web. She proposed a 4 pm PDT slot, so she likely works on **US Pacific time** (to be confirmed). She asked to use her **personal Gmail** for scheduling."
+  },
+  "company": {
+   "text": "Discovery Life Sciences (DLS), headquartered in **Huntsville, Alabama** on the HudsonAlpha biotech campus, calls itself a leading global provider of **biospecimen products and specialty lab services**. It offers a commercial biospecimen network; multi-omic biomarker lab services (genomic, tissue biomarker, proteomic and cell-based); biomarker and companion-diagnostic programs for cancer, infectious and rare diseases; and, through **AllCells**, a recallable donor pool of human cells for cell and gene therapy. Past acquisitions include **Targos** (molecular pathology, Germany), **QualTek**, **ReachBio**, **East West Biopharma** and Corning's **Gentest** business. Spatial services include **10x Visium** (certified provider), **Xenium**, and **Lunaphore COMET** hyperplex immunofluorescence for CLIA-compliant assays. CEO **Greg Herrema** came from Thermo Fisher in Nov 2023."
+  },
+  "financials": {
+   "country": "US, private",
+   "text": "Private company; **revenue not disclosed** (to be confirmed). Grew through **13+ acquisitions** under former CEO Glenn Bilawsky. Investors not confirmed in public sources reviewed. Employee count to be confirmed."
+  },
+  "history": {
+   "text": "LinkedIn InMail from Amos: Tina **accepted** and wrote she is 'happy to chat' and the technology 'looks very interesting'; she sent a connection request. Amos suggested ~4 pm afternoons. Tina proposed **4 pm PDT Mon Nov 2 / 8 am KST Tue Nov 3** and gave **tgangi@gmail.com**. On **Nov 4** Amos apologized for the delay and asked for another day this week. **Open item:** no reply yet, no invite sent, no emails in Streak."
+  },
+  "industry": [
+   {
+    "title": "Service labs are the spatial on-ramp",
+    "text": "Many pharma teams buy spatial data as a service before buying instruments. Labs like DLS keep adding platforms (Visium, Xenium, COMET) to win those studies."
+   },
+   {
+    "title": "From imaging to isolation",
+    "text": "Spatial imaging shows *where* the interesting cells are; the next demand is to **physically retrieve** them for deeper omics — the gap CosmoSort fills."
+   },
+   {
+    "title": "Clinical-trial samples are scarce",
+    "text": "Biopsies are small and irreplaceable; tools that get more data per section are a strong sell to trial sponsors."
+   }
+  ],
+  "talking_points": [
+   "Thanks for your patience on timing — here are a few slots that work in your afternoon. What would you like to see first: data, workflow, or a sample-to-result case?",
+   "Which spatial services are growing fastest for you today — **Visium, Xenium or COMET**? Where do clients ask for more than imaging?",
+   "Do clients ask you to **isolate specific cells or regions** after imaging (e.g., for sequencing or proteomics)? How do you do it today — laser capture?",
+   "How did the **Lunaphore COMET** service partnership work — instrument placement, co-marketing, CLIA validation?",
+   "Would a **pilot on DLS tissue** (one oncology use case) be a good first step to test CosmoSort as a service?",
+   "Could AllCells or the biospecimen side also use precise cell isolation (e.g., rare cell populations)?"
+  ],
+  "attention": [
+   {
+    "title": "Speed matters.",
+    "text": "She proposed a date within hours and the slot was missed. Send a calendar invite with concrete times today; don't wait for her to propose again."
+   },
+   {
+    "title": "Use the email she chose.",
+    "text": "She asked to use tgangi@gmail.com. Copy tina.gangi@dls.com only if she agrees."
+   },
+   {
+    "title": "BD, not lab science.",
+    "text": "Tina sells services. Bring a business case (new revenue line, client demand, pilot terms) plus a short technical demo; offer a follow-up with DLS's spatial lab lead."
+   },
+   {
+    "title": "Fix Streak.",
+    "text": "Contact saved as “Tina G” — change to **Tina Gangi**. Set **Fit** (High) and **Interest** (Call requested); both empty."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — Meteor Biotech - LG pipeline (box, contact, LinkedIn conversation comment Nov 4)"
+   },
+   {
+    "used": true,
+    "text": "DLS website — Spatial Biology Services page; blog (2026 posts)"
+   },
+   {
+    "used": true,
+    "text": "Bio-Techne / PR Newswire — Lunaphore partners with Discovery Life Sciences (Sep 26, 2024); GenomeWeb coverage"
+   },
+   {
+    "used": true,
+    "text": "BioSpace — Discovery Life Sciences Announces New CEO (Nov 7, 2023)"
+   },
+   {
+    "used": true,
+    "text": "PrivSource / Mergr — DLS acquisitions (Targos, ReachBio, East West Biopharma, Gentest)"
+   },
+   {
+    "used": false,
+    "text": "Tina Gangi — no public bio, papers, talks or posts found on the open web"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn follower counts — not retrievable without login"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared November 5, 2026",
+  "grade": {
+   "letter": "B",
+   "headline": "DLS runs an **active content program**: a steady 2026 blog series and conference recaps (ASCO, ISCT).",
+   "detail": "Company publishes every few weeks (e.g., Jun 5, Jun 25, Jul 16, Jul 30, Aug 13, Sep 3, Sep 25, 2026) plus partner press releases. Tina's personal LinkedIn activity is to be confirmed. Solid, consistent — a B.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn not audited."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "dls.com blog & news",
+     "audience": "Pharma / biotech buyers",
+     "recency": "Active (Sep 25, 2026)",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn — Discovery Life Sciences",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "LinkedIn — Tina Gangi",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "A DLS service launch with Meteor would get real reach through DLS's blog and partner press releases (as with Lunaphore)."
+  },
+  "network": {
+   "summary": "**No verified overlap** between Amos and Tina. Closest bridge: DLS's existing spatial partners (**Bio-Techne/Lunaphore**, **10x Genomics**).",
+   "items": [
+    "Check whether Amos or Meteor's investors know anyone at Bio-Techne/Lunaphore who worked on the DLS partnership.",
+    "Ask Tina who leads the **Spatial Biology Center of Excellence** at DLS and invite them to the call."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/tinagangi",
+    "label": "See your mutual connections with Tina on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Sep 25, 2026",
+    "where": "DLS blog (company)",
+    "text": "“Stress Test Your Workflow: **Making Every Clinical Trial Sample Count**.”",
+    "use": "Mirror the theme: CosmoSort gets more from each precious section."
+   },
+   {
+    "when": "Aug 13 & Jul 30, 2026",
+    "where": "DLS blog (company)",
+    "text": "Series on where to find **cancer-associated fibroblasts** and **tumor-infiltrating lymphocytes**.",
+    "use": "Exactly the cell types SLACS can isolate in place from tumor tissue — offer a TIL/CAF use case."
+   },
+   {
+    "when": "Jun 2026",
+    "where": "DLS blog (company)",
+    "text": "Recaps of **ASCO 2026** and **ISCT Dublin 2026**.",
+    "use": "Ask which conferences she attends — possible in-person meeting."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "ASCO 2026",
+    "when": "June 2026",
+    "role": "DLS (company) covered it",
+    "note": "Tina's own attendance to be confirmed."
+   },
+   {
+    "name": "ISCT Dublin 2026",
+    "when": "May/June 2026",
+    "role": "DLS (company) covered it",
+    "note": "Tina's own attendance to be confirmed."
+   }
+  ],
+  "hooks": [
+   "“Sorry we missed Monday — here are three slots.” Lead with concrete times.",
+   "She said the technology 'looks very interesting' — ask what caught her eye.",
+   "DLS added **Lunaphore COMET** as a service in 2024 — CosmoSort could be the next spatial add-on.",
+   "DLS blog series on **TILs and CAFs** — offer a matching isolation use case.",
+   "“Making every clinical trial sample count” — SLACS does exactly that."
+  ]
+ },
+ "send": false
+}

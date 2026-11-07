@@ -1,0 +1,240 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlejG0ZgKDA",
+ "company": "Genmab A/S",
+ "lead_name": "Giulio Russo",
+ "lead_role": "Associate Director, Early Discovery",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Genmab A/S (Nasdaq: GMAB · Copenhagen: GMAB)",
+   "person": "Giulio Russo",
+   "role": "Associate Director, Early Discovery",
+   "location": "Location to be confirmed · Genmab HQ Copenhagen, Denmark",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Strong",
+     "tone": "good"
+    },
+    {
+     "label": "Asked for a call",
+     "tone": "good"
+    },
+    {
+     "label": "No reply in 2 weeks",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Call agreed, not yet booked:",
+    "text": "Giulio agreed on LinkedIn to a call (“next week Wednesday”) and gave **giru@genmab.com**. Zak emailed him on **Oct 22**; no reply and no opens recorded since. Follow up now with fresh time slots — and consider a short LinkedIn nudge from Vincent."
+   },
+   "source_line": "Lead added to Streak on Oct 20, 2026 by Juliana R; moved to Contacted on Oct 22 by Zak O.",
+   "linkedin_url": "https://www.linkedin.com/in/giulio-russo-679b2184"
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Leading **antibody biotech**: 8 approved antibody medicines; bispecifics, ADCs, immune modulators"
+   },
+   {
+    "label": "Key assets",
+    "value": "DARZALEX royalties, **EPKINLY/epcoritamab**, **Rina-S** (ADC), **petosemtamab** (from Merus)"
+   },
+   {
+    "label": "Lead's angle",
+    "value": "Early discovery — exactly where new antibody candidates are generated"
+   },
+   {
+    "label": "Technical gate",
+    "value": "He first asked **which wet-lab assays validate in-silico predictions** — validation matters to him"
+   },
+   {
+    "label": "Size",
+    "value": "H1 2026 revenue **$2.05B** (+25%); 3,119 employees; 2026 revenue guidance $4.3–4.5B"
+   },
+   {
+    "label": "Contact",
+    "value": "giru@genmab.com"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech** (Research Director level in early discovery) — strong fit: antibody-only company, large discovery budget, contact already engaged on validation."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Antibody discovery peer to peer: Giulio works in early discovery at an antibody company; Vincent already answered his technical validation question."
+   },
+   "items": [
+    "**No shared school, employer or co-author verified.**",
+    "Possible past work in **phage-display antibody discovery** (a Giulio Russo co-authored TU Braunschweig/YUMAB antibody papers) — **to be confirmed it is the same person**.",
+    "Both care about **in-silico predictions backed by wet-lab data**."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Validation first",
+    "text": "Pick up his question. Recap: binding by **cytometry, BLI, HTRF**; developability with partner **Sartorius**; MoA with external partners or the client. Bring one case with predicted vs measured data."
+   },
+   {
+    "title": "Speed in early discovery",
+    "text": "~21 days from target to optimized candidates — useful for **hard epitopes, bispecific arms or ADC binders** where Genmab wants more options fast."
+   },
+   {
+    "title": "Complement Genmab's AI push",
+    "text": "Genmab is investing in AI (agentic AI with Anthropic, announced Jan 2026, for clinical/R&D operations). MAbSilico adds AI at the **molecule design** step."
+   }
+  ],
+  "person": {
+   "name": "Giulio Russo",
+   "text": "Associate Director, Early Discovery at Genmab (per Streak/LinkedIn). Engaged on technical substance: asked about wet-lab validation before agreeing to a call. Earlier career (possibly antibody phage display, Germany) and location — to be confirmed on LinkedIn."
+  },
+  "company": {
+   "text": "Genmab (founded 1999, HQ Copenhagen; operations in North America, Europe and Asia Pacific) builds antibody medicines for cancer and other serious diseases across bispecifics, ADCs and immune-modulating antibodies. It closed the ~$8B acquisition of **Merus** on Dec 12, 2025 (petosemtamab). In 2026: epcoritamab + lenalidomide hit its Phase 3 PFS endpoint; Rina-S has FDA Breakthrough designation in endometrial cancer. On Jan 7, 2026 it announced a partnership with **Anthropic** for Claude-powered agentic AI in R&D."
+  },
+  "financials": {
+   "country": "Denmark, Nasdaq and Copenhagen-listed",
+   "text": "**H1 2026 revenue:** $2,051M (+25%). **Operating profit:** $555M (adjusted $656M). **Net profit:** $356M. **Cash:** $1,503M; borrowings $5,135M (Merus financing). **2026 guidance:** revenue $4.325–4.525B. **Headcount:** 3,119. Large R&D budget; decisions go through discovery leadership and procurement."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Giulio: “Happy to connect. Before planning a phone call, may I ask what wet lab assays you routinely use to validate in silico predictions?” Vincent: binding — cytometry, BLI, HTRF; developability — partner Sartorius; MoA — external partner or the client. Giulio: “Happy to schedule a call to learn more about your technology… next week Wednesday.” Gave **giru@genmab.com**. Box created Oct 20 by Juliana R. Zak emailed Oct 22 (1 email sent, 0 replies, 0 opens recorded); stage *Contacted*."
+  },
+  "industry": [
+   {
+    "title": "Big antibody players adopt AI design",
+    "text": "Large antibody companies are adding AI design partners for hard targets and multispecific formats, while keeping wet-lab validation in-house."
+   },
+   {
+    "title": "Bispecifics and ADCs need more binders",
+    "text": "Genmab's focus on bispecifics and ADCs raises demand for well-behaved, developable binders against new epitopes."
+   }
+  ],
+  "talking_points": [
+   "What is the hardest part of early discovery for you now — **epitope coverage, developability, bispecific pairing**?",
+   "How do you judge an in-silico partner — what validation data would convince you?",
+   "Would a pilot on a **difficult target** with your own assays as the readout make sense?",
+   "How does Genmab's AI work (e.g. the Anthropic partnership) connect to discovery?",
+   "Who else in early discovery should join a technical deep-dive?"
+  ],
+  "attention": [
+   {
+    "title": "Follow up today.",
+    "text": "Zak's Oct 22 email got no reply and no recorded open. Re-send to giru@genmab.com with 3 new slots (CET-friendly) and the validation recap."
+   },
+   {
+    "title": "Nudge on LinkedIn.",
+    "text": "Vincent can send a one-line LinkedIn message: “Zak sent times to your Genmab email — happy to adjust.”"
+   },
+   {
+    "title": "Prepare validation data.",
+    "text": "Bring a predicted-vs-measured example (affinity, developability) — his first question was about validation."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG pipeline (box, contact, LinkedIn exchange Oct 20, 2026; email thread Oct 22, 2026)"
+   },
+   {
+    "used": true,
+    "text": "SEC Form 6-K — Genmab H1 2026 interim report"
+   },
+   {
+    "used": true,
+    "text": "GlobeNewswire — Genmab partners with Anthropic (Jan 7, 2026)"
+   },
+   {
+    "used": true,
+    "text": "BioSpace / Financier Worldwide — Genmab to acquire Merus"
+   },
+   {
+    "used": false,
+    "text": "Giulio Russo's prior career (phage display publications) — identity not confirmed"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — company page and follower counts not audited"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 5, 2026",
+  "grade": {
+   "letter": "A",
+   "headline": "Strong corporate voice: **regular press releases, scientific congress data and investor events**; LinkedIn counts not audited.",
+   "detail": "Genmab publishes frequent news (pipeline data, deals, results) on GlobeNewswire/Business Wire and presents at major oncology congresses. Follower counts were not checked; grade is provisional.",
+   "context": "Web-audited Nov 5, 2026; LinkedIn counts to be confirmed."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Press releases",
+     "audience": "Investors, media, pharma",
+     "recency": "Frequent; H1 results Aug 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Scientific congresses",
+     "audience": "Oncology community",
+     "recency": "Ongoing (Phase 3 data 2026)",
+     "read": "Active"
+    },
+    {
+     "channel": "LinkedIn — Genmab",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "LinkedIn — Giulio Russo",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Genmab is publicly committed to AI in R&D — a credible AI design partner fits that story."
+  },
+  "network": {
+   "summary": "No shared network verified between Vincent and Giulio.",
+   "items": [
+    "Genmab R&D leadership includes **Tahamtan Ahmadi** (quoted on the AI partnership) — senior sponsor for AI topics.",
+    "Your number of shared connections is shown on Giulio's LinkedIn profile. Open it with the button below."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/giulio-russo-679b2184",
+    "label": "See your mutual connections with Giulio on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Aug 2026",
+    "where": "H1 2026 report (company)",
+    "text": "Revenue +25% to $2.05B; guidance raised; epcoritamab Phase 3 win; Rina-S Breakthrough designation.",
+    "use": "Light opener on momentum."
+   },
+   {
+    "when": "Jan 7, 2026",
+    "where": "Press release (company)",
+    "text": "Partnership with **Anthropic** for Claude-powered agentic AI in R&D.",
+    "use": "Ask how AI is used in early discovery today."
+   },
+   {
+    "when": "Dec 12, 2025",
+    "where": "Deal close (company)",
+    "text": "Merus acquisition completed (petosemtamab, bispecific platform).",
+    "use": "Bispecific focus → more binder needs."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "He **agreed to a call** — the job is to book it.",
+   "Lead with **validation**, his first question.",
+   "Offer a pilot on a hard target with Genmab's own assays as readout."
+  ]
+ },
+ "send": false
+}
