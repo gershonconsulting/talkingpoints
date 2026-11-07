@@ -2,7 +2,8 @@
    Talking Points - unified Gershon design (v1.10.0, 2026-11-07; rebuilt
    from PR #18 on the v1.9.3 main)
    Decision 2026-10-13: every Gershon app looks like Linalysis (the master
-   design) and the main colour everywhere is the Gershon.ai red #CC3333.
+   design) and the main colour everywhere is the Gershon.ai red #CC3333
+   (still open for Talking Points: #CC3333 vs #FE1B04, see --gx-red).
    This override layer is linked LAST in the <head> of /, /login, /app,
    /admin, /privacy and /terms (after common.css and each page's own
    <style>), the same approach as
@@ -18,9 +19,14 @@
 
 /* ---------- Tokens (html:root beats common.css :root) ---------- */
 html:root{
-  --gx-red:#CC3333; --gx-red-dark:#a8281f; --gx-red-light:#fdf2f2; --gx-red-line:#f3caca;
+  /* BRAND RED: the ONE line to change. #CC3333 (Gershon.ai red, as in PR #18) vs #FE1B04 (Talking
+     Points today) is still an open decision for Olivier. Every red shade below is derived from it. */
+  --gx-red:#CC3333;
+  --gx-red-dark:color-mix(in srgb, var(--gx-red) 82%, #000);
+  --gx-red-light:color-mix(in srgb, var(--gx-red) 6%, #fff);
+  --gx-red-line:color-mix(in srgb, var(--gx-red) 25%, #fff);
   --gx-text:#1d1d1f; --gx-muted:#6e6e73; --gx-border:#e5e7eb; --gx-bg:#fafafa; --gx-radius:12px;
-  --gx-ring:0 0 0 3px rgba(204,51,51,.15);
+  --gx-ring:0 0 0 3px color-mix(in srgb, var(--gx-red) 15%, transparent);
 
   --brand:var(--gx-red); --brand-dark:var(--gx-red-dark); --brand-light:var(--gx-red-light);
   --text:var(--gx-text); --text-muted:var(--gx-muted); --border:var(--gx-border);
@@ -28,7 +34,7 @@ html:root{
 }
 
 /* ---------- Focus: red ring everywhere ---------- */
-html body a:focus-visible, html body button:focus-visible{ outline:3px solid rgba(204,51,51,.35); outline-offset:2px; }
+html body a:focus-visible, html body button:focus-visible{ outline:3px solid color-mix(in srgb, var(--gx-red) 35%, transparent); outline-offset:2px; }
 html body input:focus, html body select:focus, html body textarea:focus{
   outline:none; border-color:var(--gx-red); box-shadow:var(--gx-ring); }
 html body input[type=checkbox]{ accent-color:var(--gx-red); }
@@ -111,8 +117,8 @@ body > .auth-wrap{ border-radius:var(--gx-radius); border-color:var(--gx-border)
 body > .auth-wrap .auth-logo{ color:var(--gx-red); }
 body > .auth-wrap .auth-footer a{ color:var(--gx-red-dark); }
 body > .auth-wrap .li-btn{ background:var(--gx-red); box-shadow:none; }
-body > .auth-wrap .li-btn:hover{ background:var(--gx-red-dark); box-shadow:0 8px 22px rgba(204,51,51,.28); }
-body > .auth-wrap .li-btn:focus-visible{ outline:3px solid rgba(204,51,51,.35); }
+body > .auth-wrap .li-btn:hover{ background:var(--gx-red-dark); box-shadow:0 8px 22px color-mix(in srgb, var(--gx-red) 28%, transparent); }
+body > .auth-wrap .li-btn:focus-visible{ outline:3px solid color-mix(in srgb, var(--gx-red) 35%, transparent); }
 
 /* =====================================================================
    LANDING (index.html) - light, red buttons, red closing band
@@ -122,7 +128,7 @@ body > .auth-wrap .li-btn:focus-visible{ outline:3px solid rgba(204,51,51,.35); 
 .landing .btn.primary{ background:var(--gx-red); border-color:var(--gx-red); color:#fff; }
 .landing .btn.primary:hover{ background:var(--gx-red-dark); border-color:var(--gx-red-dark); color:#fff; }
 .landing .hero-eyebrow{ background:var(--gx-red-light); color:var(--gx-red); box-shadow:inset 0 0 0 1px var(--gx-red-line); }
-.landing .btn-hero.primary:hover{ box-shadow:0 8px 22px rgba(204,51,51,.28); }
+.landing .btn-hero.primary:hover{ box-shadow:0 8px 22px color-mix(in srgb, var(--gx-red) 28%, transparent); }
 .landing .product-mock{ background:linear-gradient(135deg,var(--gx-red-light),#fff); border-radius:var(--gx-radius); }
 .landing .mock-sidebar{ background:#fff; }
 .landing .feature, .landing .how{ border-radius:var(--gx-radius); }
