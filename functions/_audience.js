@@ -10,6 +10,11 @@ export const INTERNAL_DOMAINS = ['gershonconsulting.com', 'gershon.ai'];
 
 // Number of this report in Gershon's report list; every subject starts with it.
 export const REPORT_NUMBER = 21;
+// Every outgoing email subject goes through this (sendEmail in _lib.js): "[21] " exactly once,
+// whatever the caller built (2026-11-06: a client email went out as "Talking Points : DOWSERS").
+export const REPORT_PREFIX = `[${REPORT_NUMBER}] `;
+export const withReportPrefix = (subject) =>
+  REPORT_PREFIX + String(subject ?? '').replace(new RegExp(`^\\s*(\\[\\s*${REPORT_NUMBER}\\s*\\]\\s*)+`), '').trim();
 
 // Brief keys that are for Gershon only (see _render.js for the brief JSON).
 // attention = "Needs your attention" (Streak / CRM data flags); the others are reserved for internal

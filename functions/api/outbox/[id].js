@@ -1,4 +1,5 @@
 import { json } from '../../_lib.js';
+import { withReportPrefix } from '../../_audience.js';
 
 // GET /api/outbox/:id — read by the social.gershon.ai relay. Each queued email can be read
 // once, within 10 minutes of being queued; after that it answers 404.
@@ -13,5 +14,5 @@ export async function onRequestGet({ env, params }) {
   if (!upd.meta?.changes) return json({ error: 'not_found' }, 404);
   let to = [];
   try { to = JSON.parse(row.to_list); } catch { to = []; }
-  return json({ to, subject: row.subject, html: row.html, text: row.text, reply_to: row.reply_to }, 200, { 'cache-control': 'no-store' });
+  return json({ to, subject: withReportPrefix(row.subject), html: row.html, text: row.text, reply_to: row.reply_to }, 200, { 'cache-control': 'no-store' });
 }
