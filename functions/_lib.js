@@ -11,6 +11,8 @@
 //   WEBHOOK_TOKEN            shared token in the Streak webhook URL (?token=...)
 //   APP_URL                  https://talkingpoints.gershon.ai
 
+import { withReportPrefix } from './_audience.js';
+
 export const json = (data, status = 200, headers = {}) =>
   new Response(JSON.stringify(data), {
     status,
@@ -287,6 +289,7 @@ export const VERSION = '1.7.0';
 // `from`: brief emails pass the sender chosen by _audience.js ("GC Talking Points" for all-Gershon
 // recipients, "Gershon Consulting" otherwise); the default is the client-facing one.
 export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com', from = 'Gershon Consulting <talkingpoints@gershon.ai>' }) {
+  subject = withReportPrefix(subject); // "[21] " exactly once on every email (Resend and relay paths)
   if (env.RESEND_API_KEY) {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
