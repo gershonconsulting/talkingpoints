@@ -76,7 +76,7 @@ ${withRun ? `<td style="${td}text-align:center;">${r.already ?? '—'}</td><td s
 ${body}
 <tr><td style="${td}font-weight:800;border-top:2px solid #1a1a1a;">Total</td><td style="${td}text-align:center;font-weight:800;font-size:16px;border-top:2px solid #1a1a1a;">${total}</td>${withRun ? `<td style="${td}border-top:2px solid #1a1a1a;"></td><td style="${td}border-top:2px solid #1a1a1a;"></td>` : ''}<td style="${td}border-top:2px solid #1a1a1a;"></td></tr>
 </table>
-<p style="font-size:12px;color:#5f6b76;margin-top:16px;">Each Friday, the 5 newest Streak leads of every client get their researched talking point; a lead is never sent twice. Details: <a href="https://talkingpoints.gershon.ai/app#admin" style="color:#FE1B04;">Admin → Friday talking points</a>.</p>
+<p style="font-size:12px;color:#5f6b76;margin-top:16px;">Each Friday, every new Streak lead of every client (last 14 days) gets its researched talking point, sent to the client's whole team (Settings + client.gershon.ai report list); a lead is never sent twice. Details: <a href="https://talkingpoints.gershon.ai/app#admin" style="color:#FE1B04;">Admin → Friday talking points</a>.</p>
 </div>`;
 
   const text = [`Talking Points — Friday run — ${dateText}`, `${total} talking points sent to ${withSends} clients${failed ? `, ${failed} failed` : ''}.`, '',
