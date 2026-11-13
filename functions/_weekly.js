@@ -53,14 +53,12 @@ export async function lastLeads(env, client, n = 200) {
   return { connected: true, leads };
 }
 
-const doneKey = (clientId) => `WEEKLY_RUN:${clientId}`;
-
-// Called by the hourly cron. Runs once per client per Friday; `force` (owner test) ignores the day.
+// Called by the hourly cron. On Fridays from 7 am New York time, EVERY hourly run sends the
+// researched new leads not sent yet (2026-11-13: a talking point researched during the day still
+// goes out that Friday). No duplicate: send_log is checked lead by lead. `force` ignores the day.
 export async function fridayRun(env, client, r, { force = false } = {}) {
   const now = nyParts();
   if (!force && (now.weekday !== 'Fri' || now.hour < 7)) return;
-  const done = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(doneKey(client.id)).first();
-  if (!force && done?.value === now.day) return;
 
   // No ICP, no talking points (Olivier, 2026-11-05): a brief can't be judged against the client's ICP without one.
   const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
@@ -76,6 +74,4 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
       if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
     } catch (e) { r.notes.push(`friday: ${l.name}: ${e.message || e}`); }
   }
-  await env.DB.prepare('INSERT INTO app_secrets (name, value) VALUES (?, ?) ON CONFLICT(name) DO UPDATE SET value = excluded.value')
-    .bind(doneKey(client.id), now.day).run();
 }
