@@ -1,0 +1,148 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWsn42uCQw",
+ "company": "Groupe Clarins",
+ "lead_name": "Thao Ly Chau Tran",
+ "lead_role": "Executive Director, Marketing, Digital & Communications",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Groupe Clarins (prestige skincare & cosmetics)",
+   "person": "Thao Ly Chau Tran",
+   "role": "Executive Director, Marketing, Digital & Communications",
+   "location": "To be confirmed (likely Clarins USA)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Wants info by email",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Send the information:",
+    "text": "Thao Ly asked Anne to 'send me more information about your services' at **thaoly.chautran@clarins.com** (Nov 4). Anne replied 'will do' on Nov 6. **Send a short email today** with 2\u20133 relevant retail/shopper case studies and a call proposal."
+   },
+   "source_line": "Lead added to Streak on Nov 6, 2026 by Juliana R. Source: LinkedIn messaging (as Anne).",
+   "linkedin_url": "https://www.linkedin.com/in/thao-ly-chau-tran-64985755"
+  },
+  "grade": {
+   "letter": "A-",
+   "headline": "**Strong prestige-beauty brand** with large social audiences and active digital teams; Thao Ly's own posting not verified.",
+   "detail": "Clarins runs large global and regional social channels. Exact counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "French family-owned beauty group (Clarins, My Blend); strong presence in **department stores, travel retail and e-commerce**"
+   },
+   {
+    "label": "Her role",
+    "value": "**Executive Director, Marketing, Digital & Communications** (market to be confirmed)"
+   },
+   {
+    "label": "Contact",
+    "value": "thaoly.chautran@clarins.com"
+   },
+   {
+    "label": "Altavia fit",
+    "value": "**High**: prestige beauty depends on **in-store experience, POS, counters and retail activation**: Altavia's core."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Anne runs retail/shopper marketing and POS; Thao Ly owns marketing and communications."
+   },
+   "items": [
+    "**Both French-rooted organisations** (Altavia and Clarins).",
+    "**Not verified** whether Thao Ly is in Anne's LinkedIn network."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Counters that sell",
+    "text": "Prestige beauty is won **at the counter and in travel retail**. Altavia designs and runs **POS and retail activation** across many doors."
+   },
+   {
+    "title": "Connect digital and store",
+    "text": "Her remit spans **digital and communications**; show how Altavia links campaigns to **in-store execution and measurement**."
+   },
+   {
+    "title": "French heritage, US scale",
+    "text": "A partner that understands a French brand and executes in **North America**."
+   }
+  ],
+  "person": {
+   "name": "Thao Ly Chau Tran",
+   "text": "**Executive Director, Marketing, Digital & Communications** at Groupe Clarins (per Streak). She says she rarely checks LinkedIn messages: **email works better**."
+  },
+  "company": {
+   "text": "Groupe Clarins is a French family-owned beauty group known for plant-based skincare, sold through department stores, specialty retail, travel retail and its own e-commerce, with regional teams in North America, Europe and Asia."
+  },
+  "history": {
+   "text": "Thao Ly replied (Nov 4): apologised for the delay, rarely reads LinkedIn messages, and asked for 'more information about your services' at thaoly.chautran@clarins.com. Anne replied 'will do' (Nov 6). Box created Nov 6."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Clarins brand social (Instagram, TikTok, YouTube)",
+     "audience": "Very large",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn \u2014 Groupe Clarins",
+     "audience": "Large",
+     "recency": "Active",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn \u2014 Thao Ly Chau Tran",
+     "audience": "To be confirmed",
+     "recency": "Low (her words)",
+     "read": "Low"
+    }
+   ],
+   "note": "Don't follow up on LinkedIn: she prefers email."
+  },
+  "talking_points": [
+   "Which **market** does she cover (US, North America, global)?",
+   "What are her **2027 retail priorities** (counters, travel retail, new doors)?",
+   "Who runs **POS and in-store** today (in-house, agencies)?",
+   "Would a short call with **examples from beauty** be useful?"
+  ],
+  "attention": [
+   {
+    "title": "Email is overdue.",
+    "text": "Anne promised information on Nov 6: send it today."
+   },
+   {
+    "title": "Pipeline label.",
+    "text": "This Streak pipeline is marked 'on HubSpot': log the follow-up where the team actually tracks it."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation)"
+   },
+   {
+    "used": true,
+    "text": "Clarins careers and public team listings"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Altavia (Anne) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}
