@@ -7,6 +7,7 @@
 export const CLIENT_NUMBERS = {
   'finance-montreal': 175, 'finance-montreal-noza': 175, mabsilico: 200, wallix: 212, altavia: 229, valos: 233,
   'phitech-bioinformatics': 245, 'enzymicals-ag': 246, 'flying-secoya': 247, 'meteor-biotech': 248,
+  'altavia-anne': 229, 'altavia-alexandre': 229, amphasys: 250,
 };
 
 const emailsIn = (s) => [...new Set(String(s || '').split(/[,;\s]+/).map((x) => x.trim().toLowerCase()).filter((x) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(x)))];

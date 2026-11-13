@@ -1,3 +1,4 @@
+import { CLIENT_NUMBERS } from './_sources.js';
 import { loadLead, generateBrief, sendEmail, rowToBrief, clientStreakKey, getSettings, logSend } from './_lib.js';
 import { lookupFinancials } from './_financials.js';
 import { renderBrief, renderBriefText } from './_render.js';
@@ -80,13 +81,30 @@ export async function buildDraftFromLead(env, clientRow, boxKey, lead, extra = {
 // Email a brief to the client's team. Off until EMAIL_ENABLED = "true" (final format approval).
 // Recipients: the addresses listed in Settings, plus every member who ticked "email me".
 // Addresses on known look-alike domains (e.g. gershconsulting.com) are skipped and logged.
+// client.gershon.ai report recipients for this Talking Points client (number from "#233 …" or slug).
+export async function crmReportEmails(env, clientId) {
+  if (!env.CRM_KV) return [];
+  const c = await env.DB.prepare('SELECT slug, name FROM clients WHERE id = ?').bind(clientId).first();
+  if (!c) return [];
+  const no = (String(c.name).match(/#(\d+)/) || [])[1] || CLIENT_NUMBERS[c.slug];
+  if (!no) return [];
+  let settings = {};
+  try { settings = JSON.parse((await env.CRM_KV.get('v3:settings')) || '{}'); } catch { return []; }
+  const raw = (settings.clientEmails || {})[String(no)];
+  return String(Array.isArray(raw) ? raw.join(',') : raw || '').split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter((e) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e));
+}
+
 export async function recipients(env, clientId) {
   const s = await getSettings(env, clientId);
   const listed = String(s?.recipients || '').split(/[\s,;]+/).map((e) => e.trim().toLowerCase()).filter((e) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e));
   const members = (await env.DB.prepare(
     'SELECT email FROM members WHERE client_id = ? AND notify = 1 AND is_admin = 0'
   ).bind(clientId).all()).results.map((r) => r.email.toLowerCase());
-  const { ok, typos } = splitTypoEmails([...new Set([...listed, ...members])]);
+  // The client's whole team (Olivier, 2026-11-11): also everyone on the client's "send report"
+  // list in client.gershon.ai (v3:settings.clientEmails, by client number).
+  let crm = [];
+  try { crm = await crmReportEmails(env, clientId); } catch { crm = []; }
+  const { ok, typos } = splitTypoEmails([...new Set([...listed, ...members, ...crm])]);
   for (const t of typos) console.warn(`[talkingpoints] skipping recipient ${t.email}: typo domain, did you mean ${t.suggestion}?`);
   return ok;
 }
