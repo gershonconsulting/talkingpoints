@@ -1,0 +1,146 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVzLiHzgoM",
+ "company": "TeraCrystal",
+ "lead_name": "Matthias Gerlach",
+ "lead_role": "Consultant - Strategic Advisory, Business Development & CMC",
+ "stage": "Call Scheduled",
+ "data": {
+  "header": {
+   "company": "TeraCrystal (solid-state & crystallization CRO, Romania) \u2014 contact is an independent consultant",
+   "person": "Dr. Matthias Gerlach",
+   "role": "Consultant \u2014 Strategic Advisory, Business Development & CMC",
+   "location": "Germany",
+   "chips": [
+    {
+     "label": "Call Scheduled"
+    },
+    {
+     "label": "Active email thread",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Low\u2013Medium (advisor)",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Live thread:",
+    "text": "Call held around **Nov 6 (8:00 German time)**. The email thread has **8 messages**; Matthias wrote last on **Nov 13** (07:31 UTC), after Meteor's message the same morning. **Reply today** and agree the next step."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R; Contacted Nov 6; Call Scheduled Nov 8 (David K). Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/dr-matthias-gerlach-33b726185"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "**Small CRO** with a marketplace listing; Matthias's public activity not verified.",
+   "detail": "TeraCrystal (est. 2013) is listed on Scientist.com; little content found.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**TeraCrystal** (Cluj-Napoca, Romania, est. 2013): CRO for **solid-state, crystallization and analytical** services, cGMP quality system; CEO **Coca Iordache**"
+   },
+   {
+    "label": "His role",
+    "value": "**Independent consultant** in strategic advisory, BD and **CMC** (works with TeraCrystal; scope to be confirmed)"
+   },
+   {
+    "label": "Contact",
+    "value": "mat66thiasgerlach@gmail.com"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#6 Platform partner / channel** \u2014 fit: **low\u2013medium**. TeraCrystal's small-molecule CMC work doesn't use single-cell tools; value is Matthias's **network and BD advice** in European pharma."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Matthias replied to Amos and proposed the call himself."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "The whole Meteor team (Amos, David, Jenny, Alexander) is on the thread."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Advisor, not buyer",
+    "text": "Ask how he could help Meteor reach **European pharma** translational teams."
+   },
+   {
+    "title": "Clear next step",
+    "text": "Agree one action: introductions, an advisory chat, or a referral arrangement."
+   },
+   {
+    "title": "Keep it short",
+    "text": "He is a consultant: respect his time and clarify any **commercial terms** he expects."
+   }
+  ],
+  "person": {
+   "name": "Dr. Matthias Gerlach",
+   "text": "Consultant in **strategic advisory, business development and CMC** (per Streak), based in Germany. Other career details not verified."
+  },
+  "company": {
+   "text": "TeraCrystal is a Romanian contract research organisation founded in 2013 offering solid-state characterisation, crystallization and analytical services for drug candidates under a cGMP-compliant quality system."
+  },
+  "history": {
+   "text": "Matthias replied to Amos: 'Definitely we can schedule a short call on Friday morning German time; what's about 8.00 am German time', email mat66thiasgerlach@gmail.com. David emailed Nov 6; stage moved to **Call Scheduled** on Nov 8. The thread now has **8 emails** (4 sent, 4 received); latest from Matthias on **Nov 13**."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Scientist.com listing (TeraCrystal)",
+     "audience": "Pharma buyers",
+     "recency": "Active",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn \u2014 Matthias Gerlach",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Read his Nov 13 email before replying."
+  },
+  "talking_points": [
+   "What did he propose in his **latest email**?",
+   "Which **European pharma** contacts could he introduce?",
+   "Does he expect a **consulting or referral fee**?",
+   "Is there any TeraCrystal client using **cell-based assays** where CosmoSort fits?"
+  ],
+  "attention": [
+   {
+    "title": "Unanswered email.",
+    "text": "He wrote last (Nov 13): reply today."
+   },
+   {
+    "title": "Company mismatch.",
+    "text": "The box is named TeraCrystal, but he presents as an independent consultant: confirm his link to TeraCrystal."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (comment, email thread metadata, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Scientist.com and Crunchbase (TeraCrystal)"
+   },
+   {
+    "used": false,
+    "text": "Email text (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

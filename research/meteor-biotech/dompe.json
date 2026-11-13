@@ -1,0 +1,150 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVzMKLngsM",
+ "company": "Domp\u00e9",
+ "lead_name": "Mahindra Makhija",
+ "lead_role": "Head of Translational Research - Exscalate Drug Discovery and Development",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Domp\u00e9 farmaceutici (Milan) \u2014 Exscalate Drug Discovery & Development",
+   "person": "Mahindra Makhija, PhD",
+   "role": "Head of Translational Research, Exscalate",
+   "location": "Italy (to be confirmed)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: High (#2 translational)",
+     "tone": "good"
+    },
+    {
+     "label": "Info sent Nov 10 \u2014 opened 6x",
+     "tone": "good"
+    },
+    {
+     "label": "Non-confidential only",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Follow up:",
+    "text": "Mahindra asked for **non-confidential information** before deciding on a call. **Jenny sent it on Nov 10** (8 files); Streak shows it **viewed 6 times**, last on **Nov 12**. Send a short follow-up proposing a **20-minute call** with Amos."
+   },
+   "source_line": "Lead added to Streak on Nov 9, 2026 by Juliana R; moved to Contacted Nov 10 by Jenny P. Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/mahindramakhija"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Domp\u00e9 and Exscalate communicate well** (AI platform, SAS case study, open-innovation partnerships); Mahindra's posting not verified.",
+   "detail": "Exscalate is promoted as a supercomputing/AI drug-discovery platform. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Italian family-owned biopharma, **\u20ac1.7B sales (2025)**; first approved rhNGF (**cenegermin**) for a rare eye disease"
+   },
+   {
+    "label": "Exscalate",
+    "value": "In-house **AI/supercomputing** drug-discovery platform with an **open-innovation** partnering model"
+   },
+   {
+    "label": "His remit",
+    "value": "Translates internal programmes and **evaluates external opportunities** in rare and non-rare diseases"
+   },
+   {
+    "label": "Contact",
+    "value": "mahindra.makhija@ext.dompe.com"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Pharma translational teams** \u2014 fit: **high**. He owns translation and external opportunities; CosmoSort's **image-guided single-cell isolation** supports biomarker and mechanism work."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Scientist-to-scientist: Amos can explain how CosmoSort links tissue images to single-cell omics."
+   },
+   "items": [
+    "**No shared employer, school or co-author verified.**",
+    "Mahindra spent **16 years at Takeda** in translational and external innovation (rare disease)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Translation needs the right cells",
+    "text": "CosmoSort lets teams **pick cells by what they look like in tissue** and sequence them: evidence for mechanism and patient selection."
+   },
+   {
+    "title": "Fits open innovation",
+    "text": "Exscalate partners externally; Meteor can run a **pilot as a service** on one programme."
+   },
+   {
+    "title": "Rare disease, small samples",
+    "text": "Image-guided isolation gets more information from **scarce tissue**."
+   }
+  ],
+  "person": {
+   "name": "Mahindra Makhija, PhD",
+   "text": "Head of Translational Research at Domp\u00e9 since **Sept 2023**. Previously **Takeda (2007\u20132023)**, incl. Director of Translational and External Innovation Lead in rare disease; earlier **Eurofins** (strategic alliances), **ALTANA AG** and the Western Australian Biomedical Research Institute. PhD and Master's in medicinal/pharmaceutical chemistry (UDCT; Curtin University)."
+  },
+  "company": {
+   "text": "Domp\u00e9 farmaceutici (Milan) works across the pharma value chain with a primary-care and biotech business, a manufacturing hub in L'Aquila, and a US presence. It developed Exscalate, a structure-based virtual screening and AI platform with one of the largest enumerated chemical libraries, and uses SAS to industrialise AI models (ProfhEX)."
+  },
+  "history": {
+   "text": "Mahindra replied to Amos: 'please send some information about your technology to decide if a call would be useful', gave mahindra.makhija@ext.dompe.com and asked for **non-confidential information only**. Jenny emailed on **Nov 10** with Amos in copy (8 files); the email was **viewed 6 times**, last on Nov 12. No reply logged yet."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Domp\u00e9 / Exscalate website & press",
+     "audience": "Pharma, partners",
+     "recency": "Active",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn \u2014 Mahindra Makhija",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Six opens means interest: follow up now."
+  },
+  "talking_points": [
+   "Which **translational questions** (mechanism, biomarkers, patient selection) are open in his programmes?",
+   "Does Domp\u00e9 work with **tissue samples** in rare diseases where cells are scarce?",
+   "How does Exscalate decide on **external technology pilots**?",
+   "Would a **pilot on one sample set** be possible?"
+  ],
+  "attention": [
+   {
+    "title": "Non-confidential only.",
+    "text": "Keep follow-ups non-confidential until an NDA exists."
+   },
+   {
+    "title": "External email.",
+    "text": "His address is **@ext.dompe.com**: he may be a contractor or a newer employee."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (comment, email thread metadata, views)"
+   },
+   {
+    "used": true,
+    "text": "theorg.com profile; Domp\u00e9 and Exscalate pages; SAS case study"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

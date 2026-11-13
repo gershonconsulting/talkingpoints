@@ -1,0 +1,150 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlczm6_oIDA",
+ "company": "Reinsurance Group of America (RGA)",
+ "lead_name": "John Sherman",
+ "lead_role": "Managing Director - Head Trader / Portfolio Manager",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Reinsurance Group of America, Incorporated (NYSE: RGA)",
+   "person": "John Sherman",
+   "role": "Managing Director \u2014 Head Trader / Portfolio Manager",
+   "location": "United States (to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Open to call next week",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Book the call:",
+    "text": "John offered 'this weekend' or 'a few times over the next week'. He asked to use **sherman@homemail.com**. **Noza emails now** with slots."
+   },
+   "source_line": "Lead added to Streak on Nov 9, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/johntsherman"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Fortune 500 reinsurer** with active corporate channels; John's own activity not verified.",
+   "detail": "RGA publishes regularly (results, research, careers). Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "One of the largest global **life and health reinsurers** (NYSE: RGA), HQ Chesterfield, Missouri; about **US$3.5 trillion** of life reinsurance in force"
+   },
+   {
+    "label": "His seat",
+    "value": "Investments: **trading and portfolio management** (fixed income / structured credit)"
+   },
+   {
+    "label": "Contact",
+    "value": "sherman@homemail.com (personal, his choice) \u00b7 john.sherman@rgare.com (work, from the note)"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#3 Insurance / asset management** \u2014 fit: **medium**. RGA has Canadian operations (to be confirmed for Montreal); investment **operations, risk and analytics** support is the angle."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the conversation; Noza takes the call."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Both sides speak **fixed income and institutional investment**."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "John Sherman",
+   "text": "**Managing Director, Head Trader / Portfolio Manager** at RGA (per Streak). Other details not verified; do not confuse with **James E. Sherman**, RGA's former General Counsel."
+  },
+  "company": {
+   "text": "RGA is a Fortune 500 global reinsurer focused on life and health, offering individual and group life reinsurance, living benefits, financial solutions and facultative underwriting. Its investment organisation runs credit, structured-product and liability-driven portfolios."
+  },
+  "history": {
+   "text": "John replied: 'Does this weekend work? If not, send me a few times over the next week or so.' Steve said a colleague would be available next week and asked for an email; John gave **sherman@homemail.com**."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 RGA",
+     "audience": "To be confirmed",
+     "recency": "Active",
+     "read": "Corporate"
+    },
+    {
+     "channel": "LinkedIn \u2014 John Sherman",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Use email; he prefers his personal address."
+  },
+  "talking_points": [
+   "Where do RGA's **investment operations, risk and analytics** teams sit today?",
+   "Does RGA's **Canadian** business use Montreal or only Toronto (to be confirmed)?",
+   "Would a New York-hours **trading support or middle-office** team in Montreal be relevant?",
+   "Who decides **locations** for investment operations at RGA?"
+  ],
+  "attention": [
+   {
+    "title": "Personal email.",
+    "text": "He chose a personal address: keep it short and avoid attachments with sensitive data."
+   },
+   {
+    "title": "Verify the work email.",
+    "text": "The note mentions john.sherman@rgare.com; confirm before using it."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "RGA job postings and public company descriptions"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}
