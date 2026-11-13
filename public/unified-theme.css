@@ -21,7 +21,7 @@
 html:root{
   /* BRAND RED: the ONE line to change. #CC3333 (Gershon.ai red, as in PR #18) vs #FE1B04 (Talking
      Points today) is still an open decision for Olivier. Every red shade below is derived from it. */
-  --gx-red:#CC3333;
+  --gx-red:#FE1B04;
   --gx-red-dark:color-mix(in srgb, var(--gx-red) 82%, #000);
   --gx-red-light:color-mix(in srgb, var(--gx-red) 6%, #fff);
   --gx-red-line:color-mix(in srgb, var(--gx-red) 25%, #fff);
