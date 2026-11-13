@@ -1,0 +1,115 @@
+{
+ "client": "altavia-anne",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJW86dPQCww",
+ "company": "Benefit Cosmetics",
+ "lead_name": "Lola Valerius de Beffort",
+ "lead_role": "Sustainability Lead",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Benefit Cosmetics (LVMH)",
+   "person": "Lola Valerius de Beffort",
+   "role": "Sustainability Lead (POSM)",
+   "location": "San Francisco (to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Call: Fri Nov 13, 10 AM PST",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Call today:",
+    "text": "Lola manages the **sustainability side of POSM** (point-of-sale materials) and is available **Friday after 10 AM** (her time). Email **lolav@benefitcosmetics.com** (Streak shows a trailing dot: check)."
+   },
+   "source_line": "Lead added to Streak on Nov 11, 2026 by Juliana R. Source: LinkedIn messaging (as Anne).",
+   "linkedin_url": "https://www.linkedin.com/in/lola-valerius-de-beffort-832b7822a"
+  },
+  "grade": {
+   "letter": "A",
+   "headline": "Very strong consumer brand with large social audiences.",
+   "detail": "Lola's own activity not verified.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Benefit Cosmetics: San Francisco beauty brand owned by **LVMH**, sold through Sephora, department stores and its own boutiques"
+   },
+   {
+    "label": "Her remit",
+    "value": "**Sustainability of POSM** (displays, fixtures, in-store materials)"
+   },
+   {
+    "label": "Contact",
+    "value": "lolav@benefitcosmetics.com"
+   },
+   {
+    "label": "Altavia fit",
+    "value": "**High**: Altavia designs and runs **POS programmes**; **eco-designed POSM** is a direct match."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Anne Bougel",
+    "reason": "Anne runs retail/POS programmes; Lola owns POSM sustainability."
+   },
+   "items": [
+    "**No shared employer verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Eco-designed POSM",
+    "text": "Lower-impact materials, reuse and take-back for counters and displays."
+   },
+   {
+    "title": "Measure it",
+    "text": "Offer **impact measurement** of POSM programmes."
+   }
+  ],
+  "person": {
+   "name": "Lola Valerius de Beffort",
+   "text": "Sustainability Lead for POSM at Benefit Cosmetics (per Streak)."
+  },
+  "company": {
+   "text": "Benefit Cosmetics is an LVMH-owned beauty brand founded in San Francisco."
+  },
+  "history": {
+   "text": "Lola: 'I manage the Sustainability side of our POSM targets. If that is in scope, happy to discuss.' She gave her email and said she is available Friday after 10 AM."
+  },
+  "talking_points": [
+   "What are Benefit's **POSM sustainability targets**?",
+   "Who designs and produces POSM today?",
+   "Which markets are in scope (US, global)?"
+  ],
+  "attention": [
+   {
+    "title": "Today.",
+    "text": "Call slot is today: confirm the invite was sent."
+   },
+   {
+    "title": "Email typo.",
+    "text": "The address in Streak ends with a dot."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Altavia (Anne) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

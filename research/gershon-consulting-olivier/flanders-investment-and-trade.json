@@ -1,0 +1,96 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlZyUzJIKDA",
+ "company": "Flanders Investment and Trade",
+ "lead_name": "Katrien Leinders",
+ "lead_role": "Flemish Economic & Commercial Representative, New York",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Flanders Investment & Trade (FIT), New York",
+   "person": "Katrien Leinders",
+   "role": "Flemish Economic & Commercial Representative",
+   "location": "New York",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "Invite accepted Nov 12",
+     "tone": "good"
+    },
+    {
+     "label": "Channel partner",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting accepted:",
+    "text": "Katrien **accepted** the 'US Expansion Meeting' invite on Nov 12. Check the date in your calendar."
+   },
+   "source_line": "Box created Nov 12, 2026 by Juliana R. Source: Olivier's outreach (Nov 4)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Government agency.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Organisation",
+    "value": "Flanders' trade and investment agency"
+   },
+   {
+    "label": "Contact",
+    "value": "katrien.leinders@fitagency.com"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Channel partner** \u2014 trade-promotion bodies can refer **European SMEs entering the US** to Gershon (Gershon ICP)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier ran the outreach."
+   },
+   "items": [
+    "Ansana's team is partly **Belgian (Flanders)**."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Referral partnership",
+    "text": "Gershon for Flemish SMEs needing US outbound."
+   }
+  ],
+  "person": {
+   "name": "Katrien Leinders",
+   "text": "Flemish Economic & Commercial Representative in New York."
+  },
+  "company": {
+   "text": "FIT supports Flemish companies abroad."
+  },
+  "history": {
+   "text": "Olivier emailed Nov 4; 8 messages; invite accepted Nov 12."
+  },
+  "talking_points": [
+   "Which Flemish sectors are most active in the US?",
+   "Can Gershon present at a FIT event?"
+  ],
+  "attention": [],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

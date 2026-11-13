@@ -1,0 +1,115 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldya9N4JDA",
+ "company": "Standard Chartered",
+ "lead_name": "Alan Tilyard",
+ "lead_role": "Managing Director and Head of Investigations, Asia; Group Investigations",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Standard Chartered \u2014 Group Investigations",
+   "person": "Alan Tilyard",
+   "role": "MD, Head of Investigations, Asia",
+   "location": "Hong Kong",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Open to connect",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium (compliance)",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Alan: 'Happy to connect if diaries align' over email (**alan.tilyard@sc.com**). Send Noza's Hong Kong dates. Finance Montr\u00e9al already has two other Standard Chartered conversations: coordinate."
+   },
+   "source_line": "Lead added to Streak on Nov 12, 2026 by Juliana R. Source: LinkedIn messaging (as Noza)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Very large bank brand; Alan's own activity not verified.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Standard Chartered: international bank focused on Asia, Africa and the Middle East"
+   },
+   {
+    "label": "His role",
+    "value": "Leads **investigations** (financial crime, misconduct) for Asia within Group Investigations"
+   },
+   {
+    "label": "Contact",
+    "value": "alan.tilyard@sc.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Global Banks** \u2014 fit: **medium**: **compliance, investigations and financial-crime** teams are a classic nearshore function; Montreal has a deep compliance talent pool."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Alan replied to Noza."
+   },
+   "items": [
+    "**No shared employer or school verified.**",
+    "Finance Montr\u00e9al is also talking to **Jacqui Maughan** and **Timothy Tan** (Standard Chartered, Singapore)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Investigations from the Americas",
+    "text": "An Americas-hours **investigations / financial-crime** team in Montreal could cover New York cases at lower cost."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**; eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Alan Tilyard",
+   "text": "Managing Director and Head of Investigations, Asia, Group Investigations at Standard Chartered (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "Standard Chartered is a London-headquartered bank with most revenue from Asia, Africa and the Middle East."
+  },
+  "history": {
+   "text": "Alan replied (Nov 10): happy to connect if diaries align, by email."
+  },
+  "talking_points": [
+   "How is **investigations** capacity spread across regions?",
+   "Any plans to build **Americas-hours** coverage?",
+   "Who owns location decisions for Group Investigations?"
+  ],
+  "attention": [
+   {
+    "title": "Three Standard Chartered threads.",
+    "text": "Align with the Jacqui Maughan and Timothy Tan conversations."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

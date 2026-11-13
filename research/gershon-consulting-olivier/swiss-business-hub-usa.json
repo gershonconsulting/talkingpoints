@@ -1,0 +1,106 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYLc8-sKDA",
+ "company": "Swiss Business Hub USA",
+ "lead_name": "Florin M\u00fcller",
+ "lead_role": "Head, Swiss Business Hub USA (New York)",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Swiss Business Hub USA (Switzerland Global Enterprise / Swiss consulate)",
+   "person": "Florin M\u00fcller",
+   "role": "Head, Swiss Business Hub USA",
+   "location": "New York",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "Meeting held today 8:30 AM",
+     "tone": "good"
+    },
+    {
+     "label": "Channel partner",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting was today:",
+    "text": "US Expansion Meeting **Fri Nov 13, 8:30\u20139:00 AM EST** (accepted). Log notes and agree the next step (referrals of Swiss SMEs)."
+   },
+   "source_line": "Box created Nov 13, 2026 by Juliana R. Source: Olivier's outreach (Nov 4)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Government trade body; communicates via official channels.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Organisation",
+    "value": "Official Swiss trade-promotion hub for the US"
+   },
+   {
+    "label": "Contact",
+    "value": "florin.mueller@eda.admin.ch"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Channel partner** \u2014 trade-promotion bodies can refer **European SMEs entering the US** to Gershon (Gershon ICP)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier ran the outreach."
+   },
+   "items": [
+    "**Amphasys** (Swiss) is a Gershon reference client."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Referral partnership",
+    "text": "Gershon as a vetted provider for Swiss SMEs' US go-to-market."
+   },
+   {
+    "title": "Swiss reference",
+    "text": "Use **Amphasys** as a Swiss example."
+   }
+  ],
+  "person": {
+   "name": "Florin M\u00fcller",
+   "text": "Head of Swiss Business Hub USA, New York."
+  },
+  "company": {
+   "text": "Swiss Business Hubs promote Swiss exporters abroad on behalf of the Swiss government."
+  },
+  "history": {
+   "text": "Olivier emailed Nov 4; Florin replied and accepted the updated invite for Nov 13, 8:30 AM EST."
+  },
+  "talking_points": [
+   "How do Swiss SMEs find **US go-to-market** providers through the Hub?",
+   "Can Gershon join a **provider list or webinar**?",
+   "Which sectors are most active?"
+  ],
+  "attention": [
+   {
+    "title": "Log the meeting.",
+    "text": "Add notes to Streak."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

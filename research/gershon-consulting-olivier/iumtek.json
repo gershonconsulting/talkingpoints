@@ -1,0 +1,102 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldzVnLYIDA",
+ "company": "iUMTEK",
+ "lead_name": "Ronald Berger-Lef\u00e9bure",
+ "lead_role": "Founder, President",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "iUMTEK (LIBS real-time chemical analysers, Paris-Saclay)",
+   "person": "Ronald Berger-Lef\u00e9bure",
+   "role": "Founder & President",
+   "location": "Orsay, France",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "No reply yet",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Check status:",
+    "text": "Box is in **Scheduled**, but Streak shows **2 emails sent, none received**. Task due **Nov 26**. Confirm a meeting is really booked."
+   },
+   "source_line": "Box created Nov 11, 2026 by Olivier. Source: Olivier's outreach."
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Small deeptech; news via French innovation press.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Deeptech start-up (2017) co-founded with **CEA Investissement**; **LIBS** in-situ, real-time chemical analysers (TX 1000); ~8\u201310 staff; ~\u20ac430k revenue (directory)"
+   },
+   {
+    "label": "Contacts",
+    "value": "ronald.bergerlefebure@iumtek.com \u00b7 benoit.peller@iumtek.com"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**European SME, industrial deeptech** \u2014 fit: **medium**: US industrial buyers need a long sales cycle."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier is French and emailed Ronald directly."
+   },
+   "items": [
+    "**No shared employer verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "US industrial pilots",
+    "text": "Find US recycling / metals / chemicals plants for **pilot installations**."
+   }
+  ],
+  "person": {
+   "name": "Ronald Berger-Lef\u00e9bure",
+   "text": "Founder & President of iUMTEK; earlier at Spigraph, Groupe Picto, Pitney Bowes, Jouve, Arrow Electronics and Intel."
+  },
+  "company": {
+   "text": "iUMTEK designs in-situ, real-time chemical analysers based on LIBS for industry and the circular economy; incubated at IncubAlliance and Air Liquide's Accelair; planned a \u20ac3\u20135M raise in 2025."
+  },
+  "history": {
+   "text": "Olivier sent two emails (Nov 10\u201311); no reply logged. Stage set to Scheduled by Olivier on Nov 11."
+  },
+  "talking_points": [
+   "Which **US industries** are they targeting first?",
+   "Has the fundraise closed?",
+   "Who would own US sales?"
+  ],
+  "attention": [
+   {
+    "title": "Stage may be wrong.",
+    "text": "No reply logged yet."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

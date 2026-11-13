@@ -1,0 +1,112 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJW8majiCAw",
+ "company": "Grifols",
+ "lead_name": "Ashley Bamfo",
+ "lead_role": "Senior Regulatory Affairs Specialist",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Grifols (plasma-derived therapies) \u2014 contact has left",
+   "person": "Ashley Bamfo, MPH, PMP",
+   "role": "Former Senior Regulatory Affairs Specialist",
+   "location": "United States",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "No longer at Grifols",
+     "tone": "warn"
+    },
+    {
+     "label": "Keep warm",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Not a live Grifols lead:",
+    "text": "Ashley told Dmitri she was **laid off from Grifols**. She shared a personal email (**ashbamfo@gmail.com**) so Dmitri can check in later. Juliana's note: 'for later stage'. Treat as a **network contact**, not a Grifols opportunity."
+   },
+   "source_line": "Lead added to Streak on Nov 11, 2026 by Juliana R. Source: LinkedIn messaging (as Dmitri).",
+   "linkedin_url": "https://www.linkedin.com/in/ashley-bamfo"
+  },
+  "grade": {
+   "letter": "\u2014",
+   "headline": "Not graded: the contact no longer represents Grifols.",
+   "detail": "Grifols itself is a large listed company with strong corporate channels.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Grifols: global plasma-derived medicines group (immunology, rare diseases)"
+   },
+   {
+    "label": "Contact status",
+    "value": "**Left Grifols** (laid off); personal email only"
+   },
+   {
+    "label": "Valos ICP",
+    "value": "**#2 Biotech / pharma Clin Ops** \u2014 fit for Grifols: **good on paper**, but this contact can't open the door. Find the current regulatory/biostatistics owner at Grifols instead."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "Dmitri ran the 10-month LinkedIn thread and Ashley stayed friendly."
+   },
+   "items": [
+    "**No shared employer or school verified.**",
+    "Dmitri pitched Valos's immunology and rare-disease work, which fits Grifols' plasma therapies."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Stay in touch",
+    "text": "Ask where she lands next: a new employer may need biostatistics."
+   },
+   {
+    "title": "Ask for a Grifols referral",
+    "text": "Ask who now handles regulatory submissions and CRO coordination at Grifols."
+   }
+  ],
+  "person": {
+   "name": "Ashley Bamfo",
+   "text": "MPH, PMP. Former Senior Regulatory Affairs Specialist at Grifols, involved in regulatory submissions and CRO coordination (per Dmitri's message). Currently between roles."
+  },
+  "company": {
+   "text": "Grifols is a Spanish multinational producing plasma-derived medicines, with large US operations."
+  },
+  "history": {
+   "text": "Dmitri followed up from January to October 2026. On Oct 25 Ashley replied she had been laid off from Grifols. On Nov 11 she shared ashbamfo@gmail.com for a later check-in."
+  },
+  "talking_points": [
+   "Where is she heading next, and could Valos help there?",
+   "Who at Grifols took over regulatory submissions / CRO coordination?",
+   "Would she introduce Dmitri to that person?"
+  ],
+  "attention": [
+   {
+    "title": "Low priority.",
+    "text": "No active opportunity; a light check-in in a few months."
+   },
+   {
+    "title": "Sensitive.",
+    "text": "She was laid off: keep the tone supportive."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Valos \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

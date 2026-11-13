@@ -1,0 +1,112 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJXM7o6bCAw",
+ "company": "Vertex Pharmaceuticals",
+ "lead_name": "Yidnek Mogessie",
+ "lead_role": "Clinical Development Associate Medical Director",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Vertex Pharmaceuticals (Boston)",
+   "person": "Yidnek Mogessie, MD, MPH, MBA",
+   "role": "Associate Medical Director, Clinical Development",
+   "location": "Boston, MA",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Call booked Nov 12",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Call was yesterday:",
+    "text": "A call was booked for **Thursday Nov 12 at 11 AM EST**; Yidnek emailed **\u00d6zge** on Nov 11. **Log the call notes in Streak** and send the agreed follow-up."
+   },
+   "source_line": "Lead added to Streak on Nov 11, 2026 by Juliana R. Source: LinkedIn (as PhiTech).",
+   "linkedin_url": "https://www.linkedin.com/in/yidnek-mogessie-md-mph-mba-53776613a"
+  },
+  "grade": {
+   "letter": "A",
+   "headline": "Vertex is a large biotech with very strong corporate and scientific channels.",
+   "detail": "Yidnek's own activity not verified.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Vertex: large Boston biotech known for **cystic fibrosis** medicines, expanding into other genetic and rare diseases"
+   },
+   {
+    "label": "His role",
+    "value": "Clinical development physician (MD, MPH, MBA)"
+   },
+   {
+    "label": "Contact",
+    "value": "yidnek_mogessie@vrtx.com"
+   },
+   {
+    "label": "PhiTech ICP",
+    "value": "**Pharma clinical development in rare / genetic disease** \u2014 fit: **medium**: interest in PhiTech's **multi-omics precision-medicine platform** for patient stratification; budget holder to be confirmed."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "\u00d6zge G\u00fcney",
+    "reason": "Yidnek wrote to \u00d6zge directly."
+   },
+   "items": [
+    "**No shared employer or school verified.**",
+    "PhiTech's pitch (rare diseases, hereditary cancers) overlaps Vertex's genetic-disease focus."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Patient stratification",
+    "text": "Multi-omics can help pick and stratify patients in **genetic-disease** trials."
+   },
+   {
+    "title": "Start small",
+    "text": "Propose a pilot on a retrospective dataset."
+   }
+  ],
+  "person": {
+   "name": "Yidnek Mogessie",
+   "text": "MD, MPH, MBA; Clinical Development Associate Medical Director at Vertex (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "Vertex Pharmaceuticals is a Boston-based biotech with a leading cystic fibrosis franchise and a growing pipeline in genetic and rare diseases."
+  },
+  "history": {
+   "text": "LinkedIn outreach about PhiTech's multi-omics platform; a call was booked for Thursday Nov 12, 11 AM EST. Yidnek emailed \u00d6zge on Nov 11. No call notes in Streak yet."
+  },
+  "talking_points": [
+   "What came out of the Nov 12 call?",
+   "Which programmes could use **genomic / multi-omics stratification**?",
+   "Who decides on external data partners at Vertex?"
+  ],
+  "attention": [
+   {
+    "title": "Missing notes.",
+    "text": "Add the Nov 12 call notes to Streak."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for PhiTech Bioinformatics \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

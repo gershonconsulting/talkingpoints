@@ -1,0 +1,101 @@
+{
+ "client": "gershon-consulting-julien",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVzJXJxQgM",
+ "company": "Ansana",
+ "lead_name": "Arnoud van den Berge",
+ "lead_role": "CCO",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Ansana (OR asset & instrument management, Maastricht)",
+   "person": "Arnoud van den Berge",
+   "role": "CCO (CEO: Dominique Surinx)",
+   "location": "Netherlands",
+   "chips": [
+    {
+     "label": "Call Scheduled"
+    },
+    {
+     "label": "Meeting Thu Nov 19",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting booked:",
+    "text": "First meeting of **campaign CC01**: Arnoud booked **Thursday Nov 19**. Same company as Olivier's GC Pipeline box: coordinate."
+   },
+   "source_line": "Box created Nov 9, 2026 by Olivier (GC Campaigns). Source: campaign CC01."
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Small company.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Dutch medtech, ~6 staff, \u20ac1.5M seed; in the **TMC BioBridge** accelerator (Houston)"
+   },
+   {
+    "label": "Caveat",
+    "value": "Has a Delaware entity and attended US congresses in 2026"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**High**"
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier sent the intro."
+   },
+   "items": [
+    "Reference client in the intro: **Amphasys**."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "US sales without a US team",
+    "text": "Outbound + representation for a 6-person team."
+   }
+  ],
+  "person": {
+   "name": "Arnoud van den Berge",
+   "text": "CCO of Ansana."
+  },
+  "company": {
+   "text": "Ansana helps hospitals manage OR assets and surgical instruments."
+  },
+  "history": {
+   "text": "Intro Nov 10; CCO replied in 52 minutes and booked Nov 19."
+  },
+  "talking_points": [
+   "Houston residency outcomes?",
+   "US buyer targets?"
+  ],
+  "attention": [
+   {
+    "title": "Duplicate box.",
+    "text": "Ansana is in both GC Pipeline and GC Campaigns."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Julien) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

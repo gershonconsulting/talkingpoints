@@ -1,0 +1,101 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlbzmrPEIDA",
+ "company": "SARIO",
+ "lead_name": "Vladim\u00edr Lackovi\u010d",
+ "lead_role": "Special Representative to the US for Trade and Investment",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "SARIO (Slovak Investment and Trade Development Agency)",
+   "person": "Vladim\u00edr Lackovi\u010d",
+   "role": "Special Representative to the US for Trade and Investment, Ministry of Economy of Slovakia",
+   "location": "New York",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "Meeting date to confirm",
+     "tone": "warn"
+    },
+    {
+     "label": "Channel partner",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting set:",
+    "text": "Thread 'Helping Slovak companies succeed in the US': Vladim\u00edr wrote 'looking forward to it' (Nov 10). Streak task due **Nov 17**. **Egon Zorad** (SARIO) is also on the thread."
+   },
+   "source_line": "Box created Nov 12, 2026 by Juliana R. Source: Olivier's outreach (Nov 4)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Government agency.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Organisation",
+    "value": "Slovakia's trade and investment agency"
+   },
+   {
+    "label": "Contact",
+    "value": "vladimir.lackovic@sario.sk \u00b7 +1 646 322 1154"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Channel partner** \u2014 trade-promotion bodies can refer **European SMEs entering the US** to Gershon (Gershon ICP)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier ran the outreach."
+   },
+   "items": [
+    "**No shared contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Referral partnership",
+    "text": "Gershon as a US go-to-market provider for Slovak exporters."
+   }
+  ],
+  "person": {
+   "name": "Vladim\u00edr Lackovi\u010d",
+   "text": "Special Representative to the US for Trade and Investment, Ministry of Economy of the Slovak Republic."
+  },
+  "company": {
+   "text": "SARIO promotes Slovak exports and foreign investment."
+  },
+  "history": {
+   "text": "Olivier emailed Nov 4; 6-message thread; Vladim\u00edr confirmed on Nov 10."
+  },
+  "talking_points": [
+   "Which Slovak companies are targeting the US?",
+   "How does SARIO work with private providers?"
+  ],
+  "attention": [
+   {
+    "title": "Confirm the date.",
+    "text": "Meeting date not visible in Streak."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

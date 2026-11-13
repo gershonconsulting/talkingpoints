@@ -1,0 +1,123 @@
+{
+ "client": "altavia-alexandre",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVzM62zggM",
+ "company": "Canac",
+ "lead_name": "J\u00e9r\u00f4me Laberge",
+ "lead_role": "",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Canac (hardware & building-materials retailer, Qu\u00e9bec)",
+   "person": "J\u00e9r\u00f4me Laberge",
+   "role": "Management (Laberge family business \u2014 role to confirm)",
+   "location": "Qu\u00e9bec, Canada",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Wants info by email",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    },
+    {
+     "label": "French",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Send information in French:",
+    "text": "J\u00e9r\u00f4me asked (in French) for **an email with more information** to explore with the **company's management committee**: **Jerome.laberge@canac.ca**. Reply **in French**."
+   },
+   "source_line": "Lead added to Streak on Nov 10, 2026 by Nicolette J. Source: LinkedIn Sales Navigator (as Alexandre)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Strong regional retail brand with weekly flyers and store-opening news.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Canac: Qu\u00e9bec's first independent hardware and building-materials chain, owned by **Groupe Laberge** since 1985; about **38 stores**"
+   },
+   {
+    "label": "Growth",
+    "value": "Largest-ever store opened in **Laval** (Feb 2026, **C$35M+**)"
+   },
+   {
+    "label": "Contact",
+    "value": "Jerome.laberge@canac.ca"
+   },
+   {
+    "label": "Altavia fit",
+    "value": "**High**: weekly **flyers**, in-store promotions and new-store launches are Altavia's core retail-marketing work."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Alexandre Rouleau",
+    "reason": "J\u00e9r\u00f4me replied to Alexandre's outreach."
+   },
+   "items": [
+    "**Family business:** J\u00e9r\u00f4me likely belongs to the **Laberge** owning family (to be confirmed).",
+    "Both francophone; Altavia has French roots."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Flyers and in-store, together",
+    "text": "Canac lives on its **weekly flyer** and big stores: Altavia can link print, digital and in-store."
+   },
+   {
+    "title": "Show a Qu\u00e9bec case",
+    "text": "A francophone retail example will speak to the management committee."
+   }
+  ],
+  "person": {
+   "name": "J\u00e9r\u00f4me Laberge",
+   "text": "At Canac; shares the name of the owning Laberge family. Exact role to be confirmed."
+  },
+  "company": {
+   "text": "Canac is a Qu\u00e9bec home-improvement chain founded over 145 years ago, acquired by Groupe Laberge in 1985, with stores across Qu\u00e9bec and a large new store in Laval (2026)."
+  },
+  "history": {
+   "text": "J\u00e9r\u00f4me wrote in French asking for an email with more information to explore with the management committee."
+  },
+  "talking_points": [
+   "What are Canac's **marketing priorities for 2027** (flyer, digital, new stores)?",
+   "Who runs **flyers and in-store** today?",
+   "Would a meeting with the management committee be possible?"
+  ],
+  "attention": [
+   {
+    "title": "Reply in French.",
+    "text": "He wrote in French."
+   },
+   {
+    "title": "Alexandre's email set.",
+    "text": "Alexandre (arouleau@altavia.co) now receives talking points."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Canac website and reports, Hardlines, Narcity (2026)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Altavia (Alexandre) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

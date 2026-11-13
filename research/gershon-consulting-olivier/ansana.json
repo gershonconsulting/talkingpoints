@@ -1,0 +1,110 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldzqpL8LDA",
+ "company": "Ansana",
+ "lead_name": "Arnoud van den Berge",
+ "lead_role": "CCO",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Ansana (OR asset & instrument management, Maastricht)",
+   "person": "Arnoud van den Berge",
+   "role": "CCO",
+   "location": "Netherlands",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "Meeting Thu Nov 19",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting booked:",
+    "text": "Arnoud booked **Thursday Nov 19**. CEO **Dominique Surinx** is on the thread. Ansana is in the **TMC BioBridge** accelerator in Houston."
+   },
+   "source_line": "Box created Nov 12, 2026 by Juliana R. Source: campaign CC01 (Olivier)."
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Small company; news via its own site and accelerator listings.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Dutch medtech: **total asset & instrument management for operating rooms**; ~6 staff; **\u20ac1.5M seed** (Sept 2025)"
+   },
+   {
+    "label": "US step",
+    "value": "Selected for the **TMC BioBridge Accelerator**, Texas Medical Center; Houston residency **Nov 9\u201313, 2026**"
+   },
+   {
+    "label": "Caveat",
+    "value": "Already lists **Ansana Inc** (Delaware mailbox) and attended **AORN, HSPA, AHRMM** in 2026: don't say they have no US presence"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**European SME entering the US** \u2014 fit: **high**."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier's intro got a reply in 52 minutes."
+   },
+   "items": [
+    "**Amphasys** was the reference client in the intro."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "US sales without a US team",
+    "text": "Gershon's outbound + representation fits a 6-person team."
+   },
+   {
+    "title": "Build on Houston",
+    "text": "Turn BioBridge contacts into a hospital pipeline."
+   }
+  ],
+  "person": {
+   "name": "Arnoud van den Berge",
+   "text": "CCO of Ansana (global role, Europe-based)."
+  },
+  "company": {
+   "text": "Ansana (Maastricht) helps hospitals manage OR assets and surgical instruments; NLC Health Ventures venture-build."
+  },
+  "history": {
+   "text": "Intro sent Nov 10 to CEO; CCO replied within the hour and booked Thursday Nov 19."
+  },
+  "talking_points": [
+   "What came out of the **Houston** residency?",
+   "Which US hospital buyers are they targeting?",
+   "Budget and timeline for US sales?"
+  ],
+  "attention": [
+   {
+    "title": "Don't say 'no US presence'.",
+    "text": "They have a Delaware entity and attended US congresses."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

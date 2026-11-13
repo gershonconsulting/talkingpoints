@@ -1,0 +1,115 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVnJqK_QsM",
+ "company": "BLUU",
+ "lead_name": "Andre Schiefner",
+ "lead_role": "VP Research and Development",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "BLUU (cultivated fish cells, Germany)",
+   "person": "Andre Schiefner",
+   "role": "VP Research and Development",
+   "location": "Germany",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Email opened + links clicked",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Follow up:",
+    "text": "Jenny emailed Andre on **Nov 13** (Amos, Alexander, David in copy); he **opened it 3 times and clicked links 6 times** within an hour. Propose a **call slot** now."
+   },
+   "source_line": "Lead added to Streak on Nov 12, 2026 by Juliana R; Contacted Nov 13 by Jenny P. Source: LinkedIn (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/andre-schiefner-58535874"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Active news flow: industrial platform with Cultivate at Scale (Apr 2026), move into beauty/health ingredients.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "BLUU (formerly Bluu Seafood/Biosciences), founded 2020 in Berlin, HQ Hamburg; Europe's first company focused on **cultivated fish cells**"
+   },
+   {
+    "label": "Recent",
+    "value": "**Industrial platform** in Maastricht with Cultivate at Scale (Apr 2026), scaling to **1,000-litre** bioreactors and targeting **personal care** first"
+   },
+   {
+    "label": "Contact",
+    "value": "andre@bluu.bio"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#6 Platform / biomanufacturing** \u2014 fit: **medium**: cell-line development and **clone selection** may benefit from image-guided cell isolation."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Scientist-to-scientist on cell lines."
+   },
+   "items": [
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Better cell lines, faster",
+    "text": "Image-guided isolation can help pick **high-performing clones** for scale-up."
+   },
+   {
+    "title": "Strike while engaged",
+    "text": "He clicked through the email six times: propose a time now."
+   }
+  ],
+  "person": {
+   "name": "Andre Schiefner",
+   "text": "VP Research and Development at BLUU (per Streak)."
+  },
+  "company": {
+   "text": "BLUU develops cultivated fish cells for food and, since 2025, marine ingredients for beauty and health, with a pilot plant in Hamburg and an industrial platform in Maastricht."
+  },
+  "history": {
+   "text": "Jenny emailed on Nov 13 (06:33 UTC); 3 opens and 6 link clicks within about an hour. Stage moved to Contacted."
+  },
+  "talking_points": [
+   "How do they select and develop **cell lines** today?",
+   "What limits **scale-up** (yield, stability, cell quality)?",
+   "Would a feasibility test be interesting?"
+  ],
+  "attention": [
+   {
+    "title": "Fit to confirm.",
+    "text": "CosmoSort is built for tissue/biomarker work: confirm a real cell-line use case."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Protein Report, Vegconomist, Green Queen coverage of BLUU (2023\u20132026)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

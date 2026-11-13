@@ -1,0 +1,114 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAldyyl5UJDA",
+ "company": "CITIC Securities International (Lending Ark)",
+ "lead_name": "Gregory Park",
+ "lead_role": "Managing Director, Head of Lending Ark Asia Secured Private Debt Funds",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Lending Ark Asia (CITIC Securities / CLSA Capital Partners JV), Hong Kong",
+   "person": "Gregory Park",
+   "role": "MD, Head of Lending Ark Asia Secured Private Debt Funds",
+   "location": "Hong Kong",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Assistant will coordinate",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Gregory: 'email me at **gregory.park@lendingark.com** and my assistant will coordinate.' Email once Noza's Hong Kong dates are set. Note: the Streak reply addressed him as 'Chris Gregory' by mistake."
+   },
+   "source_line": "Lead added to Streak on Nov 12, 2026 by Juliana R. Source: LinkedIn messaging (as Noza)."
+  },
+  "grade": {
+   "letter": "C+",
+   "headline": "Specialist private-credit manager; news mainly via CLSA releases and trade press.",
+   "detail": "Personal posting not verified.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Lending Ark Asia**: asset-backed private credit across Asia-Pacific; JV between its principals and **CLSA Capital Partners** (CITIC Securities group). Fund I closed **US$226M** (US$626M incl. managed accounts); Fund II closed later"
+   },
+   {
+    "label": "His role",
+    "value": "Fund Head and Chairman of the Investment Committee; previously **head of Asia structured credit at Carlyle**"
+   },
+   {
+    "label": "Contact",
+    "value": "gregory.park@lendingark.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#4 Private credit / fund managers** \u2014 fit: **medium**: fund administration, middle office and investor-reporting work could run from Montreal in the New York time zone."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Gregory replied to Noza and offered his assistant to coordinate."
+   },
+   "items": [
+    "**No shared employer or school verified.** Gregory is a **Dartmouth** graduate based in Hong Kong since 1997."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Fund operations in the Americas time zone",
+    "text": "Private credit managers raising from **North American investors** can run investor reporting and fund ops from Montreal."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**; eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Gregory Park",
+   "text": "Head of Lending Ark and Chairman of its Investment Committee; 25+ years in secured private debt, structured credit and securitisation; former head of Asia structured credit at Carlyle; earlier founder of Northstone Peak. BA cum laude, Dartmouth."
+  },
+  "company": {
+   "text": "Lending Ark Asia invests in secured private debt (SME loans, trade receivables, asset-backed securities) across Asia-Pacific, advised by CITIC Securities CLSA Capital Partners. Deals include financing for Qupital (2024) and Atome (2025)."
+  },
+  "history": {
+   "text": "Gregory replied (Nov 10): email him and his assistant will coordinate. Juliana confirmed."
+  },
+  "talking_points": [
+   "Where are Lending Ark's **investors** based, and how is investor reporting handled?",
+   "Does the CITIC/CLSA group have any **North American** operations plans?",
+   "Who in the group decides on **operations locations**?"
+  ],
+  "attention": [
+   {
+    "title": "Name slip.",
+    "text": "Our reply called him 'Chris Gregory': use **Gregory** in the email."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": true,
+    "text": "CLSA press releases (2020, Fund II), AVCJ, Zonebourse profile"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

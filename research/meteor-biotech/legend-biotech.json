@@ -1,0 +1,111 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV3PWbgggM",
+ "company": "Legend Biotech",
+ "lead_name": "Debasish Boral",
+ "lead_role": "Senior Principal Scientist, Exploratory Technology",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Legend Biotech (cell therapy, NJ)",
+   "person": "Debasish Boral, MBBS, PhD",
+   "role": "Senior Principal Scientist, Exploratory Technology",
+   "location": "United States",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Wants a summary slide",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: High",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Send the slide:",
+    "text": "Debasish asked for **a summary slide** at **Debasish.Boral@legendbiotech.com** (Nov 12). Send a **one-slide CosmoSort summary** with a call proposal."
+   },
+   "source_line": "Lead added to Streak on Nov 12, 2026 by Juliana R. Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/debasish-boral"
+  },
+  "grade": {
+   "letter": "B+",
+   "headline": "Listed cell-therapy company with strong news flow; personal posting not verified.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Legend Biotech: cell-therapy company; co-developer of the CAR-T **Carvykti** with Johnson & Johnson"
+   },
+   {
+    "label": "His role",
+    "value": "**Exploratory Technology**: evaluates new tools for R&D"
+   },
+   {
+    "label": "Contact",
+    "value": "debasish.boral@legendbiotech.com"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#2 Pharma/biotech translational teams** \u2014 fit: **high**: an exploratory-technology scientist is exactly who trials new single-cell tools."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Debasish replied to Amos."
+   },
+   "items": [
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Image-guided cell picking for cell therapy",
+    "text": "Selecting cells by **morphology or spatial context** before sequencing helps understand product quality and tumour response."
+   },
+   {
+    "title": "One slide, then a call",
+    "text": "He asked for one slide: keep it to one, with a clear next step."
+   }
+  ],
+  "person": {
+   "name": "Debasish Boral",
+   "text": "MBBS, PhD; Senior Principal Scientist, Exploratory Technology at Legend Biotech (per Streak)."
+  },
+  "company": {
+   "text": "Legend Biotech develops CAR-T and other cell therapies; Carvykti is marketed with Johnson & Johnson."
+  },
+  "history": {
+   "text": "Debasish asked (Nov 12) for a summary slide by email; Juliana replied 'will do'."
+  },
+  "talking_points": [
+   "Which **single-cell or spatial** questions is his team working on?",
+   "How do they isolate cells of interest today?",
+   "Would a **pilot run** be possible?"
+  ],
+  "attention": [
+   {
+    "title": "One slide.",
+    "text": "He asked for a single slide, not a deck."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

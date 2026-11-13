@@ -1,0 +1,111 @@
+{
+ "client": "amphasys",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVjPvC-wgM",
+ "company": "Paradox Brewery LLC",
+ "lead_name": "Devon Hamilton",
+ "lead_role": "Director Of Operations",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Paradox Brewery LLC (craft brewery, US)",
+   "person": "Devon Hamilton",
+   "role": "Director of Operations",
+   "location": "United States",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Budget \u2264 US$5k",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Low",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Low fit:",
+    "text": "Streak note: the brewery **can only afford equipment up to US$5k** and **buys from liquidated breweries**. Markus already emailed on Nov 5. Keep it as a **reference contact**, not a sales priority."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Aina R; Contacted Nov 6 (Markus B). Source: LinkedIn InMail (as Markus).",
+   "linkedin_url": "https://www.linkedin.com/in/devon-hamilton-00262439"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Small craft brewery with local social presence.",
+   "detail": "Not audited in detail.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Paradox Brewery: small US craft brewery"
+   },
+   {
+    "label": "Constraint",
+    "value": "Budget **\u2264 US$5k**; buys second-hand equipment"
+   },
+   {
+    "label": "Contact",
+    "value": "devon@paradoxbrewery.com"
+   },
+   {
+    "label": "Amphasys ICP",
+    "value": "**Breweries (yeast quality control)** \u2014 fit: **low** at this budget; useful for **market feedback** on yeast-viability testing."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Markus Bernasconi",
+    "reason": "Markus emailed Devon directly."
+   },
+   "items": [
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Learn, don't sell",
+    "text": "Ask how they check **yeast viability and vitality** today and what it costs them."
+   },
+   {
+    "title": "Financing or service",
+    "text": "If there's interest, a **testing service** or leasing could fit a small budget."
+   }
+  ],
+  "person": {
+   "name": "Devon Hamilton",
+   "text": "Director of Operations at Paradox Brewery (per Streak)."
+  },
+  "company": {
+   "text": "Paradox Brewery is a small US craft brewery."
+  },
+  "history": {
+   "text": "Devon accepted Aina's InMail and asked for an email; Markus emailed on Nov 5. Notes: budget max US$5k, buys from liquidated breweries."
+  },
+  "talking_points": [
+   "How do they test **yeast** today?",
+   "What does a bad batch cost them?",
+   "Would a **testing service** interest them?"
+  ],
+  "attention": [
+   {
+    "title": "Not a buyer.",
+    "text": "Don't spend much time here."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Amphasys \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

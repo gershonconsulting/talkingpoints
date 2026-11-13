@@ -1,0 +1,115 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlazHquIIDA",
+ "company": "A&G",
+ "lead_name": "Miguel Lizaso Vel\u00e1zquez",
+ "lead_role": "Managing Director Sustainable Infrastructure",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "A&G (A&G Global Investors / A&G Banca Privada), Madrid",
+   "person": "Miguel Lizaso Vel\u00e1zquez",
+   "role": "Managing Director, Sustainable Infrastructure",
+   "location": "Madrid, Spain",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Wants info by email",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Low\u2013Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Send information:",
+    "text": "Miguel is 'not sure I am the right person' but will **share an email internally** with the relevant people. Email **miguel.lizaso@ayg.es** with a short, forwardable summary."
+   },
+   "source_line": "Lead added to Streak on Nov 12, 2026 by Juliana R. Source: LinkedIn messaging (as Steve)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Active Spanish financial group with regular fund and deal news; Miguel speaks at A&G events.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Independent Spanish wealth and asset manager founded **1987**, offices in **Spain and Luxembourg**; alternatives focused on the **energy transition**"
+   },
+   {
+    "label": "His role",
+    "value": "Leads A&G's **energy-transition infrastructure** investments, incl. the **A&G Sustainable Infrastructure II** fund (target **\u20ac150M+**)"
+   },
+   {
+    "label": "Contact",
+    "value": "miguel.lizaso@ayg.es"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#3 Asset managers** \u2014 fit: **low\u2013medium**. No North American operations found; the angle is **investment in Canadian infrastructure** or a forward to A&G's operations leads."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the LinkedIn conversation."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Quebec is a large market for **clean-energy infrastructure**, Miguel's asset class."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A forwardable one-pager",
+    "text": "Make the email easy to forward: who Finance Montr\u00e9al is, what it offers (location support, IFC credit), and who at A&G should read it."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   }
+  ],
+  "person": {
+   "name": "Miguel Lizaso Vel\u00e1zquez",
+   "text": "Managing Director, Infrastructure at A&G Global Investors; has led the energy-transition infrastructure vertical for about five years, including A&G Renewables Iberian Solar I and Sustainable Infrastructure II. Reports to Alejandro N\u00fa\u00f1ez, head of alternatives."
+  },
+  "company": {
+   "text": "A&G is an independent Spanish financial services group (wealth advisory, asset management, alternatives) with about \u20ac14.6B AUM (Aug 2024)."
+  },
+  "history": {
+   "text": "Miguel replied to Steve (Nov 11): not sure he is the right person, but happy to arrange logistics; asked for an email with more detailed information to share internally."
+  },
+  "talking_points": [
+   "Who at A&G handles **international operations or new locations**?",
+   "Does A&G look at **Canadian / Quebec infrastructure** deals?",
+   "Would a short call with the right person make sense after they read the email?"
+  ],
+  "attention": [
+   {
+    "title": "Wrong person.",
+    "text": "He said so himself: aim for an introduction."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Capital-riesgo.es, Funds Society, EU-Startups coverage of A&G (2024\u20132026)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

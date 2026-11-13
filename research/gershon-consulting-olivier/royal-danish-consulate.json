@@ -1,0 +1,96 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlfzwi-UIDA",
+ "company": "Royal Danish Consulate General",
+ "lead_name": "Nikolaj Fredsted",
+ "lead_role": "Head of Trade, Consulate General of Denmark New York",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Consulate General of Denmark, New York (Trade Council)",
+   "person": "Nikolaj Fredsted",
+   "role": "Head of Trade",
+   "location": "New York",
+   "chips": [
+    {
+     "label": "Scheduled"
+    },
+    {
+     "label": "Meeting Tue Dec 1, 9 AM EST",
+     "tone": "good"
+    },
+    {
+     "label": "Channel partner",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Meeting booked:",
+    "text": "US Expansion Meeting **Tue Dec 1, 9:00\u20139:30 AM EST** on Teams (Nikolaj sent the link)."
+   },
+   "source_line": "Box created Nov 12, 2026 by Juliana R. Source: Olivier's outreach (Nov 4)."
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Government trade body.",
+   "detail": "Not audited.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Organisation",
+    "value": "Danish Trade Council in the US"
+   },
+   {
+    "label": "Contact",
+    "value": "nikfre@um.dk"
+   },
+   {
+    "label": "Gershon ICP",
+    "value": "**Channel partner** \u2014 trade-promotion bodies can refer **European SMEs entering the US** to Gershon (Gershon ICP)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Olivier Attia",
+    "reason": "Olivier ran the outreach."
+   },
+   "items": [
+    "**No shared contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Referral partnership",
+    "text": "Gershon for Danish SMEs needing US outbound and representation."
+   }
+  ],
+  "person": {
+   "name": "Nikolaj Fredsted",
+   "text": "Head of Trade, Consulate General of Denmark in New York."
+  },
+  "company": {
+   "text": "The Trade Council helps Danish companies grow abroad."
+  },
+  "history": {
+   "text": "Olivier emailed Nov 4; meeting booked Dec 1; Teams link sent Nov 11."
+  },
+  "talking_points": [
+   "Which Danish sectors are entering the US?",
+   "How does the Trade Council refer to private providers?"
+  ],
+  "attention": [],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Gershon Consulting (Olivier) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

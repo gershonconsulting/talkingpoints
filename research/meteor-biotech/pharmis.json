@@ -1,0 +1,111 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV3MC1lAkM",
+ "company": "Pharmis",
+ "lead_name": "Susana Melqu\u00edades Filipe",
+ "lead_role": "Director of Research Development",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Pharmis (Portugal \u2014 details to confirm)",
+   "person": "Susana Melqu\u00edades Filipe",
+   "role": "Director of Research & Development",
+   "location": "Portugal (to be confirmed)",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Wants a call",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: to qualify",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Book the call:",
+    "text": "Susana suggested **Wednesday afternoon** and gave **filipe.susana@gmail.com** (work email in a note: susana.filipe@pharmis.com). Jenny moved the lead to Contacted on Nov 11; confirm a time."
+   },
+   "source_line": "Lead added to Streak on Nov 11, 2026 by Juliana R. Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/susana-melqu%C3%ADades-filipe-ba977b4"
+  },
+  "grade": {
+   "letter": "\u2014",
+   "headline": "Not graded: no reliable public information found on Pharmis.",
+   "detail": "Check the company website before the call.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Pharmis**: no reliable public profile found; activity to be confirmed"
+   },
+   {
+    "label": "Contact",
+    "value": "filipe.susana@gmail.com (personal) \u00b7 susana.filipe@pharmis.com"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**Fit: to qualify** on the call."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Susana agreed to a call with Amos."
+   },
+   "items": [
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Discovery call",
+    "text": "Ask what Pharmis does and where single-cell isolation could help."
+   }
+  ],
+  "person": {
+   "name": "Susana Melqu\u00edades Filipe",
+   "text": "Director of Research & Development at Pharmis (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "No reliable public information was found on Pharmis."
+  },
+  "history": {
+   "text": "Susana offered a call 'tomorrow by 3 pm', then said the week was busy and suggested Wednesday afternoon, giving a personal email. Stage moved to Contacted (Nov 11)."
+  },
+  "talking_points": [
+   "What does Pharmis develop?",
+   "Does her team work with **tissue or single cells**?",
+   "Who else should join a follow-up?"
+  ],
+  "attention": [
+   {
+    "title": "Unknown company.",
+    "text": "Qualify before investing time."
+   },
+   {
+    "title": "Personal email.",
+    "text": "Use it as she asked."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (conversation, stage history)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}
