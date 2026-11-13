@@ -109,6 +109,21 @@ CREATE TABLE IF NOT EXISTS send_log (
 CREATE INDEX IF NOT EXISTS send_log_box ON send_log(box_key, created_at);
 
 
+CREATE TABLE IF NOT EXISTS quick_briefs (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  client_id   INTEGER NOT NULL,
+  input       TEXT NOT NULL DEFAULT '',   -- what was pasted (website or email)
+  kind        TEXT NOT NULL DEFAULT '',   -- 'website' | 'email'
+  domain      TEXT NOT NULL DEFAULT '',
+  company     TEXT NOT NULL DEFAULT '',
+  lead_name   TEXT NOT NULL DEFAULT '',
+  lead_role   TEXT NOT NULL DEFAULT '',
+  data        TEXT NOT NULL DEFAULT '{}',
+  created_by  TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS quick_briefs_client ON quick_briefs(client_id, id DESC);
+
 INSERT OR IGNORE INTO clients (slug, name, pipeline_key, email_domains)
 VALUES ('valos', 'Valos Srl', 'pipeline:aina.andriamangason@gmail.com:5165361957781504', '');
 
