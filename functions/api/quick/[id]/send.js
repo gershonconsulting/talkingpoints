@@ -39,7 +39,7 @@ export async function onRequestPost({ request, env, params }) {
   try {
     await sendEmail(env, {
       to, from: plan.from, reply_to: EMAIL.test(u.email || '') ? u.email : undefined,
-      subject: briefSubject(q.company, q.lead_name || 'Quick talking point', date),
+      subject: briefSubject((await env.DB.prepare('SELECT name FROM clients WHERE id = ?').bind(u.client_id).first())?.name, q.company, q.lead_name || 'Quick talking point', date),
       html: intro + renderBrief(plan.data),
       text: (note ? `${note}\n\n` : '') + renderBriefText(plan.data),
     });
