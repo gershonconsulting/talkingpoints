@@ -39,10 +39,11 @@ export function clientSafe(data = {}) {
 export const clientLabel = (name) =>
   String(name || '').replace(/^\s*#\d+\s*/, '').replace(/\s*\([^)]*\)\s*$/, '').trim();
 
-// Subject (Olivier, 2026-11-03): "[21] Talking Points by Gershon.ai : [CLIENT] - [LEAD COMPANY] - [LEAD] - [Date]"
-// e.g. "[21] Talking Points by Gershon.ai : Altavia - TD - Anthony V. Lambie - November 3, 2026"
+// Subject (Olivier, 2026-11-03, no "[21]" since 2026-11-13):
+// "Talking Points by Gershon.ai : [CLIENT] - [LEAD COMPANY] - [LEAD] - [Date]"
+// e.g. "Talking Points by Gershon.ai : Altavia - Groupe Clarins - Thao Ly Chau Tran - November 13, 2026"
 export const briefSubject = (clientName, company, name, date) =>
-  `[${REPORT_NUMBER}] Talking Points by Gershon.ai : ${[clientLabel(clientName), company, name || 'New lead', date].filter((x) => String(x || '').trim()).join(' - ')}`;
+  `Talking Points by Gershon.ai : ${[clientLabel(clientName), company, name || 'New lead', date].filter((x) => String(x || '').trim()).join(' - ')}`;
 
 // Everything sendEmail needs except html/text rendering.
 export function planBriefEmail(to, data) {
