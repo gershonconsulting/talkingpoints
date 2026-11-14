@@ -1,0 +1,146 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcygyu0IDA",
+ "company": "MFS Investment Management",
+ "lead_name": "Kazuhisa Hiramatsu",
+ "lead_role": "Managing Director",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "MFS Investment Management K.K. (Japan)",
+   "person": "Kazuhisa Hiramatsu",
+   "role": "Representative Director (Managing Director), MFS Japan",
+   "location": "Tokyo, Japan",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Open to exchange views",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Low",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Set expectations:",
+    "text": "Kazuhisa wrote he is 'not sure there's much scope for collaboration' but is happy to **exchange views** with Noza if schedules align. Email **khiramatsu@mfs.com** with a light agenda, Tokyo-friendly times."
+   },
+   "source_line": "Lead added to Streak on Nov 9, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/kazuhisa-hiramatsu-136a0a27"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Global asset manager** with strong channels; Kazuhisa has given **media interviews** on long-term investing in Japan.",
+   "detail": "MFS publishes research and insights widely. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "MFS Investment Management (Boston), about **US$600 billion** AUM; Japan entity **MIMKK** serves institutional and retail investors"
+   },
+   {
+    "label": "His role",
+    "value": "**Representative Director** of MFS Japan; long-term active management advocate (Keio University alumnus)"
+   },
+   {
+    "label": "Contact",
+    "value": "khiramatsu@mfs.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#3 Asset managers** \u2014 fit: **low** for Japan itself. MFS has a Canadian entity (MFS Investment Management Canada); any Montreal decision sits in **Boston/Toronto**, not Tokyo."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Kazuhisa agreed to meet Noza for an exchange of views."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Both care about **long-term institutional investing** (Quebec's pension funds are major global investors)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "An exchange, not a pitch",
+    "text": "Share how **Quebec pension funds** and global managers use Montreal; ask how MFS organises global operations."
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   }
+  ],
+  "person": {
+   "name": "Kazuhisa Hiramatsu",
+   "text": "**Representative Director, MFS Investment Management (Japan)** for two decades of his career. Graduate of **Keio University**. Publicly focused on long-term active management and Japan's 'stagnant household assets'."
+  },
+  "company": {
+   "text": "MFS Investment Management is a Boston-based global active asset manager. MFS Investment Management K.K. is its Japanese institutional and investment-trust business, a subsidiary of MFS Institutional Advisors."
+  },
+  "history": {
+   "text": "Kazuhisa replied: 'I'm not sure there's much scope for collaboration, but if Noza is simply looking to exchange views and information, I'd be happy to meet if schedules align.' He gave **khiramatsu@mfs.com** (Nov 5)."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "MFS insights / research",
+     "audience": "Institutional and retail investors",
+     "recency": "Active",
+     "read": "Strong"
+    },
+    {
+     "channel": "Media interviews (CEO Insights Asia)",
+     "audience": "Asian finance readers",
+     "recency": "Published profile",
+     "read": "Good"
+    }
+   ],
+   "note": "Mention his view on long-term investing; it's his public theme."
+  },
+  "talking_points": [
+   "How does MFS organise **global operations** between Boston, London, Toronto and Asia?",
+   "Does MFS's Canadian entity have any **Montreal** footprint?",
+   "What does he see Japanese asset managers doing in **North America**?",
+   "Would he point Noza to the right person at **MFS Boston or Canada**?"
+  ],
+  "attention": [
+   {
+    "title": "He is skeptical.",
+    "text": "Keep it an **exchange of views**; no hard pitch."
+   },
+   {
+    "title": "Time zone.",
+    "text": "Tokyo is **14 hours ahead** of Montreal."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "CEO Insights Asia profile; MFS Japan website and disclosures"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

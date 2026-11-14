@@ -1,0 +1,168 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYyPp-kJDA",
+ "company": "Absci",
+ "lead_name": "Raymond Wang",
+ "lead_role": "Head of Antibody Design Platform",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Absci Corporation (NASDAQ: ABSI) \u2014 AI-designed antibodies",
+   "person": "Raymond (Yiqun) Wang",
+   "role": "Head of Antibody Design Platform",
+   "location": "Vancouver, WA / New York (to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Fit: High (peer / partner)",
+     "tone": "good"
+    },
+    {
+     "label": "Email given",
+     "tone": "good"
+    },
+    {
+     "label": "Back from paternity leave",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Schedule now:",
+    "text": "Raymond proposed the **week of Nov 2\u20136** and asked if MAbSilico is in France; Vincent said **Zak** would email. He gave **rwang@absci.com** (Nov 4). That week has passed: **Zak emails now** with new slots (European morning = US early morning)."
+   },
+   "source_line": "Lead added to Streak on Nov 6, 2026 by Juliana R. Source: LinkedIn messaging (as Vincent).",
+   "linkedin_url": "https://www.linkedin.com/in/raymond-yiqun-wang"
+  },
+  "grade": {
+   "letter": "B+",
+   "headline": "**Very active scientific communicator**: preprints (Origin-1), investor conferences, press releases.",
+   "detail": "Absci presented at Leerink (Mar 2026) and KeyBanc (Mar 2026) and published the **Origin-1** de novo antibody manuscript (Jan 2026). Raymond's own posting not verified.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Clinical-stage biotech using **generative AI + wet-lab data** (Integrated Drug Creation) to design antibodies"
+   },
+   {
+    "label": "Platform",
+    "value": "**Origin-1**: de novo design of full-length mAbs against 'zero-prior' epitopes (manuscript Jan 2026)"
+   },
+   {
+    "label": "Pipeline",
+    "value": "**ABS-201** (anti-PRLR) in Phase 1/2a for hair loss, endometriosis Phase 2 planned; ABS-101 (anti-TL1A) for partnering; ABS-501 (AI-designed anti-HER2)"
+   },
+   {
+    "label": "Cash",
+    "value": "Runway **into H1 2028** (per FY2025 results)"
+   },
+   {
+    "label": "Contact",
+    "value": "rwang@absci.com"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech (AI/data, R&D level)** \u2014 fit: **high as a peer/partner**, low as a buyer of design services. Angle: MAbSilico's **in silico developability, epitope and optimisation tools** as a complement, or **co-development** on partnered assets."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Vincent ran the conversation and Raymond engaged with him on timing."
+   },
+   "items": [
+    "**Same field:** AI for antibody design and optimisation.",
+    "**No shared employer, school or co-author verified.**",
+    "Raymond asked whether MAbSilico is **in France**: he knows the team is European."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Complement, not compete",
+    "text": "Absci generates binders; MAbSilico's **in silico developability and epitope tools** can help de-risk candidates before costly wet-lab cycles."
+   },
+   {
+    "title": "Partnered assets need speed",
+    "text": "Absci plans to **partner early-stage assets**. Faster in silico profiling helps make those assets attractive to partners."
+   },
+   {
+    "title": "Benchmark together",
+    "text": "Propose a small **blinded benchmark** on a public target (e.g. HER2) to compare predictions."
+   }
+  ],
+  "person": {
+   "name": "Raymond (Yiqun) Wang",
+   "text": "**Head of Antibody Design Platform** at Absci (per Streak). Recently on **paternity leave** (Oct 2026). Other career details not verified."
+  },
+  "company": {
+   "text": "Absci (Vancouver, WA and New York) combines generative AI models with a synthetic-biology data engine to design antibody and enzyme candidates. It moved ABS-201 from AI design to clinic in about two years, released the Origin-1 de novo antibody platform in January 2026, and has an AMD collaboration (2025) for AI compute. CEO: **Sean McClain**; CMO: **Ransi Somaratne**."
+  },
+  "history": {
+   "text": "Raymond replied he was on **paternity leave** and to reconnect in two weeks. Vincent followed up Oct 23; Raymond proposed the **week of Nov 2\u20136** and asked if they are based in France. Vincent confirmed and said **Zak** would schedule by email; Raymond gave **rwang@absci.com**."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Investor relations / press",
+     "audience": "Investors, pharma",
+     "recency": "Quarterly + conferences",
+     "read": "Strong"
+    },
+    {
+     "channel": "Preprints (Origin-1)",
+     "audience": "AI-biology community",
+     "recency": "Jan 2026",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn \u2014 Raymond Wang",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Mention Origin-1: it's his platform's flagship."
+  },
+  "industry": [
+   {
+    "title": "De novo antibody design goes clinical",
+    "text": "AI-designed antibodies are now in trials (Absci ABS-201). Buyers want **developability and immunogenicity** checks as much as binders."
+   }
+  ],
+  "talking_points": [
+   "How does Origin-1 handle **developability and immunogenicity** today?",
+   "Where are the **bottlenecks** between design and wet-lab validation?",
+   "Would a **blinded benchmark** with MAbSilico's tools be interesting?",
+   "Does Absci work with **external computational partners** on partnered assets?",
+   "Congratulations on the new baby: a light, human opener."
+  ],
+  "attention": [
+   {
+    "title": "Week has passed.",
+    "text": "He suggested Nov 2\u20136: propose new times now."
+   },
+   {
+    "title": "Peer, not buyer.",
+    "text": "Absci has strong in-house AI; pitch collaboration, not services."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation)"
+   },
+   {
+    "used": true,
+    "text": "Absci FY2025 results (Mar 2026), Origin-1 manuscript, Leerink/KeyBanc conference coverage"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for MAbSilico \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

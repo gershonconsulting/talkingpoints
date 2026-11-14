@@ -1,0 +1,146 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVzNG6qgoM",
+ "company": "Progenesis",
+ "lead_name": "Emily McGlade",
+ "lead_role": "Research and Development Scientist",
+ "stage": "Engaged",
+ "data": {
+  "header": {
+   "company": "Progenesis Inc. (reproductive genetics / IVF embryo testing, La Jolla, CA)",
+   "person": "Emily McGlade",
+   "role": "Research and Development Scientist",
+   "location": "La Jolla, California",
+   "chips": [
+    {
+     "label": "Engaged"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "R&D scientist, not buyer",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Moved to **Engaged** on Nov 11 by Nicolette. David emailed on Nov 6; Emily replied (2-message thread, Nov 6). Agree a follow-up: a **technical call with Amos** and ask who leads R&D decisions (CEO **Nabil Arrach**)."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R; Call Scheduled Nov 6 (Jenny P); Engaged Nov 11 (Nicolette J). Source: LinkedIn messaging (as Amos).",
+   "linkedin_url": "https://www.linkedin.com/in/dreamcglade"
+  },
+  "grade": {
+   "letter": "C+",
+   "headline": "**Small lab with a patient-facing brand**; partnership press releases (e.g. GenEmbryomics, 2024).",
+   "detail": "Progenesis markets to IVF clinics and patients. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **2015**, La Jolla; first in the US to offer **NGS-based PGT-A / PGT-M**; CLIA/CAP lab; **~30\u201380** employees; revenue ~US$5M (estimates)"
+   },
+   {
+    "label": "Products",
+    "value": "Previda (PGT-A), Previda-DX (PGT-M/SR), MitoSure, carrier screening, NIPT; **PGT-WGS** with GenEmbryomics"
+   },
+   {
+    "label": "Contact",
+    "value": "emily.harris1031@gmail.com (personal)"
+   },
+   {
+    "label": "Meteor ICP",
+    "value": "**#4 Genomics service labs** \u2014 fit: **medium**. Embryo testing works on **very few cells**; R&D interest in precise **single-cell isolation** is plausible but to be confirmed."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "A scientist-to-scientist conversation on single-cell isolation."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Both work at the **single-cell / low-input** end of genomics."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Precision at the single-cell level",
+    "text": "PGT relies on **few-cell biopsies**; ask whether image-guided, gentle isolation could help their R&D (e.g. mosaicism studies)."
+   },
+   {
+    "title": "R&D collaboration",
+    "text": "Offer a small **feasibility study** rather than an instrument sale."
+   },
+   {
+    "title": "Find the decision-maker",
+    "text": "Emily can champion; ask her to bring in the **lab director or CEO**."
+   }
+  ],
+  "person": {
+   "name": "Emily McGlade",
+   "text": "**Research and Development Scientist** at Progenesis (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "Progenesis is a La Jolla reproductive-genetics lab offering preimplantation genetic testing (PGT-A, PGT-M), mitochondrial DNA assessment, carrier screening and prenatal testing. In April 2024 it partnered with GenEmbryomics (Australia) on whole-genome PGT. CEO: **Nabil Arrach, PhD, MBA**."
+  },
+  "history": {
+   "text": "Emily responded on LinkedIn; David emailed her on **Nov 6** with Amos in copy and she replied the same day (2-message thread). Stage: Contacted \u2192 Call Scheduled (Nov 6, Jenny P) \u2192 **Engaged** (Nov 11, Nicolette J). No meeting notes logged."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Website / patient marketing",
+     "audience": "IVF patients, clinics",
+     "recency": "Active",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Press (PR Newswire)",
+     "audience": "Industry",
+     "recency": "2024 partnership",
+     "read": "Occasional"
+    }
+   ],
+   "note": "Ask her what R&D projects are running."
+  },
+  "talking_points": [
+   "What **R&D projects** is she working on (mosaicism, WGS, new assays)?",
+   "How do they **isolate and handle** biopsy cells today?",
+   "Would a **feasibility test** with CosmoSort be of interest?",
+   "Who signs off on **new technology** at Progenesis?"
+  ],
+  "attention": [
+   {
+    "title": "Log the call.",
+    "text": "Stage is Engaged but there are no meeting notes: add them."
+   },
+   {
+    "title": "Regulated lab.",
+    "text": "Clinical use needs CLIA validation: keep the first step **R&D-only**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (stage history, email thread metadata)"
+   },
+   {
+    "used": true,
+    "text": "Datanyze, BuiltIn, Koala profiles; GenEmbryomics partnership release (2024)"
+   },
+   {
+    "used": false,
+    "text": "Email text and LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Meteor Biotech \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

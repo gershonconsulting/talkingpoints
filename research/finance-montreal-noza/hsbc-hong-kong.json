@@ -1,0 +1,150 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYz7oJELDA",
+ "company": "HSBC",
+ "lead_name": "Abhishek Chopra",
+ "lead_role": "Managing Director & Head North Asia CIB (ex China), Global Trade Solutions",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "HSBC \u2014 Global Trade Solutions",
+   "person": "Abhishek Chopra",
+   "role": "MD & Head North Asia CIB (ex China), Global Trade Solutions",
+   "location": "Hong Kong",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Will meet in HK",
+     "tone": "good"
+    },
+    {
+     "label": "Away Jan 26\u201330",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Avoid Jan 26\u201330:",
+    "text": "Abhishek is **travelling Jan 26\u201330** and happy to meet before or after. Email **chopra1abhishek@gmail.com** (personal) once dates are set; work email per note: abhishek.c@hsbc.com."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/abhishek-chopra-53b244a"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**HSBC trade channels are strong** (awards, surveys); Abhishek has **spoken at ReThink** events.",
+   "detail": "HSBC GTS publishes the Global Trade Pulse Survey and wins Euromoney trade awards. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "HSBC: world's largest trade bank, **~90% of global trade flows** in its network; trade business rebranded **Global Trade Solutions (GTS)**"
+   },
+   {
+    "label": "His role",
+    "value": "Heads GTS for **North Asia CIB excluding China**; earlier led **structured trade** and sustainability for GTS in Asia; **21+ years** in banking (India, UK, Hong Kong)"
+   },
+   {
+    "label": "Contact",
+    "value": "chopra1abhishek@gmail.com (personal) \u00b7 abhishek.c@hsbc.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Global Banks** \u2014 fit: **medium**. HSBC sold its Canadian bank to RBC (2024), so any Montreal angle would be **trade operations or tech support** in the New York time zone: to be confirmed."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "He replied to Noza and agreed to meet in Hong Kong."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Montreal hosts **trade-finance and payments** operations for several global banks."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Abhishek Chopra",
+   "text": "Commerce graduate with an **MBA** from an Indian business school; **21+ years** in banking across **India, the UK and Hong Kong**. Spoke at ReThink as **MD & Regional Head, Solution Structuring, Global Trade Solutions**; now heads North Asia CIB (ex China) for GTS."
+  },
+  "company": {
+   "text": "HSBC's Global Trade Solutions (formerly GTRF) is the bank's trade-finance business, voted Euromoney's best trade finance bank for several years running. It invests heavily in digital platforms such as HSBC Trade Solutions."
+  },
+  "history": {
+   "text": "Abhishek replied: 'I will be travelling from 26\u201330 Jan. Happy to meet if you are in HK before or after those dates.' Noza asked for an email; he gave **Chopra1abhishek@gmail.com** (Nov 4)."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "HSBC GTS (surveys, awards)",
+     "audience": "Corporates, trade press",
+     "recency": "Active",
+     "read": "Strong"
+    },
+    {
+     "channel": "Conference speaking (ReThink)",
+     "audience": "Trade and supply-chain leaders",
+     "recency": "Past events",
+     "read": "Good"
+    }
+   ],
+   "note": "Mention his ReThink talk or the Trade Pulse survey."
+  },
+  "talking_points": [
+   "How are **trade flows to North America** changing for his clients?",
+   "Where does HSBC run **trade operations** for the Americas time zone?",
+   "Does HSBC still need a **Canadian** footprint for trade after the RBC sale?",
+   "Who at HSBC decides **operations locations**?"
+  ],
+  "attention": [
+   {
+    "title": "Dates.",
+    "text": "Avoid **Jan 26\u201330**."
+   },
+   {
+    "title": "HSBC Canada was sold.",
+    "text": "Don't assume HSBC has Canadian retail operations."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "ReThink speaker bio; HSBC GTS pages; GTR interview"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

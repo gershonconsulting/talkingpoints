@@ -1,0 +1,146 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYz7hKIJDA",
+ "company": "Citi",
+ "lead_name": "Simon Clarke",
+ "lead_role": "Managing Director, Relationship Manager",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Citi (Hong Kong)",
+   "person": "Simon Clarke",
+   "role": "Managing Director, Relationship Manager",
+   "location": "Hong Kong",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Will meet in HK",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Simon accepted the InMail ('I will be') and gave **simon.clarke@citi.com**. Email him once Noza's **Hong Kong dates** are set."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R. Source: LinkedIn InMail (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/simonclarkehk"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Citi's channels are very large**; Simon's own activity not verified.",
+   "detail": "Citi Hong Kong is one of Citi's four global wealth hubs; follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Citi in Hong Kong since **1902** (125th anniversary in 2027); one of Citi's **four global wealth hubs**"
+   },
+   {
+    "label": "His role",
+    "value": "**Relationship Manager** (Managing Director); business line to be confirmed (private bank or corporate)"
+   },
+   {
+    "label": "Contact",
+    "value": "simon.clarke@citi.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Global Banks** \u2014 fit: **medium**. Citi is growing in Canada; Simon's value is **network and client insight**, not location decisions."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Simon accepted Noza's InMail."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Finance Montr\u00e9al (Steve) already talks to **Kanika Berry** (Citi FX, Singapore): coordinate."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Simon Clarke",
+   "text": "**Managing Director, Relationship Manager** at Citi, Hong Kong (per Streak). A public profile of a Hong Kong-based Simon Clarke lists Kleinwort Benson, Nomura, Citi, CIBC Wood Gundy, UBS and Dresdner Kleinwort, and University College London: **to be confirmed** it's him."
+  },
+  "company": {
+   "text": "Citi has operated in Hong Kong since 1902 and runs one of its four global wealth-management hubs there, alongside corporate, commercial and investment banking."
+  },
+  "history": {
+   "text": "Simon accepted Noza's InMail ('I will be') and gave **Simon.clarke@citi.com** (Nov 3)."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 Citi",
+     "audience": "Very large",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn \u2014 Simon Clarke",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Email once dates are set."
+  },
+  "talking_points": [
+   "Which of his clients have **North American** operations or plans?",
+   "Is he aware Citi has had a **Montreal office since 1919** and is hiring in Canada?",
+   "Who in Citi decides on **hub locations** for operations?",
+   "Would he introduce Noza to Citi Canada contacts?"
+  ],
+  "attention": [
+   {
+    "title": "Coordinate inside Citi.",
+    "text": "Two Citi conversations (Kanika, Simon): keep one story."
+   },
+   {
+    "title": "Profile to confirm.",
+    "text": "Check his LinkedIn before the meeting."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Hubbis (Citi Hong Kong), nyne.ai profile (to be confirmed)"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}
