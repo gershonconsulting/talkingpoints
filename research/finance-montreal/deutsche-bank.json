@@ -1,0 +1,150 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlayjrbQKDA",
+ "company": "Deutsche Bank",
+ "lead_name": "Rosalie Yee",
+ "lead_role": "Managing Director and Head of U.S. Bank Regulatory Legal",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Deutsche Bank (Americas Regional Legal)",
+   "person": "Rosalie Yee",
+   "role": "Managing Director, Head of U.S. Bank Regulatory Legal",
+   "location": "New York",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Wants to talk",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium (legal seat)",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Book the call:",
+    "text": "Rosalie: 'Let's talk in the next few weeks. I am open next Tuesday and Wednesday' (written Nov 6, so Nov 10\u201311 have passed). **Noza emails rosalieyee.ny@gmail.com** with new slots."
+   },
+   "source_line": "Lead added to Streak on Nov 9, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/rosalieyee"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Very large corporate presence**; Rosalie's own activity not verified.",
+   "detail": "Deutsche Bank publishes daily across channels. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global bank (Frankfurt) with a large US presence: **New York branch, Deutsche Bank Trust Company Americas, Deutsche Bank Securities**"
+   },
+   {
+    "label": "Her role",
+    "value": "Leads the **US bank regulatory** legal group: Fed, NYDFS, resolution planning, capital rules, **branch and representative-office** requirements"
+   },
+   {
+    "label": "Contact",
+    "value": "rosalieyee.ny@gmail.com (personal, her choice)"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Global Banks** \u2014 fit: **medium**. Legal is not the location decision-maker, but she knows the **regulatory side of placing teams outside the US** and can introduce the right people."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the conversation; Noza takes the call."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Deutsche Bank already has a **Canadian** presence (Toronto); Montreal status to be confirmed."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Compliance and legal support from Montreal",
+    "text": "Montreal hosts **legal, compliance and regulatory-reporting** teams for global banks; the IFC credit can cover services to a **foreign affiliate**."
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   }
+  ],
+  "person": {
+   "name": "Rosalie Yee",
+   "text": "**Managing Director, Head of U.S. Bank Regulatory Legal** at Deutsche Bank, New York (per Streak). Public job descriptions of this role cover advice on the Bank Holding Company Act, Federal Reserve Act, Dodd-Frank, resolution planning and branch/representative-office rules. Note: Karen Pelzer is listed publicly as Head of Bank Regulatory Legal, Americas; confirm Rosalie's exact scope."
+  },
+  "company": {
+   "text": "Deutsche Bank is a global bank headquartered in Frankfurt with material US operations, regulated by the Federal Reserve and NYDFS. Its Americas legal department advises businesses on bank-regulatory matters across the region."
+  },
+  "history": {
+   "text": "Rosalie replied to Steve: 'Let's talk in the next few weeks. I am open next Tuesday and Wednesday. What works for you?' and gave **Rosalieyee.ny@gmail.com** (Nov 6)."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 Deutsche Bank",
+     "audience": "Very large",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn \u2014 Rosalie Yee",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Email first; her suggested days have passed."
+  },
+  "talking_points": [
+   "What **regulatory questions** come up when a US bank moves support work to **Canada**?",
+   "Has Deutsche Bank looked at **Montreal** for Americas operations, legal or compliance support?",
+   "Who in Deutsche Bank Americas owns **location strategy**? Would she introduce Noza?",
+   "Would a short **regulatory/IFC overview** for a Montreal team be useful?"
+  ],
+  "attention": [
+   {
+    "title": "Her dates have passed.",
+    "text": "Propose new times; reference her offer of Tuesday/Wednesday."
+   },
+   {
+    "title": "Legal seat.",
+    "text": "Aim for **insight and an introduction**, not a decision."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Deutsche Bank job postings for Head of US Bank Regulatory Legal; SIFMA profile of Karen Pelzer"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

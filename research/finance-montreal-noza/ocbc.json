@@ -1,0 +1,146 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYzs1ZMIDA",
+ "company": "OCBC",
+ "lead_name": "Mathilda Deng",
+ "lead_role": "Vice President, Group Strategic Planning Office",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "OCBC Group (Singapore)",
+   "person": "Mathilda Deng",
+   "role": "Vice President, Group Strategic Planning Office",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Strategy seat",
+     "tone": "good"
+    },
+    {
+     "label": "Conversation missing",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Check Streak first:",
+    "text": "The comment on this box is a **copy of Simon Clarke's (Citi) conversation**, not Mathilda's. Find her real reply on LinkedIn before writing. Work email on file: **mathildadeng@ocbc.com**."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R. Source: LinkedIn (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/mathilda-deng"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**OCBC publishes actively** (results, strategy, sustainability); Mathilda's own activity not verified.",
+   "detail": "Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Singapore's second-largest bank; strategy **'Next Frontier'**; units include Bank of Singapore, OCBC Malaysia, Hong Kong, Great Eastern"
+   },
+   {
+    "label": "Her team",
+    "value": "**Group Strategic Planning Office**, which executes OCBC's corporate strategy; strategy now led by **Melvyn Low**, Group Chief Strategy and Transformation Officer (since Nov 2025)"
+   },
+   {
+    "label": "Contact",
+    "value": "mathildadeng@ocbc.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Banks** \u2014 fit: **medium\u2013high** for insight. A strategy seat sees **international expansion** options; OCBC's North American presence is limited (to be confirmed)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "Lead came from Noza's LinkedIn outreach."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Finance Montr\u00e9al (Steve) also talks to **Syed Razif Al-Idid** at **Bank of Singapore** (an OCBC subsidiary)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Mathilda Deng",
+   "text": "**Vice President, Group Strategic Planning Office** at OCBC, Singapore (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "OCBC is Singapore's second-largest bank, operating across ASEAN and Greater China. Its Group Strategic Planning Office executes the corporate strategy; OCBC created a Group Strategy, Innovation and Sustainability division in 2024 and named Melvyn Low Group Chief Strategy and Transformation Officer in November 2025."
+  },
+  "history": {
+   "text": "**Not available:** the Streak comment on this box repeats Simon Clarke's Citi conversation (pasting error). Mathilda's actual reply needs to be checked on LinkedIn."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 OCBC",
+     "audience": "Very large",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn \u2014 Mathilda Deng",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Read her LinkedIn reply before writing."
+  },
+  "talking_points": [
+   "How does OCBC think about **North American** presence under 'Next Frontier'?",
+   "Does OCBC serve ASEAN clients expanding into **Canada/US**, and how?",
+   "Who in Group Strategy looks at **new locations or partnerships**?",
+   "Would a short **Montreal fact sheet** help her team?"
+  ],
+  "attention": [
+   {
+    "title": "Wrong conversation in Streak.",
+    "text": "Ask Juliana to replace the comment with Mathilda's real messages."
+   },
+   {
+    "title": "Two OCBC contacts.",
+    "text": "Coordinate with the Bank of Singapore lead (Syed)."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "OCBC management pages and press releases (2024\u20132025)"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

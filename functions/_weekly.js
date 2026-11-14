@@ -1,14 +1,16 @@
 import { streak, clientStreakKey, rowToBrief, scheduledOnly, scheduledBoxes } from './_lib.js';
 import { emailBrief } from './_brief.js';
 
-// ---------- Friday talking points (2026-11-05) ----------
+// ---------- Friday talking points (2026-11-05, widened 2026-11-11) ----------
 // Every Friday (first hourly run after 7 am New York time), for EVERY client in Talking Points:
-// the 5 newest leads of its Streak pipeline get their talking point emailed to the client's
-// recipients. No duplicate: a lead whose talking point was already emailed once (any run, any
+// EVERY new lead of its Streak pipeline (created in the last NEW_LEAD_DAYS days — not only the
+// newest 5, Olivier 2026-11-11) gets its talking point emailed to the client's whole team
+// (Settings recipients + client.gershon.ai report recipients, see recipients() in _brief.js). No duplicate: a lead whose talking point was already emailed once (any run, any
 // sender — send_log) is never sent again. Only researched briefs are sent (no quick drafts since
 // 2026-10-30); a newest lead without one is listed as "research needed" (Admin → Friday talking points).
 // Gershon's own pipelines keep their rule: only leads in the "Scheduled" stage.
-export const WEEKLY_COUNT = 5;
+export const WEEKLY_COUNT = 5;      // kept for the Admin table header (legacy)
+export const NEW_LEAD_DAYS = 14;   // a lead not researched by its first Friday is still sent the next one
 
 export function nyParts(ms = Date.now()) {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
@@ -17,8 +19,9 @@ export function nyParts(ms = Date.now()) {
   return { day: `${p.year}-${p.month}-${p.day}`, hour: Number(p.hour), weekday: p.weekday };
 }
 
-// The client's 5 newest leads, newest first, each with its talking-point status.
-export async function lastLeads(env, client, n = WEEKLY_COUNT) {
+// The client's new leads (created in the last NEW_LEAD_DAYS days; Gershon's own pipelines: every
+// "Scheduled" lead), newest first, each with its talking-point status. `n` caps the list (Admin view).
+export async function lastLeads(env, client, n = 200) {
   const key = await clientStreakKey(env, client.id);
   if (!key || !client.pipeline_key) return { connected: false, leads: [] };
   let boxes;
@@ -28,6 +31,10 @@ export async function lastLeads(env, client, n = WEEKLY_COUNT) {
     boxes = Array.isArray(res) ? res : [];
   }
   boxes.sort((a, b) => (b.creationTimestamp || 0) - (a.creationTimestamp || 0));
+  if (!scheduledOnly(client)) {
+    const since = Date.now() - NEW_LEAD_DAYS * 24 * 3600e3;
+    boxes = boxes.filter((b) => (b.creationTimestamp || 0) >= since);
+  }
   const leads = [];
   for (const b of boxes.slice(0, n)) {
     const boxKey = b.boxKey || b.key;
@@ -46,14 +53,12 @@ export async function lastLeads(env, client, n = WEEKLY_COUNT) {
   return { connected: true, leads };
 }
 
-const doneKey = (clientId) => `WEEKLY_RUN:${clientId}`;
-
-// Called by the hourly cron. Runs once per client per Friday; `force` (owner test) ignores the day.
+// Called by the hourly cron. On Fridays from 7 am New York time, EVERY hourly run sends the
+// researched new leads not sent yet (2026-11-13: a talking point researched during the day still
+// goes out that Friday). No duplicate: send_log is checked lead by lead. `force` ignores the day.
 export async function fridayRun(env, client, r, { force = false } = {}) {
   const now = nyParts();
   if (!force && (now.weekday !== 'Fri' || now.hour < 7)) return;
-  const done = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(doneKey(client.id)).first();
-  if (!force && done?.value === now.day) return;
 
   // No ICP, no talking points (Olivier, 2026-11-05): a brief can't be judged against the client's ICP without one.
   const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
@@ -69,6 +74,4 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
       if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
     } catch (e) { r.notes.push(`friday: ${l.name}: ${e.message || e}`); }
   }
-  await env.DB.prepare('INSERT INTO app_secrets (name, value) VALUES (?, ?) ON CONFLICT(name) DO UPDATE SET value = excluded.value')
-    .bind(doneKey(client.id), now.day).run();
 }

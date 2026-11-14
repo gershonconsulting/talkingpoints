@@ -117,3 +117,20 @@ CREATE TABLE IF NOT EXISTS send_log (
 
 CREATE INDEX IF NOT EXISTS send_log_box ON send_log(box_key, created_at);
 
+
+-- Quick talking points (v1.10.0): built on the fly from a website or a professional email with Workers AI.
+-- Kept apart from researched Streak briefs: never in the Leads list, the daily run or the Friday run.
+CREATE TABLE IF NOT EXISTS quick_briefs (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  client_id   INTEGER NOT NULL,
+  input       TEXT NOT NULL DEFAULT '',   -- what was pasted (website or email)
+  kind        TEXT NOT NULL DEFAULT '',   -- 'website' | 'email'
+  domain      TEXT NOT NULL DEFAULT '',
+  company     TEXT NOT NULL DEFAULT '',
+  lead_name   TEXT NOT NULL DEFAULT '',
+  lead_role   TEXT NOT NULL DEFAULT '',
+  data        TEXT NOT NULL DEFAULT '{}',
+  created_by  TEXT NOT NULL DEFAULT '',
+  created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS quick_briefs_client ON quick_briefs(client_id, id DESC);

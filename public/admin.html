@@ -44,6 +44,7 @@
   .kpi span { font-size: 12px; color: var(--text-muted); }
   .dash-wrap { overflow-x: auto; }
 </style>
+<link rel="stylesheet" href="/unified-theme.css?v=1.12.1" />
 </head>
 <body>
 <div class="app">
@@ -53,7 +54,7 @@
     <a class="nav-item active" href="/admin">Admin</a>
     <a class="nav-item" href="/app" onclick="try{localStorage.setItem('tp_view','admin')}catch(e){}">Back to dashboard (Admin view)</a>
     <div class="nav-spacer"></div>
-    <div class="sidebar-footer">Only you can see this page. · v1.9.2</div>
+    <div class="sidebar-footer">Only you can see this page. · v1.12.1</div>
   </aside>
   <main>
     <div class="topbar">
@@ -102,7 +103,7 @@
         </form>
       </div>
       <div class="card client">
-        <div class="card-header"><h3>Friday talking points</h3><small class="muted">Every Friday after 7 AM New York time, each client's 5 newest leads get their talking point by email — never twice for the same lead</small></div>
+        <div class="card-header"><h3>Friday talking points</h3><small class="muted">Every Friday after 7 AM New York time, every new lead of each client (created in the last 14 days) gets its talking point by email, sent to the client's whole team (Settings + client.gershon.ai report list) — never twice for the same lead</small></div>
         <table><thead><tr><th>Client</th><th>Lead</th><th>Added</th><th>Friday</th></tr></thead><tbody id="weeklyRows"><tr><td colspan="4" class="muted">Loading…</td></tr></tbody></table>
       </div>
       <div class="card client">

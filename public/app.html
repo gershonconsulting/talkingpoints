@@ -58,6 +58,11 @@
   .send-box input, .send-box textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font: inherit; font-size: 13px; margin-bottom: 8px; }
   .send-box textarea { min-height: 60px; }
   [hidden] { display: none !important; }
+  .quick-card { margin-bottom: 16px; }
+  .quick-form { display: flex; gap: 10px; flex-wrap: wrap; }
+  .quick-form input { flex: 1; min-width: 260px; padding: 11px 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; }
+  .quick-form input:focus { outline: none; border-color: var(--brand); }
+  .quick-card .hint { font-size: 12px; color: var(--text-muted); margin-top: 8px; }
   .tpl-list { list-style: none; margin: 0 0 18px; padding: 0; counter-reset: tpl; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
   .tpl-list li { counter-increment: tpl; display: flex; gap: 12px; align-items: flex-start; padding: 10px 14px; border-top: 1px solid var(--border); font-size: 14px; }
   .tpl-list li:first-child { border-top: 0; }
@@ -88,6 +93,7 @@
   .mtg-when { color: var(--text-muted); font-size: 13px; white-space: nowrap; }
   button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid rgba(254,27,4,0.3); outline-offset: 2px; }
 </style>
+<link rel="stylesheet" href="/unified-theme.css?v=1.12.1" />
 </head>
 <body>
 <div class="app">
@@ -98,12 +104,13 @@
     </div>
     <div class="nav-group-label" id="clientName">Your campaign</div>
     <select id="campaignPick" class="campaign-pick" aria-label="Campaign to test" hidden></select>
-    <a class="nav-item active" href="#leads" data-view="leads">Leads</a>
-    <a class="nav-item" href="#profile" data-view="profile">My profile</a>
-    <a class="nav-item" href="#settings" data-view="settings">Settings</a>
+    <a class="nav-item active" href="#leads" data-view="leads"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Leads</a>
+    <a class="nav-item" href="#quick" data-view="quick"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>New talking point</a>
+    <a class="nav-item" href="#profile" data-view="profile"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>My profile</a>
+    <a class="nav-item" href="#settings" data-view="settings"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Settings</a>
     <div class="nav-spacer"></div>
     <div class="user-chip" id="userChip"></div>
-    <div class="sidebar-footer">© 2026 Gershon Consulting · <span title="Talking Points version">v1.9.2</span></div>
+    <div class="sidebar-footer">© 2026 Gershon Consulting<span class="version" title="Talking Points version">Talking Points v1.12.1</span></div>
   </aside>
   <main>
     <div class="topbar">
@@ -124,6 +131,22 @@
           <div class="brief-pane" id="briefPane">
             <div class="empty"><h3>Pick a lead</h3><p>Its talking points open here.</p></div>
           </div>
+        </div>
+      </section>
+
+      <section id="view-quick" hidden>
+        <div class="card quick-card">
+          <h3 style="margin:0 0 6px">Create a talking point on the fly</h3>
+          <p class="muted" style="margin-bottom:12px">Paste a company website or a professional email. Cloudflare AI reads the public website and writes the talking point against your company and ICP, in about 20 seconds.</p>
+          <form id="quickForm" class="quick-form">
+            <input id="quickInput" type="text" autocomplete="off" placeholder="https://www.company.com  or  jane.doe@company.com" aria-label="Website or professional email" />
+            <button class="btn primary" type="submit" id="quickGo">Create talking point</button>
+          </form>
+          <div class="hint" id="quickHint">Quick talking points use the public website only — no LinkedIn, Streak history or registry data. They are labelled “Quick” and are never sent automatically.</div>
+        </div>
+        <div class="leads-layout">
+          <div><div class="nav-group-label" style="padding:0 0 8px">Recent quick talking points</div><div class="lead-list" id="quickList" role="list"><p style="color:var(--text-muted)">None yet.</p></div></div>
+          <div class="brief-pane" id="quickPane"><div class="empty"><h3>Your quick talking point appears here</h3><p>Paste a website or a professional email above.</p></div></div>
         </div>
       </section>
 
@@ -193,6 +216,6 @@
 </div>
 <div id="toast" role="status"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
-<script src="/app.js?v=1.7.0"></script>
+<script src="/app.js?v=1.12.1"></script>
 </body>
 </html>

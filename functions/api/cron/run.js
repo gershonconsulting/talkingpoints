@@ -2,6 +2,7 @@ import { json, streak, clientStreakKey, getSettings, rowToBrief, scheduledOnly, 
 import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
 import { fridayRun } from '../../_weekly.js';
+import { maybeSendFridayReport } from '../../_friday_report.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
@@ -10,7 +11,8 @@ import { fridayRun } from '../../_weekly.js';
 //   2. Meetings: every calendar meeting with an outside attendee starting within the next
 //      `lead_hours` (default 48h) gets its talking points prepared and emailed once.
 //   3. Fridays (first run after 7 am New York time): the 5 newest leads get their talking point
-//      emailed — never twice for the same lead (functions/_weekly.js).
+//      emailed — never twice for the same lead (functions/_weekly.js); then a report of the
+//      number sent per client goes to report@gershonconsulting.com (functions/_friday_report.js).
 export async function onRequestPost({ request, env }) {
   if (!env.INGEST_TOKEN || request.headers.get('authorization') !== `Bearer ${env.INGEST_TOKEN}`) return json({ error: 'forbidden' }, 403);
   const clients = (await env.DB.prepare('SELECT * FROM clients').all()).results;
@@ -22,7 +24,11 @@ export async function onRequestPost({ request, env }) {
     try { await fridayRun(env, c, r); } catch (e) { r.notes.push(`friday: ${e.message}`); }
     report.push(r);
   }
-  return json({ ok: true, at: new Date().toISOString(), report });
+  // 4. Once the Friday run is done: one email to report@gershonconsulting.com with the number of
+  //    talking points sent per client (functions/_friday_report.js).
+  let friday_report = null;
+  try { friday_report = await maybeSendFridayReport(env, report); } catch (e) { friday_report = { error: e.message || String(e) }; }
+  return json({ ok: true, at: new Date().toISOString(), report, friday_report });
 }
 
 // New York calendar day and hour, e.g. { day: '2026-10-29', hour: 7 }.

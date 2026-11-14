@@ -45,8 +45,15 @@ export function clientSafe(data = {}) {
 // What this signed-in user may see of a brief (no user = client, the safe default).
 export const forViewer = (data, u) => (isInternalUser(u) ? data : clientSafe(data));
 
-export const briefSubject = (company, name, date) =>
-  `[${REPORT_NUMBER}] Talking Points : ${company || ''} - ${name || 'New lead'} - ${date}`;
+// Client name as shown in subjects: "#229 Altavia (Anne)" -> "Altavia", "Valos Srl" -> "Valos Srl".
+export const clientLabel = (name) =>
+  String(name || '').replace(/^\s*#\d+\s*/, '').replace(/\s*\([^)]*\)\s*$/, '').trim();
+
+// Subject (Olivier, 2026-11-03, no "[21]" since 2026-11-13):
+// "Talking Points by Gershon.ai : [CLIENT] - [LEAD COMPANY] - [LEAD] - [Date]"
+// e.g. "Talking Points by Gershon.ai : Altavia - Groupe Clarins - Thao Ly Chau Tran - November 13, 2026"
+export const briefSubject = (clientName, company, name, date) =>
+  `Talking Points by Gershon.ai : ${[clientLabel(clientName), company, name || 'New lead', date].filter((x) => String(x || '').trim()).join(' - ')}`;
 
 // Everything sendEmail needs except html/text rendering.
 export function planBriefEmail(to, data) {
