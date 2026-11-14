@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.12.0';
+  const APP_VERSION = '1.12.1';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -284,6 +284,8 @@
     let t;
     try { t = await api('/api/template'); } catch { $('tplList').innerHTML = '<li class="muted">The template could not be loaded.</li>'; return; }
     const locked = !t.can_manage;
+    // "Needs your attention" is internal (Streak/CRM flags): client users neither see it in briefs nor get a switch for it.
+    if (!me.member.is_internal) t.sections = t.sections.filter((s) => s.id !== 'attention');
     $('tplList').innerHTML = t.sections.map((s) => `<li class="${s.on ? '' : 'off'}">
       <input type="checkbox" data-sec="${esc(s.id)}" ${s.on ? 'checked' : ''} ${s.required || locked ? 'disabled' : ''} aria-label="${esc(s.label)}" />
       <div class="tpl-main"><b>${esc(s.label)}${s.required ? ' <span>(always included)</span>' : ''}</b><span>${esc(s.desc)}</span></div>

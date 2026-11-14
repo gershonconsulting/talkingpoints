@@ -1,6 +1,14 @@
 import { currentUser, json, rowToBrief } from '../../_lib.js';
 import { renderBrief } from '../../_render.js';
 import { getTemplate, applyTemplate } from '../../_template.js';
+import { forViewer } from '../../_audience.js';
+
+// Brief as the signed-in user may see it: client users never get the internal blocks
+// ("Needs your attention", CRM/Streak flags), neither in `data` nor in the rendered `html`.
+const view = (brief, u, tpl) => {
+  const data = forViewer(applyTemplate(brief.data, tpl), u);
+  return { ...brief, data, html: renderBrief(data) };
+};
 
 // GET  /api/leads/:box → stored brief + rendered HTML
 // POST /api/leads/:box → build a draft now (no email)
@@ -10,7 +18,7 @@ export async function onRequestGet({ request, env, params }) {
   if (!u) return json({ error: 'signed_out' }, 401);
   const row = rowToBrief(await env.DB.prepare("SELECT * FROM briefs WHERE box_key = ? AND client_id = ? AND status = 'ready'").bind(box, u.client_id).first());
   const tpl = await getTemplate(env, u.client_id);
-  return json({ brief: row ? { ...row, html: renderBrief(applyTemplate(row.data, tpl)) } : null });
+  return json({ brief: row ? view(row, u, tpl) : null });
 }
 
 // Quick AI drafts are switched off (Olivier, 2026-10-30): only fully researched briefs are shown or sent.
