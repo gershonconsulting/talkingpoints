@@ -1,0 +1,158 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWMgNvjCAw",
+ "company": "Red Nucleus",
+ "lead_name": "Katie Vetro",
+ "lead_role": "Senior Director Clinical Operations",
+ "stage": "Engaged",
+ "data": {
+  "header": {
+   "company": "Red Nucleus (life-sciences strategic services: R&D, medical affairs, market access)",
+   "person": "Katie Vetro",
+   "role": "Senior Director, Clinical Operations",
+   "location": "United States",
+   "chips": [
+    {
+     "label": "Engaged"
+    },
+    {
+     "label": "Fit: High (partner)",
+     "tone": "good"
+    },
+    {
+     "label": "Qualified lead",
+     "tone": "good"
+    },
+    {
+     "label": "NDA not discussed",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Audrey's note (Nov 10): **qualified lead**. Red Nucleus wants to **expand clinical services** and is interested in **Valos biostatistics**. Next: a meeting to hear about them, discuss how they see the **biostats collaboration**, and engage on **rare diseases**. **NDA not discussed yet**."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R; Call Scheduled Nov 10; Engaged Nov 10 (Audrey G). Source: LinkedIn (as Dmitri), introduced by George Botsakos.",
+   "linkedin_url": "https://www.linkedin.com/in/katie-vetro-630b8030"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Established services firm** with a steady news flow (acquisitions, HEOR, learning); Katie's own activity not verified.",
+   "detail": "Red Nucleus announced the **Bridge Medical Consulting** acquisition (HEOR) in Feb 2026. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global strategic partner across the life-sciences product life cycle: **learning & development, scientific services, medical communications, market access**"
+   },
+   {
+    "label": "Recent move",
+    "value": "Acquired **Bridge Medical Consulting** (HEOR, statistics, AI-enabled evidence) in **Feb 2026**; CEO **Mike Menta**"
+   },
+   {
+    "label": "Why now",
+    "value": "Wants to **expand clinical services**; no active project request yet"
+   },
+   {
+    "label": "Contact",
+    "value": "kvetro@rednucleus.com"
+   },
+   {
+    "label": "Valos ICP",
+    "value": "**#4 CROs (COO, Clinical Trial Manager)** \u2014 fit: **high as a partner**. Red Nucleus can sell Valos **biostatistics, data management and programming** inside its offers, starting with **rare diseases**."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "Katie replied to Dmitri directly and asked to schedule by email."
+   },
+   "items": [
+    "**Introduced by George Botsakos** (Red Nucleus), who saw a fit in 'expanded clinical services'.",
+    "**Rare diseases:** Katie leads rare-disease work; Valos has rare-disease statistics experience.",
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A ready-made biostatistics arm",
+    "text": "Red Nucleus is growing clinical and evidence services. Valos can be its **white-label or co-branded biostatistics and data team**, without Red Nucleus hiring."
+   },
+   {
+    "title": "Rare disease first",
+    "text": "Small populations need **adaptive designs, careful analysis plans and natural-history data**. Start with one rare-disease opportunity and build from there."
+   },
+   {
+    "title": "Complements HEOR",
+    "text": "After the **Bridge** acquisition, Red Nucleus has HEOR; Valos adds **trial statistics, CDISC and data management**: a fuller evidence offer."
+   }
+  ],
+  "person": {
+   "name": "Katie Vetro",
+   "text": "**Senior Director, Clinical Operations** at Red Nucleus and lead for **rare diseases** (per Audrey's note). Other career details not verified."
+  },
+  "company": {
+   "text": "Red Nucleus is a global partner to life-sciences companies across R&D, medical affairs, market access, commercial and learning & development. In Feb 2026 it acquired **Bridge Medical Consulting**, a HEOR consultancy with modelling, statistics and AI-enabled evidence workflows, merged into its Value & Evidence organisation under **Monique Martin** (Global Head of HEOR). CEO: **Mike Menta**."
+  },
+  "history": {
+   "text": "**George Botsakos** (Red Nucleus) wrote to Dmitri: looking for a partner for 'expanded clinical services'. **Katie** replied: 'worth getting a call lined up', email kvetro@rednucleus.com. Box created Nov 5; **Call Scheduled** and then **Engaged** on Nov 10. Audrey: qualified lead; they declined work in the past and have no active project request, but can do business development on Valos's rare-disease experience; collaboration could later extend to Katie's colleagues."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 Red Nucleus",
+     "audience": "To be confirmed",
+     "recency": "Regular corporate news",
+     "read": "Good"
+    },
+    {
+     "channel": "Press releases (Business Wire)",
+     "audience": "Life-sciences buyers",
+     "recency": "Feb 2026 acquisition",
+     "read": "Active"
+    },
+    {
+     "channel": "LinkedIn \u2014 Katie Vetro",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Congratulate them on the Bridge acquisition if it fits naturally."
+  },
+  "talking_points": [
+   "What **clinical services** does Red Nucleus want to add, and for which clients?",
+   "How would they like to work: **subcontract, co-branded or referral**?",
+   "Which **rare-disease** programmes are in their pipeline of conversations?",
+   "Who else at Red Nucleus (beyond Katie) would sell the joint offer?",
+   "Can we put an **NDA** in place to share case studies and rates?"
+  ],
+  "attention": [
+   {
+    "title": "NDA not discussed.",
+    "text": "Raise it at the meeting so you can share rare-disease case studies."
+   },
+   {
+    "title": "No active project.",
+    "text": "They declined work in the past: aim for a **partnership framework** and one pilot opportunity, not an immediate contract."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (comments by Juliana R and Audrey G, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Red Nucleus / Bridge Medical Consulting acquisition release, Feb 2026"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Valos \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

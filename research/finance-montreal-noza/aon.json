@@ -1,0 +1,142 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlayI6ZcIDA",
+ "company": "Aon",
+ "lead_name": "James Lee",
+ "lead_role": "Managing Director, APAC Growth Leader",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Aon plc (risk, reinsurance, health and wealth services)",
+   "person": "James Lee",
+   "role": "Managing Director, APAC Growth Leader",
+   "location": "Hong Kong",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Coffee in January (HK)",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "James is 'happy to meet for coffee in **January**' when Noza visits Hong Kong. Email **james.sh.lee@aon.com** once dates are set; a short note now to hold the meeting."
+   },
+   "source_line": "Lead added to Streak on Nov 6, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/james-lee-678a856"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Very active in APAC**: frequent leadership appointments and events; James's own activity not verified.",
+   "detail": "Aon APAC news is covered regularly (Reinsurance Asia, Intelligent Insurer). Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global professional-services firm (NYSE: AON): **risk, reinsurance, health and wealth**; strengthening its **APAC growth** leadership through 2026"
+   },
+   {
+    "label": "His role",
+    "value": "**APAC Growth Leader**: new clients, cross-solution strategies"
+   },
+   {
+    "label": "Contact",
+    "value": "james.sh.lee@aon.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#3 Insurance** \u2014 fit: **medium**. Aon has a large Canadian business; Montreal **analytics, actuarial and operations** support is the angle. Montreal status to be confirmed."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "James replied to Noza directly and offered coffee."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Do not confuse with **James Lee (PwC Hong Kong)**, a consulting partner with the same name."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "James Lee",
+   "text": "**Managing Director, APAC Growth Leader** at Aon, Hong Kong (per Streak). Other details not verified."
+  },
+  "company": {
+   "text": "Aon is a global professional-services firm advising on risk, reinsurance, retirement and health. In 2026 it has added several APAC growth and strategy leaders (e.g. a CEO for its Strategy and Technology Group in Hong Kong)."
+  },
+  "history": {
+   "text": "James wrote: 'Hi Noza, thanks for your note. Sure happy to meet for coffee in January when you visit Hong Kong.' He gave **James.sh.lee@aon.com** (Nov 5)."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 Aon",
+     "audience": "Very large",
+     "recency": "Daily",
+     "read": "Strong"
+    },
+    {
+     "channel": "Trade press (Reinsurance Asia)",
+     "audience": "APAC insurance",
+     "recency": "Weekly",
+     "read": "Good"
+    }
+   ],
+   "note": "Check his LinkedIn before January for news to mention."
+  },
+  "talking_points": [
+   "Which APAC clients are expanding into **North America**?",
+   "Where do Aon's **analytics and operations** teams for the Americas sit?",
+   "Does Aon Canada have a **Montreal** footprint?",
+   "Could he introduce Noza to Aon's **Canada or global operations** leaders?"
+  ],
+  "attention": [
+   {
+    "title": "Meeting is in January.",
+    "text": "Send a holding note now, then dates in December."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Reinsurance Asia, Intelligent Insurer, Aon APAC newsroom"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al (Noza) \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

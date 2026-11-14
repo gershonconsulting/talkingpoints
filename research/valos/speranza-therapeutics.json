@@ -1,0 +1,152 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJXM0JmkCAw",
+ "company": "Speranza Therapeutics",
+ "lead_name": "Sal Rafanelli",
+ "lead_role": "President and CEO",
+ "stage": "NDA Signed",
+ "data": {
+  "header": {
+   "company": "Speranza Therapeutics (medical devices and orphan/generic drugs, Boca Raton, FL)",
+   "person": "Sal J. Rafanelli",
+   "role": "President and CEO",
+   "location": "Boca Raton, Florida",
+   "chips": [
+    {
+     "label": "NDA Signed"
+    },
+    {
+     "label": "Referral: Rob Philo",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: to qualify",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Warm referral:",
+    "text": "**Rob Philo** told Dmitri on LinkedIn to call Sal ('his company could use your services') and offered to **introduce** him once connected. Streak shows the stage moved to **NDA Signed** on Nov 10. First job on the call: find out **which study or program** needs biostatistics or data management."
+   },
+   "source_line": "Lead added to Streak on Nov 10, 2026 by Juliana R; moved Lead \u2192 NDA Signed on Nov 10 by Audrey G. Source: LinkedIn referral (as Dmitri).",
+   "linkedin_url": "https://www.linkedin.com/in/salrafanelli"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Small company (**10\u201349 people**) with a modest presence: website, press releases and a past **StartEngine** crowdfunding page.",
+   "detail": "Follower counts not verified. Sal speaks through partnership press releases (e.g. Sunshine Labs, June 2025).",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Founded **2020**, Boca Raton FL. Develops, distributes and clinically supports **medical devices and generic/orphan drugs**"
+   },
+   {
+    "label": "Lead product",
+    "value": "**S.T. Genesis**: FDA-cleared **percutaneous nerve field stimulator** to reduce **opioid withdrawal** symptoms"
+   },
+   {
+    "label": "Partnerships",
+    "value": "Global partnership with **Sunshine Labs** (June 2025) on addiction, mental health and overdose prevention"
+   },
+   {
+    "label": "Contact",
+    "value": "srafanelli@speranzatherapeutics.com"
+   },
+   {
+    "label": "Valos ICP",
+    "value": "**#2 Biotech (CEO)** \u2014 fit: **to qualify**. A device/distribution company; Valos is relevant only if Speranza runs **clinical studies** (device post-market, new indications, orphan drug trials) needing biostatistics, data management or CDISC work."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Dmitri Petratchenko",
+    "reason": "Rob Philo referred Sal to Dmitri personally; Dmitri should take the first call."
+   },
+   "items": [
+    "**Mutual contact: Rob Philo**, who made the referral.",
+    "**No shared employer or school verified.**",
+    "Speranza focuses on **underserved conditions**; Valos has rare-disease and small-population statistics experience."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Evidence for a device in a crowded market",
+    "text": "Payers and treatment centres want **clinical outcomes data**. Valos can design and analyse **post-market or real-world studies** that prove S.T. Genesis works."
+   },
+   {
+    "title": "Small sponsor, senior team",
+    "text": "Valos gives a small company a **senior statistics and data team** without building one in-house."
+   },
+   {
+    "title": "Start with one study",
+    "text": "Ask for the next study on their calendar and offer a **scoped proposal** (SAP, data management, analysis)."
+   }
+  ],
+  "person": {
+   "name": "Sal J. Rafanelli",
+   "text": "**President and CEO** of Speranza Therapeutics. CB Insights lists earlier work at **BiologicTx**. Publicly quoted on the Sunshine Labs partnership (June 2025). Other details not verified."
+  },
+  "company": {
+   "text": "Speranza Therapeutics (Boca Raton, founded 2020, 10\u201349 employees) distributes and clinically supports **orphan drugs and medical devices** for chronic conditions that larger companies ignore. Its first product, **S.T. Genesis**, is an FDA-cleared nerve stimulator used to reduce opioid withdrawal symptoms; it partners with treatment centres on protocols, patient support and reimbursement. Team includes a Medical Director and neuromodulation directors. Funding: Reg CF crowdfunding on StartEngine; totals not verified."
+  },
+  "history": {
+   "text": "**Rob Philo** accepted Dmitri's InMail and offered a lead: 'give Sal Rafanelli a call\u2026 his company could use your services'. Dmitri asked for an introduction; Rob asked him to accept his invite first. Box created Nov 10 by Juliana R; stage set to **NDA Signed** the same day by Audrey G."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "Website / press releases",
+     "audience": "Treatment centres, investors",
+     "recency": "Partnership release June 2025",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn \u2014 Sal Rafanelli",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Thank Rob Philo publicly or by DM after the call: he made the introduction."
+  },
+  "talking_points": [
+   "What clinical **studies** are planned for S.T. Genesis or new products in 2026\u20132027?",
+   "Who runs **data and statistics** for them today (in-house, CRO, academic site)?",
+   "Are they moving into **orphan drugs** that will need regulatory-grade trials?",
+   "What did Rob Philo see as the fit? Use his words.",
+   "Would a **short scoped proposal** for their next study help?"
+  ],
+  "attention": [
+   {
+    "title": "Check the NDA.",
+    "text": "Streak says **NDA Signed** on Nov 10 but no document or email is logged. Confirm it exists before sharing anything confidential."
+   },
+   {
+    "title": "Fit unclear.",
+    "text": "Speranza is mainly a device/distribution company. Qualify for real study work before investing time."
+   },
+   {
+    "title": "Thank the referrer.",
+    "text": "Close the loop with **Rob Philo**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (comment with LinkedIn conversation, stage history)"
+   },
+   {
+    "used": true,
+    "text": "CB Insights, StartEngine, Village.ai, ConnectPlex company profiles"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Valos \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

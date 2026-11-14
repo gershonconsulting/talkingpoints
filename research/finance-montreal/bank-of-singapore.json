@@ -1,0 +1,150 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlYznxY8LDA",
+ "company": "Bank of Singapore",
+ "lead_name": "Syed Razif Al-Idid",
+ "lead_role": "Managing Director, Malaysia Team Head",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Bank of Singapore (OCBC Group private bank)",
+   "person": "Syed Razif Al-Idid",
+   "role": "Managing Director, Malaysia Team Head",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Meet in Singapore",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Low\u2013Medium",
+     "tone": "warn"
+    },
+    {
+     "label": "Personal email",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Next step:",
+    "text": "Syed is 'happy to chat with Noza when she is in SG'. Email **syed3388@gmail.com** with Noza's Singapore dates (work email per note: syedidid@bankofsingapore.com)."
+   },
+   "source_line": "Lead added to Streak on Nov 5, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/syed-razif-al-idid-b218a911"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Active private-bank brand** in Asia; Syed's own activity not verified.",
+   "detail": "Bank of Singapore and OCBC publish regularly. Follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "OCBC's private bank: **~US$145B AUM, ~500 private bankers** (Q3 2025); aims to be a **top-5 Asian private bank** by 2028\u20132030. CEO **Jason Moo**"
+   },
+   {
+    "label": "His role",
+    "value": "Heads a **Malaysia market team** of private bankers; earlier reported as head of **CIMB private banking** in Singapore"
+   },
+   {
+    "label": "Contact",
+    "value": "syed3388@gmail.com (personal, his choice) \u00b7 syedidid@bankofsingapore.com"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Banks / wealth** \u2014 fit: **low\u2013medium**. A front-office banker, not an operations decision-maker; value is **network and introductions** within OCBC."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza Mutalova",
+    "reason": "He agreed to meet Noza in Singapore."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Finance Montr\u00e9al is also in touch with **OCBC** (Mathilda Deng, Strategic Planning Office): coordinate."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Syed Razif Al-Idid",
+   "text": "**Managing Director, Malaysia Team Head** at Bank of Singapore. Asian Private Banker previously reported his appointment as **head of CIMB's private banking business in Singapore**."
+  },
+  "company": {
+   "text": "Bank of Singapore is the private-banking subsidiary of OCBC, Singapore's second-largest bank, serving high-net-worth clients across Asia and beyond."
+  },
+  "history": {
+   "text": "Syed replied to Steve: 'Happy to chat with Noza when he/she is in SG. My email address is syed3388@gmail.com' (Oct 31). Steve confirmed she would reach out."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 Bank of Singapore",
+     "audience": "To be confirmed",
+     "recency": "Active",
+     "read": "Good"
+    },
+    {
+     "channel": "LinkedIn \u2014 Syed Razif Al-Idid",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "In-person coffee works best."
+  },
+  "talking_points": [
+   "How does Bank of Singapore support **North American** clients and time zones?",
+   "Do any of his clients' **family businesses** look at Canada?",
+   "Who at OCBC/Bank of Singapore owns **operations locations**?",
+   "Would he introduce Noza to OCBC Group colleagues?"
+  ],
+  "attention": [
+   {
+    "title": "Coordinate with the OCBC lead.",
+    "text": "Noza also has **Mathilda Deng (OCBC)**: align the story."
+   },
+   {
+    "title": "Front-office seat.",
+    "text": "Aim for **introductions**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Caproasia / OCBC reports on Bank of Singapore; Asian Private Banker"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

@@ -1,0 +1,146 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAleyq1bcJDA",
+ "company": "California Bank & Trust",
+ "lead_name": "Gavin Tripp",
+ "lead_role": "Managing Director, Specialized Industries",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "California Bank & Trust (division of Zions Bancorporation)",
+   "person": "Gavin Tripp",
+   "role": "Managing Director, Specialized Industries",
+   "location": "Menlo Park, California",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Call: week of Nov 16",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Low\u2013Medium",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Book the call:",
+    "text": "Gavin is 'happy to have an exploratory conversation' but **travels most of this week**; he asked for the **week of Nov 16**. Steve said a colleague would reach out. **Noza emails now** with 2\u20133 slots (Pacific time)."
+   },
+   "source_line": "Lead added to Streak on Nov 10, 2026 by Juliana R. Source: LinkedIn InMail (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/gavintripp"
+  },
+  "grade": {
+   "letter": "C+",
+   "headline": "Regional bank with a local brand; Gavin's own activity not verified.",
+   "detail": "CB&T posts local news and community content; follower counts to be confirmed.",
+   "context": "Web-audited Nov 13, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "California business and consumer bank (since 1952), **division of Zions Bancorporation**; about 90 branches"
+   },
+   {
+    "label": "His group",
+    "value": "**Specialized Industries** (Menlo Park): industry-focused commercial banking"
+   },
+   {
+    "label": "Contact",
+    "value": "gavin.tripp@zionsbancorp.com \u00b7 408 857-7345 (cell, from his signature)"
+   },
+   {
+    "label": "Finance Montr\u00e9al ICP",
+    "value": "**#1 Banks** \u2014 fit: **low\u2013medium**. A US regional bank with no Canadian operations found. The value may be **his clients** (tech/life-science companies) rather than CB&T itself."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the InMail; Noza runs the call."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Gavin's Menlo Park base puts him close to **Silicon Valley** companies, a possible referral channel for Montreal."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Open with his clients",
+    "text": "Ask which of his **specialised-industry clients** expand internationally; Finance Montr\u00e9al can help them set up in Montreal (talent, IFC credit, New York time zone)."
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montr\u00e9al helps financial firms **place teams in Montreal**. The question is whether any **operations, risk, compliance, data or support** work linked to their business could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montr\u00e9al-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   }
+  ],
+  "person": {
+   "name": "Gavin Tripp",
+   "text": "**Managing Director, Specialized Industries** at California Bank & Trust (Zions), Menlo Park. Other career details not verified."
+  },
+  "company": {
+   "text": "California Bank & Trust is a California commercial and consumer bank and a division of Zions Bancorporation, headquartered in San Diego. It serves businesses with lending, treasury and foreign exchange, and runs specialised industry teams."
+  },
+  "history": {
+   "text": "Gavin accepted Steve's InMail: 'Happy to have an exploratory conversation. I'm traveling most of next week, so let me know how the week of 11/16 looks.' Steve replied that a colleague would reach out."
+  },
+  "social": {
+   "rows": [
+    {
+     "channel": "LinkedIn \u2014 California Bank & Trust",
+     "audience": "To be confirmed",
+     "recency": "Active",
+     "read": "Local brand"
+    },
+    {
+     "channel": "LinkedIn \u2014 Gavin Tripp",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Keep it to email; he travels."
+  },
+  "talking_points": [
+   "Which **industries** does Specialized Industries cover (tech, life sciences, other)?",
+   "Do any of his clients look at **Canadian expansion** or near-shore teams?",
+   "Does Zions have any **operations or tech support** that could use New York-hours coverage at lower cost?",
+   "Would he introduce Noza to **clients** considering Montreal?"
+  ],
+  "attention": [
+   {
+    "title": "Low direct fit.",
+    "text": "Treat the call as **networking and referrals**; don't push a CB&T relocation pitch."
+   },
+   {
+    "title": "Time zone.",
+    "text": "He is on **Pacific time**: 3 hours behind Montreal."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "CB&T public profiles (ABF Journal, chamber listings)"
+   },
+   {
+    "used": true,
+    "text": "Finance Montr\u00e9al pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting \u00b7 Talking Points for Finance Montr\u00e9al \u00b7 prepared November 13, 2026"
+ },
+ "send": false
+}

@@ -2,8 +2,8 @@
    Talking Points - unified Gershon design (v1.10.0, 2026-11-07; rebuilt
    from PR #18 on the v1.9.3 main)
    Decision 2026-10-13: every Gershon app looks like Linalysis (the master
-   design) and the main colour everywhere is the Gershon.ai red #CC3333
-   (still open for Talking Points: #CC3333 vs #FE1B04, see --gx-red).
+   design) and the main colour everywhere is the brand red #FE1B04
+   (decided 2026-11-10; see --gx-red).
    This override layer is linked LAST in the <head> of /, /login, /app,
    /admin, /privacy and /terms (after common.css and each page's own
    <style>), the same approach as
