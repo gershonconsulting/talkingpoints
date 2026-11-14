@@ -5,7 +5,8 @@ import { nyParts } from './_weekly.js';
 // When the Friday run is finished, one email goes to report@gershonconsulting.com with the
 // number of talking points sent per client (convention: "[Platform] Report — [Date]").
 // Counts come from send_log (sent_by 'friday run'), so they are what actually went out.
-// Sent once per Friday (app_secrets WEEKLY_REPORT = New York day).
+// Sent once per Friday, at the end of the day: first hourly run from 6 pm New York time (or on
+// Saturday if no run came Friday evening). app_secrets WEEKLY_REPORT = the Friday it covered.
 export const REPORT_TO = 'report@gershonconsulting.com';
 const DONE = 'WEEKLY_REPORT';
 
@@ -54,7 +55,7 @@ export async function buildFridayReport(env, day, runReport = []) {
   const withSends = rows.filter((r) => r.sent).length;
   const dateText = new Date(`${day}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   const subject = `Talking Points Report — ${dateText.replace(/^\w+, /, '')} (Friday run)`;
-  const withRun = runReport.length > 0;
+  const withRun = runReport.some((r) => r.friday);
 
   const td = 'padding:8px 10px;border-bottom:1px solid #e9ecef;vertical-align:top;font-size:13px;color:#1a1a1a;';
   const th = 'padding:8px 10px;border-bottom:2px solid #FE1B04;text-align:left;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#5f6b76;';
@@ -85,15 +86,17 @@ ${body}
   return { day, subject, html, text, total, failed, clients: rows };
 }
 
-// Called at the end of the hourly cron. Sends only on the Friday run (some client ran its Friday
-// step in this call), once per Friday.
+// Called at the end of every hourly cron run.
 export async function maybeSendFridayReport(env, runReport) {
-  if (!runReport.some((r) => r.friday)) return null;
-  const { day } = nyParts();
+  const now = nyParts();
+  let day = null;
+  if (now.weekday === 'Fri' && now.hour >= 18) day = now.day;
+  else if (now.weekday === 'Sat') day = nyParts(Date.now() - 24 * 3600e3).day;
+  if (!day) return null;
   const done = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(DONE).first();
   if (done?.value === day) return null;
-  const rep = await buildFridayReport(env, day, runReport);
+  const rep = await buildFridayReport(env, day, now.day === day ? runReport : []);
   await sendEmail(env, { to: [REPORT_TO], subject: rep.subject, html: rep.html, text: rep.text, from: 'GC Talking Points <talkingpoints@gershon.ai>' });
   await env.DB.prepare('INSERT INTO app_secrets (name, value) VALUES (?, ?) ON CONFLICT(name) DO UPDATE SET value = excluded.value').bind(DONE, day).run();
-  return { sent_to: REPORT_TO, total: rep.total };
+  return { sent_to: REPORT_TO, day, total: rep.total };
 }
