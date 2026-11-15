@@ -1,5 +1,5 @@
 # Talking Points (talkingpoints.gershon.ai) — status
-Last updated: 2026-11-14 · v1.12.1 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
+Last updated: 2026-11-15 · v1.12.2 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
 Bump VERSION, public/version.txt and APP_VERSION in public/app.js together on every release.
 
 ## Runs (hourly GitHub cron → POST /api/cron/run)
@@ -15,9 +15,11 @@ Bump VERSION, public/version.txt and APP_VERSION in public/app.js together on ev
 - v1.11.2 (merged 2026-11-14) Friday sends all day; report 6 PM NY.
 - v1.12.0 (merged 2026-11-14) unified Gershon design, brand red #FE1B04.
 - v1.12.1 (merged 2026-11-14) client users no longer see internal "Needs your attention" block (PR #21).
+- v1.12.2 (PR, 2026-11-15) stale old-red mention removed from unified-theme.css comment; no visual change.
 
 ## ❌ Open
 - New leads need researched talking points before each Friday or nothing new goes out.
 - No recipients: Wallix, Altavia (Alexandre).
 - Duplicate empty client "#229 Altavia (Anne)" slug `altavia` (id 88475) in D1 — delete needs Olivier's OK.
 - Quick talking points: live test with Workers AI on the real site.
+- v1.12.2: version text / ?v= in admin.html, index.html, login.html, privacy.html, terms.html and a CHANGELOG line still say 1.12.1 (cosmetic).
