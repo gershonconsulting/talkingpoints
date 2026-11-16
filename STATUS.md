@@ -1,6 +1,6 @@
 # Talking Points (talkingpoints.gershon.ai) — status
-Last updated: 2026-11-15 · v1.12.2 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
-Bump VERSION, public/version.txt and APP_VERSION in public/app.js together on every release.
+Last updated: 2026-11-16 · v1.12.3 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
+Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy), `node scripts/version.mjs check` must pass.
 
 ## Runs (hourly GitHub cron → POST /api/cron/run)
 - Daily (first run after 7 AM NY): new Streak leads → "research needed" notes.
@@ -17,9 +17,11 @@ Bump VERSION, public/version.txt and APP_VERSION in public/app.js together on ev
 - v1.12.1 (merged 2026-11-14) client users no longer see internal "Needs your attention" block (PR #21).
 - v1.12.2 (PR, 2026-11-15) stale old-red mention removed from unified-theme.css comment; no visual change.
 
+- v1.12.3 (PR, 2026-11-16) footer shows the real version: one source (VERSION), sync/check script, footers read /version.txt.
+
 ## ❌ Open
 - New leads need researched talking points before each Friday or nothing new goes out.
 - No recipients: Wallix, Altavia (Alexandre).
 - Duplicate empty client "#229 Altavia (Anne)" slug `altavia` (id 88475) in D1 — delete needs Olivier's OK.
 - Quick talking points: live test with Workers AI on the real site.
-- v1.12.2: version text / ?v= in admin.html, index.html, login.html, privacy.html, terms.html and a CHANGELOG line still say 1.12.1 (cosmetic).
+- CI does not run `node scripts/version.mjs check` yet (workflow edit left for Ariel).
