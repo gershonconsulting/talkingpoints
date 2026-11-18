@@ -79,5 +79,5 @@ STATUS
 ❌ Custom domain talkingpoints.gershon.ai (CNAME → gershon-talkingpoints.pages.dev) — waiting for Olivier's OK
 ❌ Ariel: 3 secrets in Cloudflare (HANDOFF-for-Ariel.md) — LinkedIn, Google, Resend
 ❌ Valos team members + their email domain (members rows) — needed before Valos users can sign in
-❌ Final email format sign-off by Olivier — set EMAIL_ENABLED = "true" in wrangler.toml
+❌ Final email format sign-off by Olivier → set EMAIL_ENABLED = "true" in wrangler.toml
 ❌ Research step that POSTs full briefs to /api/briefs (LinkedIn profiles, social audit, industry, events)
