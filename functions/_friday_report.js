@@ -86,17 +86,35 @@ ${body}
   return { day, subject, html, text, total, failed, clients: rows };
 }
 
+// Sends the internal report for one date at most once (2026-11-18: the Nov 13 report went out on
+// Nov 13 and again on Nov 14). The old guard read WEEKLY_REPORT, sent, then wrote it, so two
+// overlapping runs (or a failed marker write) both sent. Now: claim the date atomically BEFORE
+// sending (INSERT OR IGNORE on a per-date row; only one caller gets changes = 1), release the
+// claim if the send fails so the next hourly run retries, and pass a Resend Idempotency-Key
+// (tp-report-<date>) as a second line of defence.
+export async function sendReportOnce(env, day, rep, send = sendEmail) {
+  const claim = `WEEKLY_REPORT_SENT:${day}`;
+  const got = await env.DB.prepare("INSERT OR IGNORE INTO app_secrets (name, value) VALUES (?, ?)").bind(claim, new Date().toISOString()).run();
+  if (!got?.meta?.changes) return false;
+  try {
+    await send(env, { to: [REPORT_TO], subject: rep.subject, html: rep.html, text: rep.text, from: 'GC Talking Points <talkingpoints@gershon.ai>', idempotencyKey: `tp-report-${day}` });
+  } catch (e) {
+    await env.DB.prepare('DELETE FROM app_secrets WHERE name = ?').bind(claim).run();
+    throw e;
+  }
+  await env.DB.prepare('INSERT INTO app_secrets (name, value) VALUES (?, ?) ON CONFLICT(name) DO UPDATE SET value = excluded.value').bind(DONE, day).run();
+  return true;
+}
+
 // Called at the end of every hourly cron run.
-export async function maybeSendFridayReport(env, runReport) {
-  const now = nyParts();
+export async function maybeSendFridayReport(env, runReport, { send = sendEmail, now = nyParts() } = {}) {
   let day = null;
   if (now.weekday === 'Fri' && now.hour >= 18) day = now.day;
-  else if (now.weekday === 'Sat') day = nyParts(Date.now() - 24 * 3600e3).day;
+  else if (now.weekday === 'Sat') day = nyParts(Date.parse(`${now.day}T12:00:00Z`) - 24 * 3600e3).day;
   if (!day) return null;
   const done = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(DONE).first();
   if (done?.value === day) return null;
   const rep = await buildFridayReport(env, day, now.day === day ? runReport : []);
-  await sendEmail(env, { to: [REPORT_TO], subject: rep.subject, html: rep.html, text: rep.text, from: 'GC Talking Points <talkingpoints@gershon.ai>' });
-  await env.DB.prepare('INSERT INTO app_secrets (name, value) VALUES (?, ?) ON CONFLICT(name) DO UPDATE SET value = excluded.value').bind(DONE, day).run();
+  if (!(await sendReportOnce(env, day, rep, send))) return null;
   return { sent_to: REPORT_TO, day, total: rep.total };
 }
