@@ -279,18 +279,18 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.12.3';
+export const VERSION = '1.12.4';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay
 // reads the queued email back once via GET /api/outbox/:id), so no key is ever copied.
 // `from`: brief emails pass the sender chosen by _audience.js ("GC Talking Points" for all-Gershon
 // recipients, "Gershon Consulting" otherwise); the default is the client-facing one.
-export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com', from = 'Gershon Consulting <talkingpoints@gershon.ai>' }) {
+export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com', from = 'Gershon Consulting <talkingpoints@gershon.ai>', idempotencyKey }) {
   if (env.RESEND_API_KEY) {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
-      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json', 'user-agent': `talkingpoints.gershon.ai/${VERSION}` },
+      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json', 'user-agent': `talkingpoints.gershon.ai/${VERSION}`, ...(idempotencyKey ? { 'idempotency-key': idempotencyKey } : {}) },
       body: JSON.stringify({ from, reply_to, to, subject, html, text }),
     });
     if (!res.ok) throw new Error(`Resend ${res.status}: ${await res.text()}`);
