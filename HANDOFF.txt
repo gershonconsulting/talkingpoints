@@ -1,5 +1,6 @@
 TALKINGPOINTS.GERSHON.AI — HANDOFF
 Updated 2026-10-30 (v1.7.0)
+✅ 2026-11-18 v1.12.4: internal Friday report is sent once per date (idempotency key; PR #30 merged). html ?v= cache-busters and footer text synced to 1.12.4 (version.mjs sync); version check ok, tests pass. Verify live: / html references ?v=1.12.4.
 ✅ 2026-11-16 v1.12.3 (PR, not merged): footer said v1.12.1 while version.txt said 1.12.2. VERSION is now the single source: `node scripts/version.mjs sync` updates every copy, `check` fails on drift; footers on /, /app and /admin also read /version.txt at load (public/version.js). Tests: version check ok, JS syntax ok. Ready to test on preview: footer on / and /app shows v1.12.3.
 ❌ Not wired into CI: add `node scripts/version.mjs check` as a step in .github/workflows/deploy.yml (workflow edit left for Ariel).
 ✅ 2026-11-15 v1.12.2 (PR, not merged): audit found "#CC3333" in the live unified-theme.css — it was only a stale comment (the colour in use was already #FE1B04 everywhere). Comment reworded, no colour or layout change; version bumped (VERSION, public/version.txt, APP_VERSION in public/app.js, sidebar footer in public/app.html). Ready to test on preview: /login looks identical, sign-in button and logo are #FE1B04.
