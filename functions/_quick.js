@@ -100,13 +100,20 @@ export async function readWebsite(target) {
 const today = () => new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/New_York' });
 
 // Builds the brief JSON (functions/_render.js format).
-export async function buildQuickBrief(env, { target, site, clientName, company, icp, team }) {
+export async function buildQuickBrief(env, { target, site, clientName, company, icp, team, lead = null, financials = null }) {
   const teamText = team.map((m) => `- ${m.name || 'team member'} (${m.title || ''}): ${m.background || 'no background on file'}`).join('\n') || '(no team background on file)';
   const prompt = `You prepare a talking-points brief for ${clientName}'s team before they contact a prospect.
 
 INPUT GIVEN BY THE USER: ${target.kind === 'email' ? `professional email ${target.email}${target.personGuess ? ` (name likely: ${target.personGuess})` : ''}` : `website ${target.url}`}
 PROSPECT DOMAIN: ${target.domain}
-
+${lead ? `
+CRM RECORD (Streak)
+Company: ${lead.company}
+Person: ${lead.leadName || 'unknown'}${lead.leadRole ? ` — ${lead.leadRole}` : ''}${lead.leadEmail ? ` <${lead.leadEmail}>` : ''}
+Stage: ${lead.stage || 'n/a'}
+Notes: ${String(lead.notes || '(none)').slice(0, 3000)}
+Public financials: ${financials?.text || '(none found)'}
+` : ''}
 PROSPECT WEBSITE (public text, may be partial)
 ${site.ok ? site.text : '(the website could not be read)'}
 
@@ -121,7 +128,7 @@ ${teamText}
 
 Rules: never invent facts, numbers, clients, people or news. Use only what is above. If something is unknown, leave it out
 or say it is unknown. Judge honestly whether the prospect fits the ICP. "Lead with this" ties what ${clientName} sells to
-what this prospect does. If an email was given, the person is the email owner: only state their role if the website says it.
+what this prospect does. If an email was given, the person is the email owner: only state their role if the website or the CRM record says it.
 Use **bold** for the key fact in a sentence. Write in English.
 
 Return ONLY JSON:
