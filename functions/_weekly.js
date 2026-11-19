@@ -11,6 +11,15 @@ import { emailBrief } from './_brief.js';
 // Gershon's own pipelines keep their rule: only leads in the "Scheduled" stage.
 export const WEEKLY_COUNT = 5;      // kept for the Admin table header (legacy)
 export const NEW_LEAD_DAYS = 14;   // a lead not researched by its first Friday is still sent the next one
+// Same-day talking points (Olivier, 2026-11-19, option 2): new leads are researched each morning and
+// the app sends them the SAME afternoon — every hourly run from SAME_DAY_HOUR (New York time) sends
+// the researched new leads not sent yet. Fridays keep their all-day window from 7 AM (backup run).
+export const SAME_DAY_HOUR = 16;
+
+// Is the send window open at New York time `now` ({ weekday, hour } from nyParts)?
+export function sendWindowOpen(now) {
+  return now.weekday === 'Fri' ? now.hour >= 7 : now.hour >= SAME_DAY_HOUR;
+}
 
 export function nyParts(ms = Date.now()) {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
@@ -53,12 +62,13 @@ export async function lastLeads(env, client, n = 200) {
   return { connected: true, leads };
 }
 
-// Called by the hourly cron. On Fridays from 7 am New York time, EVERY hourly run sends the
+// Called by the hourly cron. Every day from 4 pm New York time (Fridays from 7 am), EVERY hourly run sends the
 // researched new leads not sent yet (2026-11-13: a talking point researched during the day still
 // goes out that Friday). No duplicate: send_log is checked lead by lead. `force` ignores the day.
 export async function fridayRun(env, client, r, { force = false } = {}) {
   const now = nyParts();
-  if (!force && (now.weekday !== 'Fri' || now.hour < 7)) return;
+  if (!force && !sendWindowOpen(now)) return;
+  const sentBy = now.weekday === 'Fri' ? 'friday run' : 'same-day run';
 
   // No ICP, no talking points (Olivier, 2026-11-05): a brief can't be judged against the client's ICP without one.
   const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
@@ -70,7 +80,7 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
     if (l.sent_at) { r.friday.already_sent++; continue; }        // no duplicate, ever
     if (!l.brief) { r.friday.research_needed.push(l.name || l.box_key); continue; }
     try {
-      const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true });
+      const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true, sentBy });
       if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
     } catch (e) { r.notes.push(`friday: ${l.name}: ${e.message || e}`); }
   }

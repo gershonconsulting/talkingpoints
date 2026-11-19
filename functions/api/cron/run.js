@@ -1,22 +1,24 @@
 import { json, streak, clientStreakKey, getSettings, rowToBrief, scheduledOnly, scheduledBoxes } from '../../_lib.js';
 import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
-import { fridayRun } from '../../_weekly.js';
+import { fridayRun, NEW_LEAD_DAYS } from '../../_weekly.js';
+import { buildAutoBrief } from '../../_auto.js';
 import { maybeSendFridayReport } from '../../_friday_report.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
-//   1. New leads — ONCE A DAY (first run after 7 am New York time): every Streak box created
-//      in the client's pipeline since the last daily check gets its talking points.
+//   1. New leads — EVERY run: each new Streak lead (last 14 days) without a talking point gets one
+//      built by Cloudflare AI in the brief format (functions/_auto.js).
 //   2. Meetings: every calendar meeting with an outside attendee starting within the next
 //      `lead_hours` (default 48h) gets its talking points prepared and emailed once.
-//   3. Fridays (first run after 7 am New York time): the 5 newest leads get their talking point
-//      emailed — never twice for the same lead (functions/_weekly.js); then a report of the
+//   3. Same day (every run from 4 pm New York time; Fridays from 7 am): every researched new lead
+//      not sent yet gets its talking point emailed — never twice for the same lead (functions/_weekly.js); then a report of the
 //      number sent per client goes to report@gershonconsulting.com (functions/_friday_report.js).
 export async function onRequestPost({ request, env }) {
   if (!env.INGEST_TOKEN || request.headers.get('authorization') !== `Bearer ${env.INGEST_TOKEN}`) return json({ error: 'forbidden' }, 403);
   const clients = (await env.DB.prepare('SELECT * FROM clients').all()).results;
   const report = [];
+  env.__autoBudget = AUTO_PER_RUN;
   for (const c of clients) {
     const r = { client: c.slug, new_leads: 0, meetings_prepared: 0, emails_sent: 0, notes: [] };
     try { await newLeads(env, c, r); } catch (e) { r.notes.push(`leads: ${e.message}`); }
@@ -31,6 +33,9 @@ export async function onRequestPost({ request, env }) {
   return json({ ok: true, at: new Date().toISOString(), report, friday_report });
 }
 
+// Cloudflare AI talking points built per hourly run (all clients together); the rest wait for the next hour.
+const AUTO_PER_RUN = 8;
+
 // New York calendar day and hour, e.g. { day: '2026-10-29', hour: 7 }.
 function nyNow(ms = Date.now()) {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' })
@@ -38,18 +43,19 @@ function nyNow(ms = Date.now()) {
   return { day: `${p.year}-${p.month}-${p.day}`, hour: Number(p.hour) };
 }
 
+// Every hourly run (2026-11-19, same-day talking points): new Streak leads get their talking point
+// built by Cloudflare AI right away (functions/_auto.js), so the same-day run sends it that afternoon.
 async function newLeads(env, client, r) {
   const key = await clientStreakKey(env, client.id);
   if (!key || !client.pipeline_key) { r.notes.push('Streak not connected'); return; }
-  const s = (await getSettings(env, client.id)) || {};
-  const now = nyNow();
-  if (now.hour < 7 || (s.streak_checked_at && nyNow(s.streak_checked_at).day === now.day)) { r.notes.push('new leads: already checked today'); return; }
-  const since = s.streak_checked_at || Date.now() - 24 * 3600 * 1000;
+  const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
+  if (!String(tpl?.icp || '').trim()) { r.notes.push('new leads: ICP missing — no talking point built'); return; }
   let fresh;
   if (scheduledOnly(client)) {
     // Gershon's own pipelines: talking points only once a call is scheduled (stage "Scheduled").
     fresh = (await scheduledBoxes(key, client.pipeline_key)).boxes;
   } else {
+    const since = Date.now() - NEW_LEAD_DAYS * 24 * 3600 * 1000;
     const boxes = await streak(key, `/v1/pipelines/${client.pipeline_key}/boxes?sortBy=creationTimestamp&limit=25`);
     fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
   }
@@ -57,12 +63,13 @@ async function newLeads(env, client, r) {
     const boxKey = b.boxKey || b.key;
     const has = await env.DB.prepare("SELECT 1 FROM briefs WHERE box_key = ? AND status = 'ready'").bind(boxKey).first();
     if (has) continue;
-    // No quick AI drafts any more (2026-10-30): the new lead is reported as needing a researched brief.
-    r.new_leads++;
-    r.notes.push(`research needed${scheduledOnly(client) ? ' (call scheduled)' : ''}: ${b.name || boxKey}`);
+    const sent = await env.DB.prepare("SELECT 1 FROM send_log WHERE box_key = ? AND status = 'sent'").bind(boxKey).first();
+    if (sent) continue;
+    if (env.__autoBudget <= 0) { r.notes.push(`talking point next hour: ${b.name || boxKey}`); continue; }
+    env.__autoBudget--;
+    try { await buildAutoBrief(env, client, boxKey); r.new_leads++; }
+    catch (e) { r.notes.push(`talking point failed: ${b.name || boxKey}: ${e.message || e}`); }
   }
-  await env.DB.prepare('INSERT OR IGNORE INTO client_settings (client_id) VALUES (?)').bind(client.id).run();
-  await env.DB.prepare('UPDATE client_settings SET streak_checked_at = ? WHERE client_id = ?').bind(Date.now(), client.id).run();
 }
 
 async function meetings(env, client, r) {
