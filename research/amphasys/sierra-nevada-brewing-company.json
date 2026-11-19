@@ -1,0 +1,68 @@
+{
+ "client": "amphasys",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVrM_B9woM",
+ "company": "Sierra Nevada Brewing Company",
+ "lead_name": "Garrison Fratoni",
+ "lead_role": "Brewery Process Engineer",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Sierra Nevada Brewing Co. — US craft brewer",
+   "person": "Garrison Fratoni",
+   "role": "Brewery Process Engineer",
+   "location": "To be confirmed (Sierra Nevada recruits Brewery Process Engineers in Chico, CA)",
+   "chips": [{"label": "Contacted"}, {"label": "Fit: Medium-High (brewing, process engineer)", "tone": "good"}, {"label": "No reply logged", "tone": "warn"}, {"label": "Email on file", "tone": "good"}],
+   "alert": {"title": "No conversation yet:", "text": "The box was created directly in **Contacted** on **Nov 16, 2026** by Markus B. Streak has **no message, comment or reply**. Check LinkedIn for the first message and any answer before following up."},
+   "source_line": "Lead added to Streak on Nov 16, 2026 by Markus B. Source: LinkedIn.",
+   "linkedin_url": "https://www.linkedin.com/in/garrison-fratoni-75218ba5/"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "**No public profile found** for Garrison beyond Streak.",
+   "detail": "The web check found Sierra Nevada job ads for **Brewery Process Engineer** (Chico, CA) but nothing on Garrison himself.",
+   "context": "Web check on Nov 19, 2026. LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Sierra Nevada Brewing Co.**, US craft brewer (Wikipedia page exists). Size and plants **to be confirmed**"},
+   {"label": "Lead's job", "value": "**Brewery Process Engineer** (per Streak). Sierra Nevada job ads place this role in **Chico, CA**"},
+   {"label": "Hiring", "value": "Recent job ads for Brewery Process Engineer, Innovation Tech, Technical Operations Manager (nosh.com, bevnet.com, career.com)"},
+   {"label": "Contact", "value": "garrison.fratoni@sierranevada.com"},
+   {"label": "Status", "value": "Contacted; no reply logged in Streak"},
+   {"label": "Amphasys ICP", "value": "**#4 Brewing** — fit: **medium-high**. Process engineers own fermentation and yeast processes; close to the target titles (Brewing Scientist, Yeast Management, QC)."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Markus B", "reason": "Markus created the box and made the contact."},
+   "items": [
+    "**Same topic:** yeast and fermentation process control.",
+    "**Engineering mindset:** a process engineer will value data and method comparisons.",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Yeast health at pitching", "text": "Amphasys impedance flow cytometry gives **label-free viability and cell state** in minutes, without stains."},
+   {"title": "Data for process decisions", "text": "Better yeast data supports decisions on **pitch rate and yeast reuse**, which a process engineer optimises."},
+   {"title": "Small comparison test", "text": "Offer a **side-by-side test** against their current method (method **to be confirmed**)."}
+  ],
+  "person": {"name": "Garrison Fratoni", "text": "**Brewery Process Engineer** at Sierra Nevada (per Streak). Location, tenure, background and education **to be confirmed**."},
+  "company": {"text": "Sierra Nevada Brewing Co. is a well-known US craft brewery (Wikipedia). Its job ads for **Brewery Process Engineer** are based in **Chico, CA**. It is also hiring innovation and technical operations roles. Current yeast-monitoring method, number of breweries and volumes are **to be confirmed**."},
+  "history": {"text": "Box created **Nov 16, 2026** by Markus B, directly in stage **Contacted**, with Fit field set. Source: LinkedIn. **No messages, comments or emails** in Streak. Content of the first message and any reply **to be confirmed** with Markus."},
+  "talking_points": [
+   "How do you measure **yeast viability and cell count** today: hemocytometer, stains, in-line capacitance?",
+   "Where does yeast variability cause the most trouble: pitching, re-pitching, or new strains?",
+   "Who decides on new lab or process instruments: you, the QC lab, or brewing management?",
+   "Would a **side-by-side test** on a few samples be useful?"
+  ],
+  "attention": [
+   {"title": "No conversation logged.", "text": "Ask Markus what was sent before contacting Garrison again."},
+   {"title": "Known for in-house expertise.", "text": "A large craft brewer likely has a strong lab. Bring data, not claims."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (contact, stage, creation date)"},
+   {"used": true, "text": "Sierra Nevada job ads: Brewery Process Engineer, Chico CA (nosh.com, monster.com, career.com)"},
+   {"used": false, "text": "Wikipedia: Sierra Nevada Brewing Company (listed, not read)"},
+   {"used": false, "text": "LinkedIn profile (not opened)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Amphasys · prepared November 19, 2026"
+ },
+ "send": false
+}

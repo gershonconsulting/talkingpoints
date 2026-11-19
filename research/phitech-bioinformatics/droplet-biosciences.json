@@ -1,0 +1,133 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJX83-ycCgw",
+ "company": "Droplet Biosciences, Inc",
+ "lead_name": "Haluk Tezcan, MD",
+ "lead_role": "Chief Medical Officer",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Droplet Biosciences, Inc (company to be confirmed: his email is @atheaoncology.com)",
+   "person": "Haluk Tezcan, MD",
+   "role": "Chief Medical Officer",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Wants a 15-min call",
+     "tone": "good"
+    },
+    {
+     "label": "Company mismatch",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Book the call by email:",
+    "text": "Haluk asked for **15 minutes** after his trip and gave **htezcan@atheaoncology.com**. Tunahan said a colleague would email and shared the Calendly link. Streak shows **no email sent yet**; he said he would be back the week of Nov 16."
+   },
+   "source_line": "Lead added to Streak on Nov 13, 2026 by Juliana R. Source: LinkedIn messaging (as Tunahan).",
+   "linkedin_url": "https://www.linkedin.com/in/haluktezcanmd"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "A **Stanford profile** exists for Haluk Tezcan, MD; no posts or talks were checked.",
+   "detail": "The web search returned a Stanford Profiles page (oncology) in his name. Its content, and any recent activity, are to be confirmed.",
+   "context": "One web search, Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Streak box says **Droplet Biosciences**; his email domain is **Athea Oncology**. Current employer to be confirmed."
+   },
+   {
+    "label": "Role",
+    "value": "**Chief Medical Officer** (per Streak)"
+   },
+   {
+    "label": "Background",
+    "value": "Listed on **Stanford Profiles** (oncology) as Haluk Tezcan, MD; details to be confirmed"
+   },
+   {
+    "label": "Contact",
+    "value": "htezcan@atheaoncology.com (given by Haluk on LinkedIn)"
+   },
+   {
+    "label": "PhiTech Bioinformatics ICP",
+    "value": "**#2 Healthcare / Chief Medical Officer** title matches the ICP. Company type (biotech / oncology diagnostics) to be confirmed. Fit: **medium to high** on title; PhiTech's hereditary-cancer angle may apply."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan ran the LinkedIn conversation and Haluk asked him for a call."
+   },
+   "items": [
+    "**Same field:** oncology and cancer genomics (PhiTech's G&M covers hereditary cancers).",
+    "**No shared employer, school or co-author verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Clinician to clinician",
+    "text": "He is a physician CMO. Lead with **clinical value**: better diagnostic yield from combined DNA + RNA analysis, and how it fits oncology work."
+   },
+   {
+    "title": "Keep it to 15 minutes",
+    "text": "He asked for 15 minutes. Prepare one clear question about his current genomic data needs."
+   },
+   {
+    "title": "Clarify the company first",
+    "text": "Ask what he is building at Droplet / Athea. The pitch depends on it."
+   }
+  ],
+  "person": {
+   "name": "Haluk Tezcan, MD",
+   "text": "**Chief Medical Officer** (per Streak). A Stanford Profiles page exists under his name (oncology). Career, current company and location are to be confirmed."
+  },
+  "company": {
+   "text": "Droplet Biosciences and Athea Oncology: what each does, their size and stage, and how they relate to each other are **to be confirmed**. The web search returned no company page for either."
+  },
+  "history": {
+   "text": "Box created on **Nov 13, 2026** by Juliana R. Her comment logs the LinkedIn exchange: Haluk said he was traveling, back the following week, and asked for **15 minutes**; email **htezcan@atheaoncology.com**. Tunahan replied a colleague would email to set a time and shared **calendly.com/phitech-usa/30min**. No email logged in Streak."
+  },
+  "talking_points": [
+   "What are you working on now at Droplet / Athea Oncology?",
+   "Where does genomic or transcriptomic data come into your clinical or development work?",
+   "How do you handle **interpretation** of sequencing data today?",
+   "Would hereditary-cancer or rare-variant interpretation with **DNA + RNA** be useful to your team?"
+  ],
+  "attention": [
+   {
+    "title": "Company mismatch.",
+    "text": "Box is named Droplet Biosciences but his email is @atheaoncology.com. Confirm his current company before the call and fix Streak."
+   },
+   {
+    "title": "No email sent yet.",
+    "text": "Tunahan promised a colleague would email. Send the invite now; he should be back from travel."
+   },
+   {
+    "title": "Streak contact name.",
+    "text": "Contact reads \"Haluk T\"; full name is **Haluk Tezcan**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (Juliana R's comment with the LinkedIn exchange)"
+   },
+   {
+    "used": true,
+    "text": "Web search (Nov 19, 2026): Stanford Profiles page for Haluk Tezcan, MD (title only, not opened)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared November 19, 2026"
+ },
+ "send": false
+}

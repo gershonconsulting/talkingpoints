@@ -1,0 +1,83 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlfy_qNAKDA",
+ "company": "Institute of Molecular and Clinical Ophthalmology Basel (IOB)",
+ "lead_name": "Simon Hansen",
+ "lead_role": "Head of Protein Engineering Platform",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Institute of Molecular and Clinical Ophthalmology Basel (IOB) — academic research institute",
+   "person": "Simon Hansen",
+   "role": "Head of Protein Engineering Platform",
+   "location": "Basel, Switzerland",
+   "chips": [
+    {"label": "Contacted"},
+    {"label": "Fit: Medium", "tone": "warn"},
+    {"label": "Wants a call early December", "tone": "good"},
+    {"label": "VHH discovery", "tone": "good"}
+   ],
+   "alert": {
+    "title": "Send dates for early December:",
+    "text": "Simon said the next weeks are busy but **beginning of December** works, and asked for **a few date suggestions** at **simon.hansen@iob.ch**. Zak emailed on **Nov 18**; no reply logged. Make sure the email offers 3–4 concrete slots in the first week of December."
+   },
+   "source_line": "Lead added to Streak on Nov 13, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn messaging (as Vincent).",
+   "linkedin_url": "https://www.linkedin.com/in/hansen--simon"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Visible through the **IOB website**; personal visibility not verified.",
+   "detail": "IOB has a dedicated page for the **Protein Engineering Platform (S. Hansen)** in its Molecular Research Center. Publications and posting activity: to be confirmed.",
+   "context": "Web search (titles only) Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Organisation", "value": "Academic research institute in ophthalmology, Basel; Simon's platform sits in the **Molecular Research Center** (IOB website)"},
+   {"label": "Antibody work", "value": "Does **antibody discovery, VHHs** (single-domain antibodies) per Simon"},
+   {"label": "Contact", "value": "simon.hansen@iob.ch"},
+   {"label": "Funding / budget", "value": "To be confirmed"},
+   {"label": "MAbSilico ICP", "value": "**#3 Academic Research** — fit: **medium**. Head of a protein engineering platform is close to the Principal Investigator / Lab Manager target, and VHH discovery matches MAbSilico's field. Limits: academic budget, lower priority than biotech. Angle: **in silico VHH design, epitope and developability support** for the platform's projects."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Vincent Puard", "reason": "Vincent ran the LinkedIn exchange; Simon asked to hear more about the platform."},
+   "items": [
+    "**Same field:** antibody discovery and engineering (VHHs).",
+    "**Europe-based:** Basel, close to MAbSilico's European team.",
+    "**No shared employer, school or co-author verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "VHH-specific tools", "text": "Show how MAbSilico's in silico tools handle **single-domain antibodies**: structure, epitope and developability (capabilities to be confirmed by MAbSilico)."},
+   {"title": "Support a core platform", "text": "A protein engineering platform serves many research groups. One tool can **speed up several projects** at once."},
+   {"title": "Collaboration format", "text": "Offer an **academic collaboration or pilot** (e.g. one VHH project) rather than a full commercial contract."}
+  ],
+  "person": {
+   "name": "Simon Hansen",
+   "text": "**Head of Protein Engineering Platform** at IOB (Streak, IOB website). Works on **VHH antibody discovery**. Background and publications: to be confirmed."
+  },
+  "company": {
+   "text": "The Institute of Molecular and Clinical Ophthalmology Basel (IOB) unites researchers and clinicians in ophthalmology. Its **Molecular Research Center** hosts a **Protein Engineering Platform** led by Simon Hansen, which does VHH antibody discovery. Size, funding and partners: to be confirmed."
+  },
+  "history": {
+   "text": "Simon replied to Vincent on LinkedIn: next weeks are busy, but **beginning of December** would be good; he would \"love to hear more about your platform\" and asked for date suggestions at **simon.hansen@iob.ch**. Vincent asked if IOB works with antibodies; Simon: \"yes, we do antibody discovery here (**VHHs** to be exact)\". Box created Nov 13 by Juliana R. Zak sent one email on **Nov 18** and moved the box to Contacted. No reply logged yet."
+  },
+  "talking_points": [
+   "Which **targets or disease areas** does the platform work on (eye diseases)?",
+   "How do you **discover and optimise VHHs** today (immune, synthetic libraries)?",
+   "Where do projects slow down: **affinity, stability, developability**?",
+   "Do you use any **computational tools** already?",
+   "Would a **pilot on one VHH project** be of interest, and how are such collaborations funded?"
+  ],
+  "attention": [
+   {"title": "Timing.", "text": "He asked for early December: do not push for earlier."},
+   {"title": "Academic budget.", "text": "Clarify funding route early (grant, collaboration, service)."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (MAbSilico - LG): contact, notes, LinkedIn conversation in comment"},
+   {"used": true, "text": "Web search titles: IOB website, Protein Engineering Platform (S. Hansen) page"},
+   {"used": false, "text": "LinkedIn profile (not opened)"},
+   {"used": false, "text": "Publications: not checked"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 19, 2026"
+ },
+ "send": false
+}

@@ -1,0 +1,68 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlbyfheUKDA",
+ "company": "CzechInvest (box name: CzechIvnest)",
+ "lead_name": "Jiri Manak",
+ "lead_role": "To be confirmed",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "CzechInvest (to be confirmed) — Czech Business and Investment Development Agency, office in New York",
+   "person": "Jiri Manak",
+   "role": "To be confirmed",
+   "location": "To be confirmed (phone with New York area code 347)",
+   "chips": [{"label": "Call scheduled"}, {"label": "Fri Nov 20, 2026, 9:00 ET", "tone": "good"}, {"label": "Accepted", "tone": "good"}, {"label": "Company name to verify", "tone": "warn"}],
+   "alert": {"title": "Tomorrow:", "text": "**Friday Nov 20, 2026, 9:00-9:30 ET** (Google Meet), Jiri **accepted**. He booked under the company name **\"CzechIvnest\"**, very likely **CzechInvest**, but he used a **personal Gmail**: confirm early in the call who he works for."},
+   "source_line": "Lead added to Streak on Nov 17, 2026 by Juliana R, in stage 3. Scheduled. Origin: booked via Olivier's online calendar (booking email Nov 16, 2026). Pipeline: GC Pipeline."
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "**Agency is visible**; Jiri himself is **not found** online.",
+   "detail": "CzechInvest has a New York office page and US East Coast pages, and runs **Czech Startup Week NYC / NYC Tech Week 2026** and the **CzechAccelerator New York**. No public result for Jiri Manak.",
+   "context": "Web check on Nov 19, 2026. LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Organisation", "value": "**CzechInvest**: the Czech **Business and Investment Development Agency** (government). Has a **New York office** (czechinvest.gov.cz)"},
+   {"label": "US programs", "value": "**CzechAccelerator New York** for Czech start-ups; **Czech Startup Week New York 2026**; Jan 2026 event presenting Czechia and Slovakia's investment potential in New York"},
+   {"label": "Lead", "value": "Jiri Manak. Title and employer **to be confirmed** (personal Gmail, 347 phone)"},
+   {"label": "Contact", "value": "jmanak94@gmail.com · 347 806 6379"},
+   {"label": "Gershon ICP", "value": "**Not a direct ICP fit**: a government agency, not a tech company. But a strong **partner / referral channel**: it brings Czech tech and deep-tech start-ups to the US, which is exactly Gershon's ICP (#1 Technology, #2 Deep-tech)."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Olivier Attia", "reason": "Gershon already works with export agencies (Team France Export referenced for the USA); CzechInvest plays a similar role for Czech companies."},
+   "items": [
+    "**Same mission:** helping non-US tech companies land in the US.",
+    "**New York base:** both Gershon and CzechInvest's US office are in New York.",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Partner, not client", "text": "Present Gershon as a **service provider for CzechInvest's start-ups**: qualified US meetings for companies in the CzechAccelerator or at Czech Startup Week."},
+   {"title": "Proof from a similar agency", "text": "Gershon is **referenced by Team France Export** for the USA. The same model can work for Czech companies."},
+   {"title": "Concrete next step", "text": "Offer a **webinar or office hours** for the next cohort, or one pilot company."}
+  ],
+  "person": {"name": "Jiri Manak", "text": "Booked the meeting himself and **accepted** the invite. Uses a **personal Gmail** and a **New York (347) phone number**. Whether he works at CzechInvest, his title and background are **to be confirmed**."},
+  "company": {"text": "**CzechInvest** is the Czech government's business and investment development agency. Its **New York office** supports Czech companies in the US, runs the **CzechAccelerator New York** for start-ups, and organises **Czech Startup Week New York** (2026 edition, during NYC Tech Week). In January 2026 it co-presented Czechia and Slovakia's investment potential in New York. Office size, budget and how it hires service providers are **to be confirmed**."},
+  "history": {"text": "**Nov 16, 2026:** Jiri booked a \"US Expansion Meeting\" through Olivier's calendar for **Fri Nov 20, 9:00-9:30 ET**, company name \"CzechIvnest\". He **accepted** the invite. **Nov 17:** Juliana created the box in 3. Scheduled. No other email exchange. Streak task due Nov 19."},
+  "talking_points": [
+   "Can you tell me about your role: are you with **CzechInvest** in New York, or a Czech company?",
+   "What is CzechInvest's US program for Czech start-ups today (CzechAccelerator, Czech Startup Week)?",
+   "Which sectors are the Czech companies you bring to the US: software, deep-tech, life science?",
+   "Do you work with **external service providers** for US go-to-market? How are they selected?",
+   "Would a **pilot with one or two start-ups** or a session for the next cohort be useful?"
+  ],
+  "attention": [
+   {"title": "Verify the organisation.", "text": "\"CzechIvnest\" is probably a typo, and he used a personal email. He could also be a founder of a Czech company. Ask first."},
+   {"title": "Public procurement.", "text": "A government agency may need formal tenders to buy services (to be confirmed). Agree on the process, not only interest."},
+   {"title": "Short slot.", "text": "30 minutes: keep the pitch short and leave time for his questions."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak: box, booking email (Nov 16), Google Calendar event Nov 20, 2026 (accepted)"},
+   {"used": true, "text": "czechinvest.gov.cz: USA New York foreign office, USA East Coast, Czech Startup Week NYC 2026, Jan 2026 New York event"},
+   {"used": true, "text": "Czech Consulate New York (mzv.gov.cz): CzechAccelerator New York is now open"},
+   {"used": false, "text": "LinkedIn (not opened; no URL in Streak)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting · prepared November 19, 2026"
+ },
+ "send": false
+}

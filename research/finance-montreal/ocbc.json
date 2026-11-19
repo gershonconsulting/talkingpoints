@@ -1,0 +1,137 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlaLl3qgJDA",
+ "company": "OCBC",
+ "lead_name": "Josiah Lim",
+ "lead_role": "Assistant Vice President - Group Strategic Planning Office",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "OCBC Group (Singapore)",
+   "person": "Josiah Lim",
+   "role": "Assistant Vice President, Group Strategic Planning Office",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Wants to meet",
+     "tone": "good"
+    },
+    {
+     "label": "Strategy seat",
+     "tone": "good"
+    },
+    {
+     "label": "Singapore week ends soon",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Email today:",
+    "text": "Josiah asked when the colleague will be in Singapore; Steve said **the week of the 15th**. Josiah gave **josiahlim@ocbc.com** only on Nov 16. That week ends now: **email today** with a slot this week or a video call."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/josiah-lim"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Large corporate presence** (management pages, annual reports, corporate strategy decks).",
+   "detail": "Josiah's own activity not verified.",
+   "context": "Web-checked Nov 19, 2026 (one search, nothing found on Josiah himself)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Singapore bank group operating across ASEAN and Greater China; publishes **corporate strategy** documents (2021, 2023)"
+   },
+   {
+    "label": "His role",
+    "value": "**AVP, Group Strategic Planning Office** (per Streak): the team that supports group strategy"
+   },
+   {
+    "label": "Contact",
+    "value": "josiahlim@ocbc.com"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#1 Global Banks** — company fit: **medium-high** (Asian bank, North American footprint to be confirmed). Person fit: **medium**: a strategy analyst seat, not a decision-maker, but close to where **international footprint** options are studied."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the conversation; his colleague (in Singapore the week of Nov 16) takes the meeting."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Other OCBC-group contacts already researched: **Mathilda Deng** (same Group Strategic Planning Office, Noza pipeline) and **Syed Razif Al-Idid** (Bank of Singapore, this pipeline)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Exchange views, as he asked",
+    "text": "Josiah wants to 'exchange views and perspectives': offer a **peer conversation on international financial centres**, not a pitch."
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montréal helps financial firms **place teams in Montreal**, with free strategic support. The question is whether any **operations, risk, compliance, data or support** work could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montréal-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   }
+  ],
+  "person": {
+   "name": "Josiah Lim",
+   "text": "**Assistant Vice President, Group Strategic Planning Office** at OCBC, Singapore (per Streak). Career history and focus areas are **to be confirmed**."
+  },
+  "company": {
+   "text": "OCBC is a Singapore bank group operating across ASEAN and Greater China. Its management team pages and annual reports (2022–2025) list the group executives; earlier briefs note **Melvyn Low** as Group Chief Strategy and Transformation Officer (Nov 2025). OCBC's North American presence is **to be confirmed**."
+  },
+  "history": {
+   "text": "Josiah: 'nice to e-meet you. Happy to connect and exchange views and perspectives. May I know when your colleague will be around in November?' Steve (Oct 15): 'She will be there the week of the 15th' and asked for an email. Steve followed up Oct 21. Josiah replied Nov 16: **josiahlim@ocbc.com**."
+  },
+  "talking_points": [
+   "What is OCBC's view on **North America** for the group?",
+   "Does the Strategic Planning Office study **operations or support hubs** outside Asia?",
+   "What would make Montreal relevant: **time zone, talent, cost, IFC credit**?",
+   "Would he share an introduction to whoever owns **international footprint**?"
+  ],
+  "attention": [
+   {
+    "title": "Timing.",
+    "text": "The Singapore week (Nov 16) is ending; if no in-person slot, propose a **video call**."
+   },
+   {
+    "title": "Same office as Mathilda Deng.",
+    "text": "Mathilda Deng (Noza pipeline) is in the **same Group Strategic Planning Office**; coordinate or meet them together."
+   },
+   {
+    "title": "Bank of Singapore lead.",
+    "text": "Syed Razif Al-Idid (OCBC subsidiary) is also in this pipeline."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Web search: OCBC management team pages, annual-report management biographies, corporate strategy decks — titles only; nothing found on Josiah"
+   },
+   {
+    "used": true,
+    "text": "Finance Montréal pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 19, 2026"
+ },
+ "send": false
+}

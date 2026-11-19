@@ -1,0 +1,144 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV_OP6jAkM",
+ "company": "Institute for Protein Innovation",
+ "lead_name": "Hoan Nguyen",
+ "lead_role": "Principal Bioinformatics Scientist",
+ "stage": "Connected",
+ "data": {
+  "header": {
+   "company": "Institute for Protein Innovation (IPI)",
+   "person": "Hoan Nguyen",
+   "role": "Principal Bioinformatics Scientist",
+   "location": "Boston area (Hoan said \"Boston\" time)",
+   "chips": [
+    {
+     "label": "Connected"
+    },
+    {
+     "label": "Intro meeting held",
+     "tone": "good"
+    },
+    {
+     "label": "Antibody interest",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "Follow up on the intro meeting:",
+    "text": "Meteor presented **Cosmos** to Hoan on the call that started **Nov 17 01:00 UTC** (Nov 16 evening, Boston). Gemini notes: price **US$350,000** with flexible academic options; talk of **antibody discovery at IPI** and academic connections; meetings rescheduled. Send the recap and next step."
+   },
+   "source_line": "Lead added to Streak on Nov 13, 2026 by Juliana R. Source: LinkedIn messaging (as Amos). Lead → Call Scheduled (Nov 15, Jenny P) → Connected (Nov 18, Olivier A).",
+   "linkedin_url": "https://www.linkedin.com/in/hoan-nguyen-82549420"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Listed on IPI's org chart (The Org); **no public posts by Hoan found**.",
+   "detail": "The web search found Hoan on The Org (IPI org chart) and IPI's people page. IPI was hiring a Computational Biology & Bioinformatics Lead (Lever). Hoan's own activity is to be confirmed.",
+   "context": "One web search, Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**Institute for Protein Innovation**: protein science institute; antibody discovery work mentioned in the meeting"
+   },
+   {
+    "label": "Role",
+    "value": "**Principal Bioinformatics Scientist** (per Streak; IPI org chart on The Org)"
+   },
+   {
+    "label": "Interest",
+    "value": "He asked: \"**Are you working on antibody?**\""
+   },
+   {
+    "label": "Price shared",
+    "value": "Cosmos at **US$350,000**, flexible academic options (meeting notes)"
+   },
+   {
+    "label": "Contact",
+    "value": "bmhoan@gmail.com (personal Gmail, given by Hoan)",
+    "tone": "warn"
+   },
+   {
+    "label": "Meteor Biotech ICP",
+    "value": "Closest to **#1 academic research / core facilities** (non-profit institute). Not oncology or neuro-focused as far as known. Fit: **medium**; antibody discovery is a new use case. Decision-maker to be confirmed."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Amos opened the LinkedIn thread and Hoan asked him directly about antibodies."
+   },
+   "items": [
+    "**Shared topic:** antibodies — Hoan asked, Amos said Meteor's tech can work with antibodies.",
+    "**Already met** on the Nov 16 (Boston) intro call.",
+    "**No shared employer, school or co-author verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Antibody discovery use case",
+    "text": "Hoan raised antibodies first. Show how **Cosmos** spatial sorting plus downstream omics could support **antibody discovery** at IPI. Specific workflow to be confirmed with him."
+   },
+   {
+    "title": "Academic pricing",
+    "text": "He heard US$350,000 with flexible academic options. Bring concrete academic options or a pilot / service run."
+   },
+   {
+    "title": "Use his network",
+    "text": "The meeting covered **academic connections**. Ask which Boston labs he could introduce."
+   }
+  ],
+  "person": {
+   "name": "Hoan Nguyen",
+   "text": "**Principal Bioinformatics Scientist** at IPI (per Streak and The Org). Based in the Boston time zone. Career and education are to be confirmed."
+  },
+  "company": {
+   "text": "The Institute for Protein Innovation works on protein science; antibody discovery at IPI came up in the meeting. IPI's location, funding, size and current programmes are to be confirmed (IPI annual reports and people page exist)."
+  },
+  "history": {
+   "text": "Box created on **Nov 13, 2026** by Juliana R. On LinkedIn Hoan offered a phone call; Amos proposed video and Hoan agreed to **Friday 7–8 pm Boston**; he asked if Meteor works on antibodies and gave **bmhoan@gmail.com**. Jenny Park exchanged emails with him (5 emails, 1 received) and moved the box to *Call Scheduled* on Nov 15. The intro meeting (\"Dr. Nguyen (IPI) Meeting - Meteor Biotech Introduction\") ran **Nov 17 01:00–02:00 UTC** with Alexander Kim. Olivier moved the box to *Connected* on Nov 18."
+  },
+  "talking_points": [
+   "Thanks for the call — what stood out for IPI's antibody work?",
+   "Where would spatial cell sorting fit in your antibody discovery workflow?",
+   "Which labs or core facilities in your network should see Cosmos?",
+   "Would a **pilot run** or service project be a first step before any purchase?",
+   "Who at IPI decides on new instruments?"
+  ],
+  "attention": [
+   {
+    "title": "Rescheduled meetings.",
+    "text": "The notes mention rescheduling after travel disruption. Confirm the next date."
+   },
+   {
+    "title": "Personal email.",
+    "text": "Streak holds a Gmail address. Ask for his IPI email for formal material."
+   },
+   {
+    "title": "Not the buyer yet.",
+    "text": "He is a scientist; find the budget holder."
+   },
+   {
+    "title": "Streak contact name.",
+    "text": "Contact reads \"Hoan N\"; full name is **Hoan Nguyen**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn exchange comment, emails metadata, calendar event with Gemini notes, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Web search (Nov 19, 2026): The Org IPI org chart, IPI people page, IPI Lever job post"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared November 19, 2026"
+ },
+ "send": false
+}

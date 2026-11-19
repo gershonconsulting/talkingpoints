@@ -1,0 +1,82 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcKx_9AJDA",
+ "company": "Appili Therapeutics",
+ "lead_name": "Donald Cilla",
+ "lead_role": "President, CEO",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Appili Therapeutics (infectious-disease biotech; LIKMEZ® on the US market)",
+   "person": "Donald (Don) Cilla",
+   "role": "President and CEO",
+   "location": "To be confirmed",
+   "chips": [
+    {"label": "Contacted"},
+    {"label": "Fit: Medium-High", "tone": "good"},
+    {"label": "Wants a meeting", "tone": "good"},
+    {"label": "NIAID contract cancelled", "tone": "warn"}
+   ],
+   "alert": {
+    "title": "Book the meeting:",
+    "text": "Don said he had **a lot of availability next Wednesday** and gave **dcilla@appilitherapeutics.com**. Zak emailed on **Nov 18**; no reply logged. Propose concrete slots now and confirm which Wednesday he meant."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn InMail (as Vincent).",
+   "linkedin_url": "https://www.linkedin.com/in/doncilla"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Regular investor communication**: quarterly results, financing news, conference presence.",
+   "detail": "Appili published **Q3 fiscal 2026 results**, closed a **second tranche of a non-brokered private placement**, exhibits at the **World Vaccine Congress Washington**, and reports US commercial momentum for **LIKMEZ® (ATI-1501)**. Don's own LinkedIn activity not verified.",
+   "context": "Web search (titles only) Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Biotech focused on **infectious diseases** (Streak note); marketed product **LIKMEZ® (ATI-1501)** in the US"},
+   {"label": "Antibodies", "value": "Was working on **one antibody program**; its **NIAID contract got cancelled**. \"We are always looking at them\" (Don)"},
+   {"label": "Finance", "value": "Q3 FY2026 results published; private placement (second tranche) closed. Cash runway: to be confirmed"},
+   {"label": "Contact", "value": "dcilla@appilitherapeutics.com"},
+   {"label": "MAbSilico ICP", "value": "**#1 Biotech, CEO** — fit: **medium-high**. Right segment and the decision-maker himself. Limit: small company with funding pressure and one paused antibody program. Angle: **low-cost in silico work to keep the antibody program moving** without the NIAID funding."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Vincent Puard", "reason": "Vincent ran the InMail exchange and Don agreed to meet."},
+   "items": [
+    "**Antibodies:** Don confirmed Appili works on antibodies and keeps looking at them.",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Keep the antibody program alive", "text": "The NIAID contract was cancelled. MAbSilico's **in silico design and optimisation** can advance the candidate at lower cost than wet-lab-only work."},
+   {"title": "Make assets partner-ready", "text": "Better **developability and epitope data** makes an infectious-disease antibody easier to fund or partner."},
+   {"title": "Small first step", "text": "Propose a **scoped pilot** on the existing antibody, sized for a company watching its cash."}
+  ],
+  "person": {
+   "name": "Donald (Don) Cilla",
+   "text": "**President and CEO** of Appili Therapeutics; he was **promoted to CEO** (MarketScreener; date to be confirmed). Earlier career: to be confirmed."
+  },
+  "company": {
+   "text": "Appili Therapeutics is an infectious-disease biotech. Its product **LIKMEZ® (ATI-1501)** is gaining traction in the US market. It reported **Q3 fiscal 2026** results, closed a second tranche of a non-brokered private placement, and exhibits at the World Vaccine Congress Washington. Headquarters, listing and pipeline beyond LIKMEZ: to be confirmed."
+  },
+  "history": {
+   "text": "Don accepted Vincent's InMail: \"I have a lot of availability next Wednesday.\" Vincent asked whether Appili works with antibodies. Don: \"We were just working on one and our **NIAID contract got cancelled**. We are always looking at them.\" He gave **dcilla@appilitherapeutics.com**. Box created Nov 18 by Juliana R. Zak sent one email on **Nov 18** and moved the box to Contacted. No reply logged yet."
+  },
+  "talking_points": [
+   "What is the **target and stage** of the antibody that lost NIAID funding?",
+   "What would it take to **restart** it: data, partner, or new funding?",
+   "Are other **infectious-disease antibodies** on your radar?",
+   "How did you work on antibodies so far: **in-house or with CROs**?",
+   "What budget and timeline would a **pilot** need to fit?"
+  ],
+  "attention": [
+   {"title": "Wednesday ambiguity.", "text": "\"Next Wednesday\" was relative to his LinkedIn message; confirm the date by email."},
+   {"title": "Funding pressure.", "text": "Lost NIAID contract and private placements: keep the offer small and concrete."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (MAbSilico - LG): contact, notes, LinkedIn conversation in comment"},
+   {"used": true, "text": "Web search titles: MarketScreener (Don Cilla promoted to CEO), BioSpace (Q3 FY2026 results), LIKMEZ commercial update, private placement news, World Vaccine Congress"},
+   {"used": false, "text": "LinkedIn profile (not opened)"},
+   {"used": false, "text": "Financial statements: not read"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 19, 2026"
+ },
+ "send": false
+}

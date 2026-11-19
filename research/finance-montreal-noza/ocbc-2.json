@@ -1,0 +1,142 @@
+{
+ "client": "finance-montreal-noza",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcLvv-8KDA",
+ "company": "OCBC",
+ "lead_name": "Soumya Ghoshal",
+ "lead_role": "Managing Director",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "OCBC Group (Singapore)",
+   "person": "Soumya Ghoshal",
+   "role": "Managing Director",
+   "location": "Singapore",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Open to meet",
+     "tone": "good"
+    },
+    {
+     "label": "Recently visited Montreal",
+     "tone": "good"
+    },
+    {
+     "label": "Singapore week ends soon",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Call or email today:",
+    "text": "Soumya asked for Noza's Singapore dates; Noza said **the whole week of Nov 16**. Soumya gave **soumyaghoshal@ocbc.com** and **+65 9727 4668** (Nov 14). That week ends now: **propose a slot before Noza leaves**, or a video call."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn messaging (as Noza).",
+   "linkedin_url": "https://www.linkedin.com/in/soumyaghoshal"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Large corporate presence**; Soumya's own activity not verified.",
+   "detail": "OCBC published a 2025 release on refreshing its **global wholesale** leadership; whether Soumya is part of it is to be confirmed.",
+   "context": "Web-checked Nov 19, 2026 (one search, nothing found on Soumya)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Singapore bank group operating across ASEAN and Greater China"
+   },
+   {
+    "label": "Role",
+    "value": "**Managing Director** (per Streak). Business line to be confirmed"
+   },
+   {
+    "label": "Hook",
+    "value": "Was **in Toronto/Montreal last week** on a personal visit (Soumya, Nov 14)"
+   },
+   {
+    "label": "Contact",
+    "value": "soumyaghoshal@ocbc.com · +65 9727 4668"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#1 Global Banks** — company fit: **medium-high** (North American footprint to be confirmed). Person fit: **to be confirmed**: MD seniority is good, but the business line is unknown."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Noza",
+    "reason": "Noza ran the conversation and is in Singapore this week."
+   },
+   "items": [
+    "**Montreal:** Soumya was just there on a personal visit.",
+    "**No shared employer, school or contact verified.**",
+    "Noza is **co-organising an event with the Government of Canada** during the festival: a possible invitation."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Start with the Montreal visit",
+    "text": "Ask about the **recent trip to Toronto/Montreal**: what stood out?"
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montréal helps financial firms **place teams in Montreal**, with free strategic support. The question is whether any **operations, risk, compliance, data or support** work could sit there."
+   },
+   {
+    "title": "The IFC credit",
+    "text": "Quebec's **International Financial Centre** credit can reach **C$18,000 per eligible employee per year**, including services to a **foreign affiliate**. Eligibility is checked case by case."
+   }
+  ],
+  "person": {
+   "name": "Soumya Ghoshal",
+   "text": "**Managing Director** at OCBC, Singapore (per Streak). Business line, career history and Canada ties beyond the recent personal visit are **to be confirmed**."
+  },
+  "company": {
+   "text": "OCBC is a Singapore bank group operating across ASEAN and Greater China. In 2025 it announced a refresh of its **global wholesale** leadership. Earlier briefs note **Melvyn Low** as Group Chief Strategy and Transformation Officer (Nov 2025). OCBC's North American presence is **to be confirmed**."
+  },
+  "history": {
+   "text": "Soumya: 'do let me know the dates that you will be in Singapore. I can check if I am around then.' Noza: in Singapore the whole week of **November 16**, co-organising an event with the **Government of Canada** during the festival, and asked for an email. Soumya (Nov 14): '**+6597274668 / soumyaghoshal@ocbc.com**. I was coincidentally in **Toronto/Montreal** last week on a personal visit'."
+  },
+  "talking_points": [
+   "How was the **Montreal** visit? Any professional impressions?",
+   "Which OCBC business does Soumya lead, and does it serve **North American** clients?",
+   "Has OCBC considered a **support or operations** presence in North America?",
+   "Would Soumya or colleagues attend the **Canada event** Noza is co-organising?"
+  ],
+  "attention": [
+   {
+    "title": "Email typo in Streak.",
+    "text": "The Streak contact shows **oumyaghoshal@ocbc.com** (missing 's'); the conversation gives **soumyaghoshal@ocbc.com**."
+   },
+   {
+    "title": "Another OCBC contact.",
+    "text": "**Mathilda Deng** (Group Strategic Planning Office) is already researched in this pipeline; **Josiah Lim** (same office) is in Steve's pipeline."
+   },
+   {
+    "title": "Timing.",
+    "text": "Noza's Singapore week is ending: use the phone number to book fast."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Web search: OCBC management pages, 2025 global wholesale leadership release — titles only; nothing found on Soumya"
+   },
+   {
+    "used": true,
+    "text": "Finance Montréal pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 19, 2026"
+ },
+ "send": false
+}

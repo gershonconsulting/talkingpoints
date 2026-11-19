@@ -1,0 +1,142 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcK6qPkKDA",
+ "company": "Deutsche Bank",
+ "lead_name": "Ignacio Ramiro",
+ "lead_role": "Managing Director",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Deutsche Bank (Spain)",
+   "person": "Ignacio Ramiro",
+   "role": "Managing Director",
+   "location": "Spain (city to be confirmed)",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Wants to meet",
+     "tone": "good"
+    },
+    {
+     "label": "Corporate email given",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium (scope to be confirmed)",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Email him now:",
+    "text": "Ignacio is 'happy to meet your colleague' and asked to continue **only via corporate email: ignacio.ramiro@db.com** (Nov 17). Steve replied that his colleague will reach out. **Send the first email this week.**"
+   },
+   "source_line": "Lead added to Streak on Nov 19, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/ignacio-ramiro-308396b1"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Very large corporate presence**; Ignacio's own activity not verified.",
+   "detail": "He appears on an **Informa Connect export-credit** speaker page (search result title only, content not opened). Follower counts to be confirmed.",
+   "context": "Web-checked Nov 19, 2026 (one search)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global bank (Frankfurt) with a Spanish entity; Iberia led by **Iñigo Martos**, Regional CEO Iberia and Chief Country Officer Spain (appointed Dec 2021)"
+   },
+   {
+    "label": "His role",
+    "value": "**Managing Director** (per Streak). Business line to be confirmed; possibly **export / trade finance** (Informa Connect export-credit speaker page)"
+   },
+   {
+    "label": "Contact",
+    "value": "ignacio.ramiro@db.com (his request: corporate email only)"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#1 Global Banks** — company fit: **high**. Person fit: **medium / to be confirmed**: an MD in Spain is not a North American operations or location decision-maker. Aim for insight and an **introduction** to the Americas operations owners."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the conversation; his colleague takes the meeting."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Another Deutsche Bank contact is already in this pipeline: **Rosalie Yee** (US Bank Regulatory Legal, New York)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montréal helps financial firms **place teams in Montreal**, with free strategic support. The question is whether any **operations, risk, compliance, data or support** work could sit there."
+   },
+   {
+    "title": "New York hours at about half the cost",
+    "text": "Montreal is in the **New York time zone**. A Finance Montréal-commissioned Boyd Company 2026 study puts a 150-FTE financial support operation at about **US$18.9M/yr in Montreal vs US$35.3M in New York**."
+   },
+   {
+    "title": "A European view on North America",
+    "text": "Ask how Deutsche Bank decides **where Americas support teams sit**, and who owns that choice."
+   }
+  ],
+  "person": {
+   "name": "Ignacio Ramiro",
+   "text": "**Managing Director** at Deutsche Bank, based in **Spain** (per Streak). A speaker page on Informa Connect's **export-credit** event appeared in search; his exact business line, seniority scope and career history are **to be confirmed**."
+  },
+  "company": {
+   "text": "Deutsche Bank is a global bank headquartered in Frankfurt. Its Spanish entity publishes organisation charts (2024, 2025, 2026) and corporate-governance reports. Iñigo Martos was appointed Regional CEO Iberia and Chief Country Officer Spain in December 2021. Deutsche Bank's Montreal presence is **to be confirmed**."
+  },
+  "history": {
+   "text": "Ignacio replied to Steve: 'Thanks for reaching out, and indeed happy to meet your colleague. Please continue through corporate email **ignacio.ramiro@db.com** for future communications' (Nov 17). Steve answered on Nov 19 that his colleague will reach out. Juliana's note: 'Spain - wants to set up a call'."
+  },
+  "talking_points": [
+   "What does his team cover: **export finance, trade, corporate coverage**? To be confirmed first.",
+   "Does Deutsche Bank serve clients with **Canadian** operations or projects?",
+   "Has the bank looked at **Montreal** for operations, risk or support work for the Americas?",
+   "Who owns **location strategy** for the Americas? Would he introduce Finance Montréal?",
+   "Would a short **Montreal/IFC overview** be useful for his colleagues?"
+  ],
+  "attention": [
+   {
+    "title": "Email only.",
+    "text": "He asked to stop LinkedIn and use **ignacio.ramiro@db.com**."
+   },
+   {
+    "title": "Second Deutsche Bank contact.",
+    "text": "**Rosalie Yee** (New York) is already researched in this pipeline; coordinate so the bank gets one consistent message."
+   },
+   {
+    "title": "Role unclear.",
+    "text": "Confirm his business line before the call; do not assume export finance."
+   },
+   {
+    "title": "Time zone.",
+    "text": "Spain is 6 hours ahead of Montreal: propose Montreal mornings."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Web search: Informa Connect export-credit speaker page; Deutsche Bank Spain org charts; db.com release on Iñigo Martos (Dec 2021) — titles only"
+   },
+   {
+    "used": true,
+    "text": "Finance Montréal pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 19, 2026"
+ },
+ "send": false
+}

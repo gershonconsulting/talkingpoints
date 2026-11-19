@@ -1,0 +1,136 @@
+{
+ "client": "phitech-bioinformatics",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJXi2sfaCQw",
+ "company": "Agilent Technologies",
+ "lead_name": "Varun Agarwal",
+ "lead_role": "Associate Vice President, Enterprise Business Development",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Agilent Technologies",
+   "person": "Varun Agarwal",
+   "role": "Associate Vice President, Enterprise Business Development",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Lead"
+    },
+    {
+     "label": "Asked for a deck by email",
+     "tone": "good"
+    },
+    {
+     "label": "New in role",
+     "tone": "warn"
+    },
+    {
+     "label": "Partner, not buyer"
+    }
+   ],
+   "alert": {
+    "title": "Send the deck now:",
+    "text": "Varun accepted Tunahan's InMail and asked for a **non-confidential deck** at **varun.agarwal@agilent.com**, to share with his team for initial input. He will then ask for time. Nothing has been emailed yet (Streak shows 0 emails)."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn InMail (as Tunahan).",
+   "linkedin_url": "https://www.linkedin.com/in/varunagarwal86"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "**No public voice found** for Varun; the web search returned only Agilent corporate pages.",
+   "detail": "Agilent publishes executive bios and press material (e.g. ASMS 2024 press conference). Varun's own posts, talks and follower count were not found and are to be confirmed.",
+   "context": "One web search, Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Agilent Technologies: life-science and analytical instrument company (to be confirmed for this brief beyond public Agilent pages)"
+   },
+   {
+    "label": "Role",
+    "value": "**Associate Vice President, Enterprise Business Development** (per Streak)"
+   },
+   {
+    "label": "Status",
+    "value": "Says he is **settling into a new role** at Agilent"
+   },
+   {
+    "label": "Contact",
+    "value": "varun.agarwal@agilent.com (given by Varun on LinkedIn)"
+   },
+   {
+    "label": "PhiTech Bioinformatics ICP",
+    "value": "**Outside the core ICP** (pharma, hospitals, labs). Agilent is a tools vendor, so the fit is as a **partner or channel / BD contact**, not a buyer. Fit: medium, to be confirmed with his team."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Tunahan Cakir",
+    "reason": "Tunahan sent the InMail and Varun replied to him directly."
+   },
+   "items": [
+    "**Existing thread:** Varun accepted Tunahan's InMail and asked for a deck.",
+    "**No shared employer, school or city verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A deck he can forward",
+    "text": "He wants to share it with his team. Send a **short, non-confidential deck** that stands on its own: what G&M does, who uses it, and the partnership idea."
+   },
+   {
+    "title": "Business development angle",
+    "text": "His role is enterprise BD. Frame PhiTech as a **partnership** (co-marketing, referral or integration), not a software sale. Exact Agilent products to pair with are to be confirmed."
+   },
+   {
+    "title": "Help him in a new role",
+    "text": "He is new at Agilent. A clear, low-effort first project can be useful to him."
+   }
+  ],
+  "person": {
+   "name": "Varun Agarwal",
+   "text": "**Associate Vice President, Enterprise Business Development** at Agilent (per Streak). Recently started in this role (his words). Career history, education and location are to be confirmed."
+  },
+  "company": {
+   "text": "Agilent Technologies is a large public life-science and analytics company. Its business lines relevant to PhiTech (genomics, diagnostics, software) and any current bioinformatics partnerships are to be confirmed."
+  },
+  "history": {
+   "text": "Box created on **Nov 18, 2026** by Juliana R. Her comment logs the LinkedIn exchange: Varun accepted Tunahan's InMail, said he is settling into a new role, and asked for a **non-con deck** to **varun.agarwal@agilent.com** to share with his team, then request time. No email sent yet in Streak."
+  },
+  "talking_points": [
+   "What does your enterprise BD team look for in a partner like PhiTech?",
+   "Which Agilent teams (genomics, diagnostics, software) would care about **multi-omics interpretation for rare disease**? To be confirmed.",
+   "What would a first step look like: a technical call, a pilot, or a co-marketing project?",
+   "Who else on your team should see the deck?"
+  ],
+  "attention": [
+   {
+    "title": "Send the deck quickly.",
+    "text": "He asked for it on Nov 18. Keep it non-confidential, as he asked."
+   },
+   {
+    "title": "Partner, not buyer.",
+    "text": "Agilent is not in PhiTech's core ICP as a buyer. Pitch partnership."
+   },
+   {
+    "title": "Streak contact name.",
+    "text": "Contact reads \"Varun A\"; full name is **Varun Agarwal** (from his message)."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (Juliana R's comment with the LinkedIn InMail exchange)"
+   },
+   {
+    "used": true,
+    "text": "Web search (Nov 19, 2026): Agilent corporate pages only; nothing specific on Varun"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for PhiTech Bioinformatics · prepared November 19, 2026"
+ },
+ "send": false
+}

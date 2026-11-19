@@ -1,0 +1,141 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcLNo68IDA",
+ "company": "Standard Chartered",
+ "lead_name": "Jennifer B. Lassiter",
+ "lead_role": "Managing Director and Head of Digital Assets",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Standard Chartered (Europe and Americas)",
+   "person": "Jennifer B. Lassiter",
+   "role": "Managing Director, Head of Digital Assets (Europe and Americas)",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Offers introductions",
+     "tone": "good"
+    },
+    {
+     "label": "Corporate email given",
+     "tone": "good"
+    },
+    {
+     "label": "Fit: Medium (connector)",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Email her now:",
+    "text": "Jennifer: 'please send this message to **Jennifer.Lassiter@sc.com** and I can **connect you with the appropriate people**.' Steve said 'will do'. **Send Steve's message by email** with a clear ask."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn messaging (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/jbrookslassiter"
+  },
+  "grade": {
+   "letter": "A-",
+   "headline": "**Visible public speaker** on digital assets and regulation.",
+   "detail": "Speaker pages at **Aspen Ideas** and **Point Zero Forum**; interviews with Sumsub, Treasury Today and Future Nexus ('From MiCA to GENIUS'). Follower counts to be confirmed.",
+   "context": "Web-checked Nov 19, 2026 (one search, titles only)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Global bank (London HQ) focused on Asia, Africa and the Middle East, with Europe and Americas hubs"
+   },
+   {
+    "label": "Her role",
+    "value": "Appointed **Head of Digital Assets for Europe and Americas** (sc.com press release, May 2025)"
+   },
+   {
+    "label": "Topics",
+    "value": "Crypto regulation (**MiCA, GENIUS Act**), **tokenised money-market funds and stablecoins** for treasury"
+   },
+   {
+    "label": "Contact",
+    "value": "Jennifer.Lassiter@sc.com"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#1 Global Banks** — company fit: **high**. Person fit: **medium**: digital assets is a business line, not operations or location strategy. She offered to **route us to the right people**: use her as a connector."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve opened the conversation; she replied to him."
+   },
+   "items": [
+    "**No shared employer, school or contact verified.**",
+    "Other Standard Chartered contacts are already in the pipelines: **Timothy Tan** (Singapore, this pipeline) and **Jacqui Maughan** (Noza pipeline)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Clear ask for her routing",
+    "text": "Say exactly who to meet: the **Americas operations / COO office** or **location strategy** owner."
+   },
+   {
+    "title": "A location option, not a partnership",
+    "text": "Finance Montréal helps financial firms **place teams in Montreal**, with free strategic support. The question is whether any **operations, risk, compliance, data or support** work could sit there."
+   },
+   {
+    "title": "Montreal and digital assets",
+    "text": "If relevant, ask whether **digital-asset operations or compliance** work for the Americas could sit in Montreal. Montreal's specific digital-asset strengths are **to be confirmed** by Finance Montréal."
+   }
+  ],
+  "person": {
+   "name": "Jennifer B. Lassiter",
+   "text": "**Managing Director, Head of Digital Assets** at Standard Chartered (per Streak); the bank announced her as **Head of Digital Assets for Europe and Americas** in May 2025. She speaks on crypto regulation and tokenisation (Aspen Ideas, Point Zero Forum, Treasury Today). Prior employers and base city are **to be confirmed**."
+  },
+  "company": {
+   "text": "Standard Chartered is a London-headquartered international bank. It built a Europe and Americas digital-assets role in 2025 (press releases on sc.com, Finextra, FX News Group, GlobalCapital). Its Montreal presence is **to be confirmed**."
+  },
+  "history": {
+   "text": "Jennifer replied to Steve: 'please send this message to **Jennifer.Lassiter@sc.com** and I can connect you with the appropriate people. Warmly, Jennifer'. Steve answered 'Thank you for your reply Jennifer, will do.' Juliana's note: 'said to connect via email to set something up'."
+  },
+  "talking_points": [
+   "Who in Standard Chartered **Americas** owns **operations and location** decisions?",
+   "Does the bank run **digital-asset operations or compliance** teams in North America today?",
+   "How do **GENIUS Act / MiCA** rules affect where these teams sit?",
+   "Would a short **Montreal / IFC credit** overview help her colleagues?"
+  ],
+  "attention": [
+   {
+    "title": "Send the email.",
+    "text": "Steve said 'will do': this is a promise to keep quickly."
+   },
+   {
+    "title": "Other Standard Chartered contacts.",
+    "text": "**Timothy Tan** (this pipeline) and **Jacqui Maughan** (Noza pipeline) are already researched; align the message."
+   },
+   {
+    "title": "Connector, not buyer.",
+    "text": "Make the forward easy: two lines she can paste."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Web search: sc.com appointment release (May 2025), Finextra, FX News Group, Aspen Ideas, Point Zero Forum, Treasury Today, Future Nexus — titles only"
+   },
+   {
+    "used": true,
+    "text": "Finance Montréal pitch facts (Boyd Company 2026 study, IFC credit) as used in earlier briefs"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 19, 2026"
+ },
+ "send": false
+}

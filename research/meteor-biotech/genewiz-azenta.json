@@ -1,0 +1,142 @@
+{
+ "client": "meteor-biotech",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVvPftpwkM",
+ "company": "GENEWIZ from Azenta Life Sciences",
+ "lead_name": "Manpreet Kaur",
+ "lead_role": "Associate Bioinformatics Scientist",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "GENEWIZ from Azenta Life Sciences — genomics service provider",
+   "person": "Manpreet Kaur",
+   "role": "Associate Bioinformatics Scientist",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Info sent Nov 19",
+     "tone": "good"
+    },
+    {
+     "label": "Traveling ~15 days",
+     "tone": "warn"
+    },
+    {
+     "label": "Junior contact",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Info sent, she is away:",
+    "text": "Manpreet said she is **traveling internationally for ~15 days** and asked for details. Jenny emailed **mkaur@alumni.cmu.edu** on **Nov 19**; it has been **opened 4 times**. Follow up on LinkedIn, where she said she can reply."
+   },
+   "source_line": "Lead added to Streak on Nov 16, 2026 by Juliana R. Source: LinkedIn messaging (as Amos). Moved Lead → Contacted on Nov 19 by Jenny P.",
+   "linkedin_url": "https://www.linkedin.com/in/aulakhmanpreet06"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "**Strong company channels** (GENEWIZ blog, technical notes, events); Manpreet's own voice not found.",
+   "detail": "GENEWIZ runs a blog and technical resources and appeared at the Human Cell Atlas 2025 General Meeting (Azenta page). Nothing public by Manpreet was found.",
+   "context": "One web search, Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "**GENEWIZ from Azenta Life Sciences**: genomics and sequencing services (per genewiz.com)"
+   },
+   {
+    "label": "Events",
+    "value": "Azenta listed at the **Human Cell Atlas 2025 General Meeting**"
+   },
+   {
+    "label": "Role",
+    "value": "**Associate Bioinformatics Scientist** (per Streak) — a user, not a decision-maker"
+   },
+   {
+    "label": "Contact",
+    "value": "mkaur@alumni.cmu.edu (a CMU alumni address, not a company email)",
+    "tone": "warn"
+   },
+   {
+    "label": "Meteor Biotech ICP",
+    "value": "**#4 Genomics service labs** (and possibly #6 partner) — company fits well. The contact is junior: fit **high on company, low on title**. Aim to reach the head of spatial / BD (to be confirmed)."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Amos Chungwon Lee",
+    "reason": "Amos ran the LinkedIn conversation and she replied to him."
+   },
+   "items": [
+    "**Same field:** omics data and downstream sequencing.",
+    "**No shared employer, school or co-author verified.** She has a Carnegie Mellon alumni email (school details to be confirmed)."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "A new service for GENEWIZ",
+    "text": "Meteor's **Cosmos spatial cell sorting** recovers cells seen in tissue for downstream omics. GENEWIZ sequences samples. Pitch Cosmos as a step **before sequencing**."
+   },
+   {
+    "title": "Ask for the right person",
+    "text": "She is a bioinformatics scientist. Ask who leads **spatial / single-cell services** or new platforms."
+   },
+   {
+    "title": "Keep it short",
+    "text": "She is traveling. Two or three lines on LinkedIn, pointing to the email."
+   }
+  ],
+  "person": {
+   "name": "Manpreet Kaur",
+   "text": "**Associate Bioinformatics Scientist** at GENEWIZ / Azenta (per Streak). Uses a Carnegie Mellon alumni email. Career and location are to be confirmed."
+  },
+  "company": {
+   "text": "GENEWIZ is the genomics services brand of **Azenta Life Sciences** (genewiz.com). It publishes technical notes and a blog, and Azenta took part in the Human Cell Atlas 2025 meeting. Current spatial services, size and US sites are to be confirmed."
+  },
+  "history": {
+   "text": "Box created on **Nov 16, 2026** by Juliana R. Her comment logs the LinkedIn exchange: Manpreet apologised for the late reply, said she is **traveling for 15 days**, and asked for details; she gave **mkaur@alumni.cmu.edu**. Jenny Park emailed her on **Nov 19** (Amos, Alexander and David Kim on copy) and moved the box to *Contacted*. The email has **4 views**, no reply."
+  },
+  "talking_points": [
+   "Does GENEWIZ offer spatial or single-cell services today, and what do clients ask for next?",
+   "How do clients get deep omics data on cells they find in tissue?",
+   "Would a spatial cell sorting step (Cosmos) fit as a pilot or partner service?",
+   "Who decides on new platforms or service lines at GENEWIZ?"
+  ],
+  "attention": [
+   {
+    "title": "Junior contact.",
+    "text": "Use her as a guide to the decision-maker; do not push for a purchase."
+   },
+   {
+    "title": "Personal email.",
+    "text": "Streak holds a CMU alumni address. Ask for her work email later."
+   },
+   {
+    "title": "Wait for her return.",
+    "text": "She is away ~15 days from mid-November. Plan the next real ask for early December."
+   },
+   {
+    "title": "Streak contact name.",
+    "text": "Contact reads \"Manpreet K\"; full name is **Manpreet Kaur**."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (comment with the LinkedIn exchange, email metadata, stage history)"
+   },
+   {
+    "used": true,
+    "text": "Web search (Nov 19, 2026): genewiz.com about pages, blog, Human Cell Atlas 2025 Azenta page"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Meteor Biotech · prepared November 19, 2026"
+ },
+ "send": false
+}

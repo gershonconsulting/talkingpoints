@@ -1,0 +1,71 @@
+{
+ "client": "amphasys",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICVwtr0zQsM",
+ "company": "City Brewing Company",
+ "lead_name": "James Bruner",
+ "lead_role": "Brewing Maintenance Supervisor",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "City Brewing Company (City Brewing & Beverage) — contract brewer",
+   "person": "James Bruner",
+   "role": "Brewing Maintenance Supervisor",
+   "location": "To be confirmed (his site is a former Miller facility)",
+   "chips": [{"label": "Lead"}, {"label": "Fit: Medium (brewing, not a QC title)", "tone": "warn"}, {"label": "Wants info by email", "tone": "good"}, {"label": "Happy with Aber meters", "tone": "warn"}],
+   "alert": {"title": "Send the info:", "text": "James asked for information at **jbruner@citybrwery.com** (spelling as he wrote it; the company website is **citybrewery.com**, so check the address). He warned he is **not sure they would replace a system that is working**. Send a short email on what Amphasys adds **next to** the Aber meters."},
+   "source_line": "Lead added to Streak on Nov 19, 2026 by Juliana R. Source: LinkedIn InMail.",
+   "linkedin_url": "https://www.linkedin.com/in/james-bruner"
+  },
+  "grade": {
+   "letter": "C",
+   "headline": "Hands-on brewing operations profile; **public presence to be confirmed**.",
+   "detail": "No public posts or press found for James in the web check. City Brewing itself has a Wikipedia page and trade-press coverage (e.g. Brookston Beer Bulletin).",
+   "context": "Web check on Nov 19, 2026. LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "US brewing company; website **citybrewery.com** (\"City Brewing & Beverage\"). Trade press reports it bought a **former Coors plant in Memphis**"},
+   {"label": "His site", "value": "An **old Miller facility** (per James). Which plant is **to be confirmed**"},
+   {"label": "Current method", "value": "**Cell counts** on yeast storage tanks with **in-line Aber meters**; the same Aber meters at **pitching** (per James)"},
+   {"label": "Lead's job", "value": "Brewing Maintenance Supervisor (per Streak): looks after equipment, likely not the yeast/QC decision-maker"},
+   {"label": "Objection", "value": "\"Not certain how willing we would be to **replace a system that is currently working**\""},
+   {"label": "Amphasys ICP", "value": "**#4 Brewing** — fit: **medium**. Right industry and a real yeast-monitoring use case, but his title is maintenance, not brewmaster or QC. Ask who owns yeast quality."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Amphasys team (LinkedIn sender)", "reason": "The InMail conversation is already open and James explained his current setup."},
+   "items": [
+    "**Same problem:** yeast cell counts before pitching.",
+    "**Same instrument family:** both Aber and Amphasys measure cells electrically (capacitance vs impedance flow cytometry).",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Complement, not replace", "text": "Keep the Aber meters for in-line biomass. Amphasys adds **single-cell data** (viability, physiological state) that an average capacitance value cannot give."},
+   {"title": "Check what the average hides", "text": "As the team wrote: **Aber is based on capacitance and gives an average value**. A side-by-side test on a few pitches shows what extra insight he would get."},
+   {"title": "Low-risk trial", "text": "Propose a **small at-line comparison** on stored yeast, with no change to the current process."}
+  ],
+  "person": {"name": "James Bruner", "text": "**Brewing Maintenance Supervisor** at City Brewing (per Streak). Works at a site he describes as **an old Miller facility**. Friendly and open (\"Cheers, James\"), but cautious about change. Career history and education **to be confirmed**."},
+  "company": {"text": "City Brewing Company (City Brewing & Beverage, citybrewery.com) is a US brewer. Trade press (Brookston Beer Bulletin) reports it **bought a former Coors plant in Memphis**. James's own site is a **former Miller facility**. Headquarters, number of plants, volumes and whether it is mainly a contract brewer are **to be confirmed**."},
+  "history": {"text": "LinkedIn InMail. James accepted and explained they do **cell counts off the yeast storage tanks with in-line Aber meters**, and use the same meters on the pitch; his facility is an old Miller plant. The team answered that Amphasys gives **more insight** than Aber's average capacitance value and asked for an email. James gave **jbruner@citybrwery.com** but said he is **not certain they would replace a working system**. Team: *I'll send that over and if anything sparks interest let me know.* Box created **Nov 19, 2026** by Juliana R. **Open item:** the information email."},
+  "talking_points": [
+   "Who decides on yeast management and QC at your plant: brewmaster, QC lab, or maintenance?",
+   "What decisions do you take from the Aber reading today (pitch rate, yeast reuse, dumping a generation)?",
+   "Have you ever had a fermentation problem the Aber count did not explain?",
+   "Would a **side-by-side test** on a few yeast samples, without changing your process, be useful?",
+   "Do the other City Brewing plants use the same setup?"
+  ],
+  "attention": [
+   {"title": "Email address.", "text": "He wrote **citybrwery.com**; the website is **citybrewery.com**. Check before sending or the email may bounce."},
+   {"title": "Not the buyer.", "text": "A maintenance supervisor may not own yeast quality. Ask for the brewmaster or QC lead."},
+   {"title": "Do not attack Aber.", "text": "He likes his working system. Position Amphasys as an **add-on**."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (LinkedIn InMail conversation pasted as comment)"},
+   {"used": true, "text": "citybrewery.com (City Brewing & Beverage homepage title)"},
+   {"used": true, "text": "Brookston Beer Bulletin: City Brewery buys former Coors plant in Memphis"},
+   {"used": false, "text": "Wikipedia: City Brewing Company (listed, not read)"},
+   {"used": false, "text": "LinkedIn profile (not opened)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Amphasys · prepared November 19, 2026"
+ },
+ "send": false
+}

@@ -1,0 +1,82 @@
+{
+ "client": "valos",
+ "box_key": "agxzfm1haWxmb29nYWVyQAsSDE9yZ2FuaXphdGlvbiIdYWluYS5hbmRyaWFtYW5nYXNvbkBnbWFpbC5jb20MCxIEQ2FzZRiAgJWihfW_CQw",
+ "company": "Sound Statistics",
+ "lead_name": "Katherine Davis, PhD",
+ "lead_role": "To be confirmed",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Sound Statistics (activity to be confirmed)",
+   "person": "Katherine Davis, PhD",
+   "role": "To be confirmed",
+   "location": "To be confirmed",
+   "chips": [
+    {"label": "Contacted"},
+    {"label": "Fit: To be confirmed", "tone": "warn"},
+    {"label": "No email", "tone": "warn"},
+    {"label": "No conversation logged", "tone": "warn"}
+   ],
+   "alert": {
+    "title": "Data missing:",
+    "text": "The Streak box has **only a name and a LinkedIn link**: no role, no email, no notes and no conversation. Check her LinkedIn profile and the LinkedIn thread before any outreach, and fill the box."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Valos B, directly in Contacted. Source: LinkedIn (profile link in box).",
+   "linkedin_url": "https://www.linkedin.com/in/katherine-davis-phd-3b7a0b7/"
+  },
+  "grade": {
+   "letter": "D",
+   "headline": "**No public information found** on the company or the person.",
+   "detail": "One web search returned no page about Sound Statistics or this Katherine Davis. Website, size and activity: to be confirmed.",
+   "context": "Web search Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "To be confirmed. The name suggests a **statistics consultancy** (to be confirmed)"},
+   {"label": "Person", "value": "Katherine Davis, **PhD** (from the LinkedIn URL); role to be confirmed"},
+   {"label": "Contact", "value": "LinkedIn only; email to be confirmed"},
+   {"label": "Conversation", "value": "None logged in Streak"},
+   {"label": "Valos ICP", "value": "Fit: **to be confirmed**. If Sound Statistics is a statistics consultancy, it is not a sponsor in Valos' ICP (pharma, biotech, medtech, CRO) but a possible **peer or subcontracting partner** for biometrics overflow. If it serves trial sponsors, it could match **#4 CRO**."}
+  ],
+  "in_common": {
+   "best_match": {"name": "To be confirmed", "reason": "No conversation or shared contact is logged in Streak."},
+   "items": [
+    "**Possibly same field:** statistics (to be confirmed).",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Find out what she does", "text": "Open with a question about Sound Statistics' **clients and services** before pitching."},
+   {"title": "Partner, if a peer", "text": "If it is a statistics firm, propose **capacity sharing**: Valos biostatistics, data management and programming for overflow or larger trials."},
+   {"title": "Sponsor, if a client", "text": "If it serves pharma or biotech trials, present Valos' **end-to-end biometrics** support."}
+  ],
+  "person": {
+   "name": "Katherine Davis, PhD",
+   "text": "Holds a **PhD** (per LinkedIn URL). Role at Sound Statistics, background and location: to be confirmed. Streak lists the contact as \"Katherine D\" with no email."
+  },
+  "company": {
+   "text": "No public information found on Sound Statistics. Activity, location, size and clients: to be confirmed."
+  },
+  "history": {
+   "text": "Box created on **Nov 18, 2026** by Valos B, directly in stage **Contacted**. No email, comment, note or task in the box. The LinkedIn exchange, if any, is not logged."
+  },
+  "talking_points": [
+   "What does Sound Statistics do, and **for whom**?",
+   "Do you work on **clinical trials**? Which phases and therapeutic areas?",
+   "Do you ever need **extra capacity** in biostatistics, data management or programming?",
+   "Would a **partnership** (referrals, subcontracting) be of interest?"
+  ],
+  "attention": [
+   {"title": "Thin data.", "text": "Everything here except the name and LinkedIn link is to be confirmed."},
+   {"title": "Possible competitor.", "text": "If Sound Statistics sells statistics services, pitch partnership, not services."},
+   {"title": "Fill the box.", "text": "Add role, email and the LinkedIn conversation in Streak."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (Valos - LG): contact name, LinkedIn URL, stage"},
+   {"used": true, "text": "Web search (Nov 19, 2026): no relevant result"},
+   {"used": false, "text": "LinkedIn profile (not opened)"},
+   {"used": false, "text": "Company website: not found"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Valos · prepared November 19, 2026"
+ },
+ "send": false
+}

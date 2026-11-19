@@ -1,5 +1,5 @@
 # Talking Points (talkingpoints.gershon.ai) — status
-Last updated: 2026-11-18 · v1.12.4 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
+Last updated: 2026-11-19 · v1.12.4 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
 Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy), `node scripts/version.mjs check` must pass.
 
 ## Runs (hourly GitHub cron → POST /api/cron/run)
@@ -20,6 +20,8 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - v1.12.3 (PR, 2026-11-16) footer shows the real version: one source (VERSION), sync/check script, footers read /version.txt.
 - v1.12.4 (2026-11-18) internal Friday report can only go once per date (Nov 13 report had gone out twice); tests: `node --test test/friday_report_once.test.mjs`.
   HANDOFF: cause = read-send-write guard (race / lost marker); fix = claim-before-send + idempotency key; admin POST /api/admin/friday-report stays a deliberate resend; client emails untouched.
+
+- 2026-11-19 Thursday prep: 18 new leads researched (branch briefs-2026-11-19, published as ready, not emailed).
 
 ## ❌ Open
 - New leads need researched talking points before each Friday or nothing new goes out.

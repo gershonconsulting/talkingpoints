@@ -1,0 +1,137 @@
+{
+ "client": "finance-montreal",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAleL4wcgJDA",
+ "company": "Morningstar",
+ "lead_name": "Rameez (Ray) Tayyabi",
+ "lead_role": "Senior Vice President, Global Business Development",
+ "stage": "Lead (by GC)",
+ "data": {
+  "header": {
+   "company": "Morningstar, Inc. (investment research and data)",
+   "person": "Rameez (Ray) Tayyabi",
+   "role": "Senior Vice President, Global Business Development",
+   "location": "To be confirmed",
+   "chips": [
+    {
+     "label": "Lead (by GC)"
+    },
+    {
+     "label": "Sponsorship interest",
+     "tone": "good"
+    },
+    {
+     "label": "Not the decision-maker",
+     "tone": "warn"
+    },
+    {
+     "label": "Fit: Low for location",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "Sponsorship, not location:",
+    "text": "Rameez wants Morningstar to **sponsor the 2027 Sustainable Finance Summit** but is 'not responsible for this'. He will **forward details to events / marketing**. Send the sponsorship pack to **rameez.tayyabi@morningstar.com** when it is ready."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn InMail (as Steve).",
+   "linkedin_url": "https://www.linkedin.com/in/raytayyabi"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Large corporate presence** with an active sustainability agenda (Corporate Sustainability Report, June 2026).",
+   "detail": "Rameez's own activity not verified.",
+   "context": "Web-checked Nov 19, 2026 (one search, no result on Rameez himself)."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Investment research, data and ratings firm (Chicago HQ); publishes a **Corporate Sustainability Report** (June 2026)"
+   },
+   {
+    "label": "His role",
+    "value": "**SVP, Global Business Development** (per Streak). Scope and region to be confirmed"
+   },
+   {
+    "label": "His ask",
+    "value": "Morningstar to **sponsor the 2027 Sustainable Finance Summit**; he forwards to events / marketing"
+   },
+   {
+    "label": "Contact",
+    "value": "rameez.tayyabi@morningstar.com"
+   },
+   {
+    "label": "Finance Montréal ICP",
+    "value": "**#3 Asset and Wealth Managers / Rating agencies** — title matches 'Business Development Director', but the interest is **event sponsorship, not a Montreal location**. Fit for location: **low**; fit for summit partnership: **good**."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Steve Gauthier",
+    "reason": "Steve's InMail started the exchange and Rameez said he 'respects Finance Montreal'."
+   },
+   "items": [
+    "**Shared theme:** sustainable finance.",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Summit sponsorship pack",
+    "text": "Send a short pack on the **2027 Sustainable Finance Summit**: audience, sponsor tiers, dates (all **to be confirmed** by Finance Montréal)."
+   },
+   {
+    "title": "Ask for the right owner",
+    "text": "Ask Rameez to name the **events / marketing contact** so follow-up does not depend on forwarding."
+   },
+   {
+    "title": "Keep the location door open",
+    "text": "Once the relationship exists, mention that Finance Montréal also helps firms **place teams in Montreal**, in the New York time zone."
+   }
+  ],
+  "person": {
+   "name": "Rameez (Ray) Tayyabi",
+   "text": "**Senior Vice President, Global Business Development** at Morningstar (per Streak). Career history, base city and team are **to be confirmed**."
+  },
+  "company": {
+   "text": "Morningstar is an investment research and data company that holds annual shareholder meetings (transcripts 2024–2026 online) and publishes a Corporate Sustainability Report (June 2026). Its Montreal presence is **to be confirmed**."
+  },
+  "history": {
+   "text": "Steve's InMail (as EVP Corporate Strategy) proposed a chat. Rameez accepted: 'I respect Finance Montreal and would like Morningstar to **sponsor the 2027 Sustainable Finance Summit**. I'm not responsible for this so if you could share the details I can forward to our events / marketing.' Steve said the event is still being finalised and asked for an email; Rameez gave **rameez.tayyabi@morningstar.com**."
+  },
+  "talking_points": [
+   "Which **events / marketing** contact should receive the summit pack?",
+   "What does Morningstar want from a sponsorship: **visibility, speaking slot, client meetings**?",
+   "Does Morningstar have **staff or clients in Montreal** today?",
+   "Would Morningstar consider a **research or data team** in Montreal later?"
+  ],
+  "attention": [
+   {
+    "title": "Wait for real details.",
+    "text": "Do not promise dates or tiers until the 2027 summit is finalised."
+   },
+   {
+    "title": "Hand-off risk.",
+    "text": "He is a forwarder, not the buyer: get the events contact's name."
+   },
+   {
+    "title": "Promise made.",
+    "text": "Steve said information will follow by email: track it so it is not forgotten."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak box (LinkedIn InMail conversation pasted by Juliana R)"
+   },
+   {
+    "used": true,
+    "text": "Web search: Morningstar Corporate Sustainability Report (Jun 2026), shareholder meeting transcripts — titles only; nothing found on Rameez"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for Finance Montréal · prepared November 19, 2026"
+ },
+ "send": false
+}

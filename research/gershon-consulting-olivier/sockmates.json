@@ -1,0 +1,70 @@
+{
+ "client": "gershon-consulting-olivier",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlaLEu9cIDA",
+ "company": "Sockmates",
+ "lead_name": "Marouane Mazid",
+ "lead_role": "To be confirmed (founder of a software project, per referral)",
+ "stage": "3. Scheduled",
+ "data": {
+  "header": {
+   "company": "Sockmates (software project, details to be confirmed)",
+   "person": "Marouane Mazid",
+   "role": "To be confirmed (developing a software, per Tom Ktorza)",
+   "location": "To be confirmed (Belgian phone number +32)",
+   "chips": [{"label": "Call scheduled"}, {"label": "Mon Nov 23, 2026, 11:00 ET", "tone": "good"}, {"label": "Referral: Tom Ktorza (Klack)", "tone": "good"}, {"label": "New time not yet accepted", "tone": "warn"}],
+   "alert": {"title": "Next call:", "text": "**Monday Nov 23, 2026, 11:00-11:30 ET** (Google Meet). The first slot (**Wed Nov 18, 11:00 ET**) was cancelled by Gershon because Olivier had a conflict. In the calendar, Marouane has **not yet accepted** the new time: confirm before Monday."},
+   "source_line": "Lead added to Streak on Nov 17, 2026 by Juliana R, in stage 3. Scheduled. Origin: email introduction by Tom Ktorza (Founder, Klack, New York / Paris) on Nov 16, 2026. Language: French. Pipeline: GC Pipeline."
+  },
+  "grade": {
+   "letter": "D",
+   "headline": "**No public footprint found** for Sockmates or Marouane.",
+   "detail": "A web search on Sockmates and Marouane Mazid returned nothing relevant. Website, LinkedIn page and product are **to be confirmed**.",
+   "context": "Web check on Nov 19, 2026."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Sockmates. Per Tom, Marouane is **developing a software** \"ici\" (Tom signs New York / Paris, so likely the US: **to be confirmed**)"},
+   {"label": "Need", "value": "**Set up a legal structure** to contract with his **partners**, then **invoice his first clients** (per Tom)"},
+   {"label": "Stage", "value": "Early: pre-revenue or first clients (to be confirmed)"},
+   {"label": "Referral", "value": "**Tom Ktorza**, Founder of **Klack** (New York / Paris)"},
+   {"label": "Contact", "value": "marouanemazid@hotmail.com · +32 451 05 32 69"},
+   {"label": "Gershon ICP", "value": "**Partial fit**: software company (#1 Technology / #4 B2B SaaS type), founder-led. But **very early**, likely below the >$1M sales of the ICP, and the stated need is **US company setup**, not US pipeline. Country **to be confirmed** (Belgian phone, French-speaking)."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Tom Ktorza", "reason": "Tom introduced Marouane to Olivier by email; both men know him."},
+   "items": [
+    "**French-speaking:** the whole exchange is in French.",
+    "**New York + Paris:** Tom works between both cities, like Gershon (Europe and USA numbers).",
+    "**No shared employer or school verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Start with his need", "text": "He needs a **US structure** to sign with partners and bill clients. Ask what he has today and what his partners require."},
+   {"title": "Then the next step: sales", "text": "Once the entity exists, the question is **finding US customers**. That is Gershon's core: qualified meetings with US decision-makers."},
+   {"title": "Credibility from day one", "text": "A new US company needs a **credible LinkedIn and web presence** before US buyers check."}
+  ],
+  "person": {"name": "Marouane Mazid", "text": "Per Tom Ktorza, Marouane is **developing a software** and needs a structure to contract with his partners and invoice first clients. He booked the call himself the same evening (\"J'ai book un créneau à l'instant\"). Phone number is **Belgian (+32)**; email is personal (Hotmail). Title, background, nationality and base **to be confirmed**."},
+  "company": {"text": "**Sockmates** is the company name Marouane gave when booking. What the software does, target customers, team size, funding and country of incorporation are **to be confirmed**. No website or press found."},
+  "history": {"text": "**Nov 16, 2026:** Tom Ktorza (Klack) introduced Marouane to Olivier by email. Olivier thanked Tom and shared his calendar link. Marouane thanked them and **booked a slot** for **Wed Nov 18, 11:00-11:30 ET**. **Nov 17:** Juliana wrote that Olivier had an **unexpected conflict** and asked to move the meeting. New meeting in the calendar: **Mon Nov 23, 2026, 11:00-11:30 ET** (Marouane: response pending). Streak task due Nov 23."},
+  "talking_points": [
+   "What does Sockmates do, and who is the customer?",
+   "Where are you based, and where are your partners and first clients: US, Belgium, France?",
+   "What structure do you need: US LLC or C-Corp, and for which contracts?",
+   "Do you already have paying clients or signed partners?",
+   "After the setup, how do you plan to find US customers?",
+   "How do you know Tom Ktorza, and how does Klack fit in?"
+  ],
+  "attention": [
+   {"title": "Rescheduled by us.", "text": "Gershon moved the first meeting. Thank him for his flexibility and be on time."},
+   {"title": "Very early stage.", "text": "Budget may be limited. Qualify revenue and funding before pitching a monthly program."},
+   {"title": "Setup vs sales.", "text": "His stated need is legal/company setup. Be clear on what Gershon does and refer setup questions if needed."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak: box, email thread \"Mise en relation Marouane - Olivier\" (Nov 16-17), booking email, reschedule email (Nov 17)"},
+   {"used": true, "text": "Google Calendar event in Streak: Nov 23, 2026 meeting"},
+   {"used": false, "text": "Web search on Sockmates / Marouane Mazid (no relevant result)"},
+   {"used": false, "text": "LinkedIn (not opened; no URL in Streak)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Gershon Consulting · prepared November 19, 2026"
+ },
+ "send": false
+}

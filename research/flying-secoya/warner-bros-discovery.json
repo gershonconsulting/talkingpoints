@@ -1,0 +1,71 @@
+{
+ "client": "flying-secoya",
+ "box_key": "agxzfm1haWxmb29nYWVyOAsSDE9yZ2FuaXphdGlvbiIVZ2Vyc2hvbmNvbnN1bHRpbmcuY29tDAsSBENhc2UYgICV4oTJ4AgM",
+ "company": "Warner Bros. Discovery (Clockwork)",
+ "lead_name": "Jason Wald",
+ "lead_role": "Head of Production & Acquisitions, Clockwork",
+ "stage": "Lead",
+ "data": {
+  "header": {
+   "company": "Warner Bros. Discovery · Clockwork (Warner Bros. specialty film label, launched 2026)",
+   "person": "Jason Wald",
+   "role": "Head of Production & Acquisitions, Clockwork",
+   "location": "To be confirmed",
+   "chips": [{"label": "Lead"}, {"label": "Fit: High (studio, production head)", "tone": "good"}, {"label": "Email given", "tone": "good"}, {"label": "Email not yet sent", "tone": "warn"}],
+   "alert": {"title": "Next step is yours:", "text": "Jason replied **\"Definitely\"** and gave **jason.wald@clockworkwb.com**. Charles said he would **connect via email to set up a meeting**. Send that email now with 2-3 slots."},
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R. Source: LinkedIn messaging (as Charles).",
+   "linkedin_url": "https://www.linkedin.com/in/jason-wald-7bb0192a/"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "**Covered in trade press** as one of the three executives leading Clockwork.",
+   "detail": "TheWrap and Screen covered the launch of Clockwork (Apr 2026), naming Jason with Christian Parkes and Spencer Collantes. His own LinkedIn activity is **to be confirmed**.",
+   "context": "Web check on Nov 19, 2026. LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "**Clockwork**: a specialty film label launched by **Warner Bros.** in April 2026 (per TheWrap and Screen)"},
+   {"label": "Leadership", "value": "Headed by ex-Neon executives **Christian Parkes**, **Jason Wald** and **Spencer Collantes** (per TheWrap)"},
+   {"label": "Slate", "value": "Lined up **Sean Baker's 'Ti Amo!'** (per Screen, Apr 15, 2026). Rest of slate to be confirmed"},
+   {"label": "Lead's job", "value": "Head of Production & Acquisitions (per Streak): he decides which films Clockwork makes or buys"},
+   {"label": "Contact", "value": "jason.wald@clockworkwb.com"},
+   {"label": "Flying Secoya ICP", "value": "**#1 Studios and Streamers** (production head) — fit: **high**. A new label setting up its production processes is a good moment to build in carbon measurement and eco-management from day one."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Charles Gachet-Dieuzeide", "reason": "Charles ran the LinkedIn conversation and Jason agreed to meet."},
+   "items": [
+    "**Same world:** film production. Flying Secoya works on film, TV and ads productions.",
+    "**Specialty and festival films:** Sean Baker's films travel to European festivals, where sustainability is often discussed (link **to be confirmed**).",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Build it in from day one", "text": "Clockwork is a **new label**. It is easier to set up carbon measurement and sustainable practices now than to change habits later."},
+   {"title": "Light for a small team", "text": "**Secoset®** centralises data, and Flying Secoya's **eco-managers** do the work on set. No extra burden on a lean label team."},
+   {"title": "International co-productions", "text": "Specialty films often shoot or co-produce in Europe, where carbon reporting is more common. Flying Secoya already works there (exact requirements per country **to be confirmed**)."}
+  ],
+  "person": {"name": "Jason Wald", "text": "**Head of Production & Acquisitions at Clockwork** (per Streak). Trade press says he joined from **Neon**, where he was **VP of Acquisitions and Production**, and earlier was a **Searchlight** executive (TheWrap, Screen). Location and education **to be confirmed**."},
+  "company": {"text": "Clockwork is a **specialty film label launched by Warner Bros. in April 2026**, led by former Neon executives Christian Parkes, Jason Wald and Spencer Collantes. Its first announced project is **Sean Baker's 'Ti Amo!'**. Warner Bros. is part of **Warner Bros. Discovery**. Clockwork's size, budget levels and production slate beyond 'Ti Amo!' are **to be confirmed**."},
+  "history": {"text": "LinkedIn (as Charles). Jason answered **\"Definitely. I'm at jason.wald@clockworkwb.com\"**. Charles replied: *Thank you for your reply Jason, sounds good. I will connect via email to set something up.* Box created **Nov 18, 2026** by Juliana R. **Open item:** the email to book the meeting. No email in Streak yet."},
+  "talking_points": [
+   "Congratulations on the launch of Clockwork: what kind of films will you make and buy?",
+   "How many productions do you expect per year, and where will they shoot?",
+   "Does Warner Bros. ask its labels for **carbon or sustainability reporting** today?",
+   "Would a **pilot on one production** (carbon footprint + eco-manager) be useful for 'Ti Amo!' or the next film?",
+   "Who else should join: Warner Bros. sustainability team or line producers?"
+  ],
+  "attention": [
+   {"title": "Acquisitions vs production.", "text": "On acquired films, Clockwork does not run the shoot. Focus on films it **produces**."},
+   {"title": "Parent company processes.", "text": "Warner Bros. may already have a group sustainability program (to be confirmed). Position Flying Secoya as a help, not a replacement."},
+   {"title": "Do not wait.", "text": "He said yes on LinkedIn: send the email quickly while interest is fresh."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (LinkedIn conversation pasted as comment)"},
+   {"used": true, "text": "TheWrap: Warner Bros. launches specialty film label headed by Neon's Christian Parkes, Jason Wald and Spencer Collantes"},
+   {"used": true, "text": "Screen (Apr 15, 2026): Warner Bros unveils specialty label Clockwork, lines up Sean Baker's 'Ti Amo!'"},
+   {"used": true, "text": "TheWrap / AwardsWatch: Neon hires former Searchlight exec Jason Wald as VP of Acquisitions and Production"},
+   {"used": false, "text": "LinkedIn profile (not opened)"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for Flying Secoya · prepared November 19, 2026"
+ },
+ "send": false
+}

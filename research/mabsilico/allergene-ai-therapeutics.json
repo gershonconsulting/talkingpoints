@@ -1,0 +1,83 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlaK3rLUJDA",
+ "company": "AllerGene AI Therapeutics",
+ "lead_name": "Ramya Yarlagadda",
+ "lead_role": "Senior Scientist - Novel therapeutics In-vivo discovery",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "AllerGene AI Therapeutics (in vivo mast-cell-targeting CAR technology for allergy)",
+   "person": "Ramya Yarlagadda",
+   "role": "Senior Scientist - Novel therapeutics In-vivo discovery",
+   "location": "To be confirmed",
+   "chips": [
+    {"label": "Contacted"},
+    {"label": "Fit: Medium", "tone": "warn"},
+    {"label": "Email given", "tone": "good"},
+    {"label": "Asked for a one-pager", "tone": "warn"}
+   ],
+   "alert": {
+    "title": "Deliver the one-pager:",
+    "text": "Ramya asked Vincent for **a one-pager on the technology** and gave **ryarlagadda@allergene.ai**. Zak emailed her on **Nov 18**; no reply or open logged yet. Make sure the one-pager was attached, then follow up with a short call proposal."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn messaging (as Vincent).",
+   "linkedin_url": "https://www.linkedin.com/in/ramya7"
+  },
+  "grade": {
+   "letter": "C+",
+   "headline": "Company is **visible through press releases and conferences**; Ramya's own presence not verified.",
+   "detail": "Press releases (PR Newswire / BioSpace) on CEO **Sid Kerkar** presenting the **in vivo mast-cell-targeting CAR** at a Hanson Wade summit and on the appointment of **Gad Berdugo** to the board. Listed among BIO's BIGS participating companies. BioWorld covered engineered CAR-Ts blocking birch pollen allergy (link to AllerGene to be confirmed).",
+   "context": "Web search (titles only) Nov 19, 2026; LinkedIn not audited."
+  },
+  "snapshot": [
+   {"label": "Company", "value": "Biotech developing **in vivo CAR technology targeting mast cells** to treat allergies (per press releases)"},
+   {"label": "Leadership", "value": "Founder and CEO **Sid Kerkar**; board member **Gad Berdugo** (recent appointment)"},
+   {"label": "Stage / funding", "value": "To be confirmed"},
+   {"label": "Contact", "value": "ryarlagadda@allergene.ai"},
+   {"label": "MAbSilico ICP", "value": "**#1 Biotech** — fit: **medium**. Right segment, but CAR/cell-therapy rather than antibody drugs, and the contact is a **Senior Scientist**, not CEO/CSO. Angle: the antibody-derived **binding domain** of the CAR (design, affinity, developability), to be confirmed in the call."}
+  ],
+  "in_common": {
+   "best_match": {"name": "Vincent Puard", "reason": "Vincent ran the LinkedIn exchange and Ramya asked him for the one-pager."},
+   "items": [
+    "**Same science area:** engineered binders for therapeutics.",
+    "**No shared employer, school or contact verified.**"
+   ]
+  },
+  "lead_with": [
+   {"title": "Answer her question first", "text": "She asked for a **one-pager**. Lead with a short, clear summary of MAbSilico's in silico antibody tools and one relevant use case."},
+   {"title": "The binder inside the CAR", "text": "Ask how AllerGene designs and optimises the **targeting domain** of its mast-cell CAR. That is where MAbSilico's tools could fit (to be confirmed)."},
+   {"title": "Speed for in vivo programs", "text": "In vivo discovery needs fast iteration. Position in silico screening as a way to **cut wet-lab cycles** before animal work."}
+  ],
+  "person": {
+   "name": "Ramya Yarlagadda",
+   "text": "**Senior Scientist, Novel therapeutics In-vivo discovery** at AllerGene AI Therapeutics (per Streak). Career and publications: to be confirmed."
+  },
+  "company": {
+   "text": "AllerGene AI Therapeutics develops an **in vivo mast-cell-targeting CAR technology** for allergy. Founder and CEO **Sid Kerkar** presented it at a Hanson Wade summit. The company appointed biotech veteran **Gad Berdugo** to its board and is listed among BIO's BIGS participating companies. Location, funding and pipeline details: to be confirmed. Streak note: \"CAR-T tech\"."
+  },
+  "history": {
+   "text": "LinkedIn exchange with Vincent. Ramya apologised for the delay and asked for **a one-pager about the technology**. Vincent offered that Zak share it by email; Ramya gave **ryarlagadda@allergene.ai**. Box created Nov 18 by Juliana R. Zak sent one email on **Nov 18** and moved the box to Contacted. No reply logged yet."
+  },
+  "talking_points": [
+   "Did the **one-pager** answer your questions? What would you like to see in more detail?",
+   "How do you design the **targeting domain** of the mast-cell CAR today (in-house, partner, library)?",
+   "Where are the bottlenecks: **affinity, specificity, developability** or in vivo expression?",
+   "Who else in the team would join a call (CSO, CEO Sid Kerkar)?",
+   "Would a small **pilot on one binder** be useful?"
+  ],
+  "attention": [
+   {"title": "Check the attachment.", "text": "Confirm the Nov 18 email included the one-pager; no open is logged yet."},
+   {"title": "Antibody fit unclear.", "text": "Cell therapy company: confirm the CAR uses an antibody-derived binder before pitching."},
+   {"title": "Contact is not the buyer.", "text": "Ramya is a senior scientist; ask who decides on external tools."}
+  ],
+  "sources": [
+   {"used": true, "text": "Streak box (MAbSilico - LG): contact, notes, LinkedIn conversation in comment"},
+   {"used": true, "text": "Web search titles: PR Newswire / BioSpace press releases (Sid Kerkar at Hanson Wade summit; Gad Berdugo board appointment), BIO BIGS listing, CB Insights profile"},
+   {"used": false, "text": "LinkedIn profile (not opened)"},
+   {"used": false, "text": "Funding and financials: not found"}
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 19, 2026"
+ },
+ "send": false
+}
