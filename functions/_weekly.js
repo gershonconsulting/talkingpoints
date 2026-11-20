@@ -11,6 +11,47 @@ import { emailBrief } from './_brief.js';
 // Gershon's own pipelines keep their rule: only leads in the "Scheduled" stage.
 export const WEEKLY_COUNT = 5;      // kept for the Admin table header (legacy)
 export const NEW_LEAD_DAYS = 14;   // a lead not researched by its first Friday is still sent the next one
+// Same-day talking points (Olivier, 2026-11-19, option 2): new leads are researched each morning and
+// the app sends them the SAME afternoon — every hourly run from SAME_DAY_HOUR (New York time) sends
+// the researched new leads not sent yet. Fridays keep their all-day window from 7 AM (backup run).
+export const SAME_DAY_HOUR = 16;
+
+// Safety default (review of PR #32, 2026-11-20): no same-day sends on Saturday/Sunday (New York time).
+// Leads that arrive over the weekend go out Monday from SAME_DAY_HOUR.
+export const NO_WEEKEND_SENDS = true;
+// Safety default (review of PR #32, 2026-11-20): no backlog blast. The first same-day run only considers
+// leads created in the last FIRST_RUN_LOOKBACK_HOURS; later runs keep that same start (the first run's
+// time, stored once in app_secrets as SAME_DAY_STARTED_AT), so the 14-day backlog is never AI-built or
+// sent by the same-day feature. Friday researched sends keep their 14-day rule (unchanged from v1.12.x).
+export const FIRST_RUN_LOOKBACK_HOURS = 24;
+export const SAME_DAY_START_KEY = 'SAME_DAY_STARTED_AT';
+
+// Is the send window open at New York time `now` ({ weekday, hour } from nyParts)?
+export function sendWindowOpen(now) {
+  if (NO_WEEKEND_SENDS && (now.weekday === 'Sat' || now.weekday === 'Sun')) return false;
+  return now.weekday === 'Fri' ? now.hour >= 7 : now.hour >= SAME_DAY_HOUR;
+}
+
+// Oldest lead creation time (ms) the same-day feature may build or send for, given when it first ran.
+export function sameDayCutoff(startedAt, nowMs = Date.now()) {
+  return Math.max(nowMs - NEW_LEAD_DAYS * 24 * 3600e3, startedAt - FIRST_RUN_LOOKBACK_HOURS * 3600e3);
+}
+
+// When the same-day feature first ran (ms). The first call stores "now" (INSERT OR IGNORE, so concurrent
+// runs agree on one value); every later call reads it back.
+export async function sameDayStart(env, nowMs = Date.now()) {
+  await env.DB.prepare('INSERT OR IGNORE INTO app_secrets (name, value) VALUES (?, ?)').bind(SAME_DAY_START_KEY, String(nowMs)).run();
+  const row = await env.DB.prepare('SELECT value FROM app_secrets WHERE name = ?').bind(SAME_DAY_START_KEY).first();
+  const v = Number(row?.value);
+  return Number.isFinite(v) && v > 0 ? v : nowMs;
+}
+
+// Is this Streak box new enough for the same-day feature? Gershon's own "Scheduled" pipelines count
+// the time the box entered its stage (a call just scheduled on an older lead), others its creation.
+export function sameDayEligible(box, cutoff, { scheduled = false } = {}) {
+  const t = scheduled ? (box.lastStageChangeTimestamp || box.creationTimestamp || 0) : (box.creationTimestamp || 0);
+  return t >= cutoff;
+}
 
 export function nyParts(ms = Date.now()) {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
@@ -44,6 +85,7 @@ export async function lastLeads(env, client, n = 200) {
       box_key: boxKey,
       name: b.name || '',
       created: b.creationTimestamp ? new Date(b.creationTimestamp).toISOString() : '',
+      box: { creationTimestamp: b.creationTimestamp, lastStageChangeTimestamp: b.lastStageChangeTimestamp },
       researched: !!brief,
       sent_at: sent?.created_at || null,
       status: sent ? 'sent' : brief ? 'ready to send' : 'research needed',
@@ -53,12 +95,15 @@ export async function lastLeads(env, client, n = 200) {
   return { connected: true, leads };
 }
 
-// Called by the hourly cron. On Fridays from 7 am New York time, EVERY hourly run sends the
+// Called by the hourly cron. Every day from 4 pm New York time (Fridays from 7 am), EVERY hourly run sends the
 // researched new leads not sent yet (2026-11-13: a talking point researched during the day still
 // goes out that Friday). No duplicate: send_log is checked lead by lead. `force` ignores the day.
 export async function fridayRun(env, client, r, { force = false } = {}) {
   const now = nyParts();
-  if (!force && (now.weekday !== 'Fri' || now.hour < 7)) return;
+  if (!force && !sendWindowOpen(now)) return;
+  const sentBy = now.weekday === 'Fri' ? 'friday run' : 'same-day run';
+  // Weekday afternoons (not Fridays, not forced): only leads since the same-day start (no backlog blast).
+  const cutoff = !force && now.weekday !== 'Fri' ? sameDayCutoff(await sameDayStart(env)) : null;
 
   // No ICP, no talking points (Olivier, 2026-11-05): a brief can't be judged against the client's ICP without one.
   const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
@@ -68,9 +113,10 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
   if (!connected) r.notes.push('friday: Streak not connected');
   for (const l of leads) {
     if (l.sent_at) { r.friday.already_sent++; continue; }        // no duplicate, ever
+    if (cutoff !== null && !sameDayEligible(l.box || {}, cutoff, { scheduled: scheduledOnly(client) })) continue;
     if (!l.brief) { r.friday.research_needed.push(l.name || l.box_key); continue; }
     try {
-      const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true });
+      const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true, sentBy });
       if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
     } catch (e) { r.notes.push(`friday: ${l.name}: ${e.message || e}`); }
   }
