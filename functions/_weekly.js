@@ -16,6 +16,12 @@ export const NEW_LEAD_DAYS = 14;   // a lead not researched by its first Friday 
 // the researched new leads not sent yet. Fridays keep their all-day window from 7 AM (backup run).
 export const SAME_DAY_HOUR = 16;
 
+// HOLD (Olivier, 2026-11-20 "3"): the AllerGene brief sent to MAbSilico was too light (no client
+// knowledge base, missing sections). Automatic sends are held for ALL clients until the rebuilt,
+// knowledge-based talking points are in place — then they are all sent the same day. Manual sends
+// from a brief page still work.
+export const AUTO_SEND_PAUSED = true;
+
 // Safety default (review of PR #32, 2026-11-20): no same-day sends on Saturday/Sunday (New York time).
 // Leads that arrive over the weekend go out Monday from SAME_DAY_HOUR.
 export const NO_WEEKEND_SENDS = true;
@@ -99,6 +105,7 @@ export async function lastLeads(env, client, n = 200) {
 // researched new leads not sent yet (2026-11-13: a talking point researched during the day still
 // goes out that Friday). No duplicate: send_log is checked lead by lead. `force` ignores the day.
 export async function fridayRun(env, client, r, { force = false } = {}) {
+  if (AUTO_SEND_PAUSED && !force) { r.notes.push('friday: automatic sends on hold (talking-point quality fix, 2026-11-20)'); return; }
   const now = nyParts();
   if (!force && !sendWindowOpen(now)) return;
   const sentBy = now.weekday === 'Fri' ? 'friday run' : 'same-day run';
