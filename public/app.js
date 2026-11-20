@@ -13,7 +13,7 @@
   }
 
   // An open tab reloads itself when a new version is deployed, so nobody keeps using stale code.
-  const APP_VERSION = '1.13.0';
+  const APP_VERSION = '1.12.6';
   async function checkVersion() {
     try {
       const v = (await (await fetch(`/version.txt?t=${Date.now()}`, { cache: 'no-store' })).text()).trim();
@@ -42,7 +42,7 @@
     for (const v of Object.keys(titles)) $(`view-${v}`).hidden = v !== view;
     document.querySelectorAll('.nav-item').forEach((a) => a.classList.toggle('active', a.dataset.view === view));
     $('pageTitle').textContent = titles[view];
-    document.title = `${titles[view]} · Talking Points`;
+    document.title = `${titles[view]} · Talking Points by Gershon.AI`;
     $('sidebar').classList.remove('open');
     if (view === 'settings') { loadSettings(); loadTemplate(); }
     if (view === 'quick') loadQuick();
