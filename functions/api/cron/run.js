@@ -1,17 +1,17 @@
 import { json, streak, clientStreakKey, getSettings, rowToBrief, scheduledOnly, scheduledBoxes } from '../../_lib.js';
 import { emailBrief, samePipeline } from '../../_brief.js';
 import { googleAccessToken, listEvents } from '../../_google.js';
-import { fridayRun, NEW_LEAD_DAYS } from '../../_weekly.js';
+import { fridayRun, sameDayStart, sameDayCutoff, sameDayEligible } from '../../_weekly.js';
 import { buildAutoBrief } from '../../_auto.js';
 import { maybeSendFridayReport } from '../../_friday_report.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
-//   1. New leads — EVERY run: each new Streak lead (last 14 days) without a talking point gets one
+//   1. New leads — EVERY run: each new Streak lead (since the same-day start; first run: last 24h) without a talking point gets one
 //      built by Cloudflare AI in the brief format (functions/_auto.js).
 //   2. Meetings: every calendar meeting with an outside attendee starting within the next
 //      `lead_hours` (default 48h) gets its talking points prepared and emailed once.
-//   3. Same day (every run from 4 pm New York time; Fridays from 7 am): every researched new lead
+//   3. Same day (every run from 4 pm New York time, Mon-Thu; Fridays from 7 am; never Sat/Sun): every researched new lead
 //      not sent yet gets its talking point emailed — never twice for the same lead (functions/_weekly.js); then a report of the
 //      number sent per client goes to report@gershonconsulting.com (functions/_friday_report.js).
 export async function onRequestPost({ request, env }) {
@@ -50,15 +50,19 @@ async function newLeads(env, client, r) {
   if (!key || !client.pipeline_key) { r.notes.push('Streak not connected'); return; }
   const tpl = await env.DB.prepare('SELECT icp FROM client_templates WHERE client_id = ?').bind(client.id).first();
   if (!String(tpl?.icp || '').trim()) { r.notes.push('new leads: ICP missing — no talking point built'); return; }
+  // No backlog (safety default, functions/_weekly.js): only leads since the same-day start — the first
+  // run looks back FIRST_RUN_LOOKBACK_HOURS (24h), never the whole NEW_LEAD_DAYS window.
+  const cutoff = sameDayCutoff(await sameDayStart(env));
+  const scheduled = scheduledOnly(client);
   let fresh;
-  if (scheduledOnly(client)) {
+  if (scheduled) {
     // Gershon's own pipelines: talking points only once a call is scheduled (stage "Scheduled").
     fresh = (await scheduledBoxes(key, client.pipeline_key)).boxes;
   } else {
-    const since = Date.now() - NEW_LEAD_DAYS * 24 * 3600 * 1000;
     const boxes = await streak(key, `/v1/pipelines/${client.pipeline_key}/boxes?sortBy=creationTimestamp&limit=25`);
-    fresh = (Array.isArray(boxes) ? boxes : []).filter((b) => (b.creationTimestamp || 0) > since);
+    fresh = Array.isArray(boxes) ? boxes : [];
   }
+  fresh = fresh.filter((b) => sameDayEligible(b, cutoff, { scheduled }));
   for (const b of fresh) {
     const boxKey = b.boxKey || b.key;
     const has = await env.DB.prepare("SELECT 1 FROM briefs WHERE box_key = ? AND status = 'ready'").bind(boxKey).first();
