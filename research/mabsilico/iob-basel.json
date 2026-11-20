@@ -1,0 +1,218 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlfy_qNAKDA",
+ "company": "Institute of Molecular and Clinical Ophthalmology Basel (IOB)",
+ "lead_name": "Simon Hansen",
+ "lead_role": "Head of Protein Engineering Platform",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Institute of Molecular and Clinical Ophthalmology Basel (IOB)",
+   "person": "Simon Hansen",
+   "role": "Head of Protein Engineering Platform / Group",
+   "location": "Basel, Switzerland",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Medium-Strong (academic, VHH)",
+     "tone": "good"
+    },
+    {
+     "label": "Wants a call early December",
+     "tone": "good"
+    },
+    {
+     "label": "Needs date proposals",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "He asked for date suggestions for early December:",
+    "text": "Simon wrote: **\"beginning of December would be good, I'd love to hear more about your platform. Could you send me a few date suggestions to simon.hansen@iob.ch?\"** He confirmed IOB does antibody discovery — **VHHs (nanobodies)**. Zak emailed him on **Nov 18** (no open recorded). Make sure the email had concrete slots for Dec 1–11 (CET hours)."
+   },
+   "source_line": "Lead added to Streak on Nov 13, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn conversation with Vincent.",
+   "linkedin_url": "https://www.linkedin.com/in/hansen--simon"
+  },
+  "grade": {
+   "letter": "B",
+   "headline": "Institute with a **strong scientific brand** (Novartis-founded, top publications); platform itself has a small public footprint.",
+   "detail": "IOB communicates through publications, news and events; the protein engineering platform page lists a 3-person team. LinkedIn not audited.",
+   "context": "Web-audited Nov 20, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Institute",
+    "value": "IOB — eye-disease research institute in Basel, founded 2017 by **Novartis**, the **University Hospital Basel** and the **University of Basel**"
+   },
+   {
+    "label": "His platform",
+    "value": "**Semi-automated selection of binders from synthetic libraries** by in-vitro display; also expression, interaction characterization, **affinity/stability improvement**, structure modelling"
+   },
+   {
+    "label": "Format",
+    "value": "**VHH / nanobodies** — binders that target specific retinal cell types for therapies"
+   },
+   {
+    "label": "Where MAbSilico fits",
+    "value": "**Affinity and stability maturation** of VHH leads, epitope-specific design for hard targets, and **humanization** before any therapeutic step"
+   },
+   {
+    "label": "Contact",
+    "value": "simon.hansen@iob.ch"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#3 Academic research (PI / platform head)** — good fit technically; budget via grants and collaborations rather than large contracts. Also a door to IOB's Novartis-linked network."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Vincent ran the LinkedIn exchange and Simon asked him for date suggestions."
+   },
+   "items": [
+    "**European science base:** MAbSilico (Tours, France) works in EU-funded consortia (€41M across three programs) — IOB is a natural consortium partner.",
+    "**Same problem space:** his platform already does affinity/stability improvement and modelling — MAbSilico can scale it with AI.",
+    "No shared employer or school verified."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "From library hits to better binders",
+    "text": "His pipeline produces VHH hits from synthetic libraries. MAbSilico can **optimize affinity, stability and developability** of the best hits in silico in **~21 days**, then confirm by **BLI / cytometry / HTRF**."
+   },
+   {
+    "title": "Targets that are hard to hit",
+    "text": "Cell-type-specific targeting in the retina needs **epitope-specific** binders. Offer epitope-directed design on one target where selections struggle."
+   },
+   {
+    "title": "Collaborate on funding",
+    "text": "Propose a joint **Horizon Europe / Swiss (SNSF, Innosuisse)** application — MAbSilico has EU-consortium experience; a low-cash way for an academic platform to work with industry."
+   }
+  ],
+  "person": {
+   "name": "Simon Hansen",
+   "text": "**Head of the Protein Engineering Platform (Group Leader)** at IOB. Runs a small team (research assistant Vikram Ayinampudi, master student Jihyeon Kim). Platform expertise: binder selection by in-vitro display, protein expression/purification, interaction characterization, binder maturation, structure modelling. Earlier career and publications: check his LinkedIn before the call."
+  },
+  "company": {
+   "text": "IOB (Basel) unites researchers and clinicians to understand eye diseases and develop new therapies, with strong genetics, single-cell and gene-therapy work on the retina. The Protein Engineering Platform gives IOB scientists access to highly specific binders used to target therapies to specific retinal cell types. Founded 2017 by Novartis, the University Hospital Basel and the University of Basel; funded by foundations and public grants."
+  },
+  "financials": {
+   "country": "Switzerland (non-profit foundation)",
+   "text": "Research foundation — no revenue figures. Budget comes from founders, foundations and grants: expect **small paid pilots or grant-funded collaborations**, not large service contracts."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Simon: \"sorry for the late response. Next weeks are a bit busy. But beginning of December would be good, I'd love to hear more about your platform. Could you send me a few date suggestions to simon.hansen@iob.ch?\" Vincent asked if they work with antibodies; Simon: \"yes, we do antibody discovery here (VHHs to be exact)\". Box created Nov 13 by Juliana R; Zak emailed Nov 18 (1 sent, 0 opens) and moved it to Contacted."
+  },
+  "network": {
+   "summary": "No shared connection verified between Vincent and Simon.",
+   "items": [
+    "IOB's founders include **Novartis** — a well-run collaboration could open discussions with Novartis ophthalmology research."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/hansen--simon",
+    "label": "See your mutual connections with Simon on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "2026",
+    "where": "IOB website",
+    "text": "Platform page: semi-automated binder selection from synthetic libraries; affinity/stability improvement; structure modelling.",
+    "use": "Shows exactly where MAbSilico plugs in."
+   }
+  ],
+  "groups": [],
+  "events_attended": [],
+  "hooks": [
+   "He offered the date himself: **beginning of December**.",
+   "He said **VHHs** — talk nanobody-specific design, not just IgG.",
+   "His platform already does **affinity/stability improvement** — position AI as an accelerator, not a replacement."
+  ],
+  "social": {
+   "rows": [
+    {
+     "channel": "IOB website & news",
+     "audience": "Scientific community",
+     "recency": "Ongoing",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Publications",
+     "audience": "Ophthalmology / neuroscience",
+     "recency": "Frequent (institute)",
+     "read": "Strong"
+    },
+    {
+     "channel": "LinkedIn — Simon Hansen",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "Academic credibility matters more than social reach here."
+  },
+  "industry": [
+   {
+    "title": "Nanobodies are rising in ophthalmology",
+    "text": "Small size and stability make VHHs attractive for ocular delivery and cell-targeted gene therapy vectors."
+   },
+   {
+    "title": "AI design meets display libraries",
+    "text": "Labs combine synthetic libraries with in silico maturation to cut selection rounds."
+   }
+  ],
+  "talking_points": [
+   "Which targets are you selecting VHHs against today, and where do selections struggle (affinity, specificity, stability)?",
+   "How many maturation rounds does a typical lead need now? Would in silico optimization of your top hits save time?",
+   "Do you need **humanized** VHHs for therapeutic use, or binders for targeting/vectors?",
+   "Would a small pilot on one VHH lead, validated by your assays plus our BLI/cytometry, be useful?",
+   "Are you planning grant applications (Horizon Europe, SNSF, Innosuisse) where a partner like MAbSilico could join?",
+   "Who else at IOB should join — PIs who use your binders?"
+  ],
+  "events": [
+   {
+    "name": "ARVO 2027",
+    "when_where": "May 2027, US",
+    "note": "Main eye-research meeting — likely IOB presence.",
+    "best": true
+   },
+   {
+    "name": "PEGS Boston 2027",
+    "when_where": "May 2027, Boston",
+    "note": "Protein & antibody engineering."
+   }
+  ],
+  "attention": [
+   {
+    "title": "Send December slots.",
+    "text": "He asked for date suggestions — confirm Zak's email contained 3 slots (Dec 1–11, CET-friendly) and re-send if not."
+   },
+   {
+    "title": "Academic budget.",
+    "text": "Lead with a collaboration/pilot or joint grant, not a price list."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG (box, LinkedIn exchange Nov 13, 2026, email Nov 18, 2026)"
+   },
+   {
+    "used": true,
+    "text": "iob.ch — Protein Engineering Platform page, Simon Hansen profile"
+   },
+   {
+    "used": true,
+    "text": "MAbSilico — company & ICP (Talking Points template): AI design in ~21 days, humanized epitope-specific binders, validation by cytometry/BLI/HTRF, Sartorius developability, EU programs (€41M)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Simon Hansen profile (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 20, 2026"
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlcKx_9AJDA",
+ "company": "Appili Therapeutics",
+ "lead_name": "Donald Cilla",
+ "lead_role": "President & CEO",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "Appili Therapeutics Inc. (TSX: APLI · OTC: APLIF)",
+   "person": "Donald (Don) Cilla, Pharm.D., MBA",
+   "role": "President & CEO",
+   "location": "Halifax, Nova Scotia, Canada · US-government-funded programs",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Strong (CEO + live antibody need)",
+     "tone": "good"
+    },
+    {
+     "label": "Wants a meeting",
+     "tone": "good"
+    },
+    {
+     "label": "Lost NIAID contract",
+     "tone": "warn"
+    }
+   ],
+   "alert": {
+    "title": "The CEO asked for a meeting — book it now:",
+    "text": "Don accepted Vincent's InMail, offered **\"a lot of availability next Wednesday\"** and said: **\"We were just working on one [antibody] and our NIAID contract got cancelled. We are always looking at them.\"** Zak emailed **dcilla@appilitherapeutics.com** on **Nov 18** (no open recorded). Re-send with 3 concrete slots."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn InMail (as Vincent).",
+   "linkedin_url": "https://www.linkedin.com/in/doncilla"
+  },
+  "grade": {
+   "letter": "B-",
+   "headline": "Regular **investor news flow** (GlobeNewswire, quarterly results, BARDA symposium); modest social reach.",
+   "detail": "Listed company → frequent press releases on contracts, results and pipeline. LinkedIn page and Don's personal activity not audited.",
+   "context": "Web-audited Nov 20, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Infectious-disease biopharma: **LIKMEZ®** (oral metronidazole, on US market), **ATI-1801** (cutaneous leishmaniasis, PRV-eligible), **ATI-1701** (tularemia vaccine, biodefense)"
+   },
+   {
+    "label": "Model",
+    "value": "Advances assets with **US non-dilutive funding** (NIAID, DoD, BARDA) and partners like **Vitalex Biosciences**"
+   },
+   {
+    "label": "Antibody angle",
+    "value": "Applied with Vitalex for **US$36.4M to develop an antifungal monoclonal antibody** (rare fungal infection — Vitalex's humanized mAb vs **mucormycosis**)"
+   },
+   {
+    "label": "Trigger",
+    "value": "NIAID terminated the **VXV-01** fungal-vaccine contract (up to US$40M) for convenience on **Jul 3, 2026** — they need new programs and new funding"
+   },
+   {
+    "label": "Contact",
+    "value": "dcilla@appilitherapeutics.com"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech, CEO level** — strong fit: decision-maker, explicit antibody interest, needs to move fast and cheaply."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "CEO to CEO; Vincent opened the conversation and Don answered him directly."
+   },
+   "items": [
+    "**Both live on non-dilutive funding:** Appili on NIAID/BARDA/DoD contracts, MAbSilico on EU programs (€41M across three projects).",
+    "**Infectious disease:** MAbSilico's AI design applies to anti-infective antibodies (fungal, bacterial, viral targets).",
+    "No shared employer or school verified."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "Restart the antibody program — faster and cheaper",
+    "text": "Their antibody work stalled with the NIAID cancellation. MAbSilico can deliver **humanized, epitope-specific candidates in ~21 days** — a low-cost way to keep the program alive and data-ready for the next solicitation."
+   },
+   {
+    "title": "Better proposals win contracts",
+    "text": "US agencies fund programs with **strong preliminary data**. In silico design + MAbSilico's wet-lab checks (**cytometry, BLI, HTRF**; developability with **Sartorius**) give Appili data to put in the next NIAID/BARDA/DoD proposal."
+   },
+   {
+    "title": "Co-develop, don't just buy",
+    "text": "Appili is cash-constrained. Propose a **partnership model**: MAbSilico designs, Appili brings funding access and the development path — shared upside on funded programs."
+   }
+  ],
+  "person": {
+   "name": "Don Cilla",
+   "text": "**President & CEO** of Appili; Pharm.D., MBA. Also the company's investor-relations contact. Public voice on government partnerships: \"Strategic government partnerships are foundational to Appili's impact in infectious disease and biodefense.\" Prior career: to be checked on LinkedIn before the call."
+  },
+  "company": {
+   "text": "Appili Therapeutics (Halifax, Canada; TSX-listed) develops anti-infectives. **LIKMEZ®** (ATI-1501, liquid metronidazole) is marketed in the US with growing adoption. **ATI-1801** targets cutaneous leishmaniasis and may earn a Priority Review Voucher; **ATI-1701** is a live-attenuated tularemia vaccine (GMP drug product made in 2026). In Oct 2025 Appili and **Vitalex Biosciences** won a NIAID contract worth up to **US$40M** for VXV-01 (multidrug-resistant *Candida* vaccine); NIAID terminated it for convenience on **Jul 3, 2026** after a US$3.6M base period. The company has reported **US$82–117M of pending US funding proposals**, including one for an antifungal monoclonal antibody."
+  },
+  "financials": {
+   "country": "Canada, TSX-listed (APLI)",
+   "text": "Small-cap; press coverage in Feb 2026 described a **cash crunch** despite new awards. Revenue from LIKMEZ is growing but small. Expect price sensitivity — a **milestone-based pilot** or shared-funding proposal fits better than an up-front platform fee."
+  },
+  "history": {
+   "text": "LinkedIn InMail (as Vincent). Don accepted: \"Sure – I have a lot of availability next Wednesday.\" Vincent: \"Does Appili Therapeutics work with antibodies in your pipeline?\" Don: \"We were just working on one and our NIAID contract got cancelled. We are always looking at them.\" He gave **dcilla@appilitherapeutics.com**. Box created Nov 18 by Juliana R; Zak emailed the same day (1 sent, 0 opens) and moved it to Contacted."
+  },
+  "network": {
+   "summary": "No shared connection verified between Vincent and Don.",
+   "items": [
+    "Partner company **Vitalex Biosciences** (antifungal humanized mAb) is the natural second meeting."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/doncilla",
+    "label": "See your mutual connections with Don on LinkedIn"
+   }
+  },
+  "posts": [
+   {
+    "when": "Jul 3, 2026",
+    "where": "Press release (company)",
+    "text": "NIAID **terminates the VXV-01 contract** for convenience.",
+    "use": "Empathize; position MAbSilico as a way to rebuild a fundable antibody program."
+   },
+   {
+    "when": "Jun 26, 2026",
+    "where": "FY2026 results",
+    "text": "LIKMEZ commercial momentum; focus on non-dilutive and equity capital for fiscal 2027.",
+    "use": "Ask which programs they want to fund next."
+   },
+   {
+    "when": "2025",
+    "where": "BARDA Innovation Symposium",
+    "text": "Appili attended to strengthen US government relationships.",
+    "use": "Biodefense angle for antibody countermeasures."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "BARDA Industry Day / Innovation Symposium",
+    "when": "2025",
+    "role": "Attendee",
+    "note": "US medical-countermeasure funding network."
+   }
+  ],
+  "hooks": [
+   "His words: **\"We are always looking at them [antibodies]\"** — open with that.",
+   "They know how to **win US government money** — MAbSilico brings the molecules.",
+   "Next-week availability: he wants to talk **now**."
+  ],
+  "social": {
+   "rows": [
+    {
+     "channel": "Press releases (GlobeNewswire)",
+     "audience": "Investors, media",
+     "recency": "Monthly",
+     "read": "Main channel"
+    },
+    {
+     "channel": "LinkedIn — Appili",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    },
+    {
+     "channel": "LinkedIn — Don Cilla",
+     "audience": "To be confirmed",
+     "recency": "Not audited",
+     "read": "Unknown"
+    }
+   ],
+   "note": "News is driven by contracts and quarterly results."
+  },
+  "industry": [
+   {
+    "title": "US anti-infective funding is volatile",
+    "text": "2026 saw NIH/NIAID contract terminations; companies diversify across BARDA, DoD (JPEO-CBRND) and CARB-X."
+   },
+   {
+    "title": "Antifungal antibodies are rare and needed",
+    "text": "Few approved options for mucormycosis and resistant *Candida* — a fast in silico route to candidates is a strong story for funders."
+   }
+  ],
+  "talking_points": [
+   "Which antibody program was stopped by the NIAID cancellation — target, stage, and what data you already have?",
+   "Is the **Vitalex antifungal mAb** (mucormycosis) still active, and who owns the next steps?",
+   "Which solicitations are you preparing next (NIAID, BARDA, DoD, CARB-X)? Would new candidate data strengthen them?",
+   "Would a **~21-day design pilot** on one target, with binding data, be useful before the next proposal deadline?",
+   "How do you prefer to work with technology partners — fee for service, milestones, or co-development?",
+   "Who else should join — your CSO or Vitalex?"
+  ],
+  "events": [
+   {
+    "name": "BIO International Convention 2027",
+    "when_where": "Jun 2027, San Diego",
+    "note": "Partnering.",
+    "best": true
+   },
+   {
+    "name": "ASM Microbe 2027",
+    "when_where": "Jun 2027, US",
+    "note": "Infectious-disease science community."
+   },
+   {
+    "name": "BARDA Industry Day",
+    "when_where": "2027, Washington DC",
+    "note": "Government funding network."
+   }
+  ],
+  "attention": [
+   {
+    "title": "Book the meeting today.",
+    "text": "He offered \"next Wednesday\" — send 3 slots for the week of Nov 23–27 (Thanksgiving Thu Nov 26) or early December."
+   },
+   {
+    "title": "No open on Zak's email.",
+    "text": "Ask Vincent to send a one-line LinkedIn nudge pointing to Zak's email."
+   },
+   {
+    "title": "Prepare an anti-infective example.",
+    "text": "Bring any MAbSilico case on an infectious-disease target."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG (box, LinkedIn InMail exchange, email Nov 18, 2026)"
+   },
+   {
+    "used": true,
+    "text": "GlobeNewswire / BioSpace — NIAID VXV-01 award (Oct 2025) and termination (Jul 3, 2026); FY2026 and Q2/Q3 results"
+   },
+   {
+    "used": true,
+    "text": "Barchart — US$117.5M funding proposals incl. antifungal monoclonal antibody"
+   },
+   {
+    "used": true,
+    "text": "MAbSilico — company & ICP (Talking Points template): AI design in ~21 days, humanized epitope-specific binders, validation by cytometry/BLI/HTRF, Sartorius developability, EU programs (€41M)"
+   },
+   {
+    "used": false,
+    "text": "LinkedIn — Don Cilla profile and mutual connections (not opened)"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 20, 2026"
+ }
+}
