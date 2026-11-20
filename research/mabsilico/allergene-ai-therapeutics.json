@@ -1,0 +1,269 @@
+{
+ "client": "mabsilico",
+ "box_key": "agxzfm1haWxmb29nYWVyMwsSDE9yZ2FuaXphdGlvbiIQb2F0dGlhQGdtYWlsLmNvbQwLEgRDYXNlGICAlaK3rLUJDA",
+ "company": "AllerGene AI Therapeutics",
+ "lead_name": "Ramya Yarlagadda",
+ "lead_role": "Senior Scientist - Novel therapeutics In-vivo discovery",
+ "stage": "Contacted",
+ "data": {
+  "header": {
+   "company": "AllerGene AI Therapeutics (Miami, FL · in vivo mRNA-LNP CAR-T against mast cells)",
+   "person": "Ramya Yarlagadda",
+   "role": "Senior Scientist - Novel therapeutics In-vivo discovery (since Aug 2026)",
+   "location": "Greater Phoenix Area, US (remote) · company based in Miami, FL",
+   "chips": [
+    {
+     "label": "Contacted"
+    },
+    {
+     "label": "Fit: Strong (technical peer)",
+     "tone": "good"
+    },
+    {
+     "label": "Asked for a one-pager",
+     "tone": "warn"
+    },
+    {
+     "label": "1st-degree with Vincent",
+     "tone": "good"
+    }
+   ],
+   "alert": {
+    "title": "She asked for the one-pager — answer it like a protein engineer would:",
+    "text": "Ramya asked Vincent on LinkedIn for **a one-pager on the technology** and gave **ryarlagadda@allergene.ai**. Zak emailed her on **Nov 18**; no open recorded yet. She is an **in silico protein engineer** herself (antibody humanization, CAR design, 15 years) — send the technical one-pager plus one predicted-vs-measured example, and propose a 30-min call with Vincent and a MAbSilico scientist."
+   },
+   "source_line": "Lead added to Streak on Nov 18, 2026 by Juliana R; moved Lead → Contacted on Nov 18 by Zak O. Source: LinkedIn conversation with Vincent.",
+   "linkedin_url": "https://www.linkedin.com/in/ramya7/"
+  },
+  "grade": {
+   "letter": "C+",
+   "headline": "Young company, **visible through press releases, a podcast and conference talks**; small LinkedIn footprint.",
+   "detail": "Founded 2025, angel stage. PR Newswire / BioSpace releases (Hanson Wade summit talk, Jul 2026; Gad Berdugo board appointment, Jun 2026), Empowered Patient Podcast episode (Aug 2026), listed at BIO's BIGS. Ramya: 542 followers, comments rather than posts.",
+   "context": "Web + LinkedIn checked Nov 20, 2026."
+  },
+  "snapshot": [
+   {
+    "label": "Company",
+    "value": "Biotech building **in vivo mRNA-LNP CAR-T** that selectively eliminates **mast cells** — severe food allergy, anaphylaxis, chronic urticaria, mast cell diseases"
+   },
+   {
+    "label": "Stage",
+    "value": "Founded **2025**, angel-funded (CB Insights); pre-clinical"
+   },
+   {
+    "label": "Leadership",
+    "value": "Founder & CEO **Dr. Sid Kerkar** (ex-Eli Lilly, Boehringer Ingelheim, BMS); board: **Gad Berdugo** (Jun 2026)"
+   },
+   {
+    "label": "Where MAbSilico fits",
+    "value": "Every CAR starts with a **binder (scFv)** against a mast-cell antigen — affinity, specificity and developability of that binder are MAbSilico's job"
+   },
+   {
+    "label": "Contact",
+    "value": "ryarlagadda@allergene.ai"
+   },
+   {
+    "label": "MAbSilico ICP",
+    "value": "**#1 Biotech** — strong technical fit: she is the in silico designer in the room. Decision sits with **Sid Kerkar (CEO)**; Ramya is the technical champion."
+   }
+  ],
+  "in_common": {
+   "best_match": {
+    "name": "Vincent Puard",
+    "reason": "Vincent is already 1st-degree with Ramya and ran the LinkedIn exchange; she asked him directly for the one-pager."
+   },
+   "items": [
+    "**Same craft:** Ramya does in silico antibody humanization, homology modelling, docking and affinity design — the same problems MAbSilico's platform solves at scale.",
+    "**She writes it herself:** \"In-silico engineering ... could effectively save a lot of resources and personnel time in wet lab\" — MAbSilico's core message.",
+    "**Gershon can introduce the CEO:** Sid Kerkar and board member Gad Berdugo are in Gershon's network — ask Olivier for a warm intro when it's time to reach the decision-maker."
+   ]
+  },
+  "lead_with": [
+   {
+    "title": "The binder inside the mast-cell CAR",
+    "text": "Their whole platform depends on a **mast-cell-selective scFv**. MAbSilico designs **epitope-specific, humanized, high-affinity** binders against any target in **~21 days** — offer to design or optimize the targeting domain (selectivity vs other FcεRI/KIT-expressing cells is the hard part)."
+   },
+   {
+    "title": "Speak her language: validation",
+    "text": "She will ask how predictions are checked. Recap MAbSilico's wet-lab loop: binding by **cytometry, BLI, HTRF**; developability with partner **Sartorius**. Bring one predicted-vs-measured example."
+   },
+   {
+    "title": "Fewer wet-lab rounds before animal work",
+    "text": "For an angel-stage company, every design cycle burns runway. In silico screening of many binder variants before mRNA-LNP work in vivo = **less cost, faster go/no-go** for the next raise."
+   }
+  ],
+  "person": {
+   "name": "Ramya Yarlagadda",
+   "text": "Senior protein engineer, **15 years** in industry. Joined AllerGene **Aug 2026**. Before: **EXUMA Biotechnology** (2020–2024: paramyxovirus envelopes for **in vivo CAR-T** delivery, TNFα kill switch, solid-tumor CARs), **Precigen** (2016–2020: antibody epitope engineering, **in silico humanization**, CAR-T designs, EGFR kill-switch patent, IL-12 patent), **Intrexon** (2010–2016: scFv, scFab, BiTEs, DARPins). Since 2024 also independent consultant (**VyteK**) on AI-driven protein engineering. Reviewer for *Antibodies* and *Frontiers in Immunology*. University of the Sciences in Philadelphia. Based in Greater Phoenix."
+  },
+  "company": {
+   "text": "AllerGene AI Therapeutics (Miami, founded 2025) engineers CAR-T cells **directly inside the body** with mRNA delivered by T-cell-targeted lipid nanoparticles. The CAR-T cells are transient and repeatable and target **tissue-resident mast cells**, the cells that trigger severe allergic reactions — the goal is to reset the allergic response rather than suppress symptoms. CEO Sid Kerkar presented the platform at Hanson Wade's **In Vivo Cell Engineering & Gene Editing Summit** (Boston, Jul 30, 2026). Target indications: severe food allergy, anaphylaxis, chronic urticaria, mast cell diseases."
+  },
+  "financials": {
+   "country": "United States (private)",
+   "text": "Private, **angel stage** (CB Insights). No public revenue or funding amount found. Small team: CEO, executive manager (Ashley Oxley), senior scientist (Ramya). Budget is tight — a **paid pilot on one binder** is a more realistic first step than a platform deal."
+  },
+  "history": {
+   "text": "LinkedIn (as Vincent). Ramya: \"Sorry I caught up in other things. Do you have a one pager that you can share to know more about your technology?\" Vincent: \"My colleague Zak can share via email, what's the best email?\" Ramya gave **ryarlagadda@allergene.ai**. Box created Nov 18 by Juliana R. Zak emailed her the same day (1 sent, 0 opens recorded) and moved the box to Contacted."
+  },
+  "network": {
+   "summary": "Ramya is already **1st-degree with Vincent**.",
+   "items": [
+    "**Sid P. Kerkar** (CEO & Founder) and **Gad Berdugo** (board) are in Gershon's network — warm intro to the decision-maker possible via Olivier.",
+    "Ashley Oxley — Executive Manager at AllerGene (operations / contracts contact)."
+   ],
+   "link": {
+    "url": "https://www.linkedin.com/in/ramya7/",
+    "label": "Open Ramya's LinkedIn profile"
+   }
+  },
+  "posts": [
+   {
+    "when": "Nov 2026",
+    "where": "LinkedIn (comment)",
+    "text": "Commented \"Congratulations Sid!\" on CEO Sid Kerkar's post.",
+    "use": "She is close to the CEO — a good internal sponsor."
+   },
+   {
+    "when": "Jul 21, 2026",
+    "where": "PR Newswire (company)",
+    "text": "Sid Kerkar to present **in vivo mRNA-LNP CAR-T cells targeting mast cells** at the Hanson Wade summit, Boston.",
+    "use": "Ask what feedback they got from the in vivo community."
+   },
+   {
+    "when": "Aug 19, 2026",
+    "where": "Empowered Patient Podcast (CEO)",
+    "text": "Kerkar on treating the **root cause** of severe food allergy instead of symptoms.",
+    "use": "Light opener on their mission."
+   },
+   {
+    "when": "Jun 9, 2026",
+    "where": "Press release (company)",
+    "text": "Biotech veteran **Gad Berdugo** joins the board.",
+    "use": "Signals preparation of a financing round."
+   }
+  ],
+  "groups": [],
+  "events_attended": [
+   {
+    "name": "Hanson Wade — 5th In Vivo Cell Engineering & Gene Editing Summit",
+    "when": "Jul 28–30, 2026, Boston",
+    "role": "CEO speaker",
+    "note": "AllerGene platform talk."
+   },
+   {
+    "name": "BIO — BIGS partnering",
+    "when": "2026",
+    "role": "Participating company",
+    "note": ""
+   }
+  ],
+  "hooks": [
+   "Her own line: **in silico engineering saves wet-lab resources** — that is MAbSilico's pitch in her words.",
+   "She worked on **in vivo CAR-T** at EXUMA — she knows the binder is the make-or-break piece.",
+   "She has **antibody humanization** and **patents** behind her — talk IP ownership of designed binders early."
+  ],
+  "industry": [
+   {
+    "title": "In vivo CAR-T is the hot cell-therapy trend",
+    "text": "mRNA-LNP in vivo CAR-T avoids cell manufacturing; many 2026 deals in oncology and autoimmunity. Allergy is a new, less crowded indication."
+   },
+   {
+    "title": "Selectivity is the risk",
+    "text": "Mast-cell markers are shared with other cells (basophils, stem cells for KIT). Binder specificity is the key safety question — exactly where epitope-specific design helps."
+   }
+  ],
+  "talking_points": [
+   "Did the one-pager answer your questions? What would you want to see in a technical deep-dive?",
+   "Which **mast-cell antigen** does your CAR target today, and where does the current scFv come from (in-house, licensed, library)?",
+   "What limits it most: **selectivity** vs basophils/other cells, **affinity**, or expression/stability in the CAR format?",
+   "How do you validate binders today — would our **cytometry / BLI / HTRF** readouts plug into your assays?",
+   "Would a **paid pilot on one binder** (~21 days to candidates) help your next go/no-go or financing round?",
+   "Who signs off on external partners — Sid directly? Should he join the next call?"
+  ],
+  "events": [
+   {
+    "name": "AAAAI Annual Meeting 2027",
+    "when_where": "Feb 2027, US",
+    "note": "Main US allergy meeting — likely venue for AllerGene's first data (to be confirmed)."
+   },
+   {
+    "name": "BIO International Convention 2027",
+    "when_where": "Jun 2027, San Diego",
+    "note": "Partnering with in vivo CAR-T companies.",
+    "best": true
+   }
+  ],
+  "attention": [
+   {
+    "title": "Check the one-pager was attached.",
+    "text": "Zak's Nov 18 email shows no open. Re-send if needed with a 2–3 line summary in the body and proposed slots."
+   },
+   {
+    "title": "Make it technical.",
+    "text": "Bring a MAbSilico scientist: Ramya will challenge modelling choices (homology models, docking, developability)."
+   },
+   {
+    "title": "IP question will come.",
+    "text": "She holds patents — be ready to explain who owns binders designed for AllerGene."
+   }
+  ],
+  "sources": [
+   {
+    "used": true,
+    "text": "Streak — MAbSilico - LG (box, LinkedIn exchange, email Nov 18, 2026)"
+   },
+   {
+    "used": true,
+    "text": "LinkedIn — Ramya Yarlagadda profile (Nov 20, 2026)"
+   },
+   {
+    "used": true,
+    "text": "PR Newswire / BioSpace — Hanson Wade summit release (Jul 21, 2026); Gad Berdugo board release (Jun 9, 2026)"
+   },
+   {
+    "used": true,
+    "text": "BIO BIGS participating companies; CB Insights profile; Empowered Patient Podcast (Aug 19, 2026)"
+   },
+   {
+    "used": true,
+    "text": "MAbSilico — company & ICP (Talking Points template): 21-day design, validation by cytometry/BLI/HTRF, Sartorius developability"
+   },
+   {
+    "used": false,
+    "text": "Funding amount: not public"
+   }
+  ],
+  "footer": "Gershon Consulting · Talking Points for MAbSilico · prepared November 20, 2026",
+  "social": {
+   "rows": [
+    {
+     "channel": "Press releases (PR Newswire / BioSpace)",
+     "audience": "Industry, investors",
+     "recency": "Jul 2026",
+     "read": "Main channel"
+    },
+    {
+     "channel": "Podcast (Empowered Patient)",
+     "audience": "Patients, industry",
+     "recency": "Aug 2026",
+     "read": "Occasional"
+    },
+    {
+     "channel": "LinkedIn — Ramya Yarlagadda",
+     "audience": "542 followers",
+     "recency": "Comments, Nov 2026",
+     "read": "Low activity",
+     "tone": "warn"
+    },
+    {
+     "channel": "LinkedIn — AllerGene company page",
+     "audience": "Small",
+     "recency": "Not audited",
+     "read": "To check"
+    }
+   ],
+   "note": "A young company that communicates through its CEO — Sid Kerkar is the voice to watch."
+  }
+ }
+}
