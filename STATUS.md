@@ -1,10 +1,9 @@
 # Talking Points (talkingpoints.gershon.ai) — status
-Last updated: 2026-11-19 · v1.13.0 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
+Last updated: 2026-11-20 · v1.12.6 · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
 Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy), `node scripts/version.mjs check` must pass.
 
 ## Runs (hourly GitHub cron → POST /api/cron/run)
-- Every run: new Streak leads (last 14 days) → talking point built by Cloudflare AI (functions/_auto.js), max 8 per run.
-- Same day: every run from 4 PM NY (Fridays from 7 AM) sends new leads' talking points not sent yet (send_log, "same-day run").
+- Daily (first run after 7 AM NY): new Streak leads → "research needed" notes.
 - Meetings: researched talking point emailed before calendar meetings (if calendar connected).
 - Fridays (every hourly run from 7 AM NY): every new lead (last 14 days) per client, researched only, never twice (send_log), to Settings + logins + client.gershon.ai report recipients.
 - Friday report: first run from 6 PM NY Friday (Saturday fallback) → report@gershonconsulting.com, number sent per client. Once per date: atomic claim row WEEKLY_REPORT_SENT:<date> + Resend Idempotency-Key tp-report-<date>.
@@ -21,9 +20,9 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - v1.12.3 (PR, 2026-11-16) footer shows the real version: one source (VERSION), sync/check script, footers read /version.txt.
 - v1.12.4 (2026-11-18) internal Friday report can only go once per date (Nov 13 report had gone out twice); tests: `node --test test/friday_report_once.test.mjs`.
   HANDOFF: cause = read-send-write guard (race / lost marker); fix = claim-before-send + idempotency key; admin POST /api/admin/friday-report stays a deliberate resend; client emails untouched.
+- v1.12.6 (2026-11-20) wording: titles + footer "Talking Points by Gershon.AI · v<version>"; client emails/briefs untouched.
 
 ## ❌ Open
-- v1.13.0 same-day Cloudflare AI talking points: PR awaiting Olivier's OK (changes what clients receive). First 4 PM run will send the backlog of unsent new leads from the last 14 days.
 - New leads need researched talking points before each Friday or nothing new goes out.
 - No recipients: Wallix, Altavia (Alexandre).
 - Duplicate empty client "#229 Altavia (Anne)" slug `altavia` (id 88475) in D1 — delete needs Olivier's OK.

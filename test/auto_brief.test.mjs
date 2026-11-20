@@ -59,3 +59,11 @@ test('refuses a lead from another client pipeline', async () => {
   await assert.rejects(buildAutoBrief(env, { ...client, pipeline_key: 'pipeline:owner:999' }, 'BOX'), /wrong_client/);
   assert.equal(saved.length, 0);
 });
+
+test('test mode writes nothing to D1', async () => {
+  const { env, saved } = setup();
+  const brief = await buildAutoBrief(env, client, 'BOX', { save: false });
+  assert.equal(saved.length, 0);
+  assert.equal(brief.status, 'test');
+  assert.equal(brief.data.header.person, 'Jane Doe');
+});

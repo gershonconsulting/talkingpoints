@@ -11,7 +11,7 @@ import { lookupFinancials } from './_financials.js';
 import { getTemplate } from './_template.js';
 import { parseInput, readWebsite, buildQuickBrief } from './_quick.js';
 
-export async function buildAutoBrief(env, clientRow, boxKey) {
+export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {}) {
   const lead = await loadLead(await clientStreakKey(env, clientRow.id), boxKey);
   // Same guard as v1.5.5: a lead is only ever briefed for the client whose pipeline it is in.
   if (!samePipeline(lead.pipelineKey, clientRow.pipeline_key)) throw new Error(`wrong_client: ${boxKey} not in ${clientRow.slug}'s pipeline`);
@@ -48,6 +48,8 @@ export async function buildAutoBrief(env, clientRow, boxKey) {
   ];
   data.footer = `Gershon Consulting · Talking Points · prepared ${date}`;
 
+  const row = { company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage };
+  if (!save) return { box_key: boxKey, ...row, status: 'test', data };   // test run: nothing written to D1
   return saveBrief(env, clientRow.id, boxKey, {
     company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage, status: 'ready', data,
   });
