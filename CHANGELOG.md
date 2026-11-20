@@ -2,6 +2,7 @@
 
 Shown in the app sidebar, the Admin page and the home page footer. Bump on every release.
 
+- **v1.12.6** (2026-11-20) — Naming: page titles and product footers read "Talking Points by Gershon.AI" (footer: "Talking Points by Gershon.AI · v<version>"). Legal lines (© Gershon Consulting LLC, privacy/terms text) unchanged. Client emails and brief rendering untouched.
 - **v1.12.5** (2026-11-19) — Test of the Cloudflare AI talking point for a Streak lead (owner only): POST /api/admin/auto-test { client, box_key } builds it from the Streak record + lead website + financials + client ICP/team (functions/_auto.js) without saving anything, and emails it only to olivier@gershonconsulting.com. No change to what clients receive.
 - **v1.12.4** (2026-11-18) — The internal Friday report to report@gershonconsulting.com goes out at most once per date (idempotency key), so a repeated hourly run no longer resends it. Version sync: html ?v= cache-busters and footer text brought to 1.12.4 (`node scripts/version.mjs sync`).
 - **v1.12.3** (2026-11-16) — Fix: the footer showed v1.12.1 while /version.txt said 1.12.2. VERSION is now the single source: `node scripts/version.mjs sync` rewrites every copy (version.txt, APP_VERSION, functions/_lib.js, ?v= cache-busters, footer text) and `node scripts/version.mjs check` fails if any copy differs. The footers (home, app sidebar, admin) also read /version.txt at load via public/version.js, so they show the deployed version. (v1.12.2, 2026-11-15: stale colour comment removed from unified-theme.css, no visual change.)
