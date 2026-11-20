@@ -1,3 +1,6 @@
+## 1.14.1 — 2026-11-20
+- Admin: POST /api/admin/send-now runs the send step immediately (GitHub hourly schedule runs late).
+
 ## 1.14.0 — 2026-11-20
 - Talking points engine (Cloudflare AI): uses the client knowledge base in every section, reads the Streak conversation (box comments), adds history, industry, LinkedIn link; 3 angles tied to concrete offer/proof points, 6 specific questions.
 - Quality check: an AI talking point that is too light is not sent automatically.
