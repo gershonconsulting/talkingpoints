@@ -67,3 +67,18 @@ test('test mode writes nothing to D1', async () => {
   assert.equal(brief.status, 'test');
   assert.equal(brief.data.header.person, 'Jane Doe');
 });
+
+test('feeds the Streak conversation and the client knowledge base to the engine, and adds a quality check', async () => {
+  const { env, prompts } = setup();
+  const orig = globalThis.fetch;
+  globalThis.fetch = async (url) => {
+    if (String(url).includes('/v1/boxes/BOX/comments')) return new Response(JSON.stringify([{ creatorName: 'Juliana R', timestamp: 1795016215872, message: 'She asked for a one-pager' }]), { headers: { 'content-type': 'application/json' } });
+    return orig(url);
+  };
+  const brief = await buildAutoBrief(env, client, 'BOX');
+  assert.match(prompts[0], /She asked for a one-pager/);
+  assert.match(prompts[0], /KNOWLEDGE BASE/);
+  assert.match(prompts[0], /Acme sells lab robots/);
+  assert.equal(typeof brief.data.quality.ok, 'boolean');
+  assert.equal(brief.data.quality.ok, false); // mock AI returns only 1 angle and 1 question
+});

@@ -39,10 +39,13 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
     chips: [{ label: (lead.stage || 'New lead').toUpperCase(), tone: 'brand' }, ...data.header.chips.filter((c) => /^ICP/.test(c.label))],
   };
   if (financials) data.financials = { country: financials.country, text: financials.text };
-  if (lead.notes) data.history = { text: lead.notes };
+  if (!data.history && lead.notes) data.history = { text: lead.notes };
+  if (lead.linkedin) data.network = { summary: 'Check your mutual connections before reaching out.', items: [], link: { url: lead.linkedin, label: `Open ${lead.leadName || 'the lead'}'s LinkedIn profile` } };
+  data.quality = briefQuality(data);
   data.attention = (data.attention || []).filter((a) => a.title !== 'Quick talking point');
   data.sources = [
-    { used: true, text: 'Streak: campaign pipeline record' },
+    { used: true, text: lead.conversation ? 'Streak: campaign pipeline record and conversation' : 'Streak: campaign pipeline record' },
+    { used: !!tpl.company, text: `${clientName}: knowledge base (company, offer, proof points) and ICP` },
     ...data.sources.filter((s) => !/^LinkedIn, Streak/.test(s.text)),
     { used: !!financials, text: financials ? `${financials.source}: company registry` : 'Company registry: no public financials found' },
   ];
@@ -53,4 +56,16 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
   return saveBrief(env, clientRow.id, boxKey, {
     company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage, status: 'ready', data,
   });
+}
+
+// Minimum content before a talking point may go out automatically (Olivier, 2026-11-20: "too light, not
+// enough information to make the email worth it"). A brief that fails is not sent by the runs (_weekly.js).
+export function briefQuality(d = {}) {
+  const missing = [];
+  if ((d.lead_with || []).length < 3) missing.push('lead with this (3 angles)');
+  if ((d.talking_points || []).length < 5) missing.push('talking points (5+)');
+  if (!d.company?.text) missing.push('the company');
+  if (!(d.snapshot || []).length) missing.push('snapshot');
+  if (!(d.hooks || []).length) missing.push('worth using in the call');
+  return { ok: missing.length === 0, missing };
 }
