@@ -181,10 +181,26 @@ export async function loadLead(key, boxKey) {
   if (firstContact) {
     try { contact = await streak(key, `/v2/contacts/${firstContact}`); } catch { /* optional */ }
   }
+  // The conversation so far (LinkedIn exchanges pasted by the team, call notes) lives in the box
+  // comments — the most useful input for a talking point (2026-11-20). Optional: older Streak APIs.
+  let conversation = '';
+  for (const path of [`/v1/boxes/${boxKey}/comments`, `/v2/boxes/${boxKey}/comments`]) {
+    try {
+      const res = await streak(key, path);
+      const list = Array.isArray(res) ? res : (res?.results || res?.comments || []);
+      if (list.length) {
+        conversation = list
+          .map((c) => `${c.creatorName || c.creator?.displayName || c.author?.name || ''} (${new Date(c.timestamp || c.creationTimestamp || c.createdAt || 0).toISOString().slice(0, 10)}): ${c.message || c.text || ''}`)
+          .join('\n---\n').slice(0, 6000);
+        break;
+      }
+    } catch { /* optional */ }
+  }
   return {
     boxKey,
     pipelineKey: box.pipelineKey,
     company: box.name || '',
+    conversation,
     stage,
     notes: box.notes || '',
     linkedin: (fields.Thread || '').startsWith('http') ? fields.Thread : '',
@@ -279,7 +295,7 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.13.0';
+export const VERSION = '1.14.0';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay

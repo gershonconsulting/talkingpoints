@@ -122,6 +122,9 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
     if (l.sent_at) { r.friday.already_sent++; continue; }        // no duplicate, ever
     if (cutoff !== null && !sameDayEligible(l.box || {}, cutoff, { scheduled: scheduledOnly(client) })) continue;
     if (!l.brief) { r.friday.research_needed.push(l.name || l.box_key); continue; }
+    // AI talking points only go out when they pass the quality check (2026-11-20); older AI briefs
+    // without the check are rebuilt first (Admin → POST /api/admin/rebuild).
+    if (l.brief.data?.auto && !l.brief.data?.quality?.ok) { r.friday.research_needed.push(`${l.name || l.box_key} (too light)`); continue; }
     try {
       const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true, sentBy });
       if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);

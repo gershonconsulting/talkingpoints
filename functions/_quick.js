@@ -112,12 +112,13 @@ Company: ${lead.company}
 Person: ${lead.leadName || 'unknown'}${lead.leadRole ? ` — ${lead.leadRole}` : ''}${lead.leadEmail ? ` <${lead.leadEmail}>` : ''}
 Stage: ${lead.stage || 'n/a'}
 Notes: ${String(lead.notes || '(none)').slice(0, 3000)}
+Conversation so far (LinkedIn / email, pasted by the team): ${lead.conversation ? `\n${lead.conversation}` : '(none)'}
 Public financials: ${financials?.text || '(none found)'}
 ` : ''}
 PROSPECT WEBSITE (public text, may be partial)
 ${site.ok ? site.text : '(the website could not be read)'}
 
-${clientName.toUpperCase()} — THE COMPANY
+${clientName.toUpperCase()} — KNOWLEDGE BASE: WHAT THEY SELL, HOW, PROOF POINTS (use it in every section)
 ${company || '(no company description yet)'}
 
 ${clientName.toUpperCase()} — IDEAL CUSTOMER PROFILE (ICP)
@@ -128,7 +129,12 @@ ${teamText}
 
 Rules: never invent facts, numbers, clients, people or news. Use only what is above. If something is unknown, leave it out
 or say it is unknown. Judge honestly whether the prospect fits the ICP. "Lead with this" ties what ${clientName} sells to
-what this prospect does. If an email was given, the person is the email owner: only state their role if the website or the CRM record says it.
+what this prospect does: give EXACTLY 3 angles, each naming a concrete capability, number or proof point from the
+${clientName} knowledge base (not generic phrases) and the specific prospect need it answers.
+If there is a conversation, start from it: what the prospect asked or said, and the next step it calls for.
+talking_points: 6 specific questions or points for THIS prospect (never generic). hooks: 3 facts from the website or the
+conversation worth dropping into the call. industry: 2 short trends of the prospect's sector that matter to ${clientName}'s offer
+(general knowledge, no invented figures). history: 2-4 sentences summarising the conversation and its status. If an email was given, the person is the email owner: only state their role if the website or the CRM record says it.
 Use **bold** for the key fact in a sentence. Write in English.
 
 Return ONLY JSON:
@@ -139,11 +145,13 @@ Return ONLY JSON:
  "icp_fit":{"verdict":"Strong fit|Possible fit|Weak fit|Unknown","why":"<one or two sentences>"},
  "in_common":{"best_match":{"name":"<team member or empty>","reason":"<one sentence>"},"items":["<real overlap>"]},
  "lead_with":[{"title":"<short heading>","text":"<1-3 sentences>"}],
- "hooks":["<fact from the website worth dropping into the call>"],
+ "hooks":["<fact from the website or conversation worth dropping into the call>"],
+ "history":"<summary of the conversation so far, or empty>",
+ "industry":[{"title":"<trend>","text":"<1-2 sentences, why it matters for this call>"}],
  "talking_points":["<question or point>"],
  "attention":[{"title":"<missing data or risk>","text":"<what to check before the call>"}]}`;
 
-  const out = await env.AI.run(MODEL, { messages: [{ role: 'user', content: prompt }], max_tokens: 2000, temperature: 0.2 });
+  const out = await env.AI.run(MODEL, { messages: [{ role: 'user', content: prompt }], max_tokens: 3500, temperature: 0.2 });
   const raw = typeof out === 'string' ? out : out?.response ?? JSON.stringify(out);
   let ai = {};
   if (raw && typeof raw === 'object') ai = raw;
@@ -184,6 +192,8 @@ Return ONLY JSON:
     person: personName && str(ai.person?.text) ? { name: personName, text: str(ai.person.text) } : null,
     company: str(ai.company) ? { text: str(ai.company) } : null,
     hooks: arr(ai.hooks).map(str).filter(Boolean),
+    history: str(ai.history) ? { text: str(ai.history) } : null,
+    industry: arr(ai.industry).filter((x) => x && str(x.title) && str(x.text)).slice(0, 3),
     social: site.social.length ? { rows: site.social.map((s) => ({ channel: s.channel, audience: '—', recency: '—', read: s.url })), note: 'Channels linked from the website. Audience and activity not checked in a quick talking point.' } : null,
     talking_points: arr(ai.talking_points).map(str).filter(Boolean),
     attention,

@@ -1,3 +1,9 @@
+## 1.14.0 — 2026-11-20
+- Talking points engine (Cloudflare AI): uses the client knowledge base in every section, reads the Streak conversation (box comments), adds history, industry, LinkedIn link; 3 angles tied to concrete offer/proof points, 6 specific questions.
+- Quality check: an AI talking point that is too light is not sent automatically.
+- Admin: POST /api/admin/rebuild { client } rebuilds unsent talking points with the engine.
+- Automatic sends held (AUTO_SEND_PAUSED) until the rebuild is done.
+
 # Talking Points — versions
 
 Shown in the app sidebar, the Admin page and the home page footer. Bump on every release.
