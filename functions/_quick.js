@@ -134,7 +134,8 @@ ${clientName} knowledge base (not generic phrases) and the specific prospect nee
 If there is a conversation, start from it: what the prospect asked or said, and the next step it calls for.
 talking_points: 6 specific questions or points for THIS prospect (never generic). hooks: 3 facts from the website or the
 conversation worth dropping into the call. industry: 2 short trends of the prospect's sector that matter to ${clientName}'s offer
-(general knowledge, no invented figures). history: 2-4 sentences summarising the conversation and its status. If an email was given, the person is the email owner: only state their role if the website or the CRM record says it.
+(general knowledge, no invented figures). events: 2-3 major RECURRING US conferences or trade shows of the prospect's sector where
+${clientName} could meet this prospect (well-known events only, usual month and city, never an exact date). history: 2-4 sentences summarising the conversation and its status. If an email was given, the person is the email owner: only state their role if the website or the CRM record says it.
 Use **bold** for the key fact in a sentence. Write in English.
 
 Return ONLY JSON:
@@ -148,6 +149,7 @@ Return ONLY JSON:
  "hooks":["<fact from the website or conversation worth dropping into the call>"],
  "history":"<summary of the conversation so far, or empty>",
  "industry":[{"title":"<trend>","text":"<1-2 sentences, why it matters for this call>"}],
+ "events":[{"name":"<event>","when_where":"<usual month, US city>","note":"<why it fits this prospect>"}],
  "talking_points":["<question or point>"],
  "attention":[{"title":"<missing data or risk>","text":"<what to check before the call>"}]}`;
 
@@ -166,7 +168,7 @@ Return ONLY JSON:
   const fitTone = fit && /strong/i.test(fit.verdict) ? 'brand' : 'warn';
 
   const attention = arr(ai.attention).filter((a) => a && str(a.title));
-  if (!site.ok) attention.unshift({ title: 'Website could not be read', text: `Nothing could be read from ${target.domain}. Check the address, or research the company before the call.` });
+  if (!site.ok) attention.unshift({ title: 'Website could not be read', text: target.url ? `Nothing could be read from ${target.domain}. Check the address, or research the company before the call.` : 'No company website was found for this lead (no work email, no website field, no link in Streak). Add it in Streak.' });
   if (!icp) attention.unshift({ title: 'No ICP on file', text: 'Add your ideal customer profile in Settings → Talking points template so the fit check means something.' });
   attention.push({ title: 'Quick talking point', text: 'Built in seconds by AI from the public website only (no LinkedIn, CRM history or registry data). Verify before relying on it.' });
 
@@ -180,11 +182,12 @@ Return ONLY JSON:
         { label: 'QUICK — AI FROM ' + (target.kind === 'email' ? 'EMAIL' : 'WEBSITE'), tone: 'warn' },
         ...(fit ? [{ label: `ICP: ${String(fit.verdict).toUpperCase()}`, tone: fitTone }] : []),
       ],
-      source_line: target.kind === 'email' ? `Email: ${target.email} · Website: ${target.domain}` : `Website: ${target.domain}`,
+      source_line: !site.ok ? 'Website: not found' : target.kind === 'email' ? `Email: ${target.email} · Website: ${target.domain}` : `Website: ${target.domain}`,
     },
     snapshot: [
-      ...arr(ai.snapshot).filter((s) => s && str(s.label) && str(s.value)).slice(0, 6),
-      { label: 'Website', value: target.domain },
+      // The AI may add its own "Website" row: one Website line only, the real address (2026-11-23).
+      ...arr(ai.snapshot).filter((s) => s && str(s.label) && str(s.value) && !/^(web\s*site|domain|url)$/i.test(str(s.label))).slice(0, 6),
+      { label: 'Website', value: site.ok ? target.domain : 'not found — check before the call', ...(site.ok ? {} : { tone: 'warn' }) },
       ...(fit ? [{ label: 'ICP fit', value: `${fit.verdict}${str(fit.why) ? ` — ${str(fit.why)}` : ''}`, tone: fitTone === 'brand' ? undefined : 'warn' }] : []),
     ],
     in_common: ai.in_common?.best_match?.name || arr(ai.in_common?.items).length ? ai.in_common : null,
@@ -196,10 +199,12 @@ Return ONLY JSON:
     industry: arr(ai.industry).filter((x) => x && str(x.title) && str(x.text)).slice(0, 3),
     social: site.social.length ? { rows: site.social.map((s) => ({ channel: s.channel, audience: '—', recency: '—', read: s.url })), note: 'Channels linked from the website. Audience and activity not checked in a quick talking point.' } : null,
     talking_points: arr(ai.talking_points).map(str).filter(Boolean),
+    events: arr(ai.events).filter((e) => e && str(e.name)).slice(0, 3)
+      .map((e) => ({ name: str(e.name), when_where: str(e.when_where), note: [str(e.note), '(usual timing — confirm the dates)'].filter(Boolean).join(' ') })),
     attention,
     sources: [
       ...site.pages.map((u) => ({ used: true, text: `Website: ${u}` })),
-      ...(site.ok ? [] : [{ used: false, text: `Website: ${target.domain} could not be read` }]),
+      ...(site.ok ? [] : [{ used: false, text: target.url ? `Website: ${target.domain} could not be read` : 'Website: not found (no work email, website field or link in Streak)' }]),
       { used: !!icp, text: icp ? `${clientName}: company & ICP (Settings)` : `${clientName}: no ICP on file` },
       { used: false, text: 'LinkedIn, Streak history and company registries: not used in a quick talking point' },
     ],

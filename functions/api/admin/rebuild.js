@@ -14,12 +14,13 @@ export async function onRequestPost({ request, env }) {
   if (!client) return json({ error: `unknown client "${b.client}"` }, 404);
   const { connected, leads } = await lastLeads(env, client);
   if (!connected) return json({ error: 'Streak not connected' }, 409);
-  const todo = leads.filter((l) => !l.sent_at && (!b.box_key || l.box_key === b.box_key)).slice(0, Number(b.limit) || 6);
+  // { box_key, force: true } also rebuilds a lead already sent (2026-11-23: AbelZeta re-sent after the engine fix).
+  const todo = leads.filter((l) => (!l.sent_at || (b.box_key && b.force)) && (!b.box_key || l.box_key === b.box_key)).slice(0, Number(b.limit) || 6);
   const out = [];
   for (const l of todo) {
     try {
       const brief = await buildAutoBrief(env, client, l.box_key);
-      out.push({ lead: l.name, ok: !!brief.data?.quality?.ok, missing: brief.data?.quality?.missing || [], sections: Object.keys(brief.data || {}).filter((k) => brief.data[k]) });
+      out.push({ lead: l.name, ok: !!brief.data?.quality?.ok, website: brief.data?.header?.source_line || '', website_from: brief.data?.website_from || '', missing: brief.data?.quality?.missing || [], sections: Object.keys(brief.data || {}).filter((k) => brief.data[k]) });
     } catch (e) { out.push({ lead: l.name, error: e.message || String(e) }); }
   }
   return json({ ok: true, client: client.slug, rebuilt: out });

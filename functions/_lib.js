@@ -177,10 +177,16 @@ export async function loadLead(key, boxKey) {
   for (const [k, v] of Object.entries(box.fields || {})) fields[fieldName[k] || k] = v;
 
   let contact = null;
-  const firstContact = box.contacts?.[0]?.key;
-  if (firstContact) {
-    try { contact = await streak(key, `/v2/contacts/${firstContact}`); } catch { /* optional */ }
+  const contacts = [];
+  // Every contact on the box (max 3): the first is the lead; the others' work emails can still point
+  // to the company website when the lead's own address is personal or missing (2026-11-23, AbelZeta).
+  for (const c of (box.contacts || []).slice(0, 3)) {
+    if (!c?.key) continue;
+    try { contacts.push(await streak(key, `/v2/contacts/${c.key}`)); } catch { /* optional */ }
   }
+  contact = contacts[0] || null;
+  const fieldWebsite = Object.entries(fields)
+    .find(([n, v]) => /web\s*site|domain|url/i.test(n) && typeof v === 'string' && /\.[a-z]{2,}/i.test(v) && !/linkedin\.com/i.test(v))?.[1] || '';
   // The conversation so far (LinkedIn exchanges pasted by the team, call notes) lives in the box
   // comments — the most useful input for a talking point (2026-11-20). Optional: older Streak APIs.
   let conversation = '';
@@ -207,6 +213,8 @@ export async function loadLead(key, boxKey) {
     leadName: contact ? [contact.givenName, contact.familyName].filter(Boolean).join(' ') : '',
     leadRole: contact?.title || '',
     leadEmail: contact?.emailAddresses?.[0] || '',
+    emails: [...new Set(contacts.flatMap((c) => c.emailAddresses || []))],
+    website: fieldWebsite,
   };
 }
 
@@ -295,7 +303,7 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.14.1';
+export const VERSION = '1.15.0';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay

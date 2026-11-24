@@ -5,6 +5,7 @@ import { renderBrief, renderBriefText } from './_render.js';
 import { splitTypoEmails } from './_email.js';
 import { planBriefEmail, briefSubject } from './_audience.js';
 import { getTemplate, applyTemplate } from './_template.js';
+import { briefQuality } from './_auto.js';
 
 export async function saveBrief(env, clientId, boxKey, { company, lead_name, lead_role, stage, status, data }) {
   await env.DB.prepare(
@@ -113,6 +114,13 @@ export async function recipients(env, clientId) {
 // daily auto-email switch EMAIL_ENABLED is off; duplicates are prevented by the caller (send_log).
 export async function emailBrief(env, clientRow, brief, { force = false, subjectDate, weekly = false, sentBy } = {}) {
   if ((env.EMAIL_ENABLED !== 'true' && !weekly) || (brief.emailed_at && !force)) return false;
+  // Every automatic send path comes through here: an AI talking point that fails the quality check goes
+  // to Olivier for review instead of the client team (2026-11-23). Re-checked with the current rules,
+  // so briefs saved before this check are judged the same way.
+  if (brief.data?.auto) {
+    const q = briefQuality(brief.data);
+    if (!q.ok) { await holdForReview(env, clientRow, { ...brief, data: { ...brief.data, quality: q } }); return false; }
+  }
   const to = await recipients(env, clientRow.id);
   if (!to.length) return false;
   // Any recipient outside Gershon -> client version (no internal blocks, sender "Gershon Consulting").
@@ -130,5 +138,40 @@ export async function emailBrief(env, clientRow, brief, { force = false, subject
   } catch (e) { await logSend(env, { ...who, status: 'failed', error: e.message || e }); throw e; }
   await logSend(env, who);
   await env.DB.prepare("UPDATE briefs SET emailed_at = datetime('now') WHERE box_key = ?").bind(brief.box_key).run();
+  return true;
+}
+
+// ---------- Held for review (2026-11-23, AbelZeta) ----------
+// An AI talking point that fails the quality check (no website read, ICP unknown, person = job title,
+// too few angles…) is never sent to the client team. Olivier gets it ONCE per lead, internal version,
+// with what is missing, so he can complete Streak (website, work email) and have it rebuilt.
+// Logged in send_log with status 'held' — it does not count as sent, so a rebuilt brief that passes
+// still goes to the client.
+export const REVIEW_TO = ['olivier@gershonconsulting.com'];
+
+export async function holdForReview(env, clientRow, brief) {
+  const done = await env.DB.prepare("SELECT 1 FROM send_log WHERE box_key = ? AND status = 'held'").bind(brief.box_key).first();
+  if (done) return false;
+  const missing = brief.data?.quality?.missing || [];
+  const data = {
+    ...brief.data,
+    header: {
+      ...(brief.data?.header || {}),
+      alert: { title: 'Held — NOT sent to the client.', text: `Missing: ${missing.join(', ') || 'see below'}. Fix the lead in Streak (website / work email), then rebuild it in Admin.` },
+    },
+  };
+  const date = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
+  const who = { client_id: clientRow.id, box_key: brief.box_key, company: brief.company, lead_name: brief.lead_name, sent_by: 'held for review', to: REVIEW_TO };
+  try {
+    await sendEmail(env, {
+      to: REVIEW_TO,
+      from: 'GC Talking Points <talkingpoints@gershon.ai>',
+      subject: `[Held — not sent to client] ${briefSubject(clientRow.name, brief.company, brief.lead_name, date)}`,
+      html: renderBrief(data),
+      text: renderBriefText(data),
+      idempotencyKey: `held-${brief.box_key}`,
+    });
+  } catch (e) { await logSend(env, { ...who, status: 'failed', error: e.message || e }); throw e; }
+  await logSend(env, { ...who, status: 'held' });
   return true;
 }

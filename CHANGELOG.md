@@ -1,3 +1,11 @@
+## 1.15.0 — 2026-11-23
+- Engine fix after the AbelZeta brief (Meteor Biotech) went out off-format (Olivier: "OK fix engine").
+- Lead website: found from the Streak website field, every contact's work email, emails/links in the Streak conversation (never the client's or Gershon's own), then the company name as a .com, kept only if the page names the company. No more "Website: AbelZeta".
+- Format: every section of the agreed format always shows (grade, person, company, financials, network, posts, groups, events attended, social, industry, questions, US events) with a "not found" line when empty; sections switched off in Settings stay off. One Website line in the Snapshot. AI now adds 2-3 recurring US events.
+- Quality check: an AI talking point without the lead's website, without an ICP verdict, or whose person section is only a job title is held — emailed once to Olivier for review ([Held — not sent to client]), never to the client team. Enforced in emailBrief, so every automatic send path follows it.
+- Admin rebuild: { box_key, force: true } rebuilds a lead already sent.
+- Tests: test/format_and_website.test.mjs.
+
 ## 1.14.1 — 2026-11-20
 - Admin: POST /api/admin/send-now runs the send step immediately (GitHub hourly schedule runs late).
 

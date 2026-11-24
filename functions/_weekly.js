@@ -1,5 +1,6 @@
 import { streak, clientStreakKey, rowToBrief, scheduledOnly, scheduledBoxes } from './_lib.js';
 import { emailBrief } from './_brief.js';
+import { briefQuality } from './_auto.js';
 
 // ---------- Friday talking points (2026-11-05, widened 2026-11-11) ----------
 // Every Friday (first hourly run after 7 am New York time), for EVERY client in Talking Points:
@@ -124,10 +125,12 @@ export async function fridayRun(env, client, r, { force = false } = {}) {
     if (!l.brief) { r.friday.research_needed.push(l.name || l.box_key); continue; }
     // AI talking points only go out when they pass the quality check (2026-11-20); older AI briefs
     // without the check are rebuilt first (Admin → POST /api/admin/rebuild).
-    if (l.brief.data?.auto && !l.brief.data?.quality?.ok) { r.friday.research_needed.push(`${l.name || l.box_key} (too light)`); continue; }
+    // (2026-11-23) emailBrief re-checks it and sends a too-light one to Olivier for review, never to the client.
     try {
       const ok = await emailBrief(env, client, l.brief, { force: true, weekly: true, sentBy });
-      if (ok) r.friday.sent++; else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
+      if (ok) r.friday.sent++;
+      else if (l.brief.data?.auto && !briefQuality(l.brief.data).ok) r.friday.research_needed.push(`${l.name || l.box_key} (too light — held, sent to Olivier for review)`);
+      else r.notes.push(`friday: no recipients in Settings — ${l.name}`);
     } catch (e) { r.notes.push(`friday: ${l.name}: ${e.message || e}`); }
   }
 }
