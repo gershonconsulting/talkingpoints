@@ -46,9 +46,15 @@ const card = (inner, { border } = {}) =>
 const label = (t, color = C.muted) =>
   `<div style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:${color};font-weight:700;margin-bottom:12px;">${esc(t)}</div>`;
 const para = (t) => `<div style="font-size:13px;color:${C.body};line-height:1.7;">${fmt(t)}</div>`;
+// A section of the agreed format with no data still shows, with a plain "not found" line (2026-11-23,
+// AbelZeta: a brief that silently dropped half the format). Gaps are listed in d.gaps (see renderBrief).
+const gap = (title, text, color = C.muted) =>
+  card(`${label(title, color)}<div style="font-size:13px;color:${C.faint};line-height:1.6;font-style:italic;">${fmt(text)}</div>`);
 const has = (v) => v && (Array.isArray(v) ? v.length : typeof v === 'object' ? Object.values(v).some(Boolean) : String(v).trim());
 
-export function renderBrief(d = {}) {
+export function renderBrief(data = {}) {
+  const d = { ...data, gaps: [] };
+  const off = new Set(data.off || []);
   const out = [];
   const h = d.header || {};
 
@@ -79,7 +85,7 @@ ${h.source_line ? `<div style="margin-top:10px;font-size:12px;color:${C.muted};"
 ${g.detail ? `<div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt(g.detail)}</div>` : ''}
 <div style="font-size:11px;color:${C.faint};margin-top:10px;font-style:italic;line-height:1.5;">Scale: A+ six-figure audiences across several networks with constant publishing · A/A− strong on the networks that matter for the sector · B+/B/B− one standout channel or modest reach across several · C+/C/C− small audiences, sporadic or stale · D little or no meaningful presence.${g.context ? ` ${esc(g.context)}` : ''}</div>
 </td></tr></table>`));
-  }
+  } else if (!off.has('@@')) { out.push(gap('Social Network Effectiveness Grade', "Not rated yet: the lead company's LinkedIn and social audiences were not checked.")); (d.gaps ||= []).push('grade'); }
 
   // 3. Snapshot
   if (has(d.snapshot)) {
@@ -94,7 +100,7 @@ ${g.detail ? `<div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt
     out.push(card(`${label('What you have in common', C.brand)}
 ${has(ic.best_match) ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;">Best placed to reach out: ${esc(ic.best_match.name)}</div>${ic.best_match.reason ? `<div style="font-size:13px;color:${C.body};line-height:1.6;margin:-6px 0 12px;">${fmt(ic.best_match.reason)}</div>` : ''}` : ''}
 ${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:8px;padding-left:14px;border-left:3px solid ${C.brand};">${fmt(t)}</div>`).join('')}`));
-  }
+  } else if (!off.has('in_common')) { out.push(gap('What you have in common', 'No overlap found yet between your team and this lead.')); d.gaps.push('in_common'); }
 
   // 5. Lead with this
   if (has(d.lead_with)) {
@@ -102,19 +108,19 @@ ${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-h
       `<div style="${i < a.length - 1 ? 'margin-bottom:14px;' : ''}padding-left:14px;border-left:3px solid ${p.tone === 'warn' ? C.warn : C.brand};">
 <div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:4px;">${i + 1}. ${fmt(p.title)}</div>
 <div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt(p.text)}</div></div>`).join('')}`));
-  }
+  } else if (!off.has('lead_with')) { out.push(gap('Lead with this', 'No angle found yet: research the company before the call.')); d.gaps.push('lead_with'); }
 
   // 6–9. Prose sections
-  if (has(d.person)) out.push(card(`${label(`The person${d.person.name ? ` — ${d.person.name}` : ''}`)}${para(d.person.text)}`));
-  if (has(d.company)) out.push(card(`${label('The company')}${para(d.company.text)}`));
-  if (has(d.financials) && d.financials.text) out.push(card(`${label(`Financials & ownership${d.financials.country ? ` (${d.financials.country})` : ''}`)}${para(d.financials.text)}`));
-  if (has(d.history)) out.push(card(`${label('Previous conversation')}${para(d.history.text)}`));
+  if (has(d.person)) out.push(card(`${label(`The person${d.person.name ? ` — ${d.person.name}` : ''}`)}${para(d.person.text)}`)); else if (!off.has('person')) { out.push(gap('The person', 'Nothing public found beyond the job title: check their LinkedIn profile before the call.')); d.gaps.push('person'); }
+  if (has(d.company)) out.push(card(`${label('The company')}${para(d.company.text)}`)); else if (!off.has('company')) { out.push(gap('The company', 'No company description found: check their website before the call.')); d.gaps.push('company'); }
+  if (has(d.financials) && d.financials.text) out.push(card(`${label(`Financials & ownership${d.financials.country ? ` (${d.financials.country})` : ''}`)}${para(d.financials.text)}`)); else if (!off.has('financials')) { out.push(gap('Financials & ownership', 'No public financials found.')); d.gaps.push('financials'); }
+  if (has(d.history)) out.push(card(`${label('Previous conversation')}${para(d.history.text)}`)); else if (!off.has('history')) { out.push(gap('Previous conversation', 'No previous conversation logged in Streak.')); d.gaps.push('history'); }
 
   // 9b. Network in common
   if (has(d.network)) {
     out.push(card(`${label('Network in common', C.brand)}${d.network.summary ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;line-height:1.5;">${fmt(d.network.summary)}</div>` : ''}
 ${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:6px;">• ${fmt(t)}</div>`).join('')}${d.network.link?.url ? `<div style="margin-top:10px;"><a href="${esc(d.network.link.url)}" target="_blank" rel="noopener" style="display:inline-block;background:${C.brand};color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:8px 14px;border-radius:8px;">${esc(d.network.link.label || 'See your mutual connections on LinkedIn')}</a></div>` : ''}`));
-  }
+  } else if (!off.has('network')) { out.push(gap('Network in common', 'Check your mutual connections on LinkedIn before reaching out.')); d.gaps.push('network'); }
 
   // 9c. What they posted
   if (has(d.posts)) {
@@ -123,22 +129,22 @@ ${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body}
 <div style="font-size:11px;color:${C.muted};font-weight:700;letter-spacing:.4px;margin-bottom:4px;">${esc(p.when || '')}${p.where ? ` · ${esc(p.where)}` : ''}</div>
 <div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt(p.text)}</div>
 ${p.use ? `<div style="font-size:12px;color:${C.brand};margin-top:6px;line-height:1.5;"><strong>Use it:</strong> ${fmt(p.use)}</div>` : ''}</div>`).join('')}`));
-  }
+  } else if (!off.has('posts')) { out.push(gap('What they posted recently', 'Recent posts not checked.')); d.gaps.push('posts'); }
 
   // 9d. Groups and events attended
   if (has(d.groups)) {
     out.push(card(`${label('LinkedIn groups')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.groups.map((g) =>
       `<strong>${esc(g.name)}</strong>${g.members ? ` <span style="color:${C.faint};">(${esc(g.members)} members)</span>` : ''}${g.note ? ` — ${fmt(g.note)}` : ''}`).join('<br>')}</div>`));
-  }
+  } else if (!off.has('groups')) { out.push(gap('LinkedIn groups', 'LinkedIn groups not checked.')); d.gaps.push('groups'); }
   if (has(d.events_attended)) {
     out.push(card(`${label('Events they attended or spoke at')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events_attended.map((e) =>
       `<strong>${esc(e.name)}</strong>${e.when ? ` — ${esc(e.when)}` : ''}${e.role ? ` · <span style="color:${C.brand};font-weight:700;">${esc(e.role)}</span>` : ''}${e.note ? `<br><span style="color:${C.muted};">${fmt(e.note)}</span>` : ''}`).join('<br>')}</div>`));
-  }
+  } else if (!off.has('events_attended')) { out.push(gap('Events they attended or spoke at', 'Past events not checked.')); d.gaps.push('events_attended'); }
 
   // 9e. Worth using in the call
   if (has(d.hooks)) {
     out.push(card(`${label('Worth using in the call', C.brand)}${d.hooks.map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:8px;padding-left:14px;border-left:3px solid ${C.brand};">${fmt(t)}</div>`).join('')}`, { border: C.brand }));
-  }
+  } else if (!off.has('hooks')) { out.push(gap('Worth using in the call', 'Nothing specific found yet.')); d.gaps.push('hooks'); }
 
   // 10. LinkedIn & social intelligence
   if (has(d.social) && has(d.social.rows)) {
@@ -149,24 +155,24 @@ ${p.use ? `<div style="font-size:12px;color:${C.brand};margin-top:6px;line-heigh
 <tr style="background:${C.chip};">${th('Channel')}${th('Audience')}${th('Volume / recency')}${th('Read')}</tr>
 ${d.social.rows.map((r) => `<tr><td style="padding:8px;border-bottom:1px solid ${C.line};vertical-align:top;"><strong>${esc(r.channel)}</strong></td>${td(r.audience)}${td(r.recency, r.tone === 'warn')}${td(r.read)}</tr>`).join('')}
 </table>${d.social.note ? `<div style="font-size:12px;color:#5a6c7d;line-height:1.6;margin-top:12px;">${fmt(d.social.note)}</div>` : ''}`));
-  }
+  } else if (!off.has('social')) { out.push(gap('LinkedIn & social intelligence', 'No social channels found for this company.')); d.gaps.push('social'); }
 
   // 11. Industry pulse
   if (has(d.industry)) {
     out.push(card(`${label('Industry pulse')}${d.industry.map((s, i, a) =>
       `<div style="font-size:13px;font-weight:700;color:${C.ink};margin-bottom:5px;">${fmt(s.title)}</div><div style="font-size:13px;color:${C.body};line-height:1.7;${i < a.length - 1 ? 'margin-bottom:14px;' : ''}">${fmt(s.text)}</div>`).join('')}`));
-  }
+  } else if (!off.has('industry')) { out.push(gap('Industry pulse', 'No industry notes yet.')); d.gaps.push('industry'); }
 
   // 12. Talking points
   if (has(d.talking_points)) {
     out.push(card(`${label('Suggested talking points & questions', C.brand)}<div style="font-size:13px;color:${C.body};line-height:1.9;">${d.talking_points.map((t) => `• ${fmt(t)}`).join('<br>')}</div>`));
-  }
+  } else if (!off.has('talking_points')) { out.push(gap('Suggested talking points & questions', 'No questions prepared yet.')); d.gaps.push('talking_points'); }
 
   // 13. Events
   if (has(d.events)) {
     out.push(card(`${label('Next important US events')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events.map((e) =>
       `<strong>${esc(e.name)}</strong>${e.when_where ? ` — ${esc(e.when_where)}` : ''}${e.best ? ` · <span style="color:${C.brand};font-weight:700;">best fit</span>` : ''}${e.note ? ` ${fmt(e.note)}` : ''}`).join('<br>')}</div>`));
-  }
+  } else if (!off.has('events')) { out.push(gap('Next important US events', 'No US event identified yet.')); d.gaps.push('events'); }
 
   // 14. Needs your attention
   if (has(d.attention)) {
@@ -193,7 +199,12 @@ export function renderBriefText(d = {}) {
   if (d.in_common?.best_match?.name) lines.push('', `BEST PLACED TO REACH OUT: ${d.in_common.best_match.name}`);
   if (d.in_common?.items?.length) lines.push('', 'WHAT YOU HAVE IN COMMON', ...d.in_common.items.map((t) => `- ${t}`));
   if (d.lead_with?.length) lines.push('', 'LEAD WITH THIS', ...d.lead_with.map((p, i) => `${i + 1}. ${p.title} ${p.text}`));
+  if (d.person?.text) lines.push('', `THE PERSON — ${d.person.name || ''}`, d.person.text);
+  if (d.company?.text) lines.push('', 'THE COMPANY', d.company.text);
+  if (d.history?.text) lines.push('', 'PREVIOUS CONVERSATION', d.history.text);
+  if (d.hooks?.length) lines.push('', 'WORTH USING IN THE CALL', ...d.hooks.map((t) => `- ${t}`));
   if (d.talking_points?.length) lines.push('', 'KEY QUESTIONS', ...d.talking_points.map((t) => `- ${t}`));
+  if (d.events?.length) lines.push('', 'NEXT IMPORTANT US EVENTS', ...d.events.map((e) => `- ${e.name}${e.when_where ? ` — ${e.when_where}` : ''}`));
   if (d.attention?.length) lines.push('', 'NEEDS YOUR ATTENTION', ...d.attention.map((a, i) => `${i + 1}. ${a.title} ${a.text || ''}`));
   return lines.join('\n').replace(/\*\*|(^|\s)_|_(\s|$)/g, '$1$2');
 }

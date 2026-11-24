@@ -45,5 +45,7 @@ export function applyTemplate(data, tpl) {
   if (!tpl?.disabled?.length) return data;
   const out = { ...data };
   for (const id of tpl.disabled) delete out[id];
+  // A section the client switched off stays off: the renderer must not show it as "not found".
+  out.off = [...tpl.disabled];
   return out;
 }
