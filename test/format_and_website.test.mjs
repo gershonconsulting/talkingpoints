@@ -17,12 +17,12 @@ test('the AbelZeta skeleton now fails the quality check', () => {
   const q = briefQuality(ABELZETA);
   assert.equal(q.ok, false);
   assert.ok(q.missing.includes("the lead company's website"));
-  assert.ok(q.missing.includes('ICP fit verdict'));
+  assert.ok(q.missing.includes('ICP match grade'));
   assert.ok(q.missing.some((m) => /person/.test(m)));
 });
 
 test('a full AI brief still passes', () => {
-  const q = briefQuality({ ...ABELZETA, site_read: true, header: { ...ABELZETA.header, chips: [{ label: 'ICP: STRONG FIT' }] },
+  const q = briefQuality({ ...ABELZETA, site_read: true, header: { ...ABELZETA.header, chips: [{ label: 'ICP MATCH: A' }] }, icp_grade: { letter: 'A', headline: 'Strong ICP match' },
     person: { name: 'Shigui Zhu', text: 'Leads R&D for cell therapy programmes at AbelZeta; previously at a CAR-T developer in Shanghai.' } });
   assert.deepEqual(q, { ok: true, missing: [] });
 });
