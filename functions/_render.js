@@ -6,6 +6,7 @@
 // {
 //   header:     { company, person, role, when, location, chips:[{label, tone:'brand'|'warn'}],
 //                 alert:{title, text}, source_line },
+//   icp_grade:  { letter, headline, detail, provisional, basis, criteria:[{ criterion, must, status, evidence }] },
 //   grade:      { letter, headline, detail, context },
 //   snapshot:   [{ label, value, tone? }],
 //   in_common:  { best_match:{ name, reason }, items:[ "…" ] },
@@ -28,6 +29,8 @@
 //   footer:     "…"
 // }
 // Text fields accept a small subset of inline markup: **bold** and _italic_.
+
+import { STATUS_MARK } from './_icp.js';
 
 const C = {
   brand: '#FE1B04', ink: '#12232e', body: '#33475b', muted: '#6b7785', faint: '#8a97a5',
@@ -73,6 +76,25 @@ ${has(h.alert) ? `<div style="margin-top:14px;padding:10px 12px;background:${C.w
 ${h.source_line ? `<div style="margin-top:10px;font-size:12px;color:${C.muted};">${fmt(h.source_line)}</div>` : ''}`,
       { border: C.brand }));
   }
+
+  // 1b. ICP Match Grade — the first thing after the header (Olivier, 2026-11-26: "This is the priority").
+  if (d.icp_grade && d.icp_grade.letter) {
+    const g = d.icp_grade;
+    const markColor = { met: C.ok, partial: C.warn, missed: C.brand, unknown: C.faint };
+    const crit = (g.criteria || []).map((c) =>
+      `<tr><td style="padding:6px 8px;border-bottom:1px solid ${C.line};width:22px;text-align:center;font-weight:800;color:${markColor[c.status] || C.faint};">${STATUS_MARK[c.status] || '?'}</td>
+<td style="padding:6px 8px;border-bottom:1px solid ${C.line};font-weight:700;color:${C.ink};vertical-align:top;">${esc(c.criterion)}${c.must ? ` <span style="font-size:10px;color:${C.brand};font-weight:700;">MUST</span>` : ''}</td>
+<td style="padding:6px 8px;border-bottom:1px solid ${C.line};vertical-align:top;">${fmt(c.evidence)}</td></tr>`).join('');
+    out.push(card(`${label('ICP Match Grade', C.brand)}
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr>
+<td style="width:78px;vertical-align:top;"><div style="background:${C.brand};border-radius:8px;text-align:center;padding:12px 0;"><span style="font-size:38px;font-weight:800;color:#ffffff;line-height:1;">${esc(g.letter)}${g.provisional ? '*' : ''}</span></div></td>
+<td style="padding-left:16px;vertical-align:top;">
+<div style="font-size:15px;font-weight:700;color:${C.ink};line-height:1.4;margin-bottom:8px;">${fmt(g.headline)}</div>
+${g.detail ? `<div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt(g.detail)}</div>` : ''}
+</td></tr></table>
+${crit ? `<table cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;font-size:12px;color:${C.body};margin-top:14px;">${crit}</table>` : ''}
+<div style="font-size:11px;color:${C.faint};margin-top:10px;font-style:italic;line-height:1.5;">How well this lead fits your Ideal Customer Profile. ✓ met · ◐ partly · ✗ missed · ? not verified. A+/A strong match · B partial · C weak · D outside the ICP (a missed must-have caps the grade at C−).${g.provisional ? ' * provisional: most criteria could not be verified.' : ''}${g.basis === 'verdict' ? ' Graded from the overall verdict.' : ''}</div>`, { border: C.brand }));
+  } else { out.push(gap('ICP Match Grade', 'Not graded: no Ideal Customer Profile on file for this client, or the lead could not be judged against it.', C.brand)); d.gaps.push('icp_grade'); }
 
   // 2. Social network effectiveness grade
   if (has(d.grade)) {
@@ -203,6 +225,7 @@ ${label('Sources')}<div style="font-size:12px;color:${C.body};line-height:1.9;">
 export function renderBriefText(d = {}) {
   const h = d.header || {};
   const lines = [`TALKING POINTS — ${h.company || ''}`, `${h.person || ''}${h.role ? `, ${h.role}` : ''}`];
+  if (d.icp_grade?.letter) lines.push('', `ICP MATCH GRADE: ${d.icp_grade.letter}${d.icp_grade.provisional ? '*' : ''} — ${d.icp_grade.headline || ''}`, ...(d.icp_grade.criteria || []).map((c) => `  ${STATUS_MARK[c.status] || '?'} ${c.criterion}${c.must ? ' (must)' : ''}: ${c.evidence || ''}`));
   if (h.alert?.title) lines.push(`${h.alert.title} ${h.alert.text || ''}`);
   if (d.in_common?.best_match?.name) lines.push('', `BEST PLACED TO REACH OUT: ${d.in_common.best_match.name}`);
   if (d.in_common?.items?.length) lines.push('', 'WHAT YOU HAVE IN COMMON', ...d.in_common.items.map((t) => `- ${t}`));
