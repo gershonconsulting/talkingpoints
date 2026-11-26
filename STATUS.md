@@ -9,10 +9,7 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - Fridays (every hourly run from 7 AM NY): every new lead (last 14 days) per client, researched only, never twice (send_log), to Settings + logins + client.gershon.ai report recipients.
 - Friday report: first run from 6 PM NY Friday (Saturday fallback) → report@gershonconsulting.com, number sent per client. Once per date: atomic claim row WEEKLY_REPORT_SENT:<date> + Resend Idempotency-Key tp-report-<date>.
 
-- Monday report: first run from 8 AM NY Monday (Tuesday fallback) → report@gershonconsulting.com, talking points generated per client last week with their grades; any talking point without a grade gets one first (same scale as the engine). Once per Monday (MONDAY_REPORT_SENT:<date> + key tp-monday-<date>).
-
 ## ✅ Done
-- ✅ 2026-11-26 Monday report (functions/_monday_report.js; owner preview GET /api/admin/monday-report?day=, POST resends) + every talking point has a grade: saveBrief fills a missing one with the engine's computeGrade (functions/_grade.js). Tests: `node --test test/monday_report.test.mjs`. Version not bumped (pushed via the GitHub connector; next release syncs).
 - ✅ v1.16.0 (2026-11-26) research engine: web/news/person search, social audit + computed grade, GLEIF + SEC Form D, number check, Ansana structure, strict quality gate. Tests 36/36.
 - ✅ PR #43 (2026-11-26) all automatic sends paused after the Phytokana brief.
 - v1.9.3 Friday run; Nov 6 run sent 32 talking points to 11 clients, 0 failed.
@@ -39,3 +36,4 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - CI does not run `node scripts/version.mjs check` yet (workflow edit left for Ariel).
 - v1.12.4 was pushed through the GitHub connector: VERSION, version.txt, _lib.js, app.js bumped; run `node scripts/version.mjs sync` to refresh the ?v= cache-busters and static footer text in the 6 html pages (cosmetic).
 - Phytokana talking point sent twice on 11-16 with two senders: see PR description / report (client-facing, not changed here).
+- ✅ 2026-11-26 Monday report: first run from 8 AM NY Monday (Tuesday fallback) → report@gershonconsulting.com, talking points generated per client last week with their grades; a talking point without a grade gets one first (engine scale, functions/_grade.js via saveBrief). Once per Monday (MONDAY_REPORT_SENT:<date> + key tp-monday-<date>). Owner preview GET /api/admin/monday-report?day=. Tests: test/monday_report.test.mjs. Version not bumped (pushed via the GitHub connector).
