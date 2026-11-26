@@ -8,11 +8,14 @@ import { getTemplate, applyTemplate } from './_template.js';
 import { briefQuality } from './_auto.js';
 import { AUTO_SEND_PAUSED } from './_weekly.js';
 import { hasGrade, gradeFromBrief } from './_grade.js';
+import { hasIcpGrade, icpGradeFromBrief } from './_icp.js';
 
 export async function saveBrief(env, clientId, boxKey, { company, lead_name, lead_role, stage, status, data }) {
   // Every talking point carries its Social Network Effectiveness Grade (2026-11-26): one saved without a
   // grade (Cloudflare AI talking points) gets one computed from its social table (functions/_grade.js).
   if (data && !hasGrade(data)) data = { ...data, grade: gradeFromBrief(data) };
+  // ICP Match Grade (2026-11-26): a talking point without one gets it from the ICP verdict it carries.
+  if (data && !hasIcpGrade(data)) { const g = icpGradeFromBrief(data); if (g) data = { ...data, icp_grade: g }; }
   await env.DB.prepare(
     `INSERT INTO briefs (client_id, box_key, company, lead_name, lead_role, stage, status, data, updated_at)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))

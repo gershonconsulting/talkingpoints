@@ -132,8 +132,7 @@ export function briefQuality(d = {}) {
   if (!(d.snapshot || []).length) missing.push('snapshot');
   if (!(d.hooks || []).length) missing.push('worth using in the call');
   if (d.auto && d.site_read === false) missing.push("the lead company's website");
-  const fit = (d.header?.chips || []).find((c) => /^ICP/.test(c.label));
-  if (d.auto && (!fit || /UNKNOWN/i.test(fit.label))) missing.push('ICP fit verdict');
+  if (d.auto && !d.icp_grade?.letter) missing.push('ICP match grade');
   if (d.auto && !(d.person?.text && d.person.text.trim() !== (d.header?.role || '').trim() && d.person.text.length > 60)) missing.push('the person (more than a job title)');
   // v1.16.0 engine: grade, real outside research and dated events are required.
   if (d.engine === 'research-v2') {

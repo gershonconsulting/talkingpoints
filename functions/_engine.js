@@ -8,6 +8,7 @@
 // recital of the client's own proof points — the Phytokana failure of 2026-11-25.
 
 import { verifyNumbers, searchProvider } from './_research.js';
+import { computeIcpGrade, icpChip, ICP_JSON, ICP_RULE } from './_icp.js';
 
 // Strongest Workers AI model first; the next one is used if a model fails or returns no JSON.
 export const MODELS = ['@cf/openai/gpt-oss-120b', '@cf/meta/llama-4-scout-17b-16e-instruct', '@cf/meta/llama-3.3-70b-instruct-fp8-fast'];
@@ -109,7 +110,7 @@ TODAY: ${new Date().toISOString().slice(0, 10)}
 Write the talking-points brief ${clientName}'s team reads before calling this prospect. Return ONLY this JSON:
 {"context":"<1-2 sentences: where things stand right now (stage, last exchange, what is expected from this call)>",
  "snapshot":[{"label":"Industry","value":"..."},{"label":"HQ","value":"..."},{"label":"Founded","value":"..."},{"label":"Size","value":"..."},{"label":"Funding","value":"..."},{"label":"What they sell","value":"..."},{"label":"Sells to","value":"..."},{"label":"US presence","value":"..."}],
- "icp_fit":{"verdict":"Strong fit|Possible fit|Weak fit","why":"<1-2 sentences against the ICP>"},
+ ${ICP_JSON},
  "lead_with":[{"title":"<short heading>","text":"<2-3 sentences: a SPECIFIC fact about the prospect from the research/website/conversation, and how ${clientName}'s offer answers it>"}],
  "person":"<4-6 sentences: role, background, prior companies, public talks or posts — from the person search results and website>",
  "in_common":{"best_match":{"name":"<team member or empty>","reason":"<one sentence>"},"items":["<real overlap between a team member and the lead>"]},
@@ -130,6 +131,7 @@ Rules:
 9. events must take place AFTER TODAY and be real industry conferences or trade shows (never a webinar, a payer program or an event already past).
 8. industry: exactly 2 trends — one in the prospect's home market, one in the US.
 6. attention: list real gaps (missing priority/stage data, no reply since…, duplicate records, unreadable social audiences, facts to verify).
+10. ${ICP_RULE}
 7. Use **bold** for the key fact in a sentence. English.`;
 }
 
@@ -141,8 +143,13 @@ export function assemble({ ai, research, lead, site, domain, clientName, financi
   const removed = [];
   const clean = (t) => { const r = verifyNumbers(str(t), corpusAll); removed.push(...r.removed); return r.text; };
   const g = research.grade;
-  const fit = ai.icp_fit && str(ai.icp_fit.verdict) ? ai.icp_fit : null;
-  const fitTone = fit && /strong/i.test(fit.verdict) ? 'brand' : 'warn';
+  // ICP Match Grade (2026-11-26, priority): letter computed from the criteria the AI judged.
+  const icpFit = ai.icp_fit || {};
+  const icpGrade = computeIcpGrade(arr(icpFit.criteria).map((c) => {
+    // Evidence carrying an unsourced figure is dropped — and the criterion is then not verified.
+    const e = clean(c?.evidence);
+    return { ...c, evidence: e || 'not in the material', status: str(c?.evidence) && !e ? 'unknown' : c?.status };
+  }), { verdict: str(icpFit.verdict), why: clean(icpFit.why), icpOnFile: !!str(kb) });
   const prospectCorpus = `${research.corpus}\n${site.text || ''}\n${lead.conversation || ''}\n${lead.notes || ''}`;
 
   const leadWith = arr(ai.lead_with).map((x) => ({ title: clean(x?.title), text: clean(x?.text) }))
@@ -157,6 +164,8 @@ export function assemble({ ai, research, lead, site, domain, clientName, financi
   ].filter(Boolean).join('\n');
 
   const attention = arr(ai.attention).filter((a) => a && str(a.title)).map((a) => ({ title: clean(a.title), text: clean(a.text) }));
+  if (!icpGrade) attention.unshift({ title: 'ICP match not graded', text: 'The engine could not judge the lead against the ICP — check the ICP in Settings and rebuild.' });
+  else if (icpGrade.provisional) attention.unshift({ title: 'ICP grade is provisional', text: 'Most ICP criteria could not be verified from public sources — confirm them on the call.' });
   if (g.provisional) attention.push({ title: 'Social grade is provisional', text: 'Some follower counts could not be read this run — check them on the company pages before quoting the grade.' });
   attention.push({ title: 'LinkedIn — to check before the call', text: `mutual connections, ${lead.leadName || 'the lead'}'s recent posts, groups and DM history (not readable without a signed-in LinkedIn session).` });
   if (removed.length) attention.push({ title: 'Figures removed', text: `The engine dropped ${removed.length} figure${removed.length > 1 ? 's' : ''} it could not source (${[...new Set(removed)].slice(0, 4).join(', ')}).` });
@@ -184,16 +193,16 @@ export function assemble({ ai, research, lead, site, domain, clientName, financi
       company: lead.company,
       person: lead.leadName,
       role: lead.leadRole,
-      chips: [{ label: (lead.stage || 'New lead').toUpperCase(), tone: 'brand' }, ...(fit ? [{ label: `ICP: ${String(fit.verdict).toUpperCase()}`, tone: fitTone }] : [])],
+      chips: [icpChip(icpGrade), { label: (lead.stage || 'New lead').toUpperCase(), tone: 'brand' }],
       ...(str(ai.context) ? { alert: { title: 'Where things stand.', text: clean(ai.context) } } : {}),
       source_line: [lead.leadEmail && `Email: ${lead.leadEmail}`, site.ok && `Website: ${domain}`].filter(Boolean).join(' · '),
     },
+    icp_grade: icpGrade,
     grade: { letter: g.letter + (g.provisional ? '*' : ''), headline: g.headline, detail: g.detail, context: g.provisional ? '* provisional.' : '' },
     snapshot: [
       ...splitRows(arr(ai.snapshot)).filter((s) => s && str(s.label) && str(s.value) && !/^(web\s*site|domain|url)$/i.test(str(s.label)) && !/^[—–-]$/.test(str(s.value)))
         .map((s) => ({ label: str(s.label), value: clean(s.value) })).filter((s) => s.value).slice(0, 7),
       { label: 'Website', value: site.ok ? domain : 'not found — check before the call', ...(site.ok ? {} : { tone: 'warn' }) },
-      ...(fit ? [{ label: 'ICP fit', value: `${fit.verdict}${str(fit.why) ? ` — ${clean(fit.why)}` : ''}`, ...(fitTone === 'warn' ? { tone: 'warn' } : {}) }] : []),
     ],
     lead_with: leadWith.slice(0, 4),
     person: clean(ai.person) ? { name: lead.leadName, text: clean(ai.person) } : null,
