@@ -6,6 +6,7 @@ import { splitTypoEmails } from './_email.js';
 import { planBriefEmail, briefSubject } from './_audience.js';
 import { getTemplate, applyTemplate } from './_template.js';
 import { briefQuality } from './_auto.js';
+import { AUTO_SEND_PAUSED } from './_weekly.js';
 
 export async function saveBrief(env, clientId, boxKey, { company, lead_name, lead_role, stage, status, data }) {
   await env.DB.prepare(
@@ -118,6 +119,8 @@ export async function emailBrief(env, clientRow, brief, { force = false, subject
   // to Olivier for review instead of the client team (2026-11-23). Re-checked with the current rules,
   // so briefs saved before this check are judged the same way.
   if (brief.data?.auto) {
+    // 2026-11-26 (Phytokana): while the engine is rebuilt, no AI talking point goes to a client or the team.
+    if (AUTO_SEND_PAUSED && !force) { await holdForReview(env, clientRow, { ...brief, data: { ...brief.data, quality: { ok: false, missing: ['automatic sends paused while the research engine is rebuilt'] } } }); return false; }
     const q = briefQuality(brief.data);
     if (!q.ok) { await holdForReview(env, clientRow, { ...brief, data: { ...brief.data, quality: q } }); return false; }
   }

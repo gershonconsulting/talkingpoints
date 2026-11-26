@@ -21,7 +21,7 @@ export const SAME_DAY_HOUR = 16;
 // knowledge base, missing sections). Automatic sends are held for ALL clients until the rebuilt,
 // knowledge-based talking points are in place — then they are all sent the same day. Manual sends
 // from a brief page still work.
-export const AUTO_SEND_PAUSED = false;
+export const AUTO_SEND_PAUSED = true;   // 2026-11-26: held until the rebuilt research engine (v1.16.0) is live
 
 // Safety default (review of PR #32, 2026-11-20): no same-day sends on Saturday/Sunday (New York time).
 // Leads that arrive over the weekend go out Monday from SAME_DAY_HOUR.
