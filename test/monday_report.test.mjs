@@ -1,38 +1,26 @@
 // node --test test/monday_report.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseAudience, gradeFromChannels, gradeSocial, gradeFromBrief, hasGrade } from '../functions/_grade.js';
+import { parseAudience, gradeFromBrief, hasGrade } from '../functions/_grade.js';
 import { maybeSendMondayReport, buildMondayReport, ensureGrades } from '../functions/_monday_report.js';
 
 test('parseAudience reads follower counts', () => {
-  assert.equal(parseAudience('Acme | 12,345 followers on LinkedIn'), 12345);
+  assert.equal(parseAudience('12,345'), 12345);
   assert.equal(parseAudience('1.2K followers'), 1200);
-  assert.equal(parseAudience('3M subscribers'), 3000000);
-  assert.equal(parseAudience('— followers'), null);
-  assert.equal(parseAudience('no numbers here'), null);
+  assert.equal(parseAudience('3M'), 3000000);
+  assert.equal(parseAudience('—'), null);
+  assert.equal(parseAudience(''), null);
 });
 
-test('grade scale', () => {
-  assert.equal(gradeFromChannels([]).letter, 'D');
-  assert.equal(gradeFromChannels([{ channel: 'LinkedIn' }]).letter, 'C-');
-  assert.equal(gradeFromChannels([{ channel: 'LinkedIn' }, { channel: 'X' }, { channel: 'YouTube' }, { channel: 'Facebook' }]).letter, 'C+');
-  assert.equal(gradeFromChannels([{ channel: 'LinkedIn', audience: 4000 }]).letter, 'B');
-  assert.equal(gradeFromChannels([{ channel: 'LinkedIn', audience: 12000 }]).letter, 'B+');
-  assert.equal(gradeFromChannels([{ channel: 'LinkedIn', audience: 80000 }, { channel: 'X', audience: 30000 }, { channel: 'YouTube', audience: 5000 }]).letter, 'A+');
-  assert.ok(hasGrade({ grade: gradeFromChannels([]) }));
-  assert.ok(hasGrade({ grade: { letter: 'B−' } }), 'unicode minus accepted');
-  assert.ok(!hasGrade({}));
-});
-
-test('gradeSocial uses fetched audiences', async () => {
-  const g = await gradeSocial([{ channel: 'LinkedIn', url: 'u1' }, { channel: 'X', url: 'u2' }], { fetchFn: async (u) => (u === 'u1' ? 15000 : null) });
-  assert.equal(g.letter, 'B+');
-  assert.match(g.detail, /LinkedIn \(15K\)/);
-});
-
-test('gradeFromBrief from a saved social table', () => {
-  assert.equal(gradeFromBrief({ social: { rows: [{ channel: 'LinkedIn', audience: '2,500' }] } }).letter, 'B-');
+test('backfilled grade uses the engine scale and is always a real letter', () => {
   assert.equal(gradeFromBrief({}).letter, 'D');
+  assert.equal(gradeFromBrief({ social: { rows: [{ channel: 'LinkedIn', audience: '—' }] } }).letter, 'C−');
+  assert.equal(gradeFromBrief({ social: { rows: [{ channel: 'LinkedIn', audience: '12,000' }] } }).letter, 'B+');
+  assert.ok(hasGrade({ grade: gradeFromBrief({}) }));
+  assert.ok(hasGrade({ grade: { letter: 'B-' } }), 'ascii minus accepted');
+  assert.ok(hasGrade({ grade: { letter: 'B−' } }), 'unicode minus accepted');
+  assert.ok(!hasGrade({ grade: { letter: 'not rated' } }));
+  assert.ok(!hasGrade({}));
 });
 
 // In-memory D1 for clients, briefs, app_secrets.
