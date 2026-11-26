@@ -20,7 +20,7 @@ function setup() {
     return { bind: b, ...b() };
   } };
   const prompts = [];
-  const env = { STREAK_API_KEY: 'k', DB, AI: { run: async (_m, { messages }) => { prompts.push(messages[0].content); return { response: JSON.stringify({
+  const env = { STREAK_API_KEY: 'k', DB, AI: { run: async (m, a) => { const text = a.input || a.messages.at(-1).content; if (/In 3 to 6 words/.test(text)) return { response: 'clinical assays' }; prompts.push(text); return { response: JSON.stringify({
     company_name: 'Bio Inc', person: { name: 'Jane Doe', role: '', text: 'Head of ops.' }, snapshot: [{ label: 'Industry', value: 'Biotech' }],
     company: 'Bio Inc makes assays.', icp_fit: { verdict: 'Strong fit', why: 'US pharma.' }, lead_with: [{ title: 'Automation', text: 'They scale.' }],
     hooks: ['New site in Boston'], talking_points: ['How do you scale?'], attention: [] }) }; } } };
@@ -44,13 +44,15 @@ test('builds a ready talking point in the brief format from Streak + website + I
   assert.equal(brief.data.header.company, 'Bio Inc');
   assert.equal(brief.data.header.person, 'Jane Doe');
   assert.equal(brief.data.header.role, 'VP Operations');
-  assert.equal(brief.data.history.text, 'Replied yes');
   assert.ok(brief.data.auto);
+  assert.equal(brief.data.engine, 'research-v2');
+  assert.ok(brief.data.grade.letter);                  // grade is always there (D when nothing is found)
   assert.ok(!brief.data.attention.some((a) => a.title === 'Quick talking point'));
   assert.match(prompts[0], /US pharma, 200\+ staff/);   // client ICP
   assert.match(prompts[0], /Assays for pharma/);        // lead website
-  assert.match(prompts[0], /Stage: Engaged/);           // Streak record
-  assert.match(prompts[0], /^You prepare a talking-points brief for Valos's team/);
+  assert.match(prompts[0], /CRM STAGE: Engaged/);       // Streak record
+  assert.match(prompts[0], /Replied yes/);              // Streak notes
+  assert.match(prompts[0], /=== RESEARCH/);             // research pass fed to the writer
   assert.ok(renderBrief(brief.data).length > 500);
 });
 
@@ -77,7 +79,7 @@ test('feeds the Streak conversation and the client knowledge base to the engine,
   };
   const brief = await buildAutoBrief(env, client, 'BOX');
   assert.match(prompts[0], /She asked for a one-pager/);
-  assert.match(prompts[0], /KNOWLEDGE BASE/);
+  assert.match(prompts[0], /knowledge base/);
   assert.match(prompts[0], /Acme sells lab robots/);
   assert.equal(typeof brief.data.quality.ok, 'boolean');
   assert.equal(brief.data.quality.ok, false); // mock AI returns only 1 angle and 1 question

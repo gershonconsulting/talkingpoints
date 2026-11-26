@@ -1,0 +1,42 @@
+name: Engine test — build talking points for real leads (nothing saved, nothing sent to clients)
+on:
+  push:
+    branches: [engine-test]
+    paths: ['engine-test/request.json']
+
+# Reads engine-test/request.json ([{ client, box_key, email }]), calls /api/cron/engine-test for each lead
+# and commits the answers to engine-test/result-<n>.json on the same branch.
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build each talking point
+        run: |
+          TOKEN=$(curl -sf -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=talkingpoints.gershon.ai" | python3 -c "import json,sys;print(json.load(sys.stdin)['value'])")
+          echo "::add-mask::$TOKEN"
+          python3 - "$TOKEN" <<'PY'
+          import json, sys, urllib.request
+          token = sys.argv[1]
+          reqs = json.load(open('engine-test/request.json'))
+          for i, r in enumerate(reqs):
+              req = urllib.request.Request('https://talkingpoints.gershon.ai/api/cron/engine-test', data=json.dumps(r).encode(),
+                  headers={'Authorization': f'Bearer {token}', 'content-type': 'application/json', 'user-agent': 'engine-test'}, method='POST')
+              try:
+                  body = urllib.request.urlopen(req, timeout=300).read().decode()
+              except urllib.error.HTTPError as e:
+                  body = json.dumps({'error': e.code, 'body': e.read().decode()[:2000]})
+              except Exception as e:
+                  body = json.dumps({'error': str(e)})
+              open(f'engine-test/result-{i}.json', 'w').write(body)
+              print(r.get('box_key'), body[:300])
+          PY
+      - name: Commit results
+        run: |
+          git config user.name "engine-test" && git config user.email "talkingpoints@gershon.ai"
+          git add engine-test/result-*.json && git commit -m "engine-test results" && git push
