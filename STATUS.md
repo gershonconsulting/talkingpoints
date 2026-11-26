@@ -1,5 +1,5 @@
 # Talking Points (talkingpoints.gershon.ai) — status
-Last updated: 2026-11-26 · v1.16.0 (research engine rebuild) · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
+Last updated: 2026-11-26 · v1.16.1 (website search + identity check) · deploy: push/merge to main → .github/workflows/deploy.yml (Pages project gershon-talkingpoints)
 Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy), `node scripts/version.mjs check` must pass.
 
 ## Runs (hourly GitHub cron → POST /api/cron/run)
@@ -10,6 +10,7 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - Friday report: first run from 6 PM NY Friday (Saturday fallback) → report@gershonconsulting.com, number sent per client. Once per date: atomic claim row WEEKLY_REPORT_SENT:<date> + Resend Idempotency-Key tp-report-<date>.
 
 ## ✅ Done
+- ✅ v1.16.1 (2026-11-26) Kingdee International Holdings brief (Nov 24, "one of the worst"): lead used a Gmail, kingdee.com was rejected (page lacks "Kingdee International"), no search fallback. Now: functions/_website.js — guessed site accepted when its domain + page carry the company's distinctive word; web search for the company's own site when Streak gives nothing; "Who is this person? Not verified" first in Needs your attention for personal-mailbox leads with no public tie to the company. Tests: `node --test test/website_identity.test.mjs` 7/7. VERSION not bumped (pushed via the GitHub connector).
 - ✅ v1.16.0 (2026-11-26) research engine: web/news/person search, social audit + computed grade, GLEIF + SEC Form D, number check, Ansana structure, strict quality gate. Tests 36/36.
 - ✅ PR #43 (2026-11-26) all automatic sends paused after the Phytokana brief.
 - v1.9.3 Friday run; Nov 6 run sent 32 talking points to 11 clients, 0 failed.
@@ -26,6 +27,7 @@ Release: edit VERSION, run `node scripts/version.mjs sync` (updates every copy),
 - v1.12.6 (2026-11-20) wording: titles + footer "Talking Points by Gershon.AI · v<version>"; client emails/briefs untouched.
 
 ## ❌ Open
+- ❌ Kingdee brief: rebuild in Admin with the v1.16.1 engine and check it live (needs the deploy of this change).
 - ❌ v1.16.0 research engine: live check on real leads (engine-test workflow) then Olivier's OK to set AUTO_SEND_PAUSED = false (functions/_weekly.js). Until then no automatic talking point goes to any client or to Julien.
 - ❌ Search quality: keyless DuckDuckGo/Bing from Cloudflare can be throttled; a TAVILY_API_KEY (or BRAVE_API_KEY) secret makes research reliable.
 - v1.13.0 same-day Cloudflare AI talking points: PR #32 awaiting Olivier's OK (changes what clients receive). Merged with main 2026-11-20 (v1.12.5 test mode + v1.12.6 naming kept). Safety: no Sat/Sun sends; first run only leads created in the last 24h (no backlog).
