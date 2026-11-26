@@ -4,6 +4,7 @@ import { googleAccessToken, listEvents } from '../../_google.js';
 import { fridayRun, sameDayStart, sameDayCutoff, sameDayEligible } from '../../_weekly.js';
 import { buildAutoBrief } from '../../_auto.js';
 import { maybeSendFridayReport } from '../../_friday_report.js';
+import { maybeSendMondayReport } from '../../_monday_report.js';
 
 // POST /api/cron/run  (Authorization: Bearer <INGEST_TOKEN>) — called every hour by
 // .github/workflows/cron.yml. For every client:
@@ -30,7 +31,11 @@ export async function onRequestPost({ request, env }) {
   //    talking points sent per client (functions/_friday_report.js).
   let friday_report = null;
   try { friday_report = await maybeSendFridayReport(env, report); } catch (e) { friday_report = { error: e.message || String(e) }; }
-  return json({ ok: true, at: new Date().toISOString(), report, friday_report });
+  // 5. Mondays from 8 AM NY: talking points generated per client last week, each with its grade
+  //    (functions/_monday_report.js). Grades missing on any saved talking point are filled first.
+  let monday_report = null;
+  try { monday_report = await maybeSendMondayReport(env); } catch (e) { monday_report = { error: e.message || String(e) }; }
+  return json({ ok: true, at: new Date().toISOString(), report, friday_report, monday_report });
 }
 
 // Cloudflare AI talking points built per hourly run (all clients together); the rest wait for the next hour.
