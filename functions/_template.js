@@ -2,6 +2,7 @@
 // `source` says where each section's content comes from. `required` sections cannot be switched off.
 export const SECTIONS = [
   { id: 'header',         label: 'Header',                            source: 'Streak lead',                    desc: 'Company, person and role, meeting time, alerts.', required: true },
+  { id: 'icp_grade',      label: 'ICP match grade',                   source: 'Your ICP + lead research',       desc: 'A+ to D: how well the lead fits your Ideal Customer Profile, criterion by criterion.', required: true },
   { id: 'grade',          label: 'Social network effectiveness grade', source: 'Public web',                     desc: 'A+ to D grade of the company on social networks.' },
   { id: 'snapshot',       label: 'Snapshot',                          source: 'Streak lead + public web',       desc: 'Key facts at a glance: size, HQ, stage, website.' },
   { id: 'in_common',      label: 'What you have in common',           source: 'Your LinkedIn profile + lead',   desc: 'Best person on your side to reach out, and the overlaps.' },
