@@ -10,8 +10,9 @@ import { saveBrief, samePipeline, recipients } from './_brief.js';
 import { lookupFinancials } from './_financials.js';
 import { getTemplate } from './_template.js';
 import { parseInput, readWebsite } from './_quick.js';
-import { research } from './_research.js';
+import { research, webSearch } from './_research.js';
 import { aiJson, prompt, SYSTEM, assemble, textOf } from './_engine.js';
+import { namesCompany, searchOfficialSite, identityCheck } from './_website.js';
 
 export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {}) {
   const lead = await loadLead(await clientStreakKey(env, clientRow.id), boxKey);
@@ -45,6 +46,10 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
   data.site_read = !!site.ok;
   data.website_from = how;
   if (errors?.length && !model) data.attention.unshift({ title: 'AI engine failed', text: errors.join(' | ').slice(0, 300) });
+  // v1.16.1 (Kingdee, 2026-11-24): personal mailbox and nothing public tying the person to the company → say so first.
+  const freeMail = !!lead.leadEmail && /personal mailbox/.test(parseInput(lead.leadEmail).error || '');
+  const who = identityCheck({ leadName: lead.leadName, company: lead.company, freeMail, personResults: found.person });
+  if (who) data.attention.unshift(who);
   data.quality = briefQuality(data);
   data.footer = `Gershon Consulting · Talking Points · prepared ${date}`;
 
@@ -66,12 +71,13 @@ async function industryOf(env, lead, site) {
 // The AbelZeta brief went out with "Website: AbelZeta" because the lead had no work email: the engine
 // then had no company facts at all. Sources, in order: a website field on the Streak box, every contact's
 // work email, web addresses / emails in the Streak conversation and notes (never the client's own or
-// Gershon's), then the company name as a .com (kept only if the page names the company).
+// Gershon's), then the company name as a .com (kept only if the page names the company), then (v1.16.1)
+// a web search for the company's own site.
 const OWN = ['gershonconsulting.com', 'gershon.ai', 'gershoncrm.com', 'linkedin.com', 'streak.com', 'google.com', 'calendly.com', 'zoom.us', 'youcanbook.me', 'lnkd.in'];
 const NAME_NOISE = /\b(inc|llc|ltd|gmbh|sa|sas|ag|co|corp|corporation|company|group|holdings?|plc|bv|nv|srl|spa|limited|the)\b\.?/gi;
 
 export function companySlugs(name = '') {
-  const clean = String(name).split(/\s+[-–—|/(]\s*|\s*\(/)[0].replace(NAME_NOISE, ' ').normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  const clean = String(name).split(/\s+[-–—|/(]\s*|\s*\(/)[0].replace(NAME_NOISE, ' ').normalize('NFKD').replace(/[̀-ͯ]/g, '');
   const words = clean.toLowerCase().replace(/[^a-z0-9\s&]/g, '').split(/\s+/).filter(Boolean);
   if (!words.length) return [];
   const joined = words.join('').replace(/&/g, '');
@@ -91,11 +97,10 @@ export function websiteCandidates(lead = {}, clientDomains = []) {
   return out;
 }
 
-// A guessed site must name the company, or it is someone else's site.
-export function siteNamesCompany(site, company) {
-  const norm = (x) => String(x || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g, '');
-  const key = norm(String(company).split(/\s+[-–—|/(]/)[0].replace(NAME_NOISE, ' '));
-  return !!key && key.length >= 3 && norm(`${site.name} ${site.text.slice(0, 5000)}`).includes(key);
+// A guessed site must name the company, or it is someone else's site. v1.16.1: the site's own domain
+// carrying the company's distinctive word also counts (kingdee.com for "Kingdee International Holdings").
+export function siteNamesCompany(site, company, domain = '') {
+  return namesCompany(site, company, domain);
 }
 
 async function resolveWebsite(env, lead, clientRow) {
@@ -105,7 +110,13 @@ async function resolveWebsite(env, lead, clientRow) {
   const clientDomains = [...String(clientRow.email_domains || '').split(/[\s,;]+/), ...team.map((e) => e.split('@')[1])].filter(Boolean);
   for (const c of websiteCandidates(lead, clientDomains).slice(0, 6)) {
     const site = await readWebsite(c.target);
-    if (site.ok && (!c.target.guessed || siteNamesCompany(site, lead.company))) return { target: c.target, site, how: c.how };
+    if (site.ok && (!c.target.guessed || siteNamesCompany(site, lead.company, c.target.domain))) return { target: c.target, site, how: c.how };
+  }
+  // v1.16.1: nothing in Streak and no guess worked → search the web for the company's own site.
+  const hit = await searchOfficialSite((q, o) => webSearch(env, q, o), lead.company).catch(() => null);
+  if (hit && !clientDomains.includes(hit.domain)) {
+    const site = await readWebsite(hit);
+    if (site.ok && namesCompany(site, lead.company, hit.domain)) return { target: hit, site, how: 'web search' };
   }
   return { target: { kind: 'website', domain: 'not found', url: '' }, site: { ok: false, pages: [], social: [], text: '' }, how: '' };
 }
