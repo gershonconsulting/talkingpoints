@@ -104,6 +104,8 @@ ${String(icp || '(none)').slice(0, 3000)}
 === ${clientName.toUpperCase()} TEAM ===
 ${teamText}
 
+TODAY: ${new Date().toISOString().slice(0, 10)}
+
 Write the talking-points brief ${clientName}'s team reads before calling this prospect. Return ONLY this JSON:
 {"context":"<1-2 sentences: where things stand right now (stage, last exchange, what is expected from this call)>",
  "snapshot":[{"label":"Industry","value":"..."},{"label":"HQ","value":"..."},{"label":"Founded","value":"..."},{"label":"Size","value":"..."},{"label":"Funding","value":"..."},{"label":"What they sell","value":"..."},{"label":"Sells to","value":"..."},{"label":"US presence","value":"..."}],
@@ -125,6 +127,7 @@ Rules:
 3. lead_with: exactly 3 angles, each built on a DIFFERENT fact about the prospect (a product, a raise, a market move, a hire, a statement in the conversation…). Do NOT restate ${clientName}'s generic proof points; mention them only as the answer to the prospect fact.
 4. talking_points: 7 to 9 items, each naming something specific to this prospect. No generic discovery questions.
 5. events: 2-4 US events relevant to the prospect's sector. Prefer the US EVENTS SEARCH (from_search true, its dates). If none fit, name only famous recurring US events you are certain exist (e.g. for food: IFT FIRST, Natural Products Expo West; for medtech: AAMI eXchange, AORN Global Surgical Conference), with usual month and city and from_search false. Omit a field (Founded, Size…) in the snapshot when unknown.
+9. events must take place AFTER TODAY and be real industry conferences or trade shows (never a webinar, a payer program or an event already past).
 8. industry: exactly 2 trends — one in the prospect's home market, one in the US.
 6. attention: list real gaps (missing priority/stage data, no reply since…, duplicate records, unreadable social audiences, facts to verify).
 7. Use **bold** for the key fact in a sentence. English.`;

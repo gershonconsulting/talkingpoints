@@ -259,7 +259,7 @@ export async function research(env, { company, person, role, domain, siteSocial 
   const events = industryHint ? (await Promise.all([
     webSearch(env, q(`${industryHint} conference 2027 United States`), { n: 8 }),
     webSearch(env, q(`${industryHint} trade show 2027 USA dates`), { n: 8 }),
-  ])).flat().filter((r, i, a) => r.url && /20(26|27)/.test(`${r.title} ${r.snippet}`) && a.findIndex((x) => x.url === r.url) === i) : [];
+  ])).flat().filter((r, i, a) => r.url && /20(27|28)|2026/.test(`${r.title} ${r.snippet}`) && /conference|expo|summit|congress|trade show|annual meeting|convention/i.test(`${r.title} ${r.snippet}`) && a.findIndex((x) => x.url === r.url) === i) : [];
   const r = {
     provider: searchProvider(env),
     about: keep(about).filter((x) => !own(x.url) || about.length < 3),
