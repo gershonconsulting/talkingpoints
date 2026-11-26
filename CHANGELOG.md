@@ -3,6 +3,9 @@
 - Key added by Olivier in Cloudflare → gershon-talkingpoints → Settings → Variables and secrets (Secret, Production).
 - Tests: test/openai.test.mjs (66 tests total).
 
+## 1.17.1 — 2026-11-26
+- Events follow the client's market: a Canada-focused ICP (Altavia) gets Canadian trade shows and a Canada events search; US clients unchanged. Card title "Next important Canada events". Cause: Altavia / Kawartha Dairy / Lou Russo talking point (graded D by Olivier) listed NRF/FMI then Anaheim/NY/Chicago shows for an Ontario dairy. Tests: test/events_market.test.mjs.
+
 ## 1.16.1 — 2026-11-26
 - Live engine test on Phytokana and Ansana: search results that do not name the company are dropped (keyless Bing returned Microsoft pages as "news"); snapshot rows split when the model collapses them; SEC Form D lookup retries with the first word and reports its status; 2 events searches (conference / trade show 2027) keeping only dated results; industry pulse = home market + US; research diagnostics in research_stats.
 
