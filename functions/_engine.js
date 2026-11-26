@@ -9,6 +9,7 @@
 
 import { verifyNumbers, searchProvider } from './_research.js';
 import { computeIcpGrade, icpChip, ICP_JSON, ICP_RULE } from './_icp.js';
+import { hasOpenAI, openaiText } from './_openai.js';
 
 // Strongest Workers AI model first; the next one is used if a model fails or returns no JSON.
 export const MODELS = ['@cf/openai/gpt-oss-120b', '@cf/meta/llama-4-scout-17b-16e-instruct', '@cf/meta/llama-3.3-70b-instruct-fp8-fast'];
@@ -40,8 +41,17 @@ export function firstJson(text) {
   return null;
 }
 
-export async function aiJson(env, system, prompt) {
+export async function aiJson(env, system, prompt, openai = openaiText) {
   const errors = [];
+  // OpenAI first when the OPENAI_API_KEY secret is set (v1.17.0); Workers AI stays as the fallback.
+  if (hasOpenAI(env)) {
+    try {
+      const { text, model } = await openai(env, system, prompt, { maxTokens: 6000 });
+      const j = firstJson(text);
+      if (j && (j.lead_with || j.company)) return { json: j, model };
+      errors.push(`${model}: no JSON`);
+    } catch (e) { errors.push(...(e.errors || [String(e.message || e)])); }
+  }
   for (const model of MODELS) {
     try {
       const out = /gpt-oss/.test(model)

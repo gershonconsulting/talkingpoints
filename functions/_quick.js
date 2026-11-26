@@ -1,3 +1,4 @@
+import { hasOpenAI, openaiText } from './_openai.js';
 // Quick talking point (v1.10.0, 2026-11-12): built on the fly from a website or a professional email,
 // with Cloudflare Workers AI. It reads the company's public website (home + a few standard pages),
 // then the AI writes the brief against the client's company, ICP and team.
@@ -155,7 +156,11 @@ Return ONLY JSON:
  "talking_points":["<question or point>"],
  "attention":[{"title":"<missing data or risk>","text":"<what to check before the call>"}]}`;
 
-  const out = await env.AI.run(MODEL, { messages: [{ role: 'user', content: prompt }], max_tokens: 3500, temperature: 0.2 });
+  let out = null;
+  if (hasOpenAI(env)) {
+    try { out = { response: (await openaiText(env, '', prompt, { maxTokens: 3500 })).text }; } catch { out = null; }
+  }
+  if (!out) out = await env.AI.run(MODEL, { messages: [{ role: 'user', content: prompt }], max_tokens: 3500, temperature: 0.2 });
   const raw = typeof out === 'string' ? out : out?.response ?? JSON.stringify(out);
   let ai = {};
   if (raw && typeof raw === 'object') ai = raw;

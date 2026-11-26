@@ -1,3 +1,8 @@
+## 1.17.0 — 2026-11-26
+- OpenAI writer (functions/_openai.js): when the OPENAI_API_KEY secret is set on the Pages project, talking points (engine + quick talking points) are written by OpenAI first (gpt-5, then gpt-4.1; override with the OPENAI_MODEL variable). Workers AI stays as the automatic fallback if OpenAI fails or the key is removed. The model used is recorded as openai/<model>.
+- Key added by Olivier in Cloudflare → gershon-talkingpoints → Settings → Variables and secrets (Secret, Production).
+- Tests: test/openai.test.mjs (66 tests total).
+
 ## 1.16.1 — 2026-11-26
 - Live engine test on Phytokana and Ansana: search results that do not name the company are dropped (keyless Bing returned Microsoft pages as "news"); snapshot rows split when the model collapses them; SEC Form D lookup retries with the first word and reports its status; 2 events searches (conference / trade show 2027) keeping only dated results; industry pulse = home market + US; research diagnostics in research_stats.
 
