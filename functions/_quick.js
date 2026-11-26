@@ -4,6 +4,8 @@
 // Quick talking points are labelled as such and kept apart from the researched Streak briefs:
 // they never appear in the Leads list, the daily run or the Friday run.
 
+import { computeIcpGrade, icpChip, ICP_JSON, ICP_RULE } from './_icp.js';
+
 const MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
 
 // Free / personal mailboxes: no company website behind them.
@@ -128,7 +130,7 @@ ${clientName.toUpperCase()} TEAM
 ${teamText}
 
 Rules: never invent facts, numbers, clients, people or news. Use only what is above. If something is unknown, leave it out
-or say it is unknown. Judge honestly whether the prospect fits the ICP. "Lead with this" ties what ${clientName} sells to
+or say it is unknown. Judge honestly whether the prospect fits the ICP: ${ICP_RULE} "Lead with this" ties what ${clientName} sells to
 what this prospect does: give EXACTLY 3 angles, each naming a concrete capability, number or proof point from the
 ${clientName} knowledge base (not generic phrases) and the specific prospect need it answers.
 If there is a conversation, start from it: what the prospect asked or said, and the next step it calls for.
@@ -143,7 +145,7 @@ Return ONLY JSON:
  "person":{"name":"<name or empty>","role":"<role if found on the website, else empty>","text":"<what we know about this person, or empty>"},
  "snapshot":[{"label":"<e.g. Industry, HQ, Size, Offer, Markets>","value":"<short>"}],
  "company":"<3-5 sentences: what the company does, for whom, where>",
- "icp_fit":{"verdict":"Strong fit|Possible fit|Weak fit|Unknown","why":"<one or two sentences>"},
+ ${ICP_JSON},
  "in_common":{"best_match":{"name":"<team member or empty>","reason":"<one sentence>"},"items":["<real overlap>"]},
  "lead_with":[{"title":"<short heading>","text":"<1-3 sentences>"}],
  "hooks":["<fact from the website or conversation worth dropping into the call>"],
@@ -164,8 +166,7 @@ Return ONLY JSON:
   const companyName = str(ai.company_name) || site.name || target.domain;
   const personName = str(ai.person?.name) || target.personGuess || '';
   const role = str(ai.person?.role);
-  const fit = ai.icp_fit && str(ai.icp_fit.verdict) ? ai.icp_fit : null;
-  const fitTone = fit && /strong/i.test(fit.verdict) ? 'brand' : 'warn';
+  const icpGrade = icp ? computeIcpGrade(arr(ai.icp_fit?.criteria), { verdict: str(ai.icp_fit?.verdict), why: str(ai.icp_fit?.why) }) : null;
 
   const attention = arr(ai.attention).filter((a) => a && str(a.title));
   if (!site.ok) attention.unshift({ title: 'Website could not be read', text: target.url ? `Nothing could be read from ${target.domain}. Check the address, or research the company before the call.` : 'No company website was found for this lead (no work email, no website field, no link in Streak). Add it in Streak.' });
@@ -179,16 +180,16 @@ Return ONLY JSON:
       role,
       when: `Quick talking point · ${today()}`,
       chips: [
+        icpChip(icpGrade),
         { label: 'QUICK — AI FROM ' + (target.kind === 'email' ? 'EMAIL' : 'WEBSITE'), tone: 'warn' },
-        ...(fit ? [{ label: `ICP: ${String(fit.verdict).toUpperCase()}`, tone: fitTone }] : []),
       ],
       source_line: !site.ok ? 'Website: not found' : target.kind === 'email' ? `Email: ${target.email} · Website: ${target.domain}` : `Website: ${target.domain}`,
     },
+    icp_grade: icpGrade,
     snapshot: [
       // The AI may add its own "Website" row: one Website line only, the real address (2026-11-23).
       ...arr(ai.snapshot).filter((s) => s && str(s.label) && str(s.value) && !/^(web\s*site|domain|url)$/i.test(str(s.label))).slice(0, 6),
       { label: 'Website', value: site.ok ? target.domain : 'not found — check before the call', ...(site.ok ? {} : { tone: 'warn' }) },
-      ...(fit ? [{ label: 'ICP fit', value: `${fit.verdict}${str(fit.why) ? ` — ${str(fit.why)}` : ''}`, tone: fitTone === 'brand' ? undefined : 'warn' }] : []),
     ],
     in_common: ai.in_common?.best_match?.name || arr(ai.in_common?.items).length ? ai.in_common : null,
     lead_with: arr(ai.lead_with).filter((x) => x && str(x.title)),
