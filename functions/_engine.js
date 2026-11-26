@@ -55,6 +55,13 @@ export async function aiJson(env, system, prompt) {
 }
 
 const arr = (x) => (Array.isArray(x) ? x : []);
+// The model sometimes returns the label template as one row ("Industry|HQ|…" / "Food|Calgary|…").
+export function splitRows(rows) {
+  return rows.flatMap((r) => {
+    const l = String(r?.label || '').split('|'), v = String(r?.value || '').split('|');
+    return l.length > 1 && l.length === v.length ? l.map((x, i) => ({ label: x.trim(), value: v[i].trim() })) : [r];
+  });
+}
 const str = (x) => (typeof x === 'string' ? x.trim() : '');
 
 // Does this text talk about the prospect (a distinctive word from the research or website that is not
@@ -99,7 +106,7 @@ ${teamText}
 
 Write the talking-points brief ${clientName}'s team reads before calling this prospect. Return ONLY this JSON:
 {"context":"<1-2 sentences: where things stand right now (stage, last exchange, what is expected from this call)>",
- "snapshot":[{"label":"Industry|HQ|Founded|Size|Funding|What they sell|Sells to|US presence","value":"<short, sourced>"}],
+ "snapshot":[{"label":"Industry","value":"..."},{"label":"HQ","value":"..."},{"label":"Founded","value":"..."},{"label":"Size","value":"..."},{"label":"Funding","value":"..."},{"label":"What they sell","value":"..."},{"label":"Sells to","value":"..."},{"label":"US presence","value":"..."}],
  "icp_fit":{"verdict":"Strong fit|Possible fit|Weak fit","why":"<1-2 sentences against the ICP>"},
  "lead_with":[{"title":"<short heading>","text":"<2-3 sentences: a SPECIFIC fact about the prospect from the research/website/conversation, and how ${clientName}'s offer answers it>"}],
  "person":"<4-6 sentences: role, background, prior companies, public talks or posts — from the person search results and website>",
@@ -117,7 +124,8 @@ Rules:
 2. Every number you write must appear in the material above. Never compute market sizes, ROI or revenue estimates.
 3. lead_with: exactly 3 angles, each built on a DIFFERENT fact about the prospect (a product, a raise, a market move, a hire, a statement in the conversation…). Do NOT restate ${clientName}'s generic proof points; mention them only as the answer to the prospect fact.
 4. talking_points: 7 to 9 items, each naming something specific to this prospect. No generic discovery questions.
-5. events: 2-4 US events relevant to the prospect's sector. Prefer the US EVENTS SEARCH (from_search true, its dates). If none fit, name well-known recurring US events of the sector with their usual month and city and from_search false.
+5. events: 2-4 US events relevant to the prospect's sector. Prefer the US EVENTS SEARCH (from_search true, its dates). If none fit, name only famous recurring US events you are certain exist (e.g. for food: IFT FIRST, Natural Products Expo West; for medtech: AAMI eXchange, AORN Global Surgical Conference), with usual month and city and from_search false. Omit a field (Founded, Size…) in the snapshot when unknown.
+8. industry: exactly 2 trends — one in the prospect's home market, one in the US.
 6. attention: list real gaps (missing priority/stage data, no reply since…, duplicate records, unreadable social audiences, facts to verify).
 7. Use **bold** for the key fact in a sentence. English.`;
 }
@@ -179,7 +187,7 @@ export function assemble({ ai, research, lead, site, domain, clientName, financi
     },
     grade: { letter: g.letter + (g.provisional ? '*' : ''), headline: g.headline, detail: g.detail, context: g.provisional ? '* provisional.' : '' },
     snapshot: [
-      ...arr(ai.snapshot).filter((s) => s && str(s.label) && str(s.value) && !/^(web\s*site|domain|url)$/i.test(str(s.label)))
+      ...splitRows(arr(ai.snapshot)).filter((s) => s && str(s.label) && str(s.value) && !/^(web\s*site|domain|url)$/i.test(str(s.label)) && !/^[—–-]$/.test(str(s.value)))
         .map((s) => ({ label: str(s.label), value: clean(s.value) })).filter((s) => s.value).slice(0, 7),
       { label: 'Website', value: site.ok ? domain : 'not found — check before the call', ...(site.ok ? {} : { tone: 'warn' }) },
       ...(fit ? [{ label: 'ICP fit', value: `${fit.verdict}${str(fit.why) ? ` — ${clean(fit.why)}` : ''}`, ...(fitTone === 'warn' ? { tone: 'warn' } : {}) }] : []),
@@ -202,7 +210,7 @@ export function assemble({ ai, research, lead, site, domain, clientName, financi
     events,
     attention,
     sources,
-    research_stats: { facts: research.facts, news: research.news.length, provider: research.provider, model, removed: [...new Set(removed)] },
+    research_stats: { facts: research.facts, news: research.news.length, events_found: research.events.length, provider: research.provider, model, removed: [...new Set(removed)], ...(research.diagnostics || {}) },
   };
 }
 

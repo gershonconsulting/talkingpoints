@@ -129,3 +129,15 @@ test('the Phytokana-style brief (no outside research, generic angles, no events)
   assert.equal(q.ok, false);
   for (const m of ['lead with this', 'outside research', 'next US events', 'industry pulse']) assert.ok(q.missing.some((x) => x.includes(m)), m);
 });
+
+test('unrelated search results are dropped (Bing "Microsoft home page" for Phytokana)', async () => {
+  const { mentions } = await import('../functions/_research.js');
+  assert.equal(mentions('Microsoft - Official Home Page', 'Phytokana Ingredients'), false);
+  assert.equal(mentions('Phytokana files Form D', 'Phytokana Ingredients Inc.'), true);
+  assert.equal(mentions('Ansana raises seed round', 'Ansana'), true);
+});
+
+test('a collapsed snapshot row is split back into rows', async () => {
+  const { splitRows } = await import('../functions/_engine.js');
+  assert.deepEqual(splitRows([{ label: 'Industry|HQ', value: 'Food|Calgary' }]), [{ label: 'Industry', value: 'Food' }, { label: 'HQ', value: 'Calgary' }]);
+});

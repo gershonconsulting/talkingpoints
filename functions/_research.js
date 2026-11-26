@@ -211,8 +211,15 @@ export async function gleif(company) {
 // SEC EDGAR full-text search: Form D = private raise reported to the SEC (any country).
 export async function secFormD(company) {
   const name = String(company).split(/\s+[-–—|(]/)[0].trim();
-  const j = await fetchJson(`https://efts.sec.gov/LATEST/search-index?q=${encodeURIComponent(`"${name}"`)}&forms=D,D/A`, { headers: { 'user-agent': 'Gershon Consulting talkingpoints@gershon.ai' } });
-  const hits = (j?.hits?.hits || []).map((h) => h._source).filter(Boolean);
+  const ua = { 'user-agent': 'Gershon Consulting talkingpoints@gershon.ai', accept: 'application/json' };
+  let hits = [];
+  for (const term of [`"${name}"`, name.split(/\s+/)[0]]) {
+    const res = await fetch(`https://efts.sec.gov/LATEST/search-index?q=${encodeURIComponent(term)}&forms=D,D/A`, { headers: ua, signal: AbortSignal.timeout(8000) }).catch((e) => { throw new Error(`sec fetch: ${e.message}`); });
+    if (!res.ok) throw new Error(`sec http ${res.status}`);
+    const j = await res.json();
+    hits = (j?.hits?.hits || []).map((h) => h._source).filter((x) => x && mentions((x.display_names || []).join(' '), name));
+    if (hits.length) break;
+  }
   if (!hits.length) return null;
   const latest = hits.sort((a, b) => String(b.file_date).localeCompare(String(a.file_date)))[0];
   const cik = String(latest.ciks?.[0] || '').replace(/^0+/, '');
@@ -236,23 +243,30 @@ export async function secFormD(company) {
 export async function research(env, { company, person, role, domain, siteSocial = [], industryHint = '' }) {
   const q = (s) => s.replace(/\s+/g, ' ').trim();
   const name = String(company || '').split(/\s+[-–—|(]/)[0].trim();
+  let formDErr = '';
   const [about, news, who, social, entity, formD] = await Promise.all([
     webSearch(env, q(`"${name}" ${domain || ''} company`), { n: 6 }),
     webSearch(env, q(`"${name}" news`), { news: true, n: 6 }),
     person ? webSearch(env, q(`"${person}" ${name} ${role || ''}`), { n: 6 }) : Promise.resolve([]),
     socialAudit(env, name, siteSocial),
     gleif(name).catch(() => null),
-    secFormD(name).catch(() => null),
+    secFormD(name).catch((e) => { formDErr = String(e.message || e); return null; }),
   ]);
   const own = (u) => domain && String(u).includes(domain);
-  const keep = (list) => list.filter((r) => r.url && (r.snippet || r.title));
-  const events = industryHint ? await webSearch(env, q(`${industryHint} conference trade show 2027 United States dates`), { n: 8 }) : [];
+  // Keyless search engines sometimes answer with unrelated pages (Bing "Microsoft home page"): keep only
+  // results that name the company (or, for the person search, the person).
+  const keep = (list, must = name) => list.filter((r) => r.url && (r.snippet || r.title) && mentions(`${r.title} ${r.snippet} ${r.url}`, must));
+  const events = industryHint ? (await Promise.all([
+    webSearch(env, q(`${industryHint} conference 2027 United States`), { n: 8 }),
+    webSearch(env, q(`${industryHint} trade show 2027 USA dates`), { n: 8 }),
+  ])).flat().filter((r, i, a) => r.url && /20(26|27)/.test(`${r.title} ${r.snippet}`) && a.findIndex((x) => x.url === r.url) === i) : [];
   const r = {
     provider: searchProvider(env),
     about: keep(about).filter((x) => !own(x.url) || about.length < 3),
     news: keep(news),
-    person: keep(who),
-    events: keep(events),
+    person: keep(who, person || name),
+    events: events.slice(0, 10),
+    diagnostics: { gleif: entity ? 'found' : 'none', sec_form_d: formD ? 'found' : (formDErr || 'none') },
     social,
     grade: computeGrade(social),
     registry: [entity, formD].filter(Boolean),
@@ -268,6 +282,15 @@ export async function research(env, { company, person, role, domain, siteSocial 
   ].join('\n\n');
   r.facts = r.about.length + r.news.length + r.person.length + r.registry.length;
   return r;
+}
+
+// Does this text name the company / person? (first distinctive word of the name, accents ignored)
+export function mentions(text, name) {
+  const norm = (x) => String(x || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  const words = norm(name).replace(/\b(inc|llc|ltd|gmbh|sa|sas|ag|bv|nv|corp|co|the|group|holdings?)\b\.?/g, ' ').split(/[^a-z0-9]+/).filter((w) => w.length >= 3);
+  if (!words.length) return true;
+  const t = norm(text);
+  return t.includes(words[0]) || (words[1] && words[1].length >= 5 && t.includes(words[1]));
 }
 
 // ---------- Number check ----------

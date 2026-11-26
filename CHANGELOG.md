@@ -1,3 +1,6 @@
+## 1.16.1 — 2026-11-26
+- Live engine test on Phytokana and Ansana: search results that do not name the company are dropped (keyless Bing returned Microsoft pages as "news"); snapshot rows split when the model collapses them; SEC Form D lookup retries with the first word and reports its status; 2 events searches (conference / trade show 2027) keeping only dated results; industry pulse = home market + US; research diagnostics in research_stats.
+
 ## 1.16.0 — 2026-11-26
 - Research engine rebuild after the Phytokana talking point (Nov 25, to Julien): no grade, no financials, no research, Gershon boilerplate as "Lead with this", invented "$100 million from 1,000 accounts" (Olivier: "Rebuild everything. Our structure is fundamental to follow. Grade and research are important.").
 - New research pass (functions/_research.js) before writing: web search on the company and the person, news of the last 12 months, social audit with follower counts per channel, GLEIF legal entity / parent (worldwide), SEC EDGAR Form D raises, US events search for the sector. Search uses Tavily or Brave when TAVILY_API_KEY / BRAVE_API_KEY is set, else keyless DuckDuckGo / Bing.
