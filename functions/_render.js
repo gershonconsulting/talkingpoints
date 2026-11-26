@@ -94,14 +94,6 @@ ${g.detail ? `<div style="font-size:13px;color:${C.body};line-height:1.6;">${fmt
     out.push(card(`${label('Snapshot')}<table cellpadding="0" cellspacing="0" border="0" style="width:100%;font-size:13px;color:${C.body};line-height:1.6;">${rows}</table>`));
   }
 
-  // 4. What you have in common (client version)
-  if (has(d.in_common)) {
-    const ic = d.in_common;
-    out.push(card(`${label('What you have in common', C.brand)}
-${has(ic.best_match) ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;">Best placed to reach out: ${esc(ic.best_match.name)}</div>${ic.best_match.reason ? `<div style="font-size:13px;color:${C.body};line-height:1.6;margin:-6px 0 12px;">${fmt(ic.best_match.reason)}</div>` : ''}` : ''}
-${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:8px;padding-left:14px;border-left:3px solid ${C.brand};">${fmt(t)}</div>`).join('')}`));
-  } else if (!off.has('in_common')) { out.push(gap('What you have in common', 'No overlap found yet between your team and this lead.')); d.gaps.push('in_common'); }
-
   // 5. Lead with this
   if (has(d.lead_with)) {
     out.push(card(`${label('Lead with this', C.brand)}${d.lead_with.map((p, i, a) =>
@@ -112,18 +104,34 @@ ${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-h
 
   // 6–9. Prose sections
   if (has(d.person)) out.push(card(`${label(`The person${d.person.name ? ` — ${d.person.name}` : ''}`)}${para(d.person.text)}`)); else if (!off.has('person')) { out.push(gap('The person', 'Nothing public found beyond the job title: check their LinkedIn profile before the call.')); d.gaps.push('person'); }
+  // 6b. What you have in common (client version) — after the person (v1.16.0, Ansana order)
+  if (has(d.in_common)) {
+    const ic = d.in_common;
+    out.push(card(`${label('What you have in common', C.brand)}
+${has(ic.best_match) ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;">Best placed to reach out: ${esc(ic.best_match.name)}</div>${ic.best_match.reason ? `<div style="font-size:13px;color:${C.body};line-height:1.6;margin:-6px 0 12px;">${fmt(ic.best_match.reason)}</div>` : ''}` : ''}
+${(ic.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:8px;padding-left:14px;border-left:3px solid ${C.brand};">${fmt(t)}</div>`).join('')}`));
+  } else if (!off.has('in_common')) { out.push(gap('What you have in common', 'No overlap found yet between your team and this lead.')); d.gaps.push('in_common'); }
+
   if (has(d.company)) out.push(card(`${label('The company')}${para(d.company.text)}`)); else if (!off.has('company')) { out.push(gap('The company', 'No company description found: check their website before the call.')); d.gaps.push('company'); }
   if (has(d.financials) && d.financials.text) out.push(card(`${label(`Financials & ownership${d.financials.country ? ` (${d.financials.country})` : ''}`)}${para(d.financials.text)}`)); else if (!off.has('financials')) { out.push(gap('Financials & ownership', 'No public financials found.')); d.gaps.push('financials'); }
   if (has(d.history)) out.push(card(`${label('Previous conversation')}${para(d.history.text)}`)); else if (!off.has('history')) { out.push(gap('Previous conversation', 'No previous conversation logged in Streak.')); d.gaps.push('history'); }
 
+  // v1.16.0: the research engine cannot read signed-in LinkedIn data. When none of the four LinkedIn
+  // sections has data, one line says so instead of four "not checked" cards.
+  const liKeys = ['network', 'posts', 'groups', 'events_attended'];
+  const liFold = d.engine === 'research-v2' && !has(d.posts) && !has(d.groups) && !has(d.events_attended) && !(has(d.network) && has(d.network.items));
+  if (liFold) {
+    const link = d.network?.link?.url ? `<div style="margin-top:10px;"><a href="${esc(d.network.link.url)}" target="_blank" rel="noopener" style="display:inline-block;background:${C.brand};color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:8px 14px;border-radius:8px;">${esc(d.network.link.label || 'Open the LinkedIn profile')}</a></div>` : '';
+    if (!liKeys.every((k) => off.has(k))) out.push(card(`${label('Network, posts & groups (LinkedIn)')}<div style="font-size:13px;color:${C.faint};line-height:1.6;font-style:italic;">Mutual connections, recent posts, groups and past events need a signed-in LinkedIn session — check them before the call.</div>${link}`));
+  }
   // 9b. Network in common
-  if (has(d.network)) {
+  if (liFold) { /* folded above */ } else if (has(d.network)) {
     out.push(card(`${label('Network in common', C.brand)}${d.network.summary ? `<div style="font-size:14px;font-weight:700;color:${C.ink};margin-bottom:10px;line-height:1.5;">${fmt(d.network.summary)}</div>` : ''}
 ${(d.network.items || []).map((t) => `<div style="font-size:13px;color:${C.body};line-height:1.6;margin-bottom:6px;">• ${fmt(t)}</div>`).join('')}${d.network.link?.url ? `<div style="margin-top:10px;"><a href="${esc(d.network.link.url)}" target="_blank" rel="noopener" style="display:inline-block;background:${C.brand};color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:8px 14px;border-radius:8px;">${esc(d.network.link.label || 'See your mutual connections on LinkedIn')}</a></div>` : ''}`));
   } else if (!off.has('network')) { out.push(gap('Network in common', 'Check your mutual connections on LinkedIn before reaching out.')); d.gaps.push('network'); }
 
   // 9c. What they posted
-  if (has(d.posts)) {
+  if (liFold) { /* folded */ } else if (has(d.posts)) {
     out.push(card(`${label('What they posted recently')}${d.posts.map((p, i, a) =>
       `<div style="${i < a.length - 1 ? `padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid ${C.line};` : ''}">
 <div style="font-size:11px;color:${C.muted};font-weight:700;letter-spacing:.4px;margin-bottom:4px;">${esc(p.when || '')}${p.where ? ` · ${esc(p.where)}` : ''}</div>
@@ -132,11 +140,11 @@ ${p.use ? `<div style="font-size:12px;color:${C.brand};margin-top:6px;line-heigh
   } else if (!off.has('posts')) { out.push(gap('What they posted recently', 'Recent posts not checked.')); d.gaps.push('posts'); }
 
   // 9d. Groups and events attended
-  if (has(d.groups)) {
+  if (liFold) { /* folded */ } else if (has(d.groups)) {
     out.push(card(`${label('LinkedIn groups')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.groups.map((g) =>
       `<strong>${esc(g.name)}</strong>${g.members ? ` <span style="color:${C.faint};">(${esc(g.members)} members)</span>` : ''}${g.note ? ` — ${fmt(g.note)}` : ''}`).join('<br>')}</div>`));
   } else if (!off.has('groups')) { out.push(gap('LinkedIn groups', 'LinkedIn groups not checked.')); d.gaps.push('groups'); }
-  if (has(d.events_attended)) {
+  if (liFold) { /* folded */ } else if (has(d.events_attended)) {
     out.push(card(`${label('Events they attended or spoke at')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events_attended.map((e) =>
       `<strong>${esc(e.name)}</strong>${e.when ? ` — ${esc(e.when)}` : ''}${e.role ? ` · <span style="color:${C.brand};font-weight:700;">${esc(e.role)}</span>` : ''}${e.note ? `<br><span style="color:${C.muted};">${fmt(e.note)}</span>` : ''}`).join('<br>')}</div>`));
   } else if (!off.has('events_attended')) { out.push(gap('Events they attended or spoke at', 'Past events not checked.')); d.gaps.push('events_attended'); }

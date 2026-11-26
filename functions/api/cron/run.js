@@ -34,7 +34,7 @@ export async function onRequestPost({ request, env }) {
 }
 
 // Cloudflare AI talking points built per hourly run (all clients together); the rest wait for the next hour.
-const AUTO_PER_RUN = 8;
+const AUTO_PER_RUN = 3;   // v1.16.0: each talking point now runs ~30 research requests
 
 // New York calendar day and hour, e.g. { day: '2026-10-29', hour: 7 }.
 function nyNow(ms = Date.now()) {

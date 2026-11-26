@@ -1,3 +1,15 @@
+## 1.16.0 — 2026-11-26
+- Research engine rebuild after the Phytokana talking point (Nov 25, to Julien): no grade, no financials, no research, Gershon boilerplate as "Lead with this", invented "$100 million from 1,000 accounts" (Olivier: "Rebuild everything. Our structure is fundamental to follow. Grade and research are important.").
+- New research pass (functions/_research.js) before writing: web search on the company and the person, news of the last 12 months, social audit with follower counts per channel, GLEIF legal entity / parent (worldwide), SEC EDGAR Form D raises, US events search for the sector. Search uses Tavily or Brave when TAVILY_API_KEY / BRAVE_API_KEY is set, else keyless DuckDuckGo / Bing.
+- Social Network Effectiveness Grade always present, computed from the follower counts on the published scale (provisional * when counts could not be read). Never "Not rated".
+- New writer (functions/_engine.js): strongest Workers AI model first (gpt-oss-120b, then Llama 4 Scout, then Llama 3.3 70B); Ansana structure (context alert, snapshot, 3 prospect-specific angles, person, company, financials + registries, previous conversation as said / proposed / open items, social table with counts, industry pulse, 7-9 questions, dated US events, needs your attention, real sources with URLs).
+- Number check: any sentence with a figure not found in the research, website, Streak or knowledge base is removed and listed under Needs your attention. Generic angles that do not name a fact about the prospect are dropped.
+- Quality gate (held for Olivier, never sent): grade, 3 prospect-specific angles, 6+ questions, outside research (3+ facts), 2+ US events, industry pulse, person, website, ICP verdict.
+- Format: "What you have in common" moves after the person (Ansana order); the four signed-in LinkedIn sections fold into one line when empty.
+- Automatic sends stay paused (AUTO_SEND_PAUSED, PR #43) until Olivier approves the new output. Builds per hourly run: 3 (was 8).
+- POST /api/cron/engine-test + .github/workflows/engine-test.yml: build talking points for real leads without saving or sending (optional test email to Olivier only).
+- Tests: test/research_engine.test.mjs (36 tests total).
+
 ## 1.15.0 — 2026-11-23
 - Engine fix after the AbelZeta brief (Meteor Biotech) went out off-format (Olivier: "OK fix engine").
 - Lead website: found from the Streak website field, every contact's work email, emails/links in the Streak conversation (never the client's or Gershon's own), then the company name as a .com, kept only if the page names the company. No more "Website: AbelZeta".

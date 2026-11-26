@@ -9,7 +9,9 @@ import { loadLead, clientStreakKey } from './_lib.js';
 import { saveBrief, samePipeline, recipients } from './_brief.js';
 import { lookupFinancials } from './_financials.js';
 import { getTemplate } from './_template.js';
-import { parseInput, readWebsite, buildQuickBrief } from './_quick.js';
+import { parseInput, readWebsite } from './_quick.js';
+import { research } from './_research.js';
+import { aiJson, prompt, SYSTEM, assemble, textOf } from './_engine.js';
 
 export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {}) {
   const lead = await loadLead(await clientStreakKey(env, clientRow.id), boxKey);
@@ -17,47 +19,47 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
   if (!samePipeline(lead.pipelineKey, clientRow.pipeline_key)) throw new Error(`wrong_client: ${boxKey} not in ${clientRow.slug}'s pipeline`);
 
   const { target, site, how } = await resolveWebsite(env, lead, clientRow);
-  const financials = await lookupFinancials(env, lead).catch(() => null);
   const tpl = await getTemplate(env, clientRow.id);
   const team = (await env.DB.prepare('SELECT name, title, background FROM members WHERE client_id = ? AND is_admin = 0').bind(clientRow.id).all()).results;
   const clientName = clientRow.name.replace(/^#\d+\s*/, '').replace(/\s*\([^)]*\)\s*$/, '');
+  const domain = site.ok ? target.domain : '';
 
-  const data = await buildQuickBrief(env, {
-    target,
-    site, clientName, company: tpl.company, icp: tpl.icp, team, lead, financials,
-  });
+  // v1.16.0: real research before writing (functions/_research.js) — web, news, person, social audit,
+  // registries (GLEIF, SEC Form D) and US events of the sector.
+  const industryHint = await industryOf(env, lead, site);
+  const [financials, found] = await Promise.all([
+    lookupFinancials(env, lead).catch(() => null),
+    research(env, { company: lead.company, person: lead.leadName, role: lead.leadRole, domain, siteSocial: site.social || [], industryHint }),
+  ]);
+
+  const p = prompt({ clientName, company: tpl.company, icp: tpl.icp, team, lead, site, research: found, financialsText: [financials?.text, ...found.registry.map((r) => r.text)].filter(Boolean).join('\n'), domain });
+  const { json: ai, model, errors } = await aiJson(env, SYSTEM, p);
+  const corpusAll = [p, financials?.text || ''].join('\n');
+  const data = assemble({ ai, research: found, lead, site, domain, clientName, financials, corpusAll, how, kb: `${tpl.company || ''}\n${tpl.icp || ''}`, model });
 
   const date = new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/New_York' });
   data.auto = true;
-  data.header = {
-    ...data.header,
-    company: lead.company || data.header.company,
-    person: lead.leadName || data.header.person,
-    role: lead.leadRole || data.header.role,
-    when: `New lead · ${date}`,
-    chips: [{ label: (lead.stage || 'New lead').toUpperCase(), tone: 'brand' }, ...data.header.chips.filter((c) => /^ICP/.test(c.label))],
-  };
-  if (financials) data.financials = { country: financials.country, text: financials.text };
-  if (!data.history && lead.notes) data.history = { text: lead.notes };
+  data.engine = 'research-v2';
+  data.header.when = `New lead · ${date}`;
   if (lead.linkedin) data.network = { summary: 'Check your mutual connections before reaching out.', items: [], link: { url: lead.linkedin, label: `Open ${lead.leadName || 'the lead'}'s LinkedIn profile` } };
   data.site_read = !!site.ok;
   data.website_from = how;
+  if (errors?.length && !model) data.attention.unshift({ title: 'AI engine failed', text: errors.join(' | ').slice(0, 300) });
   data.quality = briefQuality(data);
-  data.attention = (data.attention || []).filter((a) => a.title !== 'Quick talking point');
-  data.sources = [
-    { used: true, text: lead.conversation ? 'Streak: campaign pipeline record and conversation' : 'Streak: campaign pipeline record' },
-    { used: !!tpl.company, text: `${clientName}: knowledge base (company, offer, proof points) and ICP` },
-    ...(how ? [{ used: true, text: `Lead website found from: ${how}` }] : []),
-    ...data.sources.filter((s) => !/^LinkedIn, Streak/.test(s.text)),
-    { used: !!financials, text: financials ? `${financials.source}: company registry` : 'Company registry: no public financials found' },
-  ];
   data.footer = `Gershon Consulting · Talking Points · prepared ${date}`;
 
   const row = { company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage };
   if (!save) return { box_key: boxKey, ...row, status: 'test', data };   // test run: nothing written to D1
-  return saveBrief(env, clientRow.id, boxKey, {
-    company: lead.company, lead_name: lead.leadName, lead_role: lead.leadRole, stage: lead.stage, status: 'ready', data,
-  });
+  return saveBrief(env, clientRow.id, boxKey, { ...row, status: 'ready', data });
+}
+
+// Short sector label for the US-events search ("plant-based protein ingredients", "surgical instrument tracking").
+async function industryOf(env, lead, site) {
+  const text = `${lead.company}\n${String(site.text || '').slice(0, 2500)}\n${String(lead.notes || '').slice(0, 800)}`;
+  try {
+    const out = await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', { messages: [{ role: 'user', content: `In 3 to 6 words, the industry / product sector of this company, as used to name trade shows. Answer with the words only.\n\n${text}` }], max_tokens: 30, temperature: 0 });
+    return textOf(out).replace(/["\n.]/g, ' ').trim().slice(0, 80);
+  } catch { return ''; }
 }
 
 // ---------- Finding the lead company's website (2026-11-23) ----------
@@ -108,20 +110,26 @@ async function resolveWebsite(env, lead, clientRow) {
   return { target: { kind: 'website', domain: 'not found', url: '' }, site: { ok: false, pages: [], social: [], text: '' }, how: '' };
 }
 
-// Minimum content before a talking point may go out automatically (Olivier, 2026-11-20: "too light, not
-// enough information to make the email worth it"). A brief that fails is not sent by the runs (_weekly.js).
+// Minimum content before a talking point may go out automatically (Olivier, 2026-11-20: "too light";
+// 2026-11-26: "Our structure is fundamental to follow. Grade and research are important."). A brief that
+// fails is held for Olivier, never sent to the client team (emailBrief in _brief.js).
 export function briefQuality(d = {}) {
   const missing = [];
-  if ((d.lead_with || []).length < 3) missing.push('lead with this (3 angles)');
-  if ((d.talking_points || []).length < 5) missing.push('talking points (5+)');
+  if ((d.lead_with || []).length < 3) missing.push('lead with this (3 prospect-specific angles)');
+  if ((d.talking_points || []).length < (d.auto ? 6 : 5)) missing.push(`talking points (${d.auto ? 6 : 5}+)`);
   if (!d.company?.text) missing.push('the company');
   if (!(d.snapshot || []).length) missing.push('snapshot');
   if (!(d.hooks || []).length) missing.push('worth using in the call');
-  // 2026-11-23 (AbelZeta): a brief built without the lead's website or without an ICP verdict is a
-  // skeleton — it goes to Olivier for review, never to the client team.
   if (d.auto && d.site_read === false) missing.push("the lead company's website");
   const fit = (d.header?.chips || []).find((c) => /^ICP/.test(c.label));
   if (d.auto && (!fit || /UNKNOWN/i.test(fit.label))) missing.push('ICP fit verdict');
   if (d.auto && !(d.person?.text && d.person.text.trim() !== (d.header?.role || '').trim() && d.person.text.length > 60)) missing.push('the person (more than a job title)');
+  // v1.16.0 engine: grade, real outside research and dated events are required.
+  if (d.engine === 'research-v2') {
+    if (!d.grade?.letter) missing.push('social network grade');
+    if ((d.research_stats?.facts || 0) < 3) missing.push('outside research (web, news, registries)');
+    if ((d.events || []).length < 2) missing.push('next US events (2+)');
+    if (!(d.industry || []).length) missing.push('industry pulse');
+  }
   return { ok: missing.length === 0, missing };
 }
