@@ -20,6 +20,9 @@ export const json = (data, status = 200, headers = {}) =>
 export const redirect = (location, headers = {}) =>
   new Response(null, { status: 302, headers: { location, ...headers } });
 
+import { internalSender } from './_sender.js';
+export { internalSender, isGershonAddress, isInternalOnly } from './_sender.js';
+
 const enc = new TextEncoder();
 
 export function randomToken(bytes = 32) {
@@ -179,7 +182,7 @@ export async function loadLead(key, boxKey) {
   let contact = null;
   const contacts = [];
   // Every contact on the box (max 3): the first is the lead; the others' work emails can still point
-  // to the company website when the lead's own address is personal or missing (2026-11-23, AbelZeta).
+  // to the company website when the lead's own address is personal or missing (2026-11-23).
   for (const c of (box.contacts || []).slice(0, 3)) {
     if (!c?.key) continue;
     try { contacts.push(await streak(key, `/v2/contacts/${c.key}`)); } catch { /* optional */ }
@@ -303,14 +306,16 @@ Return ONLY JSON:
 }
 
 // App version (semver), bumped with every change; also sent as the User-Agent.
-export const VERSION = '1.17.1';
+export const VERSION = '1.17.2';
 
 // Email goes out through Resend. With our own RESEND_API_KEY we call Resend directly; without
 // it, the email is queued in D1 and social.gershon.ai sends it with its Resend key (the relay
 // reads the queued email back once via GET /api/outbox/:id), so no key is ever copied.
 // `from`: brief emails pass the sender chosen by _audience.js ("GC Talking Points" for all-Gershon
 // recipients, "Gershon Consulting" otherwise); the default is the client-facing one.
+// v1.17.2: internal-only mail gets the "GC Talking Points" name (functions/_sender.js internalSender).
 export async function sendEmail(env, { to, subject, html, text, reply_to = 'olivier@gershonconsulting.com', from = 'Gershon Consulting <talkingpoints@gershon.ai>', idempotencyKey }) {
+  from = internalSender(from, to);
   if (env.RESEND_API_KEY) {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
