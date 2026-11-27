@@ -200,9 +200,9 @@ ${d.social.rows.map((r) => `<tr><td style="padding:8px;border-bottom:1px solid $
 
   // 13. Events
   if (has(d.events)) {
-    out.push(card(`${label('Next important US events')}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events.map((e) =>
+    out.push(card(`${label(`Next important ${d.events_market || 'US'} events`)}<div style="font-size:13px;color:${C.body};line-height:1.8;">${d.events.map((e) =>
       `<strong>${esc(e.name)}</strong>${e.when_where ? ` — ${esc(e.when_where)}` : ''}${e.best ? ` · <span style="color:${C.brand};font-weight:700;">best fit</span>` : ''}${e.note ? ` ${fmt(e.note)}` : ''}`).join('<br>')}</div>`));
-  } else if (!off.has('events')) { out.push(gap('Next important US events', 'No US event identified yet.')); d.gaps.push('events'); }
+  } else if (!off.has('events')) { out.push(gap(`Next important ${d.events_market || 'US'} events`, `No ${d.events_market || 'US'} event identified yet.`)); d.gaps.push('events'); }
 
   // 14. Needs your attention
   if (has(d.attention)) {
@@ -235,7 +235,7 @@ export function renderBriefText(d = {}) {
   if (d.history?.text) lines.push('', 'PREVIOUS CONVERSATION', d.history.text);
   if (d.hooks?.length) lines.push('', 'WORTH USING IN THE CALL', ...d.hooks.map((t) => `- ${t}`));
   if (d.talking_points?.length) lines.push('', 'KEY QUESTIONS', ...d.talking_points.map((t) => `- ${t}`));
-  if (d.events?.length) lines.push('', 'NEXT IMPORTANT US EVENTS', ...d.events.map((e) => `- ${e.name}${e.when_where ? ` — ${e.when_where}` : ''}`));
+  if (d.events?.length) lines.push('', `NEXT IMPORTANT ${(d.events_market || 'US').toUpperCase()} EVENTS`, ...d.events.map((e) => `- ${e.name}${e.when_where ? ` — ${e.when_where}` : ''}`));
   if (d.attention?.length) lines.push('', 'NEEDS YOUR ATTENTION', ...d.attention.map((a, i) => `${i + 1}. ${a.title} ${a.text || ''}`));
   return lines.join('\n').replace(/\*\*|(^|\s)_|_(\s|$)/g, '$1$2');
 }

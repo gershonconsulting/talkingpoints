@@ -10,7 +10,7 @@ import { saveBrief, samePipeline, recipients } from './_brief.js';
 import { lookupFinancials } from './_financials.js';
 import { getTemplate } from './_template.js';
 import { parseInput, readWebsite } from './_quick.js';
-import { research, webSearch } from './_research.js';
+import { research, webSearch, targetMarket } from './_research.js';
 import { aiJson, prompt, SYSTEM, assemble, textOf } from './_engine.js';
 import { namesCompany, searchOfficialSite, identityCheck } from './_website.js';
 
@@ -28,9 +28,10 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
   // v1.16.0: real research before writing (functions/_research.js) — web, news, person, social audit,
   // registries (GLEIF, SEC Form D) and US events of the sector.
   const industryHint = await industryOf(env, lead, site);
+  const market = targetMarket(tpl.icp);
   const [financials, found] = await Promise.all([
     lookupFinancials(env, lead).catch(() => null),
-    research(env, { company: lead.company, person: lead.leadName, role: lead.leadRole, domain, siteSocial: site.social || [], industryHint }),
+    research(env, { company: lead.company, person: lead.leadName, role: lead.leadRole, domain, siteSocial: site.social || [], industryHint, market }),
   ]);
 
   const p = prompt({ clientName, company: tpl.company, icp: tpl.icp, team, lead, site, research: found, financialsText: [financials?.text, ...found.registry.map((r) => r.text)].filter(Boolean).join('\n'), domain });
@@ -40,6 +41,7 @@ export async function buildAutoBrief(env, clientRow, boxKey, { save = true } = {
 
   const date = new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/New_York' });
   data.auto = true;
+  data.events_market = market.name;
   data.engine = 'research-v2';
   data.header.when = `New lead · ${date}`;
   if (lead.linkedin) data.network = { summary: 'Check your mutual connections before reaching out.', items: [], link: { url: lead.linkedin, label: `Open ${lead.leadName || 'the lead'}'s LinkedIn profile` } };
@@ -138,7 +140,7 @@ export function briefQuality(d = {}) {
   if (d.engine === 'research-v2') {
     if (!d.grade?.letter) missing.push('social network grade');
     if ((d.research_stats?.facts || 0) < 3) missing.push('outside research (web, news, registries)');
-    if ((d.events || []).length < 2) missing.push('next US events (2+)');
+    if ((d.events || []).length < 2) missing.push(`next ${d.events_market || 'US'} events (2+)`);
     if (!(d.industry || []).length) missing.push('industry pulse');
   }
   return { ok: missing.length === 0, missing };

@@ -240,7 +240,16 @@ export async function secFormD(company) {
 
 // ---------- The whole pass ----------
 // Runs the searches in parallel; returns facts with sources and one text corpus for the AI.
-export async function research(env, { company, person, role, domain, siteSocial = [], industryHint = '' }) {
+// Market where the client sells (2026-11-26, Altavia / Kawartha Dairy got US shows for an Ontario dairy):
+// events and the events search follow the client's ICP geography, not always the US.
+export function targetMarket(icp = '') {
+  const t = String(icp);
+  const ca = (t.match(/\bcanad(a|ian)\b/gi) || []).length;
+  const us = (t.match(/\b(united states|u\.s\.a?|usa|us market|american)\b/gi) || []).length;
+  return ca > 0 && ca >= us ? { name: 'Canada', where: 'Canada', short: 'Canadian' } : { name: 'US', where: 'United States', short: 'US' };
+}
+
+export async function research(env, { company, person, role, domain, siteSocial = [], industryHint = '', market = targetMarket('') }) {
   const q = (s) => s.replace(/\s+/g, ' ').trim();
   const name = String(company || '').split(/\s+[-–—|(]/)[0].trim();
   let formDErr = '';
@@ -257,10 +266,11 @@ export async function research(env, { company, person, role, domain, siteSocial 
   // results that name the company (or, for the person search, the person).
   const keep = (list, must = name) => list.filter((r) => r.url && (r.snippet || r.title) && mentions(`${r.title} ${r.snippet} ${r.url}`, must));
   const events = industryHint ? (await Promise.all([
-    webSearch(env, q(`${industryHint} conference 2027 United States`), { n: 8 }),
-    webSearch(env, q(`${industryHint} trade show 2027 USA dates`), { n: 8 }),
+    webSearch(env, q(`${industryHint} conference 2027 ${market.where}`), { n: 8 }),
+    webSearch(env, q(`${industryHint} trade show 2027 ${market.where} dates`), { n: 8 }),
   ])).flat().filter((r, i, a) => r.url && /20(27|28)|2026/.test(`${r.title} ${r.snippet}`) && /conference|expo|summit|congress|trade show|annual meeting|convention/i.test(`${r.title} ${r.snippet}`) && a.findIndex((x) => x.url === r.url) === i) : [];
   const r = {
+    market: market.name,
     provider: searchProvider(env),
     about: keep(about).filter((x) => !own(x.url) || about.length < 3),
     news: keep(news),
@@ -278,7 +288,7 @@ export async function research(env, { company, person, role, domain, siteSocial 
     block('WEB RESULTS ABOUT THE PERSON', r.person),
     `SOCIAL CHANNELS\n${social.length ? social.map((s) => `${s.channel}: ${s.url} — ${Number.isFinite(s.audience) ? `${s.audience} ${WORD[s.channel] === 'subscribers' ? 'subscribers' : 'followers'}` : 'audience not readable'}`).join('\n') : '(none found)'}`,
     `REGISTRIES\n${r.registry.length ? r.registry.map((x) => `${x.source}: ${x.text}`).join('\n') : '(nothing found)'}`,
-    block('US EVENTS SEARCH (use only events listed here, with the dates shown)', r.events),
+    block(`${market.name.toUpperCase()} EVENTS SEARCH (use only events listed here, with the dates shown)`, r.events),
   ].join('\n\n');
   r.facts = r.about.length + r.news.length + r.person.length + r.registry.length;
   return r;

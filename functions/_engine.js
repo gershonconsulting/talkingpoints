@@ -86,6 +86,7 @@ export function prospectSpecific(text, prospectCorpus, clientKb) {
 }
 
 export function prompt({ clientName, company, icp, team, lead, site, research, financialsText, domain }) {
+  const M = research?.market || 'US', MW = M === 'US' ? 'the US' : M;
   const teamText = team.map((m) => `- ${m.name || 'team member'} (${m.title || ''}): ${m.background || 'no background on file'}`).join('\n') || '(none on file)';
   return `PROSPECT: ${lead.company} — ${lead.leadName || 'unknown person'}${lead.leadRole ? `, ${lead.leadRole}` : ''}${lead.leadEmail ? ` <${lead.leadEmail}>` : ''}
 WEBSITE: ${domain || 'not found'}
@@ -129,7 +130,7 @@ Write the talking-points brief ${clientName}'s team reads before calling this pr
  "hooks":["<a concrete fact worth dropping into the call>"],
  "industry":[{"title":"<trend>","text":"<2 sentences: why it matters for THIS call — prospect's home market and the US>"}],
  "talking_points":["<question or point specific to this prospect>"],
- "events":[{"name":"<event>","when_where":"<dates and city exactly as in the US EVENTS SEARCH>","note":"<why it fits this prospect>","from_search":true}],
+ "events":[{"name":"<event>","when_where":"<dates and city exactly as in the ${M.toUpperCase()} EVENTS SEARCH>","note":"<why it fits this prospect>","from_search":true}],
  "attention":[{"title":"<CRM gap, missing data or risk>","text":"<what to do before the call>"}]}
 
 Rules:
@@ -137,9 +138,9 @@ Rules:
 2. Every number you write must appear in the material above. Never compute market sizes, ROI or revenue estimates.
 3. lead_with: exactly 3 angles, each built on a DIFFERENT fact about the prospect (a product, a raise, a market move, a hire, a statement in the conversation…). Do NOT restate ${clientName}'s generic proof points; mention them only as the answer to the prospect fact.
 4. talking_points: 7 to 9 items, each naming something specific to this prospect. No generic discovery questions.
-5. events: 2-4 US events relevant to the prospect's sector. Prefer the US EVENTS SEARCH (from_search true, its dates). If none fit, name only famous recurring US events you are certain exist (e.g. for food: IFT FIRST, Natural Products Expo West; for medtech: AAMI eXchange, AORN Global Surgical Conference), with usual month and city and from_search false. Omit a field (Founded, Size…) in the snapshot when unknown.
+5. events: 2-4 events IN ${MW} (where ${clientName} sells — never in another country) relevant to the prospect's sector. Prefer the ${M.toUpperCase()} EVENTS SEARCH (from_search true, its dates). If none fit, name only famous recurring ${M} events you are certain exist (${M === 'Canada' ? 'e.g. for food & grocery: Grocery & Specialty Food West (Vancouver), Grocery Innovations Canada (Toronto), SIAL Canada (Montréal/Toronto); for retail: Retail Council of Canada STORE (Toronto)' : 'e.g. for food: IFT FIRST, Natural Products Expo West; for medtech: AAMI eXchange, AORN Global Surgical Conference'}), with usual month and city and from_search false. Omit a field (Founded, Size…) in the snapshot when unknown.
 9. events must take place AFTER TODAY and be real industry conferences or trade shows (never a webinar, a payer program or an event already past).
-8. industry: exactly 2 trends — one in the prospect's home market, one in the US.
+8. industry: exactly 2 trends — one in the prospect's home market, one in ${MW}${M === 'US' ? '' : ' (or a second home-market trend when they are the same)'}.
 6. attention: list real gaps (missing priority/stage data, no reply since…, duplicate records, unreadable social audiences, facts to verify).
 10. ${ICP_RULE}
 7. Use **bold** for the key fact in a sentence. English.`;
